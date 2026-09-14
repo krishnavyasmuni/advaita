@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "checkpoints": [
     {
       "id": "canto-1-chapter-1-verses-1-15",
@@ -13,7 +13,25 @@
         "Vedabase English translation and synonyms match the pinned English mirror after normalizing Markdown escapes and line wrapping.",
         "The Śrīdhara source is kept in Devanāgarī and is parsed only from the Śrīdhara Svāmī (Bhāvārtha-dīpikā) sections.",
         "The 1949 scan is retained as an independent witness; its OCR is noisy, so the scan image takes precedence over OCR when a character-level question arises."
-      ]
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/1/1/advanced-view/#bb13539",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.1.1",
+        "1.1.2",
+        "1.1.3",
+        "1.1.4",
+        "1.1.5",
+        "1.1.6",
+        "1.1.7–1.1.8",
+        "1.1.9",
+        "1.1.10",
+        "1.1.11",
+        "1.1.12",
+        "1.1.13",
+        "1.1.14–1.1.16"
+      ],
+      "source_note": "The pinned Sanskrit file contains 13 Śrīdhara blocks covering the first 16 numbered verses; grouped blocks are rendered as grouped source readings and are not synthetically split."
     }
   ]
 }
