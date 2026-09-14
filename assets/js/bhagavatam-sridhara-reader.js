@@ -181,7 +181,7 @@
   function parseSridhara(markdown, targetCanto, targetChapter) {
     const entries = [];
     const markerPattern = /(?:^|\n)\s*\*{0,2}॥\s*([०-९]+)\s*\.\s*([०-९]+)\s*\.\s*([०-९]+)(?:\s*[-–—]\s*([०-९]+))?\s*॥\s*\*{0,2}/g;
-    const labelPattern = /\*{0,2}श्रीधर-स्वामी(?:\s*\([^*\n]+\))?\s*:\s*\*{0,2}/;
+    // The corpus uses both the older “श्रीधर-स्वामी” label and the abbreviated “श्रीधरः” label.\n    const labelPattern = /\*{0,2}श्रीधर(?:-स्वामी|ः)?(?:\s*,[^*\\n]+)?(?:\s*\([^*\\n]+\))?\s*[:：-]\s*\*{0,2}/;
     const markers = Array.from(String(markdown || '').matchAll(markerPattern));
 
     markers.forEach((marker, index) => {
@@ -201,7 +201,7 @@
       const stops = [
         commentary.search(/\n_{4,}/),
         commentary.search(/\n[-—]{12,}/),
-        commentary.search(/\n\s*\*{0,2}(?:वंशीधर|वशिधर|श्रीनाथ|सनातन|जीव-?गोस्वामी|विश्वनाथ|बलदेव|मध्वाचार्य)/
+        commentary.search(/\n\s*\*{0,2}(?:श्रीधर(?:-स्वामी|ः)?|वंशीधर|वशिधर|श्रीनाथ|सनातन|जीव-?गोस्वामी|विश्वनाथ|बलदेव|मध्वाचार्य)/
         )
       ].filter((value) => value >= 0);
       if (stops.length) commentary = commentary.slice(0, Math.min.apply(null, stops));
