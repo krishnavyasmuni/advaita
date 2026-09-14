@@ -71,7 +71,8 @@ const clean=()=>{
     if(!span)return;
     const note=noteByRef[ref];
     if(note===null){removePreviousBreak(span);return;}
-    span.innerHTML=`<em>Text note:</em> ${note}`;
+    const expected=`Text note: ${note}`;
+    if(span.textContent.trim()!==expected)span.innerHTML=`<em>Text note:</em> ${note}`;
   });
 };
 
