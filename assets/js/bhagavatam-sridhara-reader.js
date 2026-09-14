@@ -224,12 +224,32 @@
   }
 
   function appendLines(target, text, italic) {
-    const lines = String(text || '').split(/\n/);
+    const lines = String(text || '').split(/\n/).map((line) => line.trim()).filter(Boolean);
     lines.forEach((line, index) => {
       if (index) target.appendChild(document.createElement('br'));
       const node = italic ? document.createElement('em') : document.createElement('span');
       node.textContent = line;
       target.appendChild(node);
+    });
+  }
+
+  function appendSynonyms(target, text) {
+    const items = String(text || '')
+      .split(/\s*;\s*/)
+      .map((item) => item.trim())
+      .filter(Boolean);
+    items.forEach((item, index) => {
+      if (index) target.appendChild(document.createTextNode('; '));
+      const separator = item.search(/\s+[—–-]\s+/);
+      if (separator < 1) {
+        target.appendChild(document.createTextNode(item));
+        return;
+      }
+      const key = document.createElement('em');
+      key.className = 'sb-synonym-key';
+      key.textContent = item.slice(0, separator).trim();
+      const gloss = item.slice(separator).trim();
+      target.append(key, document.createTextNode(gloss));
     });
   }
 
@@ -248,7 +268,7 @@
       const content = document.createElement('div');
       content.className = 'sb-source-content';
       if (block.lang) content.lang = block.lang;
-      appendLines(content, block.text, Boolean(block.italic));
+      if (block.kind === 'synonyms') appendSynonyms(content, block.text);\n      else appendLines(content, block.text, Boolean(block.italic));
       wrapper.append(sourceLabel, content);
       details.appendChild(wrapper);
     });
@@ -317,19 +337,17 @@
 
     const verseTransliteration = entry.transliteration.join('\n');
     const sridharaSanskrit = sridharaForRange(sridharaEntries, entry.start, entry.end, chapter);
-    const sridharaTransliteration = sridharaSanskrit ? devanagariToIast(sridharaSanskrit) : '';
 
     const controls = document.createElement('div');
     controls.className = 'gita-controls';
     if (entry.synonyms) {
       controls.appendChild(makeDetails('Word-for-word', [
-        { label: 'Bhāgavatam word-for-word', text: entry.synonyms }
+        { label: 'Bhāgavatam', kind: 'synonyms', text: entry.synonyms }
       ], 'sb-word-details'));
     }
-    if (verseTransliteration || sridharaTransliteration) {
+    if (verseTransliteration) {
       controls.appendChild(makeDetails('Transliteration', [
-        { label: 'Bhāgavatam transliteration', text: verseTransliteration, lang: 'sa-Latn', italic: true },
-        { label: 'Śrīdhara transliteration', text: sridharaTransliteration, lang: 'sa-Latn', italic: true }
+        { label: 'Bhāgavatam', text: verseTransliteration, lang: 'sa-Latn', italic: true }
       ], 'sb-transliteration-details'));
     }
     if (sridharaSanskrit) {
@@ -339,15 +357,6 @@
     }
     section.append(heading, rule, devanagari, translation, controls);
 
-    const commentary = document.createElement('section');
-    commentary.className = 'gita-commentary';
-    const commentaryHeading = document.createElement('h3');
-    commentaryHeading.textContent = 'Śrīdhara’s Commentary.';
-    const commentaryText = document.createElement('p');
-    commentaryText.textContent = entry.sridharaEnglish ||
-      'The full Śrīdhara Svāmī passage is available above in Sanskrit. Its English rendering is being prepared from the pinned Sanskrit witness in the tracked 15-verse batches.';
-    commentary.append(commentaryHeading, commentaryText);
-    section.appendChild(commentary);
     return section;
   }
 
