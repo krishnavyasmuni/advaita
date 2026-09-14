@@ -178,6 +178,27 @@
     return { title: frontmatterTitle(markdown), entries };
   }
 
+  function parseEnglishCommentary(data, targetCanto, targetChapter) {
+    return Array.isArray(data && data.entries)
+      ? data.entries
+        .filter((entry) => Number(entry.canto) === targetCanto && Number(entry.chapter) === targetChapter)
+        .map((entry) => ({
+          start: Number(entry.start),
+          end: Number(entry.end),
+          text: String(entry.text || '').trim()
+        }))
+        .filter((entry) => entry.text)
+      : [];
+  }
+
+  function commentaryForRange(entries, start, end) {
+    return entries
+      .filter((entry) => entry.end >= start && entry.start <= end)
+      .map((entry) => entry.text)
+      .join('\n\n')
+      .trim();
+  }
+
   function parseSridhara(markdown, targetCanto, targetChapter) {
     const entries = [];
     const markerPattern = /(?:^|\n)\s*\*{0,2}॥\s*([०-९]+)\s*\.\s*([०-९]+)\s*\.\s*([०-९]+)(?:\s*[-–—]\s*([०-९]+))?\s*॥\s*\*{0,2}/g;
@@ -312,7 +333,7 @@
     });
   }
 
-  function renderVerse(chapter, entry, sridharaEntries) {
+  function renderVerse(chapter, entry, sridharaEntries, commentaryEntries) {
     const section = document.createElement('section');
     section.className = 'sb-verse-section gita-verse';
     const range = entry.start === entry.end ? String(entry.start) : entry.start + '–' + entry.end;
@@ -357,6 +378,18 @@
       ], 'sb-bhasya'));
     }
     section.append(heading, rule, devanagari, translation, controls);
+
+    const commentaryText = commentaryForRange(commentaryEntries, entry.start, entry.end);
+    if (commentaryText) {
+      const commentary = document.createElement('section');
+      commentary.className = 'gita-commentary';
+      const commentaryHeading = document.createElement('h3');
+      commentaryHeading.textContent = 'Śrīdhara’s Commentary.';
+      const commentaryBody = document.createElement('p');
+      commentaryBody.textContent = commentaryText;
+      commentary.append(commentaryHeading, commentaryBody);
+      section.appendChild(commentary);
+    }
 
     return section;
   }
@@ -406,6 +439,12 @@
     );
   }
 
+  function commentaryUrl(manifest) {
+    const path = manifest.english_commentary && manifest.english_commentary.path;
+    if (!path) return '';
+    return path.charAt(0) === '/' ? path : '/vivekadrishti/' + path;
+  }
+
   async function loadChapter(manifest, config, chapter) {
     const shell = document.createElement('section');
     shell.className = 'sb-chapter-shell';
@@ -428,23 +467,30 @@
     try {
       const englishUrl = chapterEnglishUrl(manifest, config, chapter);
       const sridharaUrl = chapterSridharaUrl(manifest, config, chapter);
+      const commentaryUrlValue = commentaryUrl(manifest);
       const requests = [fetchText(englishUrl)];
       if (sridharaUrl) {
         requests.push(config.sridhara_mode === 'local-cached' ? fetchJson(sridharaUrl) : fetchText(sridharaUrl));
       }
+      if (commentaryUrlValue) requests.push(fetchJson(commentaryUrlValue));
       const results = await Promise.all(requests);
       const english = parseEnglish(results[0]);
+      const sridharaResult = sridharaUrl ? results[1] : null;
+      const commentaryResult = commentaryUrlValue ? results[sridharaUrl ? 2 : 1] : null;
       const sridharaEntries = sridharaUrl
         ? (config.sridhara_mode === 'local-cached'
-          ? parseLocalSridhara(results[1])
-          : parseSridhara(results[1], canto, chapter))
+          ? parseLocalSridhara(sridharaResult)
+          : parseSridhara(sridharaResult, canto, chapter))
+        : [];
+      const commentaryEntries = commentaryResult
+        ? parseEnglishCommentary(commentaryResult, canto, chapter)
         : [];
       if (!english.entries.length) throw new Error('No verse records found in the English source file.');
 
       loading.remove();
       populateContents(contentsList, english.entries, chapter);
       if (titleNode) titleNode.textContent = english.title || 'Chapter ' + chapter;
-      english.entries.forEach((entry) => shell.appendChild(renderVerse(chapter, entry, sridharaEntries)));
+      english.entries.forEach((entry) => shell.appendChild(renderVerse(chapter, entry, sridharaEntries, commentaryEntries)));
       const annotated = english.entries.filter((entry) => sridharaForRange(sridharaEntries, entry.start, entry.end, chapter)).length;
       const sourceMessage = annotated + ' of ' + english.entries.length + ' displayed verse records have Śrīdhara text.';
       setStatus('Canto ' + canto + ', Chapter ' + chapter + ' loaded · ' + sourceMessage);
