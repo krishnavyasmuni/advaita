@@ -228,7 +228,7 @@
       ].filter((value) => value >= 0);
       if (stops.length) commentary = commentary.slice(0, Math.min.apply(null, stops));
       const text = cleanBlock(commentary);
-      if (text) entries.push({ start, end, text, sourceAvailable: true });
+      if (text && !/^\\+\\s*$/.test(text)) entries.push({ start, end, text, sourceAvailable: true });
     });
     return entries;
   }
@@ -442,7 +442,7 @@
   function commentaryUrl(manifest) {
     const path = (manifest.english_commentary && manifest.english_commentary.path) ||
       'assets/data/bhagavatam-sridhara-english-checkpoints.json';
-    const versionedPath = path + (path.includes('?') ? '&' : '?') + 'v=20260914-9';
+    const versionedPath = path + (path.includes('?') ? '&' : '?') + 'v=20260914-10';
     return versionedPath.charAt(0) === '/' ? versionedPath : '/vivekadrishti/' + versionedPath;
   }
 
