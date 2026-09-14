@@ -4,7 +4,7 @@
     {
       "id": "canto-1-chapter-1-verses-1-15",
       "range": "ŚB 1.1.1–1.1.15",
-      "status": "source-checked",
+      "status": "source-checked-and-live",
       "english_source": "https://vedabase.io/en/library/sb/1/1/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -31,7 +31,42 @@
         "1.1.13",
         "1.1.14–1.1.16"
       ],
-      "source_note": "The pinned Sanskrit file contains 13 Śrīdhara blocks covering the first 16 numbered verses; grouped blocks are rendered as grouped source readings and are not synthetically split."
+      "source_note": "The pinned Sanskrit file contains 13 Śrīdhara blocks covering the first 16 numbered verses; grouped blocks are rendered as grouped source readings and are not synthetically split.",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/#chapter-1",
+        "displayed_records": 23,
+        "sridhara_records_with_text": 23
+      }
+    },
+    {
+      "id": "canto-1-chapter-1-verses-16-23",
+      "range": "ŚB 1.1.16–1.1.23",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/1/advanced-view/#bb13539",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 8,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.1.14–1.1.16",
+        "1.1.17",
+        "1.1.18",
+        "1.1.19",
+        "1.1.20",
+        "1.1.21",
+        "1.1.22",
+        "1.1.23"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms match the pinned English mirror for all 8 records after normalizing Markdown escapes and line wrapping.",
+        "The pinned source preserves the Śrīdhara blocks in Devanāgarī; the 1.1.14–1.1.16 block remains grouped in the reader.",
+        "The 1949 scan remains an independent witness for wording and sequence; its OCR is noisy and is not used as an automatic replacement."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/#chapter-1",
+        "displayed_records": 23,
+        "verified_range": "1.1.16–1.1.23"
+      }
     }
   ]
 }
