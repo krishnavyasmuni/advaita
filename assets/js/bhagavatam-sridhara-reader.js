@@ -235,13 +235,13 @@
 
   function makeDetails(label, blocks, className) {
     const details = document.createElement('details');
-    details.className = ('sb-details ' + (className || '')).trim();
+    details.className = ('sb-details gita-details ' + (className || '')).trim();
     const summary = document.createElement('summary');
     summary.textContent = label;
     details.appendChild(summary);
     blocks.filter((block) => block && block.text).forEach((block) => {
       const wrapper = document.createElement('div');
-      wrapper.className = 'sb-source-block';
+      wrapper.className = 'sb-source-block gita-reveal';
       const sourceLabel = document.createElement('strong');
       sourceLabel.className = 'sb-source-label';
       sourceLabel.textContent = block.label;
@@ -268,51 +268,86 @@
       .trim();
   }
 
+  function verseId(chapter, entry) {
+    return 'sb-' + canto + '-' + chapter + '-' + entry.start +
+      (entry.end !== entry.start ? '-' + entry.end : '');
+  }
+
+  function populateContents(list, entries, chapter) {
+    if (!list) return;
+    list.replaceChildren();
+    entries.forEach((entry) => {
+      const li = document.createElement('li');
+      const link = document.createElement('a');
+      const range = entry.start === entry.end
+        ? String(entry.start)
+        : entry.start + '–' + entry.end;
+      link.href = '#' + verseId(chapter, entry);
+      link.textContent = entry.start === entry.end
+        ? 'Verse ' + range
+        : 'Verses ' + range;
+      li.appendChild(link);
+      list.appendChild(li);
+    });
+  }
+
   function renderVerse(chapter, entry, sridharaEntries) {
     const section = document.createElement('section');
-    section.className = 'sb-verse-section';
+    section.className = 'sb-verse-section gita-verse';
     const range = entry.start === entry.end ? String(entry.start) : entry.start + '–' + entry.end;
-    const id = 'sb-' + canto + '-' + chapter + '-' + entry.start + (entry.end !== entry.start ? '-' + entry.end : '');
+    const id = verseId(chapter, entry);
     section.id = id;
     section.setAttribute('aria-labelledby', id + '-heading');
 
-    const heading = document.createElement('h3');
+    const heading = document.createElement('h2');
     heading.className = 'sb-verse';
     heading.id = id + '-heading';
     heading.textContent = 'ŚB ' + canto + '.' + chapter + '.' + range;
     const rule = document.createElement('hr');
-    rule.className = 'sb-rule';
+    rule.className = 'sb-rule gita-verse-rule';
 
     const devanagari = document.createElement('div');
-    devanagari.className = 'sb-devanagari';
+    devanagari.className = 'sb-devanagari gita-sanskrit';
     devanagari.lang = 'sa-Deva';
     appendLines(devanagari, entry.devanagari.join('\n'), false);
 
     const translation = document.createElement('p');
-    translation.className = 'sb-translation';
+    translation.className = 'sb-translation gita-translation';
     translation.textContent = entry.translation || 'Translation not present in the source record.';
 
     const verseTransliteration = entry.transliteration.join('\n');
     const sridharaSanskrit = sridharaForRange(sridharaEntries, entry.start, entry.end, chapter);
     const sridharaTransliteration = sridharaSanskrit ? devanagariToIast(sridharaSanskrit) : '';
 
-    section.append(heading, rule, devanagari, translation);
+    const controls = document.createElement('div');
+    controls.className = 'gita-controls';
     if (entry.synonyms) {
-      section.appendChild(makeDetails('Word-for-word', [
+      controls.appendChild(makeDetails('Word-for-word', [
         { label: 'Bhāgavatam word-for-word', text: entry.synonyms }
       ], 'sb-word-details'));
     }
     if (verseTransliteration || sridharaTransliteration) {
-      section.appendChild(makeDetails('Transliteration', [
+      controls.appendChild(makeDetails('Transliteration', [
         { label: 'Bhāgavatam transliteration', text: verseTransliteration, lang: 'sa-Latn', italic: true },
         { label: 'Śrīdhara transliteration', text: sridharaTransliteration, lang: 'sa-Latn', italic: true }
       ], 'sb-transliteration-details'));
     }
     if (sridharaSanskrit) {
-      section.appendChild(makeDetails('Śrīdhara Sanskrit', [
+      controls.appendChild(makeDetails('Śrīdhara Sanskrit', [
         { label: 'Śrīdhara Svāmī — Bhāvārtha-dīpikā', text: sridharaSanskrit, lang: 'sa-Deva' }
       ], 'sb-bhasya'));
     }
+    section.append(heading, rule, devanagari, translation, controls);
+
+    const commentary = document.createElement('section');
+    commentary.className = 'gita-commentary';
+    const commentaryHeading = document.createElement('h3');
+    commentaryHeading.textContent = 'Śrīdhara’s Commentary.';
+    const commentaryText = document.createElement('p');
+    commentaryText.textContent = entry.sridharaEnglish ||
+      'The full Śrīdhara Svāmī passage is available above in Sanskrit. Its English rendering is being prepared from the pinned Sanskrit witness in the tracked 15-verse batches.';
+    commentary.append(commentaryHeading, commentaryText);
+    section.appendChild(commentary);
     return section;
   }
 
@@ -324,14 +359,17 @@
 
   function buildChapterNav(config) {
     if (!chapterNav) return;
+    chapterNav.className = 'gita-chapter-nav bhagavatam-chapter-nav';
     chapterNav.replaceChildren();
-    for (let chapter = 1; chapter <= config.chapter_count; chapter += 1) {
+    const add = (label, href) => {
       const link = document.createElement('a');
-      link.href = '#chapter-' + chapter;
-      link.textContent = canto + '.' + chapter;
-      link.title = 'Canto ' + canto + ', Chapter ' + chapter;
+      link.href = href;
+      link.textContent = label;
       chapterNav.appendChild(link);
-    }
+    };
+    add('All chapters', '/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/');
+    if (selectedChapter(config) > 1) add('Previous', '#chapter-' + (selectedChapter(config) - 1));
+    if (selectedChapter(config) < config.chapter_count) add('Next', '#chapter-' + (selectedChapter(config) + 1));
   }
 
   function chapterEnglishPath(config, chapter) {
@@ -361,15 +399,18 @@
   async function loadChapter(manifest, config, chapter) {
     const shell = document.createElement('section');
     shell.className = 'sb-chapter-shell';
+    shell.id = 'chapter-' + chapter;
     shell.dataset.chapter = String(chapter);
-    const heading = document.createElement('h2');
-    heading.className = 'sb-chapter';
-    heading.id = 'chapter-' + chapter;
-    heading.textContent = canto + '.' + chapter;
+    const contents = document.createElement('div');
+    contents.className = 'gita-contents sb-contents';
+    const contentsHeading = document.createElement('h2');
+    contentsHeading.textContent = 'Contents';
+    const contentsList = document.createElement('ol');
+    contents.append(contentsHeading, contentsList);
     const loading = document.createElement('p');
     loading.className = 'sb-loading';
     loading.textContent = 'Loading Canto ' + canto + ', Chapter ' + chapter + '…';
-    shell.append(heading, loading);
+    shell.append(contents, loading);
     host.replaceChildren(shell);
     if (titleNode) titleNode.textContent = 'Chapter ' + chapter;
     setStatus('Loading Canto ' + canto + ', Chapter ' + chapter + '…');
@@ -391,12 +432,13 @@
       if (!english.entries.length) throw new Error('No verse records found in the English source file.');
 
       loading.remove();
+      populateContents(contentsList, english.entries, chapter);
       if (titleNode) titleNode.textContent = english.title || 'Chapter ' + chapter;
       english.entries.forEach((entry) => shell.appendChild(renderVerse(chapter, entry, sridharaEntries)));
       const annotated = english.entries.filter((entry) => sridharaForRange(sridharaEntries, entry.start, entry.end, chapter)).length;
       const sourceMessage = annotated + ' of ' + english.entries.length + ' displayed verse records have Śrīdhara text.';
       setStatus('Canto ' + canto + ', Chapter ' + chapter + ' loaded · ' + sourceMessage);
-      requestAnimationFrame(() => document.getElementById('chapter-' + chapter).scrollIntoView({ block: 'start' }));
+      requestAnimationFrame(() => shell.scrollIntoView({ block: 'start' }));
     } catch (error) {
       loading.textContent = 'This chapter could not load: ' + error.message;
       loading.classList.add('sb-load-error');
