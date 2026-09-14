@@ -219,6 +219,43 @@
         "sridhara_records_with_text": 40,
         "literal_english_records": 15
       }
+    },
+    {
+      "id": "canto-1-chapter-6-verses-1-15",
+      "range": "ŚB 1.6.1–1.6.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/6/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/06_nAradajanma.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.6.1",
+        "1.6.2",
+        "1.6.3",
+        "1.6.4",
+        "1.6.5",
+        "1.6.6",
+        "1.6.7",
+        "1.6.8",
+        "1.6.9",
+        "1.6.10",
+        "1.6.11",
+        "1.6.12",
+        "1.6.13–1.6.14",
+        "1.6.15–1.6.16"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks, retaining grouped ranges and source notes.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-6-live#chapter-6",
+        "displayed_records": 38,
+        "sridhara_records_with_text": 38,
+        "literal_english_records": 15
+      }
     }
   ]
 }
