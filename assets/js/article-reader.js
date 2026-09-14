@@ -2,7 +2,7 @@
 const path=location.pathname,dirs=[/^\/vivekadrishti\/articles\/?$/, /\/articles\/scripture\/?$/, /\/articles\/(?:scripture-index-version-3|an-index-of-hindu-scripture)\/?$/];
 if(!/^\/vivekadrishti\/articles\//.test(path)||dirs.some(r=>r.test(path))||/\/articles\/varna-vicara\/?$/.test(path))return;
 const body=document.body,article=document.querySelector('.article-body');if(!article)return;
-const scripture=/\/articles\/(?:bhagavad-gita-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(path);
+const scripture=/\/articles\/(?:bhagavad-gita-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|srimad-bhagavatam-canto-\d{2}-sridhara-svami|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(path);
 body.classList.add('vicara-reader-page');
 const text=n=>(n?.textContent||'').replace(/\s+/g,' ').trim(),isContents=n=>/^contents$/i.test(text(n));
 const slug=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'section';
