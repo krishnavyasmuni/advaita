@@ -38,3 +38,12 @@
 .sb-transliteration-details .sb-source-content{font-size:15px}
 @media(max-width:720px){.bhagavatam-sridhara-layout .article-body{width:100%!important}.bhagavatam-reader{padding:4px 16px 24px}.bhagavatam-reader-head h1{font-size:37px}.bhagavatam-chapter-nav{justify-content:flex-start}.bhagavatam-chapter-nav a{min-height:34px}.sb-chapter{margin-top:38px}.sb-devanagari{font-size:19px;line-height:1.72}.sb-translation{font-size:15.5px;line-height:1.75}.sb-source-content{font-size:14.5px;line-height:1.75}.sb-source-content[lang="sa-Deva"]{font-size:17px}}
 .sb-synonym-key{color:#a92727;font-style:italic;font-weight:400}.sb-word-details .sb-source-block{margin-bottom:0}.sb-word-details .sb-source-content{font-size:14px;line-height:1.55}.sb-bhasya .sb-source-content[lang="sa-Deva"]{line-height:1.6}
+
+.bhagavatam-sridhara-layout .gita-controls .sb-details{display:inline-block!important;width:auto!important;max-width:100%;vertical-align:top}
+.bhagavatam-sridhara-layout .gita-controls .sb-details[open]{display:block!important;width:100%!important;margin-top:4px;padding-top:12px}
+.bhagavatam-sridhara-layout .gita-controls .sb-details>summary{width:auto!important}
+@media(max-width:620px){
+  .bhagavatam-sridhara-layout .gita-controls .sb-details,
+  .bhagavatam-sridhara-layout .gita-controls .sb-details[open]{display:block!important;width:100%!important}
+  .bhagavatam-sridhara-layout .gita-controls .sb-details>summary{width:100%!important;justify-content:space-between}
+}
