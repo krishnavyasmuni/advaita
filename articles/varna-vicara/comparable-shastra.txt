@@ -9,9 +9,9 @@ Sanskrit is reproduced from the linked witnesses. Verse numbering can differ bet
 
 Coverage note. This dossier now includes the directly comparable primary passages I could verify in the available digital witnesses across Itihāsa, Gītā, Mahāpurāṇa, Upapurāṇa, Upaniṣad, Smṛti/Dharmasūtra, Nīti, Darśana, Pāñcarātra, Śaiva/Śākta Āgama and Āyurveda. Texts and quotations whose edition or attribution remains uncertain are explicitly marked; they are not presented as universally accepted doctrine.
 
-Plain-text export for search and AI extraction  (same witnesses, Sanskrit/IAST, translations, context notes and source links).
+Plain-text export for search and AI extraction [/vivekadrishti/articles/varna-vicara/comparable-shastra.txt] (same witnesses, Sanskrit/IAST, translations, context notes and source links).
 
-Machine-readable witness catalogue (TSV)  — every retained candidate with tier, reference, Sanskrit/IAST, translation, context, verification status and source URL. Corpus-coverage TSV  records which texts were fully searchable, partial, or only targeted.
+Machine-readable witness catalogue (TSV) [/vivekadrishti/articles/varna-vicara/comparable-witness-catalogue.tsv] — every retained candidate with tier, reference, Sanskrit/IAST, translation, context, verification status and source URL. Corpus-coverage TSV [/vivekadrishti/articles/varna-vicara/comparable-corpus-coverage.tsv] records which texts were fully searchable, partial, or only targeted.
 
 Mahābhārata — the Sarpa dialogue: vṛtta rather than jāti
 
@@ -145,7 +145,7 @@ Mahābhārata, Vana-parvan 3.177.16–32
 
 Truth, generosity, patience, good conduct, compassion, self-control and moral feeling are the marks by which a brāhmaṇa is remembered. The same truth, generosity, non-anger, compassion and non-violence are found among śūdras. “Where this conduct is found, he is a brāhmaṇa; where it is absent, designate him a śūdra.” Jāti is difficult to determine because the varṇas are mixed; human birth, speech, sexual generation and death are common. Therefore the truth-seers hold śīla to be primary. The passage also says that a dvija is “equal to a śūdra by conduct” until he is reborn through Vedic initiation, and that completed rites do not help when vṛtta is absent.
 
-Sanskrit witness: GRETIL Mahābhārata, Araṇyakaparvan . The surrounding dialogue includes a question-and-answer about Brahman and liberation; the verses above are the varṇa/character portion.
+Sanskrit witness: GRETIL Mahābhārata, Araṇyakaparvan [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_03_u.htm]. The surrounding dialogue includes a question-and-answer about Brahman and liberation; the verses above are the varṇa/character portion.
 
 Mahābhārata — Bharadvāja’s colour objection and karma-based varṇa
 
@@ -213,7 +213,7 @@ Mahābhārata, Śānti-parvan 12.181.6–20
 
 Bharadvāja objects that if varṇa is decided by colour, all four groups show colour-mixture; the same desire, anger, fear, hunger, sweat, urine, faeces, phlegm, bile and blood occur in everyone. Bhṛgu replies, “There is no special distinction of varṇas; this whole world is brahman,” and says that varṇa was reached through karma. Dvijas who take up kṣatriya, vaiśya or śūdra conduct are described as reaching those varṇas. The final verses retain a cosmological and normative register, so this is a direct karma/varṇa witness within a larger dialogue, not an isolated modern slogan.
 
-Sanskrit witness: GRETIL Mahābhārata, Śāntiparvan .
+Sanskrit witness: GRETIL Mahābhārata, Śāntiparvan [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_12_u.htm].
 
 Mahābhārata — definitions by conduct and the “not every śūdra” conclusion
 
@@ -253,7 +253,7 @@ Mahābhārata, Śānti-parvan 12.182.1–8
 
 The text asks how each varṇa is known. It describes a brāhmaṇa through purity, truth, generosity, self-control, compassion, austerity and conduct; a kṣatriya and vaiśya through their characteristic work; and a śūdra through the contrary conduct listed in the verse. Then it immediately qualifies the labels: the brāhmaṇa-marks may occur in a śūdra and may be absent in a dvija—“not every śūdra is a śūdra, and not every brāhmaṇa is a brāhmaṇa.”
 
-Sanskrit witness: GRETIL Mahābhārata, Śāntiparvan . This is a continuation of the same Bharadvāja–Bhṛgu discussion and should be read together with 12.181.
+Sanskrit witness: GRETIL Mahābhārata, Śāntiparvan [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_12_u.htm]. This is a continuation of the same Bharadvāja–Bhṛgu discussion and should be read together with 12.181.
 
 Mahābhārata — the Śiva–Umā dialogue on falling and rising between varṇas
 
@@ -351,7 +351,7 @@ Mahābhārata, Anuśāsana-parvan 13.131.2–14, 26–27, 44–51
 
 Umā asks how a vaiśya, kṣatriya or dvija can become another varṇa and how the three lower varṇas can attain brāhmaṇya. Maheśvara answers that a dvija falls from his position through bad action; a kṣatriya or vaiśya who lives by brāhmaṇa-dharma can go toward Brahman; and a brāhmaṇa who takes up kṣatra, vaiśya or śūdra work falls accordingly. The later answers are explicit: “A śūdra goes to brāhmaṇatā”; a learned, disciplined person of a lower family becomes a dvija; a bad-conduct brāhmaṇa becomes a śūdra; and “neither birth, nor saṃskāra, nor learning, nor submission is the cause of dvijatva—conduct alone is the cause.”
 
-Sanskrit witness: GRETIL Mahābhārata, Anuśāsanaparvan . The same chapter also contains restrictive food and ritual instructions; the verses above are quoted because they directly address varṇa movement and its marks.
+Sanskrit witness: GRETIL Mahābhārata, Anuśāsanaparvan [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_13_u.htm]. The same chapter also contains restrictive food and ritual instructions; the verses above are quoted because they directly address varṇa movement and its marks.
 
 Bhagavad-gītā — guṇa, karma and svabhāva
 
@@ -379,7 +379,7 @@ Bhagavad-gītā 4.13; 18.41–44
 
 Kṛṣṇa states that the fourfold order is divided according to guṇa and karma. Chapter 18 then says that the activities of brāhmaṇas, kṣatriyas, vaiśyas and śūdras are divided by qualities born of svabhāva and lists their characteristic qualities and work.
 
-Text 4.13  and texts 18.41–44 . Scope note: these verses clearly foreground guṇa/karma/svabhāva, but they do not by themselves state a complete legal theory of jāti or explicitly settle every birth-based question.
+Text 4.13 [https://vedabase.io/en/library/bg/4/13/] and texts 18.41–44 [https://vedabase.io/en/library/bg/18/41/]. Scope note: these verses clearly foreground guṇa/karma/svabhāva, but they do not by themselves state a complete legal theory of jāti or explicitly settle every birth-based question.
 
 Bhāgavata Purāṇa — designation by observed lakṣaṇa
 
@@ -391,7 +391,7 @@ Bhāgavata Purāṇa — designation by observed lakṣaṇa
 
 “Whatever characteristic has been described as indicating a person’s varṇa, if it is seen elsewhere too, one should designate that person by that very characteristic.” The verse explicitly addresses a person born in a different class and makes the observed lakṣaṇa the basis of designation.
 
-Sanskrit and translation: Bhāgavata Purāṇa 7.11.35 . The surrounding chapter first describes the qualities and duties whose lakṣaṇa this verse applies.
+Sanskrit and translation: Bhāgavata Purāṇa 7.11.35 [https://vedabase.io/en/library/sb/7/11/35/]. The surrounding chapter first describes the qualities and duties whose lakṣaṇa this verse applies.
 
 Manusmṛti — progressive jāti and movement between brāhmaṇa and śūdra
 
@@ -407,7 +407,7 @@ Manusmṛti 10.64–65
 
 10.64 describes a person born from a brāhmaṇa father and śūdra mother who, if endowed with superior qualities, progressively reaches a superior jāti by the seventh generation. 10.65 then states: “A śūdra attains brāhmaṇatā and a brāhmaṇa attains śūdratā; understand the same of those born from a kṣatriya and likewise from a vaiśya.”
 
-Manusmṛti 10.64  and 10.65 . Context note: these verses occur in Manu’s discussion of mixed unions and social classification; they should be cited with that context rather than treated as if the whole chapter were a single unrestricted statement.
+Manusmṛti 10.64 [https://enjoylearningsanskrit.com/scriptures/manu-smriti/chapter-10/verse-64/] and 10.65 [https://enjoylearningsanskrit.com/scriptures/manu-smriti/chapter-10/verse-65/]. Context note: these verses occur in Manu’s discussion of mixed unions and social classification; they should be cited with that context rather than treated as if the whole chapter were a single unrestricted statement.
 
 Chāndogya Upaniṣad — Satyakāma’s truth is recognised before initiation
 
@@ -419,7 +419,7 @@ Chāndogya Upaniṣad 4.4.4–5
 
 Satyakāma tells Gautama that he does not know his gotra: his mother Jābālā had served in many places and could not identify his father. Gautama replies, “A non-brāhmaṇa could not speak this way; bring fuel, Somya, I shall initiate you—you have not departed from truth.” This is a narrative recognition of character and truthfulness, not a standalone legal definition, but it is a clear śruti witness in which lineage uncertainty does not disqualify the seeker.
 
-Chāndogya 4.4.4  and 4.4.5 .
+Chāndogya 4.4.4 [https://www.wisdomlib.org/hinduism/book/chandogya-upanishad-english/d/doc239073.html] and 4.4.5 [https://www.wisdomlib.org/hinduism/book/chandogya-upanishad-english/d/doc239074.html].
 
 Vajrasūcika Upaniṣad — “Who is a brāhmaṇa?”
 
@@ -441,7 +441,7 @@ Vajrasūcika Upaniṣad (minor Upaniṣad; recension and attribution are dispute
 
 The Upaniṣad asks whether a brāhmaṇa is the jīva, body, birth, knowledge, action or religious performance, rejects each as sufficient, and concludes that the brāhmaṇa is the person who directly knows the non-dual Self, is free from lust, anger, greed, pride and delusion, and possesses śama, dama and related virtues. It explicitly says, “Birth is not brāhmaṇa.”
 
-Text witness: Vajrasūcika Upaniṣad of the Sāmaveda . Status note: this is a later/minor Upaniṣad with variant recensions and uncertain dating; the ellipses above mark omitted intervening prose, not a claim that the omitted wording is identical in every edition.
+Text witness: Vajrasūcika Upaniṣad of the Sāmaveda [https://gosai.com/writings/vajrasucika-upanisad]. Status note: this is a later/minor Upaniṣad with variant recensions and uncertain dating; the ellipses above mark omitted intervening prose, not a claim that the omitted wording is identical in every edition.
 
 Nārada Bhakti Sūtra — no caste distinction among devotees
 
@@ -451,7 +451,7 @@ Nārada Bhakti Sūtra 72
 
 “Among them there is no distinction of caste, learning, beauty, lineage, wealth, observance and the like.” Here “them” refers to devotees. It is a direct spiritual-community statement rather than a complete account of every social duty.
 
-Text and translation: Nārada Bhakti Sūtra 72 . The classification and numbering of the sūtras is stable in common editions, though translations differ in how “kriyā” is rendered.
+Text and translation: Nārada Bhakti Sūtra 72 [https://www.sivanandaonline.org/?cmd=displaysection&section_id=1122]. The classification and numbering of the sūtras is stable in common editions, though translations differ in how “kriyā” is rendered.
 
 Bhāgavata Purāṇa — devotion beyond birth-status
 
@@ -483,7 +483,7 @@ Bhāgavata Purāṇa — devotion beyond birth-status
 
 The Bhāgavata repeatedly makes devotional attainment override inherited status: named outsider groups are purified by taking shelter of Viṣṇu’s devotees; the dog-eater who chants the holy name is described as worshipable and as having completed the purifying Vedic disciplines; and a devoted śvapaca is praised above a learned but non-devoted brāhmaṇa, because he purifies his lineage. These are bhakti/soteriological comparisons, not a standalone social-law definition.
 
-2.4.18 ; 3.33.7 ; 7.9.10 .
+2.4.18 [https://vedabase.io/en/library/sb/2/4/18/]; 3.33.7 [https://vedabase.io/en/library/sb/3/33/7/]; 7.9.10 [https://vedabase.io/en/library/sb/7/9/10/].
 
 Mahābhārata — conduct, custom and a guru are tested by reason
 
@@ -537,7 +537,7 @@ satataṃ dharmaśīlaiś ca naipuṇyenopalakṣitaḥ // MBh 12.254.52 //
 
 The epic supplies several closely related tests. Nobility is by vṛtta, not wealth or learning. A guru who is arrogant, cannot distinguish what ought and ought not be done, and has gone astray may be corrected, disciplined, or abandoned—the wording changes with the context. In the Tulādhāra dialogue, one should seek dharma by a reasoned ground, not merely imitate “worldly custom”; what is supported by upapatti is praised by the wise. The same passage also warns that sadācāra can obscure a primordial dharma, so “the elders do it” is not by itself a final proof.
 
-GRETIL Udyogaparvan  and GRETIL Śāntiparvan . The three guru lines are parallel epic formulations in different settings; they should not be collapsed into one artificially “uniform” verse.
+GRETIL Udyogaparvan [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_05_u.htm] and GRETIL Śāntiparvan [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_12_u.htm]. The three guru lines are parallel epic formulations in different settings; they should not be collapsed into one artificially “uniform” verse.
 
 Bhagavad-gītā — learn through questions, then reflect and choose
 
@@ -553,7 +553,7 @@ Bhagavad-gītā 4.34 and 18.63
 
 The Gītā joins respect to sustained questioning: knowledge is learned from those who see the truth through praṇipāta, paripraśna and service. After teaching, Kṛṣṇa tells Arjuna to examine the whole instruction and then act as he wishes. This is a model of guided inquiry, not a command to suspend discernment.
 
-Gītā 18.63  and Gītā 4.34 .
+Gītā 18.63 [https://www.gitasupersite.iitk.ac.in/srimad?language=dv&field_chapter_value=18&field_nsutra_value=63] and Gītā 4.34 [https://www.gitasupersite.iitk.ac.in/srimad?language=dv&field_chapter_value=4&field_nsutra_value=34].
 
 Brahma Purāṇa — a Mahāpurāṇa dialogue on karma, vṛtta and varṇa
 
@@ -711,7 +711,7 @@ brāhmaṇo vā cyuto dharmād yathā śūdratvam āpnuyāt // BrP_223.65 //
 
 This Mahāpurāṇa chapter asks explicitly which karma makes a varṇa fall or rise, how a śūdra becomes a brāhmaṇa, and how a brāhmaṇa becomes a śūdra. Śiva’s answer repeatedly makes action and conduct the mechanism of movement. The most direct lines say that a śūdra who is learned, pure and devoted to dharma receives dharma’s fruit; a śūdra with pure conduct is to be served like a dvija; “neither birth, nor saṃskāra, nor śruti, nor lineage is the cause of dvijatva—conduct alone is the cause”; and a śūdra established in conduct reaches brāhmaṇatva. The same chapter also contains restrictive food and ritual rules, so this is a strong direct witness for one strand of the text’s varṇa theory, not a claim that every Brahma Purāṇa passage has the same emphasis.
 
-Sanskrit witness: GRETIL Brahma-Purāṇa, chapter 223 . The GRETIL file is a machine-readable reference text; chapter and pāda numbering should be checked against the printed edition used for formal publication.
+Sanskrit witness: GRETIL Brahma-Purāṇa, chapter 223 [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/3_purana/brahmap/brahmppu.htm]. The GRETIL file is a machine-readable reference text; chapter and pāda numbering should be checked against the printed edition used for formal publication.
 
 Bhāgavata Purāṇa — truth can overrule a guru, and status does not guarantee wisdom
 
@@ -767,7 +767,7 @@ kṣudrāśā bhūrikarmāṇo bāliśā vṛddhamāninaḥ // SB 10.23.9 //
 
 Bali refuses to lie even after his guru curses him: there is no greater adharma than falsehood. Nimi’s narrative condemns a guru who acts against dharma through greed. The Rāsa narrative warns that extraordinary divine conduct must not be imitated by those without mastery, and says to follow only conduct consistent with the speaker’s own teaching. Alongside these warnings, the Bhāgavata gives positive tests: one should not assume the role of guru, parent or protector unless one can free the dependent from death; choose a guru who is learned in śabda and the Supreme and peaceful; take the essence from small and great śāstras like a bee; and do not assume that complete knowledge must come from one guru alone. The Prahlāda and ritualist narratives likewise portray leaders proud of external status, age or ritual volume as blind or foolish.
 
-8.20.4 , 8.22.30 , 9.13.5 , 10.33.30–31 , 11.3.21 , 11.8.10  and 11.9.31 , 5.5.18 , 7.5.30–31  and 10.23.9 . These are narrative and devotional tests of authority; they are not all social-law statements.
+8.20.4 [https://vedabase.io/en/library/sb/8/20/4/], 8.22.30 [https://vedabase.io/en/library/sb/8/22/30/], 9.13.5 [https://vedabase.io/en/library/sb/9/13/5/], 10.33.30–31 [https://vedabase.io/en/library/sb/10/33/30/], 11.3.21 [https://vedabase.io/en/library/sb/11/3/21/], 11.8.10 [https://vedabase.io/en/library/sb/11/8/10/] and 11.9.31 [https://vedabase.io/en/library/sb/11/9/31/], 5.5.18 [https://vedabase.io/en/library/sb/5/5/18/], 7.5.30–31 [https://vedabase.io/en/library/sb/7/5/30/] and 10.23.9 [https://vedabase.io/en/library/sb/10/23/9/]. These are narrative and devotional tests of authority; they are not all social-law statements.
 
 Manusmṛti — dharma is examined through several pramāṇas and tarka
 
@@ -783,7 +783,7 @@ Manusmṛti 12.105–106
 
 One seeking purified dharma should thoroughly understand direct perception, inference and scripture/varied āgama. The person who investigates the ṛṣi-teaching through reasoning, while not contradicting the Veda-śāstra, knows dharma—not someone else. This is a scriptural requirement of examination, while still retaining a traditional Vedic constraint.
 
-Manusmṛti 12.105  and 12.106 with Medhātithi’s commentary . The commentary explains tarka as investigation that can reject a proposed meaning when it does not withstand examination; translations of the second pāda vary.
+Manusmṛti 12.105 [https://enjoylearningsanskrit.com/scriptures/manu-smriti/chapter-12/verse-105/] and 12.106 with Medhātithi’s commentary [https://www.wisdomlib.org/hinduism/book/manusmriti-with-the-commentary-of-medhatithi/d/doc202287.html]. The commentary explains tarka as investigation that can reject a proposed meaning when it does not withstand examination; translations of the second pāda vary.
 
 Skanda Purāṇa — Nāgara-khaṇḍa 239 and the popular “janmanā jāyate” quotation
 
@@ -807,7 +807,7 @@ Skanda Purāṇa, Nāgara-khaṇḍa 239.31–34 (Wisdomlib chapter pages; recen
 
 The first pāda gives the familiar birth-to-saṃskāra transition: “by birth one is a śūdra; by saṃskāra one is called a dvija.” The following verses praise the brāhmaṇa and then state that the whole world has become Brahman. In this specific online edition, the often-circulated expanded four-stage line ending in “vedapāṭhād bhaved vipraḥ” is not what appears at 239.31–34. It should therefore be cited as a variant or later circulating formulation, not silently substituted for the witness reproduced here.
 
-239.31 , 239.32 , 239.33  and 239.34 . The chapter is a useful text-critical safeguard: an attractive quotation should be checked against an identified recension.
+239.31 [https://www.wisdomlib.org/hinduism/book/skanda-purana-sanskrit/d/doc807752.html], 239.32 [https://www.wisdomlib.org/hinduism/book/skanda-purana-sanskrit/d/doc807753.html], 239.33 [https://www.wisdomlib.org/hinduism/book/skanda-purana-sanskrit/d/doc807754.html] and 239.34 [https://www.wisdomlib.org/hinduism/book/skanda-purana-sanskrit/d/doc807755.html]. The chapter is a useful text-critical safeguard: an attractive quotation should be checked against an identified recension.
 
 Liṅga Purāṇa — what makes an ācārya and what makes dharma sound
 
@@ -839,7 +839,7 @@ alubdhaḥ saṃyamī proktaḥ prārthito 'pi samantataḥ // LiP 1.10.24 //
 
 The Liṅga Purāṇa describes a genuine ācārya as mature, non-greedy, self-controlled, sincere, disciplined and straight; he practises the conduct he establishes and understands the meaning of śāstra. Truthful speech reports what has actually been seen. Its definition of sound dharma joins śruti and smṛti with compatibility with the conduct of the śiṣṭas. These are qualification and cross-checking criteria, not a claim that every customary rule is automatically correct.
 
-Sanskrit witness: GRETIL Liṅga-Purāṇa .
+Sanskrit witness: GRETIL Liṅga-Purāṇa [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/3_purana/lip_1_pu.htm].
 
 Vāyu Purāṇa — an ācārya must practise and understand
 
@@ -851,7 +851,7 @@ Vāyu Purāṇa 59.30 (parallel teacher-definition)
 
 The ācārya is one who practises the conduct he establishes, gathers the meanings of śāstra, and is endowed with yamas and niyamas. The verse is a close Purāṇic parallel to the Liṅga Purāṇa’s teacher test.
 
-Vāyu Purāṇa scan . The Revā-khaṇḍa/printed chapter numbering differs among editions.
+Vāyu Purāṇa scan [https://ia902902.us.archive.org/33/items/in.ernet.dli.2015.403055/2015.403055.Vayu-Puran_text.pdf]. The Revā-khaṇḍa/printed chapter numbering differs among editions.
 
 Kūrma Purāṇa — consider the meaning before teaching it
 
@@ -863,7 +863,7 @@ Kūrma Purāṇa 2.33.152; some editions number the passage Uttara-khaṇḍa 34
 
 One who considers the meaning with a disciplined mind and teaches it to pure, qualified brahmins sheds the covering of error and reaches Maheśvara. The verse keeps a teacherly setting, but its verb is vicārya: the meaning is to be examined rather than merely repeated.
 
-Kūrma Purāṇa text witness . Because chapter numbering varies, both 2.33.152 and Uttara 34.151 are supplied.
+Kūrma Purāṇa text witness [https://sanskritdocuments.org/doc_z_misc_general/tIrthamAhAtmyamkUrmapurANe.html]. Because chapter numbering varies, both 2.33.152 and Uttara 34.151 are supplied.
 
 Narasimha Purāṇa — many śāstras require repeated comparison
 
@@ -897,7 +897,7 @@ te 'pi yānti paraṃ sthānaṃ narā nārāyaṇāśrayāḥ // NsP_64.94 //
 
 Because śāstras are numerous and can appear mutually opposed, the text says that true knowledge is difficult and instructs the reader to churn and examine all the śāstras repeatedly. Its sectarian conclusion is to contemplate Nārāyaṇa. The same chapter says that clothing, matted hair, a staff, a shaven head or ornaments are not the cause of dharma, while even people of bad conduct who take refuge in Nārāyaṇa can attain the highest place. The method and the Vaiṣṇava conclusion should both be preserved.
 
-Sanskrit witness: GRETIL Narasiṃha-Purāṇa . The text is often classified as an Upapurāṇa; classifications and verse numbering vary.
+Sanskrit witness: GRETIL Narasiṃha-Purāṇa [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/3_purana/narsippu.htm]. The text is often classified as an Upapurāṇa; classifications and verse numbering vary.
 
 Śiva Purāṇa — choose and test a guru by the result of his teaching
 
@@ -919,7 +919,7 @@ vatsarād api śiṣyeṇa so 'nyaṃ gurum upāśrayet // ŚivaP 7.2.15.46–47
 
 A discerning person should choose the guru whose association produces awakening and joy. The prospective teacher is to be examined by capable disciples; if, after a year, no awakening or joy at all is found, the seeker may approach another guru. The preceding chapter praises obedience in other contexts, so this passage should be read as a qualification and testing rule, not as a rejection of every guru–śiṣya relationship.
 
-Sanskrit witness: GRETIL Śiva-Purāṇa, book 7 . The ellipsis marks an omitted clause from the long verse sequence; consult the edition for the complete pādas.
+Sanskrit witness: GRETIL Śiva-Purāṇa, book 7 [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/3_purana/sivap7_u.htm]. The ellipsis marks an omitted clause from the long verse sequence; consult the edition for the complete pādas.
 
 Hari-bhakti-vilāsa — birth, learning and mutual testing do not automatically make a guru
 
@@ -939,7 +939,7 @@ gurutā śiṣyatā ceti nānyathaiveti niścayaḥ // HBV 1.74 //
 
 A person of high birth, initiated in every sacrifice, and learned in a thousand branches is still not a guru if he is avaiṣṇava. The text then prescribes mutual examination of guru and prospective disciple through a year of shared life and observation of conduct and character. This is a sectarian Vaiṣṇava qualification rule, but it is directly relevant to testing status claims by lived vṛtta.
 
-Sanskrit witness: GRETIL Hari-bhakti-vilāsa . Later editions divide and number these quotations differently; the GRETIL file supplies the cited text family.
+Sanskrit witness: GRETIL Hari-bhakti-vilāsa [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/vaisn/hbhvil_u.htm]. Later editions divide and number these quotations differently; the GRETIL file supplies the cited text family.
 
 Āpastamba Dharmasūtra — the gods do not simply announce dharma
 
@@ -955,7 +955,7 @@ sarvajanapadeṣv ekāntasamāhitam āryāṇāṃ vṛttaṃ samyagvinītānā�
 
 The sūtra says that gods, gandharvas and ancestors do not simply point from the sky and declare, “This is dharma; this is adharma.” What disciplined āryas praise as being done is dharma, and what they censure is adharma; one should follow the conduct of disciplined, self-controlled, non-greedy and non-hypocritical elders across the regions. The passage is not a modern rejection of tradition: it gives a qualified, ethical and communal test for custom.
 
-Āpastamba text witness . Sūtra numbering varies substantially by edition, so the alternative references are supplied.
+Āpastamba text witness [https://bharatkosha.org/hi/granth/apastamba-dharmasutra-hindi/]. Sūtra numbering varies substantially by edition, so the alternative references are supplied.
 
 Taittirīya Upaniṣad — imitate only blameless conduct and consult the competent
 
@@ -973,7 +973,7 @@ Taittirīya Upaniṣad 1.11.2–3
 
 The teacher says to practise only the blameless actions and good conduct actually found in us—not everything indiscriminately. If doubt arises about an action or conduct, follow the thoughtful, competent, non-harsh people who are devoted to dharma. This is one of the clearest śruti procedures for separating a teacher’s authority from an unexamined imitation of everything the teacher does.
 
-Taittirīya Upaniṣad, Śikṣāvallī 1.11  and the 1.11.3 witness . Sandhi and accent markings differ between editions.
+Taittirīya Upaniṣad, Śikṣāvallī 1.11 [https://sanskritdocuments.org/doc_upanishhat/shikshaavalii.html] and the 1.11.3 witness [https://www.wisdomlib.org/hinduism/book/the-taittiriya-upanishad/d/doc79789.html]. Sandhi and accent markings differ between editions.
 
 Yājñavalkya Śikṣā, Cāṇakya and Yoga Vāsiṣṭha — reason outranks status
 
@@ -1003,7 +1003,7 @@ Yājñavalkyaśikṣā 232 (recension-dependent); Cāṇakya-rāja-nīti 120; Yo
 
 A reasoned statement should be accepted, not accepted merely because of reverence for a guru. Cāṇakya adds that an enemy’s merits and a guru’s faults should both be stated. The Yoga Vāsiṣṭha/Mokṣopāya formulation is deliberately extreme: even a human-authored text may be accepted if it teaches through reasoning, while an unsound statement may be rejected even if attributed to a ṛṣi or spoken by Brahmā; a reasoned sentence may be accepted even from a child. Cāṇakya’s related sūtras add “do not imitate the conduct of the gods,” “examine undertakings by direct, indirect and inferential evidence,” and “hear a reasoned point even from a child.” These are direct status-independent tests of speech.
 
-Yājñavalkyaśikṣā , Cāṇakya-rāja-nīti  and Cāṇakya Sūtra , Mokṣopāya 2.18.2  and Yoga Vāsiṣṭha 2.18.3 . Yājñavalkya and Cāṇakya numbering is collection/recension-dependent; the wording is the important evidence.
+Yājñavalkyaśikṣā [https://vedicreserve.miu.edu/shiksha/yagyavalkya_shiksha.html], Cāṇakya-rāja-nīti [https://www.ambuda.org/proofing/caannkyraajniitih/143/] and Cāṇakya Sūtra [https://sanskritdocuments.org/doc_z_misc_major_works/chANakyasUtra.html], Mokṣopāya 2.18.2 [https://www.wisdomlib.org/hinduism/book/moksopaya-sanskrit/d/doc842385.html] and Yoga Vāsiṣṭha 2.18.3 [https://www.wisdomlib.org/hinduism/book/yoga-vasistha-sanskrit/d/doc249996.html]. Yājñavalkya and Cāṇakya numbering is collection/recension-dependent; the wording is the important evidence.
 
 Nyāya, Yoga, Sāṃkhya and Māṇḍūkya Kārikā — scripture is interpreted through pramāṇa and yukti
 
@@ -1025,7 +1025,7 @@ niścitaṃ yuktiyuktaṃ ca yat tad bhavati netarat // Māṇḍūkya Kārikā 
 
 These philosophical śāstras do not erase āgama; they place testimony within a field of valid means. Nyāya defines testimony as the instruction of a trustworthy person, so “authority” depends on āptatva rather than a title alone. Yoga lists perception, inference and āgama. Sāṃkhya accepts perception, inference and trustworthy testimony. The Māṇḍūkya Kārikā says that where scriptural creation statements admit more than one reading, the settled conclusion is the one supported by yukti.
 
-Nyāya , Yoga , Sāṃkhya  and Māṇḍūkya Kārikā .
+Nyāya [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/nyaya/gaunys_u.htm], Yoga [https://www.wisdomlib.org/hinduism/book/yoga-sutras-with-bhojas-rajamartanda/d/doc1217002.html], Sāṃkhya [https://sanskritdocuments.org/doc_z_misc_major_works/IshvarakRiShNasAnkyakArikA.html] and Māṇḍūkya Kārikā [https://advaitasharada.sringeri.net/display/splitWindow/Mandukya/AY/MK_C03_K23_B01].
 
 Pāñcarātra witness — realised yogins and the irrelevance of kula
 
@@ -1037,7 +1037,7 @@ pratyakṣitātmanāthānāṃ naiṣāṃ cintyaṃ kulādikam // Bhāradvāja 
 
 “Yogins may be born in every kind of womb; for those who have directly realised their Lord, lineage and the like are not to be considered.” In the surrounding Pāñcarātra quotation, the issue is whether a realised person can instruct despite ordinary birth-based disqualifications. This is an Āgama witness for the exceptional force of direct realisation, not a claim that every social eligibility rule disappears in every ritual setting.
 
-Bharadvāja Saṃhitā scan record  and the quotation preserved in Baladeva Vidyābhūṣaṇa’s Bhāgavata commentary discussion . Online witnesses differ in sandhi and in the reading pratyakṣitātmanāthānām / pratyakṣitātma-nāthānām; verify the pāda against the printed Pāñcarātra edition before a critical publication.
+Bharadvāja Saṃhitā scan record [https://archive.org/details/HINDSANSKRITBharadvajaSamhitaBabulalShukla1990] and the quotation preserved in Baladeva Vidyābhūṣaṇa’s Bhāgavata commentary discussion [https://iisb.co.in/]. Online witnesses differ in sandhi and in the reading pratyakṣitātmanāthānām / pratyakṣitātma-nāthānām; verify the pāda against the printed Pāñcarātra edition before a critical publication.
 
 Śaiva and Śākta Āgama — a disciple may change gurus when capacity is absent
 
@@ -1061,7 +1061,7 @@ durlabho 'yaṃ gurur devi śiṣyaduḥkhāpahārakaḥ // Kulārṇava 13.108 
 
 The bee seeking fragrance moves from flower to flower; likewise a disciple seeking knowledge may move from guru to guru. A powerless guru cannot give liberation-knowledge, just as a tree with a destroyed root cannot bear flowers and fruit. The Kulārṇava line contrasts many exploitative gurus with the rare teacher who removes the disciple’s suffering. These Āgama passages concern spiritual capacity and exploitation, not varṇa classification, and the Kulārṇava pāda is especially edition-sensitive.
 
-Tantrāloka 13.335–336 , Kubjikāmata 3.48  and Kulārṇava Tantra scan . Tantrāloka transmits some of these as quotations from earlier scripture; exact source-family relationships should be kept visible.
+Tantrāloka 13.335–336 [https://www.sanskrit-trikashaivism.com/en/tantraloka-13c-trika-scriptures-non-dual-shaivism-of-kashmir/863], Kubjikāmata 3.48 [https://www.holy-writings.com/?a=SHOWTEXT&d=%2Fen%2FHinduism%2FKubjikamatatantra.txt] and Kulārṇava Tantra scan [https://archive.org/details/kularnavatantramramkumarrai]. Tantrāloka transmits some of these as quotations from earlier scripture; exact source-family relationships should be kept visible.
 
 Viṣṇu and Padma Purāṇas — a polemical argument still appeals to yukti
 
@@ -1087,7 +1087,7 @@ Viṣṇu Purāṇa 3.18.26, 31; Padma Purāṇa, Sṛṣṭikhaṇḍa 1.13.365
 
 In the Māyāmoha debate, the claim that violence is dharma is challenged as unable to withstand reasoning; “reliable statements do not fall from the sky,” and reasoned speech should be accepted. The Padma Purāṇa preserves a parallel version and adds a reductio about sacrificing the sacrificer’s own father. Because the speaker is Māyāmoha in a polemical narrative, these verses are evidence of an internal rational argument, not an isolated statement of the Purāṇa’s final theology.
 
-Viṣṇu Purāṇa 3.18 in GRETIL  and Padma Purāṇa, Sṛṣṭikhaṇḍa 1.13 .
+Viṣṇu Purāṇa 3.18 in GRETIL [https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_viSNupurANa-crit.htm] and Padma Purāṇa, Sṛṣṭikhaṇḍa 1.13 [https://www.transliteral.org/pages/z201025100602/view].
 
 Brahmāṇḍa Purāṇa — a parallel ācārya test
 
@@ -1103,7 +1103,7 @@ svayam ācarate yasmād ācāraṃ sthāpayaty api /
 
 The text defines teachers by maturity, freedom from greed and hypocrisy, self-control, straightforwardness, lived conduct and understanding of śāstra. It is a close Purāṇic parallel to the Liṅga and Vāyu witnesses and shows that “ācārya” is a tested description, not merely an inherited title.
 
-Sanskrit witness: GRETIL Brahmāṇḍa-Purāṇa . The GRETIL file is an electronic edition; exact pāda numbering should be checked against the printed source.
+Sanskrit witness: GRETIL Brahmāṇḍa-Purāṇa [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/3_purana/brpu1_u.htm]. The GRETIL file is an electronic edition; exact pāda numbering should be checked against the printed source.
 
 Mārkaṇḍeya Purāṇa — Vedic words and ritual action are not by themselves the highest truth
 
@@ -1115,7 +1115,7 @@ vedavādaratā mūḍhāḥ karmaṇy eva pravartakāḥ /
 
 This narrative section criticises people absorbed only in Vedic word and ritual action who, deluded by a net of words, do not know the highest truth. It is a critique of rote or merely external ritualism, not a rejection of the Veda; the exact division and wording of the selected pādas vary in digital witnesses.
 
-Sanskrit witness: GRETIL Mārkaṇḍeya-Purāṇa . Because this is a narrative excerpt with edition-sensitive segmentation, it is included as a related—not direct varṇa—parallel.
+Sanskrit witness: GRETIL Mārkaṇḍeya-Purāṇa [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/3_purana/marp_u.htm]. Because this is a narrative excerpt with edition-sensitive segmentation, it is included as a related—not direct varṇa—parallel.
 
 Caraka and Suśruta — test the text, test the teacher, understand the meaning
 
@@ -1159,7 +1159,7 @@ tasmād bahuśrutaḥ śāstraṃ vijānīyāc cikitsakaḥ // Suśruta 4.7 //
 
 These medical śāstras turn the same principle into a procedure. Examine the text through reasoning before choosing a teacher; examine the teacher’s learning, experience, character and ability to explain; repeat a teaching only after entering its meaning; do not fear refutation, become one-sided, or speak about what you do not know; and call a conclusion “established” only after examiners have tested it in many ways and supported it with reasons. Suśruta adds that rote study without understanding is like a donkey carrying sandalwood and that certainty requires broad learning.
 
-Caraka Vimānasthāna 8  and Suśruta Prabhāṣaṇīya . These are medical texts, so their examples are clinical; their method of testing texts, teachers and claims is nevertheless directly comparable.
+Caraka Vimānasthāna 8 [https://www.carakasamhitaonline.com/index.php/Rogabhishagjitiya_Vimana] and Suśruta Prabhāṣaṇīya [https://www.easyayurveda.com/sushruta-4-prabhashaniya-adhyaya/]. These are medical texts, so their examples are clinical; their method of testing texts, teachers and claims is nevertheless directly comparable.
 
 Bhāgavata Purāṇa — perception, tradition, inference and reason in inquiry
 
@@ -1187,7 +1187,7 @@ jñānaṃ viveko nigamas tapaś ca pratyakṣam aitihyam athānumānam /
 
 The Bhāgavata says that an advanced seeker engaged in inquiry is not bound by injunctions aimed at ordinary fruit-seeking action. It names śruti, perception, tradition and inference as a fourfold field of knowledge; among differing analyses, it accepts what can be clearly established through reasoning; and it joins perception, inference, scripture, inner realisation, discrimination, austerity, time and causation in discerning the world. The wording is philosophically dense and should not be flattened into the claim that every source has identical authority.
 
-11.10.4 , 11.19.17 , 11.22.9 , 11.28.9  and 11.28.18 .
+11.10.4 [https://vedabase.io/en/library/sb/11/10/4/], 11.19.17 [https://vedabase.io/en/library/sb/11/19/17/], 11.22.9 [https://vedabase.io/en/library/sb/11/22/9/], 11.28.9 [https://vedabase.io/en/library/sb/11/28/9/] and 11.28.18 [https://vedabase.io/en/library/sb/11/28/18/].
 
 Bṛhaspati Smṛti — a legal decision cannot rely on scripture alone
 
@@ -1211,7 +1211,7 @@ dṛśyante bhrāntijanakās tasmād yuktyā vicārayet // BṛhS 1.1.117 //
 
 In legal procedure the ruler is to examine the case carefully in a way consistent with Dharmaśāstra and Arthaśāstra. A decision must not be made by relying on scripture alone: when inquiry lacks reasoning, dharma is harmed. Without reasoned investigation an innocent person can be made a thief, and false claims can look true while true claims look false. These are judicial verses, but they state the same anti-circular principle used in the varṇa debate.
 
-Sanskrit witness: GRETIL Bṛhaspati Smṛti . The surviving text is fragmentary and transmitted in legal collections; book and pāda numbering is edition-dependent.
+Sanskrit witness: GRETIL Bṛhaspati Smṛti [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/4_dharma/smrti/brhasppu.htm]. The surviving text is fragmentary and transmitted in legal collections; book and pāda numbering is edition-dependent.
 
 Kauṭilya Arthaśāstra and Cāṇakya Sūtra — inquire by reasons and hear every voice
 
@@ -1241,7 +1241,7 @@ bālād api yuktam arthaṃ śṛṇuyāt // Cāṇakya Sūtra 3.1 //
 
 Kauṭilya calls Ānvīkṣikī—Sāṃkhya, Yoga and Lokāyata—a lamp for all sciences: it examines dharma and adharma, gain and loss, policy, strength and weakness by reasons. A wise person should despise no one, hear everyone’s view, and use a meaningful statement even from a child. Cāṇakya’s compact rules say not to imitate divine conduct, not to rely on fate alone, to examine undertakings by direct, indirect and inferential evidence, and to hear a reasonable point even from a child. The first long pāda follows the GRETIL/Wisdomlib wording; sandhi and spacing vary by edition.
 
-Kauṭilya Arthaśāstra 1.2 , Kauṭilya 1.15  and Cāṇakya Sūtra .
+Kauṭilya Arthaśāstra 1.2 [https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_kauTilya-arthazAstra.htm], Kauṭilya 1.15 [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/5_artha/kautil_u.htm] and Cāṇakya Sūtra [https://sanskritdocuments.org/doc_z_misc_major_works/chANakyasUtra.html].
 
 Garuḍa Purāṇa — examine the next footing before abandoning the first
 
@@ -1257,7 +1257,7 @@ tyajet kṛpaṇarājaṃ mitraṃ māyāmayaṃ tyajet //
 
 A wise person does not abandon one footing for another without examining the alternative. One should leave a corrupt country, a dangerous residence, a miserly ruler and a deceptive friend. In the present dossier this is a practical prudence parallel: changing a guru, lineage or interpretive framework should follow examination rather than impulse.
 
-Sanskrit witness: GRETIL Garuḍa-Purāṇa . This is practical counsel, not a direct definition of varṇa.
+Sanskrit witness: GRETIL Garuḍa-Purāṇa [https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/3_purana/garup1_u.htm]. This is practical counsel, not a direct definition of varṇa.
 
 Reading the witnesses together
 
