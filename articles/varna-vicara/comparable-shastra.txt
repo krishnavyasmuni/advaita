@@ -11,6 +11,8 @@ Coverage note. This dossier now includes the directly comparable primary passage
 
 Plain-text export for search and AI extraction  (same witnesses, Sanskrit/IAST, translations, context notes and source links).
 
+Machine-readable witness catalogue (TSV)  — every retained candidate with tier, reference, Sanskrit/IAST, translation, context, verification status and source URL. Corpus-coverage TSV  records which texts were fully searchable, partial, or only targeted.
+
 Mahābhārata — the Sarpa dialogue: vṛtta rather than jāti
 
 Mahābhārata, Vana-parvan 3.177; GRETIL critical-text insertion immediately preceding the numbered Sarpa dialogue (03,177.014d@019_0043–0066)
@@ -747,9 +749,25 @@ na hy ekasmād guror jñānaṃ susthiraṃ syāt supuṣkalam /
 
 brahmaitad advitīyaṃ vai gīyate bahudharṣibhiḥ // SB 11.9.31 //
 
-Bali refuses to lie even after his guru curses him: there is no greater adharma than falsehood. Nimi’s narrative condemns a guru who acts against dharma through greed. The Rāsa narrative warns that extraordinary divine conduct must not be imitated by those without mastery, and says to follow only conduct consistent with the speaker’s own teaching. Alongside these warnings, the Bhāgavata gives positive tests: choose a guru who is learned in śabda and the Supreme and peaceful; take the essence from small and great śāstras like a bee; and do not assume that complete knowledge must come from one guru alone.
+gurur na sa syāt svajano na sa syāt pitā na sa syāj jananī na sā syāt /
 
-8.20.4 , 8.22.30 , 9.13.5 , 10.33.30–31 , 11.3.21 , 11.8.10  and 11.9.31 . These are narrative and devotional tests of authority; they are not all social-law statements.
+daivaṃ na tat syān na patiś ca sa syān na mocayed yaḥ samupetamṛtyum // SB 5.5.18 //
+
+matir na kṛṣṇe parataḥ svato vā mitho 'bhipadyeta gṛhavratānām /
+
+adāntagobhir viśatāṃ tamisraṃ punaḥ punaś carvita-carvaṇānām // SB 7.5.30 //
+
+na te viduḥ svārthagatiṃ hi viṣṇuṃ durāśayā ye bahir-artha-māninaḥ /
+
+andhā yathāndhair upanīyamānās te 'pīśatantryām uru-dāmni baddhāḥ // SB 7.5.31 //
+
+iti te bhagavadyājñāṃ śṛṇvanto 'pi na śuśruvuḥ /
+
+kṣudrāśā bhūrikarmāṇo bāliśā vṛddhamāninaḥ // SB 10.23.9 //
+
+Bali refuses to lie even after his guru curses him: there is no greater adharma than falsehood. Nimi’s narrative condemns a guru who acts against dharma through greed. The Rāsa narrative warns that extraordinary divine conduct must not be imitated by those without mastery, and says to follow only conduct consistent with the speaker’s own teaching. Alongside these warnings, the Bhāgavata gives positive tests: one should not assume the role of guru, parent or protector unless one can free the dependent from death; choose a guru who is learned in śabda and the Supreme and peaceful; take the essence from small and great śāstras like a bee; and do not assume that complete knowledge must come from one guru alone. The Prahlāda and ritualist narratives likewise portray leaders proud of external status, age or ritual volume as blind or foolish.
+
+8.20.4 , 8.22.30 , 9.13.5 , 10.33.30–31 , 11.3.21 , 11.8.10  and 11.9.31 , 5.5.18 , 7.5.30–31  and 10.23.9 . These are narrative and devotional tests of authority; they are not all social-law statements.
 
 Manusmṛti — dharma is examined through several pramāṇas and tarka
 
@@ -1093,7 +1111,7 @@ Mārkaṇḍeya Purāṇa 10.27–31 (selected narrative critique)
 
 vedavādaratā mūḍhāḥ karmaṇy eva pravartakāḥ /
 
-na vidanti paraṃ tattvaṃ śabdajālena mohitāḥ // MārP 10.27–28 (text-family reading) //
+… na vidanti paraṃ tattvam // MārP 10.27–31 (excerpt; omitted pādas marked) //
 
 This narrative section criticises people absorbed only in Vedic word and ritual action who, deluded by a net of words, do not know the highest truth. It is a critique of rote or merely external ritualism, not a rejection of the Veda; the exact division and wording of the selected pādas vary in digital witnesses.
 
@@ -1143,6 +1161,104 @@ These medical śāstras turn the same principle into a procedure. Examine the te
 
 Caraka Vimānasthāna 8  and Suśruta Prabhāṣaṇīya . These are medical texts, so their examples are clinical; their method of testing texts, teachers and claims is nevertheless directly comparable.
 
+Bhāgavata Purāṇa — perception, tradition, inference and reason in inquiry
+
+Bhāgavata Purāṇa 11.10.4; 11.19.17; 11.22.9; 11.28.9 and 11.28.18
+
+nivṛttaṃ karma seveta pravṛttaṃ matparas tyajet /
+
+jijñāsāyāṃ sampravṛtto nādriyeta karmacodanām // SB 11.10.4 //
+
+śrutiḥ pratyakṣam aitihyam anumānaṃ catuṣṭayam /
+
+pramāṇeṣv anavasthānād vikalpāt sa virajyate // SB 11.19.17 //
+
+paurvāparyam ato 'mīṣāṃ prasaṅkhyānam abhīpsatām /
+
+yathā viviktaṃ yad vaktraṃ gṛhṇīmo yuktisambhavāt // SB 11.22.9 //
+
+pratyakṣeṇānumānena nigamenātmasaṃvidā /
+
+ādyantavad asaj jñātvā niḥsaṅgo vicared iha // SB 11.28.9 //
+
+jñānaṃ viveko nigamas tapaś ca pratyakṣam aitihyam athānumānam /
+
+ādyantayor asya yad eva kevalaṃ kālaś ca hetuś ca tad eva madhye // SB 11.28.18 //
+
+The Bhāgavata says that an advanced seeker engaged in inquiry is not bound by injunctions aimed at ordinary fruit-seeking action. It names śruti, perception, tradition and inference as a fourfold field of knowledge; among differing analyses, it accepts what can be clearly established through reasoning; and it joins perception, inference, scripture, inner realisation, discrimination, austerity, time and causation in discerning the world. The wording is philosophically dense and should not be flattened into the claim that every source has identical authority.
+
+11.10.4 , 11.19.17 , 11.22.9 , 11.28.9  and 11.28.18 .
+
+Bṛhaspati Smṛti — a legal decision cannot rely on scripture alone
+
+Bṛhaspati Smṛti, Vyavahārakāṇḍa 1.1.111, 114, 116–117
+
+dharmaśāstrārthaśāstrābhyām avirodhena pārthivaḥ /
+
+samīkṣamāṇo nipuṇaṃ vyavahāragatiṃ nayet // BṛhS 1.1.111 //
+
+kevalaṃ śāstram āśritya na kartavyo vinirṇayaḥ /
+
+yuktihīne vicāre tu dharmahāniḥ prajāyate // BṛhS 1.1.114 //
+
+cauro 'cauraḥ sādhv asādhu jāyate vyavahārataḥ /
+
+yuktiṃ vinā vicāreṇa māṇḍavyaś coratāṃ gataḥ // BṛhS 1.1.116 //
+
+asatyāḥ satyasadṛśāḥ satyāś cāsatyasaṃnibhāḥ /
+
+dṛśyante bhrāntijanakās tasmād yuktyā vicārayet // BṛhS 1.1.117 //
+
+In legal procedure the ruler is to examine the case carefully in a way consistent with Dharmaśāstra and Arthaśāstra. A decision must not be made by relying on scripture alone: when inquiry lacks reasoning, dharma is harmed. Without reasoned investigation an innocent person can be made a thief, and false claims can look true while true claims look false. These are judicial verses, but they state the same anti-circular principle used in the varṇa debate.
+
+Sanskrit witness: GRETIL Bṛhaspati Smṛti . The surviving text is fragmentary and transmitted in legal collections; book and pāda numbering is edition-dependent.
+
+Kauṭilya Arthaśāstra and Cāṇakya Sūtra — inquire by reasons and hear every voice
+
+Kauṭilya Arthaśāstra 1.2.10–12 and 1.15.22–23; Cāṇakya Sūtra 1.65, 2.37, 2.40 and 3.1
+
+sāṃkhyaṃ yogo lokāyataṃ cety ānvīkṣikī // KAZ01.2.10 //
+
+dharmādharmau trayyām arthānarthau vārttāyāṃ nayānayau daṇḍanītyāṃ balābale ca etāsāṃ hetubhir anvīkṣamāṇā lokasya upakaroti
+
+vyasane 'bhyudaye ca buddhim avasthāpayati prajñāvākyakriyāvaiśāradyaṃ ca karoti // KAZ01.2.11 //
+
+pradīpaḥ sarvavidyānām upāyaḥ sarvakarmaṇām /
+
+āśrayaḥ sarvadharmāṇāṃ śaśvad ānvīkṣikī matā // KAZ01.2.12 //
+
+na kaṃcid avamanyeta sarvasya śṛṇuyān matam /
+
+bālasyāpy arthavad vākyaṃ upayuñjīta paṇḍitaḥ // Kauṭilya Arthaśāstra 1.15.22–23 //
+
+na devacaritaṃ caret // Cāṇakya Sūtra 1.65 //
+
+na daivamātrapramāṇānāṃ kāryasiddhiḥ // Cāṇakya Sūtra 2.37 //
+
+pratyakṣaparokṣānumānaiḥ kāryāṇi parīkṣet // Cāṇakya Sūtra 2.40 //
+
+bālād api yuktam arthaṃ śṛṇuyāt // Cāṇakya Sūtra 3.1 //
+
+Kauṭilya calls Ānvīkṣikī—Sāṃkhya, Yoga and Lokāyata—a lamp for all sciences: it examines dharma and adharma, gain and loss, policy, strength and weakness by reasons. A wise person should despise no one, hear everyone’s view, and use a meaningful statement even from a child. Cāṇakya’s compact rules say not to imitate divine conduct, not to rely on fate alone, to examine undertakings by direct, indirect and inferential evidence, and to hear a reasonable point even from a child. The first long pāda follows the GRETIL/Wisdomlib wording; sandhi and spacing vary by edition.
+
+Kauṭilya Arthaśāstra 1.2 , Kauṭilya 1.15  and Cāṇakya Sūtra .
+
+Garuḍa Purāṇa — examine the next footing before abandoning the first
+
+Garuḍa Purāṇa 1.109.4–5
+
+calaty ekena pādena tiṣṭhaty ekena buddhimān /
+
+na parīkṣya paraṃ sthānaṃ pūrvam āyatanaṃ tyajet //
+
+tyajed deśam asad vṛttaṃ vāsaṃ sopadravaṃ tyajet /
+
+tyajet kṛpaṇarājaṃ mitraṃ māyāmayaṃ tyajet //
+
+A wise person does not abandon one footing for another without examining the alternative. One should leave a corrupt country, a dangerous residence, a miserly ruler and a deceptive friend. In the present dossier this is a practical prudence parallel: changing a guru, lineage or interpretive framework should follow examination rather than impulse.
+
+Sanskrit witness: GRETIL Garuḍa-Purāṇa . This is practical counsel, not a direct definition of varṇa.
+
 Reading the witnesses together
 
-The closest direct parallels to the Bhaviṣya Purāṇa’s explicit argument are the Sarpa dialogue in the Mahābhārata (vṛtta rather than jāti), Śānti-parvan 12.181–182 (colour and conduct tests), Anuśāsana-parvan 13.131 and Brahma Purāṇa 223 (movement between varṇas and vṛtta as the cause of dvijatva), Bhāgavata 7.11.35 (designation by lakṣaṇa), and the Vajrasūcika’s rejection of birth as the essence of a brāhmaṇa. The Gītā supplies guṇa–karma–svabhāva vocabulary; Manu 10.64–65 and Skanda 239.31 supply context-bound birth/saṃskāra transitions; Chāndogya 4.4.4–5, Nārada Bhakti Sūtra 72 and the Bhāgavata’s śvapaca passages give narrative and devotional parallels. The Mahābhārata, Āpastamba, Taittirīya, Nyāya, Yoga, Sāṃkhya, Yājñavalkyaśikṣā, Yoga Vāsiṣṭha, Liṅga, Śiva, Hari-bhakti-vilāsa, Pāñcarātra, Śaiva/Śākta Āgama and Āyurveda passages add a second, methodological current: authority is qualified by conduct, competence, pramāṇa, yukti, lived results and ethical examination. These texts are evidence for recurring śāstric currents, not proof that every Hindu text or every historical community held one uniform position.
+The closest direct parallels to the Bhaviṣya Purāṇa’s explicit argument are the Sarpa dialogue in the Mahābhārata (vṛtta rather than jāti), Śānti-parvan 12.181–182 (colour and conduct tests), Anuśāsana-parvan 13.131 and Brahma Purāṇa 223 (movement between varṇas and vṛtta as the cause of dvijatva), Bhāgavata 7.11.35 (designation by lakṣaṇa), and the Vajrasūcika’s rejection of birth as the essence of a brāhmaṇa. The Gītā supplies guṇa–karma–svabhāva vocabulary; Manu 10.64–65 and Skanda 239.31 supply context-bound birth/saṃskāra transitions; Chāndogya 4.4.4–5, Nārada Bhakti Sūtra 72 and the Bhāgavata’s śvapaca passages give narrative and devotional parallels. The Mahābhārata, Āpastamba, Taittirīya, Bṛhaspati, Kauṭilya, Nyāya, Yoga, Sāṃkhya, Yājñavalkyaśikṣā, Yoga Vāsiṣṭha, Liṅga, Śiva, Hari-bhakti-vilāsa, Garuḍa, Pāñcarātra, Śaiva/Śākta Āgama and Āyurveda passages add a second, methodological current: authority is qualified by conduct, competence, pramāṇa, yukti, lived results and ethical examination. These texts are evidence for recurring śāstric currents, not proof that every Hindu text or every historical community held one uniform position.
