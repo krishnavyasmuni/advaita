@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "checkpoints": [
+    {
+      "id": "canto-1-chapter-1-verses-1-15",
+      "range": "ŚB 1.1.1–1.1.15",
+      "status": "source-checked",
+      "english_source": "https://vedabase.io/en/library/sb/1/1/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "findings": [
+        "Vedabase English translation and synonyms match the pinned English mirror after normalizing Markdown escapes and line wrapping.",
+        "The Śrīdhara source is kept in Devanāgarī and is parsed only from the Śrīdhara Svāmī (Bhāvārtha-dīpikā) sections.",
+        "The 1949 scan is retained as an independent witness; its OCR is noisy, so the scan image takes precedence over OCR when a character-level question arises."
+      ]
+    }
+  ]
+}
