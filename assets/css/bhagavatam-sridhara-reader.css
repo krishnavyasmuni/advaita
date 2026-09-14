@@ -1,0 +1,39 @@
+/* Shared reading layout for Cantos 1–10 with Śrīdhara Svāmī. */
+.bhagavatam-sridhara-layout .article-body{width:min(920px,calc(100% - 48px))!important;margin:0 auto!important;color:#3c362e!important;font-family:Merriweather,Georgia,'Times New Roman',serif!important;font-size:16px!important;line-height:1.5!important}
+.bhagavatam-reader{width:100%;padding:8px 0 30px;background:#f4f4f4;color:#3c362e}
+.bhagavatam-reader-head{max-width:720px;margin:0 auto 28px;text-align:center}
+.bhagavatam-reader-head h1{margin:0;color:#00787a;font-family:Vollkorn,Georgia,serif;font-size:clamp(36px,6vw,48px);font-weight:400;line-height:1.08}
+.bhagavatam-reader-head p{margin:14px 0 0;color:#6c645d;font-size:15px;line-height:1.55;font-style:italic}
+.sb-reader-sources{max-width:720px;margin:22px auto 0;padding-top:16px;border-top:1px solid #ddd7cf;color:#766e64;font-size:12px;line-height:1.6;font-style:normal}
+.sb-reader-sources a{color:#6731fb;text-decoration:none}
+.sb-reader-sources a:hover{text-decoration:underline}
+.sb-status{max-width:720px;margin:0 auto 18px;color:#777;font-size:12px;line-height:1.5;text-align:center}
+.sb-status-error{color:#a92727}
+.bhagavatam-chapter-nav{max-width:720px;margin:0 auto 28px;display:flex;flex-wrap:wrap;gap:7px;justify-content:center}
+.bhagavatam-chapter-nav a{display:inline-flex;align-items:center;min-height:32px;padding:5px 9px;border:1px solid #d0cac3;border-radius:4px;background:#f8f6f2;color:#5d554e;font-size:12px;line-height:1.2;text-decoration:none}
+.bhagavatam-chapter-nav a:hover,.bhagavatam-chapter-nav a:focus-visible{border-color:#9b8aa2;color:#65516f}
+.sb-chapter-shell{min-height:36px}
+.sb-chapter{max-width:652px;margin:46px auto 18px;padding:0 0 13px;border-bottom:1px solid #d8d2cb;color:#2f7779;font-family:Vollkorn,Georgia,serif;font-size:28px;font-weight:500;line-height:1.15;text-align:left}
+.sb-loading{max-width:652px;margin:0 auto 28px;color:#777;font-size:13px;text-align:center}
+.sb-load-error{color:#a92727}
+.sb-verse-section{width:100%;max-width:652px;margin:0 auto;padding:34px 0 40px;border-top:1px solid #e0dad3;color:#3c362e;font-family:Merriweather,Georgia,'Times New Roman',serif}
+.sb-verse-section:first-of-type{border-top:0}
+.sb-verse{margin:0;padding:0;color:#2f7779;font-family:Vollkorn,Georgia,serif;font-size:22px;font-weight:500;line-height:1.1;letter-spacing:.012em;text-align:center}
+.sb-rule{width:40%;max-width:260px;height:0;margin:10px auto 20px;border:0;border-top:1px solid #d9d3cd;background:transparent}
+.sb-devanagari{max-width:620px;margin:0 auto 18px;color:#39342f;font-family:Merriweather,Georgia,'Times New Roman',serif;font-size:20.5px;font-style:normal;font-weight:400;line-height:1.64;text-align:center}
+.sb-devanagari span{display:inline}
+.sb-translation{display:block;max-width:610px;margin:0 auto 22px;padding:0 0 0 16px;border-left:2px solid #aaa0ad;color:#4d464e;font-family:Merriweather,Georgia,'Times New Roman',serif;font-size:16.4px;font-style:normal;font-weight:400;line-height:1.7;text-align:left}
+.sb-details{display:block;width:100%;max-width:652px;margin:0 auto 8px;padding:0;border:0;border-radius:0;background:transparent;overflow:visible}
+.sb-details>summary{display:inline-flex;align-items:center;min-height:36px;width:auto;max-width:100%;margin:0;padding:7px 11px;cursor:pointer;list-style:none;border:1px solid #d0cac3;border-radius:4px;background:#f8f6f2;color:#5d554e;font-family:Merriweather,Georgia,'Times New Roman',serif;font-size:12.8px;font-weight:400;line-height:1.2;text-align:left}
+.sb-details>summary::-webkit-details-marker{display:none}
+.sb-details[open]{margin-top:4px;padding-top:10px;border-top:1px solid #e0dad3}
+.sb-bhasya>summary{border-color:#cbbecf;color:#65516f}
+.sb-source-block{margin:0 0 16px}
+.sb-source-block:last-child{margin-bottom:0}
+.sb-source-label{display:block;margin:0 0 7px;color:#a92727;font-size:13px;font-weight:700}
+.sb-source-content{color:#4d464e;font-size:15px;line-height:1.7;text-align:left}
+.sb-source-content[lang="sa-Deva"]{font-size:18px;line-height:1.8}
+.sb-source-content em{font-style:italic}
+.sb-word-details .sb-source-label{color:#a92727}
+.sb-transliteration-details .sb-source-content{font-size:15px}
+@media(max-width:720px){.bhagavatam-sridhara-layout .article-body{width:100%!important}.bhagavatam-reader{padding:4px 16px 24px}.bhagavatam-reader-head h1{font-size:37px}.bhagavatam-chapter-nav{justify-content:flex-start}.bhagavatam-chapter-nav a{min-height:34px}.sb-chapter{margin-top:38px}.sb-devanagari{font-size:19px;line-height:1.72}.sb-translation{font-size:15.5px;line-height:1.75}.sb-source-content{font-size:14.5px;line-height:1.75}.sb-source-content[lang="sa-Deva"]{font-size:17px}}
