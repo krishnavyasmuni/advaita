@@ -440,8 +440,8 @@
   }
 
   function commentaryUrl(manifest) {
-    const path = manifest.english_commentary && manifest.english_commentary.path;
-    if (!path) return '';
+    const path = (manifest.english_commentary && manifest.english_commentary.path) ||
+      'assets/data/bhagavatam-sridhara-english-checkpoints.json';
     return path.charAt(0) === '/' ? path : '/vivekadrishti/' + path;
   }
 
