@@ -57,6 +57,21 @@ const clean=()=>{
 
     if(t.startsWith('The old English on the source page inserted “not” into saṃskāras tena kāraṇam.')){
       p.textContent='The printed Sanskrit has saṃskāras tena kāraṇam, with no na. The line is textually difficult because the preceding half says that he became a brāhmaṇa through tapas.';
+      return;
+    }
+
+    if(t==='The next verses are too direct to bury inside a general summary. They reject fixed varṇa-colours and then list ordinary human features which are shared.'){
+      p.textContent='These verses reject fixed varṇa-colours and then list ordinary human features which are shared.';
+      return;
+    }
+
+    if(t==='Another proposed sign is special mantra-power, the ability to curse or bless, or some other spiritual capacity. The discussion does not stop at verse 17; it also answers the attempt to restrict the problem to Kali-yuga or bad dvijas.'){
+      p.textContent='Another proposed sign is special mantra-power, the ability to curse or bless, or some other spiritual capacity. The passage also answers the attempt to restrict the problem to Kali-yuga or bad dvijas.';
+      return;
+    }
+
+    if(t.startsWith('This is a long moral catalogue, but it is not detached filler. It precedes 1.43.37')){
+      p.textContent='This moral catalogue precedes 1.43.37’s tasmāt (“therefore”) and lists violence, deceit, wrong livelihood, śūdra-karma, anger and other conduct condemned by the text.';
     }
   });
 
