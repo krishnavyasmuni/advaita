@@ -268,7 +268,8 @@
       const content = document.createElement('div');
       content.className = 'sb-source-content';
       if (block.lang) content.lang = block.lang;
-      if (block.kind === 'synonyms') appendSynonyms(content, block.text);\n      else appendLines(content, block.text, Boolean(block.italic));
+      if (block.kind === 'synonyms') appendSynonyms(content, block.text);
+      else appendLines(content, block.text, Boolean(block.italic));
       wrapper.append(sourceLabel, content);
       details.appendChild(wrapper);
     });
