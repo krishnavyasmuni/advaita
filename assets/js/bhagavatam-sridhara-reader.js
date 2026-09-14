@@ -442,7 +442,7 @@
   function commentaryUrl(manifest) {
     const path = (manifest.english_commentary && manifest.english_commentary.path) ||
       'assets/data/bhagavatam-sridhara-english-checkpoints.json';
-    const versionedPath = path + (path.includes('?') ? '&' : '?') + 'v=20260914-3';
+    const versionedPath = path + (path.includes('?') ? '&' : '?') + 'v=20260914-4';
     return versionedPath.charAt(0) === '/' ? versionedPath : '/vivekadrishti/' + versionedPath;
   }
 
