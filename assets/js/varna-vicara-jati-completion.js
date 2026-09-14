@@ -41,8 +41,9 @@ const notes={
 };
 
 const verseData=(doc,id)=>{
-  const sec=doc.getElementById(id);
-  if(!sec)throw new Error(`Missing ${id}`);
+  const heading=doc.getElementById(id);
+  if(!heading)throw new Error(`Missing ${id}`);
+  const sec=heading.closest('section')||heading;
   const sa=sec.querySelector(':scope > div[lang="sa"]');
   const ps=[...sec.querySelectorAll(':scope > p')];
   return {
@@ -52,6 +53,16 @@ const verseData=(doc,id)=>{
     translation:literal[id]||ps[0]?.textContent.trim()||'',
     note:notes[id]||''
   };
+};
+
+const removeRequestedMeta=()=>{
+  root.querySelectorAll('p').forEach(p=>{
+    const t=p.textContent.trim();
+    if(t.startsWith('The earlier draft left out too much of this discussion.')||
+       t.startsWith('Translation note. The tarka passages below have been retranslated closely from the Sanskrit.')){
+      p.remove();
+    }
+  });
 };
 
 const bindDetails=d=>{
@@ -157,6 +168,7 @@ bridge44:{
 
 let done=false;
 const apply=async()=>{
+  removeRequestedMeta();
   if(done)return;
   if(!sectionByTitle('The question is jāti or karma')||!sectionByTitle('Varṇa by svabhāva, guṇa, karma, śīla and ācāra'))return;
   done=true;
@@ -171,6 +183,7 @@ const apply=async()=>{
     insertAfter(doc,'Same birth-source and mixed dharmas',additions.sharedContinuation,'43-shared-continuation');
     insertAfter(doc,'The list of shared human conditions continues',additions.conductCatalogue,'43-conduct-catalogue');
     insertBefore(doc,'Varṇa by svabhāva, guṇa, karma, śīla and ācāra',additions.bridge44,'44-bridge');
+    removeRequestedMeta();
   }catch(e){
     console.error('Could not apply jāti audit completion',e);
   }
