@@ -24,6 +24,12 @@
     "year": 1949,
     "note": "Used as the independent comparison edition for the Śrīdhara Sanskrit readings; OCR is treated as a checking aid, not as a silent correction layer."
   },
+  "verification": {
+    "first_checkpoint": "ŚB 1.1.1–1.1.15",
+    "english_fields": "Vedabase advanced-view English translation and synonyms match the pinned English mirror after normalizing whitespace and Markdown escapes.",
+    "sanskrit_fields": "The primary source is retained verbatim in Devanāgarī; punctuation and line wrapping are not silently harmonized with Vedabase.",
+    "independent_scan": "The 1949 Śrīdharī edition is recorded as the independent comparison source; its OCR is visibly noisy, so doubtful readings must be resolved against the scan image or a second Sanskrit witness."
+  },
   "cantos": {
     "1": {
       "chapter_count": 19,
@@ -48,6 +54,7 @@
         "18": "01/18_aShTAdasho-dhyAyaH.md",
         "19": "01/19_athonaviMshatitamo-dhyAyaH.md"
       },
+      "merged_source_ranges": [],
       "english_path_template": "01/{chapter2}.md"
     },
     "2": {
@@ -64,10 +71,11 @@
         "9": "02/09_chatuHshloka-bhAgavatam.md",
         "10": "02/10_indriyAdy-utpattiH.md"
       },
+      "merged_source_ranges": [],
       "english_path_template": "02/{chapter2}.md"
     },
     "3": {
-      "chapter_count": 24,
+      "chapter_count": 33,
       "sridhara_paths": {
         "1": "03/01_vidurasyoddhavena_saha_samAgamaH.md",
         "2": "03/02_kRShNa-bAla-lIlA-varNanam.md",
@@ -92,8 +100,24 @@
         "21": "03/21_kardama-manU.md",
         "22": "03/22_kardama-devahUti-vivAhaH.md",
         "23": "03/23_nava-kanyAnAm_utpattiH.md",
-        "24": "03/24_kapilAvatAraH.md"
+        "24": "03/24_kapilAvatAraH.md",
+        "25": "03/24_kapilAvatAraH.md",
+        "26": "03/24_kapilAvatAraH.md",
+        "27": "03/24_kapilAvatAraH.md",
+        "28": "03/24_kapilAvatAraH.md",
+        "29": "03/24_kapilAvatAraH.md",
+        "30": "03/24_kapilAvatAraH.md",
+        "31": "03/24_kapilAvatAraH.md",
+        "32": "03/24_kapilAvatAraH.md",
+        "33": "03/24_kapilAvatAraH.md"
       },
+      "merged_source_ranges": [
+        {
+          "from": 24,
+          "to": 33,
+          "path": "03/24_kapilAvatAraH.md"
+        }
+      ],
       "english_path_template": "03/{chapter2}.md"
     },
     "4": {
@@ -131,6 +155,7 @@
         "30": "04/30.md",
         "31": "04/31.md"
       },
+      "merged_source_ranges": [],
       "english_path_template": "04/{chapter2}.md"
     },
     "5": {
@@ -163,6 +188,7 @@
         "25": "05/25_sankarShaNa-mAhAtmyaM.md",
         "26": "05/26_naraka-varNanaM.md"
       },
+      "merged_source_ranges": [],
       "english_path_template": "05/{chapter2}.md"
     },
     "6": {
@@ -188,6 +214,7 @@
         "18": "06/18_marud-utpattir_nAma.md",
         "19": "06/19_puMsavana-vrata-kathanaM.md"
       },
+      "merged_source_ranges": [],
       "english_path_template": "06/{chapter2}.md"
     },
     "7": {
@@ -209,6 +236,7 @@
         "14": "07/14_sadAchAra-nirNaye.md",
         "15": "07/15_yudhiShThira-nArada-saMvAdaH.md"
       },
+      "merged_source_ranges": [],
       "english_path_template": "07/{chapter2}.md"
     },
     "8": {
@@ -239,6 +267,7 @@
         "23": "08/23_vali-vAmana-charitaM.md",
         "24": "08/24_matsyAvatAra-charitam.md"
       },
+      "merged_source_ranges": [],
       "english_path_template": "08/{chapter2}.md"
     },
     "9": {
@@ -269,6 +298,7 @@
         "23": "09/23_yadu-vaMsha-kathane.md",
         "24": "09/24_yadu-vaMshAnukIrtanam.md"
       },
+      "merged_source_ranges": [],
       "english_path_template": "09/{chapter2}.md"
     },
     "10": {
@@ -277,7 +307,7 @@
       "sridhara_path_template": "assets/data/canto10-sridhara-source/{chapter2}.json",
       "remote_path_root": "bhAgavatam/gauDIya-prastutiH/10",
       "english_path_template": "10/{chapter2}.md",
-      "note": "Canto 10's primary corpus is organized in range folders and contains a few legacy filename gaps; the site’s checked-in JSON cache preserves the chapter mapping and source_available flags."
+      "note": "Canto 10’s primary corpus is organized in range folders and contains legacy filename gaps; the checked-in JSON cache preserves the chapter mapping and source_available flags."
     }
   }
 }
