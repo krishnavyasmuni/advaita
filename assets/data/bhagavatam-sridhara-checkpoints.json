@@ -181,6 +181,44 @@
         "sridhara_records_with_text": 31,
         "literal_english_records": 15
       }
+    },
+    {
+      "id": "canto-1-chapter-5-verses-1-15",
+      "range": "ŚB 1.5.1–1.5.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/5/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/05_nArada-vyAsa-saMvAdaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.5.1",
+        "1.5.2",
+        "1.5.3",
+        "1.5.4",
+        "1.5.5",
+        "1.5.6",
+        "1.5.7",
+        "1.5.8",
+        "1.5.9",
+        "1.5.10",
+        "1.5.11",
+        "1.5.12",
+        "1.5.13",
+        "1.5.14",
+        "1.5.15"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks, with the source’s notes retained where present.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-5-live#chapter-5",
+        "displayed_records": 27,
+        "sridhara_records_with_text": 27,
+        "literal_english_records": 15
+      }
     }
   ]
 }
