@@ -309,5 +309,10 @@
       "english_path_template": "10/{chapter2}.md",
       "note": "Canto 10’s primary corpus is organized in range folders and contains legacy filename gaps; the checked-in JSON cache preserves the chapter mapping and source_available flags."
     }
+  },
+  "english_commentary": {
+    "path": "assets/data/bhagavatam-sridhara-english-checkpoints.json",
+    "mode": "checkpointed-original-renderings",
+    "note": "Only tracked original English renderings are shown; otherwise the full Sanskrit source remains visible and the reader states that no English rendering has yet been added."
   }
 }
