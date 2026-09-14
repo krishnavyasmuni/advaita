@@ -1,0 +1,44 @@
+{
+  "endpoint": "https://dharmamitra.org/api/tagging/",
+  "mode": "segmentation-lemma-morphosyntax",
+  "verses": {
+    "15": {
+      "chunks": [
+        {
+          "index": 0,
+          "input": "eteṣāmeva sarvakarmahetutvamāha śarīreti",
+          "raw": "eteṣām_eva_sarva_karma_hetutvam_āha_śarīra_iti_"
+        },
+        {
+          "index": 1,
+          "input": "yathoktaiḥ pañcabhiḥ prārabhyamāṇaṃ karma triṣvevāntarbhāvyaśarīravāṅmanobhirityuktaṃ śārīraṃ vācikaṃ mānasaṃ ca trividhaṃ karmeti prasiddheḥ",
+          "raw": "yathā_uktaiḥ_pañcabhiḥ_prārabhyamāṇam_karma_triṣu_eva_antarbhāvya_śarīra_vāc_manobhiḥ_iti_uktam_śārīram_vācikam_mānasam_ca_trividham_karma_iti_prasiddheḥ_"
+        },
+        {
+          "index": 2,
+          "input": "śarīrādibhiryadyatkarma dharmya vā'dharmyaṃ vā karoti narastasya sarvasya karmaṇa ete pañca hetavaḥ",
+          "raw": "harīra_ādibhiḥ_yat_yat_karma_dharmya_vā_adharmyam_vā_karoti_naraḥ_tasya_sarvasya_karmaṇaḥ_ete_pañca_hetavaḥ_"
+        }
+      ]
+    },
+    "16": {
+      "chunks": [
+        {
+          "index": 0,
+          "input": "tataḥ kimata āha tatreti",
+          "raw": "tatas_kim_atas_āha_tatra_iti_"
+        },
+        {
+          "index": 1,
+          "input": "tatra sarvasminkarmaṇi ete pañca hetava ityevaṃ sati kevalaṃ nirupādhikamasaṅgamātmānaṃ tu yaḥ kartāraṃ paśyati śāstrācāryopadeśatyāgenāsaṃskṛtabuddhitvāddurmatirasau samyaṅna",
+          "raw": "tatra_sarvasmin_karmaṇi_ete_pañca_hetavaḥ_iti_evam_sati_kevalam_nirupādhikam_asaṅgam_ātmānam_tu_yaḥ_kartāram_paśyati_śāstra_ācārya_upadeśa_tyāgena_asaṃskṛta_buddhi_tvāt_durmatiḥ_asau_samyak_na_"
+        },
+        {
+          "index": 2,
+          "input": "paśyati",
+          "raw": "paśyati_"
+        }
+      ]
+    }
+  }
+}

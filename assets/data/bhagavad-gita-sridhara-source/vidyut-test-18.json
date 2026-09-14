@@ -1,0 +1,439 @@
+{
+  "verses": {
+    "15": {
+      "sanskrit": "एतेषामेव सर्वकर्महेतुत्वमाह -- शरीरेति। यथोक्तैः पञ्चभिः प्रारभ्यमाणं कर्म त्रिष्वेवान्तर्भाव्यशरीरवाङ्मनोभिरित्युक्तं शारीरं वाचिकं मानसं च त्रिविधं कर्मेति प्रसिद्धेः। शरीरादिभिर्यद्यत्कर्म धर्म्य वाऽधर्म्यं वा करोति नरस्तस्य सर्वस्य कर्मण एते पञ्च हेतवः।",
+      "tokens": [
+        {
+          "surface_slp1": "etezAm",
+          "lemma_slp1": "etad",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='etad'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sasthi, vacana=Vacana.Bahu)"
+        },
+        {
+          "surface_slp1": "eva",
+          "lemma_slp1": "eva",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='eva'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "sas",
+          "lemma_slp1": "sa",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='sa'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "rU",
+          "lemma_slp1": "ru",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='ru'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Dvi)"
+        },
+        {
+          "surface_slp1": "ak",
+          "lemma_slp1": "aj",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='aja~', gana=Gana.Bhvadi), clean_text='aj', artha_sa='gatikzepaRayoH'), krt=Krt.kvip, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "ar",
+          "lemma_slp1": "f",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='f'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "mahet",
+          "lemma_slp1": "mah",
+          "info": "PadaEntry.Tinanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='maha~', gana=Gana.Bhvadi), clean_text='mah', artha_sa='pUjAyAm'), prayoga=Prayoga.Kartari, lakara=Lakara.VidhiLin, purusha=Purusha.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "ut",
+          "lemma_slp1": "u",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='u\\N', gana=Gana.Bhvadi), clean_text='u', artha_sa='Sabde'), krt=Krt.kvip, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "vam",
+          "lemma_slp1": "av",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='ava~', gana=Gana.Bhvadi), clean_text='av', artha_sa='rakzaRagatikAntiprItitfptyavagamapraveSaSravaRasvAmyarTayAcanakriyecCAdIptyavAptyAliNganahiMsAdAnaBAgavfdDizu'), krt=Krt.kvip, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "Aha",
+          "lemma_slp1": "brU",
+          "info": "PadaEntry.Tinanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='brUY', gana=Gana.Adadi), clean_text='brU', artha_sa='vyaktAyAM vAci'), prayoga=Prayoga.Kartari, lakara=Lakara.Lat, purusha=Purusha.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "--",
+          "lemma_slp1": null,
+          "info": "None"
+        },
+        {
+          "surface_slp1": "",
+          "lemma_slp1": null,
+          "info": "None"
+        },
+        {
+          "surface_slp1": "SarIra",
+          "lemma_slp1": "SarIra",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='SarIra'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "Iti",
+          "lemma_slp1": "Iti",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='Iti', is_avyaya=True), lingas=[]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "yaTA",
+          "lemma_slp1": "yaTA",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='yaTA', is_avyaya=True), lingas=[]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "uktEs",
+          "lemma_slp1": "vac",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='va\\ca~', gana=Gana.Adadi), clean_text='vac', artha_sa='pariBAzaRe'), krt=Krt.kta, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Trtiya, vacana=Vacana.Bahu)"
+        },
+        {
+          "surface_slp1": "paYcaBir",
+          "lemma_slp1": null,
+          "info": "None"
+        },
+        {
+          "surface_slp1": "pra",
+          "lemma_slp1": "pra",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='pra'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "AraByamARam",
+          "lemma_slp1": "AraB",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='ra\\Ba~\\', gana=Gana.Bhvadi, prefixes=['AN']), clean_text='AraB', artha_sa='rABasye'), krt=Krt.SAnac, prayoga=Prayoga.Karmani, lakara=Lakara.Lat), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "karma",
+          "lemma_slp1": "karman",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='karman'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "trizvevAntarBAvyaSarIravANmanoBirityuktam",
+          "lemma_slp1": null,
+          "info": "None"
+        },
+        {
+          "surface_slp1": "SArIram",
+          "lemma_slp1": "SArIra",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='SArIra'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "vAcikam",
+          "lemma_slp1": "vAcika",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='vAcika'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "mAnas",
+          "lemma_slp1": "mA",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='mA\\', gana=Gana.Adadi), clean_text='mA', artha_sa='mAne'), krt=Krt.lyuw, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "am",
+          "lemma_slp1": "a",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='a'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "ca",
+          "lemma_slp1": "ca",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='ca'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "triviDam",
+          "lemma_slp1": "triviDa",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='triviDa'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "karma",
+          "lemma_slp1": "karman",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='karman'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "iti",
+          "lemma_slp1": "i",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='i\\R', gana=Gana.Adadi), clean_text='i', artha_sa='gatO'), krt=Krt.ktic, prayoga=None, lakara=None), linga=Linga.Napumsaka, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "prasidDes",
+          "lemma_slp1": "prasiD",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='zi\\Du~', gana=Gana.Divadi, prefixes=['pra']), clean_text='prasiD', artha_sa='saMrAdDO'), krt=Krt.ktic, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Panchami, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "SarIra",
+          "lemma_slp1": "SarIra",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='SarIra'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "AdiBis",
+          "lemma_slp1": "AdA",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='qudA\\Y', gana=Gana.Juhotyadi, prefixes=['AN']), clean_text='AdA', artha_sa='dAne'), krt=Krt.ki, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Trtiya, vacana=Vacana.Bahu)"
+        },
+        {
+          "surface_slp1": "yat",
+          "lemma_slp1": "yat",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='yatI~\\', gana=Gana.Bhvadi), clean_text='yat', artha_sa='prayatne'), krt=Krt.kvip, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "yat",
+          "lemma_slp1": "yat",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='yatI~\\', gana=Gana.Bhvadi), clean_text='yat', artha_sa='prayatne'), krt=Krt.kvip, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "karma",
+          "lemma_slp1": "karman",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='karman'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "DA",
+          "lemma_slp1": "DA",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='quDA\\Y', gana=Gana.Juhotyadi), clean_text='DA', artha_sa='DAraRapozaRayoH'), krt=Krt.Ga, prayoga=None, lakara=None), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "Fm",
+          "lemma_slp1": "F",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='F'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "ya",
+          "lemma_slp1": "yad",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='yad'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "vA'Darmyam",
+          "lemma_slp1": null,
+          "info": "None"
+        },
+        {
+          "surface_slp1": "vA",
+          "lemma_slp1": "vA",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='vA\\', gana=Gana.Adadi), clean_text='vA', artha_sa='gatiganDanayoH'), krt=Krt.kvip, prayoga=None, lakara=None), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "karoti",
+          "lemma_slp1": "kf",
+          "info": "PadaEntry.Tinanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='qukf\\Y', gana=Gana.Tanadi), clean_text='kf', artha_sa='karaRe'), prayoga=Prayoga.Kartari, lakara=Lakara.Lat, purusha=Purusha.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "nar",
+          "lemma_slp1": "nf",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='nf'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "astasya",
+          "lemma_slp1": "as",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='asu~', gana=Gana.Divadi), clean_text='as', artha_sa='kzepaRe'), krt=Krt.kta, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Sasthi, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "sarvasya",
+          "lemma_slp1": "sarva",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='sarva'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Sasthi, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "karmaRe",
+          "lemma_slp1": "karman",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='karman'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Caturthi, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "a",
+          "lemma_slp1": "a",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='a'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "ite",
+          "lemma_slp1": "iti",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='iti'), lingas=[Linga.Stri]), linga=Linga.Stri, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "paYca",
+          "lemma_slp1": "paYci",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='paci~\\', gana=Gana.Bhvadi, sanadi=[Sanadi.Ric]), clean_text='paYci', artha_sa='vyaktIkaraRe'), krt=Krt.ac, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "hetavas",
+          "lemma_slp1": "hetu",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='hetu'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Bahu)"
+        }
+      ]
+    },
+    "16": {
+      "sanskrit": "ततः किमत आह -- तत्रेति। तत्र सर्वस्मिन्कर्मणि एते पञ्च हेतव इत्येवं सति केवलं निरुपाधिकमसङ्गमात्मानं तु यः कर्तारं पश्यति शास्त्राचार्योपदेशत्यागेनासंस्कृतबुद्धित्वाद्दुर्मतिरसौ सम्यङ्न पश्यति।",
+      "tokens": [
+        {
+          "surface_slp1": "tatas",
+          "lemma_slp1": "tatas",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='tatas', is_avyaya=True), lingas=[]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "kim",
+          "lemma_slp1": "kim",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='kim', is_avyaya=True), lingas=[]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "ata",
+          "lemma_slp1": "at",
+          "info": "PadaEntry.Tinanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='ata~', gana=Gana.Bhvadi), clean_text='at', artha_sa='sAtatyagamane'), prayoga=Prayoga.Kartari, lakara=Lakara.Lot, purusha=Purusha.Madhyama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "Aha",
+          "lemma_slp1": "brU",
+          "info": "PadaEntry.Tinanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='brUY', gana=Gana.Adadi), clean_text='brU', artha_sa='vyaktAyAM vAci'), prayoga=Prayoga.Kartari, lakara=Lakara.Lat, purusha=Purusha.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "--",
+          "lemma_slp1": null,
+          "info": "None"
+        },
+        {
+          "surface_slp1": "",
+          "lemma_slp1": null,
+          "info": "None"
+        },
+        {
+          "surface_slp1": "tat",
+          "lemma_slp1": "tad",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='tad'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "f",
+          "lemma_slp1": "f",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='f\\', gana=Gana.Juhotyadi, sanadi=[Sanadi.yaNluk]), clean_text='f', artha_sa='gatO'), krt=Krt.kvip, prayoga=None, lakara=None), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "eti",
+          "lemma_slp1": "i",
+          "info": "PadaEntry.Tinanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='i\\k', gana=Gana.Adadi), clean_text='i', artha_sa='smaraRe'), prayoga=Prayoga.Kartari, lakara=Lakara.Lat, purusha=Purusha.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "tat",
+          "lemma_slp1": "tad",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='tad'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "ra",
+          "lemma_slp1": "ra",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='ra'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "sarvasmin",
+          "lemma_slp1": "sarva",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='sarva'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Saptami, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "karmaRi",
+          "lemma_slp1": "karman",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='karman'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Saptami, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "a",
+          "lemma_slp1": "a",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='a'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "ite",
+          "lemma_slp1": "iti",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='iti'), lingas=[Linga.Stri]), linga=Linga.Stri, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "paYca",
+          "lemma_slp1": "paYci",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='paci~\\', gana=Gana.Bhvadi, sanadi=[Sanadi.Ric]), clean_text='paYci', artha_sa='vyaktIkaraRe'), krt=Krt.ac, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "hetave",
+          "lemma_slp1": "hetu",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='hetu'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Caturthi, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "itI",
+          "lemma_slp1": "iti",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='iti'), lingas=[Linga.Stri]), linga=Linga.Stri, vibhakti=Vibhakti.Prathama, vacana=Vacana.Dvi)"
+        },
+        {
+          "surface_slp1": "evam",
+          "lemma_slp1": "eva",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='eva'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "sati",
+          "lemma_slp1": "sat",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='sat'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Saptami, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "kevalam",
+          "lemma_slp1": "kevala",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='kevala'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "nirupA",
+          "lemma_slp1": "nirvap",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='quva\\pa~^', gana=Gana.Bhvadi, prefixes=['nir']), clean_text='nirvap', artha_sa='bIjasantAne garBADAne Cedane bIjatantusantAne muRqabIjoptyoH vapane GarzaRe tantunirmARe ca'), krt=Krt.kvip, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Trtiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "aDikam",
+          "lemma_slp1": "aDika",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='aDika'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "as",
+          "lemma_slp1": "a",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='a'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "aNgam",
+          "lemma_slp1": "aNga",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='aNga'), lingas=[Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "At",
+          "lemma_slp1": "a",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='a'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Panchami, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "mAnam",
+          "lemma_slp1": "mA",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='mA\\', gana=Gana.Adadi), clean_text='mA', artha_sa='mAne'), krt=Krt.lyuw, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "tu",
+          "lemma_slp1": "tu",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='tu', is_avyaya=True), lingas=[]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "yas",
+          "lemma_slp1": "I",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='I'), lingas=[Linga.Pum]), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Bahu)"
+        },
+        {
+          "surface_slp1": "kartAram",
+          "lemma_slp1": "kf",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='kf\\Y', gana=Gana.Svadi), clean_text='kf', artha_sa='hiMsAyAm'), krt=Krt.tfc, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Dvitiya, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "paSyati",
+          "lemma_slp1": "dfS",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='df\\Si~r', gana=Gana.Bhvadi), clean_text='dfS', artha_sa='prekzaRe'), krt=Krt.Satf, prayoga=Prayoga.Kartari, lakara=Lakara.Lat), linga=Linga.Pum, vibhakti=Vibhakti.Saptami, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "SAstrAcAryopadeSatyAgenAsaMskftabudDitvAddurmatirasO",
+          "lemma_slp1": null,
+          "info": "None"
+        },
+        {
+          "surface_slp1": "sami",
+          "lemma_slp1": "sam",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='zama~', gana=Gana.Bhvadi), clean_text='sam', artha_sa='avEkalye'), krt=Krt.Rini, prayoga=None, lakara=None), linga=Linga.Napumsaka, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "ak",
+          "lemma_slp1": "aj",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='aja~', gana=Gana.Bhvadi), clean_text='aj', artha_sa='gatikzepaRayoH'), krt=Krt.kvip, prayoga=None, lakara=None), linga=Linga.Pum, vibhakti=Vibhakti.Prathama, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "na",
+          "lemma_slp1": "na",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Basic(pratipadika=Pratipadika(text='na'), lingas=[Linga.Pum, Linga.Stri, Linga.Napumsaka]), linga=Linga.Napumsaka, vibhakti=Vibhakti.Sambodhana, vacana=Vacana.Eka)"
+        },
+        {
+          "surface_slp1": "paSyati",
+          "lemma_slp1": "dfS",
+          "info": "PadaEntry.Subanta(pratipadika_entry=PratipadikaEntry.Krdanta(dhatu_entry=DhatuEntry(dhatu=Dhatu(aupadeshika='df\\Si~r', gana=Gana.Bhvadi), clean_text='dfS', artha_sa='prekzaRe'), krt=Krt.Satf, prayoga=Prayoga.Kartari, lakara=Lakara.Lat), linga=Linga.Pum, vibhakti=Vibhakti.Saptami, vacana=Vacana.Eka)"
+        }
+      ]
+    }
+  }
+}

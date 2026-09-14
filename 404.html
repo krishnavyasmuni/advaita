@@ -1,1 +1,67 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>Page not found — Viveka Dṛṣṭi</title><link rel="stylesheet" href="/vivekadrishti/assets/css/site.css"><script>(()=>{const b='/vivekadrishti/',p=decodeURIComponent(location.pathname),s=new Map([['/vivekadrishti/introduction-to-hinduism/',b+'pages/introduction-to-hinduism/'],['/vivekadrishti/indology/',b+'pages/indology/'],['/vivekadrishti/purana-library/',b+'pages/purana-library/'],['/vivekadrishti/bhagavatam-with-sridhara-bhasya/',b+'pages/bhagavatam-with-sridhara-bhasya/'],['/vivekadrishti/bhavishya-purana-brahmaparvan/',b+'pages/bhavishya-purana-brahmaparvan/']]);if(s.has(p)){location.replace(s.get(p));return}const m=p.match(/^\/vivekadrishti\/\d{4}\/\d{2}\/\d{2}\/([^/]+)\/?$/);if(m){location.replace(b+'articles/'+encodeURIComponent(m[1].replaceAll('│','-'))+'/')}})()</script></head><body><main class="site-main"><section class="not-found"><h1>Page not found</h1><p>The address does not match a page in Viveka Dṛṣṭi.</p><p><a href="/vivekadrishti/articles/">Browse all writings</a></p></section></main><script src="/vivekadrishti/assets/js/site.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Viveka Dṛṣṭi — Hindu scripture, philosophy, translation, and Indology.">
+  <meta name="color-scheme" content="light">
+  <title>Page not found — Viveka Dṛṣṭi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Vollkorn:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/vivekadrishti/assets/css/site.css">
+  <script>
+    (() => {
+      const sections = new Map([
+        ['/vivekadrishti/introduction-to-hinduism/', '/vivekadrishti/pages/introduction-to-hinduism/'],
+        ['/vivekadrishti/indology/', '/vivekadrishti/pages/indology/'],
+        ['/vivekadrishti/purana-library/', '/vivekadrishti/pages/purana-library/'],
+        ['/vivekadrishti/bhagavatam-with-sridhara-bhasya/', '/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/'],
+        ['/vivekadrishti/bhavishya-purana-brahmaparvan/', '/vivekadrishti/pages/bhavishya-purana-brahmaparvan/'],
+        ['/vivekadrishti/bhagavad-gita/', '/vivekadrishti/pages/bhagavad-gita/']
+      ]);
+
+      if (sections.has(location.pathname)) {
+        location.replace(sections.get(location.pathname));
+        return;
+      }
+
+      const match = location.pathname.match(/^\/vivekadrishti\/\d{4}\/\d{2}\/\d{2}\/([^/]+)\/?$/);
+      if (!match) return;
+
+      const oldSlug = decodeURIComponent(match[1]);
+      const removed = new Set([
+        'a-sastric-lens-of-varṇa-part-one-design-draft',
+        'design-preview-a-shashtric-lens-of-varna-part-one',
+        'test-a-shashtric-lens-of-varna-part-one'
+      ]);
+
+      if (removed.has(oldSlug)) {
+        location.replace('/vivekadrishti/articles/');
+        return;
+      }
+
+      const cleanSlug = oldSlug.replaceAll('│', '-');
+      location.replace('/vivekadrishti/articles/' + encodeURIComponent(cleanSlug) + '/');
+    })();
+  </script>
+</head>
+<body class="not-found-page">
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/vivekadrishti/">Viveka Dṛṣṭi</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="/vivekadrishti/">Home</a>
+        <a href="/vivekadrishti/pages/introduction-to-hinduism/">Introduction to Hinduism</a>
+        <a href="/vivekadrishti/pages/indology/">Indology</a>
+        <a href="/vivekadrishti/pages/purana-library/">Purāṇa Library</a>
+        <a href="/vivekadrishti/pages/bhagavad-gita/">Bhagavad Gītā</a>
+      </nav>
+    </div>
+  </header>
+  <main class="site-main"><section class="not-found"><h1>Page not found</h1><p>The address does not match a page in Viveka Dṛṣṭi.</p><p><a href="/vivekadrishti/articles/">Browse all writings</a></p></section></main>
+  <footer class="site-footer"><p>Viveka Dṛṣṭi</p></footer>
+  <script src="/vivekadrishti/assets/js/site.js"></script>
+</body>
+</html>
