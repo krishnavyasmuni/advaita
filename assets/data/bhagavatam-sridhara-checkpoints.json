@@ -689,6 +689,89 @@
         "literal_english_source_blocks": 14,
         "verified_range": "1.17.1–1.17.15"
       }
+    },
+    {
+      "id": "canto-1-chapter-18-verses-1-15",
+      "range": "ŚB 1.18.1–1.18.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/18/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/18_aShTAdasho-dhyAyaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.18.1",
+        "1.18.2",
+        "1.18.3",
+        "1.18.4",
+        "1.18.5",
+        "1.18.6",
+        "1.18.7",
+        "1.18.8",
+        "1.18.9",
+        "1.18.10",
+        "1.18.11",
+        "1.18.12",
+        "1.18.13",
+        "1.18.14",
+        "1.18.15"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms for verses 1–15 were checked against the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping; the wording matches.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks, with no added purport or separately labeled commentator text.",
+        "All first-15 displayed records have the corresponding Śrīdhara Sanskrit and literal English layers in the live reader.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/1/18/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=chapter-18-final-check#chapter-18",
+        "displayed_records": 49,
+        "sridhara_records_with_text": 49,
+        "literal_english_records": 15,
+        "literal_english_source_blocks": 15,
+        "verified_range": "1.18.1–1.18.15"
+      }
+    },
+    {
+      "id": "canto-1-chapter-19-verses-1-15",
+      "range": "ŚB 1.19.1–1.19.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/19/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/19_athonaviMshatitamo-dhyAyaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.19.5",
+        "1.19.6",
+        "1.19.7",
+        "1.19.8–1.19.10",
+        "1.19.11",
+        "1.19.12",
+        "1.19.13",
+        "1.19.14",
+        "1.19.15"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms for verses 1–15 were checked against the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping; the wording matches.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks, with no added purport or separately labeled commentator text.",
+        "The 1.19.9–1.19.10 Vedabase display record remains mapped to the source block spanning 1.19.8–1.19.10.",
+        "The separately labeled Digdarśinī quotation following 1.19.14 is excluded from the Śrīdhara Sanskrit and literal-English layers.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/1/19/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=chapter-19-boundary-fixed-v2#chapter-19",
+        "displayed_records": 39,
+        "sridhara_records_with_text": 39,
+        "literal_english_records": 14,
+        "literal_english_source_blocks": 13,
+        "verified_range": "1.19.1–1.19.15"
+      }
     }
   ]
 }
