@@ -1185,6 +1185,47 @@
         "literal_english_source_blocks": 15,
         "verified_range": "2.10.1–2.10.15"
       }
+    },
+    {
+      "id": "canto-3-chapter-1-verses-1-15",
+      "range": "ŚB 3.1.1–3.1.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/3/1/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/01_vidurasyoddhavena_saha_samAgamaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.1.1",
+        "3.1.2",
+        "3.1.3",
+        "3.1.4",
+        "3.1.6",
+        "3.1.7",
+        "3.1.8",
+        "3.1.9",
+        "3.1.10",
+        "3.1.11",
+        "3.1.12",
+        "3.1.13",
+        "3.1.14",
+        "3.1.15"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms for verses 1–15 were checked against the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping; the wording matches.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks, retaining the long introductory 3.1.1 passage and the source’s textual-variant and maxim notes.",
+        "The pinned primary file explicitly marks 3.1.5 as not explained; the reader leaves its Śrīdhara Sanskrit and literal-English fields empty rather than inventing a passage.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/1/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-03-sridhara-svami/?refresh=canto-3-chapter-1-final#chapter-1",
+        "displayed_records": 45,
+        "sridhara_records_with_text": 44,
+        "literal_english_records": 14,
+        "literal_english_source_blocks": 14,
+        "verified_range": "3.1.1–3.1.15"
+      }
     }
   ]
 }
