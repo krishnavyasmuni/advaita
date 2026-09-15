@@ -3790,6 +3790,82 @@
         "sridhara_records_with_text": 28,
         "literal_english_records": 28
       }
+    },
+    {
+      "id": "canto-1-chapter-13-verses-32-60",
+      "range": "ŚB 1.13.32–1.13.60",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/13/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/13_dhRtarAShTra-vana-vAsaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 27,
+      "numbered_verses": 29,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.13.32",
+        "1.13.33",
+        "1.13.34",
+        "1.13.35",
+        "1.13.36",
+        "1.13.37",
+        "1.13.38",
+        "1.13.39",
+        "1.13.40 (no separate block detected)",
+        "1.13.41",
+        "1.13.42",
+        "1.13.43",
+        "1.13.44",
+        "1.13.45",
+        "1.13.46",
+        "1.13.47",
+        "1.13.48",
+        "1.13.49",
+        "1.13.50",
+        "1.13.51",
+        "1.13.52",
+        "1.13.53–1.13.54",
+        "1.13.55–1.13.56",
+        "1.13.57",
+        "1.13.58",
+        "1.13.59",
+        "1.13.60"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; grouped blocks remain grouped and 1.13.40 is marked because no separate explanatory block is present in the pinned file.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-16-live#chapter-13",
+        "displayed_records": 60,
+        "sridhara_records_with_text": 60,
+        "literal_english_records": 55
+      }
+    },
+    {
+      "id": "canto-1-chapter-14-verses-16-16",
+      "range": "ŚB 1.14.16",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/14/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/14_yudhiShThirasya_chintA.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 1,
+      "numbered_verses": 1,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.14.16"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī block.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-16-live#chapter-14",
+        "displayed_records": 42,
+        "sridhara_records_with_text": 14,
+        "literal_english_records": 14
+      }
     }
   ]
 }
