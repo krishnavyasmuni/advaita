@@ -4940,6 +4940,59 @@
         "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
       ],
       "reference_url": "https://vedabase.io/en/library/sb/3/4/advanced-view/"
+    },
+    {
+      "id": "canto-3-chapter-5-verses-16-45",
+      "range": "ŚB 3.5.16–3.5.45",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://vedabase.io/en/library/sb/3/5/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/05_sRShTi-krama-varNanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 30,
+      "numbered_verses": 30,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.5.16",
+        "3.5.17",
+        "3.5.18",
+        "3.5.19",
+        "3.5.20",
+        "3.5.21",
+        "3.5.22",
+        "3.5.23",
+        "3.5.24",
+        "3.5.25",
+        "3.5.26",
+        "3.5.27",
+        "3.5.28",
+        "3.5.29",
+        "3.5.30",
+        "3.5.31–3.5.32",
+        "3.5.33",
+        "3.5.34",
+        "3.5.37",
+        "3.5.39",
+        "3.5.40",
+        "3.5.41",
+        "3.5.42",
+        "3.5.43",
+        "3.5.44",
+        "3.5.45"
+      ],
+      "unavailable_sanskrit_source_blocks": [
+        "3.5.35",
+        "3.5.36",
+        "3.5.38"
+      ],
+      "source_note": "The pinned English mirror contains thirty separate Text 16–45 records covering thirty numbered verses. The pinned Sanskrit file supplies twenty-six Śrīdhara blocks covering twenty-seven canonical numbered verses; the source heading 3.5.31 contains one grouped block for canonical 3.5.31–3.5.32. It explicitly marks canonical 3.5.35 and 3.5.36 as न व्याख्यातम्। and has no separate block for canonical 3.5.38 (the ete devāḥ verse). The next Sanskrit heading is internally numbered 3.5.38, but its verse text is canonical English Text 39 (devā ūcuḥ); that block is mapped to canonical 3.5.39 by exact verse-text comparison.",
+      "findings": [
+        "The literal English layer is rendered only from the twenty-six supplied Śrīdhara Svāmī blocks; it does not copy the Bhagavatam translation.",
+        "The grouped 3.5.31–3.5.32 source block remains one grouped JSON entry.",
+        "The explicit न व्याख्यातम्। source markings for 3.5.35 and 3.5.36 are represented as no-separate-commentary markers.",
+        "The canonical 3.5.38 verse has no separate pinned Śrīdhara block; it is marked rather than given invented commentary.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/5/advanced-view/"
     }
   ]
 }
