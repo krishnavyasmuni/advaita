@@ -5204,6 +5204,40 @@
       ],
       "source_note": "The pinned English mirror contains 42 separate one-verse records for 3.9.1–3.9.26 and 3.9.29–3.9.44; 3.9.27–3.9.28 do not occur in that source file. The pinned Sanskrit file likewise has no 3.9.27 or 3.9.28 heading. The remote JSON already covers 3.9.1–3.9.15. This batch adds the remaining 27 source-numbered positions; all corresponding Śrīdhara blocks are separate and text-bearing. No grouped source block or no-separate-commentary marker occurs in the batch.",
       "status": "source-checked-and-remote-committed"
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/10/advanced-view/",
+      "findings": [
+        "The literal English entries are rendered only from the pinned Śrīdhara Svāmī (Bhāvārtha-dīpikā) block for each covered source range; they do not copy the Bhagavatam translation.",
+        "The 3.10.22–3.10.25 commentary remains one grouped JSON entry rather than being synthetically split.",
+        "The 3.10.30 source notice is represented as a no-separate-commentary marker.",
+        "The English and literal-English ranges match exactly for every covered source-numbered position; 3.10.28–3.10.29 remain reported source gaps because the pinned English file has no records for them.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-10-verses-16-27-and-30",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 13,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.10.16–3.10.27 and 3.10.30",
+      "records_checked": 13,
+      "reference_url": "https://vedabase.io/en/library/sb/3/10/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/10_dasha-vidha-sRShTi-varNanam.md",
+      "sanskrit_source_blocks": [
+        "3.10.16",
+        "3.10.17",
+        "3.10.18",
+        "3.10.19",
+        "3.10.20",
+        "3.10.21",
+        "3.10.22–3.10.25",
+        "3.10.26",
+        "3.10.27"
+      ],
+      "source_note": "The pinned English mirror contains 28 one-verse records for 3.10.1–3.10.27 and 3.10.30; 3.10.28–3.10.29 are absent from that English file. The pinned Sanskrit file has one grouped Śrīdhara block for 3.10.22–3.10.25 and explicitly marks 3.10.30 as न व्याख्यातम्.; its separate 3.10.28–3.10.29 block has no corresponding English source records and is not added. The remote JSON already covers 3.10.1–3.10.15. This batch adds 13 source-numbered positions in 10 JSON entries, preserving the grouped 3.10.22–3.10.25 reading and the no-separate-commentary marker for 3.10.30.",
+      "status": "source-checked-and-remote-committed",
+      "unavailable_sanskrit_source_blocks": [
+        "3.10.30"
+      ]
     }
   ]
 }
