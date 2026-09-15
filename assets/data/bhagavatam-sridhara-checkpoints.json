@@ -4204,6 +4204,80 @@
         "sridhara_records_with_text": 29,
         "literal_english_records": 30
       }
+    },
+    {
+      "id": "canto-1-chapter-18-verses-49-50",
+      "range": "ŚB 1.18.49–1.18.50",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/18/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/18_aShTAdasho-dhyAyaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 2,
+      "numbered_verses": 2,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.18.49",
+        "1.18.50"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-23-live#chapter-18",
+        "displayed_records": 50,
+        "sridhara_records_with_text": 31,
+        "literal_english_records": 31
+      }
+    },
+    {
+      "id": "canto-1-chapter-19-verses-16-40",
+      "range": "ŚB 1.19.16–1.19.40",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/19/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/19_athonaviMshatitamo-dhyAyaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 24,
+      "numbered_verses": 25,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.19.16",
+        "1.19.17",
+        "1.19.18",
+        "1.19.19",
+        "1.19.20",
+        "1.19.21",
+        "1.19.22",
+        "1.19.23",
+        "1.19.24",
+        "1.19.25",
+        "1.19.26",
+        "1.19.27",
+        "1.19.28",
+        "1.19.29",
+        "1.19.30",
+        "1.19.31",
+        "1.19.32–1.19.33",
+        "1.19.34",
+        "1.19.35",
+        "1.19.36",
+        "1.19.37",
+        "1.19.38",
+        "1.19.39",
+        "1.19.40"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; grouped 1.19.32–1.19.33 remains grouped.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-23-live#chapter-19",
+        "displayed_records": 40,
+        "sridhara_records_with_text": 24,
+        "literal_english_records": 24
+      }
     }
   ]
 }
