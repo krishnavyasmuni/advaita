@@ -3,7 +3,7 @@
   if (!root) return;
 
   const chapter = Number(root.dataset.gitaChapter);
-  const counts = [47,72,43,42,29,47,30,28,34,42,55,20,34,27,20,24,28,78];
+  const counts = [47,72,43,42,29,47,30,28,34,42,55,20,35,27,20,24,28,78];
   const names = ["Arjuna’s Despondency","The Yoga of Knowledge","The Yoga of Action","Knowledge and Renunciation of Action","The Yoga of Renunciation","The Yoga of Meditation","Knowledge and Realization","The Imperishable Brahman","Royal Knowledge and Royal Secret","Divine Glories","The Vision of the Universal Form","Devotion","The Field and the Knower of the Field","The Three Guṇas","The Supreme Person","Divine and Demonic Qualities","The Threefold Faith","Liberation through Renunciation"];
 
   const sridharaEnglish = {
@@ -469,6 +469,44 @@
     "18": "One who is equal toward enemy and friend, honor and dishonor, heat and cold, pleasure and pain, and is free from attachment is dear to Me.",
     "19": "One who is alike in praise and blame, restrained in speech, content with whatever comes, without a fixed dwelling, steady in mind and devoted to Me is dear to Me.",
     "20": "Those devotees who practice this immortal dharma, have faith, take Me as supreme and are devoted to Me are exceedingly dear to Me."
+  },
+
+  13: {
+    "1": "No commentary",
+    "2": "The promise to lift devotees from worldly existence requires knowledge of the Self. The body, the field of experience, is called the field; one who knows it as 'I' and 'mine' is called the field-knower. The wise distinguish the two.",
+    "3": "Know the field-knower in every field to be Myself, the consciousness indicated by 'That thou art.' Knowledge of the difference between field and knower alone is true knowledge and the means of liberation; other learning is mere scholarship.",
+    "4": "The field is the inert, visible body with the qualities of desire and the like, its modifications and its arising from the conjunction of nature and person. Hear briefly also the nature, powers and glory of the field-knower.",
+    "5": "The field has been described at length by sages, by many Vedic hymns and by the aphorisms of Brahman, with reasoned statements that establish the meaning; I shall now state it briefly.",
+    "6": "The field consists of the five great elements, ego, intellect, the unmanifest root nature, the ten external senses, the mind, and the five sense-objects—twenty-four principles.",
+    "7": "Desire and the other mental states, the bodily aggregate, consciousness as a mental mode and steadfastness are also included in the field, because they are observed qualities of the mind and body.",
+    "8": "Knowledge begins with absence of self-praise, absence of hypocrisy, nonviolence, patience, straightforwardness, service of the teacher, purity both outward and inward, steadfastness on the good path and control of the body.",
+    "9": "It includes repeatedly seeing the suffering and defect in birth, death, old age, disease, pain and evil, rather than treating these as desirable.",
+    "10": "It includes nonattachment to objects such as children, no excessive identification with their pleasure or pain, and constant equanimity when the pleasant or unpleasant occurs.",
+    "11": "It includes one-pointed, unbroken devotion to the Supreme, a habit of living in a pure and solitary place, and dislike for the company of worldly people.",
+    "12": "It includes constancy in knowledge of the Self and seeing liberation, the purpose of true knowledge. All contrary qualities such as pride are declared ignorance and are to be abandoned.",
+    "13": "I shall explain the knowable, knowing which one attains immortality: the beginningless, unsurpassed Brahman, which is neither being nor non-being and is beyond both as an object of knowledge and negation.",
+    "14": "It has hands and feet everywhere, eyes, heads and mouths everywhere, and ears everywhere; pervading everything in the world, it stands as the basis of all activity through the instruments of beings.",
+    "15": "It appears in the functions of every sense yet is without any sense; unattached, it supports all; free from the qualities, it nevertheless sustains and experiences their operations.",
+    "16": "It is inside and outside all beings, moving and unmoving; because it is subtle it cannot be clearly grasped by the ignorant, and is said to be far, while to the wise it is ever near.",
+    "17": "Though undivided as the cause, it appears divided among beings; it sustains them, absorbs them at dissolution, and brings them forth at creation in many forms.",
+    "18": "It is the light of lights, beyond darkness, the very knowledge, the object reached by knowledge and the goal of knowledge; it is established in the heart of every being.",
+    "19": "Thus the field, knowledge and the knowable have been briefly described. My devotee who understands them in this manner becomes fit for My state, the nature of Brahman.",
+    "20": "Know both nature and person to be beginningless. The modifications of body and senses and the qualities such as pleasure, pain and delusion arise from nature.",
+    "21": "Nature is called the cause of body, senses and their actions; the person is called the cause of experiencing the pleasure and pain produced by them.",
+    "22": "Being seated in nature and identified with its products, the person experiences its qualities; attachment to those qualities becomes the cause of births in good and evil wombs.",
+    "23": "The person is also the supreme Self: the witness, the permitter, the supporter, the experiencer, the great Lord and the supreme Self within the body.",
+    "24": "Whoever knows person and nature together with their qualities in this way is not born again, whatever conduct that person may outwardly follow; such knowledge gives liberation.",
+    "25": "Some behold the Self through meditation; others through the discrimination of the Sāṅkhya; others through the eightfold yoga; and others through karma-yoga. These are distinct approaches to the same Self.",
+    "26": "Those unable to realize the Self by these methods hear the teaching from other teachers and meditate upon it with faith; devoted to hearing, they gradually cross beyond death and worldly existence.",
+    "27": "Know that whatever being comes into existence, moving or unmoving, arises from the conjunction of the field and the field-knower, produced by their mistaken identification.",
+    "28": "The one who sees the same supreme Self dwelling equally in all beings, while the bodies perish, truly sees.",
+    "29": "Seeing the same Self everywhere, one does not injure the Self by the self through ignorance, and therefore reaches the highest state.",
+    "30": "The one who sees that all actions are performed in every way by nature transformed into body and senses, and that the Self is not an agent, truly sees.",
+    "31": "When one sees the separate forms of beings resting in one nature, and their expansion proceeding from that same nature, one attains the complete Brahman and becomes Brahman.",
+    "32": "Because the supreme Self is beginningless and without qualities, it is imperishable and changeless; though abiding in the body, it does nothing and is not stained by actions or their fruits.",
+    "33": "As all-pervading space, because of its subtlety and detachment, is not stained by the mud or other things it occupies, so the Self in every body is not touched by bodily qualities and defects.",
+    "34": "As the one sun illumines the whole world, so the one field-knower illumines the entire field.",
+    "35": "Those who know with the eye of discrimination the distinction between the field and the field-knower, and know the means of release from nature, attain the supreme state."
   },
     1: {
       1: `Here indeed the supremely compassionate Lord, the son of Devakī—whose descent is for the welfare of all the worlds and whose feet are worshipped by all—rescued Arjuna from the ocean of grief and delusion by the raft of instruction in the secret of dharma and knowledge. Arjuna’s discrimination had been overthrown by grief and delusion arising from ignorance of reality, and he had become intent on abandoning his own dharma and taking up another’s dharma. Kṛṣṇa Dvaipāyana set down that very meaning taught by the Lord in seven hundred verses. In doing so, he wrote mostly the verses that issued from Śrī Kṛṣṇa’s own mouth, and composed some himself in order to connect them. As stated in the Gītā Māhātmya: “The Gītā should be well studied; what need is there of extensive scriptures? It issued directly from the lotus-mouth of Padmanābha.” Then, from “On the field of dharma” up to “he spoke these words in sorrow,” the narrative is set out in order to introduce the dialogue of Śrī Kṛṣṇa and Arjuna. “On the field of dharma”: O Sañjaya, when my sons and the sons of Pāṇḍu, desiring to fight, had assembled together on Kurukṣetra, the field of dharma, what did they do?`,
