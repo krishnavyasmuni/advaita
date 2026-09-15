@@ -243,6 +243,9 @@
       ].filter((value) => value >= 0);
       if (stops.length) commentary = commentary.slice(0, Math.min.apply(null, stops));
       const text = cleanBlock(commentary);
+      // A combined author line can end with “न व्याख्यातम्।”;
+      // that is an explicit absence of Śrīdhara commentary, not source text.
+      if (/^(?:न\s+कतमेनापि\s+)?व्याख्यातम्/.test(text)) return;
       if (text && text.replace(/[+\s]/g, '') !== '') entries.push({ start, end, text, sourceAvailable: true });
     });
     return entries;
