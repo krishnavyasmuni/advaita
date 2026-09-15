@@ -13,9 +13,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const pinned='100560de6c9f68c2875097d40a2012a84c784179';
-            const r=await github.rest.repos.getContent({owner:'vishvAsa',repo:'purANam_vaiShNavam',path:'bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md',ref:pinned});
-            let text=Buffer.from(r.data.content,'base64').toString('utf8');
+            const blobSha='ebbe2b3712054ab23c8f419e6845fe2cf4941e2f';
+            const r=await github.rest.git.getBlob({owner:'vishvAsa',repo:'purANam_vaiShNavam',file_sha:blobSha});
+            let text=Buffer.from(r.data.content,r.data.encoding||'base64').toString('utf8');
             text=text.replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+)\s*।\s*\*{1,2}\s*([०-९]+)/g,'$1.$2').replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+)\s*\*{1,2}\s*।\s*\*{1,2}\s*([०-९]+)/g,'$1.$2').replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\s*\*{1,2}\s*॥/g,'$1 ॥').replace(/॥\s*\*{1,2}([०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\*{1,2}\s*॥/g,'॥ $1 ॥');
             const d={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'}, num=x=>Number([...String(x)].map(c=>d[c]??c).join(''));
             const mr=/(?:^|\n)\s*(?:\[\^[^\]]+\]\s*)?\*{0,2}॥\s*\*{0,2}([०-९]+)\s*\.\s*([०-९]+)\s*\.\s*([०-९]+)(?:\s*[-–—]\s*([०-९]+))?\s*\*{0,2}॥\s*\*{0,2}/g;
@@ -31,4 +31,5 @@ jobs:
               x=x.replace(/\[\^[^\]]+\]/g,'').replace(/\*\*/g,'').replace(/__+/g,'').replace(/^\s*>\s?/gm,'').trim();
               out.push({c,ch,s,e,status:/^न\s+(?:कतमेनापि\s+)?व्याख्यातम्/.test(x)?'no-separate':'commentary',text:x});
             }
+            core.info(`PARSED_MARKERS=${ms.length}`);
             core.info('NEXT_SOURCE_BEGIN'); core.info(JSON.stringify(out)); core.info('NEXT_SOURCE_END');
