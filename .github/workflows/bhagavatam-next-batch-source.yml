@@ -23,7 +23,7 @@ jobs:
             const ms=[...text.matchAll(mr)], out=[];
             for(let i=0;i<ms.length;i++){
               const m=ms[i],c=num(m[1]),ch=num(m[2]),s=num(m[3]),e=num(m[4]||m[3]);
-              if(!(c===3&&ch===28&&e>=11&&s<=40))continue;
+              if(!((c===3&&ch===28&&e>=42&&s<=44)||(c===3&&ch===29&&e>=1&&s<=27)))continue;
               const seg=text.slice(m.index+m[0].length,i+1<ms.length?ms[i+1].index:text.length), lm=seg.match(lr);
               if(!lm){out.push({c,ch,s,e,status:'no-label',text:''});continue;}
               let x=seg.slice((lm.index||0)+lm[0].length).replace(/^\s*_{4,}\s*/,'');
@@ -31,5 +31,4 @@ jobs:
               x=x.replace(/\[\^[^\]]+\]/g,'').replace(/\*\*/g,'').replace(/__+/g,'').replace(/^\s*>\s?/gm,'').trim();
               out.push({c,ch,s,e,status:/^न\s+(?:कतमेनापि\s+)?व्याख्यातम्/.test(x)?'no-separate':'commentary',text:x});
             }
-            core.info(`PARSED_MARKERS=${ms.length}`);
             core.info('NEXT_SOURCE_BEGIN'); core.info(JSON.stringify(out)); core.info('NEXT_SOURCE_END');
