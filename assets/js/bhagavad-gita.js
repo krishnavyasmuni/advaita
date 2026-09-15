@@ -447,7 +447,30 @@
     "53": "Neither by the Vedas, sacrifices, gifts, rituals, or severe austerities can I be seen in this form as you have seen Me.",
     "54": "By undivided devotion alone can I be known in this way, seen truly, and entered into; not by other means.",
     "55": "He who performs action for Me, takes Me as supreme, is My devotee and refuge, free from attachment and without hatred toward any being, reaches Me."
-  },    1: {
+  },
+  12: {
+    "1": "Arjuna asks which devotees are more accomplished: those who constantly worship You, the Lord with attributes, or those who worship the imperishable, unmanifest Brahman.",
+    "2": "Those who fix their mind on Me, remain constantly united with Me through actions done for Me, and worship Me with supreme faith are considered by Me the most united.",
+    "3": "Those who worship the imperishable also reach Me: it is indefinable by words, unmanifest, all-pervading, inconceivable, established in the immutable, motionless and eternal.",
+    "4": "They restrain all the senses, are equal toward all beings, and are devoted to the welfare of all; worshiping that imperishable, they attain Me.",
+    "5": "For those whose minds cling to the unmanifest, the path is more difficult, because embodied people find it hard to turn constantly inward toward the unmanifest.",
+    "6": "Those who dedicate all actions to Me, take Me as supreme, meditate on Me, and worship Me with one-pointed devotion are My devotees.",
+    "7": "For those whose minds are fixed in Me, I quickly become the one who lifts them from the ocean of death and worldly existence.",
+    "8": "Fix your mind on Me alone and place your decisive understanding in Me; thus, by My grace, after the body ends you will dwell in Me—there is no doubt.",
+    "9": "If you cannot steadily fix the mind in Me, seek to reach Me through repeated practice, repeatedly withdrawing the scattered mind and remembering Me.",
+    "10": "If you are unable even to practice, become one whose chief purpose is actions done for My pleasure—fasts, vows, sacred recitation and the like; doing these for Me, you will attain liberation.",
+    "11": "If you cannot do even this, take refuge in My yoga and relinquish the fruits of all necessary actions, placing their seen and unseen results in My care and abandoning attachment to them.",
+    "12": "Knowledge preceded by proper instruction is better than mere practice; meditation is better than such knowledge; and renunciation of the fruits of action is better than meditation, for peace follows immediately from that renunciation.",
+    "13": "The devotee who hates no being, is friendly and compassionate, free from possessiveness and ego, equal in pleasure and pain, and forgiving is dear to Me.",
+    "14": "Ever content in gain and loss, cheerful, self-controlled, firm in conviction, with mind and intellect offered to Me, that devotee is dear to Me.",
+    "15": "One from whom the world does not suffer fear or agitation, who is not agitated by the world, and who is free from natural excitement, resentment, fear and anxiety is dear to Me.",
+    "16": "The devotee who is desireless, pure outwardly and inwardly, active, impartial, free from distress, and accustomed to abandon all undertakings is dear to Me.",
+    "17": "One who neither rejoices on gaining the pleasant nor hates the unpleasant, neither grieves at loss nor longs for the unattained, and habitually abandons good and evil is dear to Me.",
+    "18": "One who is equal toward enemy and friend, honor and dishonor, heat and cold, pleasure and pain, and is free from attachment is dear to Me.",
+    "19": "One who is alike in praise and blame, restrained in speech, content with whatever comes, without a fixed dwelling, steady in mind and devoted to Me is dear to Me.",
+    "20": "Those devotees who practice this immortal dharma, have faith, take Me as supreme and are devoted to Me are exceedingly dear to Me."
+  },
+    1: {
       1: `Here indeed the supremely compassionate Lord, the son of Devakī—whose descent is for the welfare of all the worlds and whose feet are worshipped by all—rescued Arjuna from the ocean of grief and delusion by the raft of instruction in the secret of dharma and knowledge. Arjuna’s discrimination had been overthrown by grief and delusion arising from ignorance of reality, and he had become intent on abandoning his own dharma and taking up another’s dharma. Kṛṣṇa Dvaipāyana set down that very meaning taught by the Lord in seven hundred verses. In doing so, he wrote mostly the verses that issued from Śrī Kṛṣṇa’s own mouth, and composed some himself in order to connect them. As stated in the Gītā Māhātmya: “The Gītā should be well studied; what need is there of extensive scriptures? It issued directly from the lotus-mouth of Padmanābha.” Then, from “On the field of dharma” up to “he spoke these words in sorrow,” the narrative is set out in order to introduce the dialogue of Śrī Kṛṣṇa and Arjuna. “On the field of dharma”: O Sañjaya, when my sons and the sons of Pāṇḍu, desiring to fight, had assembled together on Kurukṣetra, the field of dharma, what did they do?`,
       2: `On “having seen”: Having seen the army of the Pāṇḍavas arranged in battle formation, King Duryodhana went to Droṇa, his teacher, and spoke the words that follow.`,
       3: `He states those very words in the nine verses beginning “Behold this.” O teacher, behold this extensive army of the Pāṇḍavas, deployed—set in battle formation—by Dhṛṣṭadyumna, the son of Drupada.`,
