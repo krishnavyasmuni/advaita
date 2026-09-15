@@ -1,4 +1,4 @@
-name: One-shot Canto 3 cleanup English audit
+name: One-shot completed Canto 3 coverage audit
 on:
   push:
     branches: [codex/bhagavatam-canto1-batch-001]
@@ -14,18 +14,15 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const pinned='100560de6c9f68c2875097d40a2012a84c784179';
-            const targetStrings=['3.5.51','3.9.27','3.9.28','3.10.28','3.10.29','3.18.16','3.22.26','3.22.27','3.22.29','3.22.30','3.23.4','3.23.5','3.23.14','3.23.15','3.23.36','3.23.37','3.24.22','3.24.23','3.25.39','3.25.40'];
-            const targets=new Set(targetStrings);
-            const chapters=[5,9,10,18,22,23,24,25],out=[];
-            for(const ch of chapters){
-              const path=`bhAgavatam/gauDIyo_abhaya-charaNaH/03/${String(ch).padStart(2,'0')}.md`;
-              const r=await github.rest.repos.getContent({owner:'vishvAsa',repo:'purANam_vaiShNavam',path,ref:pinned});
-              let text=r.data.content?Buffer.from(r.data.content,'base64').toString('utf8'):'';
-              if(!text){const b=await github.rest.git.getBlob({owner:'vishvAsa',repo:'purANam_vaiShNavam',file_sha:r.data.sha});text=Buffer.from(b.data.content,b.data.encoding||'base64').toString('utf8');}
-              for(const m of text.matchAll(/^##\s+Texts?\s+(\d+)(?:\s*[-–—]\s*(\d+))?\s*$/gmi)){
-                const s=Number(m[1]),e=Number(m[2]||m[1]);let hit=false;for(let v=s;v<=e;v++)if(targets.has(`3.${ch}.${v}`))hit=true;
-                if(hit)out.push({chapter:ch,start:s,end:e});
-              }
+            const branch='codex/bhagavatam-canto1-batch-001';
+            async function getText(owner,repo,path,ref){const r=await github.rest.repos.getContent({owner,repo,path,ref});let t=r.data.content?Buffer.from(r.data.content,'base64').toString('utf8'):'';if(!t){const b=await github.rest.git.getBlob({owner,repo,file_sha:r.data.sha});t=Buffer.from(b.data.content,b.data.encoding||'base64').toString('utf8');}return t;}
+            const lit=JSON.parse(await getText(context.repo.owner,context.repo.repo,'assets/data/bhagavatam-sridhara-english-checkpoints.json',branch));
+            const covered=new Set(),ranges=new Set();let duplicateRange=0,overlap=0;
+            for(const e of lit.entries){const rk=`${e.canto}.${e.chapter}.${e.start}-${e.end}`;if(ranges.has(rk))duplicateRange++;ranges.add(rk);if(Number(e.canto)!==3)continue;for(let v=Number(e.start);v<=Number(e.end);v++){const k=`3.${Number(e.chapter)}.${v}`;if(covered.has(k))overlap++;covered.add(k);}}
+            const source=new Set();
+            for(let ch=1;ch<=33;ch++){
+              const text=await getText('vishvAsa','purANam_vaiShNavam',`bhAgavatam/gauDIyo_abhaya-charaNaH/03/${String(ch).padStart(2,'0')}.md`,pinned);
+              for(const m of text.matchAll(/^##\s+Texts?\s+(\d+)(?:\s*[-–—]\s*(\d+))?\s*$/gmi)){const s=Number(m[1]),e=Number(m[2]||m[1]);for(let v=s;v<=e;v++)source.add(`3.${ch}.${v}`);}
             }
-            const cov=new Set();for(const r of out)for(let v=r.start;v<=r.end;v++)if(targets.has(`3.${r.chapter}.${v}`))cov.add(`3.${r.chapter}.${v}`);
-            core.info(`TARGETS=${targetStrings.length}`);core.info(`SOURCE_RECORDS=${out.length}`);core.info(`UNMATCHED=${JSON.stringify(targetStrings.filter(x=>!cov.has(x)))}`);core.info(`RECORDS=${JSON.stringify(out)}`);
+            const missing=[...source].filter(x=>!covered.has(x));const extras=[...covered].filter(x=>!source.has(x));
+            core.info(`CANTO3_SOURCE_POSITIONS=${source.size}`);core.info(`CANTO3_COVERED_SOURCE_POSITIONS=${source.size-missing.length}`);core.info(`CANTO3_MISSING_COUNT=${missing.length}`);core.info(`CANTO3_EXTRA_LITERAL_COUNT=${extras.length}`);core.info(`CANTO3_DUPLICATE_RANGES_GLOBAL=${duplicateRange}`);core.info(`CANTO3_OVERLAPPING_POSITIONS=${overlap}`);core.info(`CANTO3_MISSING=${JSON.stringify(missing)}`);core.info(`CANTO3_EXTRAS=${JSON.stringify(extras)}`);
