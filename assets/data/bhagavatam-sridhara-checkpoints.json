@@ -4823,6 +4823,46 @@
         "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
       ],
       "reference_url": "https://vedabase.io/en/library/sb/3/1/advanced-view/"
+    },
+    {
+      "id": "canto-3-chapter-2-verses-16-34",
+      "range": "ŚB 3.2.16–3.2.34",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://vedabase.io/en/library/sb/3/2/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/02_kRShNa-bAla-lIlA-varNanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 19,
+      "numbered_verses": 19,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.2.16",
+        "3.2.17",
+        "3.2.18",
+        "3.2.19",
+        "3.2.20",
+        "3.2.21",
+        "3.2.22",
+        "3.2.23",
+        "3.2.24",
+        "3.2.25",
+        "3.2.26",
+        "3.2.27",
+        "3.2.28",
+        "3.2.29",
+        "3.2.30",
+        "3.2.31",
+        "3.2.32",
+        "3.2.33",
+        "3.2.34"
+      ],
+      "source_note": "The pinned English mirror and Sanskrit file each provide nineteen one-verse records/blocks for 3.2.16–3.2.34.",
+      "findings": [
+        "The literal English layer is rendered directly from the corresponding Śrīdhara Svāmī Sanskrit blocks; it does not copy the Bhagavatam translation.",
+        "The 3.2.23 source block also contains a separate Sanātana Gosvāmī section; only the Śrīdhara Svāmī block is represented here.",
+        "All nineteen pinned Sanskrit blocks contain separate Śrīdhara commentary; no no-commentary marker is needed.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/2/advanced-view/"
     }
   ]
 }
