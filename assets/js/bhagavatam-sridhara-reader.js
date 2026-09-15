@@ -226,7 +226,7 @@
       const stops = [
         commentary.search(/\n_{4,}/),
         commentary.search(/\n[-—]{12,}/),
-        commentary.search(/\n\s*\*{0,2}(?:श्रीधर(?:-स्वामी|ः)?|दिग्दर्शिनी|वंशीधर|वशिधर|श्रीनाथ|सनातन|जीव-?गोस्वामी|विश्वनाथ|बलदेव|मध्वाचार्य)/
+        commentary.search(/(?:^|\n|॥)\s*\*{0,2}(?:श्रीधर(?:-स्वामी|ः)?|दिग्दर्शिनी|वंशीधर|वशिधर|श्रीनाथ|सनातन|जीव-?गोस्वामी|विश्वनाथ|बलदेव|मध्वाचार्य)/
         )
       ].filter((value) => value >= 0);
       if (stops.length) commentary = commentary.slice(0, Math.min.apply(null, stops));
