@@ -9,12 +9,12 @@
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
   const currentArticle=()=>{
-    const m=path.match(/pratisargaparvan-part-(\d+)-chapter-(\d+)/);
-    if(m)return {kind:'pp',part:Number(m[1]),chapter:Number(m[2])};
+    const ppMatch=path.match(/pratisargaparvan-part-(\d+)-chapter-(\d+)/);
+    if(ppMatch)return {kind:'pp',part:Number(ppMatch[1]),chapter:Number(ppMatch[2])};
     const b=path.match(/brahmaparvan-chapter-(\d+)/);
     if(b)return {kind:'bp',chapter:Number(b[1])};
-    const m=path.match(/madhyamaparvan-part-(\d+)-chapter-(\d+)/);
-    if(m)return {kind:'mp',part:Number(m[1]),chapter:Number(m[2])};
+    const mpMatch=path.match(/madhyamaparvan-part-(\d+)-chapter-(\d+)/);
+    if(mpMatch)return {kind:'mp',part:Number(mpMatch[1]),chapter:Number(mpMatch[2])};
     const u=path.match(/uttaraparvan-chapter-(\d+)/);
     if(u)return {kind:'up',chapter:Number(u[1])};
     return null;
