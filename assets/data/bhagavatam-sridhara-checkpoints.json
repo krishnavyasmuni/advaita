@@ -4364,6 +4364,60 @@
         "sridhara_records_with_text": 29,
         "literal_english_records": 29
       }
+    },
+    {
+      "id": "canto-2-chapters-2-4-verses-22-37-16-25-16-19",
+      "range": "ŚB 2.2.22–2.2.37, 2.3.16–2.3.25 and 2.4.16–2.4.19",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/2/2/advanced-view/, https://vedabase.io/en/library/sb/2/3/advanced-view/, https://vedabase.io/en/library/sb/2/4/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/02_yogimuktiH.md, https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/03_devopAsanam.md and https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/04_kathArambhaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 30,
+      "numbered_verses": 30,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "2.2.22",
+        "2.2.23",
+        "2.2.24",
+        "2.2.25",
+        "2.2.26",
+        "2.2.27",
+        "2.2.28",
+        "2.2.29",
+        "2.2.30",
+        "2.2.31",
+        "2.2.32",
+        "2.2.33",
+        "2.2.34",
+        "2.2.35",
+        "2.2.36",
+        "2.2.37",
+        "2.3.16",
+        "2.3.17",
+        "2.3.18",
+        "2.3.19",
+        "2.3.20",
+        "2.3.21",
+        "2.3.22",
+        "2.3.23",
+        "2.3.24",
+        "2.3.25",
+        "2.4.16",
+        "2.4.17",
+        "2.4.18",
+        "2.4.19"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-26-live#chapter-2",
+        "displayed_records": 86,
+        "sridhara_records_with_text": 30,
+        "literal_english_records": 30
+      }
     }
   ]
 }
