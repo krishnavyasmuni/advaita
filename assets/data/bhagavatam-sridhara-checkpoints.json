@@ -6379,6 +6379,61 @@
         "The 3.33.23–26 Śrīdhara block remains grouped despite different English-source grouping.",
         "All 30 numbered positions are covered once with no overlap."
       ]
+    },
+    {
+      "id": "canto-3-source-gap-cleanup-final-20",
+      "range": "ŚB 3.5.51; 3.9.27–28; 3.10.28–29; 3.18.16; 3.22.26–27, 29–30; 3.23.4–5, 14–15, 36–37; 3.24.22–23; 3.25.39–40",
+      "status": "source-checked-and-remote-committed",
+      "english_sources": [
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/05.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/09.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/10.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/18.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/22.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/23.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/24.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/25.md"
+      ],
+      "sanskrit_primary_sources": [
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/05_sRShTi-krama-varNanam.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/09_brahmaNe_vara-pradAnam.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/10_dasha-vidha-sRShTi-varNanam.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/18_yuddham.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/22_kardama-devahUti-vivAhaH.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/23_nava-kanyAnAm_utpattiH.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md"
+      ],
+      "records_checked": 11,
+      "numbered_verses": 20,
+      "literal_json_entries_added": 16,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.9.27–3.9.28",
+        "3.10.28–3.10.29",
+        "3.22.27",
+        "3.22.29",
+        "3.22.30",
+        "3.23.4–3.23.5",
+        "3.23.14",
+        "3.23.15",
+        "3.23.36",
+        "3.23.37",
+        "3.24.23",
+        "3.25.39–3.25.40"
+      ],
+      "unavailable_sanskrit_source_blocks": [
+        "3.5.51",
+        "3.18.16",
+        "3.22.26",
+        "3.24.22"
+      ],
+      "source_note": "The pinned English mirror has 11 records covering these 20 numbered positions. The pinned Sanskrit Chapter 5 source ends at 3.5.50 although the English mirror contains 3.5.51, so 3.5.51 is recorded as an explicit Sanskrit-source gap. The pinned Sanskrit source has no separate text-bearing Śrīdhara explanation for 3.18.16, explicitly says न व्याख्यातम् at 3.22.26 and 3.24.22, and preserves grouped commentary at 3.9.27–28, 3.10.28–29, 3.23.4–5, and 3.25.39–40.",
+      "findings": [
+        "Original literal English was prepared only from the pinned Śrīdhara Sanskrit commentary where a text-bearing block exists.",
+        "No commentary was invented for the four Sanskrit-source gaps/no-separate-commentary positions.",
+        "The English mirror’s grouped source records were audited independently from the Sanskrit commentary boundaries.",
+        "This cleanup covers all 20 positions found missing by the fresh Canto 3 source-number census."
+      ]
     }
   ]
 }
