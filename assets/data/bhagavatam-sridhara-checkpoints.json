@@ -609,6 +609,46 @@
         "literal_english_source_blocks": 15,
         "verified_range": "1.15.1–1.15.15"
       }
+    },
+    {
+      "id": "canto-1-chapter-16-verses-1-15",
+      "range": "ŚB 1.16.1–1.16.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/16/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/16_parIxito_rAjya-lAbhaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.16.6",
+        "1.16.7",
+        "1.16.8",
+        "1.16.9",
+        "1.16.10",
+        "1.16.11",
+        "1.16.13",
+        "1.16.14"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms for the first 15 numbered verses were checked against the pinned English mirror after normalizing Markdown escapes, grouped headings and line wrapping; the wording matches.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; the English source groups verses 13–15 as one displayed record, and the source blocks 1.16.13 and 1.16.14 remain source-derived within that grouped record.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions.",
+        "The pinned chapter source has no Śrīdhara Svāmī block for 1.16.12 or 1.16.16; those source fields remain absent rather than being filled with invented text."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/1/16/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=chapter-16-literal#chapter-16",
+        "displayed_records": 29,
+        "sridhara_records_with_text": 27,
+        "literal_english_records": 12,
+        "literal_english_source_blocks": 13,
+        "verified_range": "1.16.1–1.16.15"
+      }
     }
   ]
 }
