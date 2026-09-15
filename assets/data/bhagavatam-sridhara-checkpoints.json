@@ -4560,6 +4560,27 @@
         "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; grouped source blocks remain grouped in the reader.",
         "The reader and checkpoint updates are committed to the review branch for remote verification; the independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
       ]
+    },
+    {
+      "id": "canto-1-chapter-7-verses-38-39",
+      "range": "ŚB 1.7.38–1.7.39",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://vedabase.io/en/library/sb/1/7/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/07_bhAgavatArambhaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 1,
+      "numbered_verses": 2,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.7.38–1.7.39"
+      ],
+      "source_note": "The pinned Sanskrit file has one source block headed 1.7.38 containing the two numbered verses 1.7.38–1.7.39; Śrīdhara's line explicitly says न व्याख्यातम्।, so both are marked without synthesizing commentary.",
+      "findings": [
+        "The pinned English mirror contains separate Text 38 and Text 39 records; the pinned Sanskrit file preserves both verses in one grouped source block.",
+        "The explicit न व्याख्यातम्। note applies to the grouped 1.7.38–1.7.39 block, so the JSON keeps one grouped no-separate-commentary marker and adds no invented English rendering.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/1/7/advanced-view/"
     }
   ]
 }
