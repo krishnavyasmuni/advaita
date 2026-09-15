@@ -1822,6 +1822,55 @@
         "literal_english_source_blocks": 9,
         "verified_range": "3.12.15–3.12.34"
       }
+    },
+    {
+      "id": "canto-3-chapter-12-verses-35-54",
+      "range": "ŚB 3.12.35–3.12.54",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/3/12/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/12_vedAdy-utpattiH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 20,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.12.35",
+        "3.12.36",
+        "3.12.37",
+        "3.12.38",
+        "3.12.40",
+        "3.12.41",
+        "3.12.42",
+        "3.12.43",
+        "3.12.44",
+        "3.12.45",
+        "3.12.46–3.12.47",
+        "3.12.48",
+        "3.12.49",
+        "3.12.50",
+        "3.12.51",
+        "3.12.52",
+        "3.12.53",
+        "3.12.54"
+      ],
+      "unavailable_sanskrit_source_blocks": [
+        "3.12.39"
+      ],
+      "findings": [
+        "Vedabase English translation, transliteration and synonyms for verses 35–54 were checked in the Advanced View and matched the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping.",
+        "The primary Sanskrit source is the pinned Vasuki Bhāvārtha-dīpikā file; its Devanāgarī is loaded verbatim by the reader.",
+        "The source explicitly marks 3.12.39 as not explained. The grouped 3.12.46–3.12.47 Śrīdhara block is preserved as grouped source text; no artificial split was introduced.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks and retains the source’s lexical, grammatical and technical explanations without adding Vedabase purport.",
+        "The 1949 Śrīdharī scan remains the independent comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/12/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-03-sridhara-svami/#chapter-12",
+        "displayed_records": 20,
+        "sridhara_records_with_text": 19,
+        "literal_english_records": 18,
+        "literal_english_source_blocks": 18,
+        "verified_range": "3.12.35–3.12.54"
+      }
     }
   ]
 }
