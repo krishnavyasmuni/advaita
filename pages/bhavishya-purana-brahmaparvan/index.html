@@ -52,7 +52,6 @@
     (() => {
       const grid = document.querySelector('[data-bhavishya-index]');
       if (!grid) return;
-      const combined3944 = '/vivekadrishti/articles/bhavisya-purana-addresses-varna-system/';
       const titles = [
         "Introduction to the Bhaviṣya Purāṇa",
         "Creation and the Five Characteristics of a Purāṇa",
@@ -108,11 +107,7 @@
       titles.forEach((title, index) => {
         const chapter = index + 1;
         const link = document.createElement('a');
-        if (chapter >= 39 && chapter <= 44) {
-          link.href = `${combined3944}#chapter-${chapter}`;
-        } else {
-          link.href = `/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-${chapter}/`;
-        }
+        link.href = `/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-${chapter}/`;
         link.textContent = `Chapter ${chapter} — ${title}`;
         grid.appendChild(link);
       });
