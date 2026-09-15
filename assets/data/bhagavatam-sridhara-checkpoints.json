@@ -6185,6 +6185,54 @@
         "Grouped Sanskrit source blocks remain grouped.",
         "All 30 numbered positions are covered once with no overlap."
       ]
+    },
+    {
+      "id": "canto-3-chapter-31-verses-9-38",
+      "range": "ŚB 3.31.9–3.31.38",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/31.md",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
+      "records_checked": 30,
+      "numbered_verses": 30,
+      "literal_json_entries_added": 28,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.31.9",
+        "3.31.10",
+        "3.31.11",
+        "3.31.12",
+        "3.31.13",
+        "3.31.14",
+        "3.31.15",
+        "3.31.16",
+        "3.31.17",
+        "3.31.18",
+        "3.31.19",
+        "3.31.20",
+        "3.31.21",
+        "3.31.22",
+        "3.31.23",
+        "3.31.24",
+        "3.31.25",
+        "3.31.26",
+        "3.31.27",
+        "3.31.28–3.31.29",
+        "3.31.30",
+        "3.31.31",
+        "3.31.32",
+        "3.31.33–3.31.34",
+        "3.31.35",
+        "3.31.36",
+        "3.31.37",
+        "3.31.38"
+      ],
+      "source_note": "Exactly 30 numbered English source records are covered. Śrīdhara groups 3.31.28–29 and 3.31.33–34. The 3.31.14 source is a terse text-critical note and is rendered conservatively without supplying missing exposition.",
+      "findings": [
+        "Original literal English was prepared only from the pinned Śrīdhara Sanskrit commentary.",
+        "Grouped Sanskrit source blocks remain grouped.",
+        "All 30 numbered positions are covered once with no overlap.",
+        "The text-critical character of 3.31.14 is explicitly preserved rather than normalized."
+      ]
     }
   ]
 }
