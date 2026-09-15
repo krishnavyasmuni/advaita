@@ -1,4 +1,4 @@
-name: One-shot next Bhagavatam source extraction
+name: One-shot remaining Canto 3 source extraction
 on:
   push:
     branches: [codex/bhagavatam-canto1-batch-001]
@@ -23,12 +23,14 @@ jobs:
             const ms=[...text.matchAll(mr)], out=[];
             for(let i=0;i<ms.length;i++){
               const m=ms[i],c=num(m[1]),ch=num(m[2]),s=num(m[3]),e=num(m[4]||m[3]);
-              if(!((c===3&&ch===28&&e>=42&&s<=44)||(c===3&&ch===29&&e>=1&&s<=27)))continue;
+              if(!(c===3&&((ch===29&&e>=28)||(ch>=30&&ch<=33))))continue;
               const seg=text.slice(m.index+m[0].length,i+1<ms.length?ms[i+1].index:text.length), lm=seg.match(lr);
               if(!lm){out.push({c,ch,s,e,status:'no-label',text:''});continue;}
               let x=seg.slice((lm.index||0)+lm[0].length).replace(/^\s*_{4,}\s*/,'');
               const stops=[x.search(/\n_{4,}/),x.search(/\n[-—]{12,}/),x.search(/(?:^|\n|॥)\s*\*{0,2}(?:श्रीधर(?:-स्वामी|ः)?|दिग्दर्शिनी|वंशीधर|वशिधर|श्रीनाथ|सनातन|जीव-?गोस्वामी|विश्वनाथ|बलदेव|मध्वाचार्य)/)].filter(v=>v>=0); if(stops.length)x=x.slice(0,Math.min(...stops));
               x=x.replace(/\[\^[^\]]+\]/g,'').replace(/\*\*/g,'').replace(/__+/g,'').replace(/^\s*>\s?/gm,'').trim();
-              out.push({c,ch,s,e,status:/^न\s+(?:कतमेनापि\s+)?व्याख्यातम्/.test(x)?'no-separate':'commentary',text:x});
+              const no=/^\*?न\s+(?:कतमेनापि\s+)?व्याख्यातम्/.test(x)||!x;
+              out.push({c,ch,s,e,status:no?'no-separate':'commentary',text:x});
             }
+            core.info(`SOURCE_BLOCKS=${out.length}`);
             core.info('NEXT_SOURCE_BEGIN'); core.info(JSON.stringify(out)); core.info('NEXT_SOURCE_END');
