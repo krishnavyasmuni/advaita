@@ -4097,6 +4097,59 @@
         "sridhara_records_with_text": 12,
         "literal_english_records": 12
       }
+    },
+    {
+      "id": "canto-1-chapter-17-verses-19-45-and-chapter-18-verses-16-18",
+      "range": "ŚB 1.17.19–1.17.45 and 1.18.16–1.18.18",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/17/advanced-view/ and https://vedabase.io/en/library/sb/1/18/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/17_atha_saptadasho-dhyAyaH.md and https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/18_aShTAdasho-dhyAyaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 29,
+      "numbered_verses": 30,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.17.19",
+        "1.17.20",
+        "1.17.21",
+        "1.17.22",
+        "1.17.23",
+        "1.17.24",
+        "1.17.25",
+        "1.17.26",
+        "1.17.27",
+        "1.17.28",
+        "1.17.29",
+        "1.17.30",
+        "1.17.31",
+        "1.17.32",
+        "1.17.33",
+        "1.17.34",
+        "1.17.35",
+        "1.17.36",
+        "1.17.37",
+        "1.17.38",
+        "1.17.39",
+        "1.17.40",
+        "1.17.41",
+        "1.17.42",
+        "1.17.43–1.17.44",
+        "1.17.45",
+        "1.18.16",
+        "1.18.17",
+        "1.18.18"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; grouped blocks and the verses without a separate pinned block remain explicitly identified.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-21-live#chapter-17",
+        "displayed_records": 45,
+        "sridhara_records_with_text": 29,
+        "literal_english_records": 29
+      }
     }
   ]
 }
