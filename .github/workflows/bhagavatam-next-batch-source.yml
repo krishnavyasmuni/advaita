@@ -1,4 +1,4 @@
-name: One-shot remaining Canto 3 English source audit
+name: One-shot Canto 3 literal coverage audit
 on:
   push:
     branches: [codex/bhagavatam-canto1-batch-001]
@@ -14,13 +14,15 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const pinned='100560de6c9f68c2875097d40a2012a84c784179';
-            const out={};
-            for(const chapter of [29,30,31,32,33]){
-              const path=`bhAgavatam/gauDIyo_abhaya-charaNaH/03/${String(chapter).padStart(2,'0')}.md`;
-              const r=await github.rest.repos.getContent({owner:'vishvAsa',repo:'purANam_vaiShNavam',path,ref:pinned});
-              let text=r.data.content?Buffer.from(r.data.content,'base64').toString('utf8'):'';
-              if(!text){const b=await github.rest.git.getBlob({owner:'vishvAsa',repo:'purANam_vaiShNavam',file_sha:r.data.sha});text=Buffer.from(b.data.content,b.data.encoding||'base64').toString('utf8');}
-              const ranges=[...text.matchAll(/^##\s+Texts?\s+(\d+)(?:\s*[-–—]\s*(\d+))?\s*$/gmi)].map(m=>({start:Number(m[1]),end:Number(m[2]||m[1])}));
-              out[chapter]=ranges;
+            const branch='codex/bhagavatam-canto1-batch-001';
+            async function getText(owner,repo,path,ref){const r=await github.rest.repos.getContent({owner,repo,path,ref});let t=r.data.content?Buffer.from(r.data.content,'base64').toString('utf8'):'';if(!t){const b=await github.rest.git.getBlob({owner,repo,file_sha:r.data.sha});t=Buffer.from(b.data.content,b.data.encoding||'base64').toString('utf8');}return t;}
+            const lit=JSON.parse(await getText(context.repo.owner,context.repo.repo,'assets/data/bhagavatam-sridhara-english-checkpoints.json',branch));
+            const covered=new Set();for(const e of lit.entries){if(Number(e.canto)!==3)continue;for(let v=Number(e.start);v<=Number(e.end);v++)covered.add(`3.${Number(e.chapter)}.${v}`);}
+            const source=new Set(),records=[];
+            for(let ch=1;ch<=33;ch++){
+              const text=await getText('vishvAsa','purANam_vaiShNavam',`bhAgavatam/gauDIyo_abhaya-charaNaH/03/${String(ch).padStart(2,'0')}.md`,pinned);
+              for(const m of text.matchAll(/^##\s+Texts?\s+(\d+)(?:\s*[-–—]\s*(\d+))?\s*$/gmi)){const s=Number(m[1]),e=Number(m[2]||m[1]);records.push({chapter:ch,start:s,end:e});for(let v=s;v<=e;v++)source.add(`3.${ch}.${v}`);}
             }
-            core.info('ENGLISH_RANGES_BEGIN');core.info(JSON.stringify(out));core.info('ENGLISH_RANGES_END');
+            const missing=[...source].filter(x=>!covered.has(x)).sort((a,b)=>{const A=a.split('.').map(Number),B=b.split('.').map(Number);return A[1]-B[1]||A[2]-B[2];});
+            const extras=[...covered].filter(x=>!source.has(x)).sort();
+            core.info(`CANTO3_SOURCE_POSITIONS=${source.size}`);core.info(`CANTO3_COVERED_SOURCE_POSITIONS=${source.size-missing.length}`);core.info(`CANTO3_MISSING_COUNT=${missing.length}`);core.info(`CANTO3_EXTRA_LITERAL_COUNT=${extras.length}`);core.info(`CANTO3_MISSING=${JSON.stringify(missing)}`);core.info(`CANTO3_EXTRAS=${JSON.stringify(extras)}`);
