@@ -5382,6 +5382,28 @@
       "unavailable_sanskrit_source_blocks": [
         "3.16.32"
       ]
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/17/advanced-view/",
+      "findings": [
+        "No English literal rendering was invented because the pinned Sanskrit source supplies no separate Śrīdhara commentary.",
+        "The English and literal-English ranges match exactly for 3.17.24.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-17-verse-24",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 1,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.17.24",
+      "records_checked": 1,
+      "reference_url": "https://vedabase.io/en/library/sb/3/17/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/17_hiraNyAxa-digvijayaH.md",
+      "sanskrit_source_blocks": [],
+      "source_note": "The pinned English mirror contains 31 separate one-verse records for 3.17.1–3.17.31; the remote JSON already covers every position except 3.17.24. The pinned Sanskrit file explicitly marks 3.17.24 as न व्याख्यातम्।. This batch adds one no-separate-commentary entry.",
+      "status": "source-checked-and-remote-committed",
+      "unavailable_sanskrit_source_blocks": [
+        "3.17.24"
+      ]
     }
   ]
 }
