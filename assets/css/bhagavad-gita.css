@@ -41,3 +41,21 @@
 .gita-loading{font-size:15px;text-align:center}.gita-no-source{color:#6e665c;font-style:italic}.gita-index-intro{margin:0 0 22px;font-size:15px;line-height:1.6}.gita-chapter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 26px}.gita-chapter-card{display:block;padding:8px 0;border-bottom:1px solid var(--gita-line);color:#5d4c68;text-decoration:none}.gita-chapter-card:hover{text-decoration:underline}.gita-chapter-number{font-family:Vollkorn,Georgia,serif;font-size:18px}.gita-chapter-name{font-size:14px}.gita-chapter-sanskrit{display:block;color:#6e665c;font-size:12px}.gita-chapter-status{display:block;color:var(--gita-teal);font-size:11px;text-transform:none}
 @media(max-width:900px){.gita-page .article-body{width:100%}.gita-page .gita-content,.gita-page .gita-chapter-index{width:min(652px,calc(100% - 36px))}.gita-contents ol{columns:1}}
 @media(max-width:620px){.gita-page .gita-content,.gita-page .gita-chapter-index{width:calc(100% - 28px)}.gita-hero{padding:40px 0 30px}.gita-hero h1{font-size:38px}.gita-hero .eyebrow{font-size:11px}.gita-hero .subtitle{font-size:15px}.gita-chapter-nav{justify-content:stretch;gap:7px;margin-bottom:32px}.gita-chapter-nav a{flex:1 1 auto;justify-content:center;min-height:40px;font-size:12px}.gita-verse{padding:32px 0 38px}.gita-verse h2{font-size:21px}.gita-verse-rule{width:46%;margin:10px auto 18px}.gita-sanskrit{font-size:19px;line-height:1.68;margin-bottom:18px}.gita-translation{padding-left:13px;font-size:16px;line-height:1.72}.gita-controls{display:grid;grid-template-columns:1fr;gap:7px}.gita-details,.gita-details[open]{width:100%;max-width:100%}.gita-details summary{width:100%;min-height:42px;justify-content:space-between;padding:9px 11px;font-size:13px}.gita-details[open]{padding-top:9px}.gita-commentary{margin-top:22px;padding-left:13px;font-size:15.5px;line-height:1.72}.gita-commentary h3{font-size:17px}.gita-reveal,.gita-wfw-list{font-size:13.5px;line-height:1.7}.gita-chapter-grid{grid-template-columns:1fr}}
+
+/* Compact Bhāgavatam presentation: every study layer remains available, while the
+   default reading path stays focused on the śloka and its translation. */
+.bhagavatam-sridhara-layout .sb-contents{margin-bottom:28px;padding:0 0 14px;border-bottom:1px solid var(--gita-line)}
+.bhagavatam-sridhara-layout .sb-contents>summary{display:flex;align-items:center;justify-content:space-between;margin:0;color:var(--gita-teal);font-family:Vollkorn,Georgia,serif;font-size:21px;font-weight:400;line-height:1.25;cursor:pointer;list-style:none}
+.bhagavatam-sridhara-layout .sb-contents>summary::-webkit-details-marker{display:none}
+.bhagavatam-sridhara-layout .sb-contents>summary::after{content:'+';color:#8b8178;font-family:Merriweather,Georgia,serif;font-size:18px;font-weight:400}
+.bhagavatam-sridhara-layout .sb-contents[open]>summary::after{content:'−'}
+.bhagavatam-sridhara-layout .sb-contents[open]>summary{margin-bottom:11px}
+.bhagavatam-sridhara-layout .gita-verse{padding:28px 0 34px}
+.bhagavatam-sridhara-layout .gita-verse-rule{display:none}
+.bhagavatam-sridhara-layout .gita-controls{gap:6px;margin-bottom:0}
+.bhagavatam-sridhara-layout .sb-literal-details .sb-source-label{color:var(--gita-purple)}
+.bhagavatam-sridhara-layout .sb-literal-details .sb-source-content{font-size:15px;line-height:1.7}
+@media(max-width:620px){
+  .bhagavatam-sridhara-layout .gita-verse{padding:26px 0 32px}
+  .bhagavatam-sridhara-layout .sb-contents>summary{font-size:20px}
+}
