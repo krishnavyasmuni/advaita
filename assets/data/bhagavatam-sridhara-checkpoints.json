@@ -978,6 +978,46 @@
         "literal_english_source_blocks": 15,
         "verified_range": "2.5.1–2.5.15"
       }
+    },
+    {
+      "id": "canto-2-chapter-6-verses-1-15",
+      "range": "ŚB 2.6.1–2.6.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/2/6/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/06_virATsvarUpam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "2.6.1",
+        "2.6.2",
+        "2.6.3",
+        "2.6.4",
+        "2.6.5",
+        "2.6.6",
+        "2.6.7",
+        "2.6.8",
+        "2.6.9",
+        "2.6.10",
+        "2.6.11",
+        "2.6.12",
+        "2.6.13–2.6.16"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms for verses 1–15 were checked against the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping; the wording matches.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks, retaining all source footnotes and the complete attached Puruṣa-sūkta quotation.",
+        "The primary Śrīdhara source groups verses 13–16 in one block; the reader preserves that boundary and renders it once as ŚB 2.6.13–16 rather than duplicating the text.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/2/6/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-02-sridhara-svami/?refresh=canto-2-chapter-6-final#chapter-6",
+        "displayed_records": 40,
+        "sridhara_records_with_text": 40,
+        "literal_english_records": 13,
+        "literal_english_source_blocks": 13,
+        "verified_range": "2.6.1–2.6.15"
+      }
     }
   ]
 }
