@@ -189,7 +189,7 @@
       ? lines(sridharaEnglish[chapter][n])
       : (sourceMode === 'legacy'
         ? (d.srid && d.srid.et ? lines(d.srid.et) : 'The source repository supplies Śrīdhara Svāmī’s commentary in Sanskrit; no English translation field is supplied there.')
-        : 'No commentary');
+        : (d.srid && d.srid.sc ? 'English Śrīdhara rendering not yet supplied; see the Sanskrit commentary above.' : 'No commentary'));
 
     return '<article class="gita-verse" id="gita-' + chapter + '-' + n + '">' +
       '<h2><span>BG</span> ' + chapter + '.' + n + '</h2><hr class="gita-verse-rule">' +
@@ -213,7 +213,7 @@
   const load = async () => {
     root.innerHTML = '<p class="gita-loading">Loading chapter text…</p>';
 
-    if (chapter !== 2) {
+    if (chapter === 1) {
       const [data, meanings] = await Promise.all([
         Promise.all(Array.from({length: counts[chapter - 1]}, (_, i) => fetch(verseUrl(i + 1)).then((r) => r.json()))),
         fetch('/vivekadrishti/assets/data/bhagavad-gita-word-meanings.json').then((r) => r.json())
@@ -238,7 +238,7 @@
     const commonByVerse = expandEntries(commonChapter.verses);
     const mukByVerse = expandEntries(mukChapter.verses);
     const sridharaByVerse = expandEntries(sridharaChapter.verses);
-    const commonOverrides = {
+    const commonOverrides = chapter === 2 ? {
       42: {
         slok: 'यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः।\\n\\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः।।2.42।।',
         transliteration: 'yāmimāṁ puṣhpitāṁ vāchaṁ pravadanty-avipaśhchitaḥ\\nveda-vāda-ratāḥ pārtha nānyad astīti vādinaḥ',
@@ -249,7 +249,7 @@
         transliteration: 'kāmātmānaḥ swarga-parā janma-karma-phala-pradām\\nkriyā-viśheṣha-bahulāṁ bhogaiśhwarya-gatiṁ prati',
         wordMeaning: 'kāmātmānaḥ—desirous of sensual pleasure; swarga-parāḥ—aiming to achieve heavenly planets; janma-karma-phala-pradām—awarding high birth and fruitive results; kriyā-viśheṣha-bahulām—full of special ritualistic ceremonies; bhoga-aiśhwarya-gatim prati—toward enjoyment and sovereignty'
       }
-    };
+    } : {};
     const data = Array.from({length: counts[chapter - 1]}, (_, index) => {
       const n = index + 1;
       const c = commonByVerse[n] || {};
@@ -269,7 +269,7 @@
       data,
       {},
       'mukundananda',
-      'Sanskrit, transliteration, and word-for-word meanings are loaded from <a href="https://github.com/gita/gita-frontend-v2" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is from its <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>; Śrīdhara Svāmī’s Sanskrit commentary is from <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_8_sa.json" target="_blank" rel="noopener">author_8_sa.json</a>. The English Śrīdhara text shown here is a literal rendering prepared from that Sanskrit source.'
+      'Sanskrit, transliteration, and word-for-word meanings for this chapter are loaded from <a href="https://github.com/gita/gita-frontend-v2" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is from its <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>; Śrīdhara Svāmī’s Sanskrit commentary is from <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_8_sa.json" target="_blank" rel="noopener">author_8_sa.json</a>. Chapter 2 has original literal English renderings prepared from that Sanskrit source. The remaining chapters show the exact Sanskrit commentary until their original English renderings are added; no copyrighted translation has been copied.'
     );
   };
 
