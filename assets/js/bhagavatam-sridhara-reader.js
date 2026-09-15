@@ -223,6 +223,10 @@
       if (!labelMatch) return;
 
       let commentary = segment.slice((labelMatch.index || 0) + labelMatch[0].length);
+      // Some source files place an underscore divider between the label and the
+      // actual Bhāvārtha-dīpikā text. Remove only that leading divider so the
+      // first Śrīdhara block is not mistaken for an empty commentary segment.
+      commentary = commentary.replace(/^\\s*_{4,}\\s*/, '');
       const stops = [
         commentary.search(/\n_{4,}/),
         commentary.search(/\n[-—]{12,}/),
