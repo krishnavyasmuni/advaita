@@ -5264,6 +5264,45 @@
       "unavailable_sanskrit_source_blocks": [
         "3.11.42"
       ]
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/12/advanced-view/",
+      "findings": [
+        "No English literal rendering was invented where the pinned Sanskrit source has no separate Śrīdhara block.",
+        "The grouped source spans 3.12.20–3.12.21 and 3.12.23–3.12.24 remain grouped in JSON.",
+        "The absent 3.12.57 Sanskrit heading is represented as a no-separate-commentary marker because the pinned English source contains the numbered record but the pinned Sanskrit file ends at 3.12.56.",
+        "The English and literal-English coverage expands to all 57 English source-numbered positions in this chapter.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-12-verses-8-9-12-13-17-and-19-25-27-29-32-39-55-57",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 18,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.12.8–3.12.9, 3.12.12–3.12.13, 3.12.17, 3.12.19–3.12.25, 3.12.27, 3.12.29, 3.12.32, 3.12.39, 3.12.55, and 3.12.57",
+      "records_checked": 18,
+      "reference_url": "https://vedabase.io/en/library/sb/3/12/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/12_vedAdy-utpattiH.md",
+      "sanskrit_source_blocks": [],
+      "source_note": "The pinned English mirror contains all 57 one-verse records for 3.12.1–3.12.57; the remote JSON already covered 39 numbered positions and left 18 uncovered. In the pinned Sanskrit file, 3.12.8, 3.12.9, 3.12.12, 3.12.13, 3.12.17, 3.12.19, 3.12.20–3.12.21, 3.12.22, 3.12.23–3.12.24, 3.12.25, 3.12.27, 3.12.29, 3.12.32, 3.12.39, and 3.12.55 are explicitly unexpounded or otherwise have no separate Śrīdhara block. The Sanskrit file ends at 3.12.56 and has no 3.12.57 heading. This batch adds 16 no-separate-commentary entries covering all 18 uncovered English source positions, preserving the two grouped no-commentary source spans.",
+      "status": "source-checked-and-remote-committed",
+      "unavailable_sanskrit_source_blocks": [
+        "3.12.8",
+        "3.12.9",
+        "3.12.12",
+        "3.12.13",
+        "3.12.17",
+        "3.12.19",
+        "3.12.20–3.12.21",
+        "3.12.22",
+        "3.12.23–3.12.24",
+        "3.12.25",
+        "3.12.27",
+        "3.12.29",
+        "3.12.32",
+        "3.12.39",
+        "3.12.55",
+        "3.12.57"
+      ]
     }
   ]
 }
