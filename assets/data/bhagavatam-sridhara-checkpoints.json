@@ -4278,6 +4278,39 @@
         "sridhara_records_with_text": 24,
         "literal_english_records": 24
       }
+    },
+    {
+      "id": "canto-1-audit-repair-nine-gaps",
+      "range": "ŚB 1.4.32–1.4.33, 1.6.39, 1.7.55–1.7.58, 1.9.3, 1.11.40",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/4/advanced-view/, https://vedabase.io/en/library/sb/1/6/advanced-view/, https://vedabase.io/en/library/sb/1/7/advanced-view/, https://vedabase.io/en/library/sb/1/9/advanced-view/, https://vedabase.io/en/library/sb/1/11/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 9,
+      "numbered_verses": 9,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.4.32",
+        "1.4.33",
+        "1.6.39",
+        "1.7.55",
+        "1.7.56",
+        "1.7.57",
+        "1.7.58",
+        "1.9.3 (no separate block detected)",
+        "1.11.40"
+      ],
+      "findings": [
+        "A full Canto 1 coverage audit against the pinned Śrīdhara source files found these nine previously uncovered numbered verses.",
+        "The literal English layer has now been added for all nine; 1.9.3 is explicitly marked because the pinned file contains no separate Śrīdhara explanation.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=audit-repair-24-live#chapter-1",
+        "displayed_records": 807,
+        "sridhara_records_with_text": 808,
+        "literal_english_records": 810
+      }
     }
   ]
 }
