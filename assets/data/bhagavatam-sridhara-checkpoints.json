@@ -488,6 +488,45 @@
         "literal_english_source_blocks": 14,
         "verified_range": "1.12.1–1.12.15"
       }
+    },
+    {
+      "id": "canto-1-chapter-13-verses-1-15",
+      "range": "ŚB 1.13.1–1.13.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/13/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/13_dhRtarAShTra-vana-vAsaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.13.1",
+        "1.13.2",
+        "1.13.3–1.13.5",
+        "1.13.6",
+        "1.13.7",
+        "1.13.8",
+        "1.13.9",
+        "1.13.10",
+        "1.13.11–1.13.12",
+        "1.13.13",
+        "1.13.14",
+        "1.13.15"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms for verses 1–15 were checked against the pinned English mirror after normalizing Markdown escapes and line wrapping; the wording matches.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; the 1.13.3–1.13.5 and 1.13.11–1.13.12 source ranges remain grouped.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions.",
+        "The pinned chapter source has no Śrīdhara Svāmī block for 1.13.22 or 1.13.40; those source fields remain absent rather than being filled with invented text."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/1/13/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-13-live#chapter-13",
+        "displayed_records": 59,
+        "sridhara_records_with_text": 57,
+        "literal_english_records": 14,
+        "literal_english_source_blocks": 12,
+        "verified_range": "1.13.1–1.13.15"
+      }
     }
   ]
 }
