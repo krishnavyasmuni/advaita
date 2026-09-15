@@ -5935,6 +5935,51 @@
         "No exact duplicate literal range is present after the batch."
       ],
       "reference_url": "https://vedabase.io/en/library/sb/3/26/advanced-view/"
+    },
+    {
+      "id": "canto-3-chapter-27-verses-11-30-and-chapter-28-verses-1-10",
+      "range": "ŚB 3.27.11–3.27.30 and 3.28.1–3.28.10",
+      "status": "source-checked-and-remote-committed",
+      "english_sources": [
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/27.md",
+        "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/28.md"
+      ],
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
+      "records_checked": 29,
+      "numbered_verses": 30,
+      "literal_json_entries_added": 20,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.27.11",
+        "3.27.12–3.27.13",
+        "3.27.14–3.27.16",
+        "3.27.17",
+        "3.27.18",
+        "3.27.19",
+        "3.27.20",
+        "3.27.21–3.27.23",
+        "3.27.24",
+        "3.27.25",
+        "3.27.27",
+        "3.27.28",
+        "3.27.29",
+        "3.27.30",
+        "3.28.1",
+        "3.28.2–3.28.7",
+        "3.28.8",
+        "3.28.9",
+        "3.28.10"
+      ],
+      "unavailable_sanskrit_source_blocks": [
+        "3.27.26"
+      ],
+      "source_note": "The pinned English mirror has 29 source records covering these 30 numbered verses because 3.27.28–3.27.29 is one English source record. The pinned Śrīdhara source has grouped explanatory blocks spanning 3.27.12–13, 3.27.14–16, 3.27.21–23, and 3.28.2–7. The 3.27.26 source section has no separate Śrīdhara label and is represented explicitly rather than invented.",
+      "findings": [
+        "Original English literal renderings were prepared only from the pinned Śrīdhara Sanskrit commentary.",
+        "Grouped Śrīdhara explanatory blocks remain grouped rather than being synthetically split.",
+        "3.27.26 is explicitly marked as having no separate Śrīdhara commentary.",
+        "All 30 numbered positions are covered by exactly 20 literal-English entries after expansion, with no overlap with earlier entries."
+      ]
     }
   ]
 }
