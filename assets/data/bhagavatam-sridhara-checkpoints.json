@@ -4418,6 +4418,54 @@
         "sridhara_records_with_text": 30,
         "literal_english_records": 30
       }
+    },
+    {
+      "id": "canto-2-chapters-4-5-verses-20-25-and-16-39",
+      "range": "ŚB 2.4.20–2.4.25 and 2.5.16–2.5.39",
+      "status": "source-checked-and-reader-committed",
+      "english_source": "https://vedabase.io/en/library/sb/2/4/advanced-view/ and https://vedabase.io/en/library/sb/2/5/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/04_kathArambhaH.md and https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/05_brahmANDanirmANavarNanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 30,
+      "numbered_verses": 30,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "2.4.20",
+        "2.4.21",
+        "2.4.22",
+        "2.4.23",
+        "2.4.24",
+        "2.4.25",
+        "2.5.16",
+        "2.5.17",
+        "2.5.18",
+        "2.5.19",
+        "2.5.20",
+        "2.5.21",
+        "2.5.22",
+        "2.5.23",
+        "2.5.24",
+        "2.5.25",
+        "2.5.26",
+        "2.5.27",
+        "2.5.28",
+        "2.5.29",
+        "2.5.30",
+        "2.5.31",
+        "2.5.32",
+        "2.5.33",
+        "2.5.34",
+        "2.5.35",
+        "2.5.36",
+        "2.5.37",
+        "2.5.38",
+        "2.5.39"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; source Sanskrit remains the authoritative text.",
+        "The reader and checkpoint updates are committed to the review branch for remote verification; the independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ]
     }
   ]
 }
