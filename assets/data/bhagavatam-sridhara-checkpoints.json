@@ -5353,6 +5353,35 @@
         "3.14.4",
         "3.14.14"
       ]
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/16/advanced-view/",
+      "findings": [
+        "The five literal English renderings are translated only from the corresponding pinned Śrīdhara Svāmī (Bhāvārtha-dīpikā) blocks and do not copy the Bhagavatam translation.",
+        "The 3.16.32 position is represented as a no-separate-commentary marker rather than an invented rendering.",
+        "The English and literal-English ranges match exactly for 3.16.32–3.16.37.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-16-verses-32-37",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 6,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.16.32–3.16.37",
+      "records_checked": 6,
+      "reference_url": "https://vedabase.io/en/library/sb/3/16/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/16_jaya-vijayayoH_patanam.md",
+      "sanskrit_source_blocks": [
+        "3.16.33",
+        "3.16.34",
+        "3.16.35",
+        "3.16.36",
+        "3.16.37"
+      ],
+      "source_note": "The pinned English mirror contains 37 separate one-verse records for 3.16.1–3.16.37; the remote JSON already covers 3.16.1–3.16.31. The pinned Sanskrit file explicitly marks 3.16.32 as न कतमेनापि व्याख्यातम्। and supplies separate Śrīdhara blocks for 3.16.33–3.16.37. This batch adds six entries for the remaining six numbered positions; no grouped source block occurs.",
+      "status": "source-checked-and-remote-committed",
+      "unavailable_sanskrit_source_blocks": [
+        "3.16.32"
+      ]
     }
   ]
 }
