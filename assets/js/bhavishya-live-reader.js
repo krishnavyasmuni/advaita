@@ -74,15 +74,29 @@
       const source=await fetchSanskrit(config.chapter,config.verseCount);
       const cards=source.map(v=>{
         const t=translations[v.n]||{};
-        const en=typeof t==='string'?t:(t.en||'');
-        const gloss=typeof t==='object'&&t.gloss?t.gloss:(en?`Literal sense: ${en}`:'');
-        const sa=v.sa||`[Sanskrit verse ${v.n} could not be isolated automatically from the source page.]`;
-        const iast=devToIast(sa);
-        return `<section class="bp-verse" id="bp-1-${config.chapter}-${v.n}"><h3>BP 1.${config.chapter}.${v.n}</h3><hr><div class="bp-sa" lang="sa">${br(sa)}</div><p class="bp-en">${esc(en||'Translation pending source check.')}</p><details><summary>Word-for-word / literal gloss</summary><div class="bp-detail">${esc(gloss||'Literal gloss pending source check.')}</div></details><details><summary>Transliteration</summary><div class="bp-detail"><em>${br(iast)}</em></div></details></section>`;
+        const obj=typeof t==='string'?{en:t}:t;
+        const en=obj.en||'';
+        const wfw=obj.wfw||obj.gloss||'';
+        const sa=v.sa||obj.sa||`[Sanskrit verse ${v.n} could not be isolated automatically from the source page.]`;
+        const iast=obj.iast||devToIast(sa);
+        const note=obj.note?`<details><summary>Textual note</summary><div class="bp-detail">${esc(obj.note)}</div></details>`:'';
+        return `<section class="bp-verse" id="bp-1-${config.chapter}-${v.n}"><h3>BP 1.${config.chapter}.${v.n}</h3><hr><div class="bp-sa" lang="sa">${br(sa)}</div><p class="bp-en">${esc(en||'Translation pending source check.')}</p><details><summary>Word-for-word</summary><div class="bp-detail">${esc(wfw||'Word-for-word gloss pending source check.')}</div></details><details><summary>Transliteration</summary><div class="bp-detail"><em>${br(iast)}</em></div></details>${note}</section>`;
       }).join('');
-      mount.innerHTML=`<div class="bp-reader"><div class="bp-source"><strong>${esc(config.subtitle)}</strong><br><span>Fresh English translation from the Sanskrit. Sanskrit witness loaded from Sanskrit Wikisource and checked against Wisdomlib where available.</span></div>${cards}<div class="bp-colophon">${esc(config.colophon||'')}</div></div>`;
+      mount.innerHTML=`<div class="bp-reader"><div class="bp-source"><strong>${esc(config.subtitle)}</strong><br><span>Close English translation and phrase-by-phrase gloss from the Sanskrit; Sanskrit cross-checked against Sanskrit Wikisource and Wisdomlib. Difficult or corrupt readings are flagged rather than silently normalised.</span></div>${cards}<div class="bp-colophon">${esc(config.colophon||'')}</div></div>`;
     }catch(e){
-      mount.innerHTML=`<div class="bp-reader"><div class="bp-source"><strong>${esc(config.subtitle)}</strong><br><span>The Sanskrit source could not be loaded at this moment. Please reload the page.</span></div></div>`;
+      const embedded=Object.entries(translations).every(([,t])=>typeof t==='object'&&t.sa);
+      if(embedded){
+        const source=Object.entries(translations).map(([n,t])=>({n:Number(n),sa:t.sa}));
+        const cards=source.map(v=>{
+          const obj=translations[v.n]||{};
+          const iast=obj.iast||devToIast(v.sa);
+          const note=obj.note?`<details><summary>Textual note</summary><div class="bp-detail">${esc(obj.note)}</div></details>`:'';
+          return `<section class="bp-verse" id="bp-1-${config.chapter}-${v.n}"><h3>BP 1.${config.chapter}.${v.n}</h3><hr><div class="bp-sa" lang="sa">${br(v.sa)}</div><p class="bp-en">${esc(obj.en||'')}</p><details><summary>Word-for-word</summary><div class="bp-detail">${esc(obj.wfw||obj.gloss||'')}</div></details><details><summary>Transliteration</summary><div class="bp-detail"><em>${br(iast)}</em></div></details>${note}</section>`;
+        }).join('');
+        mount.innerHTML=`<div class="bp-reader"><div class="bp-source"><strong>${esc(config.subtitle)}</strong><br><span>Close English translation and phrase-by-phrase gloss from the Sanskrit; Sanskrit cross-checked against Sanskrit Wikisource and Wisdomlib.</span></div>${cards}<div class="bp-colophon">${esc(config.colophon||'')}</div></div>`;
+      } else {
+        mount.innerHTML=`<div class="bp-reader"><div class="bp-source"><strong>${esc(config.subtitle)}</strong><br><span>The Sanskrit source could not be loaded at this moment. Please reload the page.</span></div></div>`;
+      }
     }
   };
 })();
