@@ -4581,6 +4581,35 @@
         "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
       ],
       "reference_url": "https://vedabase.io/en/library/sb/1/7/advanced-view/"
+    },
+    {
+      "id": "canto-2-chapter-7-verses-43-53",
+      "range": "ŚB 2.7.43–2.7.53",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://vedabase.io/en/library/sb/2/7/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/07_avatAra-sanxepaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 8,
+      "numbered_verses": 11,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "2.7.43–2.7.45",
+        "2.7.46",
+        "2.7.47–2.7.48",
+        "2.7.49",
+        "2.7.50",
+        "2.7.51",
+        "2.7.52",
+        "2.7.53"
+      ],
+      "source_note": "The pinned Sanskrit file contains eight Śrīdhara blocks covering eleven numbered verses; the 2.7.43–2.7.45 and 2.7.47–2.7.48 source blocks remain grouped.",
+      "findings": [
+        "The pinned English mirror contains nine records covering eleven numbered verses: Texts 43–45, then Texts 46–53.",
+        "The literal English layer is rendered directly from the corresponding Śrīdhara Svāmī Sanskrit blocks; it does not copy the Bhagavatam translation.",
+        "All eight pinned Sanskrit blocks in this range contain separate Śrīdhara commentary; no no-commentary marker is needed.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/2/7/advanced-view/"
     }
   ]
 }
