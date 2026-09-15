@@ -4898,6 +4898,48 @@
         "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
       ],
       "reference_url": "https://vedabase.io/en/library/sb/3/3/advanced-view/"
+    },
+    {
+      "id": "canto-3-chapter-4-verses-16-36",
+      "range": "ŚB 3.4.16–3.4.36",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://vedabase.io/en/library/sb/3/4/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/04_yadu-vaMsha-saMhAra-kathanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 21,
+      "numbered_verses": 21,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.4.16",
+        "3.4.17",
+        "3.4.18",
+        "3.4.19",
+        "3.4.20",
+        "3.4.21",
+        "3.4.22",
+        "3.4.23",
+        "3.4.24",
+        "3.4.25",
+        "3.4.26",
+        "3.4.28",
+        "3.4.29",
+        "3.4.30",
+        "3.4.31",
+        "3.4.32",
+        "3.4.33–3.4.35",
+        "3.4.36"
+      ],
+      "unavailable_sanskrit_source_blocks": [
+        "3.4.27"
+      ],
+      "source_note": "The pinned English mirror has twenty-one one-verse records for 3.4.16–3.4.36. The pinned Sanskrit file has eighteen Śrīdhara blocks covering twenty numbered verses, including the grouped 3.4.33–3.4.35 block, and explicitly marks 3.4.27 as not explained.",
+      "findings": [
+        "The literal English layer is rendered directly from the eighteen corresponding Śrīdhara Svāmī source blocks; it does not copy the Bhagavatam translation.",
+        "The grouped 3.4.33–3.4.35 source block remains one grouped JSON entry.",
+        "The source explicitly supplies no separate Śrīdhara explanation for 3.4.27; that verse is marked rather than given an invented rendering.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/4/advanced-view/"
     }
   ]
 }
