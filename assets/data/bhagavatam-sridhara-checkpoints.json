@@ -5303,6 +5303,30 @@
         "3.12.55",
         "3.12.57"
       ]
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/13/advanced-view/",
+      "findings": [
+        "No English literal rendering was invented for either uncovered verse because the pinned Sanskrit source supplies no separate Śrīdhara commentary.",
+        "The two English and literal-English ranges match exactly.",
+        "The Text 12 Devanāgarī numeral anomaly is retained as a source finding and does not create a duplicate JSON range.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-13-verses-19-and-21",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 2,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.13.19 and 3.13.21",
+      "records_checked": 2,
+      "reference_url": "https://vedabase.io/en/library/sb/3/13/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/13_varAhaH.md",
+      "sanskrit_source_blocks": [],
+      "source_note": "The pinned English mirror has 50 Text records for 3.13.1–3.13.50. The remote JSON already covered every source-numbered position except 3.13.19 and 3.13.21. The pinned Sanskrit file marks the 3.13.19 Śrīdhara section as न व्याख्यातम्। and provides no separate Śrīdhara block for 3.13.21. This batch adds two no-separate-commentary entries. The English mirror’s Text 12 has a duplicated Devanāgarī closing numeral matching 3.13.11, but its verse-text section is 3.13.12; coverage is tracked by the record heading and verse text.",
+      "status": "source-checked-and-remote-committed",
+      "unavailable_sanskrit_source_blocks": [
+        "3.13.19",
+        "3.13.21"
+      ]
     }
   ]
 }
