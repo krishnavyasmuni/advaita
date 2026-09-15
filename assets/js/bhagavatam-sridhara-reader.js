@@ -205,7 +205,7 @@
 
   function parseSridhara(markdown, targetCanto, targetChapter) {
     const entries = [];
-    const markerPattern = /(?:^|\n)\s*(?:\[\^[^\]]+\]\s*)?\*{0,2}॥\s*\*{0,2}([०-९]+)\s*\.\s*([०-९]+)\s*\.\s*([०-९]+)(?:\s*[-–—]\s*([०-९]+))?\s*॥\s*\*{0,2}/g;
+    const markerPattern = /(?:^|\n)\s*(?:\[\^[^\]]+\]\s*)?\*{0,2}॥\s*\*{0,2}([०-९]+)\s*\.\s*([०-९]+)\s*\.\s*([०-९]+)(?:\s*[-–—]\s*([०-९]+))?\s*\*{0,2}॥\s*\*{0,2}/g;
     // The corpus uses both the older “श्रीधर-स्वामी” label and the abbreviated “श्रीधरः” label.
     const labelPattern = /\*{0,2}श्रीधर(?:-स्वामी|ः)?(?:\s*,[^*\\n]+)?(?:\s*\([^*\\n]+\))?\s*[:：-]\s*\*{0,2}/;
     const markers = Array.from(String(markdown || '').matchAll(markerPattern));
