@@ -136,8 +136,6 @@
   const lines = (value) => esc(value).replace(/\n/g, '<br>');
   const verseUrl = (n) => 'https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/main/slok/bhagavadgita_chapter_' + chapter + '_slok_' + n + '.json';
 
-  const verseUrl = (n) => 'https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/main/slok/bhagavadgita_chapter_' + chapter + '_slok_' + n + '.json';
-
   const expandEntries = (entries) => {
     const out = {};
     (entries || []).filter(Boolean).forEach((entry) => {
@@ -153,9 +151,9 @@
   const makeVerse = (d, meanings, sourceMode) => {
     const n = d.verse;
     const rootText = sourceMode === 'legacy'
-      ? String(d.slok || '').replace(/\\|\\|[^|]+\\|\\|/g, '').replace(/\\|/g, '').replace(/\\\\n/g, '\\n').replace(/\\s+\\d+-\\d+\\s*$/, '')
-      : String(d.slok || '').replace(/(?:\\|\\||।।)\\s*[0-9०-९]+(?:[-–][0-9०-९]+)?\\s*(?:\\|\\||।।)/g, '').replace(/\\|/g, '');
-    const rootLines = rootText.split('\\n').map((x) => x.trim()).filter(Boolean).join('<br>');
+      ? String(d.slok || '').replace(/\|\|[^|]+\|\|/g, '').replace(/\|/g, '').replace(/\\n/g, '\n').replace(/\s+\d+-\d+\s*$/, '')
+      : String(d.slok || '').replace(/(?:\|\||।।)\s*[0-9०-९]+(?:[-–][0-9०-९]+)?\s*(?:\|\||।।)/g, '').replace(/\|/g, '');
+    const rootLines = rootText.split('\n').map((x) => x.trim()).filter(Boolean).join('<br>');
     const english = sourceMode === 'legacy'
       ? (d.gambir && d.gambir.et ? lines(d.gambir.et) : 'English translation unavailable in the source record.')
       : (d.mukEnglish ? lines(d.mukEnglish) : 'No Mukundananda translation supplied in the source record.');
