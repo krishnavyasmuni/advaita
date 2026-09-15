@@ -3100,6 +3100,80 @@
         "sridhara_records_with_text": 44,
         "literal_english_records": 26
       }
+    },
+    {
+      "id": "canto-1-chapter-3-verses-27-44",
+      "range": "ŚB 1.3.27–1.3.44",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/3/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/03_avatArAH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 18,
+      "numbered_verses": 18,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.3.27",
+        "1.3.28",
+        "1.3.29",
+        "1.3.30",
+        "1.3.31",
+        "1.3.32",
+        "1.3.33",
+        "1.3.34",
+        "1.3.35",
+        "1.3.36",
+        "1.3.37",
+        "1.3.38",
+        "1.3.39",
+        "1.3.40",
+        "1.3.41",
+        "1.3.42",
+        "1.3.43",
+        "1.3.44"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; the unelaborated 1.3.42 entry is marked as not explained.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-6-live#chapter-3",
+        "displayed_records": 44,
+        "sridhara_records_with_text": 44,
+        "literal_english_records": 44
+      }
+    },
+    {
+      "id": "canto-1-chapter-4-verses-16-27",
+      "range": "ŚB 1.4.16–1.4.27",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/4/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/04_nAradasyAgamanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 8,
+      "numbered_verses": 12,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.4.16–1.4.18",
+        "1.4.19",
+        "1.4.20",
+        "1.4.21–1.4.22",
+        "1.4.23",
+        "1.4.24",
+        "1.4.25",
+        "1.4.26–1.4.27"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; grouped source blocks remain grouped rather than being synthetically split.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-6-live#chapter-4",
+        "displayed_records": 31,
+        "sridhara_records_with_text": 23,
+        "literal_english_records": 23
+      }
     }
   ]
 }
