@@ -5450,6 +5450,31 @@
       ],
       "source_note": "The pinned English mirror contains 53 separate one-verse records for 3.20.1–3.20.53; the remote JSON already covered every position except 3.20.37. The pinned Sanskrit file supplies a short text-bearing Śrīdhara block for 3.20.37. This batch adds one literal rendering.",
       "status": "source-checked-and-remote-committed"
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/21/advanced-view/",
+      "findings": [
+        "The 3.21.35 literal English rendering is translated only from the pinned Śrīdhara Svāmī (Bhāvārtha-dīpikā) block and does not copy the Bhagavatam translation.",
+        "The 3.21.49 position is represented as no separate commentary rather than invented.",
+        "The English and literal-English ranges match exactly for the two uncovered source-numbered positions; source-absent existing entries are preserved.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-21-verses-35-and-49",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 2,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.21.35 and 3.21.49",
+      "records_checked": 2,
+      "reference_url": "https://vedabase.io/en/library/sb/3/21/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/21_kardama-manU.md",
+      "sanskrit_source_blocks": [
+        "3.21.35"
+      ],
+      "source_note": "The pinned English mirror has 46 Text records at positions 3.21.1–3.21.37, 3.21.40–3.21.41, 3.21.44, 3.21.48–3.21.51, and 3.21.55–3.21.56. Existing JSON covers all but 3.21.35 and 3.21.49, while retaining ten entries for source-absent positions 3.21.38–3.21.39, 3.21.42–3.21.43, 3.21.45–3.21.47, and 3.21.52–3.21.54. The pinned Sanskrit file supplies the 3.21.35 block and marks 3.21.49 as न व्याख्यातम्।. This batch adds one literal rendering and one no-separate-commentary marker.",
+      "status": "source-checked-and-remote-committed",
+      "unavailable_sanskrit_source_blocks": [
+        "3.21.49"
+      ]
     }
   ]
 }
