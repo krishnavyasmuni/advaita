@@ -123,7 +123,7 @@
       .replace(/_([^_\n]+)_/g, '$1')
       .replace(/<[^>]+>/g, '')
       .replace(/^\s*>\s?/gm, '')
-      .replace(/\\(?=\s*(?:$|\n))/g, '')
+      .replace(/\\/g, '')
       .replace(/\*/g, '')
       .trim();
   }
