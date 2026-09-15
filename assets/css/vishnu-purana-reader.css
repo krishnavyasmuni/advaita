@@ -1,0 +1,104 @@
+/* Viṣṇu Purāṇa reader shell: the Gītā verse renderer with the shared Contents rail. */
+.vishnu-gita-page .article-body{
+  width:min(914px,calc(100% - 48px))!important;
+  max-width:914px!important;
+  margin:0 auto!important;
+  padding:0 0 76px!important;
+  display:grid!important;
+  grid-template-columns:220px minmax(0,652px)!important;
+  gap:42px!important;
+  justify-content:end!important;
+  align-items:start!important;
+  background:var(--gita-paper,#f4f4f4)!important;
+}
+.vishnu-gita-page .article-body > :not(.vicara-side-toc):not(.vicara-mobile-toc){
+  grid-column:2!important;
+  min-width:0!important;
+  width:652px!important;
+  max-width:100%!important;
+  margin-left:0!important;
+  margin-right:0!important;
+}
+.vishnu-gita-page .vicara-side-toc{
+  grid-column:1!important;
+  grid-row:1!important;
+  position:sticky!important;
+  top:28px!important;
+  max-height:calc(100vh - 56px)!important;
+  overflow:auto!important;
+  margin:0!important;
+  padding:0 24px 24px 0!important;
+  border-right:1px solid #d4d0ca!important;
+  scrollbar-width:none;
+}
+.vishnu-gita-page .vicara-side-toc::-webkit-scrollbar{display:none}
+.vishnu-gita-page .vicara-side-title{
+  margin:0 0 24px!important;
+  color:var(--gita-teal,#00787a)!important;
+  font-family:Vollkorn,Georgia,serif!important;
+  font-size:30px!important;
+  line-height:1.05!important;
+  font-weight:400!important;
+  text-align:left!important;
+}
+.vishnu-gita-page .vicara-toc,
+.vishnu-gita-page .vicara-toc ol{
+  list-style:none!important;
+  margin:0!important;
+  padding:0!important;
+}
+.vishnu-gita-page .vicara-toc li{margin:0 0 18px!important}
+.vishnu-gita-page .vicara-toc a{
+  display:block!important;
+  padding:0!important;
+  border:0!important;
+  background:transparent!important;
+  color:#625b54!important;
+  font-family:Merriweather,Georgia,serif!important;
+  font-size:15px!important;
+  font-weight:700!important;
+  line-height:1.42!important;
+  text-decoration:none!important;
+}
+.vishnu-gita-page .vicara-toc a:hover,
+.vishnu-gita-page .vicara-toc a.is-active{
+  color:#6731fb!important;
+  text-decoration:none!important;
+}
+.vishnu-gita-page .vicara-toc a.is-active{font-weight:700!important}
+.vishnu-gita-page .vicara-mobile-toc{display:none!important}
+
+@media(max-width:900px){
+  .vishnu-gita-page .article-body{
+    width:100%!important;
+    max-width:none!important;
+    display:block!important;
+  }
+  .vishnu-gita-page .article-body > :not(.vicara-side-toc):not(.vicara-mobile-toc){
+    width:100%!important;
+    max-width:100%!important;
+  }
+  .vishnu-gita-page .vicara-side-toc{display:none!important}
+  .vishnu-gita-page .vicara-mobile-toc{
+    display:block!important;
+    margin:0 0 42px!important;
+    padding:0 0 20px!important;
+    border-bottom:1px solid #d9d4ce!important;
+  }
+  .vishnu-gita-page .vicara-mobile-toc>summary{
+    color:var(--gita-teal,#00787a)!important;
+    font-family:Vollkorn,Georgia,serif!important;
+    font-size:23px!important;
+    font-weight:400!important;
+    cursor:pointer!important;
+    list-style:none!important;
+  }
+  .vishnu-gita-page .vicara-mobile-toc>summary::-webkit-details-marker{display:none!important}
+  .vishnu-gita-page .vicara-mobile-toc .vicara-toc{margin-top:20px!important;columns:2;column-gap:30px}
+  .vishnu-gita-page .vicara-mobile-toc .vicara-toc li{break-inside:avoid}
+}
+@media(max-width:620px){
+  .vishnu-gita-page .article-body{padding-bottom:56px!important}
+  .vishnu-gita-page .vicara-mobile-toc{margin-bottom:32px!important}
+  .vishnu-gita-page .vicara-mobile-toc .vicara-toc{columns:1}
+}
