@@ -5701,6 +5701,56 @@
       ],
       "source_note": "The pinned English mirror contains 45 numbered records: 3.24.1–3.24.21 and 3.24.24–3.24.47. The preceding batch covered 3.24.1–3.24.21 and 3.24.24–3.24.32. This batch covers 15 numbered positions, 3.24.33–3.24.37 and 3.24.38–3.24.47, in 14 JSON entries. The manifest’s shared Sanskrit file groups 3.24.36–3.24.37; all covered blocks are text-bearing. English source-absent positions 3.24.22–3.24.23 remain untouched.",
       "status": "source-checked-and-remote-committed"
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/25/advanced-view/",
+      "findings": [
+        "The literal English renderings are translated only from the corresponding pinned Śrīdhara Svāmī (Bhāvārtha-dīpikā) blocks and do not copy the Bhagavatam translation.",
+        "The pinned English mirror contains 42 numbered records at 3.25.1–3.25.38 and 3.25.41–3.25.44; the remote JSON had no Chapter 25 entries. This batch adds the first 30 source-numbered positions.",
+        "The pinned Sanskrit source is the manifest’s shared 03/24_kapilAvatAraH.md file; it groups 3.25.21–3.25.24, which remains grouped in JSON.",
+        "The 3.25.14 source section explicitly says न व्याख्यातम्.; it is represented as a no-separate-commentary marker rather than invented.",
+        "English source-absent positions 3.25.39–3.25.40 are not fabricated or added.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-25-verses-1-30",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 30,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.25.1–3.25.30",
+      "records_checked": 30,
+      "reference_url": "https://vedabase.io/en/library/sb/3/25/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
+      "sanskrit_source_blocks": [
+        "3.25.1",
+        "3.25.2",
+        "3.25.3",
+        "3.25.4",
+        "3.25.5",
+        "3.25.6",
+        "3.25.7",
+        "3.25.8",
+        "3.25.9",
+        "3.25.10",
+        "3.25.11",
+        "3.25.12",
+        "3.25.13",
+        "3.25.14",
+        "3.25.15",
+        "3.25.16",
+        "3.25.17",
+        "3.25.18",
+        "3.25.19",
+        "3.25.20",
+        "3.25.21–3.25.24",
+        "3.25.25",
+        "3.25.26",
+        "3.25.27",
+        "3.25.28",
+        "3.25.29",
+        "3.25.30"
+      ],
+      "source_note": "The pinned English mirror contains 42 numbered records: 3.25.1–3.25.38 and 3.25.41–3.25.44. The remote JSON had no Chapter 25 entries. This batch covers 3.25.1–3.25.30 in 27 JSON entries, preserving the grouped Śrīdhara source block 3.25.21–3.25.24 and the explicit no-separate-commentary notice for 3.25.14. English source-absent positions 3.25.39–3.25.40 remain untouched.",
+      "status": "source-checked-and-remote-committed"
     }
   ]
 }
