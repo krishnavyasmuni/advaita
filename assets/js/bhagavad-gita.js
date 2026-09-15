@@ -561,6 +561,33 @@
     "19": "The undeluded person who knows Me as the Supreme Person in this way worships Me alone in every manner and thereby becomes all-knowing.",
     "20": "Thus I have taught the entire most secret scripture, not merely this chapter. Knowing it properly, the wise person becomes accomplished and fulfills the purpose of life."
   },
+
+  16: {
+    "1": "The divine endowment begins with fearlessness, purity of mind, steadfastness in the yoga of Self-knowledge, charity, control of the external senses, sacrifice, study of the Veda, austerity, and straightforwardness.",
+    "2": "It includes nonviolence, truthful speech, absence of anger even toward one who strikes, generosity, mental quiet, absence of slander, compassion for the helpless, absence of greed, gentleness, modesty and freedom from useless activity.",
+    "3": "It includes vigor, forgiveness that restrains anger after insult, fortitude that steadies the mind in pain, outward and inward purity, absence of hatred and absence of excessive self-importance. These twenty-six qualities belong to one born for the divine endowment.",
+    "4": "The demonic endowment consists of hypocrisy, arrogance born of wealth or learning, self-conceit, anger, harshness and ignorance; these qualities characterize those born for demonic nature.",
+    "5": "The divine endowment makes one qualified for the knowledge I have taught and leads to liberation; the demonic endowment keeps one in worldly existence. Do not grieve, O Pāṇḍava, for you are born with the divine endowment.",
+    "6": "There are two kinds of creation: divine and demonic. Hear from Me the demonic nature in detail so that it may be wholly rejected.",
+    "7": "Demonic people do not know the way of action in dharma or the way of withdrawal from adharma; therefore purity, proper conduct and truth are absent in them.",
+    "8": "They say the world is unreal, without the authority of Veda or dharma, without a governing Lord, and produced merely from the mutual union of male and female, with desire as its only cause.",
+    "9": "Holding this materialist view, their inner selves ruined and minds impure, with little understanding and violent actions, they arise as enemies for the destruction of the world.",
+    "10": "Relying on insatiable desire and joined with hypocrisy, they undertake worship of petty deities, clinging through delusion to impure vows and to fanciful claims about gaining great treasures.",
+    "11": "They are devoted to immeasurable anxiety ending only at death, regard gratification of desire as the highest human aim, and resolve that nothing beyond this exists while striving to accumulate wealth.",
+    "12": "Bound by hundreds of hopes that are nets, dragged in every direction, and making lust and anger their refuge, they seek to amass wealth for the enjoyment of desire through unjust means.",
+    "13": "They boast, 'Today I have gained this object; I shall obtain that other desired thing; I possess this much wealth, and I shall acquire more.'",
+    "14": "They say, 'That enemy has been killed by me, and I shall kill others too; I am successful, powerful and happy.'",
+    "15": "They say, 'I am rich and well-born; I shall perform sacrifices and gain great honor from other initiated people; I shall give and rejoice,' being deluded by ignorance and false identification.",
+    "16": "Driven by many desires, with minds scattered and covered by a net of delusion, attached to the enjoyment of desire, they fall into an impure hell.",
+    "17": "They are self-honored, stiff and proud of wealth; their sacrifices are performed only for the name of being a sacrificer, with hypocrisy and not faith, and without proper rule.",
+    "18": "Taking refuge in ego, power, pride, desire and anger, they hate Me, who dwell as consciousness in their own and others' bodies; they perform hypocritical sacrifices and find fault with the virtues of those on the righteous path.",
+    "19": "Those cruel haters of Me I continually cast into worldly births, and even into especially cruel demonic wombs such as those of predators, giving them the corresponding fruit of their sinful actions.",
+    "20": "Failing to attain Me and not reaching the righteous path that leads to Me, they repeatedly enter births lower still, among worms and insects, and go to a condition worse than the demonic one.",
+    "21": "Desire, anger and greed are the three gates of hell, the causes of one's ruin and of birth in low wombs; therefore one should abandon all three completely.",
+    "22": "Freed from these three gates of darkness and hell, a person undertakes actions that produce the welfare of the Self, such as austerity and yoga, and thereby attains liberation.",
+    "23": "One who abandons the scriptural rule of dharma and acts merely according to desire does not attain perfection, happiness, peace or the highest goal.",
+    "24": "Therefore scripture—Veda, Smṛti and Purāṇa—is your authority for deciding what should and should not be done. Knowing the actions prescribed there, perform the duty appropriate to your qualification."
+  },
     1: {
       1: `Here indeed the supremely compassionate Lord, the son of Devakī—whose descent is for the welfare of all the worlds and whose feet are worshipped by all—rescued Arjuna from the ocean of grief and delusion by the raft of instruction in the secret of dharma and knowledge. Arjuna’s discrimination had been overthrown by grief and delusion arising from ignorance of reality, and he had become intent on abandoning his own dharma and taking up another’s dharma. Kṛṣṇa Dvaipāyana set down that very meaning taught by the Lord in seven hundred verses. In doing so, he wrote mostly the verses that issued from Śrī Kṛṣṇa’s own mouth, and composed some himself in order to connect them. As stated in the Gītā Māhātmya: “The Gītā should be well studied; what need is there of extensive scriptures? It issued directly from the lotus-mouth of Padmanābha.” Then, from “On the field of dharma” up to “he spoke these words in sorrow,” the narrative is set out in order to introduce the dialogue of Śrī Kṛṣṇa and Arjuna. “On the field of dharma”: O Sañjaya, when my sons and the sons of Pāṇḍu, desiring to fight, had assembled together on Kurukṣetra, the field of dharma, what did they do?`,
       2: `On “having seen”: Having seen the army of the Pāṇḍavas arranged in battle formation, King Duryodhana went to Droṇa, his teacher, and spoke the words that follow.`,
