@@ -228,7 +228,7 @@
       ].filter((value) => value >= 0);
       if (stops.length) commentary = commentary.slice(0, Math.min.apply(null, stops));
       const text = cleanBlock(commentary);
-      if (text && text.replace(/[+\\s]/g, '') !== '') entries.push({ start, end, text, sourceAvailable: true });
+      if (text && text.replace(/[+\s]/g, '') !== '') entries.push({ start, end, text, sourceAvailable: true });
     });
     return entries;
   }
