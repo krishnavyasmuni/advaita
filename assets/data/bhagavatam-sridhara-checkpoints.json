@@ -409,6 +409,45 @@
         "literal_english_records": 13,
         "verified_range": "1.10.1–1.10.15"
       }
+    },
+    {
+      "id": "canto-1-chapter-11-verses-1-15",
+      "range": "ŚB 1.11.1–1.11.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/11/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/11_pura-praveshaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.11.1",
+        "1.11.2",
+        "1.11.3",
+        "1.11.4–1.11.5",
+        "1.11.6",
+        "1.11.7",
+        "1.11.8",
+        "1.11.9",
+        "1.11.10",
+        "1.11.11",
+        "1.11.12",
+        "1.11.13",
+        "1.11.14",
+        "1.11.15"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms for verses 1–15 were checked against the pinned English mirror after normalizing Markdown escapes and paragraph line wrapping; the wording matches.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; the 1.11.4–1.11.5 source block remains grouped.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/1/11/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-11-live#chapter-11",
+        "displayed_records": 37,
+        "sridhara_records_with_text": 37,
+        "literal_english_records": 14,
+        "verified_range": "1.11.1–1.11.15"
+      }
     }
   ]
 }
