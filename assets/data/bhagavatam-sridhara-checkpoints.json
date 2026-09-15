@@ -5019,6 +5019,55 @@
         "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
       ],
       "reference_url": "https://vedabase.io/en/library/sb/3/5/advanced-view/"
+    },
+    {
+      "id": "canto-3-chapter-6-verses-14-and-16-40",
+      "range": "ŚB 3.6.14 and 3.6.16–3.6.40",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://vedabase.io/en/library/sb/3/6/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/06_virAD-vigrahotpatti-kathanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 26,
+      "numbered_verses": 26,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.6.16",
+        "3.6.17",
+        "3.6.18",
+        "3.6.19",
+        "3.6.21",
+        "3.6.24",
+        "3.6.25",
+        "3.6.26",
+        "3.6.27",
+        "3.6.28",
+        "3.6.29",
+        "3.6.30",
+        "3.6.31",
+        "3.6.32",
+        "3.6.33",
+        "3.6.34",
+        "3.6.35",
+        "3.6.36",
+        "3.6.37",
+        "3.6.38",
+        "3.6.39",
+        "3.6.40"
+      ],
+      "unavailable_sanskrit_source_blocks": [
+        "3.6.14",
+        "3.6.20",
+        "3.6.22",
+        "3.6.23"
+      ],
+      "source_note": "The pinned English mirror contains twenty-six separate one-verse records for the uncovered range 3.6.14 and 3.6.16–3.6.40; the remote JSON already covers 3.6.1–3.6.13 and 3.6.15. The pinned Sanskrit file supplies twenty-two separate Śrīdhara blocks for 3.6.16–3.6.19, 3.6.21, and 3.6.24–3.6.40. It explicitly marks 3.6.14, 3.6.20, and 3.6.23 as न व्याख्यातम्।; 3.6.22 has the unheaded notice न कतमेन व्याख्यातम्।. No grouped source block occurs.",
+      "findings": [
+        "The literal English layer is rendered only from the twenty-two supplied Śrīdhara Svāmī blocks; it does not copy the Bhagavatam translation.",
+        "The four verses without separate commentary are represented as no-separate-commentary markers rather than invented renderings.",
+        "The batch begins with the actual remote coverage gap and does not duplicate the existing 3.6.1–3.6.13 and 3.6.15 entries.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/6/advanced-view/"
     }
   ]
 }
