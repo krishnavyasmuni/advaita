@@ -9,8 +9,7 @@ const pages=[
 {id:'rejection-universal',file:'rejection.html',parent:'Pūrvapakṣa',title:'Refutation of Pūrvapakṣa',stop:'vishvamitra'},
 {id:'vishvamitra',file:'rejection.html',parent:'Bhaviṣya Purāṇa on Varṇa',title:'Viśvāmitra, mlecchas and śūdras',stop:'remark-4'},
 {id:'remark-4',file:'rejection.html',parent:'Bhaviṣya Purāṇa on Varṇa',title:'Remark on the Fast to Become a Brāhmaṇa',stop:'jati-distinctions',kind:'remark-heading'},
-{id:'jati-distinctions',file:'rejection.html',parent:'Bhaviṣya Purāṇa on Varṇa',title:'Rejection of jāti-distinctions'},
-{id:'comparative-shastra',file:'comparative-shastra.html',parent:'Comparable Śāstric Witnesses',title:'Comparable passages'}
+{id:'jati-distinctions',file:'rejection.html',parent:'Bhaviṣya Purāṇa on Varṇa',title:'Rejection of jāti-distinctions'}
 ];
 const byId=new Map(pages.map(x=>[x.id,x]));
 const aliases=new Map([['preface','introduction'],['purvapaksha','purvapaksha-position'],['rejection','vishvamitra']]);
