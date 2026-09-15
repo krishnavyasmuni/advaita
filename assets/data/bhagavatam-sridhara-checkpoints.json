@@ -5571,6 +5571,49 @@
       ],
       "source_note": "The pinned English mirror contains 51 numbered records: 3.23.1–3.23.3, 3.23.6–3.23.13, 3.23.16–3.23.35, and 3.23.38–3.23.57. The remote JSON had no Canto 3, Chapter 23 entries. This batch covers the first 30 source-numbered positions: 3.23.1–3.23.3, 3.23.6–3.23.13, and 3.23.16–3.23.34. The pinned Sanskrit file groups 3.23.1–3.23.2, 3.23.7–3.23.8, and 3.23.28–3.23.29; 3.23.17 has an explicit no-separate-commentary notice. English source-absent positions 3.23.4–3.23.5 and 3.23.14–3.23.15 remain untouched.",
       "status": "source-checked-and-remote-committed"
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/23/advanced-view/",
+      "findings": [
+        "The literal English renderings are translated only from the corresponding pinned Śrīdhara Svāmī (Bhāvārtha-dīpikā) blocks and do not copy the Bhagavatam translation.",
+        "The pinned English mirror contains 51 numbered records at 3.23.1–3.23.3, 3.23.6–3.23.13, 3.23.16–3.23.35, and 3.23.38–3.23.57. After the preceding batch, the remaining source positions were 3.23.35 and 3.23.38–3.23.57.",
+        "The pinned Sanskrit source supplies separate text-bearing Śrīdhara blocks for every covered position except 3.23.45, whose section has no separate Śrīdhara block; that position is represented explicitly rather than invented.",
+        "English source-absent positions 3.23.4–3.23.5, 3.23.14–3.23.15, and 3.23.36–3.23.37 are not fabricated or added.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-23-verses-35-and-38-57",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 21,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.23.35 and 3.23.38–3.23.57",
+      "records_checked": 21,
+      "reference_url": "https://vedabase.io/en/library/sb/3/23/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/23_nava-kanyAnAm_utpattiH.md",
+      "sanskrit_source_blocks": [
+        "3.23.35",
+        "3.23.38",
+        "3.23.39",
+        "3.23.40",
+        "3.23.41",
+        "3.23.42",
+        "3.23.43",
+        "3.23.44",
+        "3.23.45",
+        "3.23.46",
+        "3.23.47",
+        "3.23.48",
+        "3.23.49",
+        "3.23.50",
+        "3.23.51",
+        "3.23.52",
+        "3.23.53",
+        "3.23.54",
+        "3.23.55",
+        "3.23.56",
+        "3.23.57"
+      ],
+      "source_note": "The pinned English mirror contains 51 numbered records: 3.23.1–3.23.3, 3.23.6–3.23.13, 3.23.16–3.23.35, and 3.23.38–3.23.57. The previous batch covered the first 30 source positions; this batch covers 3.23.35 and 3.23.38–3.23.57, for 21 numbered positions. The pinned Sanskrit source supplies separate Śrīdhara blocks for all except 3.23.45, whose section explicitly has no separate Śrīdhara commentary. English source-absent positions 3.23.4–3.23.5, 3.23.14–3.23.15, and 3.23.36–3.23.37 remain untouched.",
+      "status": "source-checked-and-remote-committed"
     }
   ]
 }
