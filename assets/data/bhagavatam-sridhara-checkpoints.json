@@ -4993,6 +4993,32 @@
         "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
       ],
       "reference_url": "https://vedabase.io/en/library/sb/3/5/advanced-view/"
+    },
+    {
+      "id": "canto-3-chapter-5-verses-46-50",
+      "range": "ŚB 3.5.46–3.5.50",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://vedabase.io/en/library/sb/3/5/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/05_sRShTi-krama-varNanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 5,
+      "numbered_verses": 5,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.5.46",
+        "3.5.47",
+        "3.5.48",
+        "3.5.49",
+        "3.5.50"
+      ],
+      "source_note": "The pinned English mirror contains five separate Text 46–50 records. By exact verse-text comparison, the pinned Sanskrit file's internal headings 3.5.45–3.5.49 correspond to canonical English Texts 46–50 after the earlier omitted verse and numbering shift; all five corresponding blocks contain separate Śrīdhara commentary.",
+      "findings": [
+        "The literal English layer is rendered only from the five corresponding Śrīdhara Svāmī blocks; it does not copy the Bhagavatam translation.",
+        "The source-heading offset is recorded rather than silently treated as a canonical numbering match.",
+        "No grouped source block or no-separate-commentary verse occurs in this remainder.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/5/advanced-view/"
     }
   ]
 }
