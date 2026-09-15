@@ -1,0 +1,1 @@
+(()=>{const root=document.querySelector('.gita-content');if(!root)return;const clean=()=>{root.querySelectorAll('.gita-translation').forEach(el=>{const t=el.textContent||'';const cleaned=t.replace(/^\s*\d+\.\d+\s*/, '');if(cleaned!==t)el.textContent=cleaned;});};clean();new MutationObserver(clean).observe(root,{childList:true,subtree:true});})();
