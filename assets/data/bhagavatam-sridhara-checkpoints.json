@@ -3613,6 +3613,107 @@
         "sridhara_records_with_text": 36,
         "literal_english_records": 34
       }
+    },
+    {
+      "id": "canto-1-chapter-10-verses-36-36",
+      "range": "ŚB 1.10.36",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/10/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/10_dvArakA-gamanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 1,
+      "numbered_verses": 1,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.10.36"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī block.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-14-live#chapter-10",
+        "displayed_records": 36,
+        "sridhara_records_with_text": 36,
+        "literal_english_records": 35
+      }
+    },
+    {
+      "id": "canto-1-chapter-11-verses-16-39",
+      "range": "ŚB 1.11.16–1.11.39",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/11/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/11_pura-praveshaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 23,
+      "numbered_verses": 24,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.11.16–1.11.17",
+        "1.11.18",
+        "1.11.19",
+        "1.11.20",
+        "1.11.21",
+        "1.11.22",
+        "1.11.23",
+        "1.11.24",
+        "1.11.25",
+        "1.11.26",
+        "1.11.27",
+        "1.11.28",
+        "1.11.29",
+        "1.11.30",
+        "1.11.31",
+        "1.11.32",
+        "1.11.33",
+        "1.11.34",
+        "1.11.35",
+        "1.11.36",
+        "1.11.37",
+        "1.11.38",
+        "1.11.39"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; the grouped 1.11.16–1.11.17 source block remains grouped.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-14-live#chapter-11",
+        "displayed_records": 39,
+        "sridhara_records_with_text": 39,
+        "literal_english_records": 38
+      }
+    },
+    {
+      "id": "canto-1-chapter-12-verses-18-22",
+      "range": "ŚB 1.12.18–1.12.22",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/12/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/12_parIxito_janmotsavaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 5,
+      "numbered_verses": 5,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.12.18",
+        "1.12.19",
+        "1.12.20",
+        "1.12.21",
+        "1.12.22"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-14-live#chapter-12",
+        "displayed_records": 36,
+        "sridhara_records_with_text": 20,
+        "literal_english_records": 20
+      }
     }
   ]
 }
