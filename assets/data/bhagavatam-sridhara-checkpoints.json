@@ -4697,6 +4697,53 @@
         "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
       ],
       "reference_url": "https://vedabase.io/en/library/sb/2/9/advanced-view/"
+    },
+    {
+      "id": "canto-2-chapter-10-verses-16-45",
+      "range": "ŚB 2.10.16–2.10.45",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://vedabase.io/en/library/sb/2/10/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/10_indriyAdy-utpattiH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 30,
+      "numbered_verses": 30,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "2.10.16",
+        "2.10.17",
+        "2.10.18",
+        "2.10.19–2.10.20",
+        "2.10.21",
+        "2.10.22",
+        "2.10.23",
+        "2.10.24",
+        "2.10.25",
+        "2.10.26",
+        "2.10.27",
+        "2.10.28",
+        "2.10.29",
+        "2.10.30",
+        "2.10.31",
+        "2.10.32",
+        "2.10.33",
+        "2.10.34",
+        "2.10.35",
+        "2.10.36",
+        "2.10.37–2.10.39",
+        "2.10.40–2.10.41",
+        "2.10.42",
+        "2.10.43",
+        "2.10.44",
+        "2.10.45"
+      ],
+      "source_note": "The pinned English mirror has twenty-seven headings covering thirty numbered verses in 2.10.16–2.10.45, including its grouped 2.10.37–2.10.40 heading. The pinned Sanskrit file has twenty-six Śrīdhara blocks covering the same thirty numbered verses; the source’s 2.10.37–2.10.39 and 2.10.40–2.10.41 groups remain grouped.",
+      "findings": [
+        "The literal English layer is rendered directly from the twenty-six corresponding Śrīdhara Svāmī source blocks; it does not copy the Bhagavatam translation.",
+        "All source blocks in this range contain separate Śrīdhara commentary; no no-commentary marker is needed.",
+        "The Sanskrit group boundaries are preserved even where the English mirror uses a different grouped heading.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/2/10/advanced-view/"
     }
   ]
 }
