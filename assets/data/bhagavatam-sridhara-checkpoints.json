@@ -4744,6 +4744,31 @@
         "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
       ],
       "reference_url": "https://vedabase.io/en/library/sb/2/10/advanced-view/"
+    },
+    {
+      "id": "canto-2-chapter-10-verses-46-51",
+      "range": "ŚB 2.10.46–2.10.51",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://vedabase.io/en/library/sb/2/10/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/10_indriyAdy-utpattiH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 6,
+      "numbered_verses": 6,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "2.10.46",
+        "2.10.47",
+        "2.10.48–2.10.50",
+        "2.10.51"
+      ],
+      "source_note": "The pinned English mirror has five headings covering six numbered verses in 2.10.46–2.10.51; its 2.10.49–2.10.50 heading is grouped. The pinned Sanskrit file has four Śrīdhara blocks covering the same six numbered verses, with 2.10.48–2.10.50 preserved as one grouped block.",
+      "findings": [
+        "The literal English layer is rendered directly from the four corresponding Śrīdhara Svāmī source blocks; it does not copy the Bhagavatam translation.",
+        "The grouped 2.10.48–2.10.50 source block remains one grouped JSON entry.",
+        "The concluding authorial verses embedded in the 2.10.51 source block are rendered as part of that source block.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic correction."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/2/10/advanced-view/"
     }
   ]
 }
