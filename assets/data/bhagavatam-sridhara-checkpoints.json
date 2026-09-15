@@ -2175,6 +2175,81 @@
         "literal_english_source_blocks": 20,
         "verified_range": "3.14.29–3.14.48"
       }
+    },
+    {
+      "id": "canto-3-chapter-14-verses-49-50",
+      "range": "ŚB 3.14.49–3.14.50",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/3/14/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/14_diti-kashyapa-saMvAdaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 2,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.14.49",
+        "3.14.50"
+      ],
+      "findings": [
+        "Vedabase English translation, transliteration and synonyms for verses 49–50 were checked in the Advanced View and matched the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping.",
+        "The primary Sanskrit source is the pinned Vasuki Bhāvārtha-dīpikā file; its Devanāgarī is loaded verbatim by the reader.",
+        "Both Śrīdhara Svāmī source blocks in this range are individually present.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks and retains the source’s lexical and grammatical explanations without adding Vedabase purport.",
+        "The 1949 Śrīdharī scan remains the independent comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/14/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-03-sridhara-svami/#chapter-14",
+        "displayed_records": 2,
+        "sridhara_records_with_text": 2,
+        "literal_english_records": 2,
+        "literal_english_source_blocks": 2,
+        "verified_range": "3.14.49–3.14.50"
+      }
+    },
+    {
+      "id": "canto-3-chapter-15-verses-1-18",
+      "range": "ŚB 3.15.1–3.15.18",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/3/15/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/15_vaikuNTha-dhAma.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 18,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.15.1",
+        "3.15.2",
+        "3.15.3",
+        "3.15.4",
+        "3.15.5",
+        "3.15.6–3.15.7",
+        "3.15.8",
+        "3.15.9",
+        "3.15.10",
+        "3.15.11",
+        "3.15.12",
+        "3.15.13",
+        "3.15.14",
+        "3.15.15",
+        "3.15.16",
+        "3.15.17",
+        "3.15.18"
+      ],
+      "findings": [
+        "Vedabase English translation, transliteration and synonyms for verses 1–18 were checked in the Advanced View and matched the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping.",
+        "The primary Sanskrit source is the pinned Vasuki Bhāvārtha-dīpikā file; its Devanāgarī is loaded verbatim by the reader.",
+        "All 18 verse records have Śrīdhara text. The source’s grouped 3.15.6–3.15.7 block is preserved as grouped source text; no artificial split was introduced.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks and retains the source’s lexical, grammatical and technical explanations without adding Vedabase purport.",
+        "The 1949 Śrīdharī scan remains the independent comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/15/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-03-sridhara-svami/#chapter-15",
+        "displayed_records": 18,
+        "sridhara_records_with_text": 18,
+        "literal_english_records": 17,
+        "literal_english_source_blocks": 17,
+        "verified_range": "3.15.1–3.15.18"
+      }
     }
   ]
 }
