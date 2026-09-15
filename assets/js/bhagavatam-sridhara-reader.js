@@ -209,7 +209,7 @@
     // The corpus uses both the older “श्रीधर-स्वामी” label and the abbreviated “श्रीधरः” label.
     const labelPattern = /\*{0,2}श्रीधर(?:-स्वामी|ः)?(?:\s*,[^*\\n]+)?(?:\s*\([^*\\n]+\))?\s*[:：-]\s*\*{0,2}/;
     const sourceText = String(markdown || '').replace(/॥\s*\*{1,2}([०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\*{1,2}\s*॥/g, '॥ $1 ॥');
-    const markers = Array.from(String(markdown || '').matchAll(markerPattern));
+    const markers = Array.from(sourceText.matchAll(markerPattern));
 
     markers.forEach((marker, index) => {
       const markerCanto = Number(toAsciiDigits(marker[1]));
