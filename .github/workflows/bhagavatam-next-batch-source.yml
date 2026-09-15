@@ -1,4 +1,4 @@
-name: One-shot Canto 3 cleanup source extraction
+name: One-shot Canto 3 cleanup English audit
 on:
   push:
     branches: [codex/bhagavatam-canto1-batch-001]
@@ -6,7 +6,7 @@ on:
 permissions:
   contents: read
 jobs:
-  extract:
+  audit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v7
@@ -14,31 +14,18 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const pinned='100560de6c9f68c2875097d40a2012a84c784179';
-            const targets=['3.5.51','3.9.27','3.9.28','3.10.28','3.10.29','3.18.16','3.22.26','3.22.27','3.22.29','3.22.30','3.23.4','3.23.5','3.23.14','3.23.15','3.23.36','3.23.37','3.24.22','3.24.23','3.25.39','3.25.40'];
-            const targetSet=new Set(targets);
-            const paths={5:'03/05_sRShTi-krama-varNanam.md',9:'03/09_brahmaNe_vara-pradAnam.md',10:'03/10_dasha-vidha-sRShTi-varNanam.md',18:'03/18_yuddham.md',22:'03/22_kardama-devahUti-vivAhaH.md',23:'03/23_nava-kanyAnAm_utpattiH.md',24:'03/24_kapilAvatAraH.md',25:'03/24_kapilAvatAraH.md'};
-            async function getText(path){const r=await github.rest.repos.getContent({owner:'vishvAsa',repo:'purANam_vaiShNavam',path:'bhAgavatam/gauDIya-prastutiH/'+path,ref:pinned});let t=r.data.content?Buffer.from(r.data.content,'base64').toString('utf8'):'';if(!t){const b=await github.rest.git.getBlob({owner:'vishvAsa',repo:'purANam_vaiShNavam',file_sha:r.data.sha});t=Buffer.from(b.data.content,b.data.encoding||'base64').toString('utf8');}return t;}
-            const d={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'},num=x=>Number([...String(x)].map(c=>d[c]??c).join(''));
-            const mr=/(?:^|\n)\s*(?:\[\^[^\]]+\]\s*)?\*{0,2}॥\s*\*{0,2}([०-९]+)\s*\.\s*([०-९]+)\s*\.\s*([०-९]+)(?:\s*[-–—]\s*([०-९]+))?\s*\*{0,2}॥\s*\*{0,2}/g;
-            const lr=/\*{0,2}श्रीधर(?:-स्वामी|ः)?(?:\s*,[^*\n]+)?(?:\s*\([^*\n]+\))?\s*[:：-]\s*\*{0,2}/;
-            const out=[],seen=new Set();
-            for(const [chS,path] of Object.entries(paths)){
-              const ch=Number(chS);if(seen.has(path))continue;seen.add(path);
-              let text=await getText(path);
-              text=text.replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+)\s*।\s*\*{1,2}\s*([०-९]+)/g,'$1.$2').replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+)\s*\*{1,2}\s*।\s*\*{1,2}\s*([०-९]+)/g,'$1.$2').replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\s*\*{1,2}\s*॥/g,'$1 ॥').replace(/॥\s*\*{1,2}([०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\*{1,2}\s*॥/g,'॥ $1 ॥');
-              const ms=[...text.matchAll(mr)];
-              for(let i=0;i<ms.length;i++){
-                const m=ms[i],c=num(m[1]),mc=num(m[2]),s=num(m[3]),e=num(m[4]||m[3]);if(c!==3)continue;
-                let hit=false;for(let v=s;v<=e;v++)if(targetSet.has(`3.${mc}.${v}`))hit=true;if(!hit)continue;
-                const seg=text.slice(m.index+m[0].length,i+1<ms.length?ms[i+1].index:text.length),lm=seg.match(lr);
-                if(!lm){out.push({c,chapter:mc,start:s,end:e,status:'no-label',text:''});continue;}
-                let x=seg.slice((lm.index||0)+lm[0].length).replace(/^\s*_{4,}\s*/,'');
-                const stops=[x.search(/\n_{4,}/),x.search(/\n[-—]{12,}/),x.search(/(?:^|\n|॥)\s*\*{0,2}(?:श्रीधर(?:-स्वामी|ः)?|दिग्दर्शिनी|वंशीधर|वशिधर|श्रीनाथ|सनातन|जीव-?गोस्वामी|विश्वनाथ|बलदेव|मध्वाचार्य)/)].filter(v=>v>=0);if(stops.length)x=x.slice(0,Math.min(...stops));
-                x=x.replace(/\[\^[^\]]+\]/g,'').replace(/\*\*/g,'').replace(/__+/g,'').replace(/^\s*>\s?/gm,'').trim();
-                const no=/^\*?न\s+(?:कतमेनापि\s+)?व्याख्यातम्/.test(x)||!x;
-                out.push({c,chapter:mc,start:s,end:e,status:no?'no-separate':'commentary',text:x});
+            const targetStrings=['3.5.51','3.9.27','3.9.28','3.10.28','3.10.29','3.18.16','3.22.26','3.22.27','3.22.29','3.22.30','3.23.4','3.23.5','3.23.14','3.23.15','3.23.36','3.23.37','3.24.22','3.24.23','3.25.39','3.25.40'];
+            const targets=new Set(targetStrings);
+            const chapters=[5,9,10,18,22,23,24,25],out=[];
+            for(const ch of chapters){
+              const path=`bhAgavatam/gauDIyo_abhaya-charaNaH/03/${String(ch).padStart(2,'0')}.md`;
+              const r=await github.rest.repos.getContent({owner:'vishvAsa',repo:'purANam_vaiShNavam',path,ref:pinned});
+              let text=r.data.content?Buffer.from(r.data.content,'base64').toString('utf8'):'';
+              if(!text){const b=await github.rest.git.getBlob({owner:'vishvAsa',repo:'purANam_vaiShNavam',file_sha:r.data.sha});text=Buffer.from(b.data.content,b.data.encoding||'base64').toString('utf8');}
+              for(const m of text.matchAll(/^##\s+Texts?\s+(\d+)(?:\s*[-–—]\s*(\d+))?\s*$/gmi)){
+                const s=Number(m[1]),e=Number(m[2]||m[1]);let hit=false;for(let v=s;v<=e;v++)if(targets.has(`3.${ch}.${v}`))hit=true;
+                if(hit)out.push({chapter:ch,start:s,end:e});
               }
             }
-            const blockCovered=new Set();for(const b of out)for(let v=b.start;v<=b.end;v++)if(targetSet.has(`3.${b.chapter}.${v}`))blockCovered.add(`3.${b.chapter}.${v}`);
-            const unmatched=targets.filter(t=>!blockCovered.has(t));
-            core.info(`CLEANUP_BLOCKS=${out.length}`);core.info(`UNMATCHED=${JSON.stringify(unmatched)}`);core.info('CLEANUP_SOURCE_BEGIN');core.info(JSON.stringify(out));core.info('CLEANUP_SOURCE_END');
+            const cov=new Set();for(const r of out)for(let v=r.start;v<=r.end;v++)if(targets.has(`3.${r.chapter}.${v}`))cov.add(`3.${r.chapter}.${v}`);
+            core.info(`TARGETS=${targetStrings.length}`);core.info(`SOURCE_RECORDS=${out.length}`);core.info(`UNMATCHED=${JSON.stringify(targetStrings.filter(x=>!cov.has(x)))}`);core.info(`RECORDS=${JSON.stringify(out)}`);
