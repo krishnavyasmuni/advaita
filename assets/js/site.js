@@ -1,6 +1,7 @@
 (()=>{
 const p=location.pathname,dirs=[/^\/vivekadrishti\/articles\/?$/, /\/articles\/scripture\/?$/, /\/articles\/(?:scripture-index-version-3|an-index-of-hindu-scripture)\/?$/];
 const article=/^\/vivekadrishti\/articles\//.test(p)&&!dirs.some(r=>r.test(p));
+const combinedBhavishya=/\/articles\/bhavisya-purana-addresses-varna-system\/?$/.test(p);
 const scripture=/\/articles\/(?:bhagavad-gita-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|bhavisya-purana-addresses-varna-system|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|srimad-bhagavatam-canto-\d{2}-sridhara-svami|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(p);
 const citation=/\/articles\/compilation-of-peer-reviewed-citations-against-aryan-migration-theory\/?$/.test(p),meat=/\/articles\/meat-eating-in-hinduism-through-the-lens-of-shastra\/?$/.test(p);
 const css=(key,href)=>{if(document.querySelector(`link[data-${key}]`))return;const l=document.createElement('link');l.rel='stylesheet';l.href=href;l.dataset[key]='1';document.head.append(l)};
@@ -11,7 +12,7 @@ if(article){
  css('articleReader','/vivekadrishti/assets/css/article-reader.css?v=20260915-1');
  if(!scripture)css('articlePager','/vivekadrishti/assets/css/article-pager.css?v=20260914-2');
  if(citation||scripture)css('articlePolish','/vivekadrishti/assets/css/article-polish.css?v=20260913-2');
- js('articleReader','/vivekadrishti/assets/js/article-reader.js?v=20260915-1');
+ if(!combinedBhavishya)js('articleReader','/vivekadrishti/assets/js/article-reader.js?v=20260915-1');
 }else css('hindupediaSite','/vivekadrishti/assets/css/hindupedia-site.css?build=20260826-2145');
 
 const paths=new Map([
