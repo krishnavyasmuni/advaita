@@ -5,103 +5,98 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Bhagavad Gītā — Śrīdhara Bhāṣya — all 18 chapters with Sanskrit, English, and Śrīdhara Svāmī’s Subodhinī.">
 <title>Bhagavad Gītā — Śrīdhara Bhāṣya — Viveka Dṛṣṭi</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Vollkorn:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--page:#fff;--outer:#ecebe8;--ink:#332f2b;--muted:#6d6862;--link:#375f73;--link-hover:#6c4d73;--rule:#c8c5c0;--soft:#f5f4f1;--soft2:#faf9f7}
+:root{--paper:#fff;--outer:#eee9e1;--ink:#27221d;--muted:#69635d;--rule:#aaa59e;--link:#292725;--accent:#6b5141}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--outer);color:var(--ink);font-family:Merriweather,Georgia,serif;font-size:15px;line-height:1.62}
+body{margin:0;background:var(--outer);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.65}
 a{color:var(--link)}
-a:hover{color:var(--link-hover)}
-.sitebar{width:1020px;max-width:100%;margin:0 auto;padding:11px 28px;background:#f8f7f4;border-bottom:1px solid #d3d0ca;font-family:Vollkorn,Georgia,serif;font-size:17px}
-.sitebar a{text-decoration:none;color:#3d5963}
-.page{width:1020px;max-width:100%;min-height:100vh;margin:0 auto;padding:42px 58px 80px;background:var(--page);box-shadow:0 0 0 1px rgba(0,0,0,.035)}
-.article-head{margin-bottom:28px}
-.article-head h1{margin:0 0 7px;padding-bottom:9px;border-bottom:1px solid #aaa69f;color:#292724;font-family:Vollkorn,Georgia,serif;font-size:39px;font-weight:500;line-height:1.13}
-.deck{margin:0;max-width:760px;color:#55514d;font-size:14px}
-.meta{margin:11px 0 0;color:#77716b;font-size:12.5px}
-.breadcrumbs{margin:0 0 20px;color:#77716b;font-size:12.5px}
-.breadcrumbs a{text-decoration:none}
-h2{margin:32px 0 12px;padding-bottom:4px;border-bottom:1px solid var(--rule);font-family:Vollkorn,Georgia,serif;font-size:25px;font-weight:500;line-height:1.25}
-.intro{max-width:820px;margin:0 0 20px}
-.contents{width:100%;border-collapse:collapse;border:1px solid #bbb7b1;font-size:14px}
-.contents th,.contents td{padding:9px 12px;border-bottom:1px solid #d7d4cf;text-align:left;vertical-align:top}
-.contents th{background:#e9e8e4;color:#393632;font-family:Vollkorn,Georgia,serif;font-size:14px;font-weight:600}
-.contents tbody tr:nth-child(even){background:var(--soft2)}
-.contents tbody tr:last-child td{border-bottom:0}
-.contents .chapter{width:88px;color:#5c5752;white-space:nowrap}
-.contents .verses{width:92px;color:#6e6963;text-align:right;white-space:nowrap}
-.contents a{font-weight:700;text-decoration:none}
-.contents a:hover{text-decoration:underline}
-.note{margin:14px 0 0;color:#6c6761;font-size:12.5px}
-.source{max-width:820px;margin:0}
-.back{margin-top:34px;padding-top:16px;border-top:1px solid #ddd9d3;font-size:13px}
-.back a{text-decoration:none}
-@media(max-width:760px){
-body{background:#fff}
-.sitebar{padding:10px 16px}
-.page{padding:28px 18px 58px;box-shadow:none}
-.article-head h1{font-size:32px}
-h2{font-size:23px}
-.contents{font-size:13.5px}
-.contents th,.contents td{padding:8px 9px}
-.contents .chapter{width:70px}
-.contents .verses{width:74px}
-}
-@media(max-width:480px){
-.article-head h1{font-size:28px}
-.deck{font-size:13.5px}
-.contents .verses{font-size:12px}
+.shell{width:1180px;max-width:calc(100% - 34px);margin:0 auto;background:var(--paper);min-height:100vh;border-left:1px solid #cfc9c0;border-right:1px solid #cfc9c0;box-shadow:0 0 22px rgba(80,63,45,.08)}
+.sitebar{padding:13px 26px;border-bottom:1px solid #ddd8d1;font-family:Georgia,"Times New Roman",serif;font-size:17px}
+.sitebar a{text-decoration:none;color:#4a3a2f}
+.page{padding:38px 34px 72px}
+.breadcrumbs{margin:0 0 24px;color:#77716b;font-size:12.5px}
+.breadcrumbs a{text-decoration:none;color:#6a625c}
+.bookhead{margin:0 0 35px}
+.bookhead h1{margin:0;color:#2d251f;font-family:Georgia,"Times New Roman",serif;font-size:38px;font-weight:400;line-height:1.18}
+.bookhead p{max-width:850px;margin:9px 0 0;color:#5e5852;font-size:14px}
+.contents-box{margin-top:8px}
+details{margin:0}
+summary{display:block;position:relative;margin:0;padding:0 42px 7px 0;border-bottom:1px solid var(--rule);cursor:pointer;list-style:none;color:#2e261f;font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:400;line-height:1.25}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"(+ / −)";position:absolute;right:0;bottom:7px;color:#554c45;font-family:Georgia,"Times New Roman",serif;font-size:22px;font-weight:400}
+details:not([open]) summary::after{content:"(+ / −)"}
+.contents-body{padding-top:9px}
+.intro{max-width:1050px;margin:0 0 25px;color:#35312e;font-size:15.5px;line-height:1.85}
+.chapter-list{margin:0;padding:0;list-style:none;font-size:17px;line-height:1.52}
+.chapter-list li{margin:0}
+.chapter-list a{display:inline-block;padding:1px 0;text-decoration:none;color:#292725}
+.chapter-list a:hover{text-decoration:underline;color:var(--accent)}
+.chapter-list .title{color:#615a54;font-size:14px}
+.source-section{margin-top:39px}
+.source-section h2{margin:0 0 8px;padding-bottom:5px;border-bottom:1px solid var(--rule);font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:400}
+.source-section p{max-width:900px;margin:0;color:#514c47;font-size:13.5px;line-height:1.7}
+.source-section a{color:#5e493c}
+.footer{margin-top:45px;padding-top:13px;border-top:1px solid #ddd8d1;color:#77716b;font-size:12.5px}
+.footer a{text-decoration:none;color:#5e5751}
+@media(max-width:700px){
+.shell{max-width:100%;border:0;box-shadow:none}
+.page{padding:27px 18px 55px}
+.bookhead{margin-bottom:28px}
+.bookhead h1{font-size:31px}
+summary{font-size:24px;padding-right:38px}
+summary::after{font-size:18px}
+.intro{font-size:14.5px;line-height:1.7}
+.chapter-list{font-size:16px;line-height:1.55}
+.chapter-list .title{display:block;margin:-2px 0 4px 18px;font-size:12.5px}
 }
 </style>
 </head>
 <body>
+<div class="shell">
 <header class="sitebar"><a href="/vivekadrishti/">Viveka Dṛṣṭi</a></header>
 <main class="page">
 <p class="breadcrumbs"><a href="/vivekadrishti/">Home</a> › Bhagavad Gītā</p>
-<header class="article-head">
+<header class="bookhead">
 <h1>Bhagavad Gītā — Śrīdhara Bhāṣya</h1>
-<p class="deck">The Bhagavad Gītā with Sanskrit text, English translation, word-for-word material, and Śrīdhara Svāmī’s <em>Subodhinī</em> commentary.</p>
-<p class="meta">18 chapters · 700 verses · Sanskrit and English</p>
+<p>Sanskrit text, English translation, word-for-word material, and Śrīdhara Svāmī’s <em>Subodhinī</em> commentary.</p>
 </header>
 
-<section aria-labelledby="contents-heading">
-<h2 id="contents-heading">Contents</h2>
-<p class="intro">Select a chapter to open the reading edition.</p>
-<table class="contents">
-<thead><tr><th scope="col">Chapter</th><th scope="col">Title</th><th scope="col" class="verses">Verses</th></tr></thead>
-<tbody>
-<tr><td class="chapter">1</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-1/">Arjuna’s Despondency</a></td><td class="verses">47</td></tr>
-<tr><td class="chapter">2</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-2/">The Yoga of Knowledge</a></td><td class="verses">72</td></tr>
-<tr><td class="chapter">3</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-3/">The Yoga of Action</a></td><td class="verses">43</td></tr>
-<tr><td class="chapter">4</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-4/">Knowledge and Renunciation of Action</a></td><td class="verses">42</td></tr>
-<tr><td class="chapter">5</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-5/">The Yoga of Renunciation</a></td><td class="verses">29</td></tr>
-<tr><td class="chapter">6</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-6/">The Yoga of Meditation</a></td><td class="verses">47</td></tr>
-<tr><td class="chapter">7</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-7/">Knowledge and Realization</a></td><td class="verses">30</td></tr>
-<tr><td class="chapter">8</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-8/">The Imperishable Brahman</a></td><td class="verses">28</td></tr>
-<tr><td class="chapter">9</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-9/">Royal Knowledge and Royal Secret</a></td><td class="verses">34</td></tr>
-<tr><td class="chapter">10</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-10/">Divine Glories</a></td><td class="verses">42</td></tr>
-<tr><td class="chapter">11</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-11/">The Vision of the Universal Form</a></td><td class="verses">55</td></tr>
-<tr><td class="chapter">12</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-12/">Devotion</a></td><td class="verses">20</td></tr>
-<tr><td class="chapter">13</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-13/">The Field and the Knower of the Field</a></td><td class="verses">34</td></tr>
-<tr><td class="chapter">14</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-14/">The Three Guṇas</a></td><td class="verses">27</td></tr>
-<tr><td class="chapter">15</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-15/">The Supreme Person</a></td><td class="verses">20</td></tr>
-<tr><td class="chapter">16</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-16/">Divine and Demonic Qualities</a></td><td class="verses">24</td></tr>
-<tr><td class="chapter">17</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-17/">The Threefold Faith</a></td><td class="verses">28</td></tr>
-<tr><td class="chapter">18</td><td><a href="/vivekadrishti/articles/bhagavad-gita-chapter-18/">Liberation through Renunciation</a></td><td class="verses">78</td></tr>
-</tbody>
-</table>
-<p class="note">Chapter titles are supplied here for navigation; the individual chapter pages contain the full reading text and commentary.</p>
+<section class="contents-box" aria-label="Book contents">
+<details open>
+<summary>Contents of this online book</summary>
+<div class="contents-body">
+<p class="intro">The complete Bhagavad Gītā is available here as an online reading edition. Select a chapter from the index below to open its Sanskrit text, translation, word-by-word material, and commentary.</p>
+<ul class="chapter-list">
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-1/">Chapter I <span class="title">— Arjuna’s Despondency</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-2/">Chapter II <span class="title">— The Yoga of Knowledge</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-3/">Chapter III <span class="title">— The Yoga of Action</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-4/">Chapter IV <span class="title">— Knowledge and Renunciation of Action</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-5/">Chapter V <span class="title">— The Yoga of Renunciation</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-6/">Chapter VI <span class="title">— The Yoga of Meditation</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-7/">Chapter VII <span class="title">— Knowledge and Realization</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-8/">Chapter VIII <span class="title">— The Imperishable Brahman</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-9/">Chapter IX <span class="title">— Royal Knowledge and Royal Secret</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-10/">Chapter X <span class="title">— Divine Glories</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-11/">Chapter XI <span class="title">— The Vision of the Universal Form</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-12/">Chapter XII <span class="title">— Devotion</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-13/">Chapter XIII <span class="title">— The Field and the Knower of the Field</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-14/">Chapter XIV <span class="title">— The Three Guṇas</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-15/">Chapter XV <span class="title">— The Supreme Person</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-16/">Chapter XVI <span class="title">— Divine and Demonic Qualities</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-17/">Chapter XVII <span class="title">— The Threefold Faith</span></a></li>
+<li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-18/">Chapter XVIII <span class="title">— Liberation through Renunciation</span></a></li>
+</ul>
+</div>
+</details>
 </section>
 
-<section aria-labelledby="basis-heading">
-<h2 id="basis-heading">Textual basis</h2>
-<p class="source">Sanskrit text, transliteration, and Śrīdhara Svāmī’s Sanskrit commentary follow the <a href="https://github.com/vedicscriptures/bhagavad-gita" target="_blank" rel="noopener">Bhagavad Gītā data repository</a> and its Gītā Supersite source lineage.</p>
+<section class="source-section" aria-labelledby="source-heading">
+<h2 id="source-heading">Textual basis</h2>
+<p>Sanskrit text, transliteration, and Śrīdhara Svāmī’s Sanskrit commentary follow the <a href="https://github.com/vedicscriptures/bhagavad-gita" target="_blank" rel="noopener">Bhagavad Gītā data repository</a> and its Gītā Supersite source lineage.</p>
 </section>
 
-<p class="back"><a href="/vivekadrishti/">← Return to the main library</a></p>
+<p class="footer"><a href="/vivekadrishti/">← Return to the main library</a></p>
 </main>
+</div>
 </body>
 </html>
