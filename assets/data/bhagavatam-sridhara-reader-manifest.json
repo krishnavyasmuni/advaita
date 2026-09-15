@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-14",
+  "generated_at": "2026-09-15",
   "primary_sanskrit": {
     "name": "VishvAsa purANam_vaiShNavam — gauDIya-prastutiH",
     "repository": "vishvAsa/purANam_vaiShNavam",
@@ -15,7 +15,7 @@
     "mirror_repository": "vishvAsa/purANam_vaiShNavam",
     "mirror_commit": "100560de6c9f68c2875097d40a2012a84c784179",
     "mirror_path_root": "bhAgavatam/gauDIyo_abhaya-charaNaH",
-    "note": "The English translation and synonym strings are loaded from the pinned mirror after a first-batch comparison with the owned Vedabase advanced view; Vedabase remains the editorial source."
+    "note": "The Vedabase Advanced View is the editorial source for the English translation, transliteration and synonyms. The pinned Vasuki mirror is used as a versioned browser-loadable cache after comparison with Vedabase."
   },
   "independent_comparison": {
     "name": "Bhagavata With Sridhari Tika (Pothi) — Ramtej Pandey (1949)",
@@ -308,6 +308,64 @@
       "remote_path_root": "bhAgavatam/gauDIya-prastutiH/10",
       "english_path_template": "10/{chapter2}.md",
       "note": "Canto 10’s primary corpus is organized in range folders and contains legacy filename gaps; the checked-in JSON cache preserves the chapter mapping and source_available flags."
+    },
+    "11": {
+      "chapter_count": 31,
+      "sridhara_paths": {
+        "1": "11/01_vipra-shApaH.md",
+        "2": "11/02_shrI-nArada-vasudeva-saMvAdaH.md",
+        "3": "11/03_jAyanteyopAkhyAne_videha-prashnAH.md",
+        "4": "11/04_nimi-jAyateyopAkhyAne.md",
+        "5": "11/05_jAyanteyopAkhyAnaM.md",
+        "6": "11/06.md",
+        "7": "11/07_shrI-bhagavad-uddhava-saMvAdArambhaH.md",
+        "8": "11/08_pingalopAkhyAnaM.md",
+        "9": "11/09_avadhUta-gItam.md",
+        "10": "11/10_shrI-bhagavad-uddhava-saMvAde_jnAna-sAdhanam.md",
+        "11": "11/11_baddha-mukta-laxaNam.md",
+        "12": "11/12_sat-sanga-mahimA_karma-tyAga-vidhish_cha.md",
+        "13": "11/13_haMsopadeshaH.md",
+        "14": "11/14.md",
+        "15": "11/15_yoga-siddhInAM_vivaraNam.md",
+        "16": "11/16_shrI-bhagavad-uddhava-saMvAde_mahA-vibhUtiH.md",
+        "17": "11/17_varNAshrama-vibhAgaH.md",
+        "18": "11/18_shrI-bhagavad-uddhava-saMvAde_yati-dharma-nirNa.md",
+        "19": "11/19_shreyo-bheda-nirNayaH.md",
+        "20": "11/20_bhagavad-uddhava-saMvAde_yoga-trayam.md",
+        "21": "11/21_shrI-bhagavad-uddhava-saMvAde_guNa-doSha-vyavas.md",
+        "22": "11/22_shrI-bhagavad-uddhava-saMvAde.md",
+        "23": "11/23_shrI-bhagavad-uddhava-saMvAde_bhixu-gItA.md",
+        "24": "11/24_shrI-bhagavad-uddhava-saMvAde_sAnkhya-yogaH.md",
+        "25": "11/25_shrI-bhagavad-uddhava-saMvAde_tri-guNa-vRtti-ni.md",
+        "26": "11/26_aila-gItam.md",
+        "27": "11/27_kriyA-yogaH.md",
+        "28": "11/28_bhagavad-uddhava-saMvAde_paramArtha-nirNayaH.md",
+        "29": "11/29_uddhavasya_vadary-Ashrama-praveshaH.md",
+        "30": "11/30_uddhavasya_badary-Ashrama-praveshaH.md",
+        "31": "11/31_mauShalaM.md"
+      },
+      "merged_source_ranges": [],
+      "english_path_template": "11/{chapter2}.md"
+    },
+    "12": {
+      "chapter_count": 13,
+      "sridhara_paths": {
+        "1": "12/01_rAja-vaMshAnukIrtanaM.md",
+        "2": "12/02_kali-dharmaH.md",
+        "3": "12/03_yugAnuvarNanaM.md",
+        "4": "12/04_pralaya-varNanaM_nAma.md",
+        "5": "12/05_brahmopadeshaH.md",
+        "6": "12/06_veda-shAkhA-praNayanam.md",
+        "7": "12/07_purANa-laxaNa-varNanaM_nAma.md",
+        "8": "12/08_nArAyaNa-stavaH.md",
+        "9": "12/09_mArkaNDeyasya_mAyA-darshanaM.md",
+        "10": "12/10_mArkaNDeyasya_vara-lAbhaH.md",
+        "11": "12/11_Aditya-vyUha-vivaraNam.md",
+        "12": "12/12_skandhArtha-nirUpaNam.md",
+        "13": "12/13_skandhArtha-nirUpaNaM.md"
+      },
+      "merged_source_ranges": [],
+      "english_path_template": "12/{chapter2}.md"
     }
   },
   "english_commentary": {
