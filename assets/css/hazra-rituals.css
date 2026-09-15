@@ -1,57 +1,52 @@
-/* R. C. Hazra reading room */
-.hazra-page .site-header{display:block!important;background:#172b2b!important;border-bottom:1px solid rgba(255,255,255,.14)!important}
-.hazra-page .nav-wrap{width:min(1120px,calc(100% - 34px))!important;min-height:62px!important}
-.hazra-page .brand{color:#f3eee5!important;font-family:Vollkorn,Georgia,serif!important;font-size:25px!important;font-weight:400!important}
-.hazra-page .site-nav a{color:#e6eee8!important}
-.hazra-page .site-nav a:hover,.hazra-page .site-nav a:focus-visible{background:rgba(255,255,255,.1)!important;color:#fff!important}
-.hazra-page .site-main{width:min(1120px,calc(100% - 34px))!important;min-height:75vh!important;margin:0 auto!important;background:#fbfaf6!important;overflow:visible!important}
-.hazra-page .site-footer{width:min(1120px,calc(100% - 34px))!important;margin:0 auto!important;padding:22px 0 38px!important;background:#fbfaf6!important;border-top:1px solid #ded8cb!important;color:#746e62!important;font-family:Arial,Helvetica,sans-serif!important;font-size:12px!important}
-.hazra-home{--hazra-ink:#233b39;--hazra-muted:#687570;--hazra-line:#d9dfd8;--hazra-cream:#f5f0e5;--hazra-saffron:#b76532;--hazra-green:#2d6961;padding:0 0 76px;color:var(--hazra-ink);background:#fbfaf6}
-.hazra-hero{padding:82px clamp(26px,7vw,92px) 70px;background:radial-gradient(circle at 82% 18%,rgba(205,151,83,.2),transparent 34%),linear-gradient(135deg,#203b38,#315b53 62%,#1a302f);color:#fff;position:relative;overflow:hidden}
-.hazra-hero:after{content:"";position:absolute;width:310px;height:310px;right:-92px;bottom:-150px;border:1px solid rgba(255,255,255,.24);border-radius:50%;box-shadow:0 0 0 24px rgba(255,255,255,.04),0 0 0 48px rgba(255,255,255,.03)}
-.hazra-kicker{font:700 12px/1.3 Arial,Helvetica,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#e9c69a}
-.hazra-hero h1{max-width:840px;margin:18px 0 18px;font:400 clamp(42px,7vw,80px)/.98 Vollkorn,Georgia,serif;letter-spacing:-.03em}
-.hazra-hero h1 em{font-style:italic;color:#f1d3aa}
-.hazra-deck{max-width:680px;margin:0;color:#e1ece7;font:18px/1.6 Arial,Helvetica,sans-serif}
-.hazra-actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:30px}
-.hazra-button{display:inline-flex;align-items:center;gap:8px;padding:11px 15px;border:1px solid rgba(255,255,255,.36);border-radius:999px;color:#fff!important;font:700 13px/1 Arial,Helvetica,sans-serif;text-decoration:none!important}
-.hazra-button.primary{border-color:#ecc391;background:#ecc391;color:#203b38!important}
-.hazra-button:hover,.hazra-button:focus-visible{transform:translateY(-1px);text-decoration:none!important}
-.hazra-intro{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:34px;padding:54px clamp(26px,7vw,92px) 40px}
-.hazra-intro h2,.hazra-section-heading{margin:0 0 12px;color:var(--hazra-ink);font:400 32px/1.1 Vollkorn,Georgia,serif}
-.hazra-intro p{margin:0;color:#44524e;font:17px/1.7 Arial,Helvetica,sans-serif}
-.hazra-note{padding:20px 22px;border-left:4px solid var(--hazra-saffron);background:var(--hazra-cream);font:14px/1.6 Arial,Helvetica,sans-serif;color:#5f5145}
-.hazra-note strong{display:block;margin-bottom:7px;color:var(--hazra-ink);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
-.hazra-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin:0 clamp(26px,7vw,92px) 56px;border:1px solid var(--hazra-line);background:var(--hazra-line)}
-.hazra-stat{padding:20px 17px;background:#fff}
-.hazra-stat b{display:block;color:var(--hazra-green);font:400 29px/1 Vollkorn,Georgia,serif}
-.hazra-stat span{display:block;margin-top:7px;color:var(--hazra-muted);font:12px/1.3 Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.07em}
-.hazra-chapters{padding:0 clamp(26px,7vw,92px)}
-.hazra-section-heading{font-size:39px}
-.hazra-section-subtitle{margin:0 0 25px;color:var(--hazra-muted);font:15px/1.5 Arial,Helvetica,sans-serif}
-.hazra-chapter-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.hazra-chapter-card{display:flex;flex-direction:column;min-height:274px;padding:24px;background:#fff;border:1px solid var(--hazra-line);box-shadow:0 9px 22px rgba(47,64,55,.06);text-decoration:none!important;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
-.hazra-chapter-card:hover,.hazra-chapter-card:focus-visible{transform:translateY(-4px);border-color:#aac3b7;box-shadow:0 14px 28px rgba(47,64,55,.12);text-decoration:none!important}
-.hazra-chapter-number{color:var(--hazra-saffron);font:700 11px/1.2 Arial,Helvetica,sans-serif;letter-spacing:.16em;text-transform:uppercase}
-.hazra-chapter-card h3{margin:16px 0 10px;color:var(--hazra-ink);font:400 27px/1.05 Vollkorn,Georgia,serif}
-.hazra-chapter-card p{margin:0;color:#5b6762;font:14px/1.6 Arial,Helvetica,sans-serif}
-.hazra-card-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:auto;padding-top:24px;color:var(--hazra-green);font:700 12px/1 Arial,Helvetica,sans-serif}
-.hazra-source{margin:58px clamp(26px,7vw,92px) 0;padding:25px 0 0;border-top:1px solid var(--hazra-line)}
-.hazra-source h2{margin:0 0 10px;font:400 27px/1.1 Vollkorn,Georgia,serif;color:var(--hazra-ink)}
-.hazra-source p{max-width:780px;margin:0 0 12px;color:#5b6762;font:14px/1.6 Arial,Helvetica,sans-serif}
-.hazra-source a,.hazra-reader a{color:#28645d;text-decoration:underline;text-underline-offset:3px}
-.hazra-reader{padding:34px 0 80px}
-.hazra-reader .hazra-breadcrumb{width:min(820px,calc(100% - 52px));margin:0 auto 38px;color:#687570;font:12px/1.4 Arial,Helvetica,sans-serif}
-.hazra-reader .hazra-breadcrumb a{color:#28645d;text-decoration:none}
-.hazra-reader .article-heading{width:min(820px,calc(100% - 52px));margin:0 auto 24px;text-align:left}
-.hazra-reader .article-heading h1{margin:0;color:var(--hazra-ink);font:400 clamp(39px,6vw,64px)/1.02 Vollkorn,Georgia,serif;letter-spacing:-.02em;text-align:left}
-.hazra-reader .section-rule{width:100%;height:1px;margin:20px 0 14px;background:#d9dfd8}
-.hazra-reader .reader-meta{color:#b76532;font:700 12px/1.4 Arial,Helvetica,sans-serif;letter-spacing:.1em;text-transform:uppercase}
-.hazra-reader .reader-intro{width:min(820px,calc(100% - 52px));margin:0 auto 26px;padding:17px 20px;border-left:4px solid #b76532;background:#f5f0e5;color:#5f5145;font:14px/1.6 Arial,Helvetica,sans-serif}
-.hazra-reader .text-frame{width:min(820px,calc(100% - 52px));margin:0 auto;border:1px solid #ddd8cc;background:#fff;box-shadow:0 9px 22px rgba(47,64,55,.05)}
-.hazra-reader .ocr-text{margin:0;padding:clamp(24px,5vw,58px);white-space:pre-wrap;word-break:normal;overflow-wrap:anywhere;color:#343b38;font:17px/1.78 Georgia,"Times New Roman",serif}
-.hazra-reader .chapter-nav{width:min(820px,calc(100% - 52px));display:flex;justify-content:space-between;gap:16px;margin:30px auto 0;padding-top:20px;border-top:1px solid #d9dfd8;font:13px/1.4 Arial,Helvetica,sans-serif}
-.hazra-reader .chapter-nav a{max-width:48%;color:#28645d;text-decoration:none}
-.hazra-reader .chapter-nav a:hover{text-decoration:underline}
-@media(max-width:780px){.hazra-intro{grid-template-columns:1fr;gap:20px}.hazra-stats{grid-template-columns:repeat(2,1fr)}.hazra-chapter-grid{grid-template-columns:1fr}.hazra-hero{padding-top:58px}.hazra-hero h1{font-size:52px}}
-@media(max-width:480px){.hazra-stats{margin-left:18px;margin-right:18px}.hazra-intro,.hazra-chapters{padding-left:18px;padding-right:18px}.hazra-source{margin-left:18px;margin-right:18px}.hazra-reader .article-heading,.hazra-reader .hazra-breadcrumb,.hazra-reader .reader-intro,.hazra-reader .text-frame,.hazra-reader .chapter-nav{width:calc(100% - 36px)}.hazra-reader .ocr-text{padding:22px 18px;font-size:16px}.hazra-hero h1{font-size:44px}}
+:root{--outer:#2b261f;--paper:#f4f4f4;--ink:#3c362e;--muted:#756e67;--teal:#00787a;--purple:#65516f;--rule:#d8d3cd;--note:#eee9f1}
+.hazra-page{margin:0;background:var(--outer);color:var(--ink);font-family:Merriweather,Georgia,serif}
+.hazra-topbar{width:1080px;max-width:100%;height:58px;margin:0 auto;padding:0 42px;display:flex;align-items:center;justify-content:space-between;gap:20px;background:var(--paper);border-bottom:1px solid rgba(119,119,119,.12);box-sizing:border-box}
+.hazra-topbar a{color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:20px;text-decoration:none}
+.hazra-topbar span{color:var(--muted);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.hazra-page-shell{width:1080px;max-width:100%;min-height:100vh;margin:0 auto;padding:62px 54px 100px;background:var(--paper);box-sizing:border-box}
+.hazra-hero{width:652px;max-width:100%;margin:0 auto 62px;text-align:center}
+.hazra-hero .eyebrow{margin:0 0 10px;color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.hazra-hero h1{margin:0;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:50px;font-weight:400;line-height:1.08}
+.hazra-hero .subtitle{margin:17px auto 0;max-width:590px;color:#665f58;font-size:16px;font-style:italic;line-height:1.6}
+.hazra-hero:after{content:"";display:block;width:326px;max-width:50%;height:1px;margin:30px auto 0;background:var(--rule)}
+.hazra-reader{display:grid;grid-template-columns:210px minmax(0,652px);gap:46px;justify-content:center;align-items:start}
+.hazra-side{position:sticky;top:28px;padding-right:24px;border-right:1px solid var(--rule)}
+.hazra-side h2{margin:0 0 20px;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:28px;font-weight:400}
+.hazra-side p{margin:0 0 16px;color:#655f58;font-size:13px;line-height:1.55}
+.hazra-side a{display:inline-block;color:var(--purple);font-size:13px;text-decoration:none}
+.hazra-side a:hover{text-decoration:underline}
+.hazra-contents{margin:22px 0 0;padding:0;list-style:none;border-top:1px solid var(--rule)}
+.hazra-contents li{border-bottom:1px solid var(--rule)}
+.hazra-contents a{display:block;padding:11px 0;color:#665f58;font-size:12px;line-height:1.35}
+.hazra-contents a.active{color:var(--teal);font-weight:700}
+.hazra-main h2{margin:0 0 27px;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:31px;font-weight:400;line-height:1.2}
+.hazra-chapters{margin:0;padding:0;list-style:none;border-top:1px solid var(--rule)}
+.hazra-chapters li{margin:0;border-bottom:1px solid var(--rule)}
+.hazra-chapters a{display:grid;grid-template-columns:70px minmax(0,1fr) auto;gap:14px;align-items:baseline;padding:14px 0;color:inherit;text-decoration:none}
+.hazra-chapters a:hover .name{color:var(--purple)}
+.hazra-chapters .number{color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:17px}
+.hazra-chapters .name{color:#403a34;font-size:16px;line-height:1.42}
+.hazra-chapters .count{color:#847c74;font-size:12px;white-space:nowrap}
+.hazra-source{margin:42px 0 0;padding:22px 0 0;border-top:1px solid var(--rule);color:#6e665f;font-size:12.5px;line-height:1.65}
+.hazra-source strong{display:block;margin-bottom:5px;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:17px;font-weight:400}
+.hazra-source a{color:var(--purple);text-decoration:none}
+.hazra-context{margin:0 0 24px;padding:14px 16px;border-left:3px solid var(--teal);background:#f0efec;color:#655f58;font-size:13px;line-height:1.6}
+.hazra-context strong{color:var(--teal);font-weight:700}
+.hazra-body{color:var(--ink);font-size:17px;line-height:1.72}
+.hazra-body p{margin:0 0 1.25em}
+.hazra-body h2{margin:34px 0 14px;padding-top:12px;border-top:1px solid var(--rule);color:var(--teal);font-size:24px}
+.hazra-body .hazra-verse{margin:24px 0;padding:15px 18px;border-left:4px solid #6d5685;background:var(--note);color:#4e4653;font-size:15px;line-height:1.75}
+.hazra-notes{margin:42px 0 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.hazra-notes summary{padding:16px 0;color:var(--purple);font-size:13px;cursor:pointer;list-style:none}
+.hazra-notes summary::-webkit-details-marker{display:none}
+.hazra-notes summary span{display:inline-block;margin-left:6px;color:#847c74}
+.hazra-note-list{padding:0 0 16px;color:#746d66;font-size:12px;line-height:1.55}
+.hazra-note-list p{margin:10px 0}
+.hazra-note-list sup{color:var(--teal);font-weight:700}
+.hazra-nav{display:flex;justify-content:space-between;gap:18px;margin:42px 0 0;padding-top:22px;border-top:1px solid var(--rule);font-size:13px}
+.hazra-nav a{max-width:48%;color:var(--purple);text-decoration:none}
+.hazra-nav a:hover{text-decoration:underline}
+.hazra-footer{width:1080px;max-width:100%;margin:0 auto;padding:20px 54px 34px;box-sizing:border-box;background:var(--paper);border-top:1px solid rgba(119,119,119,.12);color:var(--muted);font-size:12px}
+.hazra-footer a{color:var(--purple);text-decoration:none}
+@media(max-width:850px){.hazra-page-shell{padding:46px 24px 80px}.hazra-reader{display:block;width:652px;max-width:100%;margin:0 auto}.hazra-side{position:static;margin:0 0 34px;padding:0 0 18px;border:0;border-bottom:1px solid var(--rule)}.hazra-side h2{font-size:23px;margin-bottom:8px}.hazra-side p{margin-bottom:8px}.hazra-hero{margin-bottom:46px}.hazra-footer{padding-left:24px;padding-right:24px}}
+@media(max-width:620px){.hazra-topbar{height:50px;padding:0 18px}.hazra-topbar a{font-size:18px}.hazra-topbar span{font-size:10px}.hazra-page-shell{padding:34px 16px 64px}.hazra-hero h1{font-size:39px;line-height:1.1}.hazra-hero .subtitle{font-size:15px}.hazra-main h2{font-size:27px}.hazra-chapters a{grid-template-columns:58px minmax(0,1fr);gap:10px;padding:14px 0}.hazra-chapters .count{grid-column:2;margin-top:3px}.hazra-body{font-size:16px}.hazra-body h2{font-size:23px}}
