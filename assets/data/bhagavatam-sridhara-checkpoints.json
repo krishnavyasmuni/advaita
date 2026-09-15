@@ -2776,6 +2776,56 @@
         "literal_english_source_blocks": 18,
         "verified_range": "3.19.38; 3.20.1–3.20.19"
       }
+    },
+    {
+      "id": "canto-3-chapter-20-verses-20-39",
+      "range": "ŚB 3.20.20–3.20.39",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/3/20/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 20,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.20.20",
+        "3.20.21",
+        "3.20.22",
+        "3.20.23",
+        "3.20.24",
+        "3.20.25",
+        "3.20.26",
+        "3.20.27",
+        "3.20.28",
+        "3.20.29",
+        "3.20.30",
+        "3.20.31",
+        "3.20.32",
+        "3.20.33",
+        "3.20.34",
+        "3.20.35",
+        "3.20.36",
+        "3.20.38",
+        "3.20.39"
+      ],
+      "unavailable_sanskrit_source_blocks": [
+        "3.20.37"
+      ],
+      "findings": [
+        "Vedabase English translation, transliteration and synonyms for verses 20–39 were checked in the Advanced View and matched the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping.",
+        "The primary Sanskrit source is the pinned Vasuki Bhāvārtha-dīpikā file; its Devanāgarī is loaded verbatim by the reader.",
+        "The range contains 19 Śrīdhara source blocks covering 19 of the 20 displayed records. The primary source has no separate Śrīdhara block for 3.20.37; that omission is recorded as unavailable rather than filled with invented commentary.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks and retains source lexical, grammatical and technical explanations without adding Vedabase purport.",
+        "The 1949 Śrīdharī scan remains independent comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/20/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-03-sridhara-svami/#chapter-20",
+        "displayed_records": 20,
+        "sridhara_records_with_text": 19,
+        "literal_english_records": 19,
+        "literal_english_source_blocks": 19,
+        "verified_range": "3.20.20–3.20.39"
+      }
     }
   ]
 }
