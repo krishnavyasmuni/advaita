@@ -4311,6 +4311,59 @@
         "sridhara_records_with_text": 808,
         "literal_english_records": 810
       }
+    },
+    {
+      "id": "canto-2-chapters-1-2-verses-16-39-and-16-21",
+      "range": "ŚB 2.1.16–2.1.39 and 2.2.16–2.2.21",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/2/1/advanced-view/ and https://vedabase.io/en/library/sb/2/2/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/01_dhyAnavidhiH.md and https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/02_yogimuktiH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 29,
+      "numbered_verses": 30,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "2.1.16–2.1.17",
+        "2.1.18",
+        "2.1.19",
+        "2.1.20",
+        "2.1.21",
+        "2.1.22",
+        "2.1.23",
+        "2.1.24",
+        "2.1.25",
+        "2.1.26",
+        "2.1.27",
+        "2.1.28",
+        "2.1.29",
+        "2.1.30",
+        "2.1.31",
+        "2.1.32",
+        "2.1.33",
+        "2.1.34",
+        "2.1.35",
+        "2.1.36",
+        "2.1.37",
+        "2.1.38",
+        "2.1.39",
+        "2.2.16",
+        "2.2.17",
+        "2.2.18",
+        "2.2.19",
+        "2.2.20",
+        "2.2.21"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; the grouped 2.1.16–2.1.17 source block remains grouped.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-25-live#chapter-1",
+        "displayed_records": 76,
+        "sridhara_records_with_text": 29,
+        "literal_english_records": 29
+      }
     }
   ]
 }
