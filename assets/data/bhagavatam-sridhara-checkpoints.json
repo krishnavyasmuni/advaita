@@ -5429,6 +5429,27 @@
         "3.19.29",
         "3.19.36"
       ]
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/20/advanced-view/",
+      "findings": [
+        "The literal English rendering is translated only from the pinned Śrīdhara Svāmī (Bhāvārtha-dīpikā) block and does not copy the Bhagavatam translation.",
+        "The English and literal-English ranges match exactly for 3.20.37.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-20-verse-37",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 1,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.20.37",
+      "records_checked": 1,
+      "reference_url": "https://vedabase.io/en/library/sb/3/20/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md",
+      "sanskrit_source_blocks": [
+        "3.20.37"
+      ],
+      "source_note": "The pinned English mirror contains 53 separate one-verse records for 3.20.1–3.20.53; the remote JSON already covered every position except 3.20.37. The pinned Sanskrit file supplies a short text-bearing Śrīdhara block for 3.20.37. This batch adds one literal rendering.",
+      "status": "source-checked-and-remote-committed"
     }
   ]
 }
