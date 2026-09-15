@@ -5327,6 +5327,32 @@
         "3.13.19",
         "3.13.21"
       ]
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/14/advanced-view/",
+      "findings": [
+        "The 3.14.51 literal English rendering is translated only from the pinned Śrīdhara Svāmī (Bhāvārtha-dīpikā) block and does not copy the Bhagavatam translation.",
+        "The 3.14.4 and 3.14.14 positions are represented as no-separate-commentary markers rather than invented renderings.",
+        "The English and literal-English ranges match exactly for the three uncovered source-numbered positions; the absent English 3.14.44–3.14.45 entries are retained as existing JSON data and are not expanded.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-14-verses-4-14-and-51",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 3,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.14.4, 3.14.14, and 3.14.51",
+      "records_checked": 3,
+      "reference_url": "https://vedabase.io/en/library/sb/3/14/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/14_diti-kashyapa-saMvAdaH.md",
+      "sanskrit_source_blocks": [
+        "3.14.51"
+      ],
+      "source_note": "The pinned English mirror has 49 Text records and 49 distinct numbered source positions: 3.14.1–3.14.43 and 3.14.46–3.14.51; 3.14.44–3.14.45 do not occur in that English file. The remote JSON retains entries for those source-absent numbers and leaves three actual English-source positions uncovered: 3.14.4, 3.14.14, and 3.14.51. The pinned Sanskrit file supplies no separate Śrīdhara blocks for 3.14.4 and 3.14.14, and a short text-bearing block for 3.14.51. No grouped source block occurs in this batch.",
+      "status": "source-checked-and-remote-committed",
+      "unavailable_sanskrit_source_blocks": [
+        "3.14.4",
+        "3.14.14"
+      ]
     }
   ]
 }
