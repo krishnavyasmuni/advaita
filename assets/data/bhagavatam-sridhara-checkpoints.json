@@ -5475,6 +5475,53 @@
       "unavailable_sanskrit_source_blocks": [
         "3.21.49"
       ]
+    },
+    {
+      "english_source": "https://vedabase.io/en/library/sb/3/22/advanced-view/",
+      "findings": [
+        "The literal English renderings are translated only from the corresponding pinned Śrīdhara Svāmī (Bhāvārtha-dīpikā) blocks and do not copy the Bhagavatam translation.",
+        "The English source has 35 records at positions 3.22.1–3.22.25, 3.22.28, and 3.22.31–3.22.39; the existing JSON covered 3.22.1–3.22.10, leaving the 25 positions in this batch.",
+        "All 25 covered Sanskrit positions have separate, text-bearing Śrīdhara blocks; no grouped source block or no-separate-commentary marker occurs in this batch.",
+        "Source-absent English positions 3.22.26–3.22.27 and 3.22.29–3.22.30 are not fabricated or added.",
+        "The independent 1949 Śrīdharī scan remains a comparison witness and is not an automatic replacement for the pinned Sanskrit source."
+      ],
+      "id": "canto-3-chapter-22-verses-11-25-28-and-31-39",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "numbered_verses": 25,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "range": "ŚB 3.22.11–3.22.25, 3.22.28, and 3.22.31–3.22.39",
+      "records_checked": 25,
+      "reference_url": "https://vedabase.io/en/library/sb/3/22/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/22_kardama-devahUti-vivAhaH.md",
+      "sanskrit_source_blocks": [
+        "3.22.11",
+        "3.22.12",
+        "3.22.13",
+        "3.22.14",
+        "3.22.15",
+        "3.22.16",
+        "3.22.17",
+        "3.22.18",
+        "3.22.19",
+        "3.22.20",
+        "3.22.21",
+        "3.22.22",
+        "3.22.23",
+        "3.22.24",
+        "3.22.25",
+        "3.22.28",
+        "3.22.31",
+        "3.22.32",
+        "3.22.33",
+        "3.22.34",
+        "3.22.35",
+        "3.22.36",
+        "3.22.37",
+        "3.22.38",
+        "3.22.39"
+      ],
+      "source_note": "The pinned English mirror contains 35 numbered records: 3.22.1–3.22.25, 3.22.28, and 3.22.31–3.22.39. The remote JSON already covers 3.22.1–3.22.10, including the existing grouped entry for 3.22.2–3.22.3. This batch adds the remaining 25 English source-numbered positions. The pinned Sanskrit file has a separate Śrīdhara block for every covered position. English source-absent positions 3.22.26–3.22.27 and 3.22.29–3.22.30 are left untouched.",
+      "status": "source-checked-and-remote-committed"
     }
   ]
 }
