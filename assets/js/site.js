@@ -2,7 +2,7 @@
 const p=location.pathname,dirs=[/^\/vivekadrishti\/articles\/?$/, /\/articles\/scripture\/?$/, /\/articles\/(?:scripture-index-version-3|an-index-of-hindu-scripture)\/?$/];
 const article=/^\/vivekadrishti\/articles\//.test(p)&&!dirs.some(r=>r.test(p));
 const combinedBhavishya=/\/articles\/bhavisya-purana-addresses-varna-system\/?$/.test(p);
-const scripture=/\/articles\/(?:bhagavad-gita-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|vishnu-purana-book-\d+-chapter-\d+|bhavisya-purana-addresses-varna-system|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|srimad-bhagavatam-canto-\d{2}-sridhara-svami|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(p);
+const scripture=/\/articles\/(?:bhagavad-gita-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|bhavisya-purana-addresses-varna-system|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|srimad-bhagavatam-canto-\d{2}-sridhara-svami|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(p);
 const citation=/\/articles\/compilation-of-peer-reviewed-citations-against-aryan-migration-theory\/?$/.test(p),meat=/\/articles\/meat-eating-in-hinduism-through-the-lens-of-shastra\/?$/.test(p);
 const css=(key,href)=>{if(document.querySelector(`link[data-${key}]`))return;const l=document.createElement('link');l.rel='stylesheet';l.href=href;l.dataset[key]='1';document.head.append(l)};
 const js=(key,src)=>{if(document.querySelector(`script[data-${key}]`))return;const s=document.createElement('script');s.src=src;s.async=false;s.dataset[key]='1';document.body.append(s)};
@@ -24,7 +24,7 @@ const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#s
 if(/\/articles\/an-index-of-hindu-scripture\/?$/.test(p))css('scriptureIndexClean','/vivekadrishti/assets/css/scripture-index-clean.css?v=1');
 const gita=document.querySelector('[data-gita-chapter]');if(gita){const n=Number(gita.dataset.gitaChapter);if(n>=2&&n<=18)js('gitaSridharaAll','/vivekadrishti/assets/js/bhagavad-gita-sridhara-all.js?v=20260831-all3')}
 const bhavishya=/\/(?:pages\/bhavishya-purana(?:\/|-)|articles\/(?:bhavishya-purana-|bhavisya-purana-addresses-varna-system))/.test(p);
-if(bhavishya){css('bhavishyaNavigation','/vivekadrishti/assets/css/bhavishya-navigation.css?v=20260915-2');js('bhavishyaNavigation','/vivekadrishti/assets/js/bhavishya-navigation.js?v=20260915-2')}
+if(bhavishya){css('bhavishyaNavigation','/vivekadrishti/assets/css/bhavishya-navigation.css?v=20260915-2');js('bhavishyaNavigation','/vivekadrishti/assets/js/bhavishya-navigation.js?v=20260915-3')}
 const rebuild=document.querySelector('.empyrean-bhagavatam-rebuild,.empyrean-bhagavatam-rebuild-part');if(!rebuild)return;
 document.body.classList.add('bhagavatam-rebuild-page');
 if(/srimad-bhagavatam-second-canto-sridhara-svami-rebuild/.test(p)){
