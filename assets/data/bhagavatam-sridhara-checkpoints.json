@@ -2420,6 +2420,84 @@
         "literal_english_source_blocks": 19,
         "verified_range": "3.16.9–3.16.28"
       }
+    },
+    {
+      "id": "canto-3-chapter-16-verses-29-32",
+      "range": "ŚB 3.16.29–3.16.32",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/3/16/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/16_jaya-vijayayoH_patanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 4,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.16.29",
+        "3.16.30",
+        "3.16.31"
+      ],
+      "unavailable_sanskrit_source_blocks": [
+        "3.16.32"
+      ],
+      "findings": [
+        "Vedabase English translation, transliteration and synonyms for verses 29–32 were checked in the Advanced View and matched the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping.",
+        "The primary Sanskrit source is the pinned Vasuki Bhāvārtha-dīpikā file; its Devanāgarī is loaded verbatim by the reader.",
+        "The range contains three Śrīdhara source blocks for four displayed records; 3.16.32 has no separate Śrīdhara explanation in the primary source and is recorded as unavailable rather than filled with invented commentary.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks and retains the source’s lexical, grammatical and technical explanations without adding Vedabase purport.",
+        "The 1949 Śrīdharī scan remains the independent comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/16/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-03-sridhara-svami/#chapter-16",
+        "displayed_records": 4,
+        "sridhara_records_with_text": 3,
+        "literal_english_records": 3,
+        "literal_english_source_blocks": 3,
+        "verified_range": "3.16.29–3.16.32"
+      }
+    },
+    {
+      "id": "canto-3-chapter-17-verses-1-16",
+      "range": "ŚB 3.17.1–3.17.16",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/3/17/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/17_hiraNyAxa-digvijayaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 16,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.17.1",
+        "3.17.2",
+        "3.17.3",
+        "3.17.4",
+        "3.17.5",
+        "3.17.6",
+        "3.17.7",
+        "3.17.8",
+        "3.17.9",
+        "3.17.10",
+        "3.17.11",
+        "3.17.12",
+        "3.17.13",
+        "3.17.14",
+        "3.17.15",
+        "3.17.16"
+      ],
+      "findings": [
+        "Vedabase English translation, transliteration and synonyms for verses 1–16 were checked in the Advanced View and matched the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping.",
+        "The primary Sanskrit source is the pinned Vasuki Bhāvārtha-dīpikā file; its Devanāgarī is loaded verbatim by the reader.",
+        "All 16 Śrīdhara Svāmī source blocks in this range are individually present.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks and retains the source’s lexical, grammatical and technical explanations without adding Vedabase purport.",
+        "The 1949 Śrīdharī scan remains the independent comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/17/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-03-sridhara-svami/#chapter-17",
+        "displayed_records": 16,
+        "sridhara_records_with_text": 16,
+        "literal_english_records": 16,
+        "literal_english_source_blocks": 16,
+        "verified_range": "3.17.1–3.17.16"
+      }
     }
   ]
 }
