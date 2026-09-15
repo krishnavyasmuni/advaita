@@ -16,13 +16,15 @@ if(article){
 }else css('hindupediaSite','/vivekadrishti/assets/css/hindupedia-site.css?build=20260826-2145');
 
 const paths=new Map([
-['/vivekadrishti/introduction-to-hinduism/','/vivekadrishti/pages/introduction-to-hinduism/'],['/vivekadrishti/indology/','/vivekadrishti/pages/indology/'],['/vivekadrishti/purana-library/','/vivekadrishti/pages/purana-library/'],['/vivekadrishti/bhagavatam-with-sridhara-bhasya/','/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/'],['/vivekadrishti/bhavishya-purana-brahmaparvan/','/vivekadrishti/pages/bhavishya-purana-brahmaparvan/'],['/vivekadrishti/bhagavad-gita/','/vivekadrishti/pages/bhagavad-gita/']]);
+['/vivekadrishti/introduction-to-hinduism/','/vivekadrishti/pages/introduction-to-hinduism/'],['/vivekadrishti/indology/','/vivekadrishti/pages/indology/'],['/vivekadrishti/purana-library/','/vivekadrishti/pages/purana-library/'],['/vivekadrishti/bhagavatam-with-sridhara-bhasya/','/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/'],['/vivekadrishti/bhavishya-purana/','/vivekadrishti/pages/bhavishya-purana/'],['/vivekadrishti/bhavishya-purana-brahmaparvan/','/vivekadrishti/pages/bhavishya-purana-brahmaparvan/'],['/vivekadrishti/bhagavad-gita/','/vivekadrishti/pages/bhagavad-gita/']]);
 document.querySelectorAll('a[href]').forEach(a=>{const x=paths.get(a.getAttribute('href'));if(x)a.href=x});
 document.querySelectorAll('.site-nav').forEach(nav=>{if(nav.querySelector('a[href*="/pages/bhagavad-gita/"],a[href="/vivekadrishti/bhagavad-gita/"]'))return;const a=document.createElement('a');a.href='/vivekadrishti/pages/bhagavad-gita/';a.textContent='Bhagavad Gītā — Śrīdhara Bhāṣya';nav.append(a)});
 const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#site-nav');if(menu&&nav){menu.addEventListener('click',()=>menu.setAttribute('aria-expanded',String(nav.classList.toggle('open'))));nav.addEventListener('click',e=>{if(e.target.matches('a')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}})}
 
 if(/\/articles\/an-index-of-hindu-scripture\/?$/.test(p))css('scriptureIndexClean','/vivekadrishti/assets/css/scripture-index-clean.css?v=1');
 const gita=document.querySelector('[data-gita-chapter]');if(gita){const n=Number(gita.dataset.gitaChapter);if(n>=2&&n<=18)js('gitaSridharaAll','/vivekadrishti/assets/js/bhagavad-gita-sridhara-all.js?v=20260831-all3')}
+const bhavishya=/\/(?:pages\/bhavishya-purana(?:\/|-)|articles\/(?:bhavishya-purana-|bhavisya-purana-addresses-varna-system))/.test(p);
+if(bhavishya){css('bhavishyaNavigation','/vivekadrishti/assets/css/bhavishya-navigation.css?v=20260915-2');js('bhavishyaNavigation','/vivekadrishti/assets/js/bhavishya-navigation.js?v=20260915-2')}
 const rebuild=document.querySelector('.empyrean-bhagavatam-rebuild,.empyrean-bhagavatam-rebuild-part');if(!rebuild)return;
 document.body.classList.add('bhagavatam-rebuild-page');
 if(/srimad-bhagavatam-second-canto-sridhara-svami-rebuild/.test(p)){
