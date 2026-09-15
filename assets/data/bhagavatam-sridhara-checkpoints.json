@@ -772,6 +772,46 @@
         "literal_english_source_blocks": 13,
         "verified_range": "1.19.1–1.19.15"
       }
+    },
+    {
+      "id": "canto-2-chapter-1-verses-1-15",
+      "range": "ŚB 2.1.1–2.1.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/2/1/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/01_dhyAnavidhiH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "2.1.1",
+        "2.1.2",
+        "2.1.3",
+        "2.1.4",
+        "2.1.5",
+        "2.1.6",
+        "2.1.7",
+        "2.1.8",
+        "2.1.9–2.1.10",
+        "2.1.11",
+        "2.1.12",
+        "2.1.13",
+        "2.1.14",
+        "2.1.15"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms for verses 1–15 were checked against the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping; the wording matches.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks, including the long introductory 2.1.1 block, with no added purport or separately labeled commentator text.",
+        "The 2.1.9–2.1.10 Śrīdhara source remains a single grouped block and is mapped to both displayed verse records."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/2/1/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-02-sridhara-svami/?refresh=canto-2-chapter-1-live#chapter-1",
+        "displayed_records": 39,
+        "sridhara_records_with_text": 39,
+        "literal_english_records": 15,
+        "literal_english_source_blocks": 14,
+        "verified_range": "2.1.1–2.1.15"
+      }
     }
   ]
 }
