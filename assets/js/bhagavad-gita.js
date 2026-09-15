@@ -889,7 +889,7 @@
       data,
       {},
       'mukundananda',
-      'Sanskrit, transliteration, and word-for-word meanings for this chapter are loaded from <a href="https://github.com/gita/gita-frontend-v2" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is from its <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>; Śrīdhara Svāmī’s Sanskrit commentary is from <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_8_sa.json" target="_blank" rel="noopener">author_8_sa.json</a>. Chapter 2 has original literal English renderings prepared from that Sanskrit source. The remaining chapters show the exact Sanskrit commentary until their original English renderings are added; no copyrighted translation has been copied.'
+      'Sanskrit, transliteration, and word-for-word meanings for this chapter are loaded from <a href="https://github.com/gita/gita-frontend-v2" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is from its <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>; Śrīdhara Svāmī’s Sanskrit commentary is from <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_8_sa.json" target="_blank" rel="noopener">author_8_sa.json</a>. Chapters 2–18 have original literal English renderings prepared from those exact Sanskrit commentaries; no copyrighted translation has been copied. Where the source has no commentary, the page displays “No commentary.”'
     );
   };
 
