@@ -6331,6 +6331,54 @@
         "The actual 3.32.39–40 and 3.32.41–42 source boundaries are preserved.",
         "All 30 numbered positions are covered once with no overlap."
       ]
+    },
+    {
+      "id": "canto-3-chapter-33-verses-8-37",
+      "range": "ŚB 3.33.8–3.33.37",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/33.md",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
+      "records_checked": 29,
+      "numbered_verses": 30,
+      "literal_json_entries_added": 27,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.33.8",
+        "3.33.9",
+        "3.33.10",
+        "3.33.11",
+        "3.33.12",
+        "3.33.13",
+        "3.33.14",
+        "3.33.15",
+        "3.33.16",
+        "3.33.18",
+        "3.33.19",
+        "3.33.20",
+        "3.33.21",
+        "3.33.22",
+        "3.33.23–3.33.26",
+        "3.33.27",
+        "3.33.28",
+        "3.33.29",
+        "3.33.30",
+        "3.33.31",
+        "3.33.32",
+        "3.33.33",
+        "3.33.34",
+        "3.33.35",
+        "3.33.36",
+        "3.33.37"
+      ],
+      "unavailable_sanskrit_source_blocks": [
+        "3.33.17"
+      ],
+      "source_note": "The pinned English mirror has 29 records covering these 30 numbered positions because it groups 3.33.24–25. The Sanskrit source instead has a single Śrīdhara explanatory block spanning 3.33.23–26, which is preserved as one literal entry. There is no separate text-bearing Śrīdhara block at 3.33.17.",
+      "findings": [
+        "Original literal English was prepared only from the pinned Śrīdhara Sanskrit commentary.",
+        "The 3.33.23–26 Śrīdhara block remains grouped despite different English-source grouping.",
+        "All 30 numbered positions are covered once with no overlap."
+      ]
     }
   ]
 }
