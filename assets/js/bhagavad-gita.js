@@ -833,20 +833,6 @@
   const load = async () => {
     root.innerHTML = '<p class="gita-loading">Loading chapter text…</p>';
 
-    if (chapter === 1) {
-      const [data, meanings] = await Promise.all([
-        Promise.all(Array.from({length: counts[chapter - 1]}, (_, i) => fetch(verseUrl(i + 1)).then((r) => r.json()))),
-        fetch('/vivekadrishti/assets/data/bhagavad-gita-word-meanings.json').then((r) => r.json())
-      ]);
-      renderChapter(
-        data,
-        meanings,
-        'legacy',
-        'Sanskrit, transliteration, Śrīdhara Svāmī’s Sanskrit commentary, and the Gambirananda English verse translation are loaded from the <a href="https://github.com/vedicscriptures/bhagavad-gita" target="_blank" rel="noopener">Bhagavad Gītā data repository</a>, whose source lineage is the <a href="https://www.gitasupersite.iitk.ac.in/" target="_blank" rel="noopener">Gītā Supersite</a>. Word-for-word meanings are from the public-domain <a href="https://github.com/gita/gita" target="_blank" rel="noopener">Gītā JSON dataset</a>.'
-      );
-      return;
-    }
-
     const [common, mukundananda, sridhara] = await Promise.all([
       fetch('https://raw.githubusercontent.com/gita/gita-frontend-v2/main/data/common/common_en.json').then((r) => r.json()),
       fetch('https://raw.githubusercontent.com/gita/gita-frontend-v2/main/data/authors/author_22_en.json').then((r) => r.json()),
@@ -889,7 +875,7 @@
       data,
       {},
       'mukundananda',
-      'Sanskrit, transliteration, and word-for-word meanings for this chapter are loaded from <a href="https://github.com/gita/gita-frontend-v2" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is from its <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>; Śrīdhara Svāmī’s Sanskrit commentary is from <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_8_sa.json" target="_blank" rel="noopener">author_8_sa.json</a>. Chapters 2–18 have original literal English renderings prepared from those exact Sanskrit commentaries; no copyrighted translation has been copied. Where the source has no commentary, the page displays “No commentary.”'
+      'Sanskrit, transliteration, and word-for-word meanings for this chapter are loaded from <a href="https://github.com/gita/gita-frontend-v2" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is from its <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>; Śrīdhara Svāmī’s Sanskrit commentary is from <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_8_sa.json" target="_blank" rel="noopener">author_8_sa.json</a>. Chapters 1–18 have original literal English renderings prepared from those exact Sanskrit commentaries; no copyrighted translation has been copied. Where the source has no commentary, the page displays “No commentary.”'
     );
   };
 
