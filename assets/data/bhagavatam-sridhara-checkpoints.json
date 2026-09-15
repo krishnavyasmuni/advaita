@@ -3352,6 +3352,59 @@
         "sridhara_records_with_text": 58,
         "literal_english_records": 24
       }
+    },
+    {
+      "id": "canto-1-chapter-7-verses-25-54",
+      "range": "ŚB 1.7.25–1.7.54",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/1/7/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/07_bhAgavatArambhaH.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 30,
+      "numbered_verses": 30,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "1.7.25",
+        "1.7.26",
+        "1.7.27",
+        "1.7.28",
+        "1.7.29",
+        "1.7.30",
+        "1.7.31",
+        "1.7.32",
+        "1.7.33",
+        "1.7.34",
+        "1.7.35",
+        "1.7.36",
+        "1.7.37",
+        "1.7.38",
+        "1.7.39 (no separate block detected)",
+        "1.7.40",
+        "1.7.41",
+        "1.7.42",
+        "1.7.43",
+        "1.7.44–1.7.45",
+        "1.7.46",
+        "1.7.47",
+        "1.7.48",
+        "1.7.49",
+        "1.7.50",
+        "1.7.51",
+        "1.7.52",
+        "1.7.53",
+        "1.7.54"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms remain loaded from the pinned English mirror used by the reader.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī blocks; the 1.7.44–1.7.45 source block remains grouped, and 1.7.38 is marked because no separate explanatory block is present in the pinned file.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness and is not used as an automatic correction."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-01-sridhara-svami/?refresh=checkpoint-10-live#chapter-7",
+        "displayed_records": 58,
+        "sridhara_records_with_text": 58,
+        "literal_english_records": 54
+      }
     }
   ]
 }
