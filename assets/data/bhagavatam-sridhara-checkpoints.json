@@ -5980,6 +5980,55 @@
         "3.27.26 is explicitly marked as having no separate Śrīdhara commentary.",
         "All 30 numbered positions are covered by exactly 20 literal-English entries after expansion, with no overlap with earlier entries."
       ]
+    },
+    {
+      "id": "canto-3-chapter-28-verses-11-41",
+      "range": "ŚB 3.28.11–3.28.41",
+      "status": "source-checked-and-remote-committed",
+      "english_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/28.md",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
+      "records_checked": 31,
+      "numbered_verses": 31,
+      "literal_json_entries_added": 30,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.28.11",
+        "3.28.12",
+        "3.28.13",
+        "3.28.14",
+        "3.28.15",
+        "3.28.16",
+        "3.28.17",
+        "3.28.18",
+        "3.28.19",
+        "3.28.20",
+        "3.28.21",
+        "3.28.22",
+        "3.28.23",
+        "3.28.24",
+        "3.28.25",
+        "3.28.26",
+        "3.28.27",
+        "3.28.28",
+        "3.28.29",
+        "3.28.30",
+        "3.28.31",
+        "3.28.32",
+        "3.28.33",
+        "3.28.34",
+        "3.28.35",
+        "3.28.36",
+        "3.28.37",
+        "3.28.38",
+        "3.28.39",
+        "3.28.40–3.28.41"
+      ],
+      "source_note": "The pinned English mirror has 31 numbered records at 3.28.11–3.28.41. The pinned Śrīdhara source keeps 3.28.40–3.28.41 in one explanatory block, so this approximately-30-verse batch contains 31 numbered verses represented by 30 literal-English JSON entries. No no-separate-commentary marker occurs in this batch.",
+      "findings": [
+        "Original literal English was prepared only from the pinned Śrīdhara Sanskrit commentary.",
+        "The grouped 3.28.40–3.28.41 Śrīdhara block remains grouped rather than being split.",
+        "All 31 numbered source positions are covered exactly once after expansion, with no overlap with earlier literal entries."
+      ]
     }
   ]
 }
