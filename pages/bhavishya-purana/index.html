@@ -1,30 +1,100 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Bhaviṣya Purāṇa — the uploaded parva and chapter reader library.">
-<title>Bhaviṣya Purāṇa — Uploaded Chapter Library</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Vollkorn:wght@400;500&display=swap" rel="stylesheet">
-<style>
-:root{--outer:#2b261f;--paper:#f4f4f4;--ink:#3c362e;--muted:#756e67;--teal:#00787a;--purple:#65516f;--rule:#d8d3cd}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--outer);color:var(--ink);font-family:Merriweather,Georgia,serif}.topbar{width:1080px;max-width:100%;height:58px;margin:0 auto;padding:0 42px;display:flex;align-items:center;background:var(--paper);border-bottom:1px solid rgba(119,119,119,.12)}.topbar a{color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:20px;text-decoration:none}.page{width:1080px;max-width:100%;min-height:100vh;margin:0 auto;padding:62px 54px 100px;background:var(--paper)}.hero{width:700px;max-width:100%;margin:0 auto 62px;text-align:center}.eyebrow{margin:0 0 10px;color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.hero h1{margin:0;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:50px;font-weight:400;line-height:1.08}.subtitle{margin:17px auto 0;max-width:650px;color:#665f58;font-size:16px;font-style:italic;line-height:1.6}.hero:after{content:"";display:block;width:326px;max-width:50%;height:1px;margin:30px auto 0;background:var(--rule)}.source-note{max-width:780px;margin:26px auto 0;color:var(--muted);font-size:12px;line-height:1.6}.reader{display:grid;grid-template-columns:210px minmax(0,700px);gap:46px;justify-content:center;align-items:start}.side{position:sticky;top:28px;padding-right:24px;border-right:1px solid var(--rule)}.side h2{margin:0 0 20px;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:28px;font-weight:400}.side a{display:block;margin:0 0 9px;color:#5d554e;font-size:13px;line-height:1.35;text-decoration:none}.side a:hover{color:var(--purple)}.main h2{margin:0 0 22px;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:31px;font-weight:400}.canto{margin:0 0 42px}.canto h3{margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid var(--rule);color:#4a443e;font-family:Vollkorn,Georgia,serif;font-size:23px;font-weight:400}.chapter-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 24px}.chapter-grid a{display:block;padding:9px 0;border-bottom:1px solid #e2ddd7;color:#4a443e;font-size:13px;line-height:1.45;text-decoration:none}.chapter-grid a:hover{color:var(--purple)}.canto-note{margin:8px 0 0;color:#817970;font-size:12px;line-height:1.5}@media(max-width:900px){body{background:var(--paper)}.page{padding:46px 24px 80px}.reader{display:block;width:700px;max-width:100%;margin:0 auto}.side{position:static;margin:0 0 34px;padding:0 0 18px;border:0;border-bottom:1px solid var(--rule)}.side h2{font-size:23px;margin-bottom:10px}.side a{display:inline-block;margin-right:14px}.chapter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.topbar{height:50px;padding:0 18px}.topbar a{font-size:18px}.page{padding:34px 16px 64px}.hero h1{font-size:39px;line-height:1.1}.subtitle{font-size:15px}.main h2{font-size:27px}.chapter-grid{grid-template-columns:1fr}.chapter-grid a{padding:12px 0;font-size:14px;line-height:1.5}.canto{margin-bottom:38px}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Bhaviṣya Purāṇa — English Translation — complete parva and chapter index.">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <title>Bhaviṣya Purāṇa — English Translation — Viveka Dṛṣṭi</title>
+  <link rel="stylesheet" href="/vivekadrishti/assets/css/site.css?v=20260915-2">
+  <link rel="stylesheet" href="/vivekadrishti/assets/css/hindupedia-site.css?build=20260915-2">
+  <link rel="stylesheet" data-bhavishyaNavigation href="/vivekadrishti/assets/css/bhavishya-navigation.css?v=20260915-2">
+  <style>
+    .chapter-index{width:100%;font-family:Arial,Helvetica,sans-serif}
+    .chapter-index .index-title{margin:0 0 12px;padding:4px 8px;border:1px solid #a8cabb;background:#cfeee2;color:#111;font-size:20px;font-weight:700;line-height:1.2}
+    .section-block{margin:0 0 28px}
+    .section-heading{margin:0 0 9px;padding:0 0 6px;border-bottom:1px solid #d8d8d8;color:#16539b;font-size:16px;font-weight:400;line-height:1.3}
+    .chapter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 30px;margin:0;padding:0 12px 0 22px}
+    .chapter-grid a{display:block;color:#16539b;font-size:14px;line-height:1.3;text-decoration:none;white-space:normal}
+    .chapter-grid a:hover{text-decoration:underline}
+    @media(max-width:700px){.chapter-grid{grid-template-columns:1fr;gap:7px;padding-left:12px}.chapter-grid a{font-size:14px}}
+  </style>
 </head>
-<body>
-<header class="topbar"><a href="/vivekadrishti/">Viveka Dṛṣṭi</a></header>
-<main class="page">
-<header class="hero"><p class="eyebrow">Scripture Library</p><h1>Bhaviṣya Purāṇa</h1><p class="subtitle">Pratisargaparvan, Brāhmaparvan, Madhyamaparvan, and Uttaraparvan with Sanskrit verse readers, lexical English, and word-for-word navigation.</p><p class="source-note">Choose an uploaded chapter to open its reading view. The parva indexes retain the same verse search and word-for-word controls as the chapter readers.</p></header>
-<div class="reader">
-<aside class="side"><h2>Contents</h2><a href="#pratisarga">Pratisargaparvan</a><a href="#brahma">Brāhmaparvan</a><a href="#madhyama">Madhyamaparvan</a><a href="#uttara">Uttaraparvan</a><a href="/vivekadrishti/">← Home</a></aside>
-<section class="main"><h2>Complete Uploaded Chapter Library</h2>
-<p class="canto-note">Choose a chapter to open the reading view. The list below follows the uploaded chapter pages; the individual parva indexes contain the full printed chapter map.</p>
-<div id="parva-list"></div>
-<noscript><p class="canto-note">JavaScript is required to build the chapter list.</p></noscript>
-</section>
-</div>
-</main>
-<script>
-(()=>{const root=document.getElementById('parva-list');if(!root)return;const base='/vivekadrishti/articles/';const parvas=[{id:'pratisarga',name:'Pratisargaparvan — Part I',chapters:Array.from({length:7},(_,i)=>({part:1,chapter:i+1,label:`1.${i+1}`})),note:'Part I · 7 uploaded chapters'},{id:'pratisarga-2',name:'Pratisargaparvan — Part II',chapters:Array.from({length:35},(_,i)=>({part:2,chapter:i+1,label:`2.${i+1}`})),note:'Part II · 35 uploaded chapters'},{id:'pratisarga-3',name:'Pratisargaparvan — Part III',chapters:Array.from({length:32},(_,i)=>({part:3,chapter:i+1,label:`3.${i+1}`})),note:'Part III · 32 uploaded chapters'},{id:'pratisarga-4',name:'Pratisargaparvan — Part IV',chapters:Array.from({length:9},(_,i)=>({part:4,chapter:i+1,label:`4.${i+1}`})),note:'Part IV · 9 uploaded chapters'},{id:'brahma',name:'Brāhmaparvan',chapters:[...Array.from({length:55},(_,i)=>({chapter:i+1,label:`${i+1}`})),...Array.from({length:11},(_,i)=>({chapter:i+180,label:`${i+180}`}))],note:'Uploaded readers: chapters 1–55 and 180–190'},{id:'madhyama',name:'Madhyamaparvan',chapters:[],index:'/vivekadrishti/pages/bhavishya-purana-madhyamaparvan/',note:'62-chapter index · chapter readers not yet uploaded'},{id:'uttara',name:'Uttaraparvan',chapters:[],index:'/vivekadrishti/pages/bhavishya-purana-uttaraparvan/',note:'208-chapter index · chapter readers not yet uploaded'}];parvas.forEach(parva=>{const section=document.createElement('section');section.className='canto';section.id=parva.id;const h=document.createElement('h3');h.textContent=parva.name;const grid=document.createElement('div');grid.className='chapter-grid';if(parva.chapters.length){parva.chapters.forEach(item=>{const a=document.createElement('a');a.href=base+(parva.id==='brahma'?`bhavishya-purana-brahmaparvan-chapter-${item.chapter}/`:`bhavishya-purana-pratisargaparvan-part-${item.part}-chapter-${item.chapter}/`);a.textContent=item.label+' — Chapter '+item.chapter;grid.appendChild(a)})}else{const a=document.createElement('a');a.href=parva.index;a.textContent='Open '+parva.name+' contents';grid.appendChild(a)}const note=document.createElement('p');note.className='canto-note';note.textContent=parva.note;section.append(h,grid,note);root.appendChild(section)})})();
-</script>
+<body class="page-page">
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/vivekadrishti/">Viveka Dṛṣṭi</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="/vivekadrishti/">Home</a>
+        <a href="/vivekadrishti/introduction-to-hinduism/">Introduction to Hinduism</a>
+        <a href="/vivekadrishti/indology/">Indology</a>
+        <a href="/vivekadrishti/purana-library/">Purāṇa Library</a>
+      </nav>
+    </div>
+  </header>
+  <main class="site-main">
+    <article class="article-shell">
+      <header class="article-heading"><h1>Bhaviṣya Purāṇa — English Translation</h1><div class="section-rule" aria-hidden="true"></div></header>
+      <div class="article-body chapter-index">
+        <h2 class="index-title">Bhaviṣya Purāṇa</h2>
+
+        <section class="section-block" aria-labelledby="pratisarga-heading">
+          <h3 class="section-heading" id="pratisarga-heading">Pratisargaparvan — uploaded chapters</h3>
+          <section class="section-block" aria-labelledby="pratisarga-part-1-heading">
+            <h4 class="section-heading" id="pratisarga-part-1-heading">Part I — chapters 1–7</h4>
+            <div class="chapter-grid">
+              <a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-1-chapter-1/">Chapter 1</a>
+              <a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-1-chapter-2/">Chapter 2</a>
+              <a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-1-chapter-3/">Chapter 3</a>
+              <a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-1-chapter-4/">Chapter 4</a>
+              <a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-1-chapter-5/">Chapter 5</a>
+              <a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-1-chapter-6/">Chapter 6</a>
+              <a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-1-chapter-7/">Chapter 7</a>
+            </div>
+          </section>
+          <section class="section-block" aria-labelledby="pratisarga-part-2-heading">
+            <h4 class="section-heading" id="pratisarga-part-2-heading">Part II — chapters 1–35</h4>
+            <div class="chapter-grid">
+              <script>for(let i=1;i<=35;i++)document.write('<a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-2-chapter-'+i+'/">Chapter '+i+'</a>');</script>
+            </div>
+          </section>
+          <section class="section-block" aria-labelledby="pratisarga-part-3-heading">
+            <h4 class="section-heading" id="pratisarga-part-3-heading">Part III — chapters 1–32</h4>
+            <div class="chapter-grid">
+              <script>for(let i=1;i<=32;i++)document.write('<a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-3-chapter-'+i+'/">Chapter '+i+'</a>');</script>
+            </div>
+          </section>
+          <section class="section-block" aria-labelledby="pratisarga-part-4-heading">
+            <h4 class="section-heading" id="pratisarga-part-4-heading">Part IV — chapters 1–9</h4>
+            <div class="chapter-grid">
+              <script>for(let i=1;i<=9;i++)document.write('<a href="/vivekadrishti/articles/bhavishya-purana-pratisargaparvan-part-4-chapter-'+i+'/">Chapter '+i+'</a>');</script>
+            </div>
+          </section>
+        </section>
+
+        <section class="section-block" aria-labelledby="brahma-heading">
+          <h3 class="section-heading" id="brahma-heading">Brāhmaparvan — uploaded chapters</h3>
+          <div class="chapter-grid">
+            <script>for(let i=1;i<=55;i++)document.write('<a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-'+i+'/">Chapter '+i+'</a>');for(let i=180;i<=190;i++)document.write('<a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-'+i+'/">Chapter '+i+'</a>');</script>
+          </div>
+        </section>
+
+        <section class="section-block" aria-labelledby="madhyama-heading">
+          <h3 class="section-heading" id="madhyama-heading">Madhyamaparvan</h3>
+          <div class="chapter-grid"><a href="/vivekadrishti/pages/bhavishya-purana-madhyamaparvan/">Open Madhyamaparvan contents</a></div>
+        </section>
+
+        <section class="section-block" aria-labelledby="uttara-heading">
+          <h3 class="section-heading" id="uttara-heading">Uttaraparvan</h3>
+          <div class="chapter-grid"><a href="/vivekadrishti/pages/bhavishya-purana-uttaraparvan/">Open Uttaraparvan contents</a></div>
+        </section>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer"><p>Viveka Dṛṣṭi</p></footer>
+  <script data-bhavishyaNavigation src="/vivekadrishti/assets/js/bhavishya-navigation.js?v=20260915-3"></script>
+  <script src="/vivekadrishti/assets/js/site.js?v=20260915-2"></script>
 </body>
 </html>
