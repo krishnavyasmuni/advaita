@@ -1562,6 +1562,48 @@
         "literal_english_source_blocks": 15,
         "verified_range": "3.9.1–3.9.15"
       }
+    },
+    {
+      "id": "canto-3-chapter-10-verses-1-15",
+      "range": "ŚB 3.10.1–3.10.15",
+      "status": "source-checked-and-live",
+      "english_source": "https://vedabase.io/en/library/sb/3/10/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShnavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/10_dasha-vidha-sRShTi-varNanam.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 15,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "3.10.1",
+        "3.10.2",
+        "3.10.3",
+        "3.10.4",
+        "3.10.5–3.10.6",
+        "3.10.7",
+        "3.10.8",
+        "3.10.9",
+        "3.10.10",
+        "3.10.11",
+        "3.10.12",
+        "3.10.13",
+        "3.10.14",
+        "3.10.15"
+      ],
+      "findings": [
+        "Vedabase English translation and synonyms for verses 1–15 were checked against the pinned English mirror after normalizing only Markdown escapes, grouped headings and line wrapping; the wording matches.",
+        "The literal English layer is translated directly from the corresponding Śrīdhara Svāmī Sanskrit blocks, retaining the source’s grammar notes, technical terms and threefold-dissolution explanation without adding Vedabase purport.",
+        "The primary source groups verses 5–6 in one Śrīdhara block; the reader preserves that range rather than inventing a split translation. The alternate marker form used for 3.10.1 is normalized only for parsing, not altered in the displayed Sanskrit source.",
+        "All first-fifteen source records are visible in the reader and render without Markdown artifacts.",
+        "The independent 1949 Śrīdharī scan remains the comparison witness; its OCR is noisy, so the scan image takes precedence over OCR for character-level questions."
+      ],
+      "reference_url": "https://vedabase.io/en/library/sb/3/10/advanced-view/",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-03-sridhara-svami/?cb=1757935000#chapter-10",
+        "displayed_records": 29,
+        "sridhara_records_with_text": 29,
+        "literal_english_records": 14,
+        "literal_english_source_blocks": 14,
+        "verified_range": "3.10.1–3.10.15"
+      }
     }
   ]
 }
