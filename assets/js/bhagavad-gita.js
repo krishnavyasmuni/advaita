@@ -24,8 +24,7 @@
       "14": "The objection is: “I do not grieve for the past and future, but for myself suffering separation from them.” He answers: The “measures” are the sense functions by which objects are measured and known; their contacts with objects produce cold, heat, and the like. They come and go and are impermanent, so endure them. Just as contact with water or sunlight at a given time naturally gives cold or heat, so union and separation from desired things give happiness and sorrow. Since these are unstable, endurance is proper for the wise, not subjection to joy and grief.",
       "15": "Even effort to remedy them should give way to endurance because it yields great fruit: these contacts do not distress or overpower the person who is even-minded in happiness and sorrow. Remaining undisturbed by them, through dharma and knowledge he becomes fit for immortality, that is, liberation.",
       "16": "The objection is: “Cold and heat are unbearable; how can they be endured?” By inquiry into truth everything can be endured: the being of the nonexistent—cold, heat, and the like, which are not properties of the Self—is not found in the Self; and the nonbeing or destruction of the existent, whose nature is existence, is not found. The conclusion of both existent and nonexistent has been seen by seers of truth, knowers of reality. Thus endure with this discrimination.",
-      "17": "Having spoken generally of the indestructible existent, he specifies it: That by which all this, subject to coming and going—body and the like—is pervaded as its witness, know that to be the imperishable Self, free from destruction. He gives the reason: no one can cause destruction of the imperishable.",
-      "18": "He shows that the bodies have the nature of coming and going: these bodies have an end. They are said by seers of truth to belong to the embodied one, who is eternal, indestructible, and immeasurable, while bodies bear happiness, sorrow, and the like. Since the Self is not destroyed and has no relation to happiness or sorrow, abandon delusion-born grief and fight; do not abandon your own dharma.",
+      "17": "No commentary",      "18": "He shows that the bodies have the nature of coming and going: these bodies have an end. They are said by seers of truth to belong to the embodied one, who is eternal, indestructible, and immeasurable, while bodies bear happiness, sorrow, and the like. Since the Self is not destroyed and has no relation to happiness or sorrow, abandon delusion-born grief and fight; do not abandon your own dharma.",
       "19": "Thus grief caused by the death of Bhīṣma and the others is removed. The sorrow stated as arising from the Self’s being a killer—“I do not wish to kill these”—is also without cause: “this” means the Self; it is neither the object nor the agent of killing. Hence it does not kill and is not killed.",
       "20": "He establishes this by the absence of the six modifications: “not born” denies birth; “does not die” denies destruction; “nor, having become, will it become again” denies the second change, post-birth existence, because it is already existence by itself. “Unborn” is the reason. “Eternal”—always of one form—denies growth. “Everlasting”—ever existing—denies decline. “Ancient” denies transformation: though existing formerly, it is ever new, not changed into another form. Thus the six changes taught by Yāska and the other Vedic scholars—birth, existence, growth, transformation, decline, and destruction—are negated. Therefore the intended absence of destruction is concluded: it is not killed when the body is killed.",
       "21": "Therefore the absence of agency in killing is established: whoever knows the Self as eternal, free from growth, imperishable, free from decline, unborn, and indestructible—how does that person kill anyone, or cause anyone to be killed? Such a one has no means for killing. Nor, becoming the instigator, does he cause anyone to kill anyone—no one in any way. This also says: do not see fault in Me as the instigator.",
@@ -148,6 +147,28 @@
     return out;
   };
 
+  const pickSanskritVerse = (entry, n) => {
+    const value = String(entry && entry.sanskrit_text || '');
+    const re = new RegExp('(?:\\|\\||।।)\\s*' + chapter + '\\.(\\d+)\\s*(?:\\|\\||।।)', 'g');
+    const matches = Array.from(value.matchAll(re));
+    const index = matches.findIndex((match) => Number(match[1]) === n);
+    if (index < 0) return value;
+    const start = index === 0 ? 0 : matches[index - 1].index + matches[index - 1][0].length;
+    const end = matches[index].index + matches[index][0].length;
+    return value.slice(start, end).trim();
+  };
+
+  const pickCommentaryVerse = (entry, n) => {
+    const value = String(entry && entry.commentary || '');
+    const re = new RegExp('(?:\\|\\||।।)\\s*' + chapter + '\\.(\\d+)\\s*(?:\\|\\||।।)', 'g');
+    const matches = Array.from(value.matchAll(re));
+    const index = matches.findIndex((match) => Number(match[1]) === n);
+    if (index < 0) return value;
+    const start = matches[index].index;
+    const end = index + 1 < matches.length ? matches[index + 1].index : value.length;
+    return value.slice(start, end).trim();
+  };
+
   const makeVerse = (d, meanings, sourceMode) => {
     const n = d.verse;
     const rootText = sourceMode === 'legacy'
@@ -214,21 +235,34 @@
     const commonChapter = (common.chapters || []).find((entry) => Number(entry.chapter_number) === chapter) || {};
     const mukChapter = (mukundananda.chapters || []).find((entry) => Number(entry.chapter_number) === chapter) || {};
     const sridharaChapter = (sridhara.chapters || []).find((entry) => Number(entry.chapter_number) === chapter) || {};
-    const commonByVerse = Object.fromEntries((commonChapter.verses || []).filter(Boolean).map((entry) => [Number(entry.verse_number), entry]));
+    const commonByVerse = expandEntries(commonChapter.verses);
     const mukByVerse = expandEntries(mukChapter.verses);
     const sridharaByVerse = expandEntries(sridharaChapter.verses);
+    const commonOverrides = {
+      42: {
+        slok: 'यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः।\\n\\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः।।2.42।।',
+        transliteration: 'yāmimāṁ puṣhpitāṁ vāchaṁ pravadanty-avipaśhchitaḥ\\nveda-vāda-ratāḥ pārtha nānyad astīti vādinaḥ',
+        wordMeaning: 'yām imām—all these; puṣhpitām—flowery; vācham—words; pravadanti—speak; avipaśhchitaḥ—those with limited understanding; veda-vāda-ratāḥ—attached to the flowery words of the Vedas; pārtha—Arjun, the son of Pritha; na anyat—no other; asti—is; iti—thus; vādinaḥ—advocate'
+      },
+      43: {
+        slok: 'कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम्।\\n\\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति।।2.43।।',
+        transliteration: 'kāmātmānaḥ swarga-parā janma-karma-phala-pradām\\nkriyā-viśheṣha-bahulāṁ bhogaiśhwarya-gatiṁ prati',
+        wordMeaning: 'kāmātmānaḥ—desirous of sensual pleasure; swarga-parāḥ—aiming to achieve heavenly planets; janma-karma-phala-pradām—awarding high birth and fruitive results; kriyā-viśheṣha-bahulām—full of special ritualistic ceremonies; bhoga-aiśhwarya-gatim prati—toward enjoyment and sovereignty'
+      }
+    };
     const data = Array.from({length: counts[chapter - 1]}, (_, index) => {
       const n = index + 1;
       const c = commonByVerse[n] || {};
       const m = mukByVerse[n] || {};
       const sh = sridharaByVerse[n] || {};
+      const override = commonOverrides[n] || {};
       return {
         verse: n,
-        slok: c.sanskrit_text || '',
-        transliteration: c.transliteration || '',
-        wordMeaning: c.word_meanings || '',
+        slok: override.slok || pickSanskritVerse(c, n),
+        transliteration: override.transliteration || c.transliteration || '',
+        wordMeaning: override.wordMeaning || c.word_meanings || '',
         mukEnglish: m.translation || '',
-        srid: {sc: sh.commentary || ''}
+        srid: {sc: pickCommentaryVerse(sh, n)}
       };
     });
     renderChapter(
