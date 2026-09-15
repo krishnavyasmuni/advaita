@@ -208,6 +208,7 @@
     const markerPattern = /(?:^|\n)\s*(?:\[\^[^\]]+\]\s*)?\*{0,2}॥\s*\*{0,2}([०-९]+)\s*\.\s*([०-९]+)\s*\.\s*([०-९]+)(?:\s*[-–—]\s*([०-९]+))?\s*\*{0,2}॥\s*\*{0,2}/g;
     // The corpus uses both the older “श्रीधर-स्वामी” label and the abbreviated “श्रीधरः” label.
     const labelPattern = /\*{0,2}श्रीधर(?:-स्वामी|ः)?(?:\s*,[^*\\n]+)?(?:\s*\([^*\\n]+\))?\s*[:：-]\s*\*{0,2}/;
+    const sourceText = String(markdown || '').replace(/॥\s*\*{1,2}([०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\*{1,2}\s*॥/g, '॥ $1 ॥');
     const markers = Array.from(String(markdown || '').matchAll(markerPattern));
 
     markers.forEach((marker, index) => {
@@ -218,8 +219,8 @@
       if (markerCanto !== targetCanto || markerChapter !== targetChapter) return;
 
       const segmentStart = marker.index + marker[0].length;
-      const segmentEnd = index + 1 < markers.length ? markers[index + 1].index : markdown.length;
-      const segment = markdown.slice(segmentStart, segmentEnd);
+      const segmentEnd = index + 1 < markers.length ? markers[index + 1].index : sourceText.length;
+      const segment = sourceText.slice(segmentStart, segmentEnd);
       const labelMatch = segment.match(labelPattern);
       if (!labelMatch) return;
 
