@@ -3,46 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Bhagavad Gītā with Śrīdhara Svāmī’s Subodhinī commentary, Sanskrit text, English translation, and word-for-word material.">
+<meta name="description" content="Bhagavad Gītā with Śrīdhara Svāmī’s Subodhinī commentary.">
 <title>Bhagavad Gītā — Śrīdhara Bhāṣya — Viveka Dṛṣṭi</title>
 <style>
-:root{--paper:#fff;--outer:#eeeae4;--ink:#292724;--muted:#66615c;--rule:#aaa7a2;--link:#203f98;--tag:#5e554d}
+:root{--paper:#fff;--outer:#eeeae4;--ink:#2a2826;--rule:#aaa6a0;--muted:#5e5954}
 *{box-sizing:border-box}
-body{margin:0;background:var(--outer);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:15.5px;line-height:1.48}
-a{color:var(--link)}
-.shell{width:1040px;max-width:calc(100% - 28px);min-height:100vh;margin:0 auto;background:var(--paper);border-left:1px solid #d0cac2;border-right:1px solid #d0cac2;box-shadow:0 0 17px rgba(70,55,40,.07)}
-.sitebar{padding:9px 18px;border-bottom:1px solid #ddd8d1;background:#fbfaf8;font-family:Georgia,"Times New Roman",serif;font-size:15px}
-.sitebar a{color:#4b4037;text-decoration:none}
-.page{padding:16px 18px 55px}
-.book-record{margin:0 0 23px}
-.book-record h1{margin:0 0 2px;color:#262321;font-family:Arial,Helvetica,sans-serif;font-size:25px;font-weight:400;line-height:1.22}
-.byline{margin:0 0 5px;color:#393633;font-size:15px}
-.tags{display:flex;gap:5px;margin:0 0 8px;padding:0;list-style:none}
-.tags li{padding:0 6px;border:1px solid #aaa49d;border-radius:2px;color:var(--tag);font-size:11px;line-height:1.45}
-.summary{max-width:930px;margin:6px 0 0;font-size:15px;line-height:1.52}
-.summary em{font-style:italic}
-.source{margin:16px 0 0;font-size:14px;line-height:1.45}
-.source a{text-decoration:none}
-.contents-wrap{margin-top:20px}
+body{margin:0;background:var(--outer);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.45}
+.shell{width:1040px;max-width:calc(100% - 28px);min-height:100vh;margin:0 auto;background:var(--paper);border-left:1px solid #d0cac2;border-right:1px solid #d0cac2;box-shadow:0 0 17px rgba(70,55,40,.06)}
+.sitebar{padding:8px 18px;border-bottom:1px solid #e1ddd7;background:#fbfaf8;font-family:Georgia,"Times New Roman",serif;font-size:14px}
+.sitebar a{color:#554b43;text-decoration:none}
+.page{padding:18px 18px 54px}
+.bookhead{margin:0 0 26px}
+.bookhead h1{margin:0 0 3px;font-size:27px;font-weight:400;line-height:1.18;color:#262321}
+.bookhead p{margin:0;color:var(--muted);font-size:15px}
 details{margin:0}
-summary{display:block;position:relative;margin:0;padding:0 80px 5px 0;border-bottom:1px solid var(--rule);cursor:pointer;list-style:none;color:#302820;font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:400;line-height:1.2}
+summary{display:block;position:relative;margin:0;padding:0 78px 6px 0;border-bottom:1px solid var(--rule);cursor:pointer;list-style:none;color:#302820;font-family:Georgia,"Times New Roman",serif;font-size:29px;font-weight:400;line-height:1.2}
 summary::-webkit-details-marker{display:none}
-summary::after{content:"(+ / −)";position:absolute;right:0;bottom:5px;color:#4f4842;font-size:22px}
-.contents-body{padding-top:7px}
-.contents-intro{max-width:960px;margin:0 0 20px;font-size:14.5px;line-height:1.65}
-.chapter-list{margin:0;padding:0;list-style:none;font-size:16px;line-height:1.48}
+summary::after{content:"(+ / −)";position:absolute;right:0;bottom:6px;color:#4f4842;font-size:21px}
+.contents{padding-top:14px}
+.chapter-list{margin:0;padding:0;list-style:none;font-size:16.5px;line-height:1.48}
 .chapter-list li{margin:0}
 .chapter-list a{display:inline-block;padding:1px 0;color:#292724;text-decoration:none}
 .chapter-list a:hover{text-decoration:underline}
-.footer{margin-top:34px;padding-top:9px;border-top:1px solid #ddd8d1;color:#77716b;font-size:12px}
-.footer a{color:#625b55;text-decoration:none}
 @media(max-width:700px){
 .shell{max-width:100%;border:0;box-shadow:none}
-.page{padding:14px 15px 48px}
-.book-record h1{font-size:23px}
-summary{padding-right:68px;font-size:24px}
+.page{padding:15px 15px 46px}
+.bookhead{margin-bottom:22px}
+.bookhead h1{font-size:24px}
+.bookhead p{font-size:14px}
+summary{padding-right:66px;font-size:24px}
 summary::after{font-size:18px}
-.contents-intro{font-size:14px}
 .chapter-list{font-size:15.5px;line-height:1.52}
 }
 </style>
@@ -51,19 +41,14 @@ summary::after{font-size:18px}
 <div class="shell">
 <header class="sitebar"><a href="/vivekadrishti/">Viveka Dṛṣṭi</a></header>
 <main class="page">
-<section class="book-record" aria-labelledby="book-title">
-<h1 id="book-title">Bhagavad Gītā — Śrīdhara Bhāṣya</h1>
-<p class="byline">Śrīdhara Svāmī · <em>Subodhinī</em> commentary</p>
-<ul class="tags" aria-label="Subjects"><li>Hinduism</li><li>Bhagavad Gītā</li></ul>
-<p class="summary"><em>Summary:</em> The Bhagavad Gītā with Sanskrit text, transliteration, word-for-word material, English translation, and Śrīdhara Svāmī’s commentary.</p>
-<p class="source">Source: <a href="https://github.com/vedicscriptures/bhagavad-gita" target="_blank" rel="noopener">Bhagavad Gītā data repository</a></p>
-</section>
-
-<section class="contents-wrap" aria-label="Book contents">
+<header class="bookhead">
+<h1>Bhagavad Gītā — Śrīdhara Bhāṣya</h1>
+<p>Śrīdhara Svāmī · <em>Subodhinī</em> commentary</p>
+</header>
+<section aria-label="Book contents">
 <details open>
 <summary>Contents of this online book</summary>
-<div class="contents-body">
-<p class="contents-intro">The complete text is available here to read online. Select a chapter from the index below:</p>
+<div class="contents">
 <ul class="chapter-list">
 <li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-1/">Chapter I</a></li>
 <li><a href="/vivekadrishti/articles/bhagavad-gita-chapter-2/">Chapter II</a></li>
@@ -87,8 +72,6 @@ summary::after{font-size:18px}
 </div>
 </details>
 </section>
-
-<p class="footer"><a href="/vivekadrishti/">← Main library</a></p>
 </main>
 </div>
 </body>
