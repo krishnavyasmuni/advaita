@@ -1,4 +1,4 @@
-name: One-shot completed Canto 3 coverage audit
+name: One-shot Canto 4 source extraction
 on:
   push:
     branches: [codex/bhagavatam-canto1-batch-001]
@@ -6,7 +6,7 @@ on:
 permissions:
   contents: read
 jobs:
-  audit:
+  extract:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v7
@@ -14,15 +14,37 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const pinned='100560de6c9f68c2875097d40a2012a84c784179';
-            const branch='codex/bhagavatam-canto1-batch-001';
             async function getText(owner,repo,path,ref){const r=await github.rest.repos.getContent({owner,repo,path,ref});let t=r.data.content?Buffer.from(r.data.content,'base64').toString('utf8'):'';if(!t){const b=await github.rest.git.getBlob({owner,repo,file_sha:r.data.sha});t=Buffer.from(b.data.content,b.data.encoding||'base64').toString('utf8');}return t;}
-            const lit=JSON.parse(await getText(context.repo.owner,context.repo.repo,'assets/data/bhagavatam-sridhara-english-checkpoints.json',branch));
-            const covered=new Set(),ranges=new Set();let duplicateRange=0,overlap=0;
-            for(const e of lit.entries){const rk=`${e.canto}.${e.chapter}.${e.start}-${e.end}`;if(ranges.has(rk))duplicateRange++;ranges.add(rk);if(Number(e.canto)!==3)continue;for(let v=Number(e.start);v<=Number(e.end);v++){const k=`3.${Number(e.chapter)}.${v}`;if(covered.has(k))overlap++;covered.add(k);}}
-            const source=new Set();
-            for(let ch=1;ch<=33;ch++){
-              const text=await getText('vishvAsa','purANam_vaiShNavam',`bhAgavatam/gauDIyo_abhaya-charaNaH/03/${String(ch).padStart(2,'0')}.md`,pinned);
-              for(const m of text.matchAll(/^##\s+Texts?\s+(\d+)(?:\s*[-–—]\s*(\d+))?\s*$/gmi)){const s=Number(m[1]),e=Number(m[2]||m[1]);for(let v=s;v<=e;v++)source.add(`3.${ch}.${v}`);}
+            const englishRecords=[],selected=new Set();let numbered=0,lastChapter=1;
+            outer: for(let ch=1;ch<=31;ch++){
+              const text=await getText('vishvAsa','purANam_vaiShNavam',`bhAgavatam/gauDIyo_abhaya-charaNaH/04/${String(ch).padStart(2,'0')}.md`,pinned);
+              for(const m of text.matchAll(/^##\s+Texts?\s+(\d+)(?:\s*[-–—]\s*(\d+))?\s*$/gmi)){
+                const s=Number(m[1]),e=Number(m[2]||m[1]),n=e-s+1;
+                if(numbered>0 && numbered+n>90) break outer;
+                englishRecords.push({chapter:ch,start:s,end:e});for(let v=s;v<=e;v++)selected.add(`4.${ch}.${v}`);numbered+=n;lastChapter=ch;
+                if(numbered>=90)break outer;
+              }
             }
-            const missing=[...source].filter(x=>!covered.has(x));const extras=[...covered].filter(x=>!source.has(x));
-            core.info(`CANTO3_SOURCE_POSITIONS=${source.size}`);core.info(`CANTO3_COVERED_SOURCE_POSITIONS=${source.size-missing.length}`);core.info(`CANTO3_MISSING_COUNT=${missing.length}`);core.info(`CANTO3_EXTRA_LITERAL_COUNT=${extras.length}`);core.info(`CANTO3_DUPLICATE_RANGES_GLOBAL=${duplicateRange}`);core.info(`CANTO3_OVERLAPPING_POSITIONS=${overlap}`);core.info(`CANTO3_MISSING=${JSON.stringify(missing)}`);core.info(`CANTO3_EXTRAS=${JSON.stringify(extras)}`);
+            const d={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'},num=x=>Number([...String(x)].map(c=>d[c]??c).join(''));
+            const mr=/(?:^|\n)\s*(?:\[\^[^\]]+\]\s*)?\*{0,2}॥\s*\*{0,2}([०-९]+)\s*\.\s*([०-९]+)\s*\.\s*([०-९]+)(?:\s*[-–—]\s*([०-९]+))?\s*\*{0,2}॥\s*\*{0,2}/g;
+            const lr=/\*{0,2}श्रीधर(?:-स्वामी|ः)?(?:\s*,[^*\n]+)?(?:\s*\([^*\n]+\))?\s*[:：-]\s*\*{0,2}/;
+            const blocks=[];
+            for(let ch=1;ch<=lastChapter+1;ch++){
+              let text=await getText('vishvAsa','purANam_vaiShNavam',`bhAgavatam/gauDIya-prastutiH/04/${String(ch).padStart(2,'0')}.md`,pinned);
+              text=text.replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+)\s*।\s*\*{1,2}\s*([०-९]+)/g,'$1.$2').replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+)\s*\*{1,2}\s*।\s*\*{1,2}\s*([०-९]+)/g,'$1.$2').replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\s*\*{1,2}\s*॥/g,'$1 ॥').replace(/॥\s*\*{1,2}([०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\*{1,2}\s*॥/g,'॥ $1 ॥');
+              const ms=[...text.matchAll(mr)];
+              for(let i=0;i<ms.length;i++){
+                const m=ms[i],c=num(m[1]),mc=num(m[2]),s=num(m[3]),e=num(m[4]||m[3]);if(c!==4)continue;
+                let hit=false;for(let v=s;v<=e;v++)if(selected.has(`4.${mc}.${v}`))hit=true;if(!hit)continue;
+                const seg=text.slice(m.index+m[0].length,i+1<ms.length?ms[i+1].index:text.length),lm=seg.match(lr);
+                if(!lm){blocks.push({chapter:mc,start:s,end:e,status:'no-label',text:''});continue;}
+                let x=seg.slice((lm.index||0)+lm[0].length).replace(/^\s*_{4,}\s*/,'');
+                const stops=[x.search(/\n_{4,}/),x.search(/\n[-—]{12,}/),x.search(/(?:^|\n|॥)\s*\*{0,2}(?:श्रीधर(?:-स्वामी|ः)?|दिग्दर्शिनी|वंशीधर|वशिधर|श्रीनाथ|सनातन|जीव-?गोस्वामी|विश्वनाथ|बलदेव|मध्वाचार्य)/)].filter(v=>v>=0);if(stops.length)x=x.slice(0,Math.min(...stops));
+                x=x.replace(/\[\^[^\]]+\]/g,'').replace(/\*\*/g,'').replace(/__+/g,'').replace(/^\s*>\s?/gm,'').trim();
+                const no=/^\*?न\s+(?:कतमेनापि\s+)?व्याख्यातम्/.test(x)||!x;
+                blocks.push({chapter:mc,start:s,end:e,status:no?'no-separate':'commentary',text:x});
+              }
+            }
+            const blockCoverage=new Set();for(const b of blocks)for(let v=b.start;v<=b.end;v++)if(selected.has(`4.${b.chapter}.${v}`))blockCoverage.add(`4.${b.chapter}.${v}`);
+            const unmatched=[...selected].filter(x=>!blockCoverage.has(x));
+            core.info(`NUMBERED=${numbered}`);core.info(`LAST_CHAPTER=${lastChapter}`);core.info(`ENGLISH_RECORDS=${englishRecords.length}`);core.info(`BLOCKS=${blocks.length}`);core.info(`UNMATCHED=${JSON.stringify(unmatched)}`);core.info('ENGLISH_BEGIN');core.info(JSON.stringify(englishRecords));core.info('ENGLISH_END');core.info('SRIDHARA_BEGIN');core.info(JSON.stringify(blocks));core.info('SRIDHARA_END');
