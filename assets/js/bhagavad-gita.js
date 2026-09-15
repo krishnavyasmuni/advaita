@@ -538,6 +538,29 @@
     "26": "One who serves Me alone with undeviating, one-pointed devotion completely crosses these qualities and becomes fit for the state of Brahman.",
     "27": "I am the foundation and embodied form of Brahman, the imperishable, immortal state, the eternal dharma and the unbroken bliss, because I am of the nature of supreme bliss."
   },
+
+  15: {
+    "1": "The Lord is the root of the imperishable Aśvattha tree of worldly existence, with its branches below, extending through the worlds; the Vedas are its leaves. One who knows this tree and its root, Nārāyaṇa, knows the meaning of the Vedas.",
+    "2": "Its branches spread below and above through good and evil births, nourished as though by the water of the qualities; sense-objects are its tender shoots, and its secondary roots are the latent desires tied to action in the human world.",
+    "3": "Those living in worldly existence do not perceive this tree's form, its end, beginning or firm foundation. Because it is deeply rooted and harmful, it must be cut with the strong sword of detachment, abandoning possessiveness and ego.",
+    "4": "After cutting it, one must seek the supreme, imperishable Viṣṇu-state from which those who arrive never return, taking refuge with exclusive devotion in the primal Person from whom this ancient worldly process has spread.",
+    "5": "Those free from pride and delusion, who have conquered attachment, are established in knowledge of the Self, free from the pairs that produce pleasure and pain, and no longer deluded, reach that imperishable Viṣṇu-state.",
+    "6": "That supreme abode of Mine is not illumined by sun, moon or fire; having reached it, the yogins do not return. Its freedom from ordinary light does not make it inert or subject to cold and heat.",
+    "7": "The individual being is eternally an aspect of Myself, but, covered by ignorance, it draws to itself the mind and five senses that rest in nature, and returns to worldly experience.",
+    "8": "When the lord of the body obtains another body or leaves one, it takes the senses and mind with it, just as the wind carries subtle scents from their source.",
+    "9": "Taking up the ear, skin, eyes, tongue and the other senses together with the mind, the individual enjoys sound and the other sense-objects.",
+    "10": "The deluded do not see the individual leaving the body, remaining in it, or enjoying the objects while joined with the senses; those whose eyes are knowledge and discrimination do see.",
+    "11": "Some yogins who strive through meditation behold this distinct Self dwelling in the body; even those who study scripture and strive do not see it if their minds remain impure and dull.",
+    "12": "The various radiances in the sun, moon, fire and other luminous bodies that illumine the whole universe should be known as My radiance.",
+    "13": "Entering the earth and supporting it by My power, I uphold all moving and unmoving beings; becoming the sap-filled Moon, I nourish all plants.",
+    "14": "Becoming the digestive fire in the bodies of living beings and joined with the upward and downward breaths, I digest the four kinds of food: chewed, swallowed, licked and sucked.",
+    "15": "I am seated in the heart of every being as the inner controller. From Me arise memory, knowledge and their removal; by all the Vedas I alone am to be known, I am the author and knower of Vedānta.",
+    "16": "Two persons are known in the world: the perishable, which is all bodies from Brahmā to the immovable, and the imperishable, the changeless conscious witness that remains while bodies perish.",
+    "17": "Different from both is the highest Person, the supreme Self, called the imperishable Lord in the scriptures; entering all three worlds, He sustains and rules them.",
+    "18": "Because I transcend the perishable inert class and am higher than the imperishable conscious class through My power of control, I am celebrated in the world and the Veda as the Supreme Person.",
+    "19": "The undeluded person who knows Me as the Supreme Person in this way worships Me alone in every manner and thereby becomes all-knowing.",
+    "20": "Thus I have taught the entire most secret scripture, not merely this chapter. Knowing it properly, the wise person becomes accomplished and fulfills the purpose of life."
+  },
     1: {
       1: `Here indeed the supremely compassionate Lord, the son of Devakī—whose descent is for the welfare of all the worlds and whose feet are worshipped by all—rescued Arjuna from the ocean of grief and delusion by the raft of instruction in the secret of dharma and knowledge. Arjuna’s discrimination had been overthrown by grief and delusion arising from ignorance of reality, and he had become intent on abandoning his own dharma and taking up another’s dharma. Kṛṣṇa Dvaipāyana set down that very meaning taught by the Lord in seven hundred verses. In doing so, he wrote mostly the verses that issued from Śrī Kṛṣṇa’s own mouth, and composed some himself in order to connect them. As stated in the Gītā Māhātmya: “The Gītā should be well studied; what need is there of extensive scriptures? It issued directly from the lotus-mouth of Padmanābha.” Then, from “On the field of dharma” up to “he spoke these words in sorrow,” the narrative is set out in order to introduce the dialogue of Śrī Kṛṣṇa and Arjuna. “On the field of dharma”: O Sañjaya, when my sons and the sons of Pāṇḍu, desiring to fight, had assembled together on Kurukṣetra, the field of dharma, what did they do?`,
       2: `On “having seen”: Having seen the army of the Pāṇḍavas arranged in battle formation, King Duryodhana went to Droṇa, his teacher, and spoke the words that follow.`,
