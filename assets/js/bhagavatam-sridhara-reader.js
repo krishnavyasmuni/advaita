@@ -208,7 +208,13 @@
     const markerPattern = /(?:^|\n)\s*(?:\[\^[^\]]+\]\s*)?\*{0,2}॥\s*\*{0,2}([०-९]+)\s*\.\s*([०-९]+)\s*\.\s*([०-९]+)(?:\s*[-–—]\s*([०-९]+))?\s*\*{0,2}॥\s*\*{0,2}/g;
     // The corpus uses both the older “श्रीधर-स्वामी” label and the abbreviated “श्रीधरः” label.
     const labelPattern = /\*{0,2}श्रीधर(?:-स्वामी|ः)?(?:\s*,[^*\\n]+)?(?:\s*\([^*\\n]+\))?\s*[:：-]\s*\*{0,2}/;
-    const sourceText = String(markdown || '').replace(/॥\s*\*{1,2}([०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\*{1,2}\s*॥/g, '॥ $1 ॥');
+    let sourceText = String(markdown || '');
+    // A few Vasuki headings split Markdown emphasis inside the verse marker
+    // (for example, “३.१२।**५”); normalize only those delimiters for parsing.
+    sourceText = sourceText
+      .replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+)\s*।\s*\*{1,2}\s*([०-९]+)/g, '$1.$2')
+      .replace(/(॥\s*[०-९]+\s*\.\s*[०-९]+)\s*\*{1,2}\s*।\s*\*{1,2}\s*([०-९]+)/g, '$1.$2')
+      .replace(/॥\s*\*{1,2}([०-९]+\s*\.\s*[०-९]+\s*\.\s*[०-९]+(?:\s*[-–—]\s*[०-९]+)?)\*{1,2}\s*॥/g, '॥ $1 ॥');
     const markers = Array.from(sourceText.matchAll(markerPattern));
 
     markers.forEach((marker, index) => {
