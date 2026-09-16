@@ -95,10 +95,9 @@
       if (!shell.isConnected || host.querySelector('.sb-chapter-shell') !== shell) return;
       const chapterEntries = entries.filter((entry) => entry.canto === canto && entry.chapter === chapter);
       sections.forEach((section) => {
-        if (section.querySelector('.gita-dual-sridhara')) return;
         const bounds = range(section, chapter);
         const details = section.querySelector('.gita-controls > details');
-        if (!bounds || !details) return;
+        if (!bounds || !details || details.querySelector('.gita-dual-sridhara')) return;
         const entry = chapterEntries.find((candidate) =>
           candidate.start <= bounds[1] && candidate.end >= bounds[0]);
         if (!entry) return;
