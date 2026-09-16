@@ -7,7 +7,7 @@
   const pin = '100560de6c9f68c2875097d40a2012a84c784179';
   if (!host || !Number.isInteger(canto)) return;
 
-  const paths = ['/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-reviewed.json?v=20260916-24'];
+  const paths = ['/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-reviewed.json?v=20260916-25'];
   if (canto === 1 || canto === 2)
     paths.push('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-cantos01-02-additions-20260916.json?v=20260916-1');
   if (canto === 10)
