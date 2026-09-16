@@ -3,10 +3,13 @@
  const root=document.querySelector('[data-bhagavatam-reader][data-canto="11"]');
  const host=root&&root.querySelector('[data-bhagavatam-host]');
  if(!host)return;
- const data=fetch('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-verses02-03.json?v=20260916-1',{cache:'no-cache'})
- .then(r=>{if(!r.ok)throw Error('Śrīdhara commentary checkpoint HTTP '+r.status);return r.json()})
- .then(d=>d.source_commit==='100560de6c9f68c2875097d40a2012a84c784179'&&Array.isArray(d.entries)?d.entries:[])
- .catch(e=>{console.warn('Śrīdhara commentary checkpoint unavailable:',e);return[]});
+ const pinned='100560de6c9f68c2875097d40a2012a84c784179';
+ const files=['bhagavatam-sridhara-wfw-canto11-ch01-verses02-03.json','bhagavatam-sridhara-wfw-canto11-ch01-verses04-05.json'];
+ const data=Promise.all(files.map(name=>fetch('/vivekadrishti/assets/data/'+name+'?v=20260916-2',{cache:'no-cache'})
+   .then(r=>{if(!r.ok)throw Error('Śrīdhara commentary checkpoint HTTP '+r.status);return r.json()})
+   .then(d=>d.source_commit===pinned&&Array.isArray(d.entries)?d.entries:[])
+   .catch(e=>{console.warn('Śrīdhara commentary checkpoint unavailable:',name,e);return[]})))
+   .then(groups=>groups.flat());
  const css=document.createElement('style');css.textContent='.sb-c11-gloss-row{display:grid;grid-template-columns:minmax(110px,1fr) 1.6fr;gap:9px;padding:7px 0;border-bottom:1px solid #e4dcd1;font-size:14px;line-height:1.6}.sb-c11-gloss-row strong{color:#684e70;font-weight:500}.sb-c11-checkpoint-note{margin:10px auto;padding:10px 13px;background:#fffaf1;border-left:3px solid #a18c75;font-size:13px;line-height:1.6}@media(max-width:550px){.sb-c11-gloss-row{grid-template-columns:1fr;gap:2px}}';document.head.append(css);
  function apply(){const shell=host.querySelector('.sb-chapter-shell[data-chapter="1"]');if(!shell)return;
  data.then(entries=>{if(!shell.isConnected||host.querySelector('.sb-chapter-shell')!==shell)return;
