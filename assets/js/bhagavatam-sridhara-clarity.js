@@ -18,7 +18,7 @@
   style.textContent = '.sb-gloss-coverage-note,.sb-gloss-progress{max-width:652px;margin:12px auto 20px;padding:12px 14px;border-left:3px solid #a08a6d;background:#fffaf3;color:#4b4138;font:13px/1.6 Merriweather,Georgia,serif}.sb-gloss-progress{margin:12px auto 24px}.sb-gloss-pair{display:grid;grid-template-columns:minmax(120px,1fr) minmax(0,2fr);gap:12px;padding:8px 0;border-bottom:1px solid #e6ddd3;color:#403832;font:14px/1.6 Merriweather,Georgia,serif}.sb-gloss-pair strong{font-weight:500;color:#684e70}.sb-sridhara-wfw{margin:8px auto 16px!important}@media(max-width:580px){.sb-gloss-pair{grid-template-columns:1fr;gap:3px}}';
   document.head.appendChild(style);
 
-  const reviewed = fetch('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-reviewed.json?v=20260916-1', { cache: 'no-cache' })
+  const reviewed = fetch('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-reviewed.json?v=20260916-2', { cache: 'no-cache' })
     .then((response) => {
       if (!response.ok) throw new Error('Reviewed word meanings HTTP ' + response.status);
       return response.json();
