@@ -7,6 +7,7 @@
   const chapterNav = root.querySelector('[data-bhagavatam-chapters]');
   const host = root.querySelector('[data-bhagavatam-host]');
   const titleNode = root.querySelector('[data-bhagavatam-chapter-title]');
+  const heroTitle = root.querySelector('.gita-hero h1');
   const textCache = new Map();
   const jsonCache = new Map();
   const devanagariDigits = new Map(Object.entries({
@@ -285,15 +286,56 @@
         target.appendChild(document.createTextNode(item));
         return;
       }
-      const key = document.createElement('em');
-      key.className = 'sb-synonym-key';
+      const key = document.createElement('strong');
       key.textContent = item.slice(0, separator).trim();
       const gloss = item.slice(separator).trim();
-      target.append(key, document.createTextNode(gloss));
+      target.append(key, document.createTextNode(' ' + gloss));
     });
   }
 
-  function makeDetails(label, blocks, className) {
+  function makeDualSection(label, className, body) {
+    const section = document.createElement('div');
+    section.className = 'gita-dual-section ' + className;
+    const heading = document.createElement('div');
+    heading.className = 'gita-dual-label';
+    heading.textContent = label;
+    section.append(heading, body);
+    return section;
+  }
+
+  function makeParagraph(text, options) {
+    const settings = options || {};
+    const paragraph = document.createElement('p');
+    if (settings.className) paragraph.className = settings.className;
+    if (settings.lang) paragraph.lang = settings.lang;
+    if (settings.italic) {
+      const emphasis = document.createElement('em');
+      appendLines(emphasis, text, false);
+      paragraph.appendChild(emphasis);
+    } else {
+      appendLines(paragraph, text, false);
+    }
+    return paragraph;
+  }
+
+  function makeEmptyParagraph(text) {
+    const paragraph = document.createElement('p');
+    paragraph.className = 'gita-dual-empty';
+    paragraph.textContent = text;
+    return paragraph;
+  }
+
+  function makeDetails(label, sections) {
+    const details = document.createElement('details');
+    details.className = 'gita-details';
+    const summary = document.createElement('summary');
+    summary.textContent = label;
+    const reveal = document.createElement('div');
+    reveal.className = 'gita-reveal';
+    (sections || []).forEach((section) => reveal.appendChild(section));
+    details.append(summary, reveal);
+    return details;
+  }(label, blocks, className) {
     const details = document.createElement('details');
     details.className = ('sb-details gita-details ' + (className || '')).trim();
     const summary = document.createElement('summary');
@@ -353,24 +395,29 @@
   }
 
   function renderVerse(chapter, entry, sridharaEntries, commentaryEntries) {
-    const section = document.createElement('section');
-    section.className = 'sb-verse-section gita-verse';
+    const section = document.createElement('article');
+    section.className = 'gita-verse sb-verse-section';
     const range = entry.start === entry.end ? String(entry.start) : entry.start + '–' + entry.end;
     const id = verseId(chapter, entry);
     section.id = id;
     section.setAttribute('aria-labelledby', id + '-heading');
 
     const heading = document.createElement('h2');
-    heading.className = 'sb-verse';
     heading.id = id + '-heading';
-    heading.textContent = 'ŚB ' + canto + '.' + chapter + '.' + range;
+    const prefix = document.createElement('span');
+    prefix.textContent = 'ŚB';
+    heading.append(prefix, document.createTextNode(' ' + canto + '.' + chapter + '.' + range));
+
+    const rule = document.createElement('hr');
+    rule.className = 'gita-verse-rule';
+
     const devanagari = document.createElement('div');
-    devanagari.className = 'sb-devanagari gita-sanskrit';
+    devanagari.className = 'gita-sanskrit';
     devanagari.lang = 'sa-Deva';
     appendLines(devanagari, entry.devanagari.join('\n'), false);
 
     const translation = document.createElement('p');
-    translation.className = 'sb-translation gita-translation';
+    translation.className = 'gita-translation';
     translation.textContent = entry.translation || 'Translation not present in the source record.';
 
     const verseTransliteration = entry.transliteration.join('\n');
@@ -378,28 +425,49 @@
 
     const controls = document.createElement('div');
     controls.className = 'gita-controls';
+
+    const wordSections = [];
     if (entry.synonyms) {
-      controls.appendChild(makeDetails('Word-for-word', [
-        { label: 'Bhāgavatam', kind: 'synonyms', text: entry.synonyms }
-      ], 'sb-word-details'));
+      const synonyms = document.createElement('p');
+      synonyms.className = 'gita-wfw-list';
+      appendSynonyms(synonyms, entry.synonyms);
+      wordSections.push(makeDualSection('Bhāgavatam', 'gita-dual-gita', synonyms));
+    } else {
+      wordSections.push(makeDualSection('Bhāgavatam', 'gita-dual-gita',
+        makeEmptyParagraph('No source text')));
     }
+    controls.appendChild(makeDetails('Word-for-word', wordSections));
+
+    const transliterationSections = [];
     if (verseTransliteration) {
-      controls.appendChild(makeDetails('Transliteration', [
-        { label: 'Bhāgavatam', text: verseTransliteration, lang: 'sa-Latn', italic: true }
-      ], 'sb-transliteration-details'));
+      transliterationSections.push(makeDualSection('Bhāgavatam', 'gita-dual-gita',
+        makeParagraph(verseTransliteration, { italic: true, lang: 'sa-Latn' })));
+    } else {
+      transliterationSections.push(makeDualSection('Bhāgavatam', 'gita-dual-gita',
+        makeEmptyParagraph('No source text')));
     }
     if (sridharaSanskrit) {
-      controls.appendChild(makeDetails('Śrīdhara Sanskrit', [
-        { label: 'Śrīdhara Svāmī — Bhāvārtha-dīpikā', text: sridharaSanskrit, lang: 'sa-Deva' }
-      ], 'sb-bhasya'));
+      transliterationSections.push(makeDualSection('Śrīdhara', 'gita-dual-sridhara',
+        makeParagraph(devanagariToIast(sridharaSanskrit), { italic: true, lang: 'sa-Latn' })));
     }
-    section.append(heading, devanagari, translation, controls);
+    controls.appendChild(makeDetails('Transliteration', transliterationSections));
+
+    controls.appendChild(makeDetails('Śrīdhara Sanskrit', [
+      sridharaSanskrit
+        ? makeParagraph(sridharaSanskrit, { lang: 'sa-Deva' })
+        : makeParagraph('No commentary', { className: 'gita-no-source' })
+    ]));
+
+    section.append(heading, rule, devanagari, translation, controls);
 
     const commentaryText = commentaryForRange(commentaryEntries, entry.start, entry.end);
     if (commentaryText) {
-      controls.appendChild(makeDetails('Śrīdhara English', [
-        { label: 'Literal rendering', text: commentaryText }
-      ], 'sb-literal-details'));
+      const commentary = document.createElement('section');
+      commentary.className = 'gita-commentary';
+      const commentaryHeading = document.createElement('h3');
+      commentaryHeading.textContent = 'Śrīdhara’s Commentary.';
+      commentary.append(commentaryHeading, makeParagraph(commentaryText));
+      section.appendChild(commentary);
     }
 
     return section;
@@ -462,18 +530,18 @@
     shell.className = 'sb-chapter-shell';
     shell.id = 'chapter-' + chapter;
     shell.dataset.chapter = String(chapter);
-    const contents = document.createElement('details');
+    const contents = document.createElement('div');
     contents.className = 'gita-contents sb-contents';
-    const contentsHeading = document.createElement('summary');
-    contentsHeading.className = 'sb-contents-heading';
-    contentsHeading.textContent = 'Verse index';
+    const contentsHeading = document.createElement('h2');
+    contentsHeading.textContent = 'Contents';
     const contentsList = document.createElement('ol');
     contents.append(contentsHeading, contentsList);
     const loading = document.createElement('p');
-    loading.className = 'sb-loading';
+    loading.className = 'gita-loading';
     loading.textContent = 'Loading Canto ' + canto + ', Chapter ' + chapter + '…';
     shell.append(contents, loading);
     host.replaceChildren(shell);
+    if (heroTitle) heroTitle.textContent = 'Canto ' + canto + ', Chapter ' + chapter;
     if (titleNode) titleNode.textContent = 'Chapter ' + chapter;
     setStatus('Loading Canto ' + canto + ', Chapter ' + chapter + '…');
 
@@ -501,9 +569,10 @@
       if (!english.entries.length) throw new Error('No verse records found in the English source file.');
 
       loading.remove();
-      contentsHeading.textContent = 'Verse index · ' + english.entries.length + ' records';
+      contentsHeading.textContent = 'Contents';
       populateContents(contentsList, english.entries, chapter);
-      if (titleNode) titleNode.textContent = english.title || 'Chapter ' + chapter;
+      if (heroTitle) heroTitle.textContent = 'Canto ' + canto + ', Chapter ' + chapter;
+       if (titleNode) titleNode.textContent = english.title || 'Chapter ' + chapter;
       english.entries.forEach((entry) => shell.appendChild(renderVerse(chapter, entry, sridharaEntries, commentaryEntries)));
       const annotated = english.entries.filter((entry) => sridharaForRange(sridharaEntries, entry.start, entry.end, chapter)).length;
       const sourceMessage = annotated + ' of ' + english.entries.length + ' displayed verse records have Śrīdhara text.';
