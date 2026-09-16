@@ -4,36 +4,1375 @@
   "scope": "Reviewed word/phrase meanings of Śrīdhara Svāmī's Sanskrit commentary, NOT Bhāgavatam-verse synonyms. Only the entries explicitly listed are complete; the remaining verses are not represented as translated word-for-word.",
   "entries": [
     {
-      "canto": 1, "chapter": 2, "start": 16, "end": 16,
+      "canto": 1,
+      "chapter": 2,
+      "start": 16,
+      "end": 16,
       "source_path": "bhAgavatam/gauDIya-prastutiH/01/02_mAhAtmyam.md",
       "source_blob_sha": "af17b058cc2a5c8444d81b2e457c44ea76e0a2a7",
       "pairs": [
-        ["ननु", "But, one may object"], ["सत्यम् एव", "it is indeed true"], ["कर्म-निर्मूलनी", "uprooting karma"], ["हरि-कथा-रतिः", "delight in the accounts of Hari"], ["तथापि", "nevertheless"], ["तस्यां रुचिर् नोत्पद्यते", "a taste for it does not arise"], ["किं कुर्मः", "what should we do?"], ["तत्राह", "in reply he says"], ["शुश्रूषोर् इति", "with the words ‘of one eager to hear’"], ["पुण्य-तीर्थ-निषेवणात्", "through attendance upon holy places of merit"], ["निष्पापस्य", "of one freed from sin"], ["महत्-सेवा स्यात्", "service of great souls comes about"], ["तथा च", "and thus"], ["तद्-धर्म-श्रद्धा", "faith in their dharma"], ["ततः श्रवणेच्छा", "then the desire to hear"], ["ततो रुचिः स्यात्", "then a taste arises"], ["इत्य् अर्थः", "such is the meaning"]
+        [
+          "ननु",
+          "But, one may object"
+        ],
+        [
+          "सत्यम् एव",
+          "it is indeed true"
+        ],
+        [
+          "कर्म-निर्मूलनी",
+          "uprooting karma"
+        ],
+        [
+          "हरि-कथा-रतिः",
+          "delight in the accounts of Hari"
+        ],
+        [
+          "तथापि",
+          "nevertheless"
+        ],
+        [
+          "तस्यां रुचिर् नोत्पद्यते",
+          "a taste for it does not arise"
+        ],
+        [
+          "किं कुर्मः",
+          "what should we do?"
+        ],
+        [
+          "तत्राह",
+          "in reply he says"
+        ],
+        [
+          "शुश्रूषोर् इति",
+          "with the words ‘of one eager to hear’"
+        ],
+        [
+          "पुण्य-तीर्थ-निषेवणात्",
+          "through attendance upon holy places of merit"
+        ],
+        [
+          "निष्पापस्य",
+          "of one freed from sin"
+        ],
+        [
+          "महत्-सेवा स्यात्",
+          "service of great souls comes about"
+        ],
+        [
+          "तथा च",
+          "and thus"
+        ],
+        [
+          "तद्-धर्म-श्रद्धा",
+          "faith in their dharma"
+        ],
+        [
+          "ततः श्रवणेच्छा",
+          "then the desire to hear"
+        ],
+        [
+          "ततो रुचिः स्यात्",
+          "then a taste arises"
+        ],
+        [
+          "इत्य् अर्थः",
+          "such is the meaning"
+        ]
       ]
     },
     {
-      "canto": 2, "chapter": 1, "start": 2, "end": 2,
+      "canto": 2,
+      "chapter": 1,
+      "start": 2,
+      "end": 2,
       "source_path": "bhAgavatam/gauDIya-prastutiH/02/01_dhyAnavidhiH.md",
       "source_blob_sha": "14edc4de01f9e540a6c72dbdd4e4cfa009224c3c",
       "pairs": [
-        ["तत्र तावत्", "There, first"], ["स्वाभाविक-क्रियाणाम्", "of habitual activities"], ["अनर्थ-हेतुत्वं वदन्", "while describing their being causes of misfortune"], ["ब्रूहि यद् वा, विपर्ययम् इत्य् अस्योत्तरम् आह", "he answers the earlier request beginning ‘Tell [me] what, instead, is the opposite’"], ["श्रोतव्यादीनीति त्रिभिः", "with three verses beginning ‘Things to be heard,’ and so on"], ["गृहेषु सक्तानाम्", "of those attached to their homes"], ["अत एव", "and for that very reason"], ["गृह-मेधिनाम्", "of those engaged in household life, glossed through the root medh"], ["तद्-गत-पञ्च-सूना-पराणाम्", "of those involved in its five household sources of injury"], ["मेधतिर् हिंसार्थः", "the verb medh has the meaning ‘to injure’"]
+        [
+          "तत्र तावत्",
+          "There, first"
+        ],
+        [
+          "स्वाभाविक-क्रियाणाम्",
+          "of habitual activities"
+        ],
+        [
+          "अनर्थ-हेतुत्वं वदन्",
+          "while describing their being causes of misfortune"
+        ],
+        [
+          "ब्रूहि यद् वा, विपर्ययम् इत्य् अस्योत्तरम् आह",
+          "he answers the earlier request beginning ‘Tell [me] what, instead, is the opposite’"
+        ],
+        [
+          "श्रोतव्यादीनीति त्रिभिः",
+          "with three verses beginning ‘Things to be heard,’ and so on"
+        ],
+        [
+          "गृहेषु सक्तानाम्",
+          "of those attached to their homes"
+        ],
+        [
+          "अत एव",
+          "and for that very reason"
+        ],
+        [
+          "गृह-मेधिनाम्",
+          "of those engaged in household life, glossed through the root medh"
+        ],
+        [
+          "तद्-गत-पञ्च-सूना-पराणाम्",
+          "of those involved in its five household sources of injury"
+        ],
+        [
+          "मेधतिर् हिंसार्थः",
+          "the verb medh has the meaning ‘to injure’"
+        ]
       ],
       "note": "A numbered footnote supplies a separate illustrative verse about the five household sources of injury; it is not silently attributed to Śrīdhara's own prose."
     },
     {
-      "canto": 3, "chapter": 1, "start": 2, "end": 2,
+      "canto": 3,
+      "chapter": 1,
+      "start": 2,
+      "end": 2,
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/01_vidurasyoddhavena_saha_samAgamaH.md",
       "source_blob_sha": "53f97bcc137d3356aa67db17c0541c26303a89da",
       "pairs": [
-        ["किं च", "Furthermore"], ["अतिश्लाघ्यम्", "exceedingly praiseworthy"], ["त्यागानर्हम् इत्य् आह", "he describes it as not fit to abandon"], ["यद् वै प्रसिद्धं गृहम्", "that well-known house"], ["वः पाण्डवानाम्", "belonging to you Pāṇḍavas"], ["मन्त्र-कृत्", "one who undertakes counsel"], ["दौत्य-कर्ता सन्", "while acting as envoy"], ["अयं श्री-कृष्णः", "this Śrī Kṛṣṇa"], ["बुद्धि-सन्निधानाद् अयम् इति निर्देशः", "the demonstrative ‘this’ is used because he is present in the mind"], ["पौरवेन्द्रो दुर्योधनः", "Duryodhana, the chief of the Pauravas"], ["तस्य गृहं हित्वा", "having left his house"], ["अनाहूत एव प्रविवेश", "he entered [the Pāṇḍavas' house] even without being invited"], ["तत्र हेतुः", "the reason for this"], ["आत्म-सात्-कृतम्", "made one's own"], ["आत्मीयत्वेन गृहीतम्", "regarded as belonging to himself"]
+        [
+          "किं च",
+          "Furthermore"
+        ],
+        [
+          "अतिश्लाघ्यम्",
+          "exceedingly praiseworthy"
+        ],
+        [
+          "त्यागानर्हम् इत्य् आह",
+          "he describes it as not fit to abandon"
+        ],
+        [
+          "यद् वै प्रसिद्धं गृहम्",
+          "that well-known house"
+        ],
+        [
+          "वः पाण्डवानाम्",
+          "belonging to you Pāṇḍavas"
+        ],
+        [
+          "मन्त्र-कृत्",
+          "one who undertakes counsel"
+        ],
+        [
+          "दौत्य-कर्ता सन्",
+          "while acting as envoy"
+        ],
+        [
+          "अयं श्री-कृष्णः",
+          "this Śrī Kṛṣṇa"
+        ],
+        [
+          "बुद्धि-सन्निधानाद् अयम् इति निर्देशः",
+          "the demonstrative ‘this’ is used because he is present in the mind"
+        ],
+        [
+          "पौरवेन्द्रो दुर्योधनः",
+          "Duryodhana, the chief of the Pauravas"
+        ],
+        [
+          "तस्य गृहं हित्वा",
+          "having left his house"
+        ],
+        [
+          "अनाहूत एव प्रविवेश",
+          "he entered [the Pāṇḍavas' house] even without being invited"
+        ],
+        [
+          "तत्र हेतुः",
+          "the reason for this"
+        ],
+        [
+          "आत्म-सात्-कृतम्",
+          "made one's own"
+        ],
+        [
+          "आत्मीयत्वेन गृहीतम्",
+          "regarded as belonging to himself"
+        ]
       ]
     },
     {
-      "canto": 4, "chapter": 4, "start": 1, "end": 1,
+      "canto": 4,
+      "chapter": 4,
+      "start": 1,
+      "end": 1,
       "source_path": "bhAgavatam/gauDIya-prastutiH/04/04.md",
       "source_blob_sha": "ce8e7d8477a0278260d327e1659771bb212cebea",
       "pairs": [
-        ["चतुर्थे तु", "In the fourth [chapter]"], ["पतिं हित्वा गता", "having left her husband, she went"], ["पित्रावमानिता", "dishonoured by her father"], ["रुषा निर्भर्त्स्य तं यज्ञे", "having angrily rebuked him at the sacrifice"], ["जहौ देहम् इतीर्यते", "it is told that she abandoned her body"], ["उभयत्र", "in either case"], ["अनुज्ञाने", "in [the case of] permission"], ["बलान् निवारणे च", "and in forcible restraint"], ["सुहृद्-दिदृक्षुः", "desirous of seeing her friends"], ["निष्क्रामन्ती", "going out"], ["भवात् परिशङ्किता", "apprehensive of Bhava"], ["पुनर् निर्विशन्ती च", "and entering again"], ["तदा सा सती द्विधा आस बभूव", "Satī was then of two minds"], ["न गता", "she did not go"], ["न च स्थिता", "nor did she remain"], ["आन्दोलावद् गतिर् अभवत्", "her movement was like that of a swing"]
+        [
+          "चतुर्थे तु",
+          "In the fourth [chapter]"
+        ],
+        [
+          "पतिं हित्वा गता",
+          "having left her husband, she went"
+        ],
+        [
+          "पित्रावमानिता",
+          "dishonoured by her father"
+        ],
+        [
+          "रुषा निर्भर्त्स्य तं यज्ञे",
+          "having angrily rebuked him at the sacrifice"
+        ],
+        [
+          "जहौ देहम् इतीर्यते",
+          "it is told that she abandoned her body"
+        ],
+        [
+          "उभयत्र",
+          "in either case"
+        ],
+        [
+          "अनुज्ञाने",
+          "in [the case of] permission"
+        ],
+        [
+          "बलान् निवारणे च",
+          "and in forcible restraint"
+        ],
+        [
+          "सुहृद्-दिदृक्षुः",
+          "desirous of seeing her friends"
+        ],
+        [
+          "निष्क्रामन्ती",
+          "going out"
+        ],
+        [
+          "भवात् परिशङ्किता",
+          "apprehensive of Bhava"
+        ],
+        [
+          "पुनर् निर्विशन्ती च",
+          "and entering again"
+        ],
+        [
+          "तदा सा सती द्विधा आस बभूव",
+          "Satī was then of two minds"
+        ],
+        [
+          "न गता",
+          "she did not go"
+        ],
+        [
+          "न च स्थिता",
+          "nor did she remain"
+        ],
+        [
+          "आन्दोलावद् गतिर् अभवत्",
+          "her movement was like that of a swing"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 1,
+      "end": 1,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "ॐ नमः",
+          "obeisance"
+        ],
+        [
+          "परमहंसास्वादित-चरण-कमल-चिन्-मकरन्दाय",
+          "to him whose conscious nectar is tasted by the paramahaṃsas from the lotus of his feet"
+        ],
+        [
+          "भक्त-जन-मानस-निवासाय",
+          "to him who dwells in the minds of devotees"
+        ],
+        [
+          "वाग्-ईशा",
+          "Vāgīśā, the goddess of speech"
+        ],
+        [
+          "वदने",
+          "in the mouth"
+        ],
+        [
+          "संवित्",
+          "consciousness"
+        ],
+        [
+          "विश्व-सर्ग-विसर्गादि-नव-लक्षण-लक्षितम्",
+          "marked by the nine characteristics beginning with creation and secondary creation"
+        ],
+        [
+          "श्री-कृष्णाख्यं परं धाम",
+          "the supreme abode called Śrī Kṛṣṇa"
+        ],
+        [
+          "जगद्-धाम",
+          "the abode of the world"
+        ],
+        [
+          "परस्परात्मानौ",
+          "whose selves are one another"
+        ],
+        [
+          "परस्पर-नुति-प्रियौ",
+          "fond of praising one another"
+        ],
+        [
+          "संप्रदायानुरोधेन",
+          "in accordance with tradition"
+        ],
+        [
+          "पौर्वापर्यानुसारतः",
+          "according to the order of what precedes and follows"
+        ],
+        [
+          "प्रतन्यते",
+          "is expanded"
+        ],
+        [
+          "मन्द-मतिः",
+          "dull-minded"
+        ],
+        [
+          "मन्थनं क्षीर-वारिधेः",
+          "the churning of the ocean of milk"
+        ],
+        [
+          "परमाणुः",
+          "an atom"
+        ],
+        [
+          "मूकं करोति वाचालम्",
+          "makes the mute eloquent"
+        ],
+        [
+          "पङ्गुं लङ्घयते गिरिम्",
+          "makes the lame cross a mountain"
+        ],
+        [
+          "यत्-कृपा",
+          "by whose grace"
+        ],
+        [
+          "परमानन्द-माधवम्",
+          "Mādhava, supreme bliss"
+        ],
+        [
+          "श्री-भागवताभिधः",
+          "called the Bhāgavata"
+        ],
+        [
+          "सुर-तरुः",
+          "a divine tree"
+        ],
+        [
+          "स्कन्धैः द्वादशभिः",
+          "with twelve trunks, the twelve cantos"
+        ],
+        [
+          "नाना-पुराण-शास्त्र-प्रबन्धैः",
+          "through various Purāṇas, śāstras and treatises"
+        ],
+        [
+          "चित्त-प्रसत्तिम् अलभमानः",
+          "not obtaining serenity of mind"
+        ],
+        [
+          "नारदोपदेशतः",
+          "from Nārada's instruction"
+        ],
+        [
+          "भगवद्-गुणानुवर्णन-प्रधानम्",
+          "having description of Bhagavān's qualities as its chief subject"
+        ],
+        [
+          "प्रारिप्सुः",
+          "desiring to begin"
+        ],
+        [
+          "तत्-प्रत्यूह-निवृत्त्य्-आदि-सिद्धये",
+          "for accomplishment beginning with removal of obstacles to it"
+        ],
+        [
+          "पर-देवतानुस्मरण-लक्षणम् मङ्गलम्",
+          "an auspicious act characterized by remembrance of the supreme deity"
+        ],
+        [
+          "परम् परमेश्वरम्",
+          "the Supreme Lord"
+        ],
+        [
+          "धीमहि",
+          "we meditate"
+        ],
+        [
+          "ध्यायतेः लिङि छान्दसम्",
+          "a Vedic optative form of the verb dhyai"
+        ],
+        [
+          "ध्यायेम इत्य् अर्थः",
+          "the meaning is let us meditate"
+        ],
+        [
+          "बहु-वचनम्",
+          "the plural"
+        ],
+        [
+          "शिष्य-अभिप्रायम्",
+          "the intention of the disciples"
+        ],
+        [
+          "स्वरूप-तटस्थ-लक्षणाभ्याम्",
+          "by intrinsic and marginal characteristics"
+        ],
+        [
+          "सत्यत्वे हेतुः",
+          "the reason for truthfulness"
+        ],
+        [
+          "त्रयाणां माया-गुणानाम्",
+          "of the three qualities of māyā"
+        ],
+        [
+          "भूतेन्द्रिय-देवता-रूपः",
+          "having the form of beings, senses and deities"
+        ],
+        [
+          "अमृषा सत्यः",
+          "true, not false"
+        ],
+        [
+          "विनिमयः",
+          "reversal, the appearance of one as another"
+        ],
+        [
+          "अधिष्ठान-सत्तया",
+          "through the existence of the substratum"
+        ],
+        [
+          "मिथ्या-सर्गः",
+          "a false creation"
+        ],
+        [
+          "स्वेनैव धाम्ना",
+          "by his own splendor alone"
+        ],
+        [
+          "निरस्तं कुहकम्",
+          "the deception characterized by māyā is removed"
+        ],
+        [
+          "तटस्थ-लक्षणम्",
+          "the marginal characteristic"
+        ],
+        [
+          "जन्म-स्थिति-भङ्गाः",
+          "birth, maintenance and dissolution"
+        ],
+        [
+          "अन्वयः",
+          "continuity or presence"
+        ],
+        [
+          "व्यतिरेकः",
+          "exclusion or absence"
+        ],
+        [
+          "सद्-रूपं ब्रह्म",
+          "Brahman in the form of existence"
+        ],
+        [
+          "कार्यं विश्वम्",
+          "the universe as effect"
+        ],
+        [
+          "अभिज्ञः",
+          "conscious, omniscient"
+        ],
+        [
+          "स्वराट्",
+          "self-ruling, independent"
+        ],
+        [
+          "स्वतः-सिद्ध-ज्ञानम्",
+          "knowledge established by itself"
+        ],
+        [
+          "आदि-कवये",
+          "to Brahmā, the first poet"
+        ],
+        [
+          "हृदा",
+          "through the heart or mind"
+        ],
+        [
+          "बुद्धि-वृत्ति-प्रवर्तकत्वेन",
+          "by causing the activity of the intellect's modification"
+        ],
+        [
+          "सूरयो मुह्यन्ति",
+          "the sages are bewildered"
+        ],
+        [
+          "पराधीन-ज्ञानत्वात्",
+          "because knowledge is dependent on another"
+        ],
+        [
+          "सत्यः",
+          "truth, because he gives existence to the unreal"
+        ],
+        [
+          "निरस्त-कुहकः",
+          "one in whom deception is removed"
+        ],
+        [
+          "गायत्री-आख्य-ब्रह्म-विद्या",
+          "the brahma-vidyā called Gāyatrī"
+        ]
+      ],
+      "note": "Pairs summarize the actual Śrīdhara Sanskrit phrases in the pinned Vasuki block; the long source passage also quotes śruti, smṛti and Purāṇic witnesses."
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 2,
+      "end": 2,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "इदानीं श्रोतृ-प्रवर्तनाय",
+          "now, to turn the hearers toward it"
+        ],
+        [
+          "काण्ड-त्रय-विषयेभ्यः",
+          "concerning the three kāṇḍas"
+        ],
+        [
+          "सर्व-शास्त्रेभ्यः श्रैष्ठ्यम्",
+          "superiority over all scriptures"
+        ],
+        [
+          "परमो धर्मः",
+          "the highest dharma"
+        ],
+        [
+          "प्रकर्षेणोज्झितं कैतवम्",
+          "deception completely abandoned"
+        ],
+        [
+          "फलाभिसन्धि-लक्षणं कपटम्",
+          "deception characterized by intention for fruit"
+        ],
+        [
+          "प्र-शब्देन मोक्षाभिसन्धिर् अपि निरस्तः",
+          "by the prefix pra, even intention for liberation is rejected"
+        ],
+        [
+          "केवलम् ईश्वराराधन-लक्षणो धर्मः",
+          "dharma characterized solely by worship of the Lord"
+        ],
+        [
+          "निर्मत्सराणाम्",
+          "for those free from envy"
+        ],
+        [
+          "परोत्कर्षासहनं मत्सरः",
+          "inability to tolerate another's excellence is envy"
+        ],
+        [
+          "सताम्",
+          "of the compassionate toward beings"
+        ],
+        [
+          "वेद्यम्",
+          "that which is to be known"
+        ],
+        [
+          "वास्तवं परमार्थ-भूतं वस्तु",
+          "the real, ultimate object"
+        ],
+        [
+          "जीवः वस्तुनोऽंशः",
+          "the individual soul is a portion of reality"
+        ],
+        [
+          "माया वस्तुनः शक्तिः",
+          "māyā is the power of reality"
+        ],
+        [
+          "विश्वं वस्तुनः कार्यम्",
+          "the universe is the effect of reality"
+        ],
+        [
+          "शिवदम्",
+          "bestowing supreme happiness"
+        ],
+        [
+          "ताप-त्रयम्",
+          "the three afflictions"
+        ],
+        [
+          "महामुनिना नारायणेन प्रथमं रचितम्",
+          "first composed by the great sage Nārāyaṇa"
+        ],
+        [
+          "कृतिभिः",
+          "by the meritorious"
+        ],
+        [
+          "श्रवणेच्छा पुण्यैर् विना नोत्पद्यते",
+          "the desire to hear does not arise without merit"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 3,
+      "end": 3,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "निगमः",
+          "the Veda"
+        ],
+        [
+          "कल्प-तरुः",
+          "the desire tree"
+        ],
+        [
+          "सर्व-पुरुषार्थोपायत्वात्",
+          "because it is the means of all human aims"
+        ],
+        [
+          "तस्य फलम् भागवतम्",
+          "its fruit is the Bhāgavata"
+        ],
+        [
+          "वैकुण्ठ-गतं नारदेन आनीय",
+          "brought from Vaikuṇṭha by Nārada"
+        ],
+        [
+          "शुकस्य मुखे निहितम्",
+          "placed in Śuka's mouth"
+        ],
+        [
+          "शिष्य-प्रशिष्यादि-रूप-पल्लव-परम्परा",
+          "a succession of sprouts in the form of disciples, disciples' disciples and the rest"
+        ],
+        [
+          "अमृत-रूपेण द्रवेण",
+          "with a liquid in the form of nectar"
+        ],
+        [
+          "अमृतं परमानन्दः",
+          "nectar is supreme bliss"
+        ],
+        [
+          "रसः",
+          "the liquid essence, rasa"
+        ],
+        [
+          "रस-ज्ञाः",
+          "knowers of rasa"
+        ],
+        [
+          "भावुकाः",
+          "those skilled in experiencing a particular rasa"
+        ],
+        [
+          "रसेनैव रूपम्",
+          "the fruit itself is the form of rasa"
+        ],
+        [
+          "अवर्जनीय-त्वक्-शिला-आदि-रहितम्",
+          "without rejectable parts such as skin and stone"
+        ],
+        [
+          "आलयः लयः मोक्षः",
+          "ālayam means dissolution, liberation"
+        ],
+        [
+          "आ-कारः अभिविधौ",
+          "the prefix ā has the sense of pervasion"
+        ],
+        [
+          "मुक्तैर् अपि सेव्यते",
+          "it is served even by the liberated"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 4,
+      "end": 4,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "श्लोक-त्रयेण",
+          "by these three verses"
+        ],
+        [
+          "विशिष्टेष्ट-देवता-अनुस्मरण-पूर्वकम्",
+          "preceded by remembrance of the chosen deity"
+        ],
+        [
+          "विषय-प्रयोजनादि-वैशिष्ठ्येन",
+          "through excellence of subject, purpose and the rest"
+        ],
+        [
+          "सुख-सेव्यत्वेन",
+          "through the ease with which it can be served"
+        ],
+        [
+          "नेमिः शीर्यते",
+          "the rim becomes worn away"
+        ],
+        [
+          "मनोमयस्य चक्रस्य",
+          "of the mind-made wheel"
+        ],
+        [
+          "तन् नेमिशम्",
+          "that is Naimiṣa"
+        ],
+        [
+          "नैमिषम्",
+          "Naimiṣa itself"
+        ],
+        [
+          "अनिमिषः श्री-विष्णुः",
+          "Animiṣa is Śrī Viṣṇu"
+        ],
+        [
+          "वैष्णवे क्षेत्रे",
+          "in the sacred field of Viṣṇu"
+        ],
+        [
+          "सहस्रं समाः",
+          "a thousand years"
+        ],
+        [
+          "सत्रम्",
+          "a sattra, an undertaking whose observance lasts that period"
+        ],
+        [
+          "आसत",
+          "they sat down or performed it"
+        ],
+        [
+          "धात्व्-अर्थस्य अविवक्षितत्वात्",
+          "because the verbal force of the root is not intended"
+        ],
+        [
+          "प्रत्ययः उच्चारण-मात्रार्थः",
+          "the suffix is uttered merely to express the grammatical ending"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 5,
+      "end": 5,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "सायङ्काले हुता अग्नयः",
+          "the fires offered at evening"
+        ],
+        [
+          "हुतम् दध्य्-आदि",
+          "what is offered, such as curd"
+        ],
+        [
+          "प्रातः-काले हुता अग्नयः",
+          "the fires offered in the morning"
+        ],
+        [
+          "नित्य-नैमित्तिक-होम-साकल्यम्",
+          "the completeness of daily and occasional fire-offerings"
+        ],
+        [
+          "आदरात् पप्रच्छुः",
+          "they asked out of respect"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 6,
+      "end": 6,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "विविदिषितान् अर्थान्",
+          "the things they wished to know"
+        ],
+        [
+          "सूतस्य सर्व-शास्त्र-ज्ञानातिशयम्",
+          "Sūta's extraordinary knowledge of all scriptures"
+        ],
+        [
+          "इतिहासः",
+          "the Mahābhārata and other histories"
+        ],
+        [
+          "तत्-सहितानि",
+          "together with the traditions associated with them"
+        ],
+        [
+          "न केवलम् अधीतानि",
+          "not merely studied"
+        ],
+        [
+          "आख्यातानि",
+          "narrated"
+        ],
+        [
+          "व्याख्यातानि",
+          "explained"
+        ],
+        [
+          "धर्म-शास्त्राणि",
+          "the dharmaśāstras"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 7,
+      "end": 8,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "विदां मध्ये श्रेष्ठः व्यासः",
+          "Vyāsa is the best among the learned"
+        ],
+        [
+          "परावरे ब्रह्मणी",
+          "the qualified and unqualified Brahman"
+        ],
+        [
+          "सगुण-निर्गुणे",
+          "with qualities and without qualities"
+        ],
+        [
+          "वेत्थ",
+          "you know"
+        ],
+        [
+          "सौम्य",
+          "O gentle one, O good man"
+        ],
+        [
+          "तेषाम् अनुग्रहात्",
+          "through their grace"
+        ],
+        [
+          "तत्त्वतो ज्ञानम्",
+          "knowledge of the truth"
+        ],
+        [
+          "स्निग्धस्य प्रेमवतः",
+          "of one who is affectionate"
+        ],
+        [
+          "गुह्यं रहस्यम्",
+          "the secret, the hidden matter"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 9,
+      "end": 9,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "अञ्जसा",
+          "directly, through the straightforwardness of the text"
+        ],
+        [
+          "ग्रन्थ-आर्जवेन",
+          "through the text's directness"
+        ],
+        [
+          "एकान्ततः",
+          "exclusively"
+        ],
+        [
+          "अव्यभिचारि श्रेयः-साधनम्",
+          "the unfailing means of the highest good"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 10,
+      "end": 10,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "बहु-शास्त्र-श्रवणादिभिः",
+          "by hearing many scriptures and the like"
+        ],
+        [
+          "न विनिश्चिन्वन्तु",
+          "let them not determine it in that way"
+        ],
+        [
+          "कलौ",
+          "in the age of Kali"
+        ],
+        [
+          "अल्प-आयुषः",
+          "short-lived"
+        ],
+        [
+          "मन्दाः",
+          "dull"
+        ],
+        [
+          "अलसाः",
+          "lazy"
+        ],
+        [
+          "सुमन्द-मतयः",
+          "very dull-minded"
+        ],
+        [
+          "मन्द-भाग्याः",
+          "unfortunate"
+        ],
+        [
+          "विघ्न-आकुलाः",
+          "crowded with obstacles"
+        ],
+        [
+          "उपद्रुताः रोगादिभिः",
+          "afflicted by diseases and the like"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 11,
+      "end": 11,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "न च बहु-शास्त्र-श्रवणे",
+          "nor merely in hearing many scriptures"
+        ],
+        [
+          "भूरीणि कर्माणि",
+          "many actions"
+        ],
+        [
+          "अनुष्ठेयानि",
+          "to be performed"
+        ],
+        [
+          "समुद्धृत्य",
+          "having properly extracted"
+        ],
+        [
+          "यथावत्",
+          "properly, as it should be"
+        ],
+        [
+          "उद्धृत-वचनम्",
+          "the statement thus extracted"
+        ],
+        [
+          "आत्मा बुद्धिः",
+          "the self, that is, the intellect"
+        ],
+        [
+          "संप्रसीदति",
+          "becomes completely pacified"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 12,
+      "end": 12,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "प्रश्नान्तरम्",
+          "another question"
+        ],
+        [
+          "भद्रं ते",
+          "may good be yours"
+        ],
+        [
+          "औत्सुक्येन आशीर्वादः",
+          "a blessing arising from eagerness"
+        ],
+        [
+          "विष्णु-कथा-विघाति",
+          "something that obstructs the account of Viṣṇu"
+        ],
+        [
+          "सा हानिः",
+          "that is loss"
+        ],
+        [
+          "तन् महत्-छिद्रम्",
+          "that is a great breach"
+        ],
+        [
+          "स मोहः",
+          "that is delusion"
+        ],
+        [
+          "स च विभ्रमः",
+          "and that is confusion"
+        ],
+        [
+          "भगवान्",
+          "one endowed with unsurpassed sovereignty and the other divine qualities"
+        ],
+        [
+          "सत्त्व-मूर्तिः",
+          "whose form is Being"
+        ],
+        [
+          "सत्त्वन्तः",
+          "those in whom Bhagavān is present as the object of worship"
+        ],
+        [
+          "भक्ताः",
+          "devotees"
+        ],
+        [
+          "स्वार्थे अण्",
+          "the suffix aṇ is used in its own sense"
+        ],
+        [
+          "तेषां पतिः पालकः",
+          "their lord and protector"
+        ],
+        [
+          "वसुदेवस्य भार्यायां देवक्यां जातः",
+          "born in Devakī, the wife of Vasudeva"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 13,
+      "end": 13,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "अङ्ग हे सूत",
+          "O dear Sūta"
+        ],
+        [
+          "तत् नः अनुवर्णयितुम्",
+          "that, to narrate to us"
+        ],
+        [
+          "अर्हसि",
+          "you ought"
+        ],
+        [
+          "सामान्यतः",
+          "in general"
+        ],
+        [
+          "अस्य अवतारः",
+          "His descent"
+        ],
+        [
+          "भूतानाम् क्षेमाय",
+          "for the welfare of beings"
+        ],
+        [
+          "पालनाय, भवाय समृद्धये",
+          "for their protection and prosperity"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 14,
+      "end": 16,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "तत्-प्रभावम् अनुवर्णयन्तः",
+          "while describing that power"
+        ],
+        [
+          "तद्-यशः-श्रवण-औत्सुक्यम्",
+          "eagerness to hear His fame"
+        ],
+        [
+          "संसृतिम् आपन्नः",
+          "having entered worldly existence"
+        ],
+        [
+          "विवशः अपि गृणन्",
+          "even uttering it helplessly"
+        ],
+        [
+          "नाम्नः भयम् अपि स्वयं बिभेति",
+          "even fear itself flees from the name"
+        ],
+        [
+          "यस्य पादः संश्रयः",
+          "whose foot is the refuge"
+        ],
+        [
+          "प्रशमः अयनम्",
+          "peace is the path or resort"
+        ],
+        [
+          "उपस्पृष्टाः",
+          "having been touched or approached"
+        ],
+        [
+          "सन्निधि-मात्रेण सेविताः",
+          "served merely by being near them"
+        ],
+        [
+          "सद्यः पुनन्ति",
+          "they purify immediately"
+        ],
+        [
+          "स्वर्-धुनी गङ्गा",
+          "the Svar-dhunī is the Gaṅgā"
+        ],
+        [
+          "तत्-पादान् निःसृता",
+          "flowing forth from that foot"
+        ],
+        [
+          "अनुसेवया",
+          "through repeated service"
+        ],
+        [
+          "पुण्य-श्लोकैर् ईड्यानि",
+          "worthy of praise by holy verses"
+        ],
+        [
+          "कलि-मलापहम् संसार-दुःखोपशमनम्",
+          "removing Kali's impurity and quieting worldly suffering"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 17,
+      "end": 17,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "प्रश्नान्तरम्",
+          "another question"
+        ],
+        [
+          "उदाराणि",
+          "noble and great"
+        ],
+        [
+          "विश्व-सृष्ट्यादीनि",
+          "beginning with the creation of the universe"
+        ],
+        [
+          "सूरिभिः",
+          "by sages such as Nārada"
+        ],
+        [
+          "कलाः",
+          "forms such as Brahmā and Rudra"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 18,
+      "end": 18,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "अथेति प्रश्नान्तरे",
+          "now, in another question"
+        ],
+        [
+          "अवतार-कथाः",
+          "stories of incarnations"
+        ],
+        [
+          "स्थित्य्-अर्थम्",
+          "for the sake of maintenance"
+        ],
+        [
+          "तत्-तद्-अवसरे",
+          "at their respective times"
+        ],
+        [
+          "मत्स्याद्य्-अवताराः",
+          "the Matsya and other incarnations"
+        ],
+        [
+          "स्वैरम्",
+          "freely, at will"
+        ],
+        [
+          "लीलाः कुर्वतः",
+          "performing pastimes"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 19,
+      "end": 19,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "अत्य्-औत्सुक्येन",
+          "with extreme eagerness"
+        ],
+        [
+          "तत्-चरितानि",
+          "those deeds"
+        ],
+        [
+          "तृप्त्य्-अभावम्",
+          "the absence of satisfaction"
+        ],
+        [
+          "योग-यागादिषु तृप्ताः स्म",
+          "we are satisfied by yoga, sacrifice and the rest"
+        ],
+        [
+          "उत्तमः",
+          "that from whom darkness departs"
+        ],
+        [
+          "विक्रमः",
+          "prowess"
+        ],
+        [
+          "न तृप्यामः",
+          "we are not satisfied"
+        ],
+        [
+          "यद् विक्रमं शृण्वताम्",
+          "for those hearing the prowess"
+        ],
+        [
+          "अलं-बुद्धिः",
+          "the sense of being satisfied or having enough"
+        ],
+        [
+          "उदरादि-भरणम्",
+          "filling the stomach and the like"
+        ],
+        [
+          "रस-अज्ञानम्",
+          "ignorance of rasa"
+        ],
+        [
+          "स्वाद-विशेष-अभावः",
+          "absence of a distinctive taste"
+        ],
+        [
+          "श्रोत्रस्य आकाशत्वात्",
+          "because the ear is space"
+        ],
+        [
+          "इक्षु-भक्षणवत्",
+          "as in eating sugarcane"
+        ],
+        [
+          "पदे पदे",
+          "at every moment"
+        ]
+      ]
+    },
+    {
+      "canto": 1,
+      "chapter": 1,
+      "start": 20,
+      "end": 20,
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/01_munInAM_prashnaH.md",
+      "source_blob_sha": "b4c98f07fabd15af56a67250054925bdfa2e3042",
+      "pairs": [
+        [
+          "श्री-कृष्ण-चरितानि",
+          "the deeds of Śrī Kṛṣṇa"
+        ],
+        [
+          "कथयेत्य् आशयेन",
+          "with the intention that they should narrate"
+        ],
+        [
+          "कृतवान्",
+          "has performed"
+        ],
+        [
+          "अति-मर्त्यानि",
+          "beyond mortals"
+        ],
+        [
+          "मर्त्यान् अतिक्रान्तानि",
+          "surpassing mortal beings"
+        ],
+        [
+          "गोवर्धन-उद्धरण-आदीनि",
+          "such as lifting Govardhana"
+        ],
+        [
+          "मनुष्येषु असम्भावितानि",
+          "impossible among human beings"
+        ]
       ]
     }
   ]
