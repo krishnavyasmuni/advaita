@@ -697,3 +697,72 @@ body.vicara-reader-page .vicara-toc > li > a{
   body.vicara-reader-page .vicara-mobile-toc .vicara-toc > li > a{font-size:12px!important}
   body.vicara-reader-page .vicara-mobile-toc .vicara-toc li li a{font-size:11px!important}
 }
+
+/* Ultra-compact Contents rail: keep the index subordinate to the reading text. */
+body.vicara-reader-page .vicara-side-toc{
+  padding:0 8px 10px 0!important;
+}
+body.vicara-reader-page .vicara-side-title{
+  margin:0 0 6px!important;
+  font-size:17px!important;
+  line-height:1.05!important;
+}
+body.vicara-reader-page .vicara-toc > li{margin-bottom:4px!important}
+body.vicara-reader-page .vicara-toc li li{margin-bottom:2px!important}
+body.vicara-reader-page .vicara-toc a{
+  font-size:9.5px!important;
+  line-height:1.18!important;
+  overflow-wrap:anywhere;
+}
+body.vicara-reader-page .vicara-toc > li > a{
+  font-size:10.5px!important;
+  line-height:1.18!important;
+}
+@media(min-width:901px){
+  body.vicara-reader-page .article-body{
+    width:100%!important;
+    max-width:100%!important;
+    grid-template-columns:112px minmax(0,1fr)!important;
+    gap:16px!important;
+  }
+  body.vicara-reader-page .article-body > :not(.vicara-side-toc):not(.vicara-mobile-toc){
+    width:100%!important;
+    max-width:100%!important;
+  }
+  body.vicara-reader-page .article-body .empyrean-final-article,
+  body.vicara-reader-page .article-body .empyrean-final-article > div > div,
+  body.vicara-reader-page .article-body .gita-content{
+    width:100%!important;
+    max-width:100%!important;
+  }
+}
+@media(max-width:780px){
+  body.vicara-reader-page .vicara-mobile-toc{
+    margin-bottom:20px!important;
+    padding-bottom:8px!important;
+  }
+  body.vicara-reader-page .vicara-mobile-toc > summary{font-size:15px!important}
+  body.vicara-reader-page .vicara-mobile-toc .vicara-toc{
+    margin-top:6px!important;
+    column-gap:16px!important;
+  }
+  body.vicara-reader-page .vicara-mobile-toc .vicara-toc > li{margin-bottom:5px!important}
+  body.vicara-reader-page .vicara-mobile-toc .vicara-toc a{
+    font-size:11px!important;
+    line-height:1.22!important;
+  }
+}
+@media(max-width:620px){
+  body.vicara-reader-page .vicara-mobile-toc{
+    margin-bottom:18px!important;
+    padding-bottom:6px!important;
+  }
+  body.vicara-reader-page .vicara-mobile-toc > summary{font-size:15px!important}
+  body.vicara-reader-page .vicara-mobile-toc .vicara-toc{
+    columns:1!important;
+    margin-top:5px!important;
+  }
+  body.vicara-reader-page .vicara-mobile-toc .vicara-toc > li{margin-bottom:4px!important}
+  body.vicara-reader-page .vicara-mobile-toc .vicara-toc .li > a{font-size:11px!important}
+  body.vicara-reader-page .vicara-mobile-toc .vicara-toc li li a{font-size:10px!important}
+}
