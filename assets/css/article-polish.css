@@ -555,3 +555,49 @@ body.vicara-reader-page.scripture-reader-page.bhagavatam-rebuild-page .sb-sridha
     line-height:1.72!important;
   }
 }
+
+/* Compact scripture Contents rail: match the smaller reader index on every device. */
+body.vicara-reader-page.scripture-reader-page .vicara-side-title{
+  margin-bottom:14px!important;
+  font-size:24px!important;
+}
+body.vicara-reader-page.scripture-reader-page .vicara-side-toc .vicara-toc > li{margin-bottom:12px!important}
+body.vicara-reader-page.scripture-reader-page .vicara-side-toc .vicara-toc li li{margin-bottom:4px!important}
+body.vicara-reader-page.scripture-reader-page .vicara-side-toc .vicara-toc a{
+  font-size:12px!important;
+  line-height:1.35!important;
+}
+body.vicara-reader-page.scripture-reader-page .vicara-side-toc .vicara-toc > li > a{
+  font-size:13px!important;
+  line-height:1.32!important;
+}
+@media(max-width:780px){
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc{
+    margin-bottom:34px!important;
+    padding-bottom:14px!important;
+  }
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc > summary{font-size:19px!important}
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc .vicara-toc{
+    margin-top:12px!important;
+    column-gap:22px!important;
+  }
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc .vicara-toc > li{margin-bottom:10px!important}
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc .vicara-toc a{
+    font-size:13px!important;
+    line-height:1.35!important;
+  }
+}
+@media(max-width:620px){
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc{
+    margin-bottom:30px!important;
+    padding-bottom:12px!important;
+  }
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc > summary{font-size:18px!important}
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc .vicara-toc{
+    columns:1!important;
+    margin-top:10px!important;
+  }
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc .vicara-toc > li{margin-bottom:9px!important}
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc .vicara-toc .li > a{font-size:13px!important}
+  body.vicara-reader-page.scripture-reader-page .vicara-mobile-toc .vicara-toc li li a{font-size:12px!important}
+}
