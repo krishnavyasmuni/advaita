@@ -5,12 +5,13 @@
   if (!host) return;
   const names = [
     'bhagavatam-sridhara-wfw-canto11-ch02-verses01-10.json',
-    'bhagavatam-sridhara-wfw-canto11-ch02-verses11-21.json'
+    'bhagavatam-sridhara-wfw-canto11-ch02-verses11-21.json',
+    'bhagavatam-sridhara-wfw-canto11-ch02-verses22-31.json'
   ];
-  const data = Promise.all(names.map(name => fetch('/vivekadrishti/assets/data/' + name + '?v=20260916-2', {cache: 'no-cache'})
+  const data = Promise.all(names.map(name => fetch('/vivekadrishti/assets/data/' + name + '?v=20260916-3', {cache: 'no-cache'})
     .then(response => {if (!response.ok) throw Error('Śrīdhara 11.2 source HTTP ' + response.status); return response.json();})
     .then(doc => doc.source_commit === '100560de6c9f68c2875097d40a2012a84c784179' && Array.isArray(doc.entries) ? doc.entries : [])
-    .catch(error => {console.warn('Śrīdhara 11.2 reviewed checkpoint unavailable: ' + name, error); return [];})))
+    .catch(error => {console.warn('Śrīdhara 11.2 commentary checkpoint unavailable: ' + name, error); return [];})))
     .then(groups => groups.flat());
   const style = document.createElement('style');
   style.textContent = '.sb-reviewed-gloss{margin-top:13px}.sb-reviewed-gloss summary{cursor:pointer}.sb-reviewed-gloss-grid{padding:8px 14px}.sb-reviewed-gloss-row{display:grid;grid-template-columns:minmax(110px,1fr) 1.6fr;gap:10px;padding:8px 0;border-bottom:1px solid #e3dcd2;line-height:1.6}.sb-reviewed-gloss-row strong{color:#65516f;font-weight:500}.sb-reviewed-note{padding:10px 13px;background:#fffaf2;border-left:3px solid #ab8a62;font-size:13px;line-height:1.65}@media(max-width:560px){.sb-reviewed-gloss-row{grid-template-columns:1fr;gap:2px}}';
