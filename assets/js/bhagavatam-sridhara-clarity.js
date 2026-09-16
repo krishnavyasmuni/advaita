@@ -10,6 +10,22 @@
   const paths = ['/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-reviewed.json?v=20260916-3'];
   if (canto === 1 || canto === 2)
     paths.push('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-cantos01-02-additions-20260916.json?v=20260916-1');
+  if (canto === 10)
+    paths.push('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto10-ch01-reviewed.json?v=20260916-1');
+  if (canto === 11) {
+    paths.push(
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-reviewed.json?v=20260916-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-verses02-03.json?v=20260916-2',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-verses04-05.json?v=20260916-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-verses06-07.json?v=20260916-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-verses08-10.json?v=20260916-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-verses11-24.json?v=20260916-3',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch02-verses01-10.json?v=20260916-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch02-verses11-21.json?v=20260916-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch02-verses22-31.json?v=20260916-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch02-verses32-34.json?v=20260916-1'
+    );
+  }
 
   const reviewed = Promise.all(paths.map((path) =>
     fetch(path, { cache: 'no-cache' })
