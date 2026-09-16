@@ -222,9 +222,14 @@
     markers.forEach((marker, index) => {
       const markerCanto = Number(toAsciiDigits(marker[1]));
       const markerChapter = Number(toAsciiDigits(marker[2]));
-      const start = Number(toAsciiDigits(marker[3]));
-      const end = Number(toAsciiDigits(marker[4] || marker[3]));
+      const sourceStart = Number(toAsciiDigits(marker[3]));
+      const sourceEnd = Number(toAsciiDigits(marker[4] || marker[3]));
       if (markerCanto !== targetCanto || markerChapter !== targetChapter) return;
+      // The pinned VishvAsa file has a one-verse editorial numbering shift
+      // after its 1.16.12 block: its markers 13+ match Vedabase 12+.
+      const sourceOffset = markerCanto === 1 && markerChapter === 16 && sourceStart >= 13 ? -1 : 0;
+      const start = sourceStart + sourceOffset;
+      const end = sourceEnd + sourceOffset;
 
       const segmentStart = marker.index + marker[0].length;
       const segmentEnd = index + 1 < markers.length ? markers[index + 1].index : sourceText.length;
