@@ -24,7 +24,7 @@
       "14": "The objection is: “I do not grieve for the past and future, but for myself suffering separation from them.” He answers: The “measures” are the sense functions by which objects are measured and known; their contacts with objects produce cold, heat, and the like. They come and go and are impermanent, so endure them. Just as contact with water or sunlight at a given time naturally gives cold or heat, so union and separation from desired things give happiness and sorrow. Since these are unstable, endurance is proper for the wise, not subjection to joy and grief.",
       "15": "Even effort to remedy them should give way to endurance because it yields great fruit: these contacts do not distress or overpower the person who is even-minded in happiness and sorrow. Remaining undisturbed by them, through dharma and knowledge he becomes fit for immortality, that is, liberation.",
       "16": "The objection is: “Cold and heat are unbearable; how can they be endured?” By inquiry into truth everything can be endured: the being of the nonexistent—cold, heat, and the like, which are not properties of the Self—is not found in the Self; and the nonbeing or destruction of the existent, whose nature is existence, is not found. The conclusion of both existent and nonexistent has been seen by seers of truth, knowers of reality. Thus endure with this discrimination.",
-      "17": "No commentary",      "18": "He shows that the bodies have the nature of coming and going: these bodies have an end. They are said by seers of truth to belong to the embodied one, who is eternal, indestructible, and immeasurable, while bodies bear happiness, sorrow, and the like. Since the Self is not destroyed and has no relation to happiness or sorrow, abandon delusion-born grief and fight; do not abandon your own dharma.",
+      "17": "Here the imperishable reality with the nature of being is stated generally: “that which pervades all this” means pervading as witness; know that Self-form to be imperishable, free from destruction. He gives the reason with “no one can destroy…”",      "18": "He shows that the bodies have the nature of coming and going: these bodies have an end. They are said by seers of truth to belong to the embodied one, who is eternal, indestructible, and immeasurable, while bodies bear happiness, sorrow, and the like. Since the Self is not destroyed and has no relation to happiness or sorrow, abandon delusion-born grief and fight; do not abandon your own dharma.",
       "19": "Thus grief caused by the death of Bhīṣma and the others is removed. The sorrow stated as arising from the Self’s being a killer—“I do not wish to kill these”—is also without cause: “this” means the Self; it is neither the object nor the agent of killing. Hence it does not kill and is not killed.",
       "20": "He establishes this by the absence of the six modifications: “not born” denies birth; “does not die” denies destruction; “nor, having become, will it become again” denies the second change, post-birth existence, because it is already existence by itself. “Unborn” is the reason. “Eternal”—always of one form—denies growth. “Everlasting”—ever existing—denies decline. “Ancient” denies transformation: though existing formerly, it is ever new, not changed into another form. Thus the six changes taught by Yāska and the other Vedic scholars—birth, existence, growth, transformation, decline, and destruction—are negated. Therefore the intended absence of destruction is concluded: it is not killed when the body is killed.",
       "21": "Therefore the absence of agency in killing is established: whoever knows the Self as eternal, free from growth, imperishable, free from decline, unborn, and indestructible—how does that person kill anyone, or cause anyone to be killed? Such a one has no means for killing. Nor, becoming the instigator, does he cause anyone to kill anyone—no one in any way. This also says: do not see fault in Me as the instigator.",
@@ -472,7 +472,7 @@
   },
 
   13: {
-    "1": "No commentary",
+    "1": "No commentary.",
     "2": "The promise to lift devotees from worldly existence requires knowledge of the Self. The body, the field of experience, is called the field; one who knows it as 'I' and 'mine' is called the field-knower. The wise distinguish the two.",
     "3": "Know the field-knower in every field to be Myself, the consciousness indicated by 'That thou art.' Knowledge of the difference between field and knower alone is true knowledge and the means of liberation; other learning is mere scholarship.",
     "4": "The field is the inert, visible body with the qualities of desire and the like, its modifications and its arising from the conjunction of nature and person. Hear briefly also the nature, powers and glory of the field-knower.",
@@ -622,7 +622,7 @@
 
   18: {
     "1": "Arjuna asks, O Hṛṣīkeśa and mighty-armed destroyer of Keśin, for the distinct truth of renunciation of action and relinquishment of the fruits of action.",
-    "2": "No commentary",
+    "2": "No commentary.",
     "3": "Some discerning Sāṅkhyas say that all action should be abandoned because it contains defects such as injury and causes bondage; others, the Mīmāṃsakas, say that sacrifices and similar actions must not be abandoned.",
     "4": "Hear My settled conclusion about relinquishment in this disputed matter: relinquishment is declared threefold by the knowers of truth—as tamasic, rajasic and sattvic.",
     "5": "Sacrifice, charity and austerity are purifying for the discerning; they cleanse the mind and therefore should not be abandoned.",
@@ -738,16 +738,34 @@
       35: `Suppose it is said: “If, out of compassion, you do not kill them, they will certainly kill you out of greed for the kingdom. Therefore kill them and enjoy the kingdom.” He answers in the verse and a half beginning “these I do not wish to kill.” Even if they were killing us, I would not wish to kill them even for the sovereignty of the three worlds, even to obtain that—how much less merely for the earth.`,
       36: `One may object: It is remembered, “The incendiary, the poisoner, one who attacks with a weapon, the robber of wealth, the seizer of land, and the seizer of another’s wife—these six are aggressors.” Thus these men are aggressors on all six grounds, beginning with arson, and killing aggressors is proper. For it is said, “One should kill an aggressor who approaches, without deliberation; no fault falls upon the killer for killing an aggressor.” To this he replies in the verse and a half beginning “sin.” The teaching of Arthaśāstra beginning “an aggressor who approaches” is weaker than Dharmaśāstra. As Yājñavalkya says, “When two Smṛtis conflict, reasoning is stronger in legal procedure; but Dharmaśāstra is held to be stronger than Arthaśāstra.” Therefore, even though these men are aggressors, killing these teachers and other venerable persons would indeed bring us sin, because such killing is unjust and contrary to dharma. Nor would there be happiness here; therefore he says, “one’s own people indeed.”`,
       37: `One may object: Since the fault of killing relatives is the same for them as for you, just as they enter battle accepting the fault of killing relatives, you too should do so. Why this despondency? He answers in the two verses beginning “although.” Although Duryodhana and the others, whose minds are ruined and whose discrimination is corrupted by greed for the kingdom, do not see the fault, how can we, who clearly see the fault, fail to understand that we should turn away from this sin? Our resolve should be solely to withdraw.`,
-      38: `No commentary.`,
-      39: `No commentary.`,
-      40: `The words “adharma overwhelms” state the mental fault.`,
-      41: `The word “become corrupted” states the bodily fault.`,
-      42: `The word “become corrupted” states the bodily fault.`,
-      43: `No commentary.`,
-      44: `No commentary.`,
-      45: `No commentary.`,
-      46: `No commentary.`,
-      47: `The intention behind “I do not wish to kill these” (1.35), “If they should kill me while I offer no resistance” (1.46), and the like is stated with “in every way.” “In every way” means in many respects: even though they are aggressors; even though they are now intent on killing me; even though withdrawal from battle would lead to adharma, infamy, and the like; even though battle is the means to sovereignty over the three worlds and so on—in short, even though you, the Lord of the Lord of all, my best well-wisher and instructor, have told me to fight. The firm conviction that the destruction of relatives has become certain is the cause of grief; or here the word śoka may refer simply to despondency. By reversing the order, the text shows that this grief is the cause of abandoning the bow and arrows. Saṃvigna-mānasaḥ means “one whose determination to fight has been greatly shaken.” The verbal root vij means “to fear or tremble.” Thus, because his resolve to fight had been shaken, he cast aside the bow with its arrows—which in the sacrificial rite of battle stood in the place of the ladles sruk and sruva—and, as though intent on fasting unto death and the like, withdrew from the warrior’s station and sat down in the seat of the chariot. Thus, among the works of Śrī Veṅkaṭanātha, lion among poets and logicians and independent master of all systems…`
+      38: `Although Duryodhana and the others, their discrimination ruined by greed for the kingdom, do not see the fault, why should we—who do see it—not understand that we must withdraw from this sin? Our resolve should be solely to withdraw.`,
+      39: `He now points out that very fault: the eternal family duties, handed down through the generations, are destroyed; when adharma overwhelms the entire surviving family, it spreads over it.`,
+      40: `Then, because adharma overwhelms the family, and so forth.`,
+      41: `In this condition he says, “there will be social mixture and the like”: the fathers of these family-killers fall, because the rites of offering rice-balls and water have disappeared for them.`,
+      42: `He concludes the fault stated above: these faults destroy the duties of caste and family; by “and,” the duties of the āśrama stages and similar duties are included.`,
+      43: `The phrase “whose family duties are destroyed” also indicates destroyed jāti duties. We have heard from such statements that people who persist in sin without performing expiation, without repentance, go to terrible hells.`,
+      44: `Because they are resolved to kill their relatives, he says “alas” and the rest: we have resolved to commit this great sin, namely to kill our own people; alas, what great suffering.`,
+      45: `Being afflicted and wishing for death, he says, “If they should kill me.” If they kill me while I sit quietly and unresisting, that killing would be most beneficial for me, since it  const sridharaSanskritOverrides = {
+    "1": {
+      "38": "।।1.38।। ननु तवैतेषाम् अपि बन्धु-वध-दोषे समाने सति यथैवैते बन्धु-वध-दोषम् अङ्गीकृत्यापि युद्धे प्रवर्तते । तथैव भवान् अपि प्रवर्ततां किम् अनेन विषादेनेत्य् अत आह यद्यपीति द्वाभ्याम् । राज्य-लोभेनोपहतं भ्रष्ट-विवेकं चेतो येषां ते एते दुर्योधनादयो यद्यपि दोषं न पश्यन्ति, तथाप्यस्माभिर् दोषं प्रपश्यद्भिर् अस्मात् पापात् निवर्तितुं कथं न ज्ञेयं निवृत्ताव् एव बुद्धिः कर्तव्येत्य् अर्थः ॥३७-३८॥",
+      "39": "।।1.39।। तम् एव दोषं दर्शयति कुल-क्षय इत्य् आदि । सनातनाः परस्पराप्राप्ताः । उत अपि अवशिष्टं कृत्स्नम् अपि कुलम् अधर्मो ऽभिभवति व्याप्नोतीत्य् अर्थः ॥३९॥",
+      "40": "।।1.40।। ततश् च अधर्माभिभवाद् इत्य् आदि ॥४०॥",
+      "41": "।।1.41।। एवं सति सङ्कर इत्य् आदि । एषां कुल-घ्नानां पितरः पतन्ति । हि यस्मात् लुप्ताः पिण्डोदक-क्रिया येषां ते तथा ॥४१॥",
+      "42": "।।1.42।। उक्त-दोषम् उपसंहरति दोषैर् इति द्वाभ्यां । उत्साद्यन्ते लुप्यन्ते । जाति-धर्मा वर्ण-धर्माः कुल-धर्माश् चेति च-काराद् आश्रम-धर्मादयो ऽपि गृह्यन्ते ॥४२॥",
+      "43": "।।1.43।। उत्सन्नेति । उत्सन्नाः कुल-धर्मा येषाम् इति उत्सन्न-जाति-धर्मानाम् अप्य् उपलक्षणम् । अनुशुश्रुम श्रुतवन्तो वयम् । प्रायश्चित्तम् अकुर्वाणाः पापेषु निरता नराः । अपशात्-तापिनः कष्टान् निरयान् यान्ति दारुणान् ॥ इत्य् आदि वचनेभ्यः ॥४३॥",
+      "44": "।।1.44।। बन्धु-वधाध्यवसायेन सन्त्य् उपमाने आह अहो बतेत्यादि । स्वजनं हन्तुम् उद्यता इति यत् एतन्-महत्-पापं कर्तुम् अध्यवसायं कृतवन्तो वयम् । अहो बत महत् कष्टम् इत्य् अर्थः ॥४४॥",
+      "45": "।।1.45।। एवं सन्तप्तः सन् मृत्युम् एवाशंसमान आह यदि माम् इत्य् आदि । अप्रतीकारं तुष्णीम् उपविष्टं मां यदि हनिष्यन्ति तर्हि तद्-धननं मम क्षेमतरम् अत्यन्तं हितं भवेत् पापानिष्पत्तेः ॥४५॥",
+      "46": "।।1.46।। ततः किं वृत्तम् इत्य् अपेक्षायां सञ्जय उवाच एवम् उक्त्वेत्य् आदि । सङ्ख्ये सङ्ग्रामे रथोपस्थे रथस्योपरि उपाविशत् उपविवेश । शोकेन संविग्नं प्रकम्पितं मानसं चित्तं यस्य सः ॥४६॥",
+      "47": ""
+    },
+    "2": {
+      "17": "।।2.17।। अत्र सत्-स्वभावम् अविनाशि वस्तु सामान्येनोक्तं ततं तत्-साक्षित्वेन व्याप्तं तं तु आत्म-स्वरूपम् अविनाशि विनाश-शून्यं विद्धि जानीहि । तत्र हेतुम् आह विनाशम् इति ॥१७॥"
+    }
+  };
+
+ would prevent sin from arising.`,
+      46: `Then, expecting what happened, Sañjaya says, “having spoken thus”: in the battle, on the seat above the chariot, he sat down; his mind was shaken and trembling with grief.`,
+      47: `No commentary.`
     }
   };
 
@@ -804,12 +822,12 @@
       : (d.wordMeaning || 'Word-for-word meaning unavailable in the source record.');
     const commentary = d.srid && d.srid.sc
       ? lines(d.srid.sc)
-      : (sourceMode === 'legacy' ? 'No separate Sanskrit commentary is recorded for this verse in the source data.' : 'No commentary');
+      : (sourceMode === 'legacy' ? 'No separate Sanskrit commentary is recorded for this verse in the source data.' : 'No commentary.');
     const translatedCommentary = sridharaEnglish[chapter] && sridharaEnglish[chapter][n]
       ? lines(sridharaEnglish[chapter][n])
       : (sourceMode === 'legacy'
         ? (d.srid && d.srid.et ? lines(d.srid.et) : 'The source repository supplies Śrīdhara Svāmī’s commentary in Sanskrit; no English translation field is supplied there.')
-        : (d.srid && d.srid.sc ? 'English Śrīdhara rendering not yet supplied; see the Sanskrit commentary above.' : 'No commentary'));
+        : (d.srid && d.srid.sc ? 'English Śrīdhara rendering not yet supplied; see the Sanskrit commentary above.' : 'No commentary.'));
 
     return '<article class="gita-verse" id="gita-' + chapter + '-' + n + '">' +
       '<h2><span>BG</span> ' + chapter + '.' + n + '</h2><hr class="gita-verse-rule">' +
@@ -862,20 +880,23 @@
       const m = mukByVerse[n] || {};
       const sh = sridharaByVerse[n] || {};
       const override = commonOverrides[n] || {};
+      const sridharaCommentary = sridharaSanskritOverrides[chapter] && Object.prototype.hasOwnProperty.call(sridharaSanskritOverrides[chapter], n)
+        ? sridharaSanskritOverrides[chapter][n]
+        : pickCommentaryVerse(sh, n);
       return {
         verse: n,
         slok: override.slok || pickSanskritVerse(c, n),
         transliteration: override.transliteration || c.transliteration || '',
         wordMeaning: override.wordMeaning || c.word_meanings || '',
         mukEnglish: m.translation || '',
-        srid: {sc: pickCommentaryVerse(sh, n)}
+        srid: {sc: sridharaCommentary}
       };
     });
     renderChapter(
       data,
       {},
       'mukundananda',
-      'Sanskrit, transliteration, and word-for-word meanings for this chapter are loaded from <a href="https://github.com/gita/gita-frontend-v2" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is from its <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>; Śrīdhara Svāmī’s Sanskrit commentary is from <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_8_sa.json" target="_blank" rel="noopener">author_8_sa.json</a>. Chapters 1–18 have original literal English renderings prepared from those exact Sanskrit commentaries; no copyrighted translation has been copied. Where the source has no commentary, the page displays “No commentary.”'
+      'Sanskrit, transliteration, and word-for-word meanings for this chapter are loaded from <a href="https://github.com/gita/gita-frontend-v2" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is from its <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>; Śrīdhara Svāmī’s Sanskrit commentary is from <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_8_sa.json" target="_blank" rel="noopener">author_8_sa.json</a>, cross-checked against <a href="https://github.com/vishvAsa/mahAbhAratam/tree/content/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH" target="_blank" rel="noopener">Vasuki’s Śrīdhara files</a>. Chapters 1–18 have original literal English renderings prepared from those exact Sanskrit commentaries; no copyrighted translation has been copied. The editions use variant numbering in Chapters 1 and 13, so the site follows the Mukundananda/common numbering; Chapter 1 verse 47 has no Śrīdhara note in the cross-checked source and is shown as “No commentary.”'
     );
   };
 
