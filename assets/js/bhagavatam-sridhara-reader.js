@@ -364,9 +364,6 @@
     heading.className = 'sb-verse';
     heading.id = id + '-heading';
     heading.textContent = 'ŚB ' + canto + '.' + chapter + '.' + range;
-    const rule = document.createElement('hr');
-    rule.className = 'sb-rule gita-verse-rule';
-
     const devanagari = document.createElement('div');
     devanagari.className = 'sb-devanagari gita-sanskrit';
     devanagari.lang = 'sa-Deva';
@@ -396,18 +393,13 @@
         { label: 'Śrīdhara Svāmī — Bhāvārtha-dīpikā', text: sridharaSanskrit, lang: 'sa-Deva' }
       ], 'sb-bhasya'));
     }
-    section.append(heading, rule, devanagari, translation, controls);
+    section.append(heading, devanagari, translation, controls);
 
     const commentaryText = commentaryForRange(commentaryEntries, entry.start, entry.end);
     if (commentaryText) {
-      const commentary = document.createElement('section');
-      commentary.className = 'gita-commentary';
-      const commentaryHeading = document.createElement('h3');
-      commentaryHeading.textContent = 'Śrīdhara’s Literal English.';
-      const commentaryBody = document.createElement('p');
-      commentaryBody.textContent = commentaryText;
-      commentary.append(commentaryHeading, commentaryBody);
-      section.appendChild(commentary);
+      controls.appendChild(makeDetails('Śrīdhara English', [
+        { label: 'Literal rendering', text: commentaryText }
+      ], 'sb-literal-details'));
     }
 
     return section;
@@ -470,10 +462,11 @@
     shell.className = 'sb-chapter-shell';
     shell.id = 'chapter-' + chapter;
     shell.dataset.chapter = String(chapter);
-    const contents = document.createElement('div');
+    const contents = document.createElement('details');
     contents.className = 'gita-contents sb-contents';
-    const contentsHeading = document.createElement('h2');
-    contentsHeading.textContent = 'Contents';
+    const contentsHeading = document.createElement('summary');
+    contentsHeading.className = 'sb-contents-heading';
+    contentsHeading.textContent = 'Verse index';
     const contentsList = document.createElement('ol');
     contents.append(contentsHeading, contentsList);
     const loading = document.createElement('p');
@@ -508,6 +501,7 @@
       if (!english.entries.length) throw new Error('No verse records found in the English source file.');
 
       loading.remove();
+      contentsHeading.textContent = 'Verse index · ' + english.entries.length + ' records';
       populateContents(contentsList, english.entries, chapter);
       if (titleNode) titleNode.textContent = english.title || 'Chapter ' + chapter;
       english.entries.forEach((entry) => shell.appendChild(renderVerse(chapter, entry, sridharaEntries, commentaryEntries)));

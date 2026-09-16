@@ -16,10 +16,10 @@
 .sb-chapter{max-width:652px;margin:46px auto 18px;padding:0 0 13px;border-bottom:1px solid #d8d2cb;color:#2f7779;font-family:Vollkorn,Georgia,serif;font-size:28px;font-weight:500;line-height:1.15;text-align:left}
 .sb-loading{max-width:652px;margin:0 auto 28px;color:#777;font-size:13px;text-align:center}
 .sb-load-error{color:#a92727}
-.sb-verse-section{width:100%;max-width:652px;margin:0 auto;padding:34px 0 40px;border-top:1px solid #e0dad3;color:#3c362e;font-family:Merriweather,Georgia,'Times New Roman',serif}
+.sb-verse-section{width:100%;max-width:652px;margin:0 auto;padding:22px 0 28px;border-top:0;color:#3c362e;font-family:Merriweather,Georgia,'Times New Roman',serif}
 .sb-verse-section:first-of-type{border-top:0}
 .sb-verse{margin:0;padding:0;color:#2f7779;font-family:Vollkorn,Georgia,serif;font-size:22px;font-weight:500;line-height:1.1;letter-spacing:.012em;text-align:center}
-.sb-rule{width:40%;max-width:260px;height:0;margin:10px auto 20px;border:0;border-top:1px solid #d9d3cd;background:transparent}
+.sb-rule{display:none}
 .sb-devanagari{max-width:620px;margin:0 auto 18px;color:#39342f;font-family:Merriweather,Georgia,'Times New Roman',serif;font-size:20.5px;font-style:normal;font-weight:400;line-height:1.64;text-align:center}
 .sb-devanagari span{display:inline}
 .sb-translation{display:block;max-width:610px;margin:0 auto 22px;padding:0 0 0 16px;border-left:2px solid #aaa0ad;color:#4d464e;font-family:Merriweather,Georgia,'Times New Roman',serif;font-size:16.4px;font-style:normal;font-weight:400;line-height:1.7;text-align:left}
