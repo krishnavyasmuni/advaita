@@ -9,9 +9,9 @@ const js=(key,src)=>{if(document.querySelector(`script[data-${key}]`))return;con
 if(article){
  document.querySelectorAll('link[href*="/assets/css/hindupedia-site.css"]').forEach(n=>n.remove());
  document.body.classList.add('vicara-reader-page');if(citation)document.body.classList.add('citation-reader-page');if(meat)document.body.classList.add('meat-reader-page');if(scripture)document.body.classList.add('scripture-reader-page');
- css('articleReader','/vivekadrishti/assets/css/article-reader.css?v=20260916-1');
+ css('articleReader','/vivekadrishti/assets/css/article-reader.css?v=20260916-2');
  if(!scripture)css('articlePager','/vivekadrishti/assets/css/article-pager.css?v=20260914-2');
- if(citation||scripture)css('articlePolish','/vivekadrishti/assets/css/article-polish.css?v=20260916-1');
+ if(citation||scripture)css('articlePolish','/vivekadrishti/assets/css/article-polish.css?v=20260916-2');
  if(!combinedBhavishya)js('articleReader','/vivekadrishti/assets/js/article-reader.js?v=20260916-1');
 }else css('hindupediaSite','/vivekadrishti/assets/css/hindupedia-site.css?build=20260826-2145');
 
