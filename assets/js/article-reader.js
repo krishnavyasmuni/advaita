@@ -2,9 +2,24 @@
 const path=location.pathname,dirs=[/^\/vivekadrishti\/articles\/?$/, /\/articles\/scripture\/?$/, /\/articles\/(?:scripture-index-version-3|an-index-of-hindu-scripture)\/?$/];
 if(!/^\/vivekadrishti\/articles\//.test(path)||dirs.some(r=>r.test(path))||/\/articles\/varna-vicara\/?$/.test(path))return;
 const body=document.body,article=document.querySelector('.article-body');if(!article)return;
-const scripture=/\/articles\/(?:bhagavad-gita-chapter-\d+|vishnu-purana-book-\d+-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|srimad-bhagavatam-canto-\d{2}-sridhara-svami|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(path);
+const scripture=/\/articles\/(?:bhagavad-gita-chapter-\d+|vishnu-purana-book-\d+-chapter-\d+|bhavishya-purana-pratisargaparvan-part-\d+-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|srimad-bhagavatam-canto-\d{2}-sridhara-svami|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(path);
 body.classList.add('vicara-reader-page');
 const text=n=>(n?.textContent||'').replace(/\s+/g,' ').trim(),isContents=n=>/^contents$/i.test(text(n));
+const ppArticle=path.match(/\/articles\/bhavishya-purana-pratisargaparvan-part-(\d+)-chapter-(\d+)\/?$/);
+const normalizePratisargaLabels=()=>{
+ if(!ppArticle)return;
+ const part=ppArticle[1],chapter=ppArticle[2];
+ let fallback=0;
+ article.querySelectorAll('h3,a').forEach(node=>{
+  const raw=text(node);
+  if(!/^Text block\b/i.test(raw)&&!/^\d+\.\d+\.\d+$/.test(raw))return;
+  const ref=(node.id||node.getAttribute('href')||'').match(/#?pp-(\d+)-(\d+)-(\d+)/);
+  const verse=ref?Number(ref[3]):++fallback;
+  if(!verse)return;
+  node.textContent='PP '+part+'.'+chapter+'.'+verse;
+ });
+};
+normalizePratisargaLabels();
 const slug=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'section';
 const cloneToc=list=>{const c=list.cloneNode(true);c.removeAttribute('style');c.querySelectorAll('*').forEach(n=>{n.removeAttribute('style');n.removeAttribute('class')});c.classList.add('vicara-toc');return c};
 const manualContents=()=>{
