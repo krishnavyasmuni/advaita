@@ -335,27 +335,6 @@
     (sections || []).forEach((section) => reveal.appendChild(section));
     details.append(summary, reveal);
     return details;
-  }(label, blocks, className) {
-    const details = document.createElement('details');
-    details.className = ('sb-details gita-details ' + (className || '')).trim();
-    const summary = document.createElement('summary');
-    summary.textContent = label;
-    details.appendChild(summary);
-    blocks.filter((block) => block && block.text).forEach((block) => {
-      const wrapper = document.createElement('div');
-      wrapper.className = 'sb-source-block gita-reveal';
-      const sourceLabel = document.createElement('strong');
-      sourceLabel.className = 'sb-source-label';
-      sourceLabel.textContent = block.label;
-      const content = document.createElement('div');
-      content.className = 'sb-source-content';
-      if (block.lang) content.lang = block.lang;
-      if (block.kind === 'synonyms') appendSynonyms(content, block.text);
-      else appendLines(content, block.text, Boolean(block.italic));
-      wrapper.append(sourceLabel, content);
-      details.appendChild(wrapper);
-    });
-    return details;
   }
 
   function sridharaForRange(entries, start, end, chapter) {
