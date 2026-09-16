@@ -94,7 +94,8 @@
       if (!verse) return;
       const body = markdown.slice(heading.index + heading[0].length,
         index + 1 < headings.length ? headings[index + 1].index : markdown.length);
-      const label = body.match(/\*\*श्रीधर-स्वामी\s*\(भावार्थ-दीपिका\)\s*[:：]\s*(?:\*\*)?/);
+      // The source sometimes attributes one gloss jointly to Śrīdhara and Viśvanātha.
+      const label = body.match(/\*\*श्रीधर-स्वामी\s*\(भावार्थ-दीपिका\)(?:,\s*विश्वनाथ-चक्रवर्ती\s*\(सारार्थ-दर्शिणी\))?\s*[:：]\s*(?:\*\*)?/);
       if (!label) return; // A different commentator or an explicit no-commentary marker.
       let gloss = body.slice(label.index + label[0].length).split(/\n\s*_{4,}/)[0];
       gloss = gloss.replace(/\[\^[^\]]+\]/g, '').replace(/\*\*/g, '')
