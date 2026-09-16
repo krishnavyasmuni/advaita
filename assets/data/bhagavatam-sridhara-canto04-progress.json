@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+  "checkpoint_branch": "codex/bhagavatam-canto1-batch-001",
+  "chapter_1": {
+    "range": "4.1.1–4.1.66",
+    "numbered_positions": 66,
+    "source_gloss_covered_positions": 55,
+    "literal_entries": 50,
+    "no_separate_gloss": [11, 29, 35, 38, 42, 46, 48, 50, 51, 53, 54],
+    "paths": ["assets/data/bhagavatam-sridhara-english-canto04-ch01.json", "assets/data/bhagavatam-sridhara-english-canto04-ch01-second.json"],
+    "source_anomaly": "The pinned Sanskrit file duplicates heading 4.1.31, then omits heading 4.1.62; some later Sanskrit blocks straddle English verse breaks. The companion script aligns by the inspected verse contents, not header numerals alone."
+  },
+  "chapter_2": {
+    "range": "4.2.1–4.2.35",
+    "numbered_positions": 35,
+    "source_gloss_covered_positions": 34,
+    "literal_entries": 30,
+    "no_separate_gloss": [7],
+    "paths": ["assets/data/bhagavatam-sridhara-english-canto04-ch02.json"],
+    "source_anomaly": "A Śrīdhara gloss filed beneath 4.2.7 defines the words in 4.2.8. The companion reader relocates that Sanskrit gloss."
+  },
+  "chapter_3": {
+    "range": "4.3.1–4.3.25",
+    "numbered_positions": 25,
+    "source_gloss_covered_positions": 25,
+    "literal_entries": 23,
+    "no_separate_gloss": [],
+    "paths": ["assets/data/bhagavatam-sridhara-english-canto04-ch03.json"],
+    "source_note": "The Śrīdhara gloss for verses 5–7 is a single block retained as one entry."
+  },
+  "status": "Canto 4 chapters 1–3 source-checked and committed; chapter 4 onward and Cantos 5–12 remain to be translated",
+  "note": "Counts distinguish numbered verses from literal English entries and preserve explicit no-separate-commentary positions. No independent scan-image collation or browser-render verification is claimed."
+}
