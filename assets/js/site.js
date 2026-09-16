@@ -12,7 +12,7 @@ if(article){
  css('articleReader','/vivekadrishti/assets/css/article-reader.css?v=20260916-1');
  if(!scripture)css('articlePager','/vivekadrishti/assets/css/article-pager.css?v=20260914-2');
  if(citation||scripture)css('articlePolish','/vivekadrishti/assets/css/article-polish.css?v=20260916-1');
- if(!combinedBhavishya)js('articleReader','/vivekadrishti/assets/js/article-reader.js?v=20260915-1');
+ if(!combinedBhavishya)js('articleReader','/vivekadrishti/assets/js/article-reader.js?v=20260916-1');
 }else css('hindupediaSite','/vivekadrishti/assets/css/hindupedia-site.css?build=20260826-2145');
 
 const paths=new Map([
