@@ -297,7 +297,7 @@
       "13": `Uttering the one syllable Om, which denotes Brahman or serves as Brahman’s symbol, and remembering Me, whose nature it denotes, the person who leaves the body reaches the supreme state—travelling by the luminous path to Me.`,
       "14": `Thus attainment at death by such concentration results from constant practice, not from someone who has never practised. The one-pointed person whose mind has no other object and who remembers Me continuously, every day and at every moment, finds Me easy to attain; not another.`,
       "15": `The great souls who attain Me—My devotees of the described kind—do not again obtain birth, which is impermanent and the abode of suffering. Having attained Me they have obtained the highest perfection, liberation, and do not return.`,
-      "16": `All worlds, extending up to Brahma’s world, are subject to return, because even Brahma’s world is perishable. Those who reach Brahma-loka through graded meditation return unless knowledge arises there with Brahmā at the end of his life. Those who attain Me do not return at all.`,
+      "16": `All worlds, extending up to Brahmā’s world, are subject to return, because even Brahma’s world is perishable. Those who reach Brahmā-loka through graded meditation return unless knowledge arises there with Brahmā at the end of his life. Those who attain Me do not return at all.`,
       "17": `Those who know the day and night of Brahmā know that Brahmā’s day extends for a thousand four-age cycles and his night for the same. The teaching uses “Brahmā” also to indicate the residents of higher worlds. The full calculation proceeds from human days and divine years through the four yugas, a thousand of which make Brahmā’s day and an equal period his night.`,
       "18": `At the coming of Brahmā’s day, beings become manifest from the unmanifest causal state; at the coming of night, they dissolve again into that same state. The unmanifest here is the causal form of the world from which the moving and unmoving beings emerge.`,
       "19": `The same multitude of beings that existed before becomes manifest again at the day’s beginning and dissolves at night; at the next day it arises again, helpless and subject to its karma. It is not a new group of beings, so there is no destruction of action or arrival of an unearned result.`,
@@ -692,7 +692,7 @@
     "69": "Among human beings there is no one who does more pleasing service to Me than the teacher of this scripture to My devotees, nor will there be another dearer to Me in the future.",
     "70": "One who studies this righteous dialogue between Kṛṣṇa and Arjuna worships Me through the highest sacrifice of knowledge; this is My conviction, even if the text is recited without full understanding.",
     "71": "Even a person who merely hears it with faith and without envy, without finding fault in the recitation, becomes freed from all sins and reaches the worlds attained by performers of great merit.",
-    "72": "Krishna asks whether Arjuna has heard with attention and whether his delusion born from ignorance has been destroyed.",
+    "72": "Kṛṣṇa asks whether Arjuna has heard with attention and whether his delusion born from ignorance has been destroyed.",
     "73": "Arjuna replies: my delusion about the Self has been destroyed, memory of my true nature has returned by Your grace, my doubt about dharma is gone, and I shall do Your command.",
     "74": "Sañjaya says that he heard this wondrous, hair-raising dialogue between Kṛṣṇa and Arjuna while recounting it to Dhṛtarāṣṭra.",
     "75": "By Vyāsa's grace I received divine sight and hearing; therefore I heard this supreme yoga directly from Kṛṣṇa, the Lord of Yoga, speaking Himself.",
@@ -745,7 +745,13 @@
       42: `He concludes the fault stated above: these faults destroy the duties of caste and family; by “and,” the duties of the āśrama stages and similar duties are included.`,
       43: `The phrase “whose family duties are destroyed” also indicates destroyed jāti duties. We have heard from such statements that people who persist in sin without performing expiation, without repentance, go to terrible hells.`,
       44: `Because they are resolved to kill their relatives, he says “alas” and the rest: we have resolved to commit this great sin, namely to kill our own people; alas, what great suffering.`,
-      45: `Being afflicted and wishing for death, he says, “If they should kill me.” If they kill me while I sit quietly and unresisting, that killing would be most beneficial for me, since it  const sridharaSanskritOverrides = {
+      45: `Being afflicted and wishing for death, he says, “If they should kill me.” If they kill me while I sit quietly and unresisting, that killing would be most beneficial for me, since it would prevent sin from arising.`,
+      46: `Then, expecting what happened, Sañjaya says, “having spoken thus”: in the battle, on the seat above the chariot, he sat down; his mind was shaken and trembling with grief.`,
+      47: `No commentary.`
+    }
+  };
+
+  const sridharaSanskritOverrides = {
     "1": {
       "38": "।।1.38।। ननु तवैतेषाम् अपि बन्धु-वध-दोषे समाने सति यथैवैते बन्धु-वध-दोषम् अङ्गीकृत्यापि युद्धे प्रवर्तते । तथैव भवान् अपि प्रवर्ततां किम् अनेन विषादेनेत्य् अत आह यद्यपीति द्वाभ्याम् । राज्य-लोभेनोपहतं भ्रष्ट-विवेकं चेतो येषां ते एते दुर्योधनादयो यद्यपि दोषं न पश्यन्ति, तथाप्यस्माभिर् दोषं प्रपश्यद्भिर् अस्मात् पापात् निवर्तितुं कथं न ज्ञेयं निवृत्ताव् एव बुद्धिः कर्तव्येत्य् अर्थः ॥३७-३८॥",
       "39": "।।1.39।। तम् एव दोषं दर्शयति कुल-क्षय इत्य् आदि । सनातनाः परस्पराप्राप्ताः । उत अपि अवशिष्टं कृत्स्नम् अपि कुलम् अधर्मो ऽभिभवति व्याप्नोतीत्य् अर्थः ॥३९॥",
@@ -760,12 +766,6 @@
     },
     "2": {
       "17": "।।2.17।। अत्र सत्-स्वभावम् अविनाशि वस्तु सामान्येनोक्तं ततं तत्-साक्षित्वेन व्याप्तं तं तु आत्म-स्वरूपम् अविनाशि विनाश-शून्यं विद्धि जानीहि । तत्र हेतुम् आह विनाशम् इति ॥१७॥"
-    }
-  };
-
- would prevent sin from arising.`,
-      46: `Then, expecting what happened, Sañjaya says, “having spoken thus”: in the battle, on the seat above the chariot, he sat down; his mind was shaken and trembling with grief.`,
-      47: `No commentary.`
     }
   };
 
@@ -827,7 +827,7 @@
       ? lines(sridharaEnglish[chapter][n])
       : (sourceMode === 'legacy'
         ? (d.srid && d.srid.et ? lines(d.srid.et) : 'The source repository supplies Śrīdhara Svāmī’s commentary in Sanskrit; no English translation field is supplied there.')
-        : (d.srid && d.srid.sc ? 'English Śrīdhara rendering not yet supplied; see the Sanskrit commentary above.' : 'No commentary.'));
+        : (d.srid && d.srid.sc ? 'The Sanskrit commentary is shown above; no separate English rendering is supplied in the source record.' : 'No commentary.'));
 
     return '<article class="gita-verse" id="gita-' + chapter + '-' + n + '">' +
       '<h2><span>BG</span> ' + chapter + '.' + n + '</h2><hr class="gita-verse-rule">' +
