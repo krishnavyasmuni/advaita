@@ -763,6 +763,6 @@ body.vicara-reader-page .vicara-toc > li > a{
     margin-top:5px!important;
   }
   body.vicara-reader-page .vicara-mobile-toc .vicara-toc > li{margin-bottom:4px!important}
-  body.vicara-reader-page .vicara-mobile-toc .vicara-toc .li > a{font-size:11px!important}
+  body.vicara-reader-page .vicara-mobile-toc .vicara-toc > li > a{font-size:11px!important}
   body.vicara-reader-page .vicara-mobile-toc .vicara-toc li li a{font-size:10px!important}
 }
