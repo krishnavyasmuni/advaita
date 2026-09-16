@@ -63,7 +63,7 @@
   }
 
   // This Sanskrit chapter duplicates its 4.1.31 heading and later skips 4.1.62.
-  // Its 45–54 blocks also cross the English verse boundaries. Map only
+  // Its 45–54 blocks also cross English verse boundaries. Assign only
   // independently inspected Śrīdhara glosses by their actual verse words.
   function mappedVerse(start, end, index31) {
     if (start === 31) return index31 === 1 ? 31 : 32;
@@ -124,14 +124,15 @@
   function apply() {
     const shell = host.querySelector('.sb-chapter-shell[data-chapter="1"]');
     if (!shell || !shell.querySelector('.sb-verse-section')) return;
-    // Do not show a misassigned gloss while the pinned Sanskrit is loading.
+    // Remove only the upstream misnumbered blocks, never an aligned replacement.
     shell.querySelectorAll('.sb-verse-section').forEach((section) => {
       const match = section.id.match(/^sb-4-1-(\d+)(?:-(\d+))?$/);
       if (!match) return;
       const first = Number(match[1]);
       const last = Number(match[2] || match[1]);
       if (first <= 62 && last >= 31) {
-        section.querySelectorAll('.sb-bhasya').forEach((details) => details.remove());
+        section.querySelectorAll('.sb-bhasya:not(.sb-source-aligned)')
+          .forEach((details) => details.remove());
       }
     });
     Promise.all([englishEntries(), sanskritEntries()]).then(([entries, sanskrit]) => {
@@ -166,6 +167,6 @@
       });
     });
   }
-  new MutationObserver(apply).observe(host, { childList: true, subtree: false });
+  new MutationObserver(apply).observe(host, { childList: true, subtree: true });
   apply();
 })();
