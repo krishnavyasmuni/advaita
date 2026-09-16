@@ -101,6 +101,8 @@
     section.appendChild(commentary);
   }
 
+  const explicitNoCommentary = new Set(['11:1:20', '11:2:3']);
+
   function apply() {
     const shell = host.querySelector('.sb-chapter-shell[data-chapter]');
     if (!shell) return;
@@ -116,12 +118,17 @@
         if (!bounds || !details || details.querySelector('.gita-dual-sridhara')) return;
         const entry = chapterEntries.find((candidate) =>
           candidate.start <= bounds[1] && candidate.end >= bounds[0]);
-        if (!entry) return;
+        const explicitKey = canto + ':' + chapter + ':' + bounds[0];
+        if (!entry && !explicitNoCommentary.has(explicitKey)) return;
+        const resolved = entry || {
+          pairs: [['न व्याख्यातम्', 'No commentary']],
+          literal: 'No commentary'
+        };
         const reveal = details.querySelector('.gita-reveal');
         if (!reveal) return;
-        reveal.appendChild(makeSridharaSection(entry));
-        if (noCommentary(entry.pairs)) ensureCommentary(section, 'No commentary');
-        if (entry.literal) ensureCommentary(section, entry.literal);
+        reveal.appendChild(makeSridharaSection(resolved));
+        if (noCommentary(resolved.pairs)) ensureCommentary(section, 'No commentary');
+        if (resolved.literal) ensureCommentary(section, resolved.literal);
       });
     });
   }
