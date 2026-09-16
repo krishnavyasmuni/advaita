@@ -15,9 +15,9 @@
 .gita-chapter-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin:0 0 26px}
 .gita-chapter-nav a{display:inline-flex;align-items:center;min-height:28px;padding:4px 9px;border:1px solid #c8dcdc;border-radius:999px;background:transparent;color:var(--gita-teal);cursor:pointer;font-family:Merriweather,Georgia,serif;font-size:11px;line-height:1.2;text-decoration:none}
 .gita-chapter-nav a:hover{background:#fff;text-decoration:none}
-.gita-contents{margin:0 0 20px;padding:0 0 12px;border:0;border-bottom:1px solid var(--gita-line);background:transparent}
-.gita-contents h2{margin:0 0 8px;color:var(--gita-teal);font-family:Vollkorn,Georgia,serif;font-size:18px;font-weight:400}
-.gita-contents ol{columns:2;margin:0;padding-left:17px;font-size:11.5px;line-height:1.45}
+.gita-contents{margin:0 0 16px;padding:0 0 8px;border:0;border-bottom:1px solid var(--gita-line);background:transparent}
+.gita-contents h2{margin:0 0 6px;color:var(--gita-teal);font-family:Vollkorn,Georgia,serif;font-size:16px!important;font-weight:400}
+.gita-contents ol{columns:2;margin:0;padding-left:15px;font-size:10.5px!important;line-height:1.35!important}.gita-contents ol li{margin:0}
 .gita-contents a{color:#5d4c68;text-decoration:none}.gita-contents a:hover{text-decoration:underline}
 .gita-verse{margin:0 0 20px;padding:0;border:0}
 .gita-verse h2{margin:0;text-align:center;color:#2f7f82;font-family:Vollkorn,Georgia,serif;font-size:22px;line-height:1.1;font-weight:600;letter-spacing:.01em}
