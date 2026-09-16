@@ -16,23 +16,23 @@
 <header class="hero">
 <p class="eyebrow">Scripture Library</p>
 <h1>Viṣṇu Purāṇa — Śrīdhara Bhāṣya</h1>
-<p class="subtitle">The six books with Sanskrit, H. H. Wilson’s English translation, word-for-word material, transliteration, and the Śrīdhara Bhāṣya.</p>
+<p class="subtitle">Published chapters with Sanskrit, H. H. Wilson’s English translation, word-for-word material, transliteration, and the Śrīdhara Bhāṣya.</p>
 <p class="source-note">English translation: <a href="https://sacred-texts.com/hin/vp/index.htm">H. H. Wilson at Sacred Texts</a>. Sanskrit and Śrīdhara source: the <a href="https://github.com/vishvAsa/purANam_vaiShNavam/tree/content/viShNu-purANam">Vasuki Viṣṇu Purāṇa corpus</a>, including its <a href="https://github.com/vishvAsa/purANam_vaiShNavam/tree/content/viShNu-purANam/shrIdharIyam">śrīdharīyam</a> text.</p>
 </header>
 <div class="reader">
 <aside class="side"><h2>Contents</h2>
-<a href="#book-1">Book 1</a><a href="#book-2">Book 2</a><a href="#book-3">Book 3</a><a href="#book-4">Book 4</a><a href="#book-5">Book 5</a><a href="#book-6">Book 6</a>
+<a href="#book-1">Book 1</a><a href="#book-2">Book 2</a>
 <a href="/vivekadrishti/">← Home</a>
 </aside>
-<section class="main"><h2>Complete Book Library</h2>
-<p class="book-note">Choose a chapter to open the reading view. The six-book structure follows the Vasuki corpus; chapter readers are being added in sequence with the same control-based format as the Gītā and Bhāgavatam readers.</p>
+<section class="main"><h2>Published Chapter Library</h2>
+<p class="book-note">Only completed and verified chapter readers are listed. A chapter appears here after its work has begun and its committed page has been checked.</p>
 <div id="book-list"></div>
 <noscript><p class="book-note">JavaScript is required to build the chapter list.</p></noscript>
 </section>
 </div>
 </main>
 <script>
-(()=>{const root=document.getElementById('book-list');if(!root)return;const counts=[22,16,18,24,38,8];const names=['Creation and the origin of the universe','The earth and its regions','Manvantaras, the Vedas, and dharma','The dynasties of the gods and kings','The life and deeds of Kṛṣṇa','Dissolution, liberation, and the final teaching'];const base='/vivekadrishti/articles/vishnu-purana-book-';counts.forEach((count,index)=>{const book=index+1;const section=document.createElement('section');section.className='book';section.id='book-'+book;const h=document.createElement('h3');h.textContent='Book '+book+(names[index]?' — '+names[index]:'');const grid=document.createElement('div');grid.className='chapter-grid';for(let chapter=1;chapter<=count;chapter+=1){const a=document.createElement('a');a.href=base+String(book)+'-chapter-'+String(chapter)+'/';a.textContent=book+'.'+chapter+' — Chapter '+chapter;grid.appendChild(a)}const note=document.createElement('p');note.className='book-note';note.textContent=count+' chapters · open the reader for the chapter title and verse controls.';section.append(h,grid,note);root.appendChild(section)})})();
+(()=>{const root=document.getElementById('book-list');if(!root)return;const books=[{book:1,name:'Creation and the origin of the universe',count:22},{book:2,name:'The earth and its regions',count:10}];const base='/vivekadrishti/articles/vishnu-purana-book-';books.forEach(({book,name,count})=>{const section=document.createElement('section');section.className='book';section.id='book-'+book;const h=document.createElement('h3');h.textContent='Book '+book+(name?' — '+name:'');const grid=document.createElement('div');grid.className='chapter-grid';for(let chapter=1;chapter<=count;chapter+=1){const a=document.createElement('a');a.href=base+String(book)+'-chapter-'+String(chapter)+'/';a.textContent=book+'.'+chapter+' — Chapter '+chapter;grid.appendChild(a)}const note=document.createElement('p');note.className='book-note';note.textContent=count+' published chapters · open the reader for the chapter title and verse controls.';section.append(h,grid,note);root.appendChild(section)})})();
 </script>
 </body>
 </html>
