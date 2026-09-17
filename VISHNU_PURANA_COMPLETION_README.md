@@ -191,30 +191,39 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 2, Chapter 13 (source-aligned remediation) |
-| Book 1 status | IN PROGRESS — all 22 routes are present, but the full source, commentary, lexical, and template audit is not complete; Chapters 1–22 remain subject to remediation or re-verification |
-| Book 2 status | IN PROGRESS — Chapters 1–13 are repaired and verified; Chapters 14–16 require the same complete source-aligned repair |
-| Book 3 status | REPAIRED AND VERIFIED — Chapters 1–18 have passed the complete source-aligned chapter audit |
-| Current repair target | Book 2, Chapter 14 |
-| Next chapter after the repair target | Book 2, Chapter 15 |
-| Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are currently listed; semantic completion follows the tracker and chapter audits |
-| Full-scope remediation queue | Book 2 Chapters 14–16; then Book 1 Chapters 1–22 |
-| Progress rule | Mark a chapter complete only after its full file, source mapping, Contents link, README state, commit, and post-commit verification pass |
+| Last committed route | Book 1, Chapter 5 (verse 8 restoration and wrapper re-verification) |
+| Book 1 status | STATIC AUDIT PASSED — all 22 routes are present; placeholder/WFW scaffolding is removed, provenance is pinned, and the remaining work is source-edition boundary reconciliation where Vasuki witnesses use different verse segmentation |
+| Book 2 status | STATIC AUDIT PASSED — all 16 routes are present; Chapter 14 was rebuilt and verified at 33 articles, and Chapters 15–16 now carry pinned source provenance |
+| Book 3 status | STATIC AUDIT PASSED — all 18 routes are present with the existing source-aligned content and pinned provenance |
+| Current repair target | Book 1, Chapter 2 source-boundary reconciliation |
+| Next chapter after the repair target | Book 1, Chapter 3 |
+| Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
+| Full-scope remediation queue | Reconcile the remaining legacy source-boundary variants, starting with Book 1 Chapters 1–2; then rerun the semantic source-to-article alignment audit across all 56 routes |
+| Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
 chapter containing placeholder glosses is **in progress**, even if its URL
 already exists. The tracker must say in progress until the placeholders are
 replaced with genuine Sanskrit-first material.
 
-For each completed chapter, update the tracker in the same chapter-specific
-commit:
+## Audit snapshot — 2026-09-17
 
-1. Change the current repair target to the next chapter after the chapter being completed.
-2. Record the newly verified last committed route.
-3. Set the next chapter explicitly.
-4. Keep the remediation queue accurate.
-5. Update the real main Contents page only when the chapter passes the full
-validation gate.
+The repository-wide static gate was rerun after the latest commits:
+
+- 56 of 56 Book 1–3 route files were fetched from `main`.
+- Every route has sequential `vp-{BOOK}-{CHAPTER}-{VERSE}` article IDs, one source note, Sanskrit, translation, and controls.
+- Literal scaffolding tokens (`lexical term`, `inflected form`, `verbal form`, and the old `Words/sense/commentary` labels) occur zero times.
+- Every route records the locked Vasuki content-branch tip `fc117aa4514dfd4e4840037aeb3ca825ba030b05`.
+- The generated main Contents route exposes all 56 chapter links.
+
+The static gate is intentionally separate from semantic source reconciliation. The
+current corpus contains edition-level segmentation differences that must remain
+explicit: Book 1 Chapter 1 retains its established prefatory recitation; Book 1
+Chapter 2 still has a 68-article legacy collation against the 70-numbered witness;
+and selected Vasuki witnesses for Book 1 Chapter 8, Book 1 Chapter 18, Book 2
+Chapters 2, 6, and 12, and Book 3 Chapter 11 use documented numbering variants.
+The next semantic pass must reconcile those cases from the exact selected source
+files before the tracker is marked fully complete.
 
 ## Template and design law
 
