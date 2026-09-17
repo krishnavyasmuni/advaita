@@ -136,6 +136,42 @@ are present. Never advertise work that has not been published and checked.
 Do not begin the next chapter until the previous chapter’s commit and
 post-commit verification are finished.
 
+## Live progress tracker
+
+Update this section after every verified chapter commit. It is the resume point
+for the next AI; do not infer progress from an old chat message.
+
+| Field | Current state |
+|---|---|
+| Last committed route | Book 2, Chapter 14 |
+| Current repair target | Book 1, Chapter 15 |
+| Next chapter after the repair target | Book 1, Chapter 16 |
+| Main Contents page | Book 1 Chapters 1–22 and Book 2 Chapters 1–14 are listed |
+| Legacy word-for-word remediation queue | Book 1 Chapters 9–16 and 18–21 |
+| Progress rule | Mark a chapter complete only after its full file, source mapping, Contents link, README state, commit, and post-commit verification pass |
+
+A published route and a semantically complete chapter are different states. A
+chapter containing placeholder glosses is **in progress**, even if its URL
+already exists. The tracker must say in progress until the placeholders are
+replaced with genuine Sanskrit-first material.
+
+For each completed chapter, update the tracker in the same chapter-specific
+commit:
+
+1. Change the current repair target to the chapter being completed.
+2. Record the newly verified last committed route.
+3. Set the next chapter explicitly.
+4. Keep the remediation queue accurate.
+5. Update the real main Contents page only when the chapter passes the full
+   validation gate.
+
+GitHub Pages publishes from main, but the live site may take a short deployment
+interval after the commit. Verify both the GitHub file and the published URL
+before starting the next chapter.
+
+The 30–60 second target is a throughput target after source data is prepared.
+It never authorizes posting a partial, guessed, or placeholder translation.
+
 ## Template and design law
 
 The completed Chapter 1 page is the final design authority. Copy its structure
