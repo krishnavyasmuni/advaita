@@ -93,7 +93,7 @@ The current release ledger has been updated through the following chapter:
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 7111b435dec9b9591b12832486f0c43b71c79c7e
+last_audited_data_commit: 918220ef895f8832a7e5e76c87964573fe818e81
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -103,16 +103,16 @@ current_contents_link_groups:
   - 3.1-3.33
   - 4.1-4.4
   - 10.1
-  - 11.1-11.9
+  - 11.1-11.10
   - 12.13
-visible_contents_link_count: 77
+visible_contents_link_count: 78
 manifest_chapter_count: 335
-latest_verified_release: 11.9
+latest_verified_release: 11.10
 latest_release_status: LIVE_VERIFIED
-latest_release_source_blob_sha: 165bd6c9cc07d1813a192c6fa900d32273c65120
-latest_release_expected_verses: 33
-latest_release_sridhara_blocks: 32
-latest_release_wfw_entries: 32
+latest_release_source_blob_sha: 64ba810446042f25ba5faeee398cc3d96653fbba
+latest_release_expected_verses: 37
+latest_release_sridhara_blocks: 35
+latest_release_wfw_entries: 35
 latest_release_no_commentary: none
 canto_1_audit_status: COMPLETE
 canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
@@ -120,11 +120,11 @@ canto_2_audit_status: COMPLETE
 canto_2_verified_chapters: 2.1-2.10
 canto_2_source_ranges: 371
 canto_11_audit_status: COMPLETE
-canto_11_verified_chapters: 11.1-11.9
-canto_11_source_ranges: 389
+canto_11_verified_chapters: 11.1-11.10
+canto_11_source_ranges: 424
 canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23, 11.5.17, 11.5.23, 11.5.51, 11.6.2–11.6.3, 11.6.6, 11.6.7, 11.6.13, 11.6.14, 11.6.15, 11.6.20, 11.6.23, 11.6.24, 11.6.25, 11.6.26, 11.6.27, 11.6.28, 11.6.31, 11.6.32, 11.6.33, 11.6.34, 11.6.39, 11.6.40–11.6.41, 11.6.43, 11.6.44, 11.6.47, 11.6.50, 11.7.2, 11.7.6, 11.7.13, 11.7.15, 11.7.25, 11.7.31, 11.7.56, 11.7.59, 11.7.62, 11.7.65, 11.7.69–11.7.70, 11.7.73
-next_resume_target: 11.10
-resume_note: "Canto 11 Chapters 1–9 are source-audited and live-verified; continue with Canto 11 Chapter 10."
+next_resume_target: 11.11
+resume_note: "Canto 11 Chapters 1–10 are source-audited and live-verified; continue with Canto 11 Chapter 11."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
