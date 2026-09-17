@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "source-checked-and-reader-committed",
+  "status": "live-verified",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/11/05_jAyanteyopAkhyAnaM.md",
@@ -1620,5 +1620,6 @@
       ],
       "literal_english": "Whoever hears and retains this account with a concentrated mind shakes off impurity and delusion here in this very body and becomes fit for Brahmanhood."
     }
-  ]
+  ],
+  "release_commit": "38830c27f5698bc83e9f98c0ba7c4a005c04ecad"
 }

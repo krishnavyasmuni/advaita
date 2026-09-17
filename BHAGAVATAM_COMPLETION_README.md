@@ -93,7 +93,7 @@ The current release ledger has been updated through the following chapter:
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 5c277d5a9d2772d937bffcc8d9c7133a305c6c26
+last_audited_data_commit: 38830c27f5698bc83e9f98c0ba7c4a005c04ecad
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -103,28 +103,28 @@ current_contents_link_groups:
   - 3.1-3.33
   - 4.1-4.4
   - 10.1
-  - 11.1-11.4
+  - 11.1-11.5
   - 12.13
-visible_contents_link_count: 72
+visible_contents_link_count: 73
 manifest_chapter_count: 335
-latest_verified_release: 11.4
+latest_verified_release: 11.5
 latest_release_status: LIVE_VERIFIED
-latest_release_source_blob_sha: 625a007902fb300f3c909a17c39773e1e02ed139
-latest_release_expected_verses: 23
-latest_release_sridhara_blocks: 22
-latest_release_wfw_entries: 23
-latest_release_no_commentary: 11.4.23
+latest_release_source_blob_sha: e1bb44d6d20ea8ba80e4099fe2762ec8b7985162
+latest_release_expected_verses: 52
+latest_release_sridhara_blocks: 48
+latest_release_wfw_entries: 49
+latest_release_no_commentary: 11.5.17, 11.5.23, 11.5.51
 canto_1_audit_status: COMPLETE
 canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
 canto_2_audit_status: COMPLETE
 canto_2_verified_chapters: 2.1-2.10
 canto_2_source_ranges: 371
 canto_11_audit_status: IN_PROGRESS
-canto_11_verified_chapters: 11.1-11.4
-canto_11_source_ranges: 149
-canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23
-next_resume_target: 11.5
-resume_note: "Canto 11 Chapters 1–4 are source-audited and live-verified; continue with Canto 11 Chapter 5."
+canto_11_verified_chapters: 11.1-11.5
+canto_11_source_ranges: 198
+canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23, 11.5.17, 11.5.23, 11.5.51
+next_resume_target: 11.6
+resume_note: "Canto 11 Chapters 1–5 are source-audited and live-verified; continue with Canto 11 Chapter 6."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
