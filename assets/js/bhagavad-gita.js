@@ -821,6 +821,21 @@
     return out;
   };
 
+  const getSourceRange = (entry, fallback) => {
+    const nums = String(entry && entry.verse_number || fallback).match(/\d+/g) || [String(fallback)];
+    const start = Number(nums[0]) || fallback;
+    const end = Number(nums[nums.length - 1]) || start;
+    return {start, end};
+  };
+
+  const sourceRangeLabel = (range) =>
+    chapter + '.' + range.start + (range.end > range.start ? '–' + chapter + '.' + range.end : '');
+
+  const groupedSourceNote = (label, range) =>
+    label + ' for BG ' + sourceRangeLabel(range) +
+    ' is published as one grouped record; the exact source text is shown under ' +
+    '<a href="#gita-' + chapter + '-' + range.start + '">BG ' + sourceRangeLabel(range) + '</a>.';
+
   const pickSanskritVerse = (entry, n) => {
     const value = String(entry && entry.sanskrit_text || '');
     const re = new RegExp('(?:\\|\\||।।)\\s*' + chapter + '\\.(\\d+)\\s*(?:\\|\\||।।)', 'g');
@@ -851,11 +866,28 @@
     const rootLines = rootText.split('\n').map((x) => x.trim()).filter(Boolean).join('<br>');
     const english = sourceMode === 'legacy'
       ? (d.gambir && d.gambir.et ? lines(d.gambir.et) : 'English translation unavailable in the source record.')
-      : (d.mukEnglish ? lines(d.mukEnglish) : 'No Mukundananda translation supplied in the source record.');
+      : d.mukEnglish
+        ? (d.mukEnglishRange
+          ? '<span class="gita-translation-range">Mukundananda translation for BG ' + sourceRangeLabel(d.mukEnglishRange) + ':</span><br>' + lines(d.mukEnglish)
+          : lines(d.mukEnglish))
+        : (d.mukEnglishShared
+          ? groupedSourceNote('Mukundananda’s translation', d.mukEnglishShared)
+          : 'No Mukundananda translation supplied in the source record.');
     const key = chapter + '.' + n;
     const wordMeaning = sourceMode === 'legacy'
-      ? (meanings[key] || 'Word-for-word meaning unavailable in the source record.')
-      : (d.wordMeaning || 'Word-for-word meaning unavailable in the source record.');
+      ? lines(meanings[key] || 'Word-for-word meaning unavailable in the source record.')
+      : d.wordMeaning
+        ? lines(d.wordMeaning)
+        : (d.wordMeaningShared
+          ? groupedSourceNote('Mukundananda’s word meanings', d.wordMeaningShared)
+          : 'Word-for-word meaning unavailable in the source record.');
+    const transliteration = sourceMode === 'legacy'
+      ? lines(d.transliteration || 'Transliteration unavailable in the source record.')
+      : d.transliteration
+        ? lines(d.transliteration)
+        : (d.transliterationShared
+          ? groupedSourceNote('The pinned source transliteration', d.transliterationShared)
+          : 'Transliteration unavailable in the source record.');
     const commentary = d.srid && d.srid.sc
       ? lines(d.srid.sc)
       : (sourceMode === 'legacy' ? 'No separate Sanskrit commentary is recorded for this verse in the source data.' : 'No commentary.');
@@ -870,8 +902,8 @@
       '<div class="gita-sanskrit" lang="sa-Deva">' + rootLines + '</div>' +
       '<p class="gita-translation">' + english + '</p>' +
       '<div class="gita-controls">' +
-      '<details class="gita-details"><summary>Word-for-word</summary><div class="gita-reveal"><p>' + lines(wordMeaning) + '</p></div></details>' +
-      '<details class="gita-details"><summary>Transliteration</summary><div class="gita-reveal"><p><em>' + lines(d.transliteration) + '</em></p></div></details>' +
+      '<details class="gita-details"><summary>Word-for-word</summary><div class="gita-reveal"><p>' + wordMeaning + '</p></div></details>' +
+      '<details class="gita-details"><summary>Transliteration</summary><div class="gita-reveal"><p><em>' + transliteration + '</em></p></div></details>' +
       '<details class="gita-details"><summary>Śrīdhara Sanskrit</summary><div class="gita-reveal"><p lang="sa">' + commentary + '</p></div></details>' +
       '</div><section class="gita-commentary"><h3>Śrīdhara’s Commentary.</h3><p>' + translatedCommentary + '</p></section></article>';
   };
@@ -918,13 +950,21 @@
       const c = commonByVerse[n] || {};
       const m = mukByVerse[n] || {};
       const override = commonOverrides[n] || {};
+      const hasTransliterationOverride = Object.prototype.hasOwnProperty.call(override, 'transliteration');
+      const hasWordMeaningOverride = Object.prototype.hasOwnProperty.call(override, 'wordMeaning');
+      const commonRange = getSourceRange(c, n);
+      const mukRange = getSourceRange(m, n);
       const sridharaCommentary = vasukiByVerse[n] || 'No commentary.';
       return {
         verse: n,
         slok: override.slok || pickSanskritVerse(c, n),
-        transliteration: override.transliteration || c.transliteration || '',
-        wordMeaning: override.wordMeaning || c.word_meanings || '',
-        mukEnglish: m.translation || '',
+        transliteration: hasTransliterationOverride || commonRange.start === n ? (override.transliteration || c.transliteration || '') : '',
+        transliterationShared: !hasTransliterationOverride && commonRange.start !== n && c.transliteration ? commonRange : null,
+        wordMeaning: hasWordMeaningOverride || commonRange.start === n ? (override.wordMeaning || c.word_meanings || '') : '',
+        wordMeaningShared: !hasWordMeaningOverride && commonRange.start !== n && c.word_meanings ? commonRange : null,
+        mukEnglish: mukRange.start === n ? (m.translation || '') : '',
+        mukEnglishRange: mukRange.start === n && mukRange.end > mukRange.start ? mukRange : null,
+        mukEnglishShared: mukRange.start !== n && m.translation ? mukRange : null,
         srid: {sc: sridharaCommentary}
       };
     });
@@ -932,7 +972,7 @@
       data,
       {},
       'mukundananda',
-      'Sanskrit, transliteration, and word-for-word meanings are loaded from the pinned common data at <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
+      'Sanskrit, transliteration, and word-for-word meanings are loaded from the pinned common data at <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. The pinned Mukundananda data publishes 49 multi-verse translation and word-meaning records; the reader shows each grouped record once and links later verse records to it instead of duplicating or inventing verse-specific text. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
     );
   };
 

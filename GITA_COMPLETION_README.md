@@ -43,6 +43,10 @@ The source-to-display exceptions are recorded in [bhagavad-gita-vasuki-manifest.
 - Chapter 18 and the other grouped chapters use the recorded section map rather than positional assumptions.
 - Duplicate Śrīdhara labels inside a grouped Vasuki heading are preserved in source order and selected through the manifest’s section index.
 
+### Mukundananda grouped ranges
+
+The pinned Mukundananda file publishes some translations, word meanings, and transliterations as one source record covering multiple verses. It contains 49 multi-verse translation records, producing 61 later verse cards that must not repeat the entire group text. The reader now shows each exact grouped record once under its first verse and gives the remaining verse cards a link back to that source range. This preserves the source wording without inventing verse-level translations that Mukundananda did not publish separately.
+
 ## Local reviewed data
 
 The existing reviewed files under `assets/data/bhagavad-gita-sridhara-reviewed/` provide the independent literal glosses used by the second commentary panel. Nine source-present records that had been incorrectly marked as empty were corrected in [bhagavad-gita-sridhara-vasuki-overrides.json](assets/data/bhagavad-gita-sridhara-vasuki-overrides.json):
