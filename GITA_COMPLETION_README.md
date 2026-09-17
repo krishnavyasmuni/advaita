@@ -46,7 +46,7 @@ The source-to-display exceptions are recorded in [bhagavad-gita-vasuki-manifest.
 
 ### Mukundananda grouped ranges
 
-The pinned Mukundananda author file and common word-meaning file publish 49 grouped records covering multiple verses. The reader preserves each grouped record exactly: its full source text is shown once on the first verse card with a Holy Bhagavad Gita source-range link, while later verse cards identify the same grouped record without repeating its text. Sanskrit and transliteration are loaded separately from the API’s one-record-per-verse data model for all 701 visible verse cards. This applies to every grouped range, including BG 1.29–1.31.
+The pinned Mukundananda author file and common word-meaning file publish 49 grouped records covering multiple verses. The reader preserves each grouped record exactly: its full source text is shown once on the first verse card with a Holy Bhagavad Gita source-range link, while later verse cards omit those grouped fields instead of showing generated explanatory text or fabricated per-verse wording. Sanskrit and transliteration are loaded separately from the API’s one-record-per-verse data model for all 701 visible verse cards. This applies to every grouped range, including BG 1.29–1.31.
 
 ## Local reviewed data
 
@@ -61,7 +61,7 @@ Twenty-four reviewed JSON parts that were missing their final closing brace were
 - Chapter counts: 47, 72, 43, 42, 29, 47, 30, 28, 34, 42, 55, 20, 35, 27, 20, 24, 28, 78.
 - Total visible records: 701.
 - Every visible record has a pinned per-verse Sanskrit/transliteration record from the vedicscriptures data model, plus the pinned common word-meaning and Mukundananda source records.
-- All 49 grouped source records are rendered exactly once, with later verse cards linked to the first range card and no repeated grouped translation or word-meaning text.
+- All 49 grouped source records are rendered exactly once on their first range card; later cards omit the grouped fields instead of showing generated explanatory text or repeated source text.
 - Every chapter’s Vasuki Markdown parses to the manifest’s recorded Śrīdhara section count.
 - Every visible verse has either a mapped Vasuki section or an intentional `No commentary.` value.
 - The loader contains no moving `main` source URL for the per-verse Sanskrit/transliteration records and no fallback to the unrelated `author_8_sa.json` feed.

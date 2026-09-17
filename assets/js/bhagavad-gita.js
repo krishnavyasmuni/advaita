@@ -842,11 +842,6 @@
   const sourceRangeUrl = (range) =>
     'https://www.holy-bhagavad-gita.org/chapter/' + chapter + '/verse/' + range.start + '-' + range.end;
 
-  const groupedSourceNote = (label, range) =>
-    label + ' for BG ' + sourceRangeLabel(range) +
-    ' is published as one grouped record; the exact source text is shown under ' +
-    '<a href="#gita-' + chapter + '-' + range.start + '">BG ' + sourceRangeLabel(range) + '</a>.';
-
   const pickSanskritVerse = (entry, n) => {
     const value = String(entry && entry.sanskrit_text || '');
     const re = new RegExp('(?:\\|\\||।।)\\s*' + chapter + '\\.(\\d+)\\s*(?:\\|\\||।।)', 'g');
@@ -881,24 +876,18 @@
         ? (d.mukEnglishRange
           ? '<span class="gita-translation-range">Mukundananda source: <a href="' + sourceRangeUrl(d.mukEnglishRange) + '" target="_blank" rel="noopener">BG ' + sourceRangeLabel(d.mukEnglishRange) + '</a></span><br>' + lines(d.mukEnglish)
           : lines(d.mukEnglish))
-        : (d.mukEnglishShared
-          ? groupedSourceNote('Mukundananda’s translation', d.mukEnglishShared)
-          : 'No Mukundananda translation supplied in the source record.');
+        : '';
     const key = chapter + '.' + n;
     const wordMeaning = sourceMode === 'legacy'
       ? lines(meanings[key] || 'Word-for-word meaning unavailable in the source record.')
       : d.wordMeaning
         ? lines(d.wordMeaning)
-        : (d.wordMeaningShared
-          ? groupedSourceNote('Mukundananda’s word meanings', d.wordMeaningShared)
-          : 'Word-for-word meaning unavailable in the source record.');
+        : '';
     const transliteration = sourceMode === 'legacy'
       ? lines(d.transliteration || 'Transliteration unavailable in the source record.')
       : d.transliteration
         ? lines(d.transliteration)
-        : (d.transliterationShared
-          ? groupedSourceNote('The pinned source transliteration', d.transliterationShared)
-          : 'Transliteration unavailable in the source record.');
+        : '';
     const commentary = d.srid && d.srid.sc
       ? lines(d.srid.sc)
       : (sourceMode === 'legacy' ? 'No separate Sanskrit commentary is recorded for this verse in the source data.' : 'No commentary.');
@@ -908,13 +897,23 @@
         ? (d.srid && d.srid.et ? lines(d.srid.et) : 'The source repository supplies Śrīdhara Svāmī’s commentary in Sanskrit; no English translation field is supplied there.')
         : (d.srid && d.srid.sc ? 'The Sanskrit commentary is shown above; no separate English rendering is supplied in the source record.' : 'No commentary.'));
 
+    const translationPanel = english
+      ? '<p class="gita-translation">' + english + '</p>'
+      : '';
+    const wordMeaningPanel = wordMeaning
+      ? '<details class="gita-details"><summary>Word-for-word</summary><div class="gita-reveal"><p>' + wordMeaning + '</p></div></details>'
+      : '';
+    const transliterationPanel = transliteration
+      ? '<details class="gita-details"><summary>Transliteration</summary><div class="gita-reveal"><p><em>' + transliteration + '</em></p></div></details>'
+      : '';
+
     return '<article class="gita-verse" id="gita-' + chapter + '-' + n + '">' +
       '<h2><span>BG</span> ' + chapter + '.' + n + '</h2><hr class="gita-verse-rule">' +
       '<div class="gita-sanskrit" lang="sa-Deva">' + rootLines + '</div>' +
-      '<p class="gita-translation">' + english + '</p>' +
+      translationPanel +
       '<div class="gita-controls">' +
-      '<details class="gita-details"><summary>Word-for-word</summary><div class="gita-reveal"><p>' + wordMeaning + '</p></div></details>' +
-      '<details class="gita-details"><summary>Transliteration</summary><div class="gita-reveal"><p><em>' + transliteration + '</em></p></div></details>' +
+      wordMeaningPanel +
+      transliterationPanel +
       '<details class="gita-details"><summary>Śrīdhara Sanskrit</summary><div class="gita-reveal"><p lang="sa">' + commentary + '</p></div></details>' +
       '</div><section class="gita-commentary"><h3>Śrīdhara’s Commentary.</h3><p>' + translatedCommentary + '</p></section></article>';
   };
@@ -996,7 +995,7 @@
       data,
       {},
       'mukundananda',
-      'Sanskrit and transliteration are loaded from the pinned per-verse records in <a href="https://github.com/vedicscriptures/bhagavad-gita-api" target="_blank" rel="noopener">vedicscriptures/bhagavad-gita-api</a> using its companion data repository at commit <a href="https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok" target="_blank" rel="noopener">43dfc8db815d01e15a347ea294b089334cf2aa17</a>. Mukundananda’s English and Holy Bhagavad Gita word meanings remain from the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a> and <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">common_en.json</a>. All 49 multi-verse Mukundananda/common source records are kept intact: the exact grouped text appears once on the first verse card with a source-range link, and later verse cards identify the same record without repeating its text. This preserves the source’s published grouping while Sanskrit and transliteration remain one-record-per-verse from the API data model. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
+      'Sanskrit and transliteration are loaded from the pinned per-verse records in <a href="https://github.com/vedicscriptures/bhagavad-gita-api" target="_blank" rel="noopener">vedicscriptures/bhagavad-gita-api</a> using its companion data repository at commit <a href="https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok" target="_blank" rel="noopener">43dfc8db815d01e15a347ea294b089334cf2aa17</a>. Mukundananda’s English and Holy Bhagavad Gita word meanings remain from the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a> and <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">common_en.json</a>. All 49 multi-verse Mukundananda/common source records are kept intact: each exact grouped source appears once on the first verse card with a source-range link; later verse cards do not repeat or fabricate per-verse translation or word-meaning text. Sanskrit and transliteration remain one-record-per-verse from the API data model. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
     );
   };
 
