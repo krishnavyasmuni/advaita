@@ -93,7 +93,7 @@ The current release ledger has been updated through the following chapter:
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 95afc39eba66c489d4125dac0b2d86db7fa4babb
+last_audited_data_commit: 8f4c61314a200eb115b1af89ecfb5b137fbf7423
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -107,17 +107,20 @@ current_contents_link_groups:
   - 12.13
 visible_contents_link_count: 70
 manifest_chapter_count: 335
-latest_verified_release: 1.19
+latest_verified_release: 2.10
 latest_release_status: LIVE_VERIFIED
-latest_release_source_blob_sha: 21534e75d202245e679e1651fe46fae09e2b6db8
-latest_release_expected_verses: 40
-latest_release_sridhara_blocks: 37
-latest_release_wfw_entries: 37
+latest_release_source_blob_sha: 78979d596cb7e429e2c2200c40a4ba0e22b0a4a3
+latest_release_expected_verses: 51
+latest_release_sridhara_blocks: 45
+latest_release_wfw_entries: 45
 latest_release_no_commentary: none
 canto_1_audit_status: COMPLETE
 canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
-next_resume_target: 2.1
-resume_note: "Canto 1 Chapters 1–19 are source-audited; continue with Canto 2 Chapter 1."
+canto_2_audit_status: COMPLETE
+canto_2_verified_chapters: 2.1-2.10
+canto_2_source_ranges: 371
+next_resume_target: 3.1
+resume_note: "Canto 2 Chapters 1–10 are source-audited and live-verified; continue with Canto 3 Chapter 1."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
