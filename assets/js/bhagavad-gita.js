@@ -847,29 +847,6 @@
     ' is published as one grouped record; the exact source text is shown under ' +
     '<a href="#gita-' + chapter + '-' + range.start + '">BG ' + sourceRangeLabel(range) + '</a>.';
 
-  const getGroupedDisplayOverride = (chapterNumber, verseNumber, commonEntry, mukundanandaEntry, mukRange) => {
-    if (chapterNumber !== 1 || !mukRange || mukRange.start !== 29 || mukRange.end !== 31) return null;
-    const key = String(verseNumber);
-    const translationSlices = {29: [0, 1], 30: [1, 3], 31: [3, 5]};
-    const wordMeaningSlices = {29: [0, 2], 30: [2, 3], 31: [3, 4]};
-    if (!translationSlices[key] || !wordMeaningSlices[key]) return null;
-
-    const sentences = String(mukundanandaEntry && mukundanandaEntry.translation || '')
-      .match(/[^.!?]+[.!?]+/g) || [];
-    const translationSlice = translationSlices[key];
-    const wordLines = String(commonEntry && commonEntry.word_meanings || '')
-      .split(/\n+/)
-      .map((line) => line.trim())
-      .filter(Boolean);
-    const wordMeaningSlice = wordMeaningSlices[key];
-
-    return {
-      mukEnglish: sentences.slice(translationSlice[0], translationSlice[1]).map((sentence) => sentence.trim()).join(' ').trim(),
-      wordMeaning: wordLines.slice(wordMeaningSlice[0], wordMeaningSlice[1]).join('\n').trim(),
-      mukEnglishSourceRange: mukRange
-    };
-  };
-
   const pickSanskritVerse = (entry, n) => {
     const value = String(entry && entry.sanskrit_text || '');
     const re = new RegExp('(?:\\|\\||।।)\\s*' + chapter + '\\.(\\d+)\\s*(?:\\|\\||।।)', 'g');
@@ -902,10 +879,8 @@
       ? (d.gambir && d.gambir.et ? lines(d.gambir.et) : 'English translation unavailable in the source record.')
       : d.mukEnglish
         ? (d.mukEnglishRange
-          ? '<span class="gita-translation-range">Mukundananda translation for BG ' + sourceRangeLabel(d.mukEnglishRange) + ':</span><br>' + lines(d.mukEnglish)
-          : (d.mukEnglishSourceRange
-            ? '<span class="gita-translation-range">Mukundananda source: <a href="' + sourceRangeUrl(d.mukEnglishSourceRange) + '" target="_blank" rel="noopener">BG ' + sourceRangeLabel(d.mukEnglishSourceRange) + '</a></span><br>' + lines(d.mukEnglish)
-            : lines(d.mukEnglish)))
+          ? '<span class="gita-translation-range">Mukundananda source: <a href="' + sourceRangeUrl(d.mukEnglishRange) + '" target="_blank" rel="noopener">BG ' + sourceRangeLabel(d.mukEnglishRange) + '</a></span><br>' + lines(d.mukEnglish)
+          : lines(d.mukEnglish))
         : (d.mukEnglishShared
           ? groupedSourceNote('Mukundananda’s translation', d.mukEnglishShared)
           : 'No Mukundananda translation supplied in the source record.');
@@ -992,7 +967,6 @@
       const override = commonOverrides[n] || {};
       const commonRange = getSourceRange(c, n);
       const mukRange = getSourceRange(m, n);
-      const groupedOverride = getGroupedDisplayOverride(chapter, n, c, m, mukRange);
       const hasTransliterationOverride = Object.prototype.hasOwnProperty.call(override, 'transliteration');
       const hasWordMeaningOverride = Object.prototype.hasOwnProperty.call(override, 'wordMeaning');
       const apiTransliteration = cleanApiTransliteration(api.transliteration);
@@ -1006,22 +980,15 @@
         transliterationShared: apiTransliteration || hasTransliterationOverride || commonRange.start === n
           ? null
           : (c.transliteration ? commonRange : null),
-        wordMeaning: groupedOverride
-          ? groupedOverride.wordMeaning
-          : (hasWordMeaningOverride || commonRange.start === n ? (override.wordMeaning || c.word_meanings || '') : ''),
-        wordMeaningShared: groupedOverride || hasWordMeaningOverride || commonRange.start === n
+        wordMeaning: hasWordMeaningOverride || commonRange.start === n
+          ? (override.wordMeaning || c.word_meanings || '')
+          : '',
+        wordMeaningShared: hasWordMeaningOverride || commonRange.start === n
           ? null
           : (c.word_meanings ? commonRange : null),
-        mukEnglish: groupedOverride
-          ? groupedOverride.mukEnglish
-          : (mukRange.start === n ? (m.translation || '') : ''),
-        mukEnglishRange: groupedOverride
-          ? null
-          : (mukRange.start === n && mukRange.end > mukRange.start ? mukRange : null),
-        mukEnglishShared: groupedOverride
-          ? null
-          : (mukRange.start !== n && m.translation ? mukRange : null),
-        mukEnglishSourceRange: groupedOverride ? groupedOverride.mukEnglishSourceRange : null,
+        mukEnglish: mukRange.start === n ? (m.translation || '') : '',
+        mukEnglishRange: mukRange.start === n && mukRange.end > mukRange.start ? mukRange : null,
+        mukEnglishShared: mukRange.start !== n && m.translation ? mukRange : null,
         srid: {sc: sridharaCommentary}
       };
     });
@@ -1029,7 +996,7 @@
       data,
       {},
       'mukundananda',
-      'Sanskrit and transliteration are loaded from the pinned per-verse records in <a href="https://github.com/vedicscriptures/bhagavad-gita-api" target="_blank" rel="noopener">vedicscriptures/bhagavad-gita-api</a> using its companion data repository at commit <a href="https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok" target="_blank" rel="noopener">43dfc8db815d01e15a347ea294b089334cf2aa17</a>. Mukundananda’s English and Holy Bhagavad Gita word meanings remain from the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a> and <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">common_en.json</a>. For BG 1.29–1.31, the source group is aligned to three verse cards only at its explicit sentence and word-meaning boundaries; the source wording is preserved and never repeated into the other cards. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
+      'Sanskrit and transliteration are loaded from the pinned per-verse records in <a href="https://github.com/vedicscriptures/bhagavad-gita-api" target="_blank" rel="noopener">vedicscriptures/bhagavad-gita-api</a> using its companion data repository at commit <a href="https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok" target="_blank" rel="noopener">43dfc8db815d01e15a347ea294b089334cf2aa17</a>. Mukundananda’s English and Holy Bhagavad Gita word meanings remain from the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a> and <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">common_en.json</a>. All 49 multi-verse Mukundananda/common source records are kept intact: the exact grouped text appears once on the first verse card with a source-range link, and later verse cards identify the same record without repeating its text. This preserves the source’s published grouping while Sanskrit and transliteration remain one-record-per-verse from the API data model. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
     );
   };
 
