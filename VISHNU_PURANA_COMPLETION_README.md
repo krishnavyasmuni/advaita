@@ -39,7 +39,7 @@ If source access, numbering, or alignment is genuinely blocked, stop immediately
 and report the exact chapter and verse numbers affected. Do not publish a
 partial or guessed result.
 
-## Fast execution path (mandatory from Book 2, Chapter 17)
+## Fast execution path (mandatory from Book 3, Chapter 1 onward)
 
 This is the fixed release loop. Once the required source files are available,
 complete the build, commit, and read-back in the same execution pass. Do not
@@ -191,10 +191,10 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 2, Chapter 16 |
-| Current repair target | Book 2, Chapter 17 |
-| Next chapter after the repair target | Book 2, Chapter 18 |
-| Main Contents page | Book 1 Chapters 1–22 and Book 2 Chapters 1–16 are listed |
+| Last committed route | Book 2, Chapter 16 |\n| Book 2 status | COMPLETE — Chapters 1–16 are present and verified in the repository |
+| Current repair target | Book 3, Chapter 1 |
+| Next chapter after the repair target | Book 3, Chapter 2 |
+| Main Contents page | Book 1 Chapters 1–22 and Book 2 Chapters 1–16 are listed; Book 2 is complete |
 | Legacy word-for-word remediation queue | Book 1 Chapters 9–16 and 18–21 |
 | Progress rule | Mark a chapter complete only after its full file, source mapping, Contents link, README state, commit, and post-commit verification pass |
 
