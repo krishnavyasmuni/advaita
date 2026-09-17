@@ -191,11 +191,14 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3, Chapter 18 |\n| Book 2 status | COMPLETE — Chapters 1–16 are present and verified in the repository |\n| Book 3 status | COMPLETE — Chapters 1–18 are present and verified in the repository |
-| Current repair target | — none |
-| Next chapter after the repair target | — none |
-| Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed |
-| Legacy word-for-word remediation queue | Book 1 Chapters 9–16 and 18–21 |
+| Last committed route | Book 1, Chapter 9 (legacy lexical remediation) |
+| Book 1 status | Chapters 1–9 are present; Chapter 9 has been repaired and verified; Chapters 10–16 and 18–21 remain in the remediation queue |
+| Book 2 status | COMPLETE — Chapters 1–16 are present and verified in the repository |
+| Book 3 status | IN PROGRESS — Chapters 1–18 are present as routes; Chapters 2–18 still contain legacy direct-lexical placeholder passages and require repair |
+| Current repair target | Book 1, Chapter 10 |
+| Next chapter after the repair target | Book 1, Chapter 11 |
+| Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are currently listed; semantic completion follows the tracker and chapter audits |
+| Legacy word-for-word remediation queue | Book 1 Chapters 10–16 and 18–21; then Book 3 Chapters 2–18 |
 | Progress rule | Mark a chapter complete only after its full file, source mapping, Contents link, README state, commit, and post-commit verification pass |
 
 A published route and a semantically complete chapter are different states. A
