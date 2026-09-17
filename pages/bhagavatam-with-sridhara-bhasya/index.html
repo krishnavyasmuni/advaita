@@ -32,7 +32,7 @@
 {book:3,name:'Canto 3',chapters:Array.from({length:33},(_,i)=>i+1)},
 {book:4,name:'Canto 4',chapters:[1,2,3,4]},
 {book:10,name:'Canto 10',chapters:[1]},
-{book:11,name:'Canto 11',chapters:[1,2,3,4]},
+{book:11,name:'Canto 11',chapters:[1,2,3,4,5]},
 {book:12,name:'Canto 12',chapters:[13]}
 ];const base='/vivekadrishti/articles/srimad-bhagavatam-canto-';books.forEach(({book,name,chapters})=>{const section=document.createElement('section');section.className='book';section.id='book-'+book;const h=document.createElement('h3');h.textContent='Book '+book+(name?' — '+name:'');const grid=document.createElement('div');grid.className='chapter-grid';chapters.forEach(chapter=>{const a=document.createElement('a');if(book===12&&chapter===13){a.href=base+'12-sridhara-svami/chapter-13/'}else{a.href=base+String(book).padStart(2,'0')+'-sridhara-svami/#chapter-'+String(chapter)}a.textContent=book+'.'+chapter+' — Chapter '+chapter;grid.appendChild(a)});section.append(h,grid);root.appendChild(section)})})();
 </script>

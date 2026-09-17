@@ -27,6 +27,7 @@
       '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch02-verses35-55.json?v=20260917-1'
       ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch03-verses01-55.json?v=20260917-1'
       ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch04-verses01-23.json?v=20260917-1'
+      ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch05-verses01-52.json?v=20260917-1'
     );
   }
 
@@ -104,7 +105,7 @@
     section.appendChild(commentary);
   }
 
-  const explicitNoCommentary = new Set(['11:1:20', '11:2:3', '11:3:22', '11:4:23']);
+  const explicitNoCommentary = new Set(['11:1:20', '11:2:3', '11:3:22', '11:4:23', '11:5:17', '11:5:23', '11:5:51']);
 
   function apply() {
     const shell = host.querySelector('.sb-chapter-shell[data-chapter]');
