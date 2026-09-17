@@ -191,10 +191,10 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 2, Chapter 16 |\n| Book 2 status | COMPLETE — Chapters 1–16 are present and verified in the repository |
-| Current repair target | Book 3, Chapter 1 |
-| Next chapter after the repair target | Book 3, Chapter 2 |
-| Main Contents page | Book 1 Chapters 1–22 and Book 2 Chapters 1–16 are listed; Book 2 is complete |
+| Last committed route | Book 3, Chapter 1 |\n| Book 2 status | COMPLETE — Chapters 1–16 are present and verified in the repository |\n| Book 3 status | IN PROGRESS — Chapter 1 complete |
+| Current repair target | Book 3, Chapter 2 |
+| Next chapter after the repair target | Book 3, Chapter 3 |
+| Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapter 1 are listed |
 | Legacy word-for-word remediation queue | Book 1 Chapters 9–16 and 18–21 |
 | Progress rule | Mark a chapter complete only after its full file, source mapping, Contents link, README state, commit, and post-commit verification pass |
 
