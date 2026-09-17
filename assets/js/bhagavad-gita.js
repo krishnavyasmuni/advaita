@@ -836,12 +836,6 @@
     return {start, end};
   };
 
-  const sourceRangeLabel = (range) =>
-    chapter + '.' + range.start + (range.end > range.start ? '–' + chapter + '.' + range.end : '');
-
-  const sourceRangeUrl = (range) =>
-    'https://www.holy-bhagavad-gita.org/chapter/' + chapter + '/verse/' + range.start + '-' + range.end;
-
   const pickSanskritVerse = (entry, n) => {
     const value = String(entry && entry.sanskrit_text || '');
     const re = new RegExp('(?:\\|\\||।।)\\s*' + chapter + '\\.(\\d+)\\s*(?:\\|\\||।।)', 'g');
@@ -873,9 +867,7 @@
     const english = sourceMode === 'legacy'
       ? (d.gambir && d.gambir.et ? lines(d.gambir.et) : 'English translation unavailable in the source record.')
       : d.mukEnglish
-        ? (d.mukEnglishRange
-          ? '<span class="gita-translation-range">Mukundananda source: <a href="' + sourceRangeUrl(d.mukEnglishRange) + '" target="_blank" rel="noopener">BG ' + sourceRangeLabel(d.mukEnglishRange) + '</a></span><br>' + lines(d.mukEnglish)
-          : lines(d.mukEnglish))
+        ? lines(d.mukEnglish)
         : '';
     const key = chapter + '.' + n;
     const wordMeaning = sourceMode === 'legacy'
@@ -986,8 +978,6 @@
           ? null
           : (c.word_meanings ? commonRange : null),
         mukEnglish: mukRange.start === n ? (m.translation || '') : '',
-        mukEnglishRange: mukRange.start === n && mukRange.end > mukRange.start ? mukRange : null,
-        mukEnglishShared: mukRange.start !== n && m.translation ? mukRange : null,
         srid: {sc: sridharaCommentary}
       };
     });
@@ -995,7 +985,7 @@
       data,
       {},
       'mukundananda',
-      'Sanskrit and transliteration are loaded from the pinned per-verse records in <a href="https://github.com/vedicscriptures/bhagavad-gita-api" target="_blank" rel="noopener">vedicscriptures/bhagavad-gita-api</a> using its companion data repository at commit <a href="https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok" target="_blank" rel="noopener">43dfc8db815d01e15a347ea294b089334cf2aa17</a>. Mukundananda’s English and Holy Bhagavad Gita word meanings remain from the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a> and <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">common_en.json</a>. All 49 multi-verse Mukundananda/common source records are kept intact: each exact grouped source appears once on the first verse card with a source-range link; later verse cards do not repeat or fabricate per-verse translation or word-meaning text. Sanskrit and transliteration remain one-record-per-verse from the API data model. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
+      'Sanskrit and transliteration are loaded from the pinned per-verse records in <a href="https://github.com/vedicscriptures/bhagavad-gita-api" target="_blank" rel="noopener">vedicscriptures/bhagavad-gita-api</a> using its companion data repository at commit <a href="https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok" target="_blank" rel="noopener">43dfc8db815d01e15a347ea294b089334cf2aa17</a>. Mukundananda’s English and Holy Bhagavad Gita word meanings remain from the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a> and <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">common_en.json</a>. All 49 multi-verse Mukundananda/common source records are kept intact: each exact grouped source appears once on the first verse card, while later verse cards do not repeat or fabricate per-verse translation or word-meaning text. Sanskrit and transliteration remain one-record-per-verse from the API data model. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
     );
   };
 
