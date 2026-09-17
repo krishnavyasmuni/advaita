@@ -83,7 +83,7 @@
     const gitaWfw = wfwReveal.innerHTML;
     const gitaTrans = transReveal.innerHTML;
     const sridRaw = cleanSrid(sridTextNode.textContent);
-    const noCommentary = verseData.no_commentary === true || /^no commentary\.?$/i.test(sridRaw);
+    const noCommentary = /^no commentary\.?$/i.test(sridRaw);
     const sridTrans = noCommentary ? '<p class="gita-dual-empty">No commentary.</p>' : '<p><em>' + esc(devaToIast(sridRaw)) + '</em></p>';
 
     wfwReveal.innerHTML = dualBlock(gitaWfw, renderPairs(noCommentary ? [] : verseData.word_for_word));
@@ -154,10 +154,28 @@
     18: ['a','b','c','d','e1','e2a','e2b2','e2c','e3a','e3b']
   };
   const literalParts = literalPartsByChapter[chapter];
-  const cacheKey = '20260901-literal-final';
-  const dataPromise = literalParts
+  const cacheKey = '20260917-vasuki';
+  const reviewPromise = literalParts
     ? Promise.all(literalParts.map((part) => loadJson('/vivekadrishti/assets/data/bhagavad-gita-sridhara-reviewed/chapter-' + chapter + '-literal-' + part + '.json?v=' + cacheKey))).then(mergeParts)
     : loadJson('/vivekadrishti/assets/data/bhagavad-gita-sridhara-reviewed/chapter-' + chapter + '.json?v=' + cacheKey);
+
+  const vasukiOverridesPromise = loadJson('/vivekadrishti/assets/data/bhagavad-gita-sridhara-vasuki-overrides.json?v=' + cacheKey)
+    .catch(() => ({verses:{}}));
+
+  const dataPromise = Promise.all([reviewPromise, vasukiOverridesPromise]).then(([data, overrides]) => {
+    const verses = {...(data.verses || {})};
+    Object.entries(overrides.verses || {}).forEach(([key, value]) => {
+      const parts = key.split('.');
+      if (Number(parts[0]) !== chapter) return;
+      const verse = parts[1];
+      verses[verse] = {
+        ...(verses[verse] || {}),
+        ...value,
+        word_for_word: value.word_for_word || (verses[verse] && verses[verse].word_for_word) || []
+      };
+    });
+    return {...data, verses};
+  });
 
   dataPromise.then((data) => {
     chapterData = data;

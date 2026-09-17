@@ -751,26 +751,59 @@
     }
   };
 
-  const sridharaSanskritOverrides = {
-  "1": {
-    "38": "।।1.38।। ननु तवैतेषाम् अपि बन्धु-वध-दोषे समाने सति यथैवैते बन्धु-वध-दोषम् अङ्गीकृत्यापि युद्धे प्रवर्तते । तथैव भवान् अपि प्रवर्ततां किम् अनेन विषादेनेत्य् अत आह यद्यपीति द्वाभ्याम् । राज्य-लोभेनोपहतं भ्रष्ट-विवेकं चेतो येषां ते एते दुर्योधनादयो यद्यपि दोषं न पश्यन्ति, तथाप्यस्माभिर् दोषं प्रपश्यद्भिर् अस्मात् पापात् निवर्तितुं कथं न ज्ञेयं निवृत्ताव् एव बुद्धिः कर्तव्येत्य् अर्थः ॥३७-३८॥",
-    "39": "।।1.39।। तम् एव दोषं दर्शयति कुल-क्षय इत्य् आदि । सनातनाः परस्पराप्राप्ताः । उत अपि अवशिष्टं कृत्स्नम् अपि कुलम् अधर्मो ऽभिभवति व्याप्नोतीत्य् अर्थः ॥३९॥",
-    "40": "।।1.40।। ततश् च अधर्माभिभवाद् इत्य् आदि ॥४०॥",
-    "41": "।।1.41।। एवं सति सङ्कर इत्य् आदि । एषां कुल-घ्नानां पितरः पतन्ति । हि यस्मात् लुप्ताः पिण्डोदक-क्रिया येषां ते तथा ॥४१॥",
-    "42": "।।1.42।। उक्त-दोषम् उपसंहरति दोषैर् इति द्वाभ्यां । उत्साद्यन्ते लुप्यन्ते । जाति-धर्मा वर्ण-धर्माः कुल-धर्माश् चेति च-काराद् आश्रम-धर्मादयो ऽपि गृह्यन्ते ॥४२॥",
-    "43": "।।1.43।। उत्सन्नेति । उत्सन्नाः कुल-धर्मा येषाम् इति उत्सन्न-जाति-धर्मानाम् अप्य् उपलक्षणम् । अनुशुश्रुम श्रुतवन्तो वयम् । प्रायश्चित्तम् अकुर्वाणाः पापेषु निरता नराः । अपशात्-तापिनः कष्टान् निरयान् यान्ति दारुणान् ॥ इत्य् आदि वचनेभ्यः ॥४३॥",
-    "44": "।।1.44।। बन्धु-वधाध्यवसायेन सन्त्य् उपमाने आह अहो बतेत्यादि । स्वजनं हन्तुम् उद्यता इति यत् एतन्-महत्-पापं कर्तुम् अध्यवसायं कृतवन्तो वयम् । अहो बत महत् कष्टम् इत्य् अर्थः ॥४४॥",
-    "45": "।।1.45।। एवं सन्तप्तः सन् मृत्युम् एवाशंसमान आह यदि माम् इत्य् आदि । अप्रतीकारं तुष्णीम् उपविष्टं मां यदि हनिष्यन्ति तर्हि तद्-धननं मम क्षेमतरम् अत्यन्तं हितं भवेत् पापानिष्पत्तेः ॥४५॥",
-    "46": "।।1.46।। ततः किं वृत्तम् इत्य् अपेक्षायां सञ्जय उवाच एवम् उक्त्वेत्य् आदि । सङ्ख्ये सङ्ग्रामे रथोपस्थे रथस्योपरि उपाविशत् उपविवेश । शोकेन संविग्नं प्रकम्पितं मानसं चित्तं यस्य सः ॥४६॥",
-    "47": ""
-  },
-  "2": {
-    "17": "।।2.17।। अत्र सत्-स्वभावम् अविनाशि वस्तु सामान्येनोक्तं ततं तत्-साक्षित्वेन व्याप्तं तं तु आत्म-स्वरूपम् अविनाशि विनाश-शून्यं विद्धि जानीहि । तत्र हेतुम् आह विनाशम् इति ॥१७॥"
-  },
-  "18": {
-    "2": "।।18.2।। तत्रोत्तरं श्री-भगवान् उवाच - काम्यानाम् इति । काम्यानां पुत्र-कामो यजेत स्वर्ग-कामो यजेतेत्य् एवम् आदि कामोपबन्धेन विहितानां कर्मणां न्यासं परित्यागं सन्न्यासं कवयो विदुः । सम्यक्-फलैःसह सर्व-कर्मणाम् अपि न्यासं सन्न्यासं पण्डिता विदुर् जानन्तीत्य् अर्थः । सर्वेषां काम्यानां नित्य-नैमित्तिकानां च कर्मणां फल-मात्र-त्यागं प्राहुस् त्यागं प्राहुस् त्यागं विचक्षणा निपुणाः । न तु स्वरूपतः कर्म-त्यागम् । ननु नित्य-नैमित्तिकानां फलाश्रवणाद् अविद्यमानस्य फलस्य कथं त्यागः स्यात् । नहि बन्ध्यायाः पुत्र-त्यागः सम्भवन्ति । उच्यते यद्यपि स्वर्ग-कामः पशुकाम इत्य् आदिवद् अहरहः सन्ध्याम् उपासीत यावज्-जीवम् अग्निहोत्रं जुहोतीत्य् आदिषु फल-विशेषो न श्रूयते तथाप्य् अपुरुषार्थे व्यापारे प्रेक्षावन्तं प्रवर्तयितुम् अशक्नुवन् विधिर् विश्वजिता यजेतेत्य् आदिष्व् इव सामान्यतः किम् अपि फलम् आक्षिपत्य् एव । न चातीव-गुरुम् अतः श्रद्धया स्व-सिद्धिर् एव विधेः प्रयोजनम् इति मन्तव्यम् । पुरुष-प्रवृत्त्य्-अनुपपत्तेर् दुष्परहरत्वात् । श्रूयते च नित्यादिष्व् अपि फलम् - सर्व एते पुण्य-लोका भवतीति । कर्मणा पितृ-लोक इति । धर्मेण पापम् अपनुदन्ति इत्य् एवम् आदिषु । तस्माद् युक्तम् उक्तं सर्व-कर्म-फल-त्यागं प्राहुस् त्यागं विचक्षणा इति । ननु फल-त्यागेन पुनर् पै निष्फलेषु कर्मसु प्रवृत्तिर् एव न स्यात् । तन् न, सर्वेषाम् अपि कर्मणां संयोग-पृथक्त्वेन विविदिषार्थतया विनियोगात् । तथा च श्रुतिः - तम् एतं वेदानुवचनेन ब्राह्मणा विविदिषन्ति यज्ञेन दानेन तपसानाशकेनेति । ततश् च श्रुति-पदोक्तं सर्वं फलं बन्धकत्वेन त्यक्त्वा विविदिषार्थं सर्व-कर्मानुष्ठानं घटत एव । विविदिषा च नित्यानित्य-वस्तु-विवेकेन निवृत्त-देहाद्य्-अभिमानतया बुद्धेः प्रत्यक्-प्रवणता । तावत् पर्यन्तं च सत्त्व-शुद्ध्य्-अर्थं ज्ञानाविरुद्धं यथोचितम् अवश्यकं कर्म कुर्वतस् तत्-फल-त्याग एव कर्म-त्यागो नाम । न स्वरूपेण । तथा च श्रुतिः कुर्वन्न् एवेह कर्माणि जिजीविषेच् छतां समाः (ईशो २) इति । ततः परन्तु सर्व-कर्म-निवृत्तिः स्वत एव भवति । तद् उक्तं नैष्कर्म्य-सिद्धौ - प्रत्यक्-प्रवणतां बुद्धेः कर्माणि उत्पाद्य शुद्धितः । कृतार्थान्यस्तम् आयान्ति प्रावृडस्ते घना इव ॥ उक्तं च भगवता - यस् त्व् आत्म-रतिर् एव स्याद् इत्य् आदि । वशिष्ठेन चोक्तम् - न कर्माणि त्यजेद् योगी कर्मभिस् त्यज्यते ह्य् असौ । कर्मणो मूल-भूतस्य सङ्कल्पस्यैव नाशतः ॥ इति । ज्ञान-निष्ठा-विक्षेपकत्वम् आलक्ष्य त्यजेद् वा । तद् उक्तं श्री-भागवते - तावत् कर्माणि कुर्वीत न निर्विद्येत यावता । मत्-कथा-श्रवणादौ वा श्रद्धा यावन् न जायते ॥ (भ्प् ११।२०।९) ज्ञान-निष्ठो विरक्तो वा मद्-भक्तो वानपेक्षकः । सलिङ्गानाश्रमांस् त्यक्त्वा चरेद् अविधि-गोचरः ॥ (भ्प् ११।१८।२८) इत्य् आदि । अलम् अतिप्रसङ्गेन प्रकृतम् अनुसरामः ॥२॥"
-  }
-};
+
+  const GITA_DATA_COMMIT = '27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb';
+  const GITA_DATA_BASE = 'https://raw.githubusercontent.com/gita/gita-frontend-v2/' + GITA_DATA_COMMIT + '/data/';
+  const VASUKI_MANIFEST_URL = '/vivekadrishti/assets/data/bhagavad-gita-vasuki-manifest.json?v=20260917-1';
+
+  const fetchJson = (url) => fetch(url).then((response) => {
+    if (!response.ok) throw new Error('Could not load ' + url);
+    return response.json();
+  });
+
+  const fetchText = (url) => fetch(url).then((response) => {
+    if (!response.ok) throw new Error('Could not load ' + url);
+    return response.text();
+  });
+
+  const parseVasukiSections = (markdown) => {
+    const text = String(markdown || '').replace(/\r\n?/g, '\n');
+    const labelRe = /^([ \t]*(श्रीधर|मधुसूदन|विश्वनाथ|बलदेव)ः?[ \t]*-{1,2}[ \t]*)(.*)$/gmu;
+    const labels = Array.from(text.matchAll(labelRe));
+    return labels
+      .filter((label) => label[2] === 'श्रीधर')
+      .map((label) => {
+        const labelIndex = labels.indexOf(label);
+        const start = label.index + label[1].length;
+        const end = labelIndex + 1 < labels.length ? labels[labelIndex + 1].index : text.length;
+        return text.slice(start, end).trim();
+      });
+  };
+
+  const pickVasukiByVerse = (markdown, manifest, chapterNumber) => {
+    const chapterManifest = (manifest.chapters || {})[String(chapterNumber)] || {};
+    const sections = parseVasukiSections(markdown);
+    if (sections.length !== Number(chapterManifest.sections)) {
+      throw new Error('Vasuki section count mismatch for chapter ' + chapterNumber);
+    }
+    const mapping = chapterManifest.verse_to_section || [];
+    if (mapping.length !== counts[chapterNumber - 1]) {
+      throw new Error('Vasuki verse map count mismatch for chapter ' + chapterNumber);
+    }
+    const result = {};
+    mapping.forEach((sectionIndex, index) => {
+      const verse = index + 1;
+      if (sectionIndex === null || sectionIndex === undefined) {
+        result[verse] = 'No commentary.';
+        return;
+      }
+      if (!Number.isInteger(sectionIndex) || !sections[sectionIndex]) {
+        throw new Error('Vasuki verse map out of range for chapter ' + chapterNumber + ', verse ' + verse);
+      }
+      result[verse] = sections[sectionIndex];
+    });
+    return result;
+  };
 
   const esc = (value) => String(value || '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const lines = (value) => esc(value).replace(/\n/g, '<br>');
@@ -854,17 +887,20 @@
   const load = async () => {
     root.innerHTML = '<p class="gita-loading">Loading chapter text…</p>';
 
-    const [common, mukundananda, sridhara] = await Promise.all([
-      fetch('https://raw.githubusercontent.com/gita/gita-frontend-v2/main/data/common/common_en.json').then((r) => r.json()),
-      fetch('https://raw.githubusercontent.com/gita/gita-frontend-v2/main/data/authors/author_22_en.json').then((r) => r.json()),
-      fetch('https://raw.githubusercontent.com/gita/gita-frontend-v2/main/data/authors/author_8_sa.json').then((r) => r.json())
+    const vasukiManifest = await fetchJson(VASUKI_MANIFEST_URL);
+    const vasukiChapter = (vasukiManifest.chapters || {})[String(chapter)] || {};
+    const vasukiPath = vasukiManifest._meta.source_path + '/' + vasukiChapter.file;
+    const vasukiUrl = 'https://raw.githubusercontent.com/vishvAsa/mahAbhAratam/' + vasukiManifest._meta.source_commit + '/' + vasukiPath;
+    const [common, mukundananda, vasukiMarkdown] = await Promise.all([
+      fetchJson(GITA_DATA_BASE + 'common/common_en.json'),
+      fetchJson(GITA_DATA_BASE + 'authors/author_22_en.json'),
+      fetchText(vasukiUrl)
     ]);
     const commonChapter = (common.chapters || []).find((entry) => Number(entry.chapter_number) === chapter) || {};
     const mukChapter = (mukundananda.chapters || []).find((entry) => Number(entry.chapter_number) === chapter) || {};
-    const sridharaChapter = (sridhara.chapters || []).find((entry) => Number(entry.chapter_number) === chapter) || {};
     const commonByVerse = expandEntries(commonChapter.verses);
     const mukByVerse = expandEntries(mukChapter.verses);
-    const sridharaByVerse = expandEntries(sridharaChapter.verses);
+    const vasukiByVerse = pickVasukiByVerse(vasukiMarkdown, vasukiManifest, chapter);
     const commonOverrides = chapter === 2 ? {
       42: {
         slok: 'यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः।\\n\\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः।।2.42।।',
@@ -881,11 +917,8 @@
       const n = index + 1;
       const c = commonByVerse[n] || {};
       const m = mukByVerse[n] || {};
-      const sh = sridharaByVerse[n] || {};
       const override = commonOverrides[n] || {};
-      const sridharaCommentary = sridharaSanskritOverrides[chapter] && Object.prototype.hasOwnProperty.call(sridharaSanskritOverrides[chapter], n)
-        ? sridharaSanskritOverrides[chapter][n]
-        : pickCommentaryVerse(sh, n);
+      const sridharaCommentary = vasukiByVerse[n] || 'No commentary.';
       return {
         verse: n,
         slok: override.slok || pickSanskritVerse(c, n),
@@ -899,7 +932,7 @@
       data,
       {},
       'mukundananda',
-      'Sanskrit, transliteration, and word-for-word meanings for this chapter are loaded from <a href="https://github.com/gita/gita-frontend-v2" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is from its <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>; Śrīdhara Svāmī’s Sanskrit commentary is from <a href="https://github.com/gita/gita-frontend-v2/blob/main/data/authors/author_8_sa.json" target="_blank" rel="noopener">author_8_sa.json</a>, cross-checked against <a href="https://github.com/vishvAsa/mahAbhAratam/tree/content/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH" target="_blank" rel="noopener">Vasuki’s Śrīdhara files</a>. Chapters 1–18 have original literal English renderings prepared from those exact Sanskrit commentaries; no copyrighted translation has been copied. The editions use variant numbering in Chapters 1 and 13, so the site follows the Mukundananda/common numbering; Chapter 1 verse 47 has no Śrīdhara note in the cross-checked source and is shown as “No commentary.”'
+      'Sanskrit, transliteration, and word-for-word meanings are loaded from the pinned common data at <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
     );
   };
 
