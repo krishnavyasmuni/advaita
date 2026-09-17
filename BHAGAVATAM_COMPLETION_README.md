@@ -66,8 +66,6 @@ article shell itself contains all chapter text.
 | Source-check checkpoint ledger | assets/data/bhagavatam-sridhara-checkpoints.json |
 | Tracked Śrīdhara English checkpoints | assets/data/bhagavatam-sridhara-english-checkpoints.json |
 | Reviewed word-for-word data | assets/data/bhagavatam-sridhara-wfw-reviewed.json and related canto/range files |
-| Canto 4 progress record | assets/data/bhagavatam-sridhara-canto04-progress.json |
-| Canto 12 chapter 13 standalone page | articles/srimad-bhagavatam-canto-12-sridhara-svami/chapter-13/index.html |
 
 The reader manifest currently describes 12 Cantos and 335 chapters:
 
@@ -88,7 +86,7 @@ The manifest, not a hand-written Contents list, is the canonical inventory.
 
 ## Baseline state at the last audit
 
-The current release ledger has been updated through the following chapter:
+The current release ledger has been cleaned to retain only the verified public Cantos 1, 2, and 11. The manifest remains the canonical 335-chapter inventory, but unverified material is not public:
 
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
@@ -100,12 +98,8 @@ manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
 current_contents_link_groups:
   - 1.1-1.19
   - 2.1-2.10
-  - 3.1-3.33
-  - 4.1-4.4
-  - 10.1
   - 11.1-11.10
-  - 12.13
-visible_contents_link_count: 78
+visible_contents_link_count: 39
 manifest_chapter_count: 335
 latest_verified_release: 11.10
 latest_release_status: LIVE_VERIFIED
@@ -123,8 +117,8 @@ canto_11_audit_status: COMPLETE
 canto_11_verified_chapters: 11.1-11.10
 canto_11_source_ranges: 424
 canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23, 11.5.17, 11.5.23, 11.5.51, 11.6.2–11.6.3, 11.6.6, 11.6.7, 11.6.13, 11.6.14, 11.6.15, 11.6.20, 11.6.23, 11.6.24, 11.6.25, 11.6.26, 11.6.27, 11.6.28, 11.6.31, 11.6.32, 11.6.33, 11.6.34, 11.6.39, 11.6.40–11.6.41, 11.6.43, 11.6.44, 11.6.47, 11.6.50, 11.7.2, 11.7.6, 11.7.13, 11.7.15, 11.7.25, 11.7.31, 11.7.56, 11.7.59, 11.7.62, 11.7.65, 11.7.69–11.7.70, 11.7.73
-next_resume_target: 11.11
-resume_note: "Canto 11 Chapters 1–10 are source-audited and live-verified; continue with Canto 11 Chapter 11."
+next_resume_target: 3.1
+resume_note: "Unverified Canto 3, Canto 4, Canto 10, and Canto 12 material was removed from public Contents; rebuild from Canto 3 Chapter 1 after the retained Cantos 1, 2, and 11."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 

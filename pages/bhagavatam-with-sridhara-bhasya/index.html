@@ -18,7 +18,7 @@
 </header>
 <div class="reader">
 <aside class="side"><h2>Contents</h2>
-<a href="#book-1">Book 1</a><a href="#book-2">Book 2</a><a href="#book-3">Book 3</a><a href="#book-4">Book 4</a><a href="#book-10">Book 10</a><a href="#book-11">Book 11</a><a href="#book-12">Book 12</a>
+<a href="#book-1">Book 1</a><a href="#book-2">Book 2</a><a href="#book-11">Book 11</a>
 <a href="/vivekadrishti/">← Home</a>
 </aside>
 <section class="main"><div id="book-list"></div>
@@ -29,11 +29,7 @@
 (()=>{const root=document.getElementById('book-list');if(!root)return;const books=[
 {book:1,name:'Canto 1',chapters:Array.from({length:19},(_,i)=>i+1)},
 {book:2,name:'Canto 2',chapters:Array.from({length:10},(_,i)=>i+1)},
-{book:3,name:'Canto 3',chapters:Array.from({length:33},(_,i)=>i+1)},
-{book:4,name:'Canto 4',chapters:[1,2,3,4]},
-{book:10,name:'Canto 10',chapters:[1]},
-{book:11,name:'Canto 11',chapters:[1,2,3,4,5,6,7,8,9,10]},
-{book:12,name:'Canto 12',chapters:[13]}
+{book:11,name:'Canto 11',chapters:[1,2,3,4,5,6,7,8,9,10]}
 ];const base='/vivekadrishti/articles/srimad-bhagavatam-canto-';books.forEach(({book,name,chapters})=>{const section=document.createElement('section');section.className='book';section.id='book-'+book;const h=document.createElement('h3');h.textContent='Book '+book+(name?' — '+name:'');const grid=document.createElement('div');grid.className='chapter-grid';chapters.forEach(chapter=>{const a=document.createElement('a');if(book===12&&chapter===13){a.href=base+'12-sridhara-svami/chapter-13/'}else{a.href=base+String(book).padStart(2,'0')+'-sridhara-svami/#chapter-'+String(chapter)}a.textContent=book+'.'+chapter+' — Chapter '+chapter;grid.appendChild(a)});section.append(h,grid);root.appendChild(section)})})();
 </script>
 </body>
