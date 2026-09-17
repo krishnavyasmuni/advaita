@@ -137,13 +137,15 @@
         imp(commentary, 'background', 'transparent');
         imp(commentary, 'box-shadow', 'none');
         imp(commentary, 'color', '#3c362e');
-        imp(commentary, 'font-size', '13px');
+        imp(commentary, 'font-family', "Merriweather, Georgia, 'Times New Roman', serif");
+        imp(commentary, 'font-size', '14px');
         imp(commentary, 'line-height', '1.45');
         imp(commentary, 'text-align', 'left');
         const commentaryHeading = commentary.querySelector('h3');
         if (commentaryHeading) {
           imp(commentaryHeading, 'margin', '0 0 4px');
-          imp(commentaryHeading, 'font-size', '15px');
+          imp(commentaryHeading, 'font-family', "Merriweather, Georgia, 'Times New Roman', serif");
+          imp(commentaryHeading, 'font-size', '14px');
           imp(commentaryHeading, 'line-height', '1.25');
         }
       }

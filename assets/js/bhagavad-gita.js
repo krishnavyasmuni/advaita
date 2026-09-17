@@ -870,9 +870,6 @@
         ? lines(d.mukEnglish)
         : '';
     const key = chapter + '.' + n;
-    const headingRange = d.mukEnglish && d.mukRange && d.mukRange.start === n && d.mukRange.end > n
-      ? chapter + '.' + n + '–' + chapter + '.' + d.mukRange.end
-      : chapter + '.' + n;
     const wordMeaning = sourceMode === 'legacy'
       ? lines(meanings[key] || 'Word-for-word meaning unavailable in the source record.')
       : d.wordMeaning
@@ -903,7 +900,7 @@
       : '';
 
     return '<article class="gita-verse" id="gita-' + chapter + '-' + n + '">' +
-      '<h2><span>BG</span> ' + headingRange + '</h2><hr class="gita-verse-rule">' +
+      '<h2><span>BG</span> ' + chapter + '.' + n + '</h2><hr class="gita-verse-rule">' +
       '<div class="gita-sanskrit" lang="sa-Deva">' + rootLines + '</div>' +
       translationPanel +
       '<div class="gita-controls">' +
@@ -979,7 +976,6 @@
         wordMeaningShared: hasWordMeaningOverride || commonRange.start === n
           ? null
           : (c.word_meanings ? commonRange : null),
-        mukRange,
         mukEnglish: mukRange.start === n ? (m.translation || '') : '',
         srid: {sc: sridharaCommentary}
       };
