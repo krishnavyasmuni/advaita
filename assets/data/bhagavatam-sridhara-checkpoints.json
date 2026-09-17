@@ -7463,6 +7463,75 @@
         "literal_english_source_blocks": 42,
         "no_commentary_records": 0
       }
+    },
+    {
+      "id": "canto-11-chapter-9-release",
+      "range": "ŚB 11.9.1–11.9.33",
+      "status": "live-verified",
+      "english_source": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana/d/doc1128981.html",
+      "english_source_note": "Wisdomlib Book 11, Chapter 9 was used as the English/reference check; its verse text and explanations were independently compared, not copied.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/09_avadhUta-gItam.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "165bd6c9cc07d1813a192c6fa900d32273c65120",
+      "english_mirror_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/11/09.md",
+      "english_mirror_blob_sha": "efd4c09ccab5ece4e769ce22f896731503dc355b",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch09-verses01-33.json"
+      ],
+      "records_checked": 33,
+      "exact_sridhara_source_blocks": 32,
+      "sridhara_source_ranges": [
+        "11.9.1",
+        "11.9.2",
+        "11.9.3",
+        "11.9.4",
+        "11.9.5",
+        "11.9.6",
+        "11.9.7",
+        "11.9.8",
+        "11.9.9",
+        "11.9.10",
+        "11.9.11",
+        "11.9.12",
+        "11.9.13",
+        "11.9.14",
+        "11.9.15",
+        "11.9.16",
+        "11.9.17–11.9.18",
+        "11.9.19",
+        "11.9.20",
+        "11.9.21",
+        "11.9.22",
+        "11.9.23",
+        "11.9.24",
+        "11.9.25",
+        "11.9.26",
+        "11.9.27",
+        "11.9.28",
+        "11.9.29",
+        "11.9.30",
+        "11.9.31",
+        "11.9.32",
+        "11.9.33"
+      ],
+      "no_commentary_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-11-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-11",
+      "findings": [
+        "The pinned source contains 33 verse numbers and 32 Śrīdhara source ranges; 11.9.17–11.9.18 remains grouped exactly.",
+        "The English mirror also groups 11.9.17–11.9.18; the reader preserves the pinned Śrīdhara grouping.",
+        "All 32 pinned source ranges contain Śrīdhara-attributed text; no no-commentary sentinel was needed.",
+        "The Contents page now exposes Canto 11 Chapter 9."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-9",
+        "deployment_run": null,
+        "displayed_records": 33,
+        "sridhara_records_with_text": 33,
+        "literal_english_source_blocks": 32,
+        "no_commentary_records": 0
+      }
     }
   ],
   "generated_at": "2026-09-17"
