@@ -93,7 +93,7 @@ The current release ledger has been updated through the following chapter:
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 9ba46810d85185a7a17d45a698ddf97cfc51ef24
+last_audited_data_commit: 95afc39eba66c489d4125dac0b2d86db7fa4babb
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -114,8 +114,10 @@ latest_release_expected_verses: 40
 latest_release_sridhara_blocks: 37
 latest_release_wfw_entries: 37
 latest_release_no_commentary: none
+canto_1_audit_status: COMPLETE
+canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
 next_resume_target: 2.1
-resume_note: "Canto 1.19 is the final chapter of Canto 1; continue with Canto 2 Chapter 1."
+resume_note: "Canto 1 Chapters 1–19 are source-audited; continue with Canto 2 Chapter 1."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
