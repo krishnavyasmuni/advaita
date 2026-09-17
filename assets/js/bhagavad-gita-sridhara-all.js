@@ -68,7 +68,7 @@
   };
 
   const enhanceVerse = (article) => {
-    if (!chapterData || !article || article.dataset.sridharaToolsAll === '1') return;
+    if (!chapterData || !article || article.dataset.sridharaToolsAll === '1' || article.querySelector('.gita-dual-section')) return;
     const match = article.id && article.id.match(new RegExp('^gita-' + chapter + '-(\\d+)$'));
     if (!match) return;
     const verse = Number(match[1]);
