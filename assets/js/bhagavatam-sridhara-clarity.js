@@ -28,6 +28,7 @@
       ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch03-verses01-55.json?v=20260917-1'
       ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch04-verses01-23.json?v=20260917-1'
       ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch05-verses01-52.json?v=20260917-1'
+      ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch06-verses01-50.json?v=20260917-1'
     );
   }
 
@@ -105,7 +106,7 @@
     section.appendChild(commentary);
   }
 
-  const explicitNoCommentary = new Set(['11:1:20', '11:2:3', '11:3:22', '11:4:23', '11:5:17', '11:5:23', '11:5:51']);
+  const explicitNoCommentary = new Set(['11:1:20', '11:2:3', '11:3:22', '11:4:23', '11:5:17', '11:5:23', '11:5:51', '11:6:2', '11:6:3', '11:6:6', '11:6:7', '11:6:13', '11:6:14', '11:6:15', '11:6:20', '11:6:23', '11:6:24', '11:6:25', '11:6:26', '11:6:27', '11:6:28', '11:6:31', '11:6:32', '11:6:33', '11:6:34', '11:6:39', '11:6:40', '11:6:41', '11:6:43', '11:6:44', '11:6:47', '11:6:50']);
 
   function apply() {
     const shell = host.querySelector('.sb-chapter-shell[data-chapter]');
