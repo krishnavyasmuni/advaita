@@ -39,6 +39,54 @@ If source access, numbering, or alignment is genuinely blocked, stop immediately
 and report the exact chapter and verse numbers affected. Do not publish a
 partial or guessed result.
 
+## Fast execution path (mandatory from Book 2, Chapter 17)
+
+This is the fixed release loop. Once the required source files are available,
+complete the build, commit, and read-back in the same execution pass. Do not
+pause after source preparation: temporary prepared data may not survive a
+paused turn.
+
+1. **Fetch once, in parallel.** Fetch the current `main` head, the reusable
+   completed chapter template, the real Viṣṇu Purāṇa Contents file, this README,
+   the Vasuki mūla file, and the matching Vasuki Śrīdhara file. Resolve the
+   exact Wilson chapter URL only when needed for the reference check. Do not
+   reread earlier chapter pages or fetch the same source sequentially.
+2. **Build one structured chapter packet.** Extract the numbered Sanskrit,
+   commentary ranges, and source SHAs into memory. Generate every verse from
+   the same renderer: Sanskrit, independent translation, direct lexical
+   word-for-word, transliteration, and the existing controls. Preserve the
+   exact source Devanāgarī. Do not hand-type HTML article by article.
+3. **Run one compact pre-commit audit.** Check the expected verse count,
+   sequential `vp-{BOOK}-{CHAPTER}-{VERSE}` IDs, exact Contents anchors,
+   balanced controls, complete main word-for-word/translation layers, exact
+   source links, and the actual Śrīdhara ranges. Reject the build if any
+   source range is missing, invented, or misaligned. Where the source has no
+   commentary block, preserve the template’s no-commentary state.
+4. **Write once, atomically.** Create the chapter blob, Contents blob, and
+   README blob in parallel; create one tree, one chapter commit, and one
+   fast-forward update of `main`. Never make three sequential file commits.
+5. **Read back once, in parallel.** Fetch those three files at the new commit
+   SHA and repeat only the structural release gates. If they pass, the chapter
+   is complete and the README resume point moves to the next chapter in that
+   same commit.
+6. **Wilson and wording rule.** Wilson is a quick coverage and sense check,
+   not a source to copy. The AI translation starts from Vasuki Sanskrit.
+   Word-for-word entries are direct lexical renderings. Do not write
+   “Śrīdhara says,” “Śrīdhara explains,” or third-person narrator padding.
+
+### Time budget
+
+| Phase | Maximum target |
+|---|---:|
+| Parallel source bundle | 10 seconds |
+| Structured build and translation | 25 seconds |
+| Single audit | 5 seconds |
+| Atomic write and read-back | 20 seconds |
+
+If a source, numbering, or alignment check genuinely fails, stop and report the
+exact affected chapter and verses. Do not publish a partial chapter to meet
+the time target.
+
 ## Project constants
 
 | Item | Required value |
