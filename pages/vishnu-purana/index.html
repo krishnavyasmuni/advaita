@@ -26,7 +26,7 @@
 </div>
 </main>
 <script>
-(()=>{const root=document.getElementById('book-list');if(!root)return;const books=[{book:1,name:'Creation and the origin of the universe',count:22},{book:2,name:'The earth and its regions',count:13}];const base='/vivekadrishti/articles/vishnu-purana-book-';books.forEach(({book,name,count})=>{const section=document.createElement('section');section.className='book';section.id='book-'+book;const h=document.createElement('h3');h.textContent='Book '+book+(name?' — '+name:'');const grid=document.createElement('div');grid.className='chapter-grid';for(let chapter=1;chapter<=count;chapter+=1){const a=document.createElement('a');a.href=base+String(book)+'-chapter-'+String(chapter)+'/';a.textContent=book+'.'+chapter+' — Chapter '+chapter;grid.appendChild(a)}section.append(h,grid);root.appendChild(section)})})();
+(()=>{const root=document.getElementById('book-list');if(!root)return;const books=[{book:1,name:'Creation and the origin of the universe',count:22},{book:2,name:'The earth and its regions',count:14}];const base='/vivekadrishti/articles/vishnu-purana-book-';books.forEach(({book,name,count})=>{const section=document.createElement('section');section.className='book';section.id='book-'+book;const h=document.createElement('h3');h.textContent='Book '+book+(name?' — '+name:'');const grid=document.createElement('div');grid.className='chapter-grid';for(let chapter=1;chapter<=count;chapter+=1){const a=document.createElement('a');a.href=base+String(book)+'-chapter-'+String(chapter)+'/';a.textContent=book+'.'+chapter+' — Chapter '+chapter;grid.appendChild(a)}section.append(h,grid);root.appendChild(section)})})();
 </script>
 </body>
 </html>
