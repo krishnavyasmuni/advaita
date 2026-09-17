@@ -30,6 +30,7 @@
       ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch05-verses01-52.json?v=20260917-1'
       ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch06-verses01-50.json?v=20260917-1'
       ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch07-verses01-74.json?v=20260917-1'
+      ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch08-verses01-44.json?v=20260917-1'
     );
   }
 
