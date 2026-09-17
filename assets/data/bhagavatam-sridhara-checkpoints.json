@@ -6434,6 +6434,29 @@
         "The English mirror’s grouped source records were audited independently from the Sanskrit commentary boundaries.",
         "This cleanup covers all 20 positions found missing by the fresh Canto 3 source-number census."
       ]
+    },
+    {
+      "id": "canto-1-chapter-18-complete",
+      "range": "ŚB 1.18.1–1.18.50",
+      "status": "live-verified",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/18_aShTAdasho-dhyAyaH.md",
+      "source_blob_sha": "24a6fe929f66f55247a76726a7546fa502a43bc4",
+      "expected_verses": 50,
+      "source_verses_verified": 50,
+      "sridhara_commentary_blocks": 49,
+      "no_separate_sridhara_commentary": [
+        "1.18.38"
+      ],
+      "wfw_pair_entries": 49,
+      "literal_english_records": 49,
+      "method": "Sanskrit-first independent translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-1",
+      "next_resume_target": "1.19",
+      "notes": [
+        "Verses 21–37 and 39–50 added to the existing verses 1–20 word-for-word layer.",
+        "Verse 38 has no separate Śrīdhara commentary block, so no commentary text is rendered."
+      ]
     }
   ]
 }
