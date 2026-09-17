@@ -191,14 +191,14 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 2, Chapter 3 (source-aligned remediation) |
+| Last committed route | Book 2, Chapter 4 (source-aligned remediation) |
 | Book 1 status | IN PROGRESS — all 22 routes are present, but the full source, commentary, lexical, and template audit is not complete; Chapters 1–22 remain subject to remediation or re-verification |
-| Book 2 status | IN PROGRESS — Chapters 1–3 are repaired and verified; Chapters 4–16 require the same complete source-aligned repair |
+| Book 2 status | IN PROGRESS — Chapters 1–4 are repaired and verified; Chapters 5–16 require the same complete source-aligned repair |
 | Book 3 status | REPAIRED AND VERIFIED — Chapters 1–18 have passed the complete source-aligned chapter audit |
-| Current repair target | Book 2, Chapter 4 |
-| Next chapter after the repair target | Book 2, Chapter 5 |
+| Current repair target | Book 2, Chapter 5 |
+| Next chapter after the repair target | Book 2, Chapter 6 |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are currently listed; semantic completion follows the tracker and chapter audits |
-| Full-scope remediation queue | Book 2 Chapters 4–16; then Book 1 Chapters 1–22 |
+| Full-scope remediation queue | Book 2 Chapters 5–16; then Book 1 Chapters 1–22 |
 | Progress rule | Mark a chapter complete only after its full file, source mapping, Contents link, README state, commit, and post-commit verification pass |
 
 A published route and a semantically complete chapter are different states. A
