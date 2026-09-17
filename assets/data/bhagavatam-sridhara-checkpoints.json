@@ -6457,6 +6457,25 @@
         "Verses 21–37 and 39–50 added to the existing verses 1–20 word-for-word layer.",
         "Verse 38 has no separate Śrīdhara commentary block, so no commentary text is rendered."
       ]
+    },
+    {
+      "id": "canto-1-chapter-19-complete",
+      "range": "ŚB 1.19.1–1.19.40",
+      "status": "live-verified",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/19_athonaviMshatitamo-dhyAyaH.md",
+      "source_blob_sha": "21534e75d202245e679e1651fe46fae09e2b6db8",
+      "expected_verses": 40,
+      "source_verses_verified": 40,
+      "sridhara_commentary_blocks": 37,
+      "wfw_pair_entries": 37,
+      "literal_english_records": 37,
+      "method": "Sanskrit-first independent translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-1",
+      "next_resume_target": "1.20",
+      "notes": [
+        "The pinned source groups verses 8–10 and 32–33 into combined Śrīdhara blocks; the reader and WFW data preserve those exact ranges."
+      ]
     }
   ]
 }
