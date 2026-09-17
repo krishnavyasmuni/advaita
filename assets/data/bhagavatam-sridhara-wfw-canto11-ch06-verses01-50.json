@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "source-checked-and-reader-committed",
+  "status": "live-verified",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/11/06.md",
@@ -1066,5 +1066,6 @@
       ],
       "literal_english": "No commentary"
     }
-  ]
+  ],
+  "release_commit": "c51db796d1b0658fe827b380e0d150483c7365a0"
 }
