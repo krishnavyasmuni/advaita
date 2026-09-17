@@ -6766,7 +6766,7 @@
     {
       "id": "canto-11-chapter-1-release",
       "range": "ŚB 11.1.1–11.1.24",
-      "status": "source-checked-and-reader-committed",
+      "status": "live-verified",
       "english_source": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana",
       "english_source_note": "Wisdomlib Book 11, Chapter 1 was used as the English/reference check; the site’s chapter link is listed under the Book 11 index.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/01_vipra-shApaH.md",
@@ -6811,7 +6811,15 @@
         "The 11.1.6–11.1.7, 11.1.12–11.1.13, and 11.1.14–11.1.15 source groupings remain grouped; no commentary was fabricated for individual verses.",
         "The joint Śrīdhara–Viśvanātha labels at 11.1.12–13 and 11.1.22 are preserved as joint attributions.",
         "The reader’s exact no-commentary sentinel is used for 11.1.20."
-      ]
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-1",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35234396182",
+        "displayed_records": 24,
+        "sridhara_records_with_text": 23,
+        "literal_english_source_blocks": 20,
+        "no_commentary_records": 1
+      }
     }
   ],
   "generated_at": "2026-09-17"
