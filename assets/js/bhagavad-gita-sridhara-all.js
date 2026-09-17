@@ -41,7 +41,8 @@
       const term = Array.isArray(pair) ? pair[0] : '';
       const displayTerm = index === 0 ? capitalizeLeadingLatin(term) : term;
       const gloss = Array.isArray(pair) ? pair[1] : '';
-      return '<strong>' + esc(displayTerm) + '</strong> — ' + esc(gloss);
+      const displayGloss = index === 0 ? capitalizeLeadingLatin(gloss) : gloss;
+      return '<strong>' + esc(displayTerm) + '</strong> — ' + esc(displayGloss);
     }).join('; ') + '.</p>';
   };
 
