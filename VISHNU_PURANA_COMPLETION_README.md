@@ -271,6 +271,11 @@ Never use filler such as:
 - literal meaning
 - meaning unavailable
 - explanation omitted
+- lexical term
+- inflected form
+- Words
+- sense
+- name used as a substitute for a real gloss
 - etc.
 - generic filler
 - invented Sanskrit
@@ -469,6 +474,12 @@ Lorem ipsum
 
 Also reject generic pagination, duplicate Contents rails, accidental raw source
 labels, or any temporary debugging output.
+
+For an audit of an already published page, any occurrence of “Words,”
+“lexical term,” “inflected form,” or “sense” in a word-for-word field is an
+incomplete placeholder, not a translation. Rebuild that verse from the actual
+Sanskrit before treating the chapter as complete. Do not replace those tokens
+with Wilson’s prose or with a guessed dictionary gloss.
 
 ## GitHub checkpoint protocol
 
