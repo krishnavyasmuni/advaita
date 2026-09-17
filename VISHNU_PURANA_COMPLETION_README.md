@@ -217,6 +217,11 @@ Keep the current Chapter 1 visual hierarchy and controls. Do not add a new
 layout merely to make the source distinction; use the existing template’s
 labels and structure consistently.
 
+Use the exact controls from the finished template. A verse with supplied
+Śrīdhara commentary has three controls; a verse with no commentary has the
+template’s two text controls and no empty commentary control. Do not remove,
+rename, duplicate, or redesign the applicable controls.
+
 ## Sanskrit and IAST rules
 
 Preserve the source Sanskrit exactly. Only remove obvious HTML, encoding, or
@@ -424,7 +429,7 @@ Before committing, verify all of the following:
 - every heading has the correct book, chapter, and verse number
 - every chapter Contents link points to an existing article
 - every verse has exactly one Contents link
-- every verse has exactly three controls, matching the template
+- every verse has the template-appropriate controls (three with commentary, two with exact No commentary.)
 - every verse has main Sanskrit
 - every verse has the Wilson reference English required by the existing template
 - every AI word-for-word field is independently derived from the supplied Sanskrit
@@ -535,7 +540,7 @@ Verified:
 - generic narrator commentary found: 0
 - duplicate or missing verses: 0
 - Contents links verified: yes
-- three-controls-per-verse verified: yes
+- template-appropriate-controls verified: yes
 - live file matches committed content: yes
 - live blob SHA: {SHA}
 - source commit SHA: {SHA}
