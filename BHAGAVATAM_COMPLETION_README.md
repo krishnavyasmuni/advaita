@@ -93,7 +93,7 @@ The current release ledger has been updated through the following chapter:
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 18d233ce0ac31374204e69ece8696f5c264f4530
+last_audited_data_commit: 9ba46810d85185a7a17d45a698ddf97cfc51ef24
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -107,15 +107,15 @@ current_contents_link_groups:
   - 12.13
 visible_contents_link_count: 70
 manifest_chapter_count: 335
-latest_verified_release: 1.18
+latest_verified_release: 1.19
 latest_release_status: LIVE_VERIFIED
-latest_release_source_blob_sha: 24a6fe929f66f55247a76726a7546fa502a43bc4
-latest_release_expected_verses: 50
-latest_release_sridhara_blocks: 49
-latest_release_wfw_entries: 49
-latest_release_no_commentary: 1.18.38
-next_resume_target: 1.19
-resume_note: "Canto 1.18 is source-checked, translated, committed, and released; continue with Canto 1.19."
+latest_release_source_blob_sha: 21534e75d202245e679e1651fe46fae09e2b6db8
+latest_release_expected_verses: 40
+latest_release_sridhara_blocks: 37
+latest_release_wfw_entries: 37
+latest_release_no_commentary: none
+next_resume_target: 1.20
+resume_note: "Canto 1.19 is source-checked, translated, committed, and released; continue with Canto 1.20."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
@@ -124,12 +124,12 @@ anything, re-read the current branch and confirm that the marker still matches
 the repository. After each chapter release, update the marker to the next
 canonical chapter.
 
-Canto 1.18 was completed by taking the exact Sanskrit and Śrīdhara block from
-the pinned VishvAsa/Vasuki source, using Wisdomlib’s matching chapter as an
-English and lexical cross-reference, and writing the site’s own Sanskrit-first
-transliteration and word-for-word meanings. Wisdomlib prose is not copied.
-Verse 1.18.38 has no separate Śrīdhara commentary block, so the reader leaves
-commentary text blank for that verse.
+The chapter workflow is deliberately simple: use the exact Sanskrit and
+Śrīdhara block from the pinned VishvAsa/Vasuki source, use the matching
+Wisdomlib chapter as an English and lexical cross-reference, then write the
+site’s own Sanskrit-first transliteration and word-for-word meanings. Wisdomlib
+prose is never copied. Preserve combined source ranges exactly when the pinned
+source groups multiple verses.
 
 ## Source lock
 
