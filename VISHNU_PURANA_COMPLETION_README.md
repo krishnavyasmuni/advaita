@@ -94,7 +94,7 @@ the time target.
 | Published site | https://krishnavyasmuni.github.io/vivekadrishti/pages/vishnu-purana/ |
 | Website repository | krishnavyasmuni/vivekadrishti |
 | Working branch | main unless the repository explicitly shows another current branch |
-| Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–17 are listed |
+| Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed |
 | Chapter route | articles/vishnu-purana-book-{BOOK}-chapter-{CHAPTER}/index.html |
 | Wilson reference | H. H. Wilson, 1840, Internet Sacred Text Archive |
 | Sanskrit and Śrīdhara source | Vishvas Vasuki, vishvAsa/purANam_vaiShNavam, branch content |
@@ -191,10 +191,10 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3, Chapter 17 |\n| Book 2 status | COMPLETE — Chapters 1–16 are present and verified in the repository |\n| Book 3 status | IN PROGRESS — Chapters 1–17 complete |
-| Current repair target | Book 3, Chapter 18 |
+| Last committed route | Book 3, Chapter 18 |\n| Book 2 status | COMPLETE — Chapters 1–16 are present and verified in the repository |\n| Book 3 status | COMPLETE — Chapters 1–18 are present and verified in the repository |
+| Current repair target | — none |
 | Next chapter after the repair target | — none |
-| Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–17 are listed |
+| Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed |
 | Legacy word-for-word remediation queue | Book 1 Chapters 9–16 and 18–21 |
 | Progress rule | Mark a chapter complete only after its full file, source mapping, Contents link, README state, commit, and post-commit verification pass |
 
