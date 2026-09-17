@@ -1,6 +1,6 @@
 # Bhagavad Gītā completion README
 
-Status: complete for all 18 chapters and 701 visible verse records in the Mukundananda edition (which includes the optional Chapter 13 verse 1).
+Status: source coverage is complete for all 18 chapters and 701 visible verse records in the Mukundananda edition (which includes the optional Chapter 13 verse 1); grouped-range display alignment is tracked below.
 
 This page is served at:
 
@@ -24,7 +24,8 @@ The local Śrīdhara literal renderings are not copied from Mukundananda’s Eng
 | Layer | Source and lock | Use |
 |---|---|---|
 | Mukundananda reference | [Holy Bhagavad Gita](https://www.holy-bhagavad-gita.org/) | Public reference site for the translation and word meanings |
-| Sanskrit, transliteration, word meanings | [gita/gita-frontend-v2 common data](https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common) at commit `27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb` | Visible Sanskrit, transliteration, and word-for-word meaning fields |
+| Sanskrit, transliteration | [vedicscriptures/bhagavad-gita-api](https://github.com/vedicscriptures/bhagavad-gita-api) one-record-per-verse model, using the pinned companion data repository at commit `43dfc8db815d01e15a347ea294b089334cf2aa17` | Exact per-verse Sanskrit and transliteration records |
+| Word meanings | [gita/gita-frontend-v2 common data](https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common) at commit `27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb` | Holy Bhagavad Gita word-for-word meaning fields |
 | Mukundananda English | [author_22_en.json](https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json) at the same commit | The visible English translation |
 | Śrīdhara Sanskrit | [Vasuki Śrīdhara directory](https://github.com/vishvAsa/mahAbhAratam/tree/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH) on commit `3405cca553363ae77edf0c7e58ff1908b5d27d29` | Exact source commentary, one Markdown file per chapter |
 
@@ -45,7 +46,7 @@ The source-to-display exceptions are recorded in [bhagavad-gita-vasuki-manifest.
 
 ### Mukundananda grouped ranges
 
-The pinned Mukundananda file publishes some translations, word meanings, and transliterations as one source record covering multiple verses. It contains 49 multi-verse translation records, producing 61 later verse cards that must not repeat the entire group text. The reader now shows each exact grouped record once under its first verse and gives the remaining verse cards a link back to that source range. This preserves the source wording without inventing verse-level translations that Mukundananda did not publish separately.
+The pinned Mukundananda file publishes some translations, word meanings, and transliterations as one source record covering multiple verses. It contains 49 multi-verse translation records, producing 61 later verse cards. The reader preserves each source record instead of repeating it. BG 1.29–1.31 is an audited exception: the exact source sentences and word-meaning lines are aligned to the three per-verse API records at explicit boundaries, so those cards are distinct while their concatenation remains the source record. Other grouped ranges remain source-linked until their boundaries are audited.
 
 ## Local reviewed data
 
@@ -59,13 +60,14 @@ Twenty-four reviewed JSON parts that were missing their final closing brace were
 
 - Chapter counts: 47, 72, 43, 42, 29, 47, 30, 28, 34, 42, 55, 20, 35, 27, 20, 24, 28, 78.
 - Total visible records: 701.
-- Every visible record has a pinned common Sanskrit/transliteration/word-meaning record and a pinned Mukundananda translation.
+- Every visible record has a pinned per-verse Sanskrit/transliteration record from the vedicscriptures data model, plus the pinned common word-meaning and Mukundananda source records.
+- BG 1.29–1.31 renders three distinct source-aligned translation and word-meaning panels, and their concatenation matches the pinned grouped records.
 - Every chapter’s Vasuki Markdown parses to the manifest’s recorded Śrīdhara section count.
 - Every visible verse has either a mapped Vasuki section or an intentional `No commentary.` value.
-- The loader contains no moving `main` source URL and no fallback to the unrelated `author_8_sa.json` feed.
+- The loader contains no moving `main` source URL for the per-verse Sanskrit/transliteration records and no fallback to the unrelated `author_8_sa.json` feed.
 - The JavaScript loader and Śrīdhara overlay compile successfully after the source changes.
 - The repaired literal JSON files parse as JSON before release.
 
 ## Maintenance rules
 
-Do not move these sources to an unpinned branch or replace the Vasuki directory with another commentary feed without repeating the full 701-record audit. When a source commit changes, regenerate the manifest, re-check the Chapter 1 and Chapter 13 numbering exceptions, verify every word-for-word field, and update the cache-busting version in all 18 chapter shells.
+Do not move these sources to an unpinned branch or replace the Vasuki directory with another commentary feed without repeating the full 701-record audit. When a source commit changes, regenerate the manifest, re-check the Chapter 1 and Chapter 13 numbering exceptions, verify every word-for-word field, re-audit any display-aligned grouped range, and update the cache-busting version in all 18 chapter shells.

@@ -807,7 +807,15 @@
 
   const esc = (value) => String(value || '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const lines = (value) => esc(value).replace(/\n/g, '<br>');
-  const verseUrl = (n) => 'https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/main/slok/bhagavadgita_chapter_' + chapter + '_slok_' + n + '.json';
+  const VEDICSCRIPTURES_GITA_COMMIT = '43dfc8db815d01e15a347ea294b089334cf2aa17';
+  const VEDICSCRIPTURES_GITA_BASE = 'https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/' + VEDICSCRIPTURES_GITA_COMMIT + '/slok/';
+  const VEDICSCRIPTURES_COUNTS = [47,72,43,42,29,47,30,28,34,42,55,20,35,27,20,24,28,78];
+  const verseUrl = (n) => VEDICSCRIPTURES_GITA_BASE + 'bhagavadgita_chapter_' + chapter + '_slok_' + n + '.json';
+  const cleanApiTransliteration = (value) =>
+    String(value || '')
+      .replace(/\s*(?:\|\||।।)\s*[0-9०-९]+(?:[-–][0-9०-९]+)?\s*(?:\|\||।।)\s*$/g, '')
+      .replace(/\s*\.\s*/g, '\n')
+      .trim();
 
   const expandEntries = (entries) => {
     const out = {};
@@ -831,10 +839,36 @@
   const sourceRangeLabel = (range) =>
     chapter + '.' + range.start + (range.end > range.start ? '–' + chapter + '.' + range.end : '');
 
+  const sourceRangeUrl = (range) =>
+    'https://www.holy-bhagavad-gita.org/chapter/' + chapter + '/verse/' + range.start + '-' + range.end;
+
   const groupedSourceNote = (label, range) =>
     label + ' for BG ' + sourceRangeLabel(range) +
     ' is published as one grouped record; the exact source text is shown under ' +
     '<a href="#gita-' + chapter + '-' + range.start + '">BG ' + sourceRangeLabel(range) + '</a>.';
+
+  const getGroupedDisplayOverride = (chapterNumber, verseNumber, commonEntry, mukundanandaEntry, mukRange) => {
+    if (chapterNumber !== 1 || !mukRange || mukRange.start !== 29 || mukRange.end !== 31) return null;
+    const key = String(verseNumber);
+    const translationSlices = {29: [0, 1], 30: [1, 3], 31: [3, 5]};
+    const wordMeaningSlices = {29: [0, 2], 30: [2, 3], 31: [3, 4]};
+    if (!translationSlices[key] || !wordMeaningSlices[key]) return null;
+
+    const sentences = String(mukundanandaEntry && mukundanandaEntry.translation || '')
+      .match(/[^.!?]+[.!?]+/g) || [];
+    const translationSlice = translationSlices[key];
+    const wordLines = String(commonEntry && commonEntry.word_meanings || '')
+      .split(/\n+/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+    const wordMeaningSlice = wordMeaningSlices[key];
+
+    return {
+      mukEnglish: sentences.slice(translationSlice[0], translationSlice[1]).map((sentence) => sentence.trim()).join(' ').trim(),
+      wordMeaning: wordLines.slice(wordMeaningSlice[0], wordMeaningSlice[1]).join('\n').trim(),
+      mukEnglishSourceRange: mukRange
+    };
+  };
 
   const pickSanskritVerse = (entry, n) => {
     const value = String(entry && entry.sanskrit_text || '');
@@ -869,7 +903,9 @@
       : d.mukEnglish
         ? (d.mukEnglishRange
           ? '<span class="gita-translation-range">Mukundananda translation for BG ' + sourceRangeLabel(d.mukEnglishRange) + ':</span><br>' + lines(d.mukEnglish)
-          : lines(d.mukEnglish))
+          : (d.mukEnglishSourceRange
+            ? '<span class="gita-translation-range">Mukundananda source: <a href="' + sourceRangeUrl(d.mukEnglishSourceRange) + '" target="_blank" rel="noopener">BG ' + sourceRangeLabel(d.mukEnglishSourceRange) + '</a></span><br>' + lines(d.mukEnglish)
+            : lines(d.mukEnglish)))
         : (d.mukEnglishShared
           ? groupedSourceNote('Mukundananda’s translation', d.mukEnglishShared)
           : 'No Mukundananda translation supplied in the source record.');
@@ -923,15 +959,18 @@
     const vasukiChapter = (vasukiManifest.chapters || {})[String(chapter)] || {};
     const vasukiPath = vasukiManifest._meta.source_path + '/' + vasukiChapter.file;
     const vasukiUrl = 'https://raw.githubusercontent.com/vishvAsa/mahAbhAratam/' + vasukiManifest._meta.source_commit + '/' + vasukiPath;
-    const [common, mukundananda, vasukiMarkdown] = await Promise.all([
+    const vedicRecordCount = VEDICSCRIPTURES_COUNTS[chapter - 1] || 0;
+    const [common, mukundananda, vasukiMarkdown, vedicRecords] = await Promise.all([
       fetchJson(GITA_DATA_BASE + 'common/common_en.json'),
       fetchJson(GITA_DATA_BASE + 'authors/author_22_en.json'),
-      fetchText(vasukiUrl)
+      fetchText(vasukiUrl),
+      Promise.all(Array.from({length: vedicRecordCount}, (_, index) => fetchJson(verseUrl(index + 1))))
     ]);
     const commonChapter = (common.chapters || []).find((entry) => Number(entry.chapter_number) === chapter) || {};
     const mukChapter = (mukundananda.chapters || []).find((entry) => Number(entry.chapter_number) === chapter) || {};
     const commonByVerse = expandEntries(commonChapter.verses);
     const mukByVerse = expandEntries(mukChapter.verses);
+    const vedicByVerse = Object.fromEntries((vedicRecords || []).map((entry) => [Number(entry.verse), entry]));
     const vasukiByVerse = pickVasukiByVerse(vasukiMarkdown, vasukiManifest, chapter);
     const commonOverrides = chapter === 2 ? {
       42: {
@@ -949,22 +988,40 @@
       const n = index + 1;
       const c = commonByVerse[n] || {};
       const m = mukByVerse[n] || {};
+      const api = vedicByVerse[n] || {};
       const override = commonOverrides[n] || {};
-      const hasTransliterationOverride = Object.prototype.hasOwnProperty.call(override, 'transliteration');
-      const hasWordMeaningOverride = Object.prototype.hasOwnProperty.call(override, 'wordMeaning');
       const commonRange = getSourceRange(c, n);
       const mukRange = getSourceRange(m, n);
+      const groupedOverride = getGroupedDisplayOverride(chapter, n, c, m, mukRange);
+      const hasTransliterationOverride = Object.prototype.hasOwnProperty.call(override, 'transliteration');
+      const hasWordMeaningOverride = Object.prototype.hasOwnProperty.call(override, 'wordMeaning');
+      const apiTransliteration = cleanApiTransliteration(api.transliteration);
       const sridharaCommentary = vasukiByVerse[n] || 'No commentary.';
       return {
         verse: n,
-        slok: override.slok || pickSanskritVerse(c, n),
-        transliteration: hasTransliterationOverride || commonRange.start === n ? (override.transliteration || c.transliteration || '') : '',
-        transliterationShared: !hasTransliterationOverride && commonRange.start !== n && c.transliteration ? commonRange : null,
-        wordMeaning: hasWordMeaningOverride || commonRange.start === n ? (override.wordMeaning || c.word_meanings || '') : '',
-        wordMeaningShared: !hasWordMeaningOverride && commonRange.start !== n && c.word_meanings ? commonRange : null,
-        mukEnglish: mukRange.start === n ? (m.translation || '') : '',
-        mukEnglishRange: mukRange.start === n && mukRange.end > mukRange.start ? mukRange : null,
-        mukEnglishShared: mukRange.start !== n && m.translation ? mukRange : null,
+        slok: override.slok || api.slok || pickSanskritVerse(c, n),
+        transliteration: hasTransliterationOverride
+          ? (override.transliteration || '')
+          : (apiTransliteration || (commonRange.start === n ? (c.transliteration || '') : '')),
+        transliterationShared: apiTransliteration || hasTransliterationOverride || commonRange.start === n
+          ? null
+          : (c.transliteration ? commonRange : null),
+        wordMeaning: groupedOverride
+          ? groupedOverride.wordMeaning
+          : (hasWordMeaningOverride || commonRange.start === n ? (override.wordMeaning || c.word_meanings || '') : ''),
+        wordMeaningShared: groupedOverride || hasWordMeaningOverride || commonRange.start === n
+          ? null
+          : (c.word_meanings ? commonRange : null),
+        mukEnglish: groupedOverride
+          ? groupedOverride.mukEnglish
+          : (mukRange.start === n ? (m.translation || '') : ''),
+        mukEnglishRange: groupedOverride
+          ? null
+          : (mukRange.start === n && mukRange.end > mukRange.start ? mukRange : null),
+        mukEnglishShared: groupedOverride
+          ? null
+          : (mukRange.start !== n && m.translation ? mukRange : null),
+        mukEnglishSourceRange: groupedOverride ? groupedOverride.mukEnglishSourceRange : null,
         srid: {sc: sridharaCommentary}
       };
     });
@@ -972,7 +1029,7 @@
       data,
       {},
       'mukundananda',
-      'Sanskrit, transliteration, and word-for-word meanings are loaded from the pinned common data at <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">gita-frontend-v2</a>. Swami Mukundananda’s English translation is the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a>. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. The pinned Mukundananda data publishes 49 multi-verse translation and word-meaning records; the reader shows each grouped record once and links later verse records to it instead of duplicating or inventing verse-specific text. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
+      'Sanskrit and transliteration are loaded from the pinned per-verse records in <a href="https://github.com/vedicscriptures/bhagavad-gita-api" target="_blank" rel="noopener">vedicscriptures/bhagavad-gita-api</a> using its companion data repository at commit <a href="https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok" target="_blank" rel="noopener">43dfc8db815d01e15a347ea294b089334cf2aa17</a>. Mukundananda’s English and Holy Bhagavad Gita word meanings remain from the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a> and <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">common_en.json</a>. For BG 1.29–1.31, the source group is aligned to three verse cards only at its explicit sentence and word-meaning boundaries; the source wording is preserved and never repeated into the other cards. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
     );
   };
 
