@@ -6477,6 +6477,19 @@
         "The pinned source groups verses 8–10 and 32–33 into combined Śrīdhara blocks; the reader and WFW data preserve those exact ranges.",
         "Canto 1 ends at Chapter 19; the canonical next target is Canto 2 Chapter 1."
       ]
+    },
+    {
+      "id": "canto-1-chapter-2-gap-cleanup",
+      "range": "ŚB 1.2.1, 1.2.3–1.2.5",
+      "status": "source-checked-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/01/02_mAhAtmyam.md",
+      "source_blob_sha": "af17b058cc2a5c8444d81b2e457c44ea76e0a2a7",
+      "expected_verses": 4,
+      "source_verses_verified": 4,
+      "sridhara_commentary_blocks": 4,
+      "wfw_pair_entries": 4,
+      "method": "Sanskrit-first independent translation; Wisdomlib is a cross-reference, not copied prose.",
+      "note": "Closed the four pre-existing Canto 1.2 WFW gaps found by the canonical source audit. Canto 1 is now ready to hand off to Canto 2.1."
     }
   ]
 }
