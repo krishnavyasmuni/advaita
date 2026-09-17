@@ -88,36 +88,48 @@ The manifest, not a hand-written Contents list, is the canonical inventory.
 
 ## Baseline state at the last audit
 
-The last inspected site commit before this README was:
+The current release ledger has been updated through the following chapter:
 
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_commit: b3609c5e3f27335c6f0bb4829cb7a5d119d88319
+last_audited_data_commit: 18d233ce0ac31374204e69ece8696f5c264f4530
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
 current_contents_link_groups:
-  - 1.1-1.17
-  - 2.1
-  - 3.1
+  - 1.1-1.19
+  - 2.1-2.10
+  - 3.1-3.33
   - 4.1-4.4
   - 10.1
-visible_contents_link_count: 24
+  - 11.1-11.2
+  - 12.13
+visible_contents_link_count: 70
 manifest_chapter_count: 335
-likely_resume_candidate: 1.18
-resume_note: "Re-check current files first; existing 1.18 work is partial."
+latest_verified_release: 1.18
+latest_release_status: LIVE_VERIFIED
+latest_release_source_blob_sha: 24a6fe929f66f55247a76726a7546fa502a43bc4
+latest_release_expected_verses: 50
+latest_release_sridhara_blocks: 49
+latest_release_wfw_entries: 49
+latest_release_no_commentary: 1.18.38
+next_resume_target: 1.19
+resume_note: "Canto 1.18 is source-checked, translated, committed, and released; continue with Canto 1.19."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
-This is a starting snapshot, not a permanent claim. After any newer commit,
-recalculate everything from the repository.
+The release marker above is the handoff point for the next AI. Before changing
+anything, re-read the current branch and confirm that the marker still matches
+the repository. After each chapter release, update the marker to the next
+canonical chapter.
 
-Existing data is uneven. Checkpoint, reviewed-wording, English-commentary,
-Canto 4, Canto 10, Canto 11, and standalone Canto 12 files are useful working
-artifacts, but their presence or filename does not prove that a whole chapter
-has passed the release gate. Finish or reconcile existing partial work before
-starting a new chapter.
+Canto 1.18 was completed by taking the exact Sanskrit and Śrīdhara block from
+the pinned VishvAsa/Vasuki source, using Wisdomlib’s matching chapter as an
+English and lexical cross-reference, and writing the site’s own Sanskrit-first
+transliteration and word-for-word meanings. Wisdomlib prose is not copied.
+Verse 1.18.38 has no separate Śrīdhara commentary block, so the reader leaves
+commentary text blank for that verse.
 
 ## Source lock
 
