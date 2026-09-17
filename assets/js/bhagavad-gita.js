@@ -836,6 +836,21 @@
     return {start, end};
   };
 
+  const pickWordMeaning = (entry, n) => {
+    const value = String(entry && entry.word_meanings || '').trim();
+    if (!value) return '';
+    const range = getSourceRange(entry, n);
+    if (range.start === range.end) return value;
+    const parts = value.split(/\n+/).map((part) => part.trim()).filter(Boolean);
+    const span = range.end - range.start + 1;
+    if (parts.length === span) return parts[n - range.start] || '';
+    if (chapter === 1 && range.start === 29 && range.end === 31 && parts.length === 4) {
+      if (n === 29) return parts.slice(0, 2).join('\n');
+      return parts[n - 28] || '';
+    }
+    return n === range.start ? value : '';
+  };
+
   const pickSanskritVerse = (entry, n) => {
     const value = String(entry && entry.sanskrit_text || '');
     const re = new RegExp('(?:\\|\\||।।)\\s*' + chapter + '\\.(\\d+)\\s*(?:\\|\\||।।)', 'g');
@@ -892,9 +907,9 @@
     const translationPanel = english
       ? '<p class="gita-translation">' + english + '</p>'
       : '';
-    const wordMeaningPanel = wordMeaning
-      ? '<details class="gita-details"><summary>Word-for-word</summary><div class="gita-reveal"><p>' + wordMeaning + '</p></div></details>'
-      : '';
+    const wordMeaningPanel = '<details class="gita-details"><summary>Word-for-word</summary><div class="gita-reveal"><p>' +
+      (wordMeaning || 'No word-for-word meaning is supplied separately in the pinned source record.') +
+      '</p></div></details>';
     const transliterationPanel = transliteration
       ? '<details class="gita-details"><summary>Transliteration</summary><div class="gita-reveal"><p><em>' + transliteration + '</em></p></div></details>'
       : '';
@@ -970,9 +985,9 @@
         transliterationShared: apiTransliteration || hasTransliterationOverride || commonRange.start === n
           ? null
           : (c.transliteration ? commonRange : null),
-        wordMeaning: hasWordMeaningOverride || commonRange.start === n
+        wordMeaning: hasWordMeaningOverride
           ? (override.wordMeaning || c.word_meanings || '')
-          : '',
+          : (chapter === 1 ? pickWordMeaning(c, n) : (commonRange.start === n ? (c.word_meanings || '') : '')),
         wordMeaningShared: hasWordMeaningOverride || commonRange.start === n
           ? null
           : (c.word_meanings ? commonRange : null),
