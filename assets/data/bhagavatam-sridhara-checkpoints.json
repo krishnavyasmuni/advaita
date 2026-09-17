@@ -6824,7 +6824,7 @@
     {
       "id": "canto-11-chapter-2-release",
       "range": "ŚB 11.2.1–11.2.55",
-      "status": "source-checked-and-reader-committed",
+      "status": "live-verified",
       "english_source": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana/d/doc1128974.html",
       "english_source_note": "Wisdomlib Book 11, Chapter 2 was used as the English/reference check; its verse text and explanations were independently compared, not copied.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/02_shrI-nArada-vasudeva-saMvAdaH.md",
@@ -6906,7 +6906,15 @@
         "The pinned Sanskrit source groups 11.2.2–11.2.3 under one Śrīdhara block ending at 11.2.2; the reader keeps 11.2.3 as an explicit no-commentary record.",
         "The new 11.2.35–11.2.55 segment preserves each separate Śrīdhara attribution block, including the three-part answer beginning at 11.2.45.",
         "The Contents page already exposes Canto 11 Chapter 2; no Contents markup change was needed."
-      ]
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-2",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35236335678",
+        "displayed_records": 55,
+        "sridhara_records_with_text": 54,
+        "literal_english_source_blocks": 53,
+        "no_commentary_records": 1
+      }
     }
   ],
   "generated_at": "2026-09-17"

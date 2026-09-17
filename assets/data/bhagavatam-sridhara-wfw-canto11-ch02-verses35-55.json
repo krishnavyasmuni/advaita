@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "complete_chapter_segment",
+  "status": "live-verified",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/11/02_shrI-nArada-vasudeva-saMvAdaH.md",
@@ -1138,5 +1138,6 @@
       ],
       "literal_english": "He now states the essence of all the characteristics: Hari Himself does not leave the heart of the person whose lotus feet are held there by the cord of love. Hari destroys the mass of sins even when His name is uttered involuntarily or only once; such a person is called the foremost devotee."
     }
-  ]
+  ],
+  "release_commit": "e60191a26d616a5b3d64b3314d1b37b50bd40b05"
 }
