@@ -114,8 +114,8 @@ latest_release_expected_verses: 40
 latest_release_sridhara_blocks: 37
 latest_release_wfw_entries: 37
 latest_release_no_commentary: none
-next_resume_target: 1.20
-resume_note: "Canto 1.19 is source-checked, translated, committed, and released; continue with Canto 1.20."
+next_resume_target: 2.1
+resume_note: "Canto 1.19 is the final chapter of Canto 1; continue with Canto 2 Chapter 1."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
