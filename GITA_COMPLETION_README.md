@@ -1,6 +1,6 @@
 # Bhagavad Gītā completion README
 
-Status: complete for all 18 chapters and 700 visible verses.
+Status: complete for all 18 chapters and 701 visible verse records in the Mukundananda edition (which includes the optional Chapter 13 verse 1).
 
 This page is served at:
 
@@ -34,7 +34,7 @@ The Vasuki source path is:
 
 ## Verse reconciliation
 
-The source data uses grouped verse records in several places. The reader expands those ranges to the 700 visible verse numbers and extracts the matching Sanskrit marker for each verse.
+The source data uses grouped verse records in several places. The reader expands those ranges to the 701 visible verse numbers in this edition and extracts the matching Sanskrit marker for each verse.
 
 The source-to-display exceptions are recorded in [bhagavad-gita-vasuki-manifest.json](assets/data/bhagavad-gita-vasuki-manifest.json):
 
@@ -54,7 +54,7 @@ Twenty-four reviewed JSON parts that were missing their final closing brace were
 ## Validation checklist
 
 - Chapter counts: 47, 72, 43, 42, 29, 47, 30, 28, 34, 42, 55, 20, 35, 27, 20, 24, 28, 78.
-- Total visible records: 700.
+- Total visible records: 701.
 - Every visible record has a pinned common Sanskrit/transliteration/word-meaning record and a pinned Mukundananda translation.
 - Every chapter’s Vasuki Markdown parses to the manifest’s recorded Śrīdhara section count.
 - Every visible verse has either a mapped Vasuki section or an intentional `No commentary.` value.
@@ -64,4 +64,4 @@ Twenty-four reviewed JSON parts that were missing their final closing brace were
 
 ## Maintenance rules
 
-Do not move these sources to an unpinned branch or replace the Vasuki directory with another commentary feed without repeating the full 700-verse audit. When a source commit changes, regenerate the manifest, re-check the Chapter 1 and Chapter 13 numbering exceptions, verify every word-for-word field, and update the cache-busting version in all 18 chapter shells.
+Do not move these sources to an unpinned branch or replace the Vasuki directory with another commentary feed without repeating the full 701-record audit. When a source commit changes, regenerate the manifest, re-check the Chapter 1 and Chapter 13 numbering exceptions, verify every word-for-word field, and update the cache-busting version in all 18 chapter shells.
