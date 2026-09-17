@@ -41,6 +41,7 @@
         imp(sanskrit, 'margin', '0 auto 12px');
         imp(sanskrit, 'text-align', 'center');
         imp(sanskrit, 'color', '#3c362e');
+        imp(sanskrit, 'font-family', '"Noto Serif Devanagari", "Noto Serif", serif');
         imp(sanskrit, 'font-size', '18px');
         imp(sanskrit, 'line-height', '1.45');
         imp(sanskrit, 'font-weight', '400');
@@ -59,6 +60,7 @@
         imp(translation, 'box-shadow', 'none');
         imp(translation, 'text-align', 'center');
         imp(translation, 'color', '#3c362e');
+        imp(translation, 'font-family', 'Noto Serif, Georgia, serif');
         imp(translation, 'font-size', '14px');
         imp(translation, 'line-height', '1.45');
         imp(translation, 'font-weight', '400');
@@ -137,17 +139,15 @@
         imp(commentary, 'background', 'transparent');
         imp(commentary, 'box-shadow', 'none');
         imp(commentary, 'color', '#3c362e');
-        imp(commentary, 'font-family', "Merriweather, Georgia, serif");
-        imp(commentary, 'font-size', '14px');
+        imp(commentary, 'font-size', '13px');
         imp(commentary, 'line-height', '1.45');
         imp(commentary, 'text-align', 'left');
         const commentaryHeading = commentary.querySelector('h3');
         if (commentaryHeading) {
           imp(commentaryHeading, 'margin', '0 0 4px');
-          imp(commentaryHeading, 'font-family', "Merriweather, Georgia, serif");
-          imp(commentaryHeading, 'font-size', '14px');
+          imp(commentaryHeading, 'font-family', 'Vollkorn, Georgia, serif');
+          imp(commentaryHeading, 'font-size', '15px');
           imp(commentaryHeading, 'line-height', '1.25');
-          imp(commentaryHeading, 'font-weight', '700');
         }
       }
     });
