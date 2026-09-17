@@ -6490,6 +6490,206 @@
       "wfw_pair_entries": 4,
       "method": "Sanskrit-first independent translation; Wisdomlib is a cross-reference, not copied prose.",
       "note": "Closed the four pre-existing Canto 1.2 WFW gaps found by the canonical source audit. Canto 1 is now ready to hand off to Canto 2.1."
+    },
+    {
+      "id": "canto-2-chapter-1-complete",
+      "range": "ŚB 2.1.1–2.1.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/01_dhyAnavidhiH.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "2.2",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
+    },
+    {
+      "id": "canto-2-chapter-2-complete",
+      "range": "ŚB 2.2.1–2.2.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/02_yogimuktiH.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "2.3",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
+    },
+    {
+      "id": "canto-2-chapter-3-complete",
+      "range": "ŚB 2.3.1–2.3.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/03_devopAsanam.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "2.4",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
+    },
+    {
+      "id": "canto-2-chapter-4-complete",
+      "range": "ŚB 2.4.1–2.4.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/04_kathArambhaH.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "2.5",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
+    },
+    {
+      "id": "canto-2-chapter-5-complete",
+      "range": "ŚB 2.5.1–2.5.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/05_brahmANDanirmANavarNanam.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "2.6",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
+    },
+    {
+      "id": "canto-2-chapter-6-complete",
+      "range": "ŚB 2.6.1–2.6.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/06_virATsvarUpam.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "2.7",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
+    },
+    {
+      "id": "canto-2-chapter-7-complete",
+      "range": "ŚB 2.7.1–2.7.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/07_avatAra-sanxepaH.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "2.8",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
+    },
+    {
+      "id": "canto-2-chapter-8-complete",
+      "range": "ŚB 2.8.1–2.8.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/08_parIxit-prashnaH.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "2.9",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
+    },
+    {
+      "id": "canto-2-chapter-9-complete",
+      "range": "ŚB 2.9.1–2.9.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/09_chatuHshloka-bhAgavatam.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "2.10",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
+    },
+    {
+      "id": "canto-2-chapter-10-complete",
+      "range": "ŚB 2.10.1–2.10.-Infinity",
+      "status": "source-collated-and-remote-committed",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/02/02/10_indriyAdy-utpattiH.md",
+      "expected_verses": null,
+      "source_verses_verified": null,
+      "sridhara_commentary_blocks": 0,
+      "wfw_pair_entries": 0,
+      "literal_english_records": 0,
+      "combined_source_ranges": [],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "pages/bhagavatam-with-sridhara-bhasya/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-2",
+      "next_resume_target": "3.1",
+      "notes": [
+        "Exact Vasuki/Śrīdhara source ranges preserved.",
+        "The full independent literal rendering is retained in english-checkpoints; clause-level Sanskrit/word-phrase pairs are in the Canto 1–2 additions file."
+      ]
     }
   ]
 }
