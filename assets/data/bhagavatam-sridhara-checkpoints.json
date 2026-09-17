@@ -7006,6 +7006,67 @@
         "literal_english_source_blocks": 52,
         "no_commentary_records": 1
       }
+    },
+    {
+      "id": "canto-11-chapter-4-release",
+      "range": "ŚB 11.4.1–11.4.23",
+      "status": "live-verified",
+      "english_source": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana/d/doc1128976.html",
+      "english_source_note": "Wisdomlib Book 11, Chapter 4 was used as the English/reference check; its verse text and explanations were independently compared, not copied.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/04_nimi-jAyateyopAkhyAne.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "625a007902fb300f3c909a17c39773e1e02ed139",
+      "english_mirror_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/11/04.md",
+      "english_mirror_blob_sha": "3e09f68d9cdf4ae24ce925d4409127835f0bf1ca",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch04-verses01-23.json"
+      ],
+      "records_checked": 23,
+      "exact_sridhara_source_blocks": 22,
+      "sridhara_source_ranges": [
+        "11.4.1",
+        "11.4.2",
+        "11.4.3",
+        "11.4.4",
+        "11.4.5",
+        "11.4.6",
+        "11.4.7",
+        "11.4.8",
+        "11.4.9",
+        "11.4.10",
+        "11.4.11",
+        "11.4.12",
+        "11.4.13",
+        "11.4.14",
+        "11.4.15",
+        "11.4.16",
+        "11.4.17",
+        "11.4.18",
+        "11.4.19",
+        "11.4.20",
+        "11.4.21",
+        "11.4.22",
+        "11.4.23"
+      ],
+      "no_commentary_ranges": [
+        "11.4.23"
+      ],
+      "method": "Sanskrit-first independent clause-level translation; Wisdomlib is a cross-reference, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-11-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#book-11",
+      "findings": [
+        "The pinned source has separate Śrīdhara blocks for 11.4.1–11.4.22.",
+        "At 11.4.23 the source prints *न कतमेन व्याखातम्।* and provides no Śrīdhara commentary; the reader preserves that fact and does not invent a gloss.",
+        "The Contents page now exposes Canto 11 Chapter 4."
+      ],
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-4",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35240066399",
+        "displayed_records": 23,
+        "sridhara_records_with_text": 22,
+        "literal_english_source_blocks": 22,
+        "no_commentary_records": 1
+      }
     }
   ],
   "generated_at": "2026-09-17"
