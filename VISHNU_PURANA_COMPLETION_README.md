@@ -48,41 +48,20 @@ partial or guessed result.
 | Working branch | main unless the repository explicitly shows another current branch |
 | Main Contents page | The existing Viṣṇu Purāṇa page under pages/vishnu-purana/; locate the exact current file before editing |
 | Chapter route | articles/vishnu-purana-book-{BOOK}-chapter-{CHAPTER}/index.html |
-| English translation | H. H. Wilson, Sacred Texts Viṣṇu Purāṇa |
+| Wilson reference | H. H. Wilson, 1840, Internet Sacred Text Archive |
 | Sanskrit and Śrīdhara source | Vishvas Vasuki, vishvAsa/purANam_vaiShNavam, branch content |
 | Main Sanskrit source path | viShNu-purANam/ |
 | Śrīdhara source path | Inspect the actual viShNu-purANam/shrIdhara-viShNu-chittau/ files and preserve their exact mapping |
+| Required AI rendering | Independent Sanskrit-first literal/word-for-word English, cross-checked against Wilson |
 | Template authority | The already completed Chapter 1 page |
 
-## Source lock
+## Source lock and translation method
 
 Use only these sources unless the user explicitly changes them.
 
-### Main English translation
+### Primary Sanskrit and Śrīdhara corpus
 
-Use only H. H. Wilson’s English translation from Sacred Texts:
-
-https://sacred-texts.com/hin/vp/index.htm
-
-Verify the exact chapter page and heading through the Sacred Texts index before
-using the text.
-
-Preserve exactly:
-
-- Wilson’s wording
-- punctuation
-- paragraph divisions
-- speaker labels
-- verse numbering
-- chapter headings
-- source meaning
-
-Do not modernize, summarize, paraphrase, silently correct, or substitute
-another English translation.
-
-### Sanskrit and Śrīdhara
-
-Use only Vishvas Vasuki’s GitHub corpus:
+Use Vishvas Vasuki’s GitHub corpus:
 
 https://github.com/vishvAsa/purANam_vaiShNavam/tree/content/viShNu-purANam
 
@@ -90,8 +69,50 @@ Inspect the actual files under the Viṣṇu Purāṇa directory. Do not guess
 filenames or directory names. Preserve the exact Devanāgarī and the exact
 Śrīdhara commentary-to-verse mapping.
 
-Record the exact upstream source commit SHA used for each completed chapter.
-Keep attribution, source links, and any applicable licence information.
+The Sanskrit is the primary text for the site’s own translation. Record the
+exact upstream source commit SHA used for each completed chapter. Keep
+attribution, source links, and any applicable licence information.
+
+### H. H. Wilson reference translation
+
+Use H. H. Wilson’s 1840 English translation from this archived Sacred Texts
+index:
+
+https://archive.sacred-texts.com/hin/vp/index.htm
+
+Verify the exact chapter page and heading through that archive index before
+using the text. Link the exact chapter page in the source note.
+
+Wilson is a historical reference and an accuracy cross-check, not the wording
+to imitate. Read the Sanskrit first and make the site’s own literal rendering
+from the Sanskrit. Then compare it with Wilson to catch omitted clauses,
+names, agents, objects, sentence boundaries, and major interpretive drift.
+
+Do not copy Wilson’s sentences, distinctive phrasing, paragraph wording, or
+translation choices into the AI word-for-word or commentary fields. If Wilson’s
+English is displayed in the existing template, label it as Wilson’s reference
+translation and preserve it as a reference; never present it as the AI’s own
+translation. If Wilson and the Sanskrit appear to differ, the supplied
+Sanskrit controls the AI rendering. Record a narrow source note when the
+difference affects verse alignment or meaning.
+
+### Independent AI translation method
+
+For every verse:
+
+1. Read the exact Sanskrit and identify every word, compound, case relation,
+   verb, negation, vocative, connective, and implied subject.
+2. Draft the literal/word-for-word rendering from the Sanskrit alone.
+3. Use Wilson only after that draft as a coverage and sense check.
+4. Correct omissions or grammatical mistakes without adopting Wilson’s prose.
+5. Translate the supplied Śrīdhara Sanskrit independently, including every
+   grammatical explanation, alternate reading, derivation, quotation, and
+   interpretive qualification.
+6. Keep uncertainty visible and narrow. Never manufacture a confident meaning
+   where the Sanskrit or commentary is genuinely ambiguous.
+
+The goal is the most honest, source-bound translation—not a polished imitation
+of Wilson and not a free devotional paraphrase.
 
 ## Work order and progress
 
@@ -180,16 +201,21 @@ make the page easier to generate.
 Each verse must contain the complete required material:
 
 1. Exact main Sanskrit Devanāgarī.
-2. Exact H. H. Wilson English translation.
+2. The Wilson reference English in the existing template’s reference block,
+   preserved exactly when it is displayed.
 3. Accurate standard IAST of the exact main Sanskrit.
-4. Real main word-for-word meanings.
+4. An independent AI literal/word-for-word rendering of the main Sanskrit,
+   written from the Sanskrit rather than copied from Wilson.
 5. Exact supplied Śrīdhara Sanskrit commentary.
 6. Accurate IAST of the exact Śrīdhara Sanskrit.
-7. Real Śrīdhara word-for-word meanings.
-8. Faithful English translation of the supplied Śrīdhara commentary.
+7. An independent Śrīdhara word-for-word rendering, written from the supplied
+   commentary Sanskrit.
+8. Faithful English translation of the supplied Śrīdhara commentary, written
+   independently and without generic filler.
 
-Copy the exact three controls per verse from the finished template. Do not
-remove, rename, duplicate, or redesign them.
+Keep the current Chapter 1 visual hierarchy and controls. Do not add a new
+layout merely to make the source distinction; use the existing template’s
+labels and structure consistently.
 
 ## Sanskrit and IAST rules
 
@@ -205,13 +231,33 @@ IAST must use correct diacritics, including:
 Do not use broken transliteration, plain-English spellings, missing inherent
 vowels, random extra vowels, or corrupted characters.
 
-## Word-for-word rules
+## Independent word-for-word rules
 
-Word-for-word sections must contain actual words or phrase units from the
-source and their real meanings.
+The word-for-word sections are the AI’s own Sanskrit-first work. They are not
+a copy, rearrangement, or disguised paraphrase of Wilson.
 
-Use phrase units when sandhi or compounds require them, but keep the Sanskrit
-visible and explain the actual phrase.
+For the main Sanskrit:
+
+- Cover every actual word or necessary phrase unit.
+- Keep the source Sanskrit visible in the paired phrase.
+- Give the narrowest honest lexical or phrase meaning first.
+- Preserve compounds, sandhi, case relations, tense, voice, negation,
+  vocatives, connectives, agents, objects, and implied relationships.
+- Use phrase units when a compound or sandhi cannot be translated word by word,
+  but explain the actual phrase rather than hiding it.
+- Allow a literal rendering to sound less elegant than Wilson when that is more
+  faithful to the Sanskrit.
+- After drafting, compare clause by clause with Wilson only to find omissions or
+  obvious misunderstandings. Do not borrow Wilson’s prose.
+
+For Śrīdhara:
+
+- Translate every supplied commentary phrase, including grammatical analysis,
+  derivations, alternate readings, quotations, and qualifications.
+- Do not reduce a full commentary passage to “the commentator explains.”
+- Do not use Wilson’s main-text English as a substitute for Śrīdhara.
+- Keep the literal Śrīdhara rendering separate from the faithful paragraph
+  translation already required by the template.
 
 Never use filler such as:
 
@@ -225,7 +271,20 @@ Never use filler such as:
 - invented Sanskrit
 - an unrelated meaning
 
-The same rule applies to both the main Sanskrit and the Śrīdhara Sanskrit.
+If a source reading is genuinely ambiguous, state the ambiguity at that phrase
+and do not invent certainty. If the source has no commentary for a verse, use
+exactly:
+
+~~~text
+No commentary.
+~~~
+
+Include the period. Do not write “No separate commentary,” “commentary
+unavailable,” “the commentator explains,” or an invented summary.
+
+When the finished template has no commentary state, follow that exact template
+behaviour: do not create an empty commentary block or add explanatory text
+above or below No commentary.
 
 ## Śrīdhara commentary rules
 
@@ -367,7 +426,9 @@ Before committing, verify all of the following:
 - every verse has exactly one Contents link
 - every verse has exactly three controls, matching the template
 - every verse has main Sanskrit
-- every verse has Wilson English
+- every verse has the Wilson reference English required by the existing template
+- every AI word-for-word field is independently derived from the supplied Sanskrit
+- every AI commentary translation is independently derived from supplied Śrīdhara Sanskrit
 - every verse has main IAST
 - every verse has main word-for-word meanings
 - every verse has the required Śrīdhara fields
@@ -436,7 +497,7 @@ claim that the main Contents page was updated.
 
 Every completed chapter must identify:
 
-- H. H. Wilson and the exact Sacred Texts page
+- H. H. Wilson as the reference and the exact archived Sacred Texts page
 - the exact Sanskrit source path
 - the exact Śrīdhara source path
 - the Śrīdhara author
@@ -496,7 +557,8 @@ Never:
 - update the Contents page before completion
 - invent Sanskrit, translation, or commentary
 - substitute another English translation
-- summarize Wilson or Śrīdhara
+- copy Wilson into the AI translation or word-for-word fields
+- summarize Śrīdhara where a literal translation is required
 - use search-result snippets as the source
 - silently change source readings
 - silently shift verse alignment
