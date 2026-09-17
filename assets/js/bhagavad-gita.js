@@ -870,6 +870,9 @@
         ? lines(d.mukEnglish)
         : '';
     const key = chapter + '.' + n;
+    const headingRange = d.mukEnglish && d.mukRange && d.mukRange.start === n && d.mukRange.end > n
+      ? chapter + '.' + n + '–' + chapter + '.' + d.mukRange.end
+      : chapter + '.' + n;
     const wordMeaning = sourceMode === 'legacy'
       ? lines(meanings[key] || 'Word-for-word meaning unavailable in the source record.')
       : d.wordMeaning
@@ -900,7 +903,7 @@
       : '';
 
     return '<article class="gita-verse" id="gita-' + chapter + '-' + n + '">' +
-      '<h2><span>BG</span> ' + chapter + '.' + n + '</h2><hr class="gita-verse-rule">' +
+      '<h2><span>BG</span> ' + headingRange + '</h2><hr class="gita-verse-rule">' +
       '<div class="gita-sanskrit" lang="sa-Deva">' + rootLines + '</div>' +
       translationPanel +
       '<div class="gita-controls">' +
@@ -910,12 +913,11 @@
       '</div><section class="gita-commentary"><h3>Śrīdhara’s Commentary.</h3><p>' + translatedCommentary + '</p></section></article>';
   };
 
-  const renderChapter = (data, meanings, sourceMode, sourceNote) => {
+  const renderChapter = (data, meanings, sourceMode) => {
     root.innerHTML = '<header class="gita-hero"><p class="eyebrow">Śrīmad Bhagavad Gītā</p><h1>Chapter ' + chapter + '</h1><p class="subtitle">' + names[chapter - 1] + '</p><div class="gita-rule" aria-hidden="true"></div></header>' +
       '<nav class="gita-chapter-nav" aria-label="Chapter navigation"><a href="/vivekadrishti/pages/bhagavad-gita/">All chapters</a>' + (chapter > 1 ? '<a href="/vivekadrishti/articles/bhagavad-gita-chapter-' + (chapter - 1) + '/">Previous</a>' : '') + (chapter < 18 ? '<a href="/vivekadrishti/articles/bhagavad-gita-chapter-' + (chapter + 1) + '/">Next</a>' : '') + '</nav>' +
       '<div class="gita-contents"><h2>Contents</h2><ol>' + data.map((d) => '<li><a href="#gita-' + chapter + '-' + d.verse + '">Verse ' + d.verse + '</a></li>').join('') + '</ol></div>' +
-      data.map((d) => makeVerse(d, meanings, sourceMode)).join('') +
-      '<div class="gita-source-note"><strong>Textual basis</strong><p>' + sourceNote + '</p></div>';
+      data.map((d) => makeVerse(d, meanings, sourceMode)).join('');
   };
 
   const load = async () => {
@@ -977,16 +979,12 @@
         wordMeaningShared: hasWordMeaningOverride || commonRange.start === n
           ? null
           : (c.word_meanings ? commonRange : null),
+        mukRange,
         mukEnglish: mukRange.start === n ? (m.translation || '') : '',
         srid: {sc: sridharaCommentary}
       };
     });
-    renderChapter(
-      data,
-      {},
-      'mukundananda',
-      'Sanskrit and transliteration are loaded from the pinned per-verse records in <a href="https://github.com/vedicscriptures/bhagavad-gita-api" target="_blank" rel="noopener">vedicscriptures/bhagavad-gita-api</a> using its companion data repository at commit <a href="https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok" target="_blank" rel="noopener">43dfc8db815d01e15a347ea294b089334cf2aa17</a>. Mukundananda’s English and Holy Bhagavad Gita word meanings remain from the pinned <a href="https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json" target="_blank" rel="noopener">author_22_en.json</a> and <a href="https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common" target="_blank" rel="noopener">common_en.json</a>. All 49 multi-verse Mukundananda/common source records are kept intact: each exact grouped source appears once on the first verse card, while later verse cards do not repeat or fabricate per-verse translation or word-meaning text. Sanskrit and transliteration remain one-record-per-verse from the API data model. Śrīdhara Svāmī’s Sanskrit commentary is loaded from the pinned <a href="https://github.com/vishvAsa/mahAbhAratam/blob/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH/' + vasukiChapter.file + '" target="_blank" rel="noopener">Vasuki source file</a>, using the local verse map. The companion literal panel uses independently prepared Śrīdhara word-for-word glosses and does not copy Mukundananda’s English. “No commentary.” appears only where the pinned Vasuki manifest has no separate Śrīdhara section.'
-    );
+    renderChapter(data, {}, 'mukundananda');
   };
 
   load().catch(() => {

@@ -1,26 +1,155 @@
-(()=>{
-  const root=document.querySelector('.gita-content');
-  if(!root)return;
-  const imp=(el,prop,val)=>el&&el.style.setProperty(prop,val,'important');
-  const styleAll=()=>{
-    root.querySelectorAll('.gita-verse').forEach(v=>{
-      imp(v,'margin','0 0 26px'); imp(v,'padding','0'); imp(v,'border','0'); imp(v,'background','transparent'); imp(v,'box-shadow','none');
-      const h=v.querySelector('h2');
-      if(h){imp(h,'margin','0');imp(h,'text-align','center');imp(h,'color','#2f7f82');imp(h,'font-family','Vollkorn, Georgia, serif');imp(h,'font-size','26px');imp(h,'line-height','1.1');imp(h,'font-weight','600');imp(h,'letter-spacing','.01em');}
-      const hr=v.querySelector('.gita-verse-rule');
-      if(hr){imp(hr,'border','0');imp(hr,'border-top','1px solid #dedbd6');imp(hr,'width','56%');imp(hr,'max-width','520px');imp(hr,'margin','13px auto 16px');}
-      const sa=v.querySelector('.gita-sanskrit');
-      if(sa){imp(sa,'max-width','840px');imp(sa,'margin','0 auto 14px');imp(sa,'text-align','center');imp(sa,'color','#3c362e');imp(sa,'font-size','21px');imp(sa,'line-height','1.48');imp(sa,'font-weight','400');}
-      const en=v.querySelector('.gita-translation');
-      if(en){const t=en.textContent||'';const cleaned=t.replace(/^\s*\d+\.\d+\s*/,'');if(cleaned!==t)en.textContent=cleaned;imp(en,'max-width','840px');imp(en,'margin','0 auto 14px');imp(en,'padding','0');imp(en,'border','0');imp(en,'background','transparent');imp(en,'box-shadow','none');imp(en,'text-align','center');imp(en,'color','#3c362e');imp(en,'font-size','16px');imp(en,'line-height','1.45');imp(en,'font-weight','400');}
-      const ctr=v.querySelector('.gita-controls');
-      if(ctr){imp(ctr,'display','block');imp(ctr,'max-width','840px');imp(ctr,'margin','0 auto');imp(ctr,'padding','0');}
-      const details=[...v.querySelectorAll('.gita-details')];
-      details.forEach((d,i)=>{imp(d,'display','block');imp(d,'max-width','840px');imp(d,'margin',i===details.length-1?'0 auto 12px':'0 auto 8px');imp(d,'padding','0');imp(d,'border','0');imp(d,'background','transparent');imp(d,'box-shadow','none');const s=d.querySelector('summary');if(s){imp(s,'display','block');imp(s,'width','max-content');imp(s,'max-width','100%');imp(s,'cursor','pointer');imp(s,'border','1px solid #9bc5c7');imp(s,'border-radius','999px');imp(s,'padding','5px 13px');imp(s,'color','#2f7f82');imp(s,'background','transparent');imp(s,'font-size','14px');imp(s,'line-height','1.15');imp(s,'font-weight','600');imp(s,'box-shadow','none');imp(s,'text-decoration','none');}const r=d.querySelector('.gita-reveal');if(r){imp(r,'margin','8px 0 12px');imp(r,'padding','0');imp(r,'border','0');imp(r,'background','transparent');imp(r,'box-shadow','none');imp(r,'color','#3c362e');imp(r,'font-size',i===1?'14px':'13px');imp(r,'line-height','1.55');}});
-      const c=v.querySelector('.gita-commentary');
-      if(c){imp(c,'max-width','840px');imp(c,'margin','18px auto 28px');imp(c,'padding','0');imp(c,'border','0');imp(c,'border-left','0');imp(c,'background','transparent');imp(c,'box-shadow','none');imp(c,'color','#3c362e');imp(c,'font-size','15px');imp(c,'line-height','1.6');imp(c,'text-align','left');}
+(() => {
+  const root = document.querySelector('.gita-content');
+  if (!root) return;
+
+  const imp = (element, property, value) => {
+    if (element) element.style.setProperty(property, value, 'important');
+  };
+
+  const styleAll = () => {
+    root.querySelectorAll('.gita-verse').forEach((verse) => {
+      imp(verse, 'margin', '0 0 22px');
+      imp(verse, 'padding', '0');
+      imp(verse, 'border', '0');
+      imp(verse, 'background', 'transparent');
+      imp(verse, 'box-shadow', 'none');
+
+      const heading = verse.querySelector('h2');
+      if (heading) {
+        imp(heading, 'margin', '0');
+        imp(heading, 'text-align', 'center');
+        imp(heading, 'color', '#2f7f82');
+        imp(heading, 'font-family', 'Vollkorn, Georgia, serif');
+        imp(heading, 'font-size', '23px');
+        imp(heading, 'line-height', '1.1');
+        imp(heading, 'font-weight', '600');
+        imp(heading, 'letter-spacing', '.01em');
+      }
+
+      const rule = verse.querySelector('.gita-verse-rule');
+      if (rule) {
+        imp(rule, 'border', '0');
+        imp(rule, 'border-top', '1px solid #dedbd6');
+        imp(rule, 'width', '56%');
+        imp(rule, 'max-width', '520px');
+        imp(rule, 'margin', '10px auto 12px');
+      }
+
+      const sanskrit = verse.querySelector('.gita-sanskrit');
+      if (sanskrit) {
+        imp(sanskrit, 'max-width', '840px');
+        imp(sanskrit, 'margin', '0 auto 12px');
+        imp(sanskrit, 'text-align', 'center');
+        imp(sanskrit, 'color', '#3c362e');
+        imp(sanskrit, 'font-size', '18px');
+        imp(sanskrit, 'line-height', '1.45');
+        imp(sanskrit, 'font-weight', '400');
+      }
+
+      const translation = verse.querySelector('.gita-translation');
+      if (translation) {
+        const text = translation.textContent || '';
+        const cleaned = text.replace(/^\s*\d+\.\d+\s*/, '');
+        if (cleaned !== text) translation.textContent = cleaned;
+        imp(translation, 'max-width', '840px');
+        imp(translation, 'margin', '0 auto 12px');
+        imp(translation, 'padding', '0');
+        imp(translation, 'border', '0');
+        imp(translation, 'background', 'transparent');
+        imp(translation, 'box-shadow', 'none');
+        imp(translation, 'text-align', 'center');
+        imp(translation, 'color', '#3c362e');
+        imp(translation, 'font-size', '14px');
+        imp(translation, 'line-height', '1.45');
+        imp(translation, 'font-weight', '400');
+      }
+
+      const controls = verse.querySelector('.gita-controls');
+      if (controls) {
+        imp(controls, 'display', 'block');
+        imp(controls, 'max-width', '840px');
+        imp(controls, 'margin', '0 auto');
+        imp(controls, 'padding', '0');
+      }
+
+      [...verse.querySelectorAll('.gita-details')].forEach((details) => {
+        imp(details, 'display', 'block');
+        imp(details, 'max-width', '840px');
+        imp(details, 'margin', '0 auto 6px');
+        imp(details, 'padding', '0');
+        imp(details, 'border', '0');
+        imp(details, 'background', 'transparent');
+        imp(details, 'box-shadow', 'none');
+
+        const summary = details.querySelector('summary');
+        if (summary) {
+          imp(summary, 'display', 'block');
+          imp(summary, 'width', 'max-content');
+          imp(summary, 'max-width', '100%');
+          imp(summary, 'cursor', 'pointer');
+          imp(summary, 'border', '1px solid #9bc5c7');
+          imp(summary, 'border-radius', '999px');
+          imp(summary, 'padding', '4px 10px');
+          imp(summary, 'color', '#2f7f82');
+          imp(summary, 'background', 'transparent');
+          imp(summary, 'font-size', '12px');
+          imp(summary, 'line-height', '1.15');
+          imp(summary, 'font-weight', '600');
+          imp(summary, 'box-shadow', 'none');
+          imp(summary, 'text-decoration', 'none');
+        }
+
+        const reveal = details.querySelector('.gita-reveal');
+        if (!reveal) return;
+        imp(reveal, 'margin', '6px 0 9px');
+        imp(reveal, 'padding', '0');
+        imp(reveal, 'border', '0');
+        imp(reveal, 'background', 'transparent');
+        imp(reveal, 'box-shadow', 'none');
+        imp(reveal, 'color', '#3c362e');
+        imp(reveal, 'font-size', '11.5px');
+        imp(reveal, 'line-height', '1.42');
+
+        reveal.querySelectorAll('p').forEach((paragraph) => {
+          const isSanskrit = paragraph.matches('[lang^="sa"]');
+          imp(paragraph, 'margin', '0');
+          imp(paragraph, 'font-size', isSanskrit ? '15px' : '11.5px');
+          imp(paragraph, 'line-height', isSanskrit ? '1.55' : '1.42');
+        });
+        reveal.querySelectorAll('.gita-dual-label').forEach((label) => {
+          imp(label, 'margin', '0 0 3px');
+          imp(label, 'font-size', '11.5px');
+          imp(label, 'line-height', '1.2');
+        });
+        reveal.querySelectorAll('.gita-wfw-list').forEach((list) => {
+          imp(list, 'font-size', '11.5px');
+          imp(list, 'line-height', '1.42');
+        });
+      });
+
+      const commentary = verse.querySelector('.gita-commentary');
+      if (commentary) {
+        imp(commentary, 'max-width', '840px');
+        imp(commentary, 'margin', '12px auto 20px');
+        imp(commentary, 'padding', '0');
+        imp(commentary, 'border', '0');
+        imp(commentary, 'border-left', '0');
+        imp(commentary, 'background', 'transparent');
+        imp(commentary, 'box-shadow', 'none');
+        imp(commentary, 'color', '#3c362e');
+        imp(commentary, 'font-size', '13px');
+        imp(commentary, 'line-height', '1.45');
+        imp(commentary, 'text-align', 'left');
+        const commentaryHeading = commentary.querySelector('h3');
+        if (commentaryHeading) {
+          imp(commentaryHeading, 'margin', '0 0 4px');
+          imp(commentaryHeading, 'font-size', '15px');
+          imp(commentaryHeading, 'line-height', '1.25');
+        }
+      }
     });
   };
+
   styleAll();
-  new MutationObserver(styleAll).observe(root,{childList:true,subtree:true});
+  new MutationObserver(styleAll).observe(root, {childList: true, subtree: true});
 })();

@@ -6,6 +6,7 @@
   if (!Number.isInteger(chapter) || chapter < 1 || chapter > 18) return;
 
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const capitalizeLeadingLatin = (value) => String(value ?? '').replace(/^(\s*[““‘"'(\[]*)([A-Za-zÀ-ÖØ-öø-ÿĀ-ž])/u, (_, prefix, first) => prefix + first.toUpperCase());
   const independent = {'अ':'a','आ':'ā','इ':'i','ई':'ī','उ':'u','ऊ':'ū','ऋ':'ṛ','ॠ':'ṝ','ऌ':'ḷ','ॡ':'ḹ','ए':'e','ऐ':'ai','ओ':'o','औ':'au','ॐ':'oṃ'};
   const consonants = {'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'ṅ','च':'c','छ':'ch','ज':'j','झ':'jh','ञ':'ñ','ट':'ṭ','ठ':'ṭh','ड':'ḍ','ढ':'ḍh','ण':'ṇ','त':'t','थ':'th','द':'d','ध':'dh','न':'n','प':'p','फ':'ph','ब':'b','भ':'bh','म':'m','य':'y','र':'r','ल':'l','व':'v','श':'ś','ष':'ṣ','स':'s','ह':'h','ळ':'ḷ'};
   const matras = {'ा':'ā','ि':'i','ी':'ī','ु':'u','ू':'ū','ृ':'ṛ','ॄ':'ṝ','ॢ':'ḷ','ॣ':'ḹ','े':'e','ै':'ai','ो':'o','ौ':'au'};
@@ -36,10 +37,11 @@
 
   const renderPairs = (pairs) => {
     if (!Array.isArray(pairs) || !pairs.length) return '<p class="gita-dual-empty">No commentary.</p>';
-    return '<p class="gita-wfw-list">' + pairs.map((pair) => {
+    return '<p class="gita-wfw-list">' + pairs.map((pair, index) => {
       const term = Array.isArray(pair) ? pair[0] : '';
+      const displayTerm = index === 0 ? capitalizeLeadingLatin(term) : term;
       const gloss = Array.isArray(pair) ? pair[1] : '';
-      return '<strong>' + esc(term) + '</strong> — ' + esc(gloss);
+      return '<strong>' + esc(displayTerm) + '</strong> — ' + esc(gloss);
     }).join('; ') + '.</p>';
   };
 
@@ -82,9 +84,12 @@
 
     const gitaWfw = wfwReveal.innerHTML;
     const gitaTrans = transReveal.innerHTML;
+    const existingCommentary = englishNode.textContent || '';
+    const capitalizedCommentary = capitalizeLeadingLatin(existingCommentary);
+    if (capitalizedCommentary !== existingCommentary) englishNode.textContent = capitalizedCommentary;
     const sridRaw = cleanSrid(sridTextNode.textContent);
     const noCommentary = /^no commentary\.?$/i.test(sridRaw);
-    const sridTrans = noCommentary ? '<p class="gita-dual-empty">No commentary.</p>' : '<p><em>' + esc(devaToIast(sridRaw)) + '</em></p>';
+    const sridTrans = noCommentary ? '<p class="gita-dual-empty">No commentary.</p>' : '<p><em>' + esc(capitalizeLeadingLatin(devaToIast(sridRaw))) + '</em></p>';
 
     wfwReveal.innerHTML = dualBlock(gitaWfw, renderPairs(noCommentary ? [] : verseData.word_for_word));
     transReveal.innerHTML = dualBlock(gitaTrans, sridTrans);
@@ -93,7 +98,7 @@
       englishNode.textContent = 'No commentary.';
       englishNode.classList.add('gita-no-source');
     } else {
-      const literalTranslation = String(verseData.translation || '').trim() || joinedGloss(verseData.word_for_word);
+      const literalTranslation = capitalizeLeadingLatin(String(verseData.translation || '').trim() || joinedGloss(verseData.word_for_word));
       if (literalTranslation) {
         englishNode.textContent = literalTranslation;
         englishNode.classList.remove('gita-no-source');
