@@ -4448,7 +4448,7 @@
     {
       "id": "canto-11-chapter-17-release",
       "range": "ŚB 11.17.1–11.17.58",
-      "status": "complete",
+      "status": "live-verified",
       "english_source": "https://vedabase.io/en/library/sb/11/17/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/17_varNAshrama-vibhAgaH.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4509,7 +4509,14 @@
         "11.17.58"
       ],
       "source_note": "The pinned source contains 48 Śrīdhara blocks and four explicit no-commentary markers covering all 58 numbered verses; 11.17.1–11.17.2 and 11.17.3–11.17.7 remain grouped exactly as supplied.",
-      "live_render": null
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-17",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35376789291",
+        "displayed_records": 52,
+        "sridhara_records_with_text": 48,
+        "literal_english_source_blocks": 52,
+        "no_commentary_records": 4
+      }
     }
   ],
   "generated_at": "2026-09-17"
