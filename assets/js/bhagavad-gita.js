@@ -927,7 +927,7 @@
 
   const renderChapter = (data, meanings, sourceMode) => {
     root.innerHTML = '<header class="gita-hero"><p class="eyebrow">Śrīmad Bhagavad Gītā</p><h1>Chapter ' + chapter + '</h1><p class="subtitle">' + names[chapter - 1] + '</p><div class="gita-rule" aria-hidden="true"></div></header>' +
-      '<nav class="gita-chapter-nav" aria-label="Chapter navigation"><a href="/vivekadrishti/pages/bhagavad-gita/">All chapters</a>' + (chapter > 1 ? '<a href="/vivekadrishti/articles/bhagavad-gita-chapter-' + (chapter - 1) + '/">Previous</a>' : '') + (chapter < 18 ? '<a href="/vivekadrishti/articles/bhagavad-gita-chapter-' + (chapter + 1) + '/">Next</a>' : '') + '</nav>' +
+      '<nav class="gita-chapter-nav" aria-label="Chapter navigation"><a class="gita-nav-all" href="/vivekadrishti/pages/bhagavad-gita/">All chapters</a>' + (chapter > 1 ? '<a class="gita-nav-prev" href="/vivekadrishti/articles/bhagavad-gita-chapter-' + (chapter - 1) + '/">← Previous</a>' : '') + (chapter < 18 ? '<a class="gita-nav-next" href="/vivekadrishti/articles/bhagavad-gita-chapter-' + (chapter + 1) + '/">Next chapter →</a>' : '') + '</nav>' +
       '<div class="gita-contents"><h2>Contents</h2><ol>' + data.map((d) => '<li><a href="#gita-' + chapter + '-' + d.verse + '">Verse ' + d.verse + '</a></li>').join('') + '</ol></div>' +
       data.map((d) => makeVerse(d, meanings, sourceMode)).join('');
   };
