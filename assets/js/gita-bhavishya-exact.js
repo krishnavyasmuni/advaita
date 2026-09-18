@@ -8,6 +8,35 @@
 
   const styleAll = () => {
     const narrow = window.matchMedia && window.matchMedia('(max-width: 700px)').matches;
+    const chapterNav = root.querySelector('.gita-chapter-nav');
+    if (chapterNav) {
+      imp(chapterNav, 'display', 'flex');
+      imp(chapterNav, 'flex-wrap', 'wrap');
+      imp(chapterNav, 'justify-content', 'center');
+      imp(chapterNav, 'align-items', 'center');
+      imp(chapterNav, 'gap', narrow ? '8px' : '10px');
+      imp(chapterNav, 'margin', narrow ? '0 auto 24px' : '0 auto 28px');
+      imp(chapterNav, 'padding', '0');
+      chapterNav.querySelectorAll('a').forEach((link) => {
+        const filled = link.classList.contains('gita-nav-next') || link.classList.contains('gita-nav-prev');
+        imp(link, 'display', 'inline-flex');
+        imp(link, 'align-items', 'center');
+        imp(link, 'justify-content', 'center');
+        imp(link, 'min-height', narrow ? '31px' : '32px');
+        imp(link, 'padding', narrow ? '6px 13px' : '6px 15px');
+        imp(link, 'border', '1px solid ' + (filled ? '#2f7f82' : '#9bc5c7'));
+        imp(link, 'border-radius', '999px');
+        imp(link, 'background', filled ? '#2f7f82' : '#fffdfb');
+        imp(link, 'color', filled ? '#ffffff' : '#2f7f82');
+        imp(link, 'font-family', 'Vollkorn, Georgia, serif');
+        imp(link, 'font-size', narrow ? '12px' : '12.5px');
+        imp(link, 'line-height', '1.15');
+        imp(link, 'font-weight', '500');
+        imp(link, 'letter-spacing', '.01em');
+        imp(link, 'text-decoration', 'none');
+        imp(link, 'box-shadow', '0 1px 2px rgba(60,54,46,.08)');
+      });
+    }
     root.querySelectorAll('.gita-verse').forEach((verse) => {
       imp(verse, 'margin', '0 0 22px');
       imp(verse, 'padding', '0');
@@ -140,14 +169,14 @@
         imp(commentary, 'background', 'transparent');
         imp(commentary, 'box-shadow', 'none');
         imp(commentary, 'color', '#3c362e');
-        imp(commentary, 'font-size', narrow ? '13.5px' : '14px');
-        imp(commentary, 'line-height', '1.45');
+        imp(commentary, 'font-size', narrow ? '15px' : '16px');
+        imp(commentary, 'line-height', narrow ? '1.52' : '1.58');
         imp(commentary, 'text-align', 'left');
         const commentaryHeading = commentary.querySelector('h3');
         if (commentaryHeading) {
           imp(commentaryHeading, 'margin', '0 0 4px');
           imp(commentaryHeading, 'font-family', 'Vollkorn, Georgia, serif');
-          imp(commentaryHeading, 'font-size', narrow ? '15px' : '16px');
+          imp(commentaryHeading, 'font-size', narrow ? '17px' : '18px');
           imp(commentaryHeading, 'line-height', '1.25');
         }
       }
