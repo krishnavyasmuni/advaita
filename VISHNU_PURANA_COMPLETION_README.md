@@ -191,16 +191,16 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3, Chapter 18 (full lexical/commentary rebuild; committed content read back exactly) |
+| Last committed route | Book 3, Chapter 1 (full lexical/commentary rebuild; committed content read back exactly) |
 | Book 1 status | STRUCTURAL AUDIT PASSED — all 22 routes are present with sequential IDs and no direct-lexical placeholders; 14 legacy ellipsis articles remain outside the Book 3 completion scope |
 | Book 2 status | STRUCTURAL AUDIT PASSED — all 16 routes are present with sequential IDs and no direct-lexical placeholders; 1 legacy ellipsis article remains outside the Book 3 completion scope |
-| Book 3 status | INCOMPLETE — Chapters 1–12 still require the full Chapter 2 quality standard; Chapters 13–18 have passed full lexical/commentary rebuild and post-commit read-back |
-| Current repair target | Book 3, Chapters 1–12 — inspect each existing chapter against the exact-source, complete-translation, genuine word-for-word, and Śrīdhara-commentary workflow |
-| Next chapter after the repair target | Book 3 complete audit and rendered-page verification, only after Chapters 1–12 pass |
+| Book 3 status | INCOMPLETE — Chapters 2–12 still require the full Chapter 2 quality standard; Chapters 1 and 13–18 have passed full lexical/commentary rebuild and post-commit read-back |
+| Current repair target | Book 3, Chapter 2 — inspect the existing chapter against the exact-source, complete-translation, genuine word-for-word, and Śrīdhara-commentary workflow |
+| Next chapter after the repair target | Book 3, Chapter 3, then continue through Chapter 12 before the final Book 3 audit |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | Fully audit/rebuild Book 3 Chapters 1–12, then run the full Book 3 audit and rendered-page verification; only after that continue to Book 2 |
-| Latest chapter verification commit | 5375e7bbea6ee125a83152468c3901a4f580f092 — Book 3 Chapter 18 full lexical/commentary rebuild; committed content read back exactly |
-| Latest semantic audit | Book 3 Chapter 18 — 105 verses, 105 translations, 54 supplied Śrīdhara blocks, 51 exact “No commentary.” sections, zero raw/filler markers, and no duplicate multi-phrase word-for-word entries |
+| Full-scope remediation queue | Fully audit/rebuild Book 3 Chapters 2–12, then run the full Book 3 audit and rendered-page verification; only after that continue to Book 2 |
+| Latest chapter verification commit | a23c63c06151fc1feabd12adbb3814b3eb681fab — Book 3 Chapter 1 full lexical/commentary rebuild; committed content read back exactly |
+| Latest semantic audit | Book 3 Chapter 1 — 46 verses, 46 translations, 15 supplied Śrīdhara blocks, 31 exact “No commentary.” sections, zero raw/filler markers, and no duplicate multi-phrase word-for-word entries |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
@@ -217,7 +217,7 @@ The repository-wide static gate was rerun after the latest commits:
 - Literal scaffolding tokens (`lexical term`, `inflected form`, `verbal form`, and the old `Words/sense/commentary` labels) occur zero times.
 - Every route records the locked Vasuki content-branch tip `fc117aa4514dfd4e4840037aeb3ca825ba030b05`.
 - The generated main Contents route exposes all 56 chapter links.
-- Chapter 18 has now passed full lexical/commentary read-back: 105 verses, 105 translations, 54 supplied Śrīdhara blocks, 51 exact “No commentary.” sections, zero raw/filler markers, and no duplicate multi-phrase word-for-word entries. Chapters 13–18 have now passed that rebuild standard. Chapters 1–12 still require the same source and semantic audit. Do not mark Book 3 complete until Chapters 1–12 also pass.
+- Chapters 1 and 13–18 have now passed full lexical/commentary rebuild and post-commit read-back. Chapter 1 has 46 verses, 46 translations, 15 supplied Śrīdhara blocks, and 31 exact “No commentary.” sections; Chapter 18 has 105 verses, 105 translations, 54 supplied Śrīdhara blocks, and 51 exact “No commentary.” sections. Chapters 2–12 still require the same source and semantic audit. Do not mark Book 3 complete until Chapters 2–12 also pass.
 
 The static gate is intentionally separate from semantic source reconciliation. The
 current corpus contains edition-level segmentation differences that must remain
