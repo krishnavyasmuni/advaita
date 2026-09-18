@@ -201,7 +201,7 @@ for the next AI; do not infer progress from an old chat message.
 | Next chapter after the repair target | Book 3, Chapter 17, then continue backward through Chapter 1 before the final Book 3 audit |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
 | Full-scope remediation queue | Finish the strict WFW audit of Book 3 Chapter 18, then reverse-audit/rebuild Chapters 17–1, including the outstanding Chapter 11–12 quality work, before the final Book 3 audit and rendered-page verification |
-| Latest chapter verification commit | b421b90cd4591cc0e6b4eaa405c81c43a08622cc — Book 3 Chapter 18 Sanskrit-first rebuild; committed content read back exactly |
+| Latest chapter verification commit | cdc128169dbe58818a2853d03b1d8b57859f211b — Book 3 Chapter 17 word-for-word alignment rebuild; committed content read back exactly |
 | Latest semantic audit | Book 3 Chapter 17 — 45 verses, 45 translations, 45 main WFW blocks regenerated from the displayed Sanskrit segments, 29 supplied Śrīdhara blocks, 16 exact no-commentary articles, all 45 articles structurally closed; Chapter 18 remains open for the stricter WFW audit |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
