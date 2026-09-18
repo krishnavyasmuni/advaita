@@ -195,8 +195,8 @@ for the next AI; do not infer progress from an old chat message.
 | Book 1 status | STATIC AUDIT PASSED — all 22 routes are present; placeholder/WFW scaffolding is removed, provenance is pinned, and Chapters 1, 2, 8, and 18 have now passed exact source-edition read-back. Remaining work is the documented Book 2–3 queue below |
 | Book 2 status | STATIC AUDIT PASSED — all 16 routes are present; Chapter 14 was rebuilt and verified at 33 articles, and Chapters 15–16 now carry pinned source provenance |
 | Book 3 status | Chapters 4–7 REPAIRED AND VERIFIED — the routes have independent Śrīdhara renderings, corrected verse fields where needed, no residual ellipses, and exact source provenance; Chapters 8–12 still require commentary remediation |
-| Current repair target | Book 3, Chapter 9 commentary translation and exact source-to-article alignment |
-| Next chapter after the repair target | Book 3, Chapter 8 commentary translation and exact source-to-article alignment |
+| Current repair target | Book 3, Chapter 8 commentary translation and exact source-to-article alignment |
+| Next chapter after the repair target | Book 3, Chapter 9 commentary translation and exact source-to-article alignment |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
 | Full-scope remediation queue | Complete Book 3 Chapters 8–12 by replacing remaining direct-lexical boilerplate and residual ellipses, then review Chapters 13–17 for residual ellipses and rerun the semantic source-to-article alignment audit across all 56 routes |
 | Latest chapter verification commit | 640d734e131d2334d4a6984ee7893141ff3af3ac — Book 3 Chapter 7 commentary repair, source provenance, and post-commit read-back passed |
