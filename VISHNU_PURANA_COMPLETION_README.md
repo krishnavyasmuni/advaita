@@ -194,13 +194,13 @@ for the next AI; do not infer progress from an old chat message.
 | Last committed route | Book 3, Chapter 18 (final source-provenance pin; complete Book 3 audit passed) |
 | Book 1 status | STRUCTURAL AUDIT PASSED — all 22 routes are present with sequential IDs and no direct-lexical placeholders; 14 legacy ellipsis articles remain outside the Book 3 completion scope |
 | Book 2 status | STRUCTURAL AUDIT PASSED — all 16 routes are present with sequential IDs and no direct-lexical placeholders; 1 legacy ellipsis article remains outside the Book 3 completion scope |
-| Book 3 status | STRUCTURAL AUDIT PASSED, SEMANTIC AUDIT FAILED — 837 articles and route structure are present, but Chapters 13–18 contain raw or partially translated Śrīdhara commentary blocks and must be repaired before completion |
-| Current repair target | Book 3, Chapters 13–18 — replace raw/partial Śrīdhara blocks with verified translations and rerun rendered-page checks |
-| Next chapter after the repair target | Book 3, Chapter 13 after the semantic repair queue is cleared |
+| Book 3 status | SOURCE REPAIR COMMITTED — all 18 routes now pass the repository read-back: 837 aligned articles, sequential IDs, no raw Śrīdhara gloss markers, no unresolved range labels, and no detected placeholders; live GitHub Pages render check remains pending |
+| Current repair target | Book 3, Chapters 13–18 — repository repair is committed; complete the live rendered-page verification when GitHub Pages is accessible |
+| Next chapter after the repair target | No new Book 3 chapter; finish live verification, then optionally clean the 15 legacy ellipsis articles in Book 1–2 |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | Repair Śrīdhara commentary in Book 3 Chapters 13–18, verify the rendered routes, then clean the 15 legacy ellipsis articles remaining in Book 1–2 |
-| Latest chapter verification commit | 5c825832f5d6b1a5827ce8fe0d5afd35e5d9666f — final Book 3 provenance/read-back pass; all 18 chapter routes verified |
-| Latest semantic audit | FAILED — Book 3 Chapters 13–18 contain raw or partially translated Śrīdhara blocks despite passing the earlier structural checks; Book 3 must not be marked complete until those blocks and the rendered range labels are repaired |
+| Full-scope remediation queue | Live-verify the repaired Book 3 Chapters 13–18, then optionally clean the 15 legacy ellipsis articles remaining in Book 1–2 |
+| Latest chapter verification commit | 1ce8bcc67df06de1f588e0765941a82ea8537458 — final Book 3 commentary-repair batch; all 18 routes pass repository read-back |
+| Latest semantic audit | Book 3 Chapters 1–18 — repository ref 1ce8bcc67df06de1f588e0765941a82ea8537458; 837 aligned articles, all sequential, zero raw Śrīdhara gloss markers, zero unresolved range labels, zero detected placeholders; live render verification pending browser access |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
@@ -217,7 +217,7 @@ The repository-wide static gate was rerun after the latest commits:
 - Literal scaffolding tokens (`lexical term`, `inflected form`, `verbal form`, and the old `Words/sense/commentary` labels) occur zero times.
 - Every route records the locked Vasuki content-branch tip `fc117aa4514dfd4e4840037aeb3ca825ba030b05`.
 - The generated main Contents route exposes all 56 chapter links.
-- The earlier structural gate was insufficient: Book 3 Chapters 13–18 contain raw or partially translated Śrīdhara blocks, so the semantic completion claim is retracted pending repair.
+- The earlier structural gate was insufficient: Book 3 Chapters 13–18 contained raw or partially translated Śrīdhara blocks. Those blocks have now been repaired in GitHub and read back; live-page verification remains explicitly pending.
 
 The static gate is intentionally separate from semantic source reconciliation. The
 current corpus contains edition-level segmentation differences that must remain
