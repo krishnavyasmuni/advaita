@@ -91,33 +91,33 @@ The current release ledger has been cleaned to retain only the verified public C
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 7ade26c80b183a11ca6ac998e2c25e5f625c18c8
+last_audited_data_commit: 28b8ebc7f5582e22a2cf8783d7cc2b472035f450
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
 current_contents_link_groups:
   - 1.1-1.19
   - 2.1-2.10
-  - 11.1-11.17
-visible_contents_link_count: 46
+  - 11.1-11.18
+visible_contents_link_count: 47
 manifest_chapter_count: 335
-latest_verified_release: 11.17
+latest_verified_release: 11.18
 latest_release_status: LIVE_VERIFIED
-latest_release_source_blob_sha: 659f5786c58d09a0eb1e1c947f2e49fca6e4200d
-latest_release_expected_verses: 58
-latest_release_sridhara_blocks: 52
-latest_release_wfw_entries: 52
-latest_release_no_commentary: 4 (11.17.8, 11.17.18, 11.17.27, 11.17.46)
+latest_release_source_blob_sha: 1a4f1e35f42adc75ba22096e408aa9dde38ae85d
+latest_release_expected_verses: 48
+latest_release_sridhara_blocks: 48
+latest_release_wfw_entries: 48
+latest_release_no_commentary: 1 (11.18.23)
 canto_1_audit_status: COMPLETE
 canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
 canto_2_audit_status: COMPLETE
 canto_2_verified_chapters: 2.1-2.10
 canto_2_source_ranges: 371
 canto_11_audit_status: COMPLETE
-canto_11_verified_chapters: 11.1-11.17
-canto_11_source_ranges: 746
-canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23, 11.5.17, 11.5.23, 11.5.51, 11.6.2–11.6.3, 11.6.6, 11.6.7, 11.6.13, 11.6.14, 11.6.15, 11.6.20, 11.6.23, 11.6.24, 11.6.25, 11.6.26, 11.6.27, 11.6.28, 11.6.31, 11.6.32, 11.6.33, 11.6.34, 11.6.39, 11.6.40–11.6.41, 11.6.43, 11.6.44, 11.6.47, 11.6.50, 11.7.2, 11.7.6, 11.7.13, 11.7.15, 11.7.25, 11.7.31, 11.7.56, 11.7.59, 11.7.62, 11.7.65, 11.7.69–11.7.70, 11.7.73, 11.13.20, 11.14.40, 11.16.13, 11.16.15, 11.17.8, 11.17.18, 11.17.27, 11.17.46
-next_resume_target: 11.18
+canto_11_verified_chapters: 11.1-11.18
+canto_11_source_ranges: 794
+canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23, 11.5.17, 11.5.23, 11.5.51, 11.6.2–11.6.3, 11.6.6, 11.6.7, 11.6.13, 11.6.14, 11.6.15, 11.6.20, 11.6.23, 11.6.24, 11.6.25, 11.6.26, 11.6.27, 11.6.28, 11.6.31, 11.6.32, 11.6.33, 11.6.34, 11.6.39, 11.6.40–11.6.41, 11.6.43, 11.6.44, 11.6.47, 11.6.50, 11.7.2, 11.7.6, 11.7.13, 11.7.15, 11.7.25, 11.7.31, 11.7.56, 11.7.59, 11.7.62, 11.7.65, 11.7.69–11.7.70, 11.7.73, 11.13.20, 11.14.40, 11.16.13, 11.16.15, 11.17.8, 11.17.18, 11.17.27, 11.17.46, 11.18.23
+next_resume_target: 11.19
 resume_note: "User-directed continuation is Canto 11.17 through Canto 11.31, then Canto 12; canonical Canto 3–10 remain unverified and are not public."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~

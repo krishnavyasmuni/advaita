@@ -4521,7 +4521,7 @@
     {
       "id": "canto-11-chapter-18-release",
       "range": "ŚB 11.18.1–11.18.48",
-      "status": "complete",
+      "status": "live-verified",
       "english_source": "https://vedabase.io/en/library/sb/11/18/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/18_shrI-bhagavad-uddhava-saMvAde_yati-dharma-nirNa.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4578,7 +4578,14 @@
         "11.18.48"
       ],
       "source_note": "The pinned source contains 47 Śrīdhara blocks and one explicit no-commentary marker covering all 48 numbered verses.",
-      "live_render": null
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-18",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35377591555",
+        "displayed_records": 48,
+        "sridhara_records_with_text": 47,
+        "literal_english_source_blocks": 48,
+        "no_commentary_records": 1
+      }
     }
   ],
   "generated_at": "2026-09-17"
