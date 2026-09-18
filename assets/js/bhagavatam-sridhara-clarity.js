@@ -40,7 +40,18 @@
       '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch17-verses01-58.json?v=20260918-1',
       '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch18-verses01-48.json?v=20260918-1',
       '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch19-verses01-45.json?v=20260918-1',
-      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch20-verses01-37.json?v=20260918-1'
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch20-verses01-37.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch21-verses01-43.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch22-verses01-61.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch23-verses01-62.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch24-verses01-29.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch25-verses01-36.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch26-verses01-35.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch27-verses01-55.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch28-verses01-44.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch29-verses01-49.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch30-verses01-50.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch31-verses01-28.json?v=20260918-1'
     );
   }
 
