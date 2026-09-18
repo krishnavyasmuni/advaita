@@ -12,6 +12,7 @@ if(article){
  if(vishnuSupremacy){
   css('vishnuVicaraBase','/vivekadrishti/assets/css/varna-vicara-paged.css?v=20260914-2');
   css('vishnuVicaraFix','/vivekadrishti/assets/css/vishnu-supremacy-vicara.css?v=20260918-1');
+  js('vishnuPdfPassages','/vivekadrishti/assets/js/vishnu-pdf-passages.js?v=20260918-3');
   js('vishnuSourceRestoration','/vivekadrishti/assets/js/vishnu-source-restoration.js?v=20260918-2');
   js('vishnuVicaraFix','/vivekadrishti/assets/js/vishnu-supremacy-vicara.js?v=20260918-2');
  }else{
