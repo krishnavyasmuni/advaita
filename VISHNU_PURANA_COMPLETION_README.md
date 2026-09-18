@@ -193,16 +193,16 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3, Chapter 17 (word-for-word alignment rebuild, committed and read back exactly; Chapter 18 correction also read back exactly) |
+| Last committed route | Book 3, Chapter 16 (existing committed route audited and read back; no content rewrite required; Chapters 18–17 were rebuilt above) |
 | Book 1 status | STRUCTURAL AUDIT PASSED — all 22 routes are present with sequential IDs and no direct-lexical placeholders; 14 legacy ellipsis articles remain outside the Book 3 completion scope |
 | Book 2 status | STRUCTURAL AUDIT PASSED — all 16 routes are present with sequential IDs and no direct-lexical placeholders; 1 legacy ellipsis article remains outside the Book 3 completion scope |
-| Book 3 status | INCOMPLETE — Chapters 18 and 17 have passed the current strict WFW/read-back audit; the reverse audit continues from Chapter 16 through Chapter 1, and Chapters 11–12 still require the full Chapter 2 quality standard |
-| Current repair target | Book 3, Chapter 16 — inspect the existing chapter against the exact-source, natural-translation, genuine word-for-word, and Śrīdhara-commentary workflow |
-| Next chapter after the repair target | Book 3, Chapter 15, continuing backward through Chapter 1 before the final Book 3 audit |
+| Book 3 status | INCOMPLETE — Chapters 18, 17, and 16 have passed the current WFW/source/read-back audit; the reverse audit continues from Chapter 15 through Chapter 1, and Chapters 11–12 still require the full Chapter 2 quality standard |
+| Current repair target | Book 3, Chapter 15 — inspect the existing chapter against the exact-source, natural-translation, genuine word-for-word, and Śrīdhara-commentary workflow |
+| Next chapter after the repair target | Book 3, Chapter 14, continuing backward through Chapter 1 before the final Book 3 audit |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | Reverse-audit/rebuild Book 3 Chapters 16–1, including the outstanding Chapter 11–12 quality work, before the final Book 3 audit and rendered-page verification |
+| Full-scope remediation queue | Reverse-audit/rebuild Book 3 Chapters 15–1, including the outstanding Chapter 11–12 quality work, before the final Book 3 audit and rendered-page verification |
 | Latest chapter verification commit | cdc128169dbe58818a2853d03b1d8b57859f211b — Book 3 Chapter 17 word-for-word alignment rebuild; committed content read back exactly |
-| Latest semantic audit | Book 3 Chapters 18–17 — Chapter 18: 105 verses, 105 translations, 105 main WFW phrase blocks with complete in-order Sanskrit coverage, 54 supplied Śrīdhara blocks, 51 exact no-commentary articles; Chapter 17: 45 verses, 45 translations, 45 aligned main WFW blocks, 29 supplied Śrīdhara blocks, 16 exact no-commentary articles; both read back from committed content |
+| Latest semantic audit | Book 3 Chapter 16 — 20 verses, 20 translations, 20 existing main WFW blocks, 19 supplied Śrīdhara blocks, 1 exact no-commentary article, no source-order mismatches, no weak/placeholder fields, and all three source witnesses present; existing content was read back unchanged |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
