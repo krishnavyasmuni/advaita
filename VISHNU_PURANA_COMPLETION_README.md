@@ -191,16 +191,16 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3, Chapter 10 (commentary and verse-alignment repair with exact source provenance) |
+| Last committed route | Book 3, Chapter 11 (commentary and verse-alignment repair with exact source provenance) |
 | Book 1 status | STATIC AUDIT PASSED — all 22 routes are present; placeholder/WFW scaffolding is removed, provenance is pinned, and Chapters 1, 2, 8, and 18 have now passed exact source-edition read-back. Remaining work is the documented Book 2–3 queue below |
 | Book 2 status | STATIC AUDIT PASSED — all 16 routes are present; Chapter 14 was rebuilt and verified at 33 articles, and Chapters 15–16 now carry pinned source provenance |
-| Book 3 status | Chapters 4–10 REPAIRED AND VERIFIED — the routes have independent Śrīdhara renderings, corrected verse fields where needed, no residual ellipses, and exact source provenance; Chapters 11–12 still require commentary remediation |
-| Current repair target | Book 3, Chapter 11 commentary translation and exact source-to-article alignment |
-| Next chapter after the repair target | Book 3, Chapter 12 commentary translation and exact source-to-article alignment |
+| Book 3 status | Chapters 4–11 REPAIRED AND VERIFIED — the routes have independent Śrīdhara renderings, corrected verse fields where needed, no residual ellipses, and exact source provenance; Chapter 12 still requires commentary remediation |
+| Current repair target | Book 3, Chapter 12 commentary translation and exact source-to-article alignment |
+| Next chapter after the repair target | Book 3, Chapter 13 residual ellipsis and source-alignment review |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | Complete Book 3 Chapters 11–12 by replacing remaining direct-lexical boilerplate and residual ellipses, then review Chapters 13–17 for residual ellipses and rerun the semantic source-to-article alignment audit across all 56 routes |
-| Latest chapter verification commit | 8d0a4f22e3b4d11d5aa6ab427a6081bf1cafbb27 — Book 3 Chapter 10 commentary and verse-alignment repair, source provenance, and post-commit read-back passed |
-| Latest semantic audit | Book 3, Chapter 10 — page blob 246d120f8b1dbfc025706cccff1c1924787d987f and Vasuki source blobs 3e329eddcc6a5434b6c18a570defaf1f66ad8262 / 3d25ee1eff58bee36c3138d6704840e83adfb6da / 09ebeed061f37ed83cc3f2213b316f060a9d3e20 read back with 26 aligned articles |
+| Full-scope remediation queue | Complete Book 3 Chapter 12, then review Chapters 13–17 for residual ellipses and rerun the semantic source-to-article alignment audit across all 56 routes |
+| Latest chapter verification commit | 6521a4ad4b67283939f4caeff8a732dbdd5ae9b0 — Book 3 Chapter 11 commentary and verse-alignment repair, source provenance, and post-commit read-back passed |
+| Latest semantic audit | Book 3, Chapter 11 — page blob 904129b12786a0f3eae56196fbbbf232a328c97e and Vasuki source blobs 310fb65005f9c743de511b1b64bee36e3aadc71f / 1719a4f6f71877a8f5f2619728b3968f51f78aed / dc81eeef91f5e61b876652ebf45a9838128d9775 read back with 127 aligned articles |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
