@@ -4385,7 +4385,7 @@
     {
       "id": "canto-11-chapter-16-release",
       "range": "ŚB 11.16.1–11.16.44",
-      "status": "complete",
+      "status": "live-verified",
       "english_source": "https://vedabase.io/en/library/sb/11/16/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/16_shrI-bhagavad-uddhava-saMvAde_mahA-vibhUtiH.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4436,7 +4436,14 @@
         "11.16.44"
       ],
       "source_note": "The pinned source contains 42 exact records covering all 44 numbered verses; 11.16.7–11.16.8 and 11.16.10–11.16.11 remain grouped, while 11.16.13 and 11.16.15 carry explicit no-commentary markers.",
-      "live_render": null
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-16",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35374633629",
+        "displayed_records": 42,
+        "sridhara_records_with_text": 40,
+        "literal_english_source_blocks": 42,
+        "no_commentary_records": 2
+      }
     }
   ],
   "generated_at": "2026-09-17"
