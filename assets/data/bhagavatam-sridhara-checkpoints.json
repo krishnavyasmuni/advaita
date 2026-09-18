@@ -4651,7 +4651,7 @@
     {
       "id": "canto-11-chapter-20-release",
       "range": "ŚB 11.20.1–11.20.37",
-      "status": "complete",
+      "status": "live-verified",
       "english_source": "https://vedabase.io/en/library/sb/11/20/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/20_bhagavad-uddhava-saMvAde_yoga-trayam.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4694,7 +4694,14 @@
         "11.20.37"
       ],
       "source_note": "The pinned source contains 34 blocks covering all 37 numbered verses; 11.20.1–11.20.2 and 11.20.27–11.20.28 remain grouped, and the printed 11.20.32–3 marker covers verses 32–33.",
-      "live_render": null
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-20",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35378745703",
+        "displayed_records": 34,
+        "sridhara_records_with_text": 34,
+        "literal_english_source_blocks": 34,
+        "no_commentary_records": 0
+      }
     }
   ],
   "generated_at": "2026-09-17"
