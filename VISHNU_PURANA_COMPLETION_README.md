@@ -227,8 +227,7 @@ the 68-verse annotated Vasuki edition, while its standalone 70-numbered witness
 is recorded in the chapter source note; Book 1 Chapter 8 is pinned to its
 32-verse annotated source and its verse fields have been realigned; and Book 1
 Chapter 18 has passed a 43-article source read-back against its annotated
-witness. The remaining documented cases are Book 2 Chapters 2, 6, and 12 and
-Book 3 Chapter 11. The next semantic pass starts at Book 2 Chapter 2 and must
+witness. The remaining documented cases include Book 3 Chapters 1–12 and the previously noted Book 2 cases (Chapters 2, 6, and 12). The next semantic pass starts at Book 3 Chapter 1 and must
 verify each remaining case from the exact selected source files before the
 tracker is marked fully complete.
 
