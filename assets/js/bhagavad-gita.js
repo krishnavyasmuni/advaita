@@ -4,7 +4,7 @@
 
   const chapter = Number(root.dataset.gitaChapter);
   const counts = [47,72,43,42,29,47,30,28,34,42,55,20,35,27,20,24,28,78];
-  const names = ["Arjuna’s Despondency","The Yoga of Knowledge","The Yoga of Action","Knowledge and Renunciation of Action","The Yoga of Renunciation","The Yoga of Meditation","Knowledge and Realization","The Imperishable Brahman","Royal Knowledge and Royal Secret","Divine Glories","The Vision of the Universal Form","Devotion","The Field and the Knower of the Field","The Three Guṇas","The Supreme Person","Divine and Demonic Qualities","The Threefold Faith","Liberation through Renunciation"];
+  const names = ["Arjuna Viṣāda Yoga","Sāṅkhya Yoga","Karma Yoga","Jñāna Karma Sannyāsa Yoga","Karma Sannyāsa Yoga","Ātma Saṃyama Yoga","Jñāna Vijñāna Yoga","Akṣara Brahma Yoga","Rāja Vidyā Rāja Guhya Yoga","Vibhūti Yoga","Viśvarūpa Darśana Yoga","Bhakti Yoga","Kṣetra Kṣetrajña Vibhāga Yoga","Guṇatraya Vibhāga Yoga","Puruṣottama Yoga","Daivāsura Sampad Vibhāga Yoga","Śraddhātraya Vibhāga Yoga","Mokṣa Sannyāsa Yoga"];
 
   const sridharaEnglish = {
     2: {
@@ -836,6 +836,17 @@
     return {start, end};
   };
 
+  const groupedWordMeaningSlices = {
+    '1:29-31': [[0, 1], [2], [3]],
+    '2:42-43': [[0], [1, 2]],
+    '4:29-30': [[0], [1, 2]],
+    '5:8-9': [[0], [1, 2]],
+    '5:27-28': [[0], [1, 2]],
+    '11:26-27': [[0], [1, 2]],
+    '12:3-4': [[0], [1, 2]],
+    '16:13-15': [[0], [1], [2]]
+  };
+
   const pickWordMeaning = (entry, n) => {
     const value = String(entry && entry.word_meanings || '').trim();
     if (!value) return '';
@@ -843,11 +854,12 @@
     if (range.start === range.end) return value;
     const parts = value.split(/\n+/).map((part) => part.trim()).filter(Boolean);
     const span = range.end - range.start + 1;
-    if (parts.length === span) return parts[n - range.start] || '';
-    if (chapter === 1 && range.start === 29 && range.end === 31 && parts.length === 4) {
-      if (n === 29) return parts.slice(0, 2).join('\n');
-      return parts[n - 28] || '';
+    const sliceMap = groupedWordMeaningSlices[chapter + ':' + range.start + '-' + range.end];
+    if (sliceMap) {
+      const selected = sliceMap[n - range.start] || [];
+      return selected.map((index) => parts[index]).filter(Boolean).join('\n');
     }
+    if (parts.length === span) return parts[n - range.start] || '';
     return n === range.start ? value : '';
   };
 
@@ -987,10 +999,8 @@
           : (c.transliteration ? commonRange : null),
         wordMeaning: hasWordMeaningOverride
           ? (override.wordMeaning || c.word_meanings || '')
-          : (chapter === 1 ? pickWordMeaning(c, n) : (commonRange.start === n ? (c.word_meanings || '') : '')),
-        wordMeaningShared: hasWordMeaningOverride || commonRange.start === n
-          ? null
-          : (c.word_meanings ? commonRange : null),
+          : pickWordMeaning(c, n),
+        wordMeaningShared: null,
         mukEnglish: mukRange.start === n ? (m.translation || '') : '',
         srid: {sc: sridharaCommentary}
       };
