@@ -91,34 +91,41 @@ The current release ledger has been cleaned to retain only the verified public C
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 77ca218d67f8f310f853c77cdc52b2d78c216142
+last_audited_data_commit: 0d39797150a6888ce4905fb8c4763d49e41aad82
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
 current_contents_link_groups:
   - 1.1-1.19
   - 2.1-2.10
+  - 10.1-10.90
   - 11.1-11.31
-visible_contents_link_count: 60
+visible_contents_link_count: 150
 manifest_chapter_count: 335
-latest_verified_release: 11.31
+latest_verified_release: 10.90
 latest_release_status: LIVE_VERIFIED
-latest_release_source_blob_sha: f2de63ce4fe713e32beb98d8079faa55b6d2dfe8
-latest_release_expected_verses: 28
-latest_release_sridhara_blocks: 22
-latest_release_wfw_entries: 22
-latest_release_no_commentary: 5
+latest_release_source_blob_sha: see Canto 10 checkpoint ledger (90 pinned source paths)
+latest_release_expected_verses: 50
+latest_release_sridhara_blocks: 32
+latest_release_wfw_entries: 39
+latest_release_no_commentary: 19
 canto_1_audit_status: COMPLETE
 canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
 canto_2_audit_status: COMPLETE
 canto_2_verified_chapters: 2.1-2.10
 canto_2_source_ranges: 371
+canto_10_audit_status: COMPLETE
+canto_10_verified_chapters: 10.1-10.90
+canto_10_source_ranges: 3936
+canto_10_source_blocks: 2937
+canto_10_wfw_entries: 3363
+canto_10_no_commentary_records: 1152
 canto_11_audit_status: COMPLETE
 canto_11_verified_chapters: 11.1-11.31
 canto_11_source_ranges: 1368
 canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23, 11.5.17, 11.5.23, 11.5.51, 11.6.2–11.6.3, 11.6.6, 11.6.7, 11.6.13, 11.6.14, 11.6.15, 11.6.20, 11.6.23, 11.6.24, 11.6.25, 11.6.26, 11.6.27, 11.6.28, 11.6.31, 11.6.32, 11.6.33, 11.6.34, 11.6.39, 11.6.40–11.6.41, 11.6.43, 11.6.44, 11.6.47, 11.6.50, 11.7.2, 11.7.6, 11.7.13, 11.7.15, 11.7.25, 11.7.31, 11.7.56, 11.7.59, 11.7.62, 11.7.65, 11.7.69–11.7.70, 11.7.73, 11.13.20, 11.14.40, 11.16.13, 11.16.15, 11.17.8, 11.17.18, 11.17.27, 11.17.46, 11.18.23, 11.19.12, 11.23.8, 11.23.12, 11.23.37, 11.25.10, 11.26.30, 11.29.28, 11.29.30, 11.30.25, 11.30.34–11.30.37, 11.30.39, 11.30.41, 11.30.43, 11.30.45, 11.30.47, 11.31.4, 11.31.19, 11.31.20, 11.31.23–11.31.24, 11.31.25–11.31.26
-next_resume_target: 12.1
-resume_note: "Canto 11 Chapters 1–31 are now live-verified; next target is Canto 12. Canonical Canto 3–10 remain unverified and are not public."
+next_resume_target: 3.1
+resume_note: "Canto 10 Chapters 1–90 and Canto 11 Chapters 1–31 are live-verified; canonical next target is Canto 3. Cantos 3–9 and 12 remain unverified and are not public."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
