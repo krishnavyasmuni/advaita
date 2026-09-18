@@ -1,6 +1,59 @@
 (() => {
-  const root = document.querySelector('.gita-content');
+  const root = document.querySelector('.gita-content') || document.querySelector('.article-body');
   if (!root) return;
+
+  document.body.classList.add('gita-page');
+  root.classList.add('gita-content');
+
+  const normalizePuranaMarkup = () => {
+    const candidates = [
+      ...root.querySelectorAll('.bp-verse'),
+      ...root.querySelectorAll('section')
+    ];
+    candidates.forEach((verse) => {
+      if (!verse || verse.closest('details')) return;
+      const children = Array.from(verse.children);
+      const heading = children.find((child) => child.tagName === 'H2' || child.tagName === 'H3');
+      const sanskrit = children.find((child) => (
+        child.classList.contains('bp-sa') ||
+        child.classList.contains('gita-sanskrit') ||
+        String(child.getAttribute('lang') || '').toLowerCase().startsWith('sa')
+      ));
+      if (!heading || !sanskrit) return;
+
+      verse.classList.add('gita-verse');
+      heading.classList.add('gita-verse-heading');
+      const rule = children.find((child) => child.tagName === 'HR');
+      if (rule) rule.classList.add('gita-verse-rule');
+      sanskrit.classList.add('gita-sanskrit');
+
+      const sanskritIndex = children.indexOf(sanskrit);
+      const translation = children.find((child, index) => (
+        index > sanskritIndex &&
+        (child.classList.contains('bp-en') ||
+          child.classList.contains('gita-translation') ||
+          (child.tagName === 'P' && !child.classList.contains('source-note')))
+      ));
+      if (translation) translation.classList.add('gita-translation');
+
+      children.filter((child) => child.tagName === 'DETAILS').forEach((details) => {
+        details.classList.add('gita-details');
+        Array.from(details.children)
+          .filter((child) => child.tagName !== 'SUMMARY')
+          .forEach((reveal) => reveal.classList.add('gita-reveal'));
+      });
+    });
+
+    root.querySelectorAll('div').forEach((box) => {
+      const label = Array.from(box.children).find((child) => (
+        (child.tagName === 'H2' || child.tagName === 'P') &&
+        child.textContent.trim().toLowerCase() === 'contents'
+      ));
+      if (label && box.querySelector('ol,ul')) box.classList.add('gita-contents');
+    });
+  };
+
+  normalizePuranaMarkup();
 
   const imp = (element, property, value) => {
     if (element) element.style.setProperty(property, value, 'important');
@@ -44,7 +97,7 @@
       imp(verse, 'background', 'transparent');
       imp(verse, 'box-shadow', 'none');
 
-      const heading = verse.querySelector('h2');
+      const heading = verse.querySelector('h2, h3, .gita-verse-heading');
       if (heading) {
         imp(heading, 'margin', '0');
         imp(heading, 'text-align', 'center');
