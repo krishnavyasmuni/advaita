@@ -31,7 +31,8 @@
       ,'/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch08-verses01-44.json?v=20260917-1',
       '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch09-verses01-33.json?v=20260917-2',
       '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch10-verses01-37.json?v=20260917-2',
-      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch11-verses01-49.json?v=20260918-1'
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch11-verses01-49.json?v=20260918-1',
+      '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch12-verses01-24.json?v=20260918-1'
     );
   }
 

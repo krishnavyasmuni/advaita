@@ -4158,6 +4158,39 @@
         "literal_english_source_blocks": 36,
         "no_commentary_records": 0
       }
+    },
+    {
+      "id": "canto-11-chapter-12-release",
+      "range": "ŚB 11.12.1–11.12.24",
+      "status": "complete",
+      "english_source": "https://vedabase.io/en/library/sb/11/12/advanced-view/",
+      "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/12_sat-sanga-mahimA_karma-tyAga-vidhish_cha.md",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "records_checked": 24,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_source_blocks": [
+        "11.12.1–11.12.2",
+        "11.12.3–11.12.6",
+        "11.12.7",
+        "11.12.8",
+        "11.12.9",
+        "11.12.10",
+        "11.12.11",
+        "11.12.12",
+        "11.12.13",
+        "11.12.14–11.12.15",
+        "11.12.16",
+        "11.12.17",
+        "11.12.18",
+        "11.12.19",
+        "11.12.20",
+        "11.12.21",
+        "11.12.22",
+        "11.12.23",
+        "11.12.24"
+      ],
+      "source_note": "The pinned source contains 19 exact Śrīdhara blocks covering all 24 numbered verses; grouped ranges remain grouped in the reader.",
+      "live_render": null
     }
   ],
   "generated_at": "2026-09-17"
