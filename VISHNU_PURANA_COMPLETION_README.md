@@ -192,7 +192,7 @@ for the next AI; do not infer progress from an old chat message.
 | Field | Current state |
 |---|---|
 | Last committed route | Book 3, Chapter 18 (final source-provenance pin; complete Book 3 audit passed) |
-| Book 1 status | STRUCTURAL AUDIT PASSED — all 22 routes and 1,? articles are present with sequential IDs and no direct-lexical placeholders; 14 legacy ellipsis articles remain outside the Book 3 completion scope |
+| Book 1 status | STRUCTURAL AUDIT PASSED — all 22 routes are present with sequential IDs and no direct-lexical placeholders; 14 legacy ellipsis articles remain outside the Book 3 completion scope |
 | Book 2 status | STRUCTURAL AUDIT PASSED — all 16 routes are present with sequential IDs and no direct-lexical placeholders; 1 legacy ellipsis article remains outside the Book 3 completion scope |
 | Book 3 status | CHAPTERS 1–18 COMPLETE AND VERIFIED — 837 aligned articles, sequential IDs throughout, zero direct-lexical placeholders, zero ellipsis articles, corrected verse fields where needed, and pinned upstream provenance on every route |
 | Current repair target | None — Book 3 is complete; final 18-route semantic audit passed |
