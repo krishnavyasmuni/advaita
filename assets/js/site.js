@@ -22,7 +22,7 @@ document.querySelectorAll('.site-nav').forEach(nav=>{if(nav.querySelector('a[hre
 const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#site-nav');if(menu&&nav){menu.addEventListener('click',()=>menu.setAttribute('aria-expanded',String(nav.classList.toggle('open'))));nav.addEventListener('click',e=>{if(e.target.matches('a')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}})}
 
 if(/\/articles\/an-index-of-hindu-scripture\/?$/.test(p))css('scriptureIndexClean','/vivekadrishti/assets/css/scripture-index-clean.css?v=1');
-const gita=document.querySelector('[data-gita-chapter]');if(gita){const n=Number(gita.dataset.gitaChapter);if(n>=2&&n<=18)js('gitaSridharaAll','/vivekadrishti/assets/js/bhagavad-gita-sridhara-all.js?v=20260831-all3')}
+
 const bhavishya=/\/(?:pages\/bhavishya-purana(?:\/|-)|articles\/(?:bhavishya-purana-|bhavisya-purana-addresses-varna-system))/.test(p);
 if(bhavishya){css('bhavishyaNavigation','/vivekadrishti/assets/css/bhavishya-navigation.css?v=20260915-2');js('bhavishyaNavigation','/vivekadrishti/assets/js/bhavishya-navigation.js?v=20260915-3')}
 const rebuild=document.querySelector('.empyrean-bhagavatam-rebuild,.empyrean-bhagavatam-rebuild-part');if(!rebuild)return;
