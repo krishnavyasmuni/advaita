@@ -193,16 +193,16 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3, Chapter 5 (natural-translation and lexical/commentary rebuild; committed content read back exactly) |
+| Last committed route | Book 3, Chapter 6 (natural-translation and lexical/commentary rebuild; committed content read back exactly) |
 | Book 1 status | STRUCTURAL AUDIT PASSED — all 22 routes are present with sequential IDs and no direct-lexical placeholders; 14 legacy ellipsis articles remain outside the Book 3 completion scope |
 | Book 2 status | STRUCTURAL AUDIT PASSED — all 16 routes are present with sequential IDs and no direct-lexical placeholders; 1 legacy ellipsis article remains outside the Book 3 completion scope |
-| Book 3 status | INCOMPLETE — Chapters 6–12 still require the full Chapter 2 quality standard; Chapters 1–5 and 13–18 have passed full lexical/commentary rebuild or source-alignment verification and post-commit read-back |
-| Current repair target | Book 3, Chapter 6 — inspect the existing chapter against the exact-source, complete-translation, genuine word-for-word, and Śrīdhara-commentary workflow |
+| Book 3 status | INCOMPLETE — Chapters 7–12 still require the full Chapter 2 quality standard; Chapters 1–6 and 13–18 have passed full lexical/commentary rebuild or source-alignment verification and post-commit read-back |
+| Current repair target | Book 3, Chapter 7 — inspect the existing chapter against the exact-source, complete-translation, genuine word-for-word, and Śrīdhara-commentary workflow |
 | Next chapter after the repair target | Book 3, Chapter 4, then continue through Chapter 12 before the final Book 3 audit |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | Fully audit/rebuild Book 3 Chapters 6–12, then run the full Book 3 audit and rendered-page verification; only after that continue to Book 2 |
-| Latest chapter verification commit | 1d84d7965a4ac08776b1c5621f0380dfb84a610d — Book 3 Chapter 5 natural-translation and lexical/commentary rebuild; committed content read back exactly |
-| Latest semantic audit | Book 3 Chapter 5 — 30 verses, 30 translations, 30 distinct main lexical sections, 23 supplied Śrīdhara blocks, 7 exact no-commentary articles, zero raw/filler markers, 30/30 source-aligned verses, corrected commentary range 4–5, and source-note discrepancy for the printed verse-29 note number |
+| Full-scope remediation queue | Fully audit/rebuild Book 3 Chapters 7–12, then run the full Book 3 audit and rendered-page verification; only after that continue to Book 2 |
+| Latest chapter verification commit | e3692fec1fdbc6e0f3c39d44cfe41261cdc9e6b9 — Book 3 Chapter 6 natural-translation and lexical/commentary rebuild; committed content read back exactly |
+| Latest semantic audit | Book 3 Chapter 6 — 33 verses, 33 translations, 33 distinct main lexical sections, 22 supplied Śrīdhara blocks, 11 exact no-commentary articles, zero raw/filler markers, corrected repeated range 19–25, and documented mūla/Śrīdhara segmentation difference for the Atharvaveda opening across verses 8–9 |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
@@ -219,7 +219,7 @@ The repository-wide static gate was rerun after the latest commits:
 - Literal scaffolding tokens (`lexical term`, `inflected form`, `verbal form`, and the old `Words/sense/commentary` labels) occur zero times.
 - Every route records the locked Vasuki content-branch tip `fc117aa4514dfd4e4840037aeb3ca825ba030b05`.
 - The generated main Contents route exposes all 56 chapter links.
-- Chapters 1–5 and 13–18 have now passed full lexical/commentary rebuild or source-alignment verification and post-commit read-back. Chapter 1 has 46 verses and 15 supplied Śrīdhara blocks; Chapter 2 has 62 verses and three documented source-file text corrections; Chapter 3 has 31 verses, 12 exact no-commentary articles, and an explicit verse-31 source-reading/numbering note; Chapter 4 has 26 verses, 21 supplied Śrīdhara blocks, and a corrected 20–21 commentary range; Chapter 5 has 30 verses, 23 supplied Śrīdhara blocks, and corrected commentary ranges 4–5 and 29; Chapter 18 has 105 verses and 54 supplied Śrīdhara blocks. Chapters 6–12 still require the same source and semantic audit. Do not mark Book 3 complete until Chapters 6–12 also pass.
+- Chapters 1–6 and 13–18 have now passed full lexical/commentary rebuild or source-alignment verification and post-commit read-back. Chapter 1 has 46 verses and 15 supplied Śrīdhara blocks; Chapter 2 has 62 verses and three documented source-file text corrections; Chapter 3 has 31 verses, 12 exact no-commentary articles, and an explicit verse-31 source-reading/numbering note; Chapter 4 has 26 verses, 21 supplied Śrīdhara blocks, and a corrected 20–21 commentary range; Chapter 5 has 30 verses, 23 supplied Śrīdhara blocks, and corrected commentary ranges 4–5 and 29; Chapter 6 has 33 verses, 22 supplied Śrīdhara blocks, and a documented 8–9 source-segmentation difference; Chapter 18 has 105 verses and 54 supplied Śrīdhara blocks. Chapters 7–12 still require the same source and semantic audit. Do not mark Book 3 complete until Chapters 7–12 also pass.
 
 The static gate is intentionally separate from semantic source reconciliation. The
 current corpus contains edition-level segmentation differences that must remain
@@ -229,7 +229,7 @@ the 68-verse annotated Vasuki edition, while its standalone 70-numbered witness
 is recorded in the chapter source note; Book 1 Chapter 8 is pinned to its
 32-verse annotated source and its verse fields have been realigned; and Book 1
 Chapter 18 has passed a 43-article source read-back against its annotated
-witness. The remaining documented cases include Book 3 Chapters 6–12 and the previously noted Book 2 cases (Chapters 2, 6, and 12). The next semantic pass starts at Book 3 Chapter 6 and must
+witness. The remaining documented cases include Book 3 Chapters 7–12 and the previously noted Book 2 cases (Chapters 2, 6, and 12). The next semantic pass starts at Book 3 Chapter 7 and must
 verify each remaining case from the exact selected source files before the
 tracker is marked fully complete.
 
