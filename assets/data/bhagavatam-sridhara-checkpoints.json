@@ -4330,7 +4330,7 @@
     {
       "id": "canto-11-chapter-15-release",
       "range": "ŚB 11.15.1–11.15.36",
-      "status": "complete",
+      "status": "live-verified",
       "english_source": "https://vedabase.io/en/library/sb/11/15/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/15_yoga-siddhInAM_vivaraNam.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4373,7 +4373,14 @@
         "11.15.36"
       ],
       "source_note": "The pinned source contains 34 exact Śrīdhara blocks covering all 36 numbered verses; 11.15.6–11.15.8 remains grouped in the reader.",
-      "live_render": null
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-15",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35374073497",
+        "displayed_records": 34,
+        "sridhara_records_with_text": 34,
+        "literal_english_source_blocks": 34,
+        "no_commentary_records": 0
+      }
     }
   ],
   "generated_at": "2026-09-17"
