@@ -44,6 +44,7 @@ The Chapter 1 shell is the canonical HTML template for all chapters. Its asset o
 
 The current cache-busted asset versions in the shells are:
 
+- site.js?v=20260918-gita-template-1
 - bhagavad-gita.css?v=20260918-gita-all-chapters-1
 - gita-bhavishya-exact.css?v=20260918-gita-all-chapters-1
 - bhagavad-gita.js?v=20260918-gita-all-chapters-1
