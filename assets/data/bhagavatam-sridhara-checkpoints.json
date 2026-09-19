@@ -7398,6 +7398,55 @@
         "literal_english_source_blocks": 25,
         "no_commentary_records": 5
       }
+    },
+    {
+      "id": "canto-10-chapter-28-release",
+      "range": "ŚB 10.28.1–10.28.17",
+      "status": "live-verified",
+      "english_source": "https://vedabase.io/en/library/sb/10/28/advanced-view/",
+      "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/28.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "b788c53342ba75b4b28bc4842fb7934424bc30be",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch28-verses01-17.json"
+      ],
+      "records_checked": 17,
+      "exact_sridhara_source_blocks": 13,
+      "sridhara_source_ranges": [
+        "10.28.1",
+        "10.28.2",
+        "10.28.3",
+        "10.28.4",
+        "10.28.5",
+        "10.28.6",
+        "10.28.7",
+        "10.28.8",
+        "10.28.9",
+        "10.28.12",
+        "10.28.15",
+        "10.28.16",
+        "10.28.17"
+      ],
+      "no_commentary_ranges": [
+        "10.28.9",
+        "10.28.10–10.28.11",
+        "10.28.13–10.28.14",
+        "10.28.17"
+      ],
+      "source_note": "The pinned cache preserves 13 supplied source entries, including exact no-commentary sentinels at 10.28.9 and 10.28.17; explicit source gaps at 10.28.10–10.28.11 and 10.28.13–10.28.14 are retained as no-commentary records.",
+      "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-10-sridhara-svami/#chapter-28",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35465981213",
+        "displayed_records": 17,
+        "sridhara_records_with_text": 11,
+        "literal_english_source_blocks": 13,
+        "no_commentary_records": 6
+      }
     }
   ],
   "generated_at": "2026-09-19"
