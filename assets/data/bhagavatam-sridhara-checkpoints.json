@@ -6343,6 +6343,67 @@
         "literal_english_source_blocks": 25,
         "no_commentary_records": 47
       }
+    },
+    {
+      "id": "canto-10-chapter-12-release",
+      "range": "ŚB 10.12.1–10.12.44",
+      "status": "live-verified",
+      "english_source": "https://vedabase.io/en/library/sb/10/12/advanced-view/",
+      "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/12-17/12.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "88984dc100440e654cdb2bfefdce09253341f518",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch12-verses01-44.json"
+      ],
+      "records_checked": 44,
+      "exact_sridhara_source_blocks": 20,
+      "sridhara_source_ranges": [
+        "10.12.1",
+        "10.12.3",
+        "10.12.11",
+        "10.12.12",
+        "10.12.15",
+        "10.12.17",
+        "10.12.18",
+        "10.12.19",
+        "10.12.20",
+        "10.12.21",
+        "10.12.24",
+        "10.12.32",
+        "10.12.33",
+        "10.12.34",
+        "10.12.35",
+        "10.12.37",
+        "10.12.39",
+        "10.12.40",
+        "10.12.42",
+        "10.12.43"
+      ],
+      "no_commentary_ranges": [
+        "10.12.2",
+        "10.12.4–10.12.10",
+        "10.12.13–10.12.14",
+        "10.12.16",
+        "10.12.22–10.12.23",
+        "10.12.25–10.12.31",
+        "10.12.36",
+        "10.12.38",
+        "10.12.41–10.12.44"
+      ],
+      "source_note": "The pinned cache preserves 20 supplied source entries, including the exact no-commentary sentinels at 10.12.42–10.12.43; explicit source gaps at 10.12.2, 10.12.4–10.12.10, 10.12.13–10.12.14, 10.12.16, 10.12.22–10.12.23, 10.12.25–10.12.31, 10.12.36, 10.12.38, 10.12.41 and 10.12.44 are retained as no-commentary records.",
+      "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-10-sridhara-svami/#chapter-12",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35459100233",
+        "displayed_records": 44,
+        "sridhara_records_with_text": 18,
+        "literal_english_source_blocks": 20,
+        "no_commentary_records": 26
+      }
     }
   ],
   "generated_at": "2026-09-19"
