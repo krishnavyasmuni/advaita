@@ -817,6 +817,12 @@
       .replace(/\s*\.\s*/g, '\n')
       .trim();
 
+  const cleanApiTranslation = (value) =>
+    String(value || '')
+      .replace(/^\s*[0-9०-९]+\.[0-9०-९]+\.?\s*/, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
   const expandEntries = (entries) => {
     const out = {};
     (entries || []).filter(Boolean).forEach((entry) => {
@@ -844,7 +850,7 @@
     '5:27-28': [[0], [1, 2]],
     '11:26-27': [[0], [1, 2]],
     '12:3-4': [[0], [1, 2]],
-    '16:13-15': [[0], [1], [2]]
+    '16:13-15': [[0], [1], [2, 3]]
   };
 
   const pickWordMeaning = (entry, n) => {
@@ -987,6 +993,12 @@
       const hasTransliterationOverride = Object.prototype.hasOwnProperty.call(override, 'transliteration');
       const hasWordMeaningOverride = Object.prototype.hasOwnProperty.call(override, 'wordMeaning');
       const apiTransliteration = cleanApiTransliteration(api.transliteration);
+      const apiTranslation = cleanApiTranslation(
+        (api.gambir && api.gambir.et) ||
+        (api.purohit && api.purohit.et) ||
+        (api.adi && api.adi.et) ||
+        (api.siva && api.siva.et)
+      );
       const sridharaCommentary = vasukiByVerse[n] || 'No commentary.';
       return {
         verse: n,
@@ -1001,7 +1013,7 @@
           ? (override.wordMeaning || c.word_meanings || '')
           : pickWordMeaning(c, n),
         wordMeaningShared: null,
-        mukEnglish: mukRange.start === n ? (m.translation || '') : '',
+        mukEnglish: apiTranslation || (mukRange.start === n ? (m.translation || '') : ''),
         srid: {sc: sridharaCommentary}
       };
     });
