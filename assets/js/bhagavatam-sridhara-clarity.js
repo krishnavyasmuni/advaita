@@ -39,7 +39,8 @@
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto10-ch26-verses01-25.json?v=20260919-26',
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto10-ch27-verses01-28.json?v=20260919-27',
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto10-ch28-verses01-17.json?v=20260919-28',
-    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto10-ch29-verses01-48.json?v=20260919-29'
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto10-ch29-verses01-48.json?v=20260919-29',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto10-ch30-verses01-44.json?v=20260919-30'
   );
   if (canto === 11) {
     paths.push(
