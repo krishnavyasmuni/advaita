@@ -92,8 +92,11 @@
     const noCommentary = /^no commentary\.?$/i.test(sridRaw);
     const sridTrans = noCommentary ? '<p class="gita-dual-empty">No commentary.</p>' : '<p><em>' + esc(capitalizeLeadingLatin(devaToIast(sridRaw))) + '</em></p>';
 
-    wfwReveal.innerHTML = dualBlock(gitaWfw, renderPairs(noCommentary ? [] : verseData.word_for_word));
-    transReveal.innerHTML = dualBlock(gitaTrans, sridTrans);
+    // Keep each control semantically scoped: the Word-for-word drawer must
+    // contain only the Gita's word meanings, while Śrīdhara's Sanskrit
+    // commentary stays in its own drawer.
+    wfwReveal.innerHTML = gitaWfw;
+    transReveal.innerHTML = gitaTrans;
 
     if (noCommentary) {
       englishNode.textContent = 'No commentary.';
