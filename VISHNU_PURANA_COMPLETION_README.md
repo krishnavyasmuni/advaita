@@ -194,7 +194,7 @@ for the next AI; do not infer progress from an old chat message.
 | Field | Current state |
 |---|---|
 | Last committed route | Book 3 Chapters 9, 11, 13, 15, 16, 17, and 18 remaining Śrīdhara WFW repairs; committed and read back |
-| Book 1 status | COMPLETE — all 22 routes pass the repository-wide WFW audit; all 1,? supplied Śrīdhara fields in Book 1 are phrase-level, committed, and read back |
+| Book 1 status | COMPLETE — all 22 routes pass the repository-wide WFW audit; all 670 supplied Śrīdhara fields in Book 1 are phrase-level, committed, and read back |
 | Book 2 status | COMPLETE — all 16 routes pass the repository-wide WFW audit; every supplied Śrīdhara field is phrase-level, committed, and read back |
 | Book 3 status | COMPLETE — all 18 routes pass the repository-wide WFW audit; every supplied Śrīdhara field is phrase-level, committed, and read back |
 | Current repair target | None — the repository-wide Books 1–3 WFW audit passes, and all route edits are committed and read back |
@@ -230,7 +230,7 @@ the 68-verse annotated Vasuki edition, while its standalone 70-numbered witness
 is recorded in the chapter source note; Book 1 Chapter 8 is pinned to its
 32-verse annotated source and its verse fields have been realigned; and Book 1
 Chapter 18 has passed a 43-article source read-back against its annotated
-witness. The remaining queue is the repository-wide WFW remediation described above. Previous completion claims for Book 3 are superseded by this broader audit; no book is marked complete while supplied Śrīdhara WFW remains unverified.
+witness. The repository-wide WFW remediation described above is now complete; all supplied Śrīdhara WFW has been verified phrase-level, with route commits and post-commit read-back recorded.
 
 ## Template and design law
 
