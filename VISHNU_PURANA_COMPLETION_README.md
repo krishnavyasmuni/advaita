@@ -168,8 +168,8 @@ The main translation displayed on the page should be clear, natural English. Kee
 
 Expected order, subject to verification against the current repository state:
 
-1. Book 3, Chapters 1–18 (complete for this workflow and final-audit scope)
-2. Book 2, Chapters 1–16 (full source and template remediation queue)
+1. Books 1–3, all 56 routes (repository-wide WFW remediation in progress)
+2. Complete each route only after genuine phrase-level WFW and post-commit read-back
 3. Book 1, Chapters 1–22 (full source and template remediation queue)
 
 Before starting a chapter:
@@ -193,16 +193,16 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3, Chapters 9–11 cleanup (21 supplied Śrīdhara blocks cleaned, committed, and read back; Chapter 11 is the latest edited route) |
-| Book 1 status | STRUCTURAL AUDIT PASSED — all 22 routes are present with sequential IDs and no direct-lexical placeholders; 14 legacy ellipsis articles remain outside the Book 3 completion scope |
-| Book 2 status | STRUCTURAL AUDIT PASSED — all 16 routes are present with sequential IDs and no direct-lexical placeholders; 1 legacy ellipsis article remains outside the Book 3 completion scope |
-| Book 3 status | COMPLETE — Chapters 1–18 passed the exact-source, natural-translation, genuine phrase-level WFW, Śrīdhara-alignment, commit, post-commit read-back, and final Book 3-wide audit |
-| Current repair target | None — the final Book 3-wide audit passed; the remaining Book 2 cases are outside this Book 3 scope |
-| Next chapter after the repair target | Book 3 is complete; no next Book 3 repair target |
+| Last committed route | Book 3 Chapter 18 verse 101 WFW repair, after the first repository-wide repair batch; committed and read back |
+| Book 1 status | IN PROGRESS — all 22 routes are present and main WFW fields pass the initial structural gate; supplied Śrīdhara WFW still requires phrase-level remediation |
+| Book 2 status | IN PROGRESS — main prose-only WFW fields have been rebuilt in the audited routes; remaining broad main grouping and supplied Śrīdhara WFW require remediation |
+| Book 3 status | IN PROGRESS — main prose-only fields have been rebuilt and Book 3.18.101 now has phrase-level main and Śrīdhara WFW; the remaining broad-group and supplied Śrīdhara audit is not complete |
+| Current repair target | Repository-wide WFW remediation — audit and rebuild every remaining broad main field and supplied Śrīdhara WFW field in Books 1–3 |
+| Next chapter after the repair target | Continue route-by-route WFW repair; do not mark any book complete until its committed read-back audit passes |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | Book 3 Chapters 1–18 complete; Book 2 noted cases (Chapters 2, 6, and 12) remain outside the current Book 3 scope |
-| Latest chapter verification commit | 2b36acf7de444ba6be6cd63ad582d1bed6ad854f — Book 3 Chapter 11 Śrīdhara WFW/commentary cleanup; committed content read back exactly |
-| Latest semantic audit | Book 3 Chapters 1–18 — 837 articles, 837 translations, 837 main WFW blocks, 837 transliterations, 518 supplied Śrīdhara commentary blocks, 319 exact no-commentary articles, 520 Śrīdhara WFW blocks (including two source-range blocks sharing an article), 18 source notes, no raw source-label contamination, controls balanced, and all routes read back from committed content |
+| Full-scope remediation queue | All Books 1–3 routes: review phrase granularity, repair all supplied Śrīdhara WFW, verify translations/alignment, commit each route, and read back every commit |
+| Latest chapter verification commit | d244968e7a4d95232ba6f4dd1f901af85e54b88b — Book 3 Chapter 18 main WFW repairs; committed content read back exactly |
+| Latest semantic audit | Books 1–3 initial WFW audit — 56 routes and 3,031 articles fetched; 3,031 main WFW fields now have phrase-pair markup rather than prose-only one-block fields; 1,866 supplied Śrīdhara blocks remain under phrase-level review; 464 structural WFW fields and 96 main prose-only fields have been repaired and read back |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
@@ -219,7 +219,8 @@ The repository-wide static gate was rerun after the latest commits:
 - Literal scaffolding tokens (`lexical term`, `inflected form`, `verbal form`, and the old `Words/sense/commentary` labels) occur zero times.
 - Every route records the locked Vasuki content-branch tip `fc117aa4514dfd4e4840037aeb3ca825ba030b05`.
 - The generated main Contents route exposes all 56 chapter links.
-- Chapters 1–18 have now passed the current exact-source, natural-translation, phrase-level main WFW, Śrīdhara-alignment, commit, post-commit read-back, and final Book 3-wide static/render-structure checks. The completed Book 3 corpus contains 837 articles, 837 translations, 837 main WFW blocks, 837 transliterations, 518 supplied Śrīdhara commentary blocks, 319 exact no-commentary articles, and 18 chapter source notes. Chapters 9–11 received a final cleanup of 21 imported Śrīdhara blocks that contained raw source labels or lecture text; the final raw-contamination scan is now zero. Book 3 is complete for this workflow scope.
+- The repository-wide WFW audit covered all 56 Book 1–3 route files and 3,031 articles. The main fields no longer use prose-only one-block renderings: 464 fields were structurally split from existing phrase glosses, 96 main fields were rebuilt from the Sanskrit, and Book 3.18.101 was manually repaired after the screenshot review.
+- This does not yet mean all books are complete. The supplied Śrīdhara WFW fields and remaining broad phrase-grouping cases still require Sanskrit-first review and route-specific commits. The tracker remains IN PROGRESS until those checks pass.
 
 The static gate is intentionally separate from semantic source reconciliation. The
 current corpus contains edition-level segmentation differences that must remain
@@ -229,7 +230,7 @@ the 68-verse annotated Vasuki edition, while its standalone 70-numbered witness
 is recorded in the chapter source note; Book 1 Chapter 8 is pinned to its
 32-verse annotated source and its verse fields have been realigned; and Book 1
 Chapter 18 has passed a 43-article source read-back against its annotated
-witness. The remaining reverse-work queue is outside Book 3: the previously noted Book 2 cases (Chapters 2, 6, and 12) remain for a later scope. Book 3 Chapters 1–18 have passed the exact selected-source checks and the tracker is complete for Book 3.
+witness. The remaining queue is the repository-wide WFW remediation described above. Previous completion claims for Book 3 are superseded by this broader audit; no book is marked complete while supplied Śrīdhara WFW remains unverified.
 
 ## Template and design law
 
