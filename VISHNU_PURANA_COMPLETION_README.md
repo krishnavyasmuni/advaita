@@ -193,7 +193,7 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3 Chapter 18 verse 101 WFW repair, after the first repository-wide repair batch; committed and read back |
+| Last committed route | Book 3 Chapter 11 and Chapter 18 multi-clause Śrīdhara WFW repairs; committed and read back |
 | Book 1 status | IN PROGRESS — all 22 routes are present and main WFW fields pass the initial structural gate; supplied Śrīdhara WFW still requires phrase-level remediation |
 | Book 2 status | IN PROGRESS — main prose-only WFW fields have been rebuilt in the audited routes; remaining broad main grouping and supplied Śrīdhara WFW require remediation |
 | Book 3 status | IN PROGRESS — main prose-only fields have been rebuilt and Book 3.18.101 now has phrase-level main and Śrīdhara WFW; the remaining broad-group and supplied Śrīdhara audit is not complete |
@@ -201,8 +201,8 @@ for the next AI; do not infer progress from an old chat message.
 | Next chapter after the repair target | Continue route-by-route WFW repair; do not mark any book complete until its committed read-back audit passes |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
 | Full-scope remediation queue | All Books 1–3 routes: review phrase granularity, repair all supplied Śrīdhara WFW, verify translations/alignment, commit each route, and read back every commit |
-| Latest chapter verification commit | d244968e7a4d95232ba6f4dd1f901af85e54b88b — Book 3 Chapter 18 main WFW repairs; committed content read back exactly |
-| Latest semantic audit | Books 1–3 initial WFW audit — 56 routes and 3,031 articles fetched; 3,031 main WFW fields now have phrase-pair markup rather than prose-only one-block fields; 1,866 supplied Śrīdhara blocks remain under phrase-level review; 464 structural WFW fields and 96 main prose-only fields have been repaired and read back |
+| Latest chapter verification commit | c754bc67d4890f44e8a6cdf09cf7361daf72e2b5 — Book 3 Chapter 11 multi-clause Śrīdhara WFW repair; committed content read back exactly |
+| Latest semantic audit | Books 1–3 WFW audit — 56 routes and 3,031 articles fetched; all 3,031 main WFW fields now have phrase-pair markup rather than prose-only one-block fields; 1,866 supplied Śrīdhara blocks remain under phrase-level/source-label review; 464 structural WFW fields, 96 main prose-only fields, 20 Book 3 Chapter 18 multi-clause Śrīdhara fields, and 13 Book 3 Chapter 11 multi-clause Śrīdhara fields have been repaired and read back |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
