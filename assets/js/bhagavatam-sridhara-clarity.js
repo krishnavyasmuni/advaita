@@ -10,7 +10,6 @@
   const paths = ['/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-reviewed.json?v=20260916-27'];
   if (canto === 1 || canto === 2)
     paths.push('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-cantos01-02-additions-20260916.json?v=20260916-1');
-  if (canto === 10) paths.push('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto10.json?v=20260918-1');
   if (canto === 11) {
     paths.push(
       '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-reviewed.json?v=20260917-1',

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "in_progress",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_root": "bhAgavatam/gauDIya-prastutiH/10",
-  "editorial_note": "Complete Canto 10 source-bound Śrīdhara cache aligned to the existing reader. Exact cached Sanskrit is preserved; explicit no-commentary and unavailable source ranges use the current reader sentinel and are recorded locally.",
+  "editorial_note": "Source-bound Canto 10 Śrīdhara cache staged for chapter-by-chapter audit. Exact cached Sanskrit and source availability are preserved; independent English translation and word-for-word review remain to be completed before public release.",
   "chapters": {
     "1": {
       "chapter": 1,
