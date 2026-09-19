@@ -168,7 +168,7 @@ The main translation displayed on the page should be clear, natural English. Kee
 
 Expected order, subject to verification against the current repository state:
 
-1. Book 3, Chapters 1–18 (Chapters 13–18 are rebuilt and verified; Chapters 1–12 remain in the quality remediation queue)
+1. Book 3, Chapters 1–18 (complete for this workflow and final-audit scope)
 2. Book 2, Chapters 1–16 (full source and template remediation queue)
 3. Book 1, Chapters 1–22 (full source and template remediation queue)
 
@@ -193,16 +193,16 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3, Chapter 2 (existing 62-article route audited, its three documented source/OCR corrections verified, and read back exactly; Chapter 7 was the latest edited route) |
+| Last committed route | Book 3, Chapters 9–11 cleanup (21 supplied Śrīdhara blocks cleaned, committed, and read back; Chapter 11 is the latest edited route) |
 | Book 1 status | STRUCTURAL AUDIT PASSED — all 22 routes are present with sequential IDs and no direct-lexical placeholders; 14 legacy ellipsis articles remain outside the Book 3 completion scope |
 | Book 2 status | STRUCTURAL AUDIT PASSED — all 16 routes are present with sequential IDs and no direct-lexical placeholders; 1 legacy ellipsis article remains outside the Book 3 completion scope |
-| Book 3 status | INCOMPLETE — Chapters 18 through 2 have passed the current WFW/source/commentary/read-back audit; the final reverse audit target is Chapter 1, which still requires the current Chapter 2 quality standard |
-| Current repair target | Book 3, Chapter 1 — audit and rebuild against the exact-source, natural-translation, genuine word-for-word, and Śrīdhara-commentary workflow |
-| Next chapter after the repair target | Final Book 3-wide audit and rendered-page verification after Chapter 1 |
+| Book 3 status | COMPLETE — Chapters 1–18 passed the exact-source, natural-translation, genuine phrase-level WFW, Śrīdhara-alignment, commit, post-commit read-back, and final Book 3-wide audit |
+| Current repair target | None — the final Book 3-wide audit passed; the remaining Book 2 cases are outside this Book 3 scope |
+| Next chapter after the repair target | Book 3 is complete; no next Book 3 repair target |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | Reverse-audit/rebuild Book 3 Chapter 1, then run the final Book 3-wide audit and rendered-page verification |
-| Latest chapter verification commit | 7f55b5ce49dc5b6463f5e8b43ec945d7b917f1b4 — Book 3 Chapter 7 Sanskrit alignment and Śrīdhara cleanup; committed content read back exactly |
-| Latest semantic audit | Book 3 Chapter 2 — 62 verses, 62 translations, 62 main WFW blocks, 62 transliterations, 19 supplied Śrīdhara WFW/commentary blocks, 43 exact no-commentary articles, three documented source/OCR corrections verified, no raw source-label contamination, controls balanced, and existing content read back exactly |
+| Full-scope remediation queue | Book 3 Chapters 1–18 complete; Book 2 noted cases (Chapters 2, 6, and 12) remain outside the current Book 3 scope |
+| Latest chapter verification commit | 2b36acf7de444ba6be6cd63ad582d1bed6ad854f — Book 3 Chapter 11 Śrīdhara WFW/commentary cleanup; committed content read back exactly |
+| Latest semantic audit | Book 3 Chapters 1–18 — 837 articles, 837 translations, 837 main WFW blocks, 837 transliterations, 518 supplied Śrīdhara commentary blocks, 319 exact no-commentary articles, 520 Śrīdhara WFW blocks (including two source-range blocks sharing an article), 18 source notes, no raw source-label contamination, controls balanced, and all routes read back from committed content |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
@@ -219,7 +219,7 @@ The repository-wide static gate was rerun after the latest commits:
 - Literal scaffolding tokens (`lexical term`, `inflected form`, `verbal form`, and the old `Words/sense/commentary` labels) occur zero times.
 - Every route records the locked Vasuki content-branch tip `fc117aa4514dfd4e4840037aeb3ca825ba030b05`.
 - The generated main Contents route exposes all 56 chapter links.
-- Chapters 18–2 have now passed the current exact-source, natural-translation, phrase-level main WFW, commentary-alignment, commit, and post-commit read-back checks. Chapter 18 has 105 verses and 54 supplied Śrīdhara blocks; Chapter 17 has 45 verses and 29 supplied Śrīdhara blocks; Chapter 16 has 20 verses and 19 supplied Śrīdhara blocks; Chapter 15 has 56 verses and 37 supplied Śrīdhara blocks; Chapter 14 has 31 verses and 22 supplied Śrīdhara blocks; Chapter 13 has 41 verses and 31 supplied Śrīdhara blocks; Chapter 12 has 45 verses and 28 supplied Śrīdhara blocks, with documented source/OCR corrections; Chapter 11 has 127 verses and 72 supplied Śrīdhara blocks; Chapter 10 has 26 verses and 24 supplied Śrīdhara blocks; Chapter 9 has 33 verses and 26 supplied Śrīdhara blocks; Chapter 8 has 41 verses, 27 supplied Śrīdhara blocks, 14 exact no-commentary articles, documented source/OCR corrections, and cleaned main and Śrīdhara WFW fields; Chapter 7 has 39 verses, 29 supplied Śrīdhara blocks, 10 exact no-commentary articles, witness-aligned Sanskrit, and cleaned main and Śrīdhara WFW fields; Chapter 6 has 33 verses, 22 supplied Śrīdhara blocks, 11 exact no-commentary articles, and a documented 8–9 source-marker placement; Chapter 5 has 30 verses, 23 supplied Śrīdhara blocks, 7 exact no-commentary articles, and documented 4–5 and 29 commentary-range handling; Chapter 4 has 26 verses, 21 supplied Śrīdhara blocks, 5 exact no-commentary articles, and a documented 20–21 commentary range; Chapter 3 has 31 verses, 20 supplied Śrīdhara blocks, 11 exact no-commentary articles, and the final commentary block anchored after verse 31; and Chapter 2 has 62 verses, 19 supplied Śrīdhara blocks, 43 exact no-commentary articles, and three documented source/OCR corrections. The final reverse audit target is Book 3 Chapter 1. Do not mark Book 3 complete until it also passes.
+- Chapters 1–18 have now passed the current exact-source, natural-translation, phrase-level main WFW, Śrīdhara-alignment, commit, post-commit read-back, and final Book 3-wide static/render-structure checks. The completed Book 3 corpus contains 837 articles, 837 translations, 837 main WFW blocks, 837 transliterations, 518 supplied Śrīdhara commentary blocks, 319 exact no-commentary articles, and 18 chapter source notes. Chapters 9–11 received a final cleanup of 21 imported Śrīdhara blocks that contained raw source labels or lecture text; the final raw-contamination scan is now zero. Book 3 is complete for this workflow scope.
 
 The static gate is intentionally separate from semantic source reconciliation. The
 current corpus contains edition-level segmentation differences that must remain
@@ -229,9 +229,7 @@ the 68-verse annotated Vasuki edition, while its standalone 70-numbered witness
 is recorded in the chapter source note; Book 1 Chapter 8 is pinned to its
 32-verse annotated source and its verse fields have been realigned; and Book 1
 Chapter 18 has passed a 43-article source read-back against its annotated
-witness. The remaining reverse-work queue includes Book 3 Chapter 1 and the previously noted Book 2 cases (Chapters 2, 6, and 12). The next semantic pass starts at Book 3 Chapter 1 and must
-verify each remaining case from the exact selected source files before the
-tracker is marked fully complete.
+witness. The remaining reverse-work queue is outside Book 3: the previously noted Book 2 cases (Chapters 2, 6, and 12) remain for a later scope. Book 3 Chapters 1–18 have passed the exact selected-source checks and the tracker is complete for Book 3.
 
 ## Template and design law
 
