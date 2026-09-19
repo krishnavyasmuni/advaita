@@ -7282,6 +7282,61 @@
         "literal_english_source_blocks": 25,
         "no_commentary_records": 14
       }
+    },
+    {
+      "id": "canto-10-chapter-26-release",
+      "range": "ŚB 10.26.1–10.26.25",
+      "status": "live-verified",
+      "english_source": "https://vedabase.io/en/library/sb/10/26/advanced-view/",
+      "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/26.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "3149ad7f5209ff69e4cef67f35a09c0cf4a3adcd",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch26-verses01-25.json"
+      ],
+      "records_checked": 25,
+      "exact_sridhara_source_blocks": 19,
+      "sridhara_source_ranges": [
+        "10.26.1",
+        "10.26.2",
+        "10.26.3",
+        "10.26.4",
+        "10.26.5",
+        "10.26.6",
+        "10.26.7",
+        "10.26.8",
+        "10.26.10",
+        "10.26.11",
+        "10.26.12",
+        "10.26.13",
+        "10.26.14",
+        "10.26.15",
+        "10.26.16–10.26.21",
+        "10.26.22",
+        "10.26.23",
+        "10.26.24",
+        "10.26.25"
+      ],
+      "no_commentary_ranges": [
+        "10.26.9",
+        "10.26.10–10.26.11",
+        "10.26.16–10.26.21",
+        "10.26.24"
+      ],
+      "source_note": "The pinned cache preserves 19 supplied source entries, including exact no-commentary sentinels at 10.26.10–10.26.11, 10.26.16–10.26.21 and 10.26.24; explicit source gap at 10.26.9 is retained as a no-commentary record. The supplied source block 10.26.16–10.26.21 is split into verse-level reader records without altering its exact Sanskrit.",
+      "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-10-sridhara-svami/#chapter-26",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35465213349",
+        "displayed_records": 25,
+        "sridhara_records_with_text": 15,
+        "literal_english_source_blocks": 19,
+        "no_commentary_records": 10
+      }
     }
   ],
   "generated_at": "2026-09-19"
