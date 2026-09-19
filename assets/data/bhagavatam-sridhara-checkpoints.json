@@ -7691,6 +7691,77 @@
         "literal_english_source_blocks": 8,
         "no_commentary_records": 14
       }
+    },
+    {
+      "id": "canto-10-chapter-33-release",
+      "range": "ŚB 10.33.1–10.33.39",
+      "status": "live-verified",
+      "english_source": "https://vedabase.io/en/library/sb/10/33/advanced-view/",
+      "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/29-33_rasa-panchAdhyAya/33_atha-trayastriMshodhyAyaH_unnumbered.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "9dfa3aa355b89f5ca02fd4e4d9e0c9127a1ff396",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch33-verses01-39.json"
+      ],
+      "records_checked": 39,
+      "exact_sridhara_source_blocks": 37,
+      "sridhara_source_ranges": [
+        "10.33.1",
+        "10.33.3",
+        "10.33.4",
+        "10.33.5",
+        "10.33.6",
+        "10.33.7",
+        "10.33.8",
+        "10.33.9",
+        "10.33.10",
+        "10.33.11",
+        "10.33.13",
+        "10.33.14",
+        "10.33.15",
+        "10.33.16",
+        "10.33.17",
+        "10.33.18",
+        "10.33.19",
+        "10.33.20",
+        "10.33.21",
+        "10.33.22",
+        "10.33.23",
+        "10.33.24",
+        "10.33.25",
+        "10.33.26",
+        "10.33.28",
+        "10.33.29",
+        "10.33.30",
+        "10.33.31",
+        "10.33.32",
+        "10.33.33",
+        "10.33.34",
+        "10.33.35",
+        "10.33.36",
+        "10.33.37",
+        "10.33.38",
+        "10.33.39"
+      ],
+      "no_commentary_ranges": [
+        "10.33.2",
+        "10.33.12",
+        "10.33.27"
+      ],
+      "source_note": "The pinned cache preserves 37 supplied source entries, including the exact no-commentary sentinel at 10.33.27 and the supplied block spanning 10.33.3–10.33.4. In the closing run, cache labels 10.33.34–10.33.40 are one verse higher than the canonical alignment; the reader maps those exact supplied blocks to canonical 10.33.33–10.33.39 by matching source content, preserving every Devanāgarī string verbatim. Explicit source gaps at 10.33.2 and 10.33.12 are retained as no-commentary records, and the 10.33.3–10.33.4 block is split into verse-level reader records.",
+      "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-10-sridhara-svami/#chapter-33",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35468283843",
+        "displayed_records": 39,
+        "sridhara_records_with_text": 36,
+        "literal_english_source_blocks": 36,
+        "no_commentary_records": 3
+      }
     }
   ],
   "generated_at": "2026-09-19"
