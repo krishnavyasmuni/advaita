@@ -5927,6 +5927,73 @@
         "literal_english_source_blocks": 28,
         "no_commentary_records": 14
       }
+    },
+    {
+      "id": "canto-10-chapter-6-release",
+      "range": "ŚB 10.6.1–10.6.44",
+      "status": "live-verified",
+      "english_source": "https://vedabase.io/en/library/sb/10/6/advanced-view/",
+      "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/06.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "ba1b8478bd5086806d751272504e49b52c758274",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch06-verses01-44.json"
+      ],
+      "records_checked": 44,
+      "exact_sridhara_source_blocks": 28,
+      "sridhara_source_ranges": [
+        "10.6.1–2",
+        "10.6.3",
+        "10.6.8",
+        "10.6.9",
+        "10.6.12",
+        "10.6.13",
+        "10.6.14",
+        "10.6.15–17",
+        "10.6.18",
+        "10.6.19",
+        "10.6.20",
+        "10.6.21",
+        "10.6.23",
+        "10.6.24",
+        "10.6.25–29",
+        "10.6.30",
+        "10.6.31",
+        "10.6.32",
+        "10.6.33",
+        "10.6.34",
+        "10.6.35–36",
+        "10.6.37–38",
+        "10.6.39",
+        "10.6.40",
+        "10.6.41",
+        "10.6.42",
+        "10.6.43",
+        "10.6.44"
+      ],
+      "no_commentary_ranges": [
+        "10.6.4–10.6.7",
+        "10.6.10–10.6.11",
+        "10.6.18–10.6.19",
+        "10.6.22",
+        "10.6.31",
+        "10.6.33",
+        "10.6.37–10.6.43"
+      ],
+      "source_note": "The pinned cache preserves five grouped source ranges and has no source block for canonical 10.6.4–10.6.7, 10.6.10–10.6.11 and 10.6.22; no-commentary sentinels remain explicit.",
+      "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-10-sridhara-svami/#chapter-6",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35456137247",
+        "displayed_records": 44,
+        "sridhara_records_with_text": 18,
+        "literal_english_source_blocks": 28,
+        "no_commentary_records": 17
+      }
     }
   ],
   "generated_at": "2026-09-19"
