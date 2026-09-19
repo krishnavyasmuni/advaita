@@ -7595,6 +7595,57 @@
         "literal_english_source_blocks": 28,
         "no_commentary_records": 21
       }
+    },
+    {
+      "id": "canto-10-chapter-31-release",
+      "range": "ŚB 10.31.1–10.31.19",
+      "status": "live-verified",
+      "english_source": "https://vedabase.io/en/library/sb/10/31/advanced-view/",
+      "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/29-33_rasa-panchAdhyAya/31_athaikatriMshodhyAyaH_unnumbered.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "371ed0aa23f96ce042c5a3d7967f2fba0600ca48",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch31-verses01-19.json"
+      ],
+      "records_checked": 19,
+      "exact_sridhara_source_blocks": 18,
+      "sridhara_source_ranges": [
+        "10.31.1",
+        "10.31.2",
+        "10.31.3",
+        "10.31.4",
+        "10.31.5",
+        "10.31.6",
+        "10.31.7",
+        "10.31.8",
+        "10.31.9",
+        "10.31.10",
+        "10.31.11",
+        "10.31.12",
+        "10.31.13",
+        "10.31.14",
+        "10.31.15",
+        "10.31.16",
+        "10.31.17",
+        "10.31.19"
+      ],
+      "no_commentary_ranges": [
+        "10.31.18"
+      ],
+      "source_note": "The pinned cache preserves 18 supplied source entries; explicit source gap at 10.31.18 is retained as a no-commentary record.",
+      "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-10-sridhara-svami/#chapter-31",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35467173840",
+        "displayed_records": 19,
+        "sridhara_records_with_text": 18,
+        "literal_english_source_blocks": 18,
+        "no_commentary_records": 1
+      }
     }
   ],
   "generated_at": "2026-09-19"
