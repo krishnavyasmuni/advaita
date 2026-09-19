@@ -7808,6 +7808,51 @@
         "literal_english_source_blocks": 8,
         "no_commentary_records": 23
       }
+    },
+    {
+      "id": "canto-10-chapter-35-release",
+      "range": "ŚB 10.35.1–10.35.26",
+      "status": "live-verified",
+      "english_source": "https://vedabase.io/en/library/sb/10/35/advanced-view/",
+      "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/35.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "87048d6d2b814c1eee98524b5d757d1d87dcc4e2",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch35-verses01-26.json"
+      ],
+      "records_checked": 26,
+      "exact_sridhara_source_blocks": 12,
+      "sridhara_source_ranges": [
+        "10.35.1",
+        "10.35.6–10.35.7",
+        "10.35.8–10.35.9",
+        "10.35.10–10.35.11",
+        "10.35.12–10.35.13",
+        "10.35.14–10.35.15",
+        "10.35.16–10.35.17",
+        "10.35.18–10.35.19",
+        "10.35.20–10.35.21",
+        "10.35.22–10.35.23",
+        "10.35.24–10.35.25",
+        "10.35.26"
+      ],
+      "no_commentary_ranges": [
+        "10.35.2–10.35.5"
+      ],
+      "source_note": "The pinned cache preserves 12 supplied source blocks, including the exact merged ranges 10.35.6–10.35.7, 10.35.8–10.35.9, 10.35.10–10.35.11, 10.35.12–10.35.13, 10.35.14–10.35.15, 10.35.16–10.35.17, 10.35.18–10.35.19, 10.35.20–10.35.21, 10.35.22–10.35.23 and 10.35.24–10.35.25. Explicit source gaps at 10.35.2–10.35.5 are retained as no-commentary records; each merged source block is repeated unchanged in the verse-level reader records.",
+      "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-10-sridhara-svami/#chapter-35",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35468954007",
+        "displayed_records": 26,
+        "sridhara_records_with_text": 22,
+        "literal_english_source_blocks": 12,
+        "no_commentary_records": 4
+      }
     }
   ],
   "generated_at": "2026-09-19"
