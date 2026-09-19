@@ -7762,6 +7762,52 @@
         "literal_english_source_blocks": 36,
         "no_commentary_records": 3
       }
+    },
+    {
+      "id": "canto-10-chapter-34-release",
+      "range": "ŚB 10.34.1–10.34.32",
+      "status": "live-verified",
+      "english_source": "https://vedabase.io/en/library/sb/10/34/advanced-view/",
+      "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/34.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "5f214e233d107ebe05f23ab4ce6017c648b7bde1",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch34-verses01-32.json"
+      ],
+      "records_checked": 32,
+      "exact_sridhara_source_blocks": 17,
+      "sridhara_source_ranges": [
+        "10.34.1–10.34.2",
+        "10.34.10",
+        "10.34.11",
+        "10.34.20",
+        "10.34.22",
+        "10.34.23",
+        "10.34.28",
+        "10.34.31"
+      ],
+      "no_commentary_ranges": [
+        "10.34.3–10.34.9",
+        "10.34.12–10.34.19",
+        "10.34.21",
+        "10.34.24–10.34.27",
+        "10.34.29–10.34.30",
+        "10.34.32"
+      ],
+      "source_note": "The pinned cache preserves 17 supplied source entries, including the merged source block 10.34.1–10.34.2 and exact no-commentary sentinels at 10.34.6, 10.34.12, 10.34.16–10.34.19, 10.34.29–10.34.30 and 10.34.32; explicit source gaps at the remaining canonical ranges are retained as no-commentary records. The merged block is split into verse-level reader records without altering its exact Sanskrit. The supplied block under canonical 10.34.11 carries the printed marker ॥११.१२॥; its Sanskrit is preserved verbatim and its placement follows the primary chapter.",
+      "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-10-sridhara-svami/#chapter-34",
+        "deployment_run": "https://github.com/krishnavyasmuni/vivekadrishti/actions/runs/35468636295",
+        "displayed_records": 32,
+        "sridhara_records_with_text": 9,
+        "literal_english_source_blocks": 8,
+        "no_commentary_records": 23
+      }
     }
   ],
   "generated_at": "2026-09-19"
