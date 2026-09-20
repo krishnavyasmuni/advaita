@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "requires-full-verification",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/11/31_mauShalaM.md",
   "source_blob_sha": "f2de63ce4fe713e32beb98d8079faa55b6d2dfe8",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary for Canto 11 Chapter 31; exact source markers and merged ranges are preserved.",
+  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary for Canto 11 Chapter 31; exact source markers and merged ranges are preserved. Corrected the previously unrelated 11.31.2 glosses; other verses remain unaudited for complete word coverage.",
   "scope": "Complete source-bound Śrīdhara commentary for ŚB 11.31.1–11.31.28; 22 source blocks cover all 28 numbered verses, with explicit source notes where the pinned text is irregular.",
   "entries": [
     {
@@ -34,19 +34,27 @@
       "sanskrit": "द्विजा गरुड-लोक-निवासिनः पक्षिणः । मैत्रेयादयो वा ॥२॥",
       "word_for_word": [
         [
-          "धाम",
-          "abode"
+          "द्विजाः",
+          "twice-born"
         ],
         [
-          "अवतार",
-          "incarnation"
+          "गरुड-लोक-निवासिनः",
+          "inhabitants of Garuḍa’s realm"
         ],
         [
-          "भक्ति",
-          "devotion"
+          "पक्षिणः",
+          "birds"
+        ],
+        [
+          "मैत्रेय-आदयः",
+          "Maitreya and others"
+        ],
+        [
+          "वा",
+          "or"
         ]
       ],
-      "literal_english": "The gods and devotees assemble as the Lord’s departure is revealed. The Lord returns to His own abode, the devotees and relatives follow their appointed paths, and the chapter concludes by praising hearing and reciting His avatāra histories."
+      "literal_english": "“Twice-born” means birds dwelling in Garuḍa’s realm, or alternatively Maitreya and others."
     },
     {
       "canto": 11,

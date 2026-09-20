@@ -154,8 +154,7 @@
       "source_sha": "0bcab862495977a8b6f5e79de1b15e7f25680952",
       "issues": {
         "gloss_source_phrase_not_found": 127,
-        "main_sanskrit_diff": 18,
-        "other_author_in_sridhara_field": 2
+        "main_sanskrit_diff": 18
       }
     },
     {
@@ -420,7 +419,7 @@
       "source_sha": "f2de63ce4fe713e32beb98d8079faa55b6d2dfe8",
       "issues": {
         "duplicate_literal_across_ranges": 4,
-        "gloss_source_phrase_not_found": 51,
+        "gloss_source_phrase_not_found": 50,
         "insufficient_gloss_pairs": 15,
         "main_sanskrit_diff": 26
       }
@@ -21200,13 +21199,6 @@
       "chapter": 12,
       "start": 1,
       "end": 1,
-      "kind": "other_author_in_sridhara_field",
-      "detail": "assets/data/bhagavatam-sridhara-wfw-canto11-ch12-verses01-24.json"
-    },
-    {
-      "chapter": 12,
-      "start": 1,
-      "end": 1,
       "kind": "gloss_source_phrase_not_found",
       "detail": "सत्-सङ्गेन"
     },
@@ -21237,13 +21229,6 @@
       "end": 1,
       "kind": "gloss_source_phrase_not_found",
       "detail": "नान्येन साधनेन"
-    },
-    {
-      "chapter": 12,
-      "start": 2,
-      "end": 2,
-      "kind": "other_author_in_sridhara_field",
-      "detail": "assets/data/bhagavatam-sridhara-wfw-canto11-ch12-verses01-24.json"
     },
     {
       "chapter": 12,
@@ -42936,21 +42921,14 @@
       "start": 2,
       "end": 2,
       "kind": "gloss_source_phrase_not_found",
-      "detail": "धाम"
+      "detail": "द्विजाः"
     },
     {
       "chapter": 31,
       "start": 2,
       "end": 2,
       "kind": "gloss_source_phrase_not_found",
-      "detail": "अवतार"
-    },
-    {
-      "chapter": 31,
-      "start": 2,
-      "end": 2,
-      "kind": "gloss_source_phrase_not_found",
-      "detail": "भक्ति"
+      "detail": "मैत्रेय-आदयः"
     },
     {
       "chapter": 31,
@@ -43559,7 +43537,7 @@
       "start": 1,
       "end": 8,
       "kind": "duplicate_literal_across_ranges",
-      "detail": "6 ranges: [(1, 1), (2, 2), (3, 3), (5, 6), (7, 7), (8, 8)]"
+      "detail": "5 ranges: [(1, 1), (3, 3), (5, 6), (7, 7), (8, 8)]"
     },
     {
       "chapter": 31,

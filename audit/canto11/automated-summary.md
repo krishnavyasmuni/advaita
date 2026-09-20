@@ -2,7 +2,7 @@
 
 Pinned source commit: `100560de6c9f68c2875097d40a2012a84c784179`. This report checks source SHA, numeric verse mapping, textual character differences and flags likely inadequate glosses. It **does not** certify Sanskrit philology, translation accuracy, or independent authorship.
 
-Chapters attempted: **31/31**; verse rows: **1367**; issue flags: **6165**.
+Chapters attempted: **31/31**; verse rows: **1367**; issue flags: **6162**.
 
 | Chapter | Verses | Source ranges | Local records | Flag count |
 |---|---:|---:|---:|---:|
@@ -17,7 +17,7 @@ Chapters attempted: **31/31**; verse rows: **1367**; issue flags: **6165**.
 | 11.9 | 33 | 32 | 32 | 258 |
 | 11.10 | 37 | 35 | 35 | 299 |
 | 11.11 | 49 | 36 | 36 | 201 |
-| 11.12 | 24 | 19 | 19 | 147 |
+| 11.12 | 24 | 19 | 19 | 145 |
 | 11.13 | 42 | 42 | 42 | 228 |
 | 11.14 | 46 | 44 | 44 | 183 |
 | 11.15 | 36 | 34 | 34 | 109 |
@@ -36,11 +36,11 @@ Chapters attempted: **31/31**; verse rows: **1367**; issue flags: **6165**.
 | 11.28 | 44 | 44 | 44 | 145 |
 | 11.29 | 49 | 44 | 44 | 210 |
 | 11.30 | 50 | 47 | 47 | 177 |
-| 11.31 | 28 | 22 | 22 | 96 |
+| 11.31 | 28 | 22 | 22 | 95 |
 
 ## Flags by type
 
-- `gloss_source_phrase_not_found`: 4381
+- `gloss_source_phrase_not_found`: 4380
 - `main_sanskrit_diff`: 1195
 - `insufficient_gloss_pairs`: 503
 - `duplicate_literal_across_ranges`: 41
@@ -48,7 +48,7 @@ Chapters attempted: **31/31**; verse rows: **1367**; issue flags: **6165**.
 - `sridhara_text_diff`: 11
 - `source_range_count`: 9
 - `local_record_count`: 3
-- `other_author_in_sridhara_field`: 3
 - `mirror_missing_devanagari`: 1
+- `other_author_in_sridhara_field`: 1
 
 See `automated-summary.json` for every verse-range flag and `automated-verse-map.csv` for all verse mappings. Repeated flags for a grouped source passage can represent one underlying defect. **No chapter is declared verified by this script.**
