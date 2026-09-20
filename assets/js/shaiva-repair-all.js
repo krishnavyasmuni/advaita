@@ -31,7 +31,7 @@ if(p.querySelector('a,button,img,svg,input'))return;
 const raw=p.textContent||'';
 const saCount=(raw.match(/[\u0900-\u097f]/g)||[]).length;
 const enCount=(raw.match(/[a-zA-Z]/g)||[]).length;
-if(saCount<12||enCount<45)return;
+if(enCount<45||!(saCount>=70||(saCount>=25&&/[॥।]/.test(raw))))return;
 const runs=[];let kind='',buf='';
 for(const ch of raw){const k=devanagari.test(ch)?'sa':english.test(ch)?'en':kind||'en';if(kind&&k!==kind){runs.push([kind,buf]);buf='';}kind=k;buf+=ch;}
 if(buf)runs.push([kind,buf]);
