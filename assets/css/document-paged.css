@@ -1,110 +1,130 @@
-/* Shared polish for articles rendered in the Varṇa-vicāra reader shell. */
-.article h2{
-  margin:0 0 26px;
-  color:var(--teal);
-  font-family:Vollkorn,Georgia,serif;
-  font-size:30px;
-  line-height:1.2;
-  font-weight:400;
-  text-align:center
+/* Other essays: preserve the Varṇa-vicāra reader's typography and page layout.
+   These rules apply only to the four essays, never to Varṇa-vicāra itself. */
+.document-paged-page .article{overflow-wrap:break-word}
+.document-paged-page .document-content{min-width:0}
+.document-paged-page .document-content>h3:first-child{margin-top:0}
+.document-paged-page .document-content>h3:first-child+hr{display:none}
+.document-paged-page .document-content>h2{
+  margin:38px 0 24px;color:var(--teal);font-family:Vollkorn,Georgia,serif;
+  font-size:30px;font-weight:400;line-height:1.24;text-align:center
 }
-.article h4{
-  margin:34px 0 18px;
-  color:var(--teal);
-  font-family:Vollkorn,Georgia,serif;
-  font-size:24px;
-  line-height:1.25;
-  font-weight:400
+.document-paged-page .document-content h4{
+  margin:38px 0 16px;color:var(--teal);font-family:Vollkorn,Georgia,serif;
+  font-size:24px;font-weight:400;line-height:1.28
 }
-.article h5{
-  margin:28px 0 14px;
-  color:#625a53;
-  font-family:Merriweather,Georgia,serif;
-  font-size:18px;
-  line-height:1.35
+.document-paged-page .document-content h5{
+  margin:27px 0 12px;color:#605750;font-size:18px;line-height:1.35
 }
-.article ol,.article ul{
-  margin:0 0 30px;
-  padding-left:1.65em
+.document-paged-page .document-content p{max-width:100%;margin:0 0 28px}
+.document-paged-page .document-content a{
+  color:var(--purple);text-decoration:underline;text-underline-offset:3px;
+  text-decoration-thickness:1px;overflow-wrap:anywhere
 }
-.article li{margin-bottom:10px}
-.article table{
-  display:block;
-  width:100%;
-  max-width:100%;
-  margin:30px 0;
-  overflow-x:auto;
-  border-collapse:collapse;
-  font-size:15px;
-  line-height:1.5
+.document-paged-page .document-content a:hover{color:#4a1cc4}
+.document-paged-page .document-content hr{
+  width:240px;max-width:46%;height:1px;margin:28px auto 37px;
+  padding:0;border:0;background:#d9d4ce
 }
-.article th,.article td{
-  padding:11px 13px;
-  border:1px solid #d9d2c9;
-  text-align:left;
-  vertical-align:top;
-  min-width:80px
+.document-paged-page .document-content ol,
+.document-paged-page .document-content ul{margin:5px 0 29px;padding-left:1.6em}
+.document-paged-page .document-content li{margin:0 0 12px;padding-left:3px}
+.document-paged-page .document-content li::marker{color:#83796f}
+.document-paged-page .document-content .translation,
+.document-paged-page .document-content blockquote{
+  margin:12px 0 28px!important;padding:2px 0 2px 17px;
+  border:0;border-left:2px solid var(--quote-rule);background:transparent;
+  color:var(--quote);font-family:Merriweather,Georgia,serif;
+  font-size:18.5px;font-weight:400;line-height:1.67
 }
-.article th{background:#eee9e2;color:#514941}
-.article tr:nth-child(even) td{background:#f0ece7}
-.article caption{
-  margin:0 0 12px;
-  color:#625a53;
-  font-family:Vollkorn,Georgia,serif;
-  font-size:21px;
-  text-align:left
+.document-paged-page .document-content .translation p{margin:0 0 13px}
+.document-paged-page .document-content .source-citation,
+.document-paged-page .document-content .scripture-source,
+.document-paged-page .document-content .source-note{
+  margin:-12px 0 29px!important;color:#73695f;
+  font-size:14px;line-height:1.55
 }
-.article figure{margin:30px auto 38px;text-align:center}
-.article figure img,.article img{
-  display:block;
-  max-width:100%;
-  height:auto;
-  margin:0 auto
+.document-paged-page .document-content .source-citation{
+  padding-left:17px;border-left:2px solid var(--quote-rule)
 }
-.article .source-note{font-size:14px;color:#776d63}
-.article details:not(.sanskrit-reveal){
-  margin:0 0 24px;
-  padding:20px 0 4px;
-  border-top:1px solid #cfc9c2;
-  border-bottom:1px solid #ddd8d2
+.document-paged-page .document-content details.sanskrit-reveal{
+  margin:15px 0 14px;padding:0;border:0;background:transparent
 }
-.article details:not(.sanskrit-reveal)>summary{
-  color:var(--teal);
-  font-family:Vollkorn,Georgia,serif;
-  font-size:25px;
-  line-height:1.2;
-  cursor:pointer;
-  list-style:none
+.document-paged-page .document-content details.sanskrit-reveal>summary{
+  display:inline-block;margin:0;padding:5px 12px;border:1px solid var(--orange-soft);
+  border-radius:999px;background:transparent;color:#9b4e1d;
+  font-family:Merriweather,Georgia,serif;font-size:13px;
+  font-weight:400;line-height:1.45;cursor:pointer;list-style:none
 }
-.article details:not(.sanskrit-reveal)>summary::-webkit-details-marker{display:none}
-.article details:not(.sanskrit-reveal)>summary:after{
-  content:"+";
-  float:right;
-  color:#8c837b;
-  font-family:Merriweather,Georgia,serif;
-  font-size:18px
+.document-paged-page .document-content details.sanskrit-reveal>summary::-webkit-details-marker{display:none}
+.document-paged-page .document-content details.sanskrit-reveal>summary:hover,
+.document-paged-page .document-content details.sanskrit-reveal>summary:focus-visible{
+  background:#eee8e2
 }
-.article details:not(.sanskrit-reveal)[open]>summary:after{content:"−"}
-.article details:not(.sanskrit-reveal)>p{margin-top:20px}
-.article .translation{
-  margin:0 0 30px!important;
-  padding:1px 0 1px 17px;
-  border-left:2px solid var(--quote-rule);
-  color:var(--quote);
-  font-size:18.5px;
-  line-height:1.62
+.document-paged-page .document-content details.sanskrit-reveal>summary:focus-visible,
+.document-paged-page .document-content a:focus-visible{
+  outline:2px solid var(--teal);outline-offset:3px
 }
-.article [lang^="sa"],.article [lang="sa-Deva"]{
-  overflow-wrap:anywhere;
-  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif
+.document-paged-page .document-content [lang^="sa"],
+.document-paged-page .document-content .sanskrit-text{
+  color:var(--sanskrit);font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;
+  font-size:20px;line-height:1.85;word-break:normal;overflow-wrap:break-word
 }
-.article .source-document{display:none!important}
+.document-paged-page .document-content details.sanskrit-reveal [lang^="sa"]{
+  margin:17px 0 18px;padding:0 0 0 17px;border-left:2px solid #c5a48f
+}
+.document-paged-page .document-content .sanskrit-text{
+  margin:15px 0 24px;padding:0 0 0 17px;border-left:2px solid #c5a48f
+}
+.document-paged-page .document-content .reference-entry{
+  display:grid;grid-template-columns:38px minmax(0,1fr);gap:14px;
+  padding:16px 0;border-bottom:1px solid #ddd8d2
+}
+.document-paged-page .document-content .reference-entry>*{min-width:0;margin:0}
+.document-paged-page .document-content .reference-entry>a:first-child,
+.document-paged-page .document-content .reference-entry>span:first-child{
+  color:var(--teal);font-size:15px
+}
+.document-paged-page .document-content .aside-note{
+  margin:32px 0;padding:18px 0 4px 20px;
+  border-left:3px solid #afa49a;background:transparent
+}
+.document-paged-page .document-content table{
+  display:block;width:100%;max-width:100%;margin:26px 0 34px;
+  overflow-x:auto;border-collapse:collapse;font-size:15px;line-height:1.55
+}
+.document-paged-page .document-content th,
+.document-paged-page .document-content td{
+  padding:11px 13px;border:1px solid #d8d2ca;text-align:left;vertical-align:top;
+  min-width:80px;overflow-wrap:break-word
+}
+.document-paged-page .document-content th{background:#eee9e2;color:#514941}
+.document-paged-page .document-content tr:nth-child(even) td{background:#f0ece7}
+.document-paged-page .document-content figure{max-width:100%;margin:28px auto 36px;text-align:center}
+.document-paged-page .document-content img{display:block;width:auto;max-width:100%;height:auto;margin:auto}
+.document-paged-page .document-content figcaption{
+  margin:10px 0 0;color:#786e64;font-size:13px;line-height:1.5
+}
+.document-paged-page .page-nav a{padding:9px 0;overflow-wrap:break-word}
+.document-paged-page .toc a{overflow-wrap:break-word}
+.document-paged-page .article [id]{scroll-margin-top:24px}
 @media(max-width:620px){
-  .article h2{font-size:25px}
-  .article h4{font-size:22px}
-  .article h5{font-size:17px}
-  .article table{font-size:13px}
-  .article th,.article td{padding:8px 9px}
-  .article details:not(.sanskrit-reveal)>summary{font-size:22px}
-  .article .translation{padding-left:13px;font-size:16.8px}
+  .document-paged-page .document-content>h2{font-size:25px}
+  .document-paged-page .document-content h4{font-size:21px}
+  .document-paged-page .document-content h5{font-size:17px}
+  .document-paged-page .document-content .translation,
+  .document-paged-page .document-content blockquote{
+    padding-left:13px;font-size:16.8px;line-height:1.7
+  }
+  .document-paged-page .document-content [lang^="sa"],
+  .document-paged-page .document-content .sanskrit-text{font-size:18px;line-height:1.85}
+  .document-paged-page .document-content details.sanskrit-reveal [lang^="sa"],
+  .document-paged-page .document-content .sanskrit-text{padding-left:12px}
+  .document-paged-page .document-content .source-citation{padding-left:13px}
+  .document-paged-page .document-content .reference-entry{
+    grid-template-columns:27px minmax(0,1fr);gap:10px
+  }
+  .document-paged-page .document-content table{font-size:13px}
+  .document-paged-page .document-content th,
+  .document-paged-page .document-content td{padding:8px 9px}
+  .document-paged-page .document-content .aside-note{padding-left:13px}
 }
