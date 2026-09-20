@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/audit-bhagavatam-canto11.yml'
       - 'scripts/audit_bhagavatam_canto11.py'
+      - 'scripts/reconcile_bhagavatam_canto11_verified.py'
   workflow_dispatch:
 permissions:
   contents: write
@@ -17,13 +18,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Correct source-confirmed entries and retract unverified completion labels
+        run: python scripts/reconcile_bhagavatam_canto11_verified.py
       - name: Collate all 31 chapters against pinned Sanskrit and English mirrors
         run: python scripts/audit_bhagavatam_canto11.py
       - name: Assemble complete pinned comparison corpus for manual review
         run: |
           python - <<'PY'
           from pathlib import Path
-          import json, re, shutil, urllib.request, zipfile
+          import json, shutil, urllib.request, zipfile
           m = json.loads(Path('assets/data/bhagavatam-sridhara-reader-manifest.json').read_text())
           c = m['cantos']['11']
           pin = m['primary_sanskrit']['commit']
@@ -58,13 +61,15 @@ jobs:
           name: bhagavatam-canto11-pinned-sources
           path: audit/canto11/pinned-review-bundle.zip
           if-no-files-found: error
-      - name: Commit audit result (does not alter published verses)
+      - name: Commit audited repairs and result
         if: success()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add BHAGAVATAM_COMPLETION_README.md articles/srimad-bhagavatam-canto-11-sridhara-svami/index.html
+          git add assets/data/bhagavatam-sridhara-wfw-canto11-ch11-verses01-49.json assets/data/bhagavatam-sridhara-wfw-canto11-ch12-verses01-24.json assets/data/bhagavatam-sridhara-wfw-canto11-ch31-verses01-28.json
           git add audit/canto11/automated-summary.md audit/canto11/automated-summary.json audit/canto11/automated-verse-map.csv
           if ! git diff --cached --quiet; then
-            git commit -m 'Record exhaustive Canto 11 automated verse audit results'
+            git commit -m 'Correct verified Canto 11 commentary errors and retract completion claim'
             git push
           fi
