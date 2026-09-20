@@ -19,6 +19,31 @@ jobs:
           python-version: '3.12'
       - name: Collate all 31 chapters against pinned Sanskrit and English mirrors
         run: python scripts/audit_bhagavatam_canto11.py
+      - name: Assemble complete pinned comparison corpus for manual review
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, re, shutil, urllib.request, zipfile
+          m = json.loads(Path('assets/data/bhagavatam-sridhara-reader-manifest.json').read_text())
+          c = m['cantos']['11']
+          pin = m['primary_sanskrit']['commit']
+          root = Path('audit/canto11/pinned-review-bundle')
+          root.mkdir(parents=True, exist_ok=True)
+          for ch in range(1, 32):
+              src = m['primary_sanskrit']['path_root'] + '/' + c['sridhara_paths'][str(ch)]
+              eng = m['english_source']['mirror_path_root'] + '/' + c['english_path_template'].replace('{chapter2}', f'{ch:02d}').replace('{chapter}', str(ch))
+              for kind, path in [('source', src), ('mirror', eng)]:
+                  with urllib.request.urlopen('https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/' + pin + '/' + path, timeout=75) as response:
+                      (root / f'{kind}-{ch:02d}.md').write_bytes(response.read())
+          for f in Path('assets/data').glob('bhagavatam-sridhara-wfw-canto11-*.json'):
+              shutil.copy2(f, root / f.name)
+          for f in ['assets/js/bhagavatam-sridhara-reader.js', 'assets/js/bhagavatam-sridhara-clarity.js', 'assets/data/bhagavatam-sridhara-reader-manifest.json', 'assets/data/bhagavatam-sridhara-english-checkpoints.json']:
+              shutil.copy2(f, root / Path(f).name)
+          with zipfile.ZipFile('audit/canto11/pinned-review-bundle.zip', 'w', compression=zipfile.ZIP_DEFLATED) as z:
+              for f in root.iterdir():
+                  z.write(f, f.name)
+          print('Source bundle ready, files:', len(list(root.iterdir())))
+          PY
       - name: Store full verse mapping and flagged cases
         if: always()
         uses: actions/upload-artifact@v4
@@ -26,6 +51,13 @@ jobs:
           name: bhagavatam-canto11-verse-audit
           path: audit/canto11/automated-*
           if-no-files-found: warn
+      - name: Store complete pinned comparison corpus
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bhagavatam-canto11-pinned-sources
+          path: audit/canto11/pinned-review-bundle.zip
+          if-no-files-found: error
       - name: Commit audit result (does not alter published verses)
         if: success()
         run: |
