@@ -2,7 +2,7 @@
 
 Pinned source commit: `100560de6c9f68c2875097d40a2012a84c784179`. This report checks source SHA, numeric verse mapping, textual character differences and flags likely inadequate glosses. It **does not** certify Sanskrit philology, translation accuracy, or independent authorship.
 
-Chapters attempted: **31/31**; verse rows: **1367**; issue flags: **6162**.
+Chapters attempted: **31/31**; verse rows: **1367**; issue flags: **6163**.
 
 | Chapter | Verses | Source ranges | Local records | Flag count |
 |---|---:|---:|---:|---:|
@@ -27,7 +27,7 @@ Chapters attempted: **31/31**; verse rows: **1367**; issue flags: **6162**.
 | 11.19 | 45 | 40 | 40 | 86 |
 | 11.20 | 37 | 34 | 34 | 101 |
 | 11.21 | 43 | 40 | 40 | 145 |
-| 11.22 | 61 | 58 | 58 | 213 |
+| 11.22 | 61 | 58 | 58 | 214 |
 | 11.23 | 61 | 59 | 59 | 248 |
 | 11.24 | 29 | 26 | 26 | 118 |
 | 11.25 | 36 | 33 | 33 | 87 |
@@ -45,9 +45,9 @@ Chapters attempted: **31/31**; verse rows: **1367**; issue flags: **6162**.
 - `insufficient_gloss_pairs`: 503
 - `duplicate_literal_across_ranges`: 41
 - `local_text_without_source_commentary`: 18
-- `sridhara_text_diff`: 11
+- `sridhara_text_diff`: 13
 - `source_range_count`: 9
-- `local_record_count`: 3
+- `local_record_count`: 2
 - `mirror_missing_devanagari`: 1
 - `other_author_in_sridhara_field`: 1
 

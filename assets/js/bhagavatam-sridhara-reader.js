@@ -227,7 +227,9 @@
       if (markerCanto !== targetCanto || markerChapter !== targetChapter) return;
       // The pinned VishvAsa file has a one-verse editorial numbering shift
       // after its 1.16.12 block: its markers 13+ match Vedabase 12+.
-      const sourceOffset = markerCanto === 1 && markerChapter === 16 && sourceStart >= 13 ? -1 : 0;
+      const sourceOffset = markerCanto === 1 && markerChapter === 16 && sourceStart >= 13 ? -1
+        : markerCanto === 11 && markerChapter === 22 && sourceStart >= 36 && sourceStart <= 38 ? 1
+        : 0;
       const start = sourceStart + sourceOffset;
       const end = sourceEnd + sourceOffset;
 

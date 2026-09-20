@@ -290,9 +290,9 @@
         "duplicate_literal_across_ranges": 4,
         "gloss_source_phrase_not_found": 96,
         "insufficient_gloss_pairs": 56,
-        "local_record_count": 1,
         "main_sanskrit_diff": 54,
-        "source_range_count": 2
+        "source_range_count": 2,
+        "sridhara_text_diff": 2
       }
     },
     {
@@ -33069,13 +33069,6 @@
     },
     {
       "chapter": 22,
-      "start": 36,
-      "end": 36,
-      "kind": "local_record_count",
-      "detail": "2"
-    },
-    {
-      "chapter": 22,
       "start": 37,
       "end": 37,
       "kind": "main_sanskrit_diff",
@@ -33085,8 +33078,15 @@
       "chapter": 22,
       "start": 37,
       "end": 37,
+      "kind": "sridhara_text_diff",
+      "detail": "assets/data/bhagavatam-sridhara-wfw-canto11-ch22-verses01-61.json"
+    },
+    {
+      "chapter": 22,
+      "start": 37,
+      "end": 37,
       "kind": "insufficient_gloss_pairs",
-      "detail": "pairs=2, source_words=45"
+      "detail": "pairs=1, source_words=45"
     },
     {
       "chapter": 22,
@@ -33094,6 +33094,13 @@
       "end": 38,
       "kind": "main_sanskrit_diff",
       "detail": "pinned=विषयाभिनिवेशेननात्मानंयत्स्मरेत्पुनःजन्तोर्वैकस्यचिद्धेतोर्मृत्यु mirror=ध्यायन्मनोऽनुविषयान्दृष्टान्वानुश्रुतानथउद्यत्सीदत्कर्मतन्त्रंस्म"
+    },
+    {
+      "chapter": 22,
+      "start": 38,
+      "end": 38,
+      "kind": "sridhara_text_diff",
+      "detail": "assets/data/bhagavatam-sridhara-wfw-canto11-ch22-verses01-61.json"
     },
     {
       "chapter": 22,
@@ -33730,7 +33737,7 @@
       "start": 35,
       "end": 61,
       "kind": "duplicate_literal_across_ranges",
-      "detail": "25 ranges: [(35, 36), (36, 36), (37, 37), (38, 39), (40, 40), (41, 41), (42, 42), (43, 43)]"
+      "detail": "25 ranges: [(35, 36), (37, 37), (38, 38), (39, 39), (40, 40), (41, 41), (42, 42), (43, 43)]"
     },
     {
       "chapter": 23,

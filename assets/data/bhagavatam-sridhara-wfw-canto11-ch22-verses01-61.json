@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "requires-full-verification",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/11/22_shrI-bhagavad-uddhava-saMvAde.md",
   "source_blob_sha": "752e62aced77e067b223fdfa022352d60f693ff7",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary for Canto 11 Chapter 22; exact source markers and merged ranges are preserved.",
+  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary for Canto 11 Chapter 22; exact source markers and merged ranges are preserved. Corrected the pinned witness’s repeated 11.22.36 heading and consequent two-verse numbering shift for the three subsequent local commentary records. The rest of the chapter still needs exhaustive verification.",
   "scope": "Complete source-bound Śrīdhara commentary for ŚB 11.22.1–11.22.61; 58 source blocks cover all 61 numbered verses, with explicit source notes where the pinned text is irregular.",
   "entries": [
     {
@@ -703,8 +703,8 @@
     {
       "canto": 11,
       "chapter": 22,
-      "start": 36,
-      "end": 36,
+      "start": 37,
+      "end": 37,
       "source_marker": "११.२२.३६",
       "main_sanskrit": "**श्री-भगवान् उवाच---**\n\n**मनः कर्म-मयं नॄणाम् इन्द्रियैः पञ्चभिर् युतम् ।**  \nलोकाल् लोकं प्रयात्य् अन्य आत्मा तद् अनुवर्तते ॥**",
       "sanskrit": "लिङ्ग-शरीराध्यासेन सर्वं घटत इत्य् उत्तरम् आह---मन इति । प्रधानत्वेन पञ्चभिर् इति निर्देशोऽन्येषाम् अप्य् उपलक्षणार्थम् । देहाद् देहान्तरं प्रति याति । ततोऽन्य एवात्मा तन्-मनोऽनुवर्तते अहङ्कारेणानुगच्छति ॥३६॥",
@@ -715,13 +715,14 @@
         ]
       ],
       "literal_english": "The final verses distinguish birth, death, and the self from the changing body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death.",
-      "source_note": "The pinned source repeats the 11.22.36 heading after the merged 11.22.35–36 block; this duplicate source block is retained verbatim and is not silently discarded."
+      "source_note": "The pinned source repeats the 11.22.36 heading after the merged 11.22.35–36 block; this duplicate source block is retained verbatim and is not silently discarded.",
+      "source_numbering_note": "Pinned Sanskrit prints heading 11.22.36 for canonical verse 11.22.37; matched by the complete main Sanskrit to the pinned English mirror."
     },
     {
       "canto": 11,
       "chapter": 22,
-      "start": 37,
-      "end": 37,
+      "start": 38,
+      "end": 38,
       "source_marker": "११.२२.३७",
       "main_sanskrit": "**ध्यायन् मनोऽनु विषयान् दृष्टान् वानुश्रुतान् अथ ।**  \nउद्यत् सीदत् कर्म-तन्त्रं स्मृतिस् तद् अनु शाम्यति ॥**",
       "sanskrit": "ननु मनसोऽपि पूर्व-देह-वियोगो देहान्तर-योगश् च कथं भवतीति चेत्, स्मृति-वियोग-योगाभ्याम् इति वक्तुं तयोः कारणम् आह---ध्यायद् इति । कर्म-तन्त्रत्वात् कर्मोपस्थापितान् दृष्टान् वा अनुश्रुतान् वेदोक्तान् विषयान् अनुध्यायत् । अथानन्तरं ध्यायमानेषूद्यद्-आविर्भवत्-पूर्व-विषयेषु च सीदल्-लीयमानं भवति, तद्-अनन्तरं तस्य स्मृतिः पूर्वापरानुसन्धानं नश्यति ॥३७॥",
@@ -735,12 +736,13 @@
           "body"
         ]
       ],
-      "literal_english": "The final verses distinguish birth, death, and the self from the changing body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The final verses distinguish birth, death, and the self from the changing body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death.",
+      "source_numbering_note": "Pinned Sanskrit prints heading 11.22.37 for canonical verse 11.22.38; matched by the complete main Sanskrit to the pinned English mirror."
     },
     {
       "canto": 11,
       "chapter": 22,
-      "start": 38,
+      "start": 39,
       "end": 39,
       "source_marker": "११.२२.३८",
       "main_sanskrit": "**विषयाभिनिवेशेन नात्मानं यत् स्मरेत् पुनः ।**  \nजन्तोर् वै कस्यचिद् धेतोर् मृत्युर् अत्यन्त-विस्मृतिः ॥**\n\n**मध्वाचार्यः (भागवत-तात्पर्यम्) :** विषयाभिनिवेशेन उत्तर-देहाभिनिवेशेन पूर्व-देहास्मरणं यत् तन् मृत्युः ॥३९॥\n\n\n______",
@@ -756,7 +758,8 @@
           "body"
         ]
       ],
-      "literal_english": "The final verses distinguish birth, death, and the self from the changing body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The final verses distinguish birth, death, and the self from the changing body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death.",
+      "source_numbering_note": "Pinned Sanskrit prints heading 11.22.38 for canonical verse 11.22.39; matched by the complete main Sanskrit to the pinned English mirror."
     },
     {
       "canto": 11,
