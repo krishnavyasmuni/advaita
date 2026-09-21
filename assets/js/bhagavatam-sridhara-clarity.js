@@ -119,7 +119,7 @@
   }
 
   function noCommentary(pairs) {
-    return Array.isArray(pairs) && pairs.some((pair) =>
+    return Array.isArray(pairs) && pairs.length > 0 && pairs.every((pair) =>
       Array.isArray(pair) && (/No commentary/i.test(String(pair[1] || '')) ||
         /न व्याख्यातम्/.test(String(pair[0] || ''))));
   }
@@ -182,11 +182,14 @@
         const bounds = range(section, chapter);
         const details = section.querySelector('.gita-controls > details');
         if (!bounds || !details || details.querySelector('.gita-dual-sridhara')) return;
-        const entry = chapterEntries.find((candidate) =>
+        const matching = chapterEntries.filter((candidate) =>
           candidate.start <= bounds[1] && candidate.end >= bounds[0]);
         const explicitKey = canto + ':' + chapter + ':' + bounds[0];
-        if (!entry && !explicitNoCommentary.has(explicitKey)) return;
-        const resolved = entry || {
+        if (!matching.length && !explicitNoCommentary.has(explicitKey)) return;
+        const resolved = matching.length === 1 ? matching[0] : matching.length > 1 ? {
+          pairs: matching.flatMap((candidate) => Array.isArray(candidate.pairs) ? candidate.pairs : []),
+          literal: matching.map((candidate) => candidate.literal).filter(Boolean).join('\\n\\n')
+        } : {
           pairs: [['न व्याख्यातम्', 'No commentary']],
           literal: 'No commentary'
         };
