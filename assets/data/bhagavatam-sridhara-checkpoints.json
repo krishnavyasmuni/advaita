@@ -7853,7 +7853,81 @@
         "literal_english_source_blocks": 12,
         "no_commentary_records": 4
       }
+    },
+    {
+      "id": "canto-10-chapter-36-release",
+      "range": "ŚB 10.36.1–10.36.40",
+      "status": "source-checked-and-reader-committed",
+      "english_source": "https://vedabase.io/en/library/sb/10/36/advanced-view/",
+      "english_source_note": "The pinned Vedabase mirror was used as the main Sanskrit/transliteration/synonyms cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/36.md",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "75b684141b222082fc37ec33ea39709c442a9e44",
+      "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch36-verses01-40.json"
+      ],
+      "records_checked": 40,
+      "exact_sridhara_source_blocks": 34,
+      "sridhara_source_ranges": [
+        "10.36.1",
+        "10.36.4",
+        "10.36.5",
+        "10.36.7",
+        "10.36.8",
+        "10.36.9",
+        "10.36.10",
+        "10.36.11",
+        "10.36.12",
+        "10.36.13",
+        "10.36.14",
+        "10.36.15",
+        "10.36.16",
+        "10.36.17",
+        "10.36.18",
+        "10.36.19",
+        "10.36.20",
+        "10.36.23",
+        "10.36.24",
+        "10.36.25",
+        "10.36.26",
+        "10.36.27",
+        "10.36.28",
+        "10.36.29",
+        "10.36.30",
+        "10.36.31",
+        "10.36.32",
+        "10.36.33",
+        "10.36.34",
+        "10.36.35",
+        "10.36.37",
+        "10.36.38",
+        "10.36.39",
+        "10.36.40"
+      ],
+      "no_commentary_ranges": [
+        "10.36.7",
+        "10.36.18",
+        "10.36.20",
+        "10.36.30",
+        "10.36.33",
+        "10.36.34",
+        "10.36.40"
+      ],
+      "source_gap_ranges": [
+        "10.36.2",
+        "10.36.3",
+        "10.36.6",
+        "10.36.21",
+        "10.36.22",
+        "10.36.36"
+      ],
+      "source_note": "The local source cache preserves 34 supplied Śrīdhara entries. Seven are the exact no-commentary sentinel; six canonical verses have no source block and are retained as explicit no-commentary records. Printed Śrīdhara markers such as 10.36.17–10.36.18, 10.36.19–10.36.22, 10.36.32–10.36.34 and 10.36.35–10.36.36 are preserved verbatim in the supplied Sanskrit; the local cache attaches each block to the Śrīdhara section where it occurs, while separately marked no-commentary sections remain no-commentary.",
+      "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; Vedabase and the English mirror are cross-checks, not copied prose.",
+      "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
+      "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
+      "live_render": null
     }
   ],
-  "generated_at": "2026-09-19"
+  "generated_at": "2026-09-21"
 }
