@@ -40,8 +40,8 @@ jobs:
           new='and displays source-derived bilingual rows as paired Sanskrit passages followed immediately by their English translations, with **one compact Show Sanskrit / Hide Sanskrit control per section** rather than a button for every row. The choice persists between sections.'
           assert old in text or new in text
           text=text.replace(old,new)
-          old='check every Sanskrit toggle and its paired English'
-          new='check the single Sanskrit toggle per section and every paired English translation'
+          old='every Sanskrit toggle and its paired English'
+          new='the single Sanskrit toggle per section and every paired English translation'
           assert old in text or new in text
           text=text.replace(old,new)
           anchor='## Śaiva article: Varṇa-vicāra design contract (2026-09-21)'
