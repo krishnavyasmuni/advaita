@@ -3,7 +3,7 @@
 const site='/vivekadrishti/',base=site+'articles/a-shaiva-lens-on-shiva-as-the-supreme-deity/';
 const root=document.getElementById('source-content');if(!root)return;
 const make=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
-async function get(path){const r=await fetch(site+path+'?v=20260921-tidy-1');if(!r.ok)throw Error(path+': HTTP '+r.status);return(await r.text()).trim();}
+async function get(path){const r=await fetch(site+path+'?v=20260921-tidy-2');if(!r.ok)throw Error(path+': HTTP '+r.status);return(await r.text()).trim();}
 async function load(){
  const encoded=await get('assets/data/shaiva-manuscript.b64');
  const bytes=Uint8Array.from(atob(encoded),ch=>ch.charCodeAt(0));
@@ -88,6 +88,9 @@ async function render(){
  document.title=chosen.title+' — A Scripture-Based Case for the Supremacy of Shiva — Viveka Dṛṣṭi';
  const content=document.createDocumentFragment();
  if(chosen.id!=='opening')content.append(make('h3','shaiva-section-title',chosen.title));
+ const tools=make('div','shaiva-tools');
+ const button=make('button','shaiva-sanskrit-toggle','Show Sanskrit');button.id='shaiva-sanskrit-toggle';button.type='button';button.setAttribute('aria-pressed','false');
+ tools.append(button);content.append(tools);
  let lastPage=0;
  for(const block of chosen.blocks){
   if(block.page!==lastPage){
@@ -107,14 +110,11 @@ async function render(){
  root.replaceChildren(content);
  const toggle=document.getElementById('shaiva-sanskrit-toggle');
  const sanskritNodes=Array.from(root.querySelectorAll('.shaiva-sanskrit'));
- if(toggle){
-  if(!sanskritNodes.length){toggle.hidden=true;}
-  else{
-   toggle.hidden=false;
-   let show=readPreference();
-   function apply(){for(const p of sanskritNodes)p.hidden=!show;toggle.textContent=show?'Hide Sanskrit':'Show Sanskrit';toggle.setAttribute('aria-pressed',String(show));}
-   toggle.addEventListener('click',()=>{show=!show;writePreference(show);apply();});apply();
-  }
+ if(!sanskritNodes.length)toggle.parentElement.hidden=true;
+ else{
+  let show=readPreference();
+  function apply(){for(const p of sanskritNodes)p.hidden=!show;toggle.textContent=show?'Hide Sanskrit':'Show Sanskrit';toggle.setAttribute('aria-pressed',String(show));}
+  toggle.addEventListener('click',()=>{show=!show;writePreference(show);apply();});apply();
  }
  if(pageMatch)requestAnimationFrame(()=>document.getElementById('source-page-'+pageMatch[1])?.scrollIntoView());
 }
