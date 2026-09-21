@@ -1,10 +1,114 @@
-/* Source-faithful reader for the owner's 52-page manuscript. Text is in assets/data/shaiva-manuscript.b64. */
+/* The original 52-page Śaiva manuscript, displayed in the Varṇa-vicāra article template.
+   Data are source-derived; presentation must not rewrite or substitute any passages. */
 (()=>{'use strict';
-const base='/vivekadrishti/',root=document.getElementById('shaiva-root');if(!root)return;
-const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
-async function fetchText(path){let r=await fetch(base+path+'?v=20260921-complete-1');if(!r.ok)throw Error(path+' HTTP '+r.status);return(await r.text()).trim();}
-async function load(){let str=await fetchText('assets/data/shaiva-manuscript.b64'),bytes=Uint8Array.from(atob(str),c=>c.charCodeAt(0));if(!('DecompressionStream'in window))throw Error('Browser does not support deflate decompression');let stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate')),pages=JSON.parse(await new Response(stream).text());if(!Array.isArray(pages)||pages.length!==52||pages.slice(0,50).some(x=>!Array.isArray(x)||!x.length)||pages.slice(50).some(x=>x.length))throw Error('Incomplete manuscript');return pages;}
-function block([type,value]){if(type==='table'){let t=el('div','shaiva-parallel');t.setAttribute('role','table');t.setAttribute('aria-label','Original Sanskrit and English in aligned columns');let h=el('div','shaiva-parallel-labels');h.setAttribute('role','row');for(let name of ['Sanskrit · Devanāgarī','English translation']){let x=el('div','',name);x.setAttribute('role','columnheader');h.append(x);}t.append(h);for(let [sa,en,note]of value){let r=el('div','shaiva-parallel-row');r.setAttribute('role','row');let s=el('div','shaiva-parallel-sa',sa);s.lang='sa-Deva';s.setAttribute('role','cell');let e=el('div','shaiva-parallel-en',en);e.lang='en';e.setAttribute('role','cell');if(note)e.append(el('small','shaiva-continuation',note));r.append(s,e);t.append(r);}return t;}if(type==='heading')return el('h2','shaiva-main-heading',value);if(type==='sa'){let x=el('p','shaiva-sanskrit',value);x.lang='sa-Deva';return x;}if(type==='quote')return el('blockquote','shaiva-quote',value);let sub=/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(value)&&value.length<180;return el(sub?'h3':'p',sub?'shaiva-subheading':'shaiva-paragraph',value);}
-function init(pages){root.replaceChildren();let bar=el('header','shaiva-masthead'),home=el('a','','Viveka Dṛṣṭi'),back=el('a','','← Home');home.href=back.href=base;bar.append(home,back);let title=el('div','shaiva-title');title.append(el('div','shaiva-eyebrow','COMPLETE MANUSCRIPT · POPCULTKING'),el('h1','','A Scripture-Based Case for the Supremacy of Shiva'),el('p','','The complete text of the supplied 52-page PDF in a readable format. Its last two pages are blank; Sanskrit and English remain source-based.'));let toolbar=el('div','shaiva-toolbar'),all=el('button','shaiva-control active','Continuous reading'),one=el('button','shaiva-control','Page by page'),showContents=el('button','shaiva-control','Contents');for(let b of [all,one,showContents])b.type='button';showContents.setAttribute('aria-expanded','false');toolbar.append(all,one,showContents);let toc=el('nav','shaiva-contents');toc.hidden=true;toc.setAttribute('aria-label','Manuscript contents');let pager=el('nav','shaiva-pager'),prev=el('button','shaiva-control','← Previous'),counter=el('span','shaiva-page-counter'),next=el('button','shaiva-control','Next →');for(let b of [prev,next])b.type='button';pager.append(prev,counter,next);pager.setAttribute('aria-label','PDF page navigation');let reader=el('main','shaiva-manuscript'),nodes=[];for(let i=0;i<pages.length;i++){if(!pages[i].length)continue;let pg=el('section','shaiva-paper');pg.id='source-page-'+(i+1);pg.setAttribute('aria-label','Original source PDF page '+(i+1));pg.append(el('div','shaiva-paper-label','SOURCE PDF · PAGE '+(i+1)+' / 52'));for(let b of pages[i])pg.append(block(b));if(i===0){let img=el('img','shaiva-cover');img.alt='The original artwork depicting Shiva from the supplied PDF';img.decoding='async';img.loading='eager';pg.append(img);fetchText('assets/data/shaiva-cover.webp.b64').then(x=>img.src='data:image/webp;base64,'+x).catch(()=>img.remove());}nodes.push(pg);reader.append(pg);}let current=-1;function set(mode,index=0,scroll=false){current=mode==='page'?Math.max(0,Math.min(index,nodes.length-1)):-1;all.classList.toggle('active',current===-1);one.classList.toggle('active',current!==-1);all.setAttribute('aria-pressed',String(current===-1));one.setAttribute('aria-pressed',String(current!==-1));nodes.forEach((n,i)=>n.hidden=current!==-1&&i!==current);pager.hidden=current===-1;if(current!==-1){counter.textContent='PDF page '+(current+1)+' / 52';prev.disabled=current===0;next.disabled=current===nodes.length-1;}if(scroll)window.scrollTo({top:0,behavior:'instant'});}all.addEventListener('click',()=>set('all'));one.addEventListener('click',()=>set('page',0,true));prev.addEventListener('click',()=>set('page',current-1,true));next.addEventListener('click',()=>set('page',current+1,true));showContents.addEventListener('click',()=>{toc.hidden=!toc.hidden;showContents.setAttribute('aria-expanded',String(!toc.hidden));});function link(text,index,cls){let a=el('a',cls,text);a.href='#source-page-'+(index+1);a.addEventListener('click',()=>{if(current!==-1)set('page',index);toc.hidden=true;showContents.setAttribute('aria-expanded','false');});toc.append(a);}pages.forEach((b,i)=>{let h=b.find(x=>x[0]==='heading'&&!/^index\b/i.test(x[1]));if(h)link(h[1],i,'shaiva-toc-link');});for(let i=0;i<50;i++)link('Page '+(i+1),i,'shaiva-toc-page');root.append(bar,title,toolbar,toc,pager,reader);set('all');let hash=location.hash.slice(1);if(/^source-page-\d+$/.test(hash))requestAnimationFrame(()=>document.getElementById(hash)?.scrollIntoView());}
-load().then(init).catch(e=>{console.error('Unable to load complete Śaiva PDF text',e);root.replaceChildren(el('p','shaiva-error','The complete manuscript could not be loaded. Please refresh; if the problem persists, see the preserved original edition in the repository.'));});
+const site='/vivekadrishti/',base=site+'articles/a-shaiva-lens-on-shiva-as-the-supreme-deity/';
+const root=document.getElementById('source-content');if(!root)return;
+const make=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
+async function get(path){const r=await fetch(site+path+'?v=20260921-varna-1');if(!r.ok)throw Error(path+': HTTP '+r.status);return(await r.text()).trim();}
+async function load(){
+ const encoded=await get('assets/data/shaiva-manuscript.b64');
+ const bytes=Uint8Array.from(atob(encoded),ch=>ch.charCodeAt(0));
+ if(!('DecompressionStream' in window))throw Error('This browser cannot decompress the manuscript');
+ const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate'));
+ const pages=JSON.parse(await new Response(stream).text());
+ if(!Array.isArray(pages)||pages.length!==52||pages.slice(0,50).some(x=>!Array.isArray(x)||!x.length)||pages.slice(50).some(x=>!Array.isArray(x)||x.length))throw Error('Incomplete 52-page manuscript');
+ return pages;
+}
+function sectionGroup(title){
+ if(title==='Index')return 'Manuscript';
+ const number=parseInt(title,10);
+ if(number<=4)return 'Introduction and Purāṇas';
+ if(number<=6)return 'Scriptural evidence';
+ return 'Objections and Dharmaśāstra';
+}
+function sectionsFrom(pages){
+ const sections=[{id:'opening',title:'Opening pages',parent:'Manuscript',blocks:[]}];
+ let current=sections[0];
+ pages.forEach((blocks,i)=>blocks.forEach(([kind,value])=>{
+  if(kind==='heading'){
+   const number=/^\s*(\d+)\./.exec(value);
+   const id=/^index\b/i.test(value)?'index':number?'section-'+number[1]:'section-'+sections.length;
+   current={id,title:value,parent:sectionGroup(value),blocks:[]};
+   sections.push(current);
+  }else current.blocks.push({kind,value,page:i+1});
+ }));
+ return sections;
+}
+function sanskrit(text){
+ const d=make('details','sanskrit-reveal');const summary=make('summary','','Show Sanskrit');
+ const body=make('div','',text);body.lang='sa-Deva';
+ d.append(summary,body);
+ d.addEventListener('toggle',()=>{summary.textContent=d.open?'Hide Sanskrit':'Show Sanskrit';});
+ return d;
+}
+function renderBlock({kind,value}){
+ if(kind==='sa'){const wrapper=make('div','shaiva-standalone-sanskrit');wrapper.append(sanskrit(value));return wrapper;}
+ if(kind==='quote')return make('blockquote','translation shaiva-quote',value);
+ if(kind==='table'){
+  const fragment=document.createDocumentFragment();
+  for(const row of value){
+   const [original,english,note]=row;
+   const pair=make('div','shaiva-verse-pair');
+   if(original)pair.append(sanskrit(original));
+   if(english){const trans=make('p','translation',english);trans.lang='en';pair.append(trans);}
+   if(note)pair.append(make('small','shaiva-note',note));
+   fragment.append(pair);
+  }
+  return fragment;
+ }
+ if(kind==='p'){
+  if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(value)&&value.length<180)return make('h4','shaiva-source-heading',value);
+  return make('p','shaiva-paragraph',value);
+ }
+ return make('p','shaiva-paragraph',String(value));
+}
+function href(s){return s.id==='opening'?base:base+'?section='+encodeURIComponent(s.id);}
+function tocInto(node,sections,selected){
+ node.replaceChildren();let group='',children;
+ for(const s of sections){
+  if(s.parent!==group){group=s.parent;const wrapper=make('div','toc-group');wrapper.append(make('div','toc-parent',group));children=make('div','toc-children');wrapper.append(children);node.append(wrapper);}
+  const a=make('a',s.id===selected.id?'is-active':'',s.title);a.href=href(s);a.dataset.section=s.id;
+  if(s.id===selected.id)a.setAttribute('aria-current','page');children.append(a);
+ }
+}
+function navLink(anchor,s,label){
+ anchor.replaceChildren(make('small','',label));
+ if(!s){anchor.classList.add('disabled');anchor.removeAttribute('href');return;}
+ anchor.classList.remove('disabled');anchor.href=href(s);anchor.append(document.createTextNode(s.title));
+}
+async function render(){
+ const pages=await load(),sections=sectionsFrom(pages);
+ const params=new URLSearchParams(location.search),requested=params.get('section');
+ let chosen=sections.find(s=>s.id===requested);
+ const pageMatch=/^#source-page-(\d+)$/.exec(location.hash);
+ if(!chosen&&pageMatch){const p=Number(pageMatch[1]);chosen=sections.find(s=>s.blocks.some(b=>b.page===p));}
+ if(!chosen)chosen=sections[0];
+ const i=sections.indexOf(chosen);
+ if(requested&&!sections.some(s=>s.id===requested))history.replaceState(null,'',href(chosen));
+ for(const toc of [document.getElementById('shaiva-desktop-toc'),document.getElementById('shaiva-mobile-toc')])if(toc)tocInto(toc,sections,chosen);
+ document.getElementById('section-parent').textContent=chosen.parent;
+ document.getElementById('section-count').textContent='Section '+(i+1)+' of '+sections.length;
+ navLink(document.getElementById('page-prev'),sections[i-1],'Previous');
+ navLink(document.getElementById('page-next'),sections[i+1],'Next');
+ document.title=chosen.title+' — A Scripture-Based Case for the Supremacy of Shiva — Viveka Dṛṣṭi';
+ const content=document.createDocumentFragment();
+ content.append(make('h3','shaiva-section-title',chosen.title));
+ let lastPage=0;
+ for(const block of chosen.blocks){
+  if(block.page!==lastPage){
+   lastPage=block.page;
+   const marker=make('small','shaiva-source-page','Original PDF · page '+lastPage+' of 52');
+   marker.id='source-page-'+lastPage;content.append(marker);
+  }
+  content.append(renderBlock(block));
+ }
+ if(chosen.id==='opening'){
+  const img=make('img','shaiva-cover');img.alt='Original artwork of Śiva from the supplied manuscript';img.decoding='async';img.loading='eager';
+  content.append(img);
+  get('assets/data/shaiva-cover.webp.b64').then(x=>img.src='data:image/webp;base64,'+x).catch(e=>{console.warn('Original manuscript artwork could not load',e);img.replaceWith(make('p','shaiva-end-note','The original cover artwork is temporarily unavailable.'));});
+ }
+ root.replaceChildren(content);
+ if(pageMatch){requestAnimationFrame(()=>document.getElementById('source-page-'+pageMatch[1])?.scrollIntoView());}
+}
+render().catch(e=>{console.error('Unable to load the complete Śaiva manuscript',e);root.replaceChildren(make('p','shaiva-loading-error','The manuscript could not load. Refresh this page or open the preserved earlier edition.'));const a=make('a','','Open preserved earlier edition');a.href='source-original.html';root.append(a);});
 })();
