@@ -1,0 +1,63 @@
+name: Review Shaiva and Varna rendered layouts
+on:
+  push:
+    paths:
+      - .github/workflows/shaiva-visual-review.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install browser QA dependencies
+        run: |
+          python3 -m pip install --user --quiet playwright
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install chromium; fi
+      - name: Screenshot real deployed article at phone and desktop widths
+        run: |
+          mkdir -p /tmp/shaiva-qa
+          python3 - <<'PY'
+          import json,shutil
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+          out=Path('/tmp/shaiva-qa')
+          root='https://krishnavyasmuni.github.io/vivekadrishti/articles/'
+          with sync_playwright() as playwright:
+            chrome=shutil.which('google-chrome') or shutil.which('chromium')
+            browser=playwright.chromium.launch(headless=True,executable_path=chrome) if chrome else playwright.chromium.launch(headless=True)
+            records=[]
+            for label,sub in [('shaiva','a-shaiva-lens-on-shiva-as-the-supreme-deity/'),('varna','varna-vicara/')]:
+              for width in [320,390,1365]:
+                page=browser.new_page(viewport={'width':width,'height':900},device_scale_factor=1)
+                errors=[]
+                page.on('pageerror',lambda e:errors.append(str(e)))
+                url=root+sub
+                if label=='shaiva':url+='?section=section-2'
+                response=page.goto(url,wait_until='domcontentloaded',timeout=45000)
+                if label=='shaiva':page.wait_for_selector('.shaiva-verse-pair',timeout=45000)
+                else:page.wait_for_selector('#source-content p',timeout=45000)
+                page.screenshot(path=str(out/f'{label}-{width}.png'),full_page=False)
+                data=page.evaluate('''() => ({documentWidth:document.documentElement.scrollWidth, viewport:innerWidth, buttons:[...document.querySelectorAll('button')].filter(x=>x.getBoundingClientRect().width>0).map(x=>x.textContent.trim()), sanskrit:document.querySelectorAll('.shaiva-sanskrit').length, verses:document.querySelectorAll('.shaiva-verse-pair').length, font:getComputedStyle(document.querySelector('.article')).fontFamily})''')
+                data.update(site=label,width=width,http=response.status if response else None,errors=errors)
+                if label=='shaiva':
+                  button=page.locator('#shaiva-sanskrit-toggle')
+                  if button.is_visible():
+                    button.click()
+                    data['sanskrit_after_click']=page.locator('.shaiva-sanskrit:visible').count()
+                    page.screenshot(path=str(out/f'{label}-{width}-sanskrit.png'),full_page=False)
+                print(json.dumps(data,ensure_ascii=False),flush=True)
+                records.append(data)
+                page.close()
+            (out/'results.json').write_text(json.dumps(records,indent=2,ensure_ascii=False))
+            browser.close()
+          assert all(x['http']==200 and x['documentWidth']<=x['viewport'] and not x['errors'] for x in records)
+          assert all(len(x['buttons'])<=1 and x.get('sanskrit_after_click',0)>0 for x in records if x['site']=='shaiva')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shaiva-actual-page-visual-review
+          path: /tmp/shaiva-qa
+          retention-days: 7
