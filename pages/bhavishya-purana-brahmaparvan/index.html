@@ -3,129 +3,164 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Bhaviṣya Purāṇa — English translation of the Brāhmaparvan, with available chapters listed below.">
+<meta name="description" content="Bhaviṣya Purāṇa — English translation of the Brāhmaparvan, with currently published chapters arranged as a quiet reading index.">
 <title>Bhaviṣya Purāṇa — Brāhmaparvan — Viveka Dṛṣṭi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Vollkorn:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#fff;--outer:#eeeae4;--ink:#2c2926;--muted:#746d67;--rule:#b8b3ad;--hover:#725345}
+:root{
+  --outer:#2b261f;
+  --paper:#f4f4f4;
+  --ink:#3c362e;
+  --muted:#756e67;
+  --teal:#00787a;
+  --purple:#65516f;
+  --rule:#d8d3cd;
+}
 *{box-sizing:border-box}
-body{margin:0;background:var(--outer);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.5}
-.shell{width:1060px;max-width:calc(100% - 28px);margin:0 auto;background:var(--paper);min-height:100vh;border-left:1px solid #d4cec7;border-right:1px solid #d4cec7;box-shadow:0 0 16px rgba(62,49,37,.05)}
-.sitebar{padding:9px 22px;border-bottom:1px solid #e2ddd7;background:#fbfaf8;font-family:Georgia,"Times New Roman",serif;font-size:14px}
-.sitebar a{color:#554a42;text-decoration:none}
-.page{width:900px;max-width:100%;padding:28px 34px 60px}
-.bookhead{margin:0 0 32px;padding:0 0 18px;border-bottom:1px solid #d1ccc6}
-.bookhead h1{margin:0 0 5px;color:#2b2521;font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weight:400;line-height:1.16}
-.bookhead p{margin:0;color:var(--muted);font-size:14px}
-details{margin:0}
-summary{display:block;position:relative;margin:0;padding:0 76px 7px 0;border-bottom:1px solid var(--rule);cursor:pointer;list-style:none;color:#302820;font-family:Georgia,"Times New Roman",serif;font-size:27px;font-weight:400;line-height:1.2}
-summary::-webkit-details-marker{display:none}
-summary::after{content:"(+ / −)";position:absolute;right:0;bottom:7px;color:#655e58;font-size:18px}
-.contents{padding-top:15px}
-.chapter-list{margin:0;padding:0;list-style:none;font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.58}
-.published-range{margin:0 0 26px}
-.published-range h2{margin:0 0 7px;color:#2f7f82;font-family:Georgia,"Times New Roman",serif;font-size:24px;font-weight:400;line-height:1.2}
-.published-range .chapter-list{margin:0}
-.chapter-list li{margin:0}
-.chapter-list a{display:inline-block;padding:1px 0;color:#302d2a;text-decoration:none}
-.chapter-list a:hover{color:var(--hover);text-decoration:underline}
-
-@media(max-width:700px){
-body{background:#fff}.shell{max-width:100%;border:0;box-shadow:none}.page{width:100%;padding:22px 17px 48px}.bookhead{margin-bottom:26px;padding-bottom:15px}.bookhead h1{font-size:27px}.bookhead p{font-size:13.5px}summary{padding-right:66px;font-size:23px}summary::after{font-size:16px}.chapter-list{font-size:16px;line-height:1.62}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--outer);color:var(--ink);font-family:Merriweather,Georgia,serif}
+.topbar{width:1080px;max-width:100%;height:58px;margin:0 auto;padding:0 42px;display:flex;align-items:center;background:var(--paper);border-bottom:1px solid rgba(119,119,119,.12)}
+.topbar a{color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:20px;text-decoration:none}
+.page{width:1080px;max-width:100%;min-height:100vh;margin:0 auto;padding:50px 54px 82px;background:var(--paper)}
+.hero{width:700px;max-width:100%;margin:0 auto 44px;text-align:center}
+.hero .eyebrow{margin:0 0 8px;color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.hero h1{margin:0;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:50px;font-weight:400;line-height:1.08}
+.hero p:not(.eyebrow){margin:12px auto 0;color:#655e57;font-family:Vollkorn,Georgia,serif;font-size:19px}
+.hero:after{content:"";display:block;width:326px;max-width:50%;height:1px;margin:24px auto 0;background:var(--rule)}
+.reader{display:grid;grid-template-columns:210px minmax(0,700px);gap:38px;justify-content:center;align-items:start}
+.side{position:sticky;top:28px;padding-right:24px;border-right:1px solid var(--rule)}
+.side h2{margin:0 0 14px;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:28px;font-weight:400}
+.side a{display:block;margin:0 0 8px;color:#5d554e;font-size:13px;line-height:1.35;text-decoration:none}
+.side a:hover,.side a:focus-visible{color:var(--purple);text-decoration:underline}
+.books{min-width:0}
+.book{margin:0 0 38px}
+.book h2{margin:0 0 13px;padding-bottom:10px;border-bottom:1px solid var(--rule);color:#4a443e;font-family:Vollkorn,Georgia,serif;font-size:27px;font-weight:400;line-height:1.2}
+.book-kicker{display:block;margin-bottom:5px;color:var(--muted);font-family:Merriweather,Georgia,serif;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.chapter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+.chapter-grid a{display:block;padding:10px 0 11px;border-bottom:1px solid #e2ddd7;color:#4a443e;text-decoration:none}
+.chapter-grid a:hover,.chapter-grid a:focus-visible{color:var(--purple)}
+.chapter-number{display:block;color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:14px;line-height:1.2}
+.chapter-title{display:block;margin-top:2px;font-family:Vollkorn,Georgia,serif;font-size:17px;line-height:1.3}
+.note{margin:26px 0 0;color:var(--muted);font-size:12px;line-height:1.55}
+@media(max-width:900px){
+  body{background:var(--paper)}
+  .page{padding:38px 24px 68px}
+  .reader{display:block;width:700px;max-width:100%;margin:0 auto}
+  .side{position:static;margin:0 0 28px;padding:0 0 16px;border:0;border-bottom:1px solid var(--rule)}
+  .side h2{font-size:23px;margin-bottom:8px}
+  .side a{display:inline-block;margin:0 14px 5px 0}
+}
+@media(max-width:620px){
+  .topbar{height:50px;padding:0 18px}
+  .topbar a{font-size:18px}
+  .page{padding:30px 16px 56px}
+  .hero{margin-bottom:34px}
+  .hero h1{font-size:39px;line-height:1.1}
+  .hero p:not(.eyebrow){font-size:17px}
+  .chapter-grid{grid-template-columns:1fr}
+  .chapter-grid a{padding:10px 0 12px}
+  .chapter-title{font-size:16px}
+  .book{margin-bottom:30px}
 }
 </style>
 </head>
 <body>
-<div class="shell">
-<header class="sitebar"><a href="/vivekadrishti/">Viveka Dṛṣṭi</a></header>
+<header class="topbar"><a href="/vivekadrishti/">Viveka Dṛṣṭi</a></header>
 <main class="page">
-<header class="bookhead">
-<h1>Bhaviṣya Purāṇa — English Translation</h1>
-<p>Brāhmaparvan — 66 currently published chapters: 1–55 and 180–190</p>
-</header>
-<section aria-label="Book contents">
-<details open>
-<summary>Contents of this online book</summary>
-<div class="contents">
-<section class="published-range">
-<h2>Chapters 1–55</h2>
-<ul class="chapter-list">
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-1/">Chapter 1 — Introduction to the Bhaviṣya Purāṇa</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-2/">Chapter 2 — Creation and the Five Characteristics of a Purāṇa</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-3/">Chapter 3 — Consecratory Rites and Daily Purification</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-4/">Chapter 4 — Initiation, Vedic Study, and Sacred Discipline</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-5/">Chapter 5 — Marriage and Traditional Marks of Character</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-6/">Chapter 6 — Household Life and Marriage Alliances</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-7/">Chapter 7 — Marriage Forms and Sources of Dharma</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-8/">Chapter 8 — Household Governance and Conduct</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-9/">Chapter 9 — Scriptural Procedure and Household Dharma</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-10/">Chapter 10 — Social Conduct and Family Relations</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-11/">Chapter 11 — Household Management and Provisions</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-12/">Chapter 12 — Household Accounts, Production, and Livestock</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-13/">Chapter 13 — Household Conduct and Family Reputation</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-14/">Chapter 14 — Conduct During Absence and Relations Among Co-Wives</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-15/">Chapter 15 — Conduct, Care, and Traditional Massage</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-16/">Chapter 16 — The Five Great Sacrifices and Pratipad Vow</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-17/">Chapter 17 — Worship of Brahmā on Pratipad</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-18/">Chapter 18 — Brahmā’s Chariot Festival and Sacred Pratipad Dates</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-19/">Chapter 19 — Sukanyā, Cyavana, the Aśvins, and Puṣpa-dvitīyā</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-20/">Chapter 20 — The Aśūnya-śayana or Phala-dvitīyā Vow</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-21/">Chapter 21 — Gaurī’s Vow and Akṣaya-tṛtīyā</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-22/">Chapter 22 — Vināyaka’s Fourth-Day Vow and the Origin of Obstacles</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-23/">Chapter 23 — Vināyaka’s Obstacle-Removal Rite</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-24/">Chapter 24 — Traditional Sāmudrika Signs of the Body</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-25/">Chapter 25 — Traditional Sāmudrika Signs and Palm Marks</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-26/">Chapter 26 — Traditional Bodily Signs</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-27/">Chapter 27 — Traditional Marks of a King</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-28/">Chapter 28 — Traditional Marks of Women</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-29/">Chapter 29 — Worship and Mantras of Gaṇeśa</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-30/">Chapter 30 — Further Worship and Rites of Gaṇeśa</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-31/">Chapter 31 — The Three Forms of Caturthī and the Aṅgāraka Vow</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-32/">Chapter 32 — The Origin and Observance of Nāga-pañcamī</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-33/">Chapter 33 — Traditional Serpent Lore and Classification of Bites</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-34/">Chapter 34 — Traditional Signs of Severe Snakebite and Nāga–Planet Correspondences</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-35/">Chapter 35 — Traditional Stages of Venom and Historical Antidotes</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-36/">Chapter 36 — Serpent Classification and the Śrāvaṇa Nāga-pañcamī Vow</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-37/">Chapter 37 — The Bhādrapada Nāga-pañcamī Vow</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-38/">Chapter 38 — The Āśvayuja Nāga-pañcamī Vow</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-39/">Chapter 39 — Ṣaṣṭhī Observance and Worship of Kārttikeya</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-40/">Chapter 40 — Birth, Conduct, and the Basis of Varṇa</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-41/">Chapter 41 — Vedic Study, Conduct, and the Marks of Brāhmaṇa Status</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-42/">Chapter 42 — Conduct, Rites, and Attained Status</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-43/">Chapter 43 — Birth, Conduct, and Human Equality</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-44/">Chapter 44 — Conduct and the Characteristics of Varṇa</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-45/">Chapter 45 — The Account of Kārttikeya</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-46/">Chapter 46 — The Bhādrapada Ṣaṣṭhī Observance of Skanda</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-47/">Chapter 47 — The Śāka-saptamī Vow</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-48/">Chapter 48 — Sāmba’s Inquiry into Solar Worship</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-49/">Chapter 49 — Solar Worship and Purification Rites</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-50/">Chapter 50 — Solar Mantras and the Consecration of Offerings</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-51/">Chapter 51 — Mahāsaptamī Vow</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-52/">Chapter 52 — The Solar Chariot and Worship of Sūrya</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-53/">Chapter 53 — Solar Motion and the Sun’s Worshippers</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-54/">Chapter 54 — The Glory and Signs of Sūrya</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-55/">Chapter 55 — The Solar Chariot Journey</a></li>
-</ul>
-</section>
-<section class="published-range">
-<h2>Chapters 180–190</h2>
-<ul class="chapter-list">
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-180/">Chapter 180 — Solar Pacification and Invocations for Peace</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-181/">Chapter 181 — Fivefold Smṛti-Dharma and Its Foundations</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-182/">Chapter 182 — Saṃskāras, Upanayana, Marriage, and Household Dharma</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-183/">Chapter 183 — Types and Procedures of Ancestral Rites</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-184/">Chapter 184 — Brahminical Duties, Hospitality, and Expiations</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-185/">Chapter 185 — Maternal and Nandīmukha Śrāddha Procedures</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-186/">Chapter 186 — Purification, Food, Impurity, and Household Discipline</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-187/">Chapter 187 — Faith, Solar Dharma, Giving, and Worthy Recipients</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-188/">Chapter 188 — Honouring Bhojakas, Guests, and Practitioners of Japa</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-189/">Chapter 189 — Giving, Worthy Recipients, Sin, and Solar Worship</a></li>
-<li><a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-190/">Chapter 190 — Upapātakas and Serious Secondary Sins</a></li>
-</ul>
-</section>
-</div>
-</details>
-</section>
+  <header class="hero">
+    <p class="eyebrow">Purāṇa Grantha · English Translation</p>
+    <h1>Bhaviṣya Purāṇa — Brāhmaparvan</h1>
+    <p>66 currently published chapters · 1–55 and 180–190</p>
+  </header>
+  <div class="reader">
+    <aside class="side" aria-label="Book contents">
+      <h2>Contents</h2>
+      <a href="#chapters-1-55">Chapters 1–55</a>
+      <a href="#chapters-180-190">Chapters 180–190</a>
+      <a href="/vivekadrishti/">← Home</a>
+    </aside>
+    <section class="books">
+      <section class="book" id="chapters-1-55">
+        <h2><span class="book-kicker">Published range</span>Chapters 1–55</h2>
+        <div class="chapter-grid">
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-1/"><span class="chapter-number">Chapter 1</span><span class="chapter-title">Introduction to the Bhaviṣya Purāṇa</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-2/"><span class="chapter-number">Chapter 2</span><span class="chapter-title">Creation and the Five Characteristics of a Purāṇa</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-3/"><span class="chapter-number">Chapter 3</span><span class="chapter-title">Consecratory Rites and Daily Purification</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-4/"><span class="chapter-number">Chapter 4</span><span class="chapter-title">Initiation, Vedic Study, and Sacred Discipline</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-5/"><span class="chapter-number">Chapter 5</span><span class="chapter-title">Marriage and Traditional Marks of Character</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-6/"><span class="chapter-number">Chapter 6</span><span class="chapter-title">Household Life and Marriage Alliances</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-7/"><span class="chapter-number">Chapter 7</span><span class="chapter-title">Marriage Forms and Sources of Dharma</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-8/"><span class="chapter-number">Chapter 8</span><span class="chapter-title">Household Governance and Conduct</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-9/"><span class="chapter-number">Chapter 9</span><span class="chapter-title">Scriptural Procedure and Household Dharma</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-10/"><span class="chapter-number">Chapter 10</span><span class="chapter-title">Social Conduct and Family Relations</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-11/"><span class="chapter-number">Chapter 11</span><span class="chapter-title">Household Management and Provisions</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-12/"><span class="chapter-number">Chapter 12</span><span class="chapter-title">Household Accounts, Production, and Livestock</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-13/"><span class="chapter-number">Chapter 13</span><span class="chapter-title">Household Conduct and Family Reputation</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-14/"><span class="chapter-number">Chapter 14</span><span class="chapter-title">Conduct During Absence and Relations Among Co-Wives</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-15/"><span class="chapter-number">Chapter 15</span><span class="chapter-title">Conduct, Care, and Traditional Massage</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-16/"><span class="chapter-number">Chapter 16</span><span class="chapter-title">The Five Great Sacrifices and Pratipad Vow</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-17/"><span class="chapter-number">Chapter 17</span><span class="chapter-title">Worship of Brahmā on Pratipad</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-18/"><span class="chapter-number">Chapter 18</span><span class="chapter-title">Brahmā’s Chariot Festival and Sacred Pratipad Dates</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-19/"><span class="chapter-number">Chapter 19</span><span class="chapter-title">Sukanyā, Cyavana, the Aśvins, and Puṣpa-dvitīyā</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-20/"><span class="chapter-number">Chapter 20</span><span class="chapter-title">The Aśūnya-śayana or Phala-dvitīyā Vow</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-21/"><span class="chapter-number">Chapter 21</span><span class="chapter-title">Gaurī’s Vow and Akṣaya-tṛtīyā</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-22/"><span class="chapter-number">Chapter 22</span><span class="chapter-title">Vināyaka’s Fourth-Day Vow and the Origin of Obstacles</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-23/"><span class="chapter-number">Chapter 23</span><span class="chapter-title">Vināyaka’s Obstacle-Removal Rite</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-24/"><span class="chapter-number">Chapter 24</span><span class="chapter-title">Traditional Sāmudrika Signs of the Body</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-25/"><span class="chapter-number">Chapter 25</span><span class="chapter-title">Traditional Sāmudrika Signs and Palm Marks</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-26/"><span class="chapter-number">Chapter 26</span><span class="chapter-title">Traditional Bodily Signs</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-27/"><span class="chapter-number">Chapter 27</span><span class="chapter-title">Traditional Marks of a King</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-28/"><span class="chapter-number">Chapter 28</span><span class="chapter-title">Traditional Marks of Women</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-29/"><span class="chapter-number">Chapter 29</span><span class="chapter-title">Worship and Mantras of Gaṇeśa</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-30/"><span class="chapter-number">Chapter 30</span><span class="chapter-title">Further Worship and Rites of Gaṇeśa</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-31/"><span class="chapter-number">Chapter 31</span><span class="chapter-title">The Three Forms of Caturthī and the Aṅgāraka Vow</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-32/"><span class="chapter-number">Chapter 32</span><span class="chapter-title">The Origin and Observance of Nāga-pañcamī</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-33/"><span class="chapter-number">Chapter 33</span><span class="chapter-title">Traditional Serpent Lore and Classification of Bites</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-34/"><span class="chapter-number">Chapter 34</span><span class="chapter-title">Traditional Signs of Severe Snakebite and Nāga–Planet Correspondences</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-35/"><span class="chapter-number">Chapter 35</span><span class="chapter-title">Traditional Stages of Venom and Historical Antidotes</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-36/"><span class="chapter-number">Chapter 36</span><span class="chapter-title">Serpent Classification and the Śrāvaṇa Nāga-pañcamī Vow</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-37/"><span class="chapter-number">Chapter 37</span><span class="chapter-title">The Bhādrapada Nāga-pañcamī Vow</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-38/"><span class="chapter-number">Chapter 38</span><span class="chapter-title">The Āśvayuja Nāga-pañcamī Vow</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-39/"><span class="chapter-number">Chapter 39</span><span class="chapter-title">Ṣaṣṭhī Observance and Worship of Kārttikeya</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-40/"><span class="chapter-number">Chapter 40</span><span class="chapter-title">Birth, Conduct, and the Basis of Varṇa</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-41/"><span class="chapter-number">Chapter 41</span><span class="chapter-title">Vedic Study, Conduct, and the Marks of Brāhmaṇa Status</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-42/"><span class="chapter-number">Chapter 42</span><span class="chapter-title">Conduct, Rites, and Attained Status</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-43/"><span class="chapter-number">Chapter 43</span><span class="chapter-title">Birth, Conduct, and Human Equality</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-44/"><span class="chapter-number">Chapter 44</span><span class="chapter-title">Conduct and the Characteristics of Varṇa</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-45/"><span class="chapter-number">Chapter 45</span><span class="chapter-title">The Account of Kārttikeya</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-46/"><span class="chapter-number">Chapter 46</span><span class="chapter-title">The Bhādrapada Ṣaṣṭhī Observance of Skanda</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-47/"><span class="chapter-number">Chapter 47</span><span class="chapter-title">The Śāka-saptamī Vow</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-48/"><span class="chapter-number">Chapter 48</span><span class="chapter-title">Sāmba’s Inquiry into Solar Worship</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-49/"><span class="chapter-number">Chapter 49</span><span class="chapter-title">Solar Worship and Purification Rites</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-50/"><span class="chapter-number">Chapter 50</span><span class="chapter-title">Solar Mantras and the Consecration of Offerings</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-51/"><span class="chapter-number">Chapter 51</span><span class="chapter-title">Mahāsaptamī Vow</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-52/"><span class="chapter-number">Chapter 52</span><span class="chapter-title">The Solar Chariot and Worship of Sūrya</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-53/"><span class="chapter-number">Chapter 53</span><span class="chapter-title">Solar Motion and the Sun’s Worshippers</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-54/"><span class="chapter-number">Chapter 54</span><span class="chapter-title">The Glory and Signs of Sūrya</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-55/"><span class="chapter-number">Chapter 55</span><span class="chapter-title">The Solar Chariot Journey</span></a>
+        </div>
+      </section>
+      <section class="book" id="chapters-180-190">
+        <h2><span class="book-kicker">Published range</span>Chapters 180–190</h2>
+        <div class="chapter-grid">
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-180/"><span class="chapter-number">Chapter 180</span><span class="chapter-title">Solar Pacification and Invocations for Peace</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-181/"><span class="chapter-number">Chapter 181</span><span class="chapter-title">Fivefold Smṛti-Dharma and Its Foundations</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-182/"><span class="chapter-number">Chapter 182</span><span class="chapter-title">Saṃskāras, Upanayana, Marriage, and Household Dharma</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-183/"><span class="chapter-number">Chapter 183</span><span class="chapter-title">Types and Procedures of Ancestral Rites</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-184/"><span class="chapter-number">Chapter 184</span><span class="chapter-title">Brahminical Duties, Hospitality, and Expiations</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-185/"><span class="chapter-number">Chapter 185</span><span class="chapter-title">Maternal and Nandīmukha Śrāddha Procedures</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-186/"><span class="chapter-number">Chapter 186</span><span class="chapter-title">Purification, Food, Impurity, and Household Discipline</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-187/"><span class="chapter-number">Chapter 187</span><span class="chapter-title">Faith, Solar Dharma, Giving, and Worthy Recipients</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-188/"><span class="chapter-number">Chapter 188</span><span class="chapter-title">Honouring Bhojakas, Guests, and Practitioners of Japa</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-189/"><span class="chapter-number">Chapter 189</span><span class="chapter-title">Giving, Worthy Recipients, Sin, and Solar Worship</span></a>
+          <a href="/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-190/"><span class="chapter-number">Chapter 190</span><span class="chapter-title">Upapātakas and Serious Secondary Sins</span></a>
+        </div>
+      </section>
+      <p class="note">This online edition currently lists 66 published chapters of the Brāhmaparvan. Additional chapters can be added without changing the reading layout.</p>
+    </section>
+  </div>
 </main>
-</div>
 </body>
 </html>
