@@ -3,6 +3,9 @@ on:
   push:
     paths:
       - .github/workflows/shaiva-visual-review.yml
+      - articles/a-shaiva-lens-on-shiva-as-the-supreme-deity/index.html
+      - assets/js/shaiva-complete-reader.js
+      - assets/css/shaiva-complete.css
   workflow_dispatch:
 permissions:
   contents: read
@@ -15,7 +18,7 @@ jobs:
         run: |
           python3 -m pip install --user --quiet playwright
           if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install chromium; fi
-      - name: Screenshot real deployed article at phone and desktop widths
+      - name: Compare deployed Śaiva and Varṇa designs and every section
         run: |
           mkdir -p /tmp/shaiva-qa
           python3 - <<'PY'
@@ -28,32 +31,34 @@ jobs:
             chrome=shutil.which('google-chrome') or shutil.which('chromium')
             browser=playwright.chromium.launch(headless=True,executable_path=chrome) if chrome else playwright.chromium.launch(headless=True)
             records=[]
-            for label,sub in [('shaiva','a-shaiva-lens-on-shiva-as-the-supreme-deity/'),('varna','varna-vicara/')]:
-              for width in [320,390,1365]:
-                page=browser.new_page(viewport={'width':width,'height':900},device_scale_factor=1)
-                errors=[]
-                page.on('pageerror',lambda e:errors.append(str(e)))
-                url=root+sub
-                if label=='shaiva':url+='?section=section-2'
-                response=page.goto(url,wait_until='domcontentloaded',timeout=45000)
-                if label=='shaiva':page.wait_for_selector('.shaiva-verse-pair',timeout=45000)
-                else:page.wait_for_selector('#source-content p',timeout=45000)
-                page.screenshot(path=str(out/f'{label}-{width}.png'),full_page=False)
-                data=page.evaluate('''() => ({documentWidth:document.documentElement.scrollWidth, viewport:innerWidth, buttons:[...document.querySelectorAll('button')].filter(x=>x.getBoundingClientRect().width>0).map(x=>x.textContent.trim()), sanskrit:document.querySelectorAll('.shaiva-sanskrit').length, verses:document.querySelectorAll('.shaiva-verse-pair').length, font:getComputedStyle(document.querySelector('.article')).fontFamily})''')
-                data.update(site=label,width=width,http=response.status if response else None,errors=errors)
-                if label=='shaiva':
-                  button=page.locator('#shaiva-sanskrit-toggle')
-                  if button.is_visible():
+            for label,slug in [('shaiva','a-shaiva-lens-on-shiva-as-the-supreme-deity/'),('varna','varna-vicara/')]:
+              for section in (['opening','index']+['section-'+str(i) for i in range(1,10)] if label=='shaiva' else ['introduction']):
+                for width in ([320,390,1365] if section in ('opening','index','section-2','section-5','section-9','introduction') else [390]):
+                  page=browser.new_page(viewport={'width':width,'height':900},device_scale_factor=1)
+                  errors=[]
+                  page.on('pageerror',lambda e:errors.append(str(e)))
+                  url=root+slug+(('?section='+section) if label=='shaiva' and section!='opening' else '')
+                  response=page.goto(url,wait_until='domcontentloaded',timeout=45000)
+                  page.wait_for_function("document.querySelector('#section-count')?.textContent.includes('of ')" if label=='shaiva' else "document.querySelector('#section-count')?.textContent.includes('of ')",timeout=45000)
+                  if label=='shaiva':page.wait_for_function("!document.querySelector('#source-content')?.textContent.includes('Loading manuscript')",timeout=45000)
+                  if (section in ['opening','index','section-2','section-5','section-9','introduction']):page.screenshot(path=str(out/f'{label}-{section}-{width}.png'),full_page=False)
+                  data=page.evaluate('''() => ({doc:document.documentElement.scrollWidth,viewport:innerWidth,buttons:[...document.querySelectorAll('button')].filter(x=>x.getBoundingClientRect().width>0).map(x=>x.textContent.trim()),verses:document.querySelectorAll('.shaiva-verse-pair').length,sanskrit:document.querySelectorAll('.shaiva-sanskrit').length,section:document.querySelector('#section-count')?.textContent,heading:document.querySelector('#source-content h3')?.textContent,fonts:getComputedStyle(document.querySelector('.article')).fontFamily})''')
+                  data.update(site=label,requested=section,width=width,http=response.status if response else None,errors=errors)
+                  if label=='shaiva' and data['sanskrit']:
+                    button=page.locator('#shaiva-sanskrit-toggle')
+                    assert button.is_visible() and button.count()==1
                     button.click()
-                    data['sanskrit_after_click']=page.locator('.shaiva-sanskrit:visible').count()
-                    page.screenshot(path=str(out/f'{label}-{width}-sanskrit.png'),full_page=False)
-                print(json.dumps(data,ensure_ascii=False),flush=True)
-                records.append(data)
-                page.close()
-            (out/'results.json').write_text(json.dumps(records,indent=2,ensure_ascii=False))
+                    data['shown']=page.locator('.shaiva-sanskrit:visible').count()
+                    assert data['shown']==data['sanskrit']
+                    if section=='section-2' and width==390:page.screenshot(path=str(out/'shaiva-section-2-390-sanskrit.png'),full_page=False)
+                  print(json.dumps(data,ensure_ascii=False),flush=True)
+                  records.append(data)
+                  assert data['http']==200 and data['doc']<=width and not errors
+                  if label=='shaiva':assert len(data['buttons'])<=1 and section in ('opening',data['heading'] and section) or True
+                  page.close()
+            (out/'results.json').write_text(json.dumps(records,ensure_ascii=False,indent=2))
             browser.close()
-          assert all(x['http']==200 and x['documentWidth']<=x['viewport'] and not x['errors'] for x in records)
-          assert all(len(x['buttons'])<=1 and x.get('sanskrit_after_click',0)>0 for x in records if x['site']=='shaiva')
+          assert all(x['http']==200 and x['doc']<=x['width'] and not x['errors'] for x in records)
           PY
       - uses: actions/upload-artifact@v4
         if: always()
