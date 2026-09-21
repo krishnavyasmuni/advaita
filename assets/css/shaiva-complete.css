@@ -20,6 +20,9 @@
 .shaiva-source-range{display:block;margin:42px 0 0;padding-top:12px;border-top:1px solid var(--rule);color:#817970;font:11px/1.5 Merriweather,Georgia,serif}
 .shaiva-loading-error{padding:22px 0;color:#7b3d35}
 .shaiva-loading-error a{color:var(--teal);text-decoration:underline}
+/* Some original English quotations contain long Devanāgarī compounds with no spaces.
+   Allow grapheme-safe emergency wrapping instead of forcing horizontal page scroll. */
+.article #source-content blockquote.shaiva-quote,.article #source-content p.shaiva-paragraph,.article #source-content p.translation,.article #source-content h3.shaiva-subheading{overflow-wrap:anywhere;word-break:normal;min-width:0}
 @media(max-width:900px){.article-head h1{font-size:clamp(31px,5vw,42px)}}
 @media(max-width:620px){.article-head h1{font-size:clamp(29px,8vw,35px);line-height:1.2}.shaiva-tools{min-height:34px;margin:0 0 17px}.shaiva-sanskrit-toggle{min-height:34px;padding:5px 12px;font-size:12.5px}.article h3.shaiva-subheading{font-size:22px;margin:29px 0 17px}.article #source-content p.shaiva-sanskrit{font-size:18px;line-height:1.85;padding-left:12px;margin-bottom:19px}.shaiva-verse-pair{margin:20px 0 30px}.shaiva-cover{max-width:100%}.shaiva-source-range{font-size:10.5px}}
 @media print{body{background:var(--paper)}.sitebar,.side-toc,.mobile-toc,.page-nav,.shaiva-tools{display:none!important}.page{padding:0}.article-head{max-width:100%;margin:0 auto 25px}.reader-grid,.article{display:block;width:100%;max-width:100%}.shaiva-verse-pair{break-inside:avoid}.article #source-content p.shaiva-sanskrit{display:block!important}}
