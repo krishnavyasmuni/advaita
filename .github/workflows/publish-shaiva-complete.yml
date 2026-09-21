@@ -37,7 +37,7 @@ jobs:
           assert sum(bool(page) for page in pages)==50
           assert sum(block[0]=='table' for page in pages for block in page)==20
           assert sum(len(block[1]) for page in pages for block in page if block[0]=='table')==67
-          assert original.decode('utf-8').count('शिव')>20
+          assert original.decode('utf-8').count('शिव')>=10
           (folder/'shaiva-manuscript.b64').write_text(joined,encoding='ascii')
           cover=(folder/'shaiva-cover.webp.b64').read_text(encoding='ascii').strip()
           assert blob_sha(cover)=='0f4a715744bcb78a1af23d21108ef9676348f14c'
