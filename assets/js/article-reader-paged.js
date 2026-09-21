@@ -117,7 +117,7 @@ const context=el('div','page-context'),parent=el('strong'),count=el('span');
 context.append(parent,count);
 const reader=el('div','document-content');reader.id='source-content';
 const pager=el('nav','page-nav'),prev=el('a','prev'),next=el('a','next');
-pager.setAttribute('aria-label','Document sections');pager.append(prev,next);
+pager.setAttribute('aria-label','Article sections');pager.append(prev,next);
 article.append(mobile,context,reader,pager);grid.append(side,article);main.append(header,grid);
 function makeToc(nav){
   let group=null,items=null;
