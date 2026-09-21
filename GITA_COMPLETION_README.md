@@ -47,7 +47,7 @@ The current cache-busted asset versions in the shells are:
 - site.js?v=20260918-gita-template-1
 - bhagavad-gita.css?v=20260918-gita-all-chapters-1
 - gita-bhavishya-exact.css?v=20260918-gita-all-chapters-1
-- bhagavad-gita.js?v=20260918-gita-all-chapters-1
+- bhagavad-gita.js?v=20260921-gita-full-audit-1
 - bhagavad-gita-sridhara-all.js?build=20260918-gita-all-chapters-1
 - gita-bhavishya-exact.js?v=20260918-ch1-nav-commentary-2
 
@@ -266,7 +266,14 @@ The Gītā rollout is complete only when:
 - the README is updated in the same rollout;
 - Pages has rebuilt and representative desktop/narrow browser checks pass.
 
-## 13. Do not regress these rules
+
+## 13. Full source audit — 2026-09-21
+
+The shared reader was audited against the pinned Holy Bhagavad Gita word-meaning/translation dataset, the pinned VedicScriptures verse records, and the pinned VishvAsa/Vasuki Śrīdhara mapping. The audit covers all 701 visible verses. Two corrections were applied: Mukundananda’s pinned translation now takes precedence over the fallback API translation, and the stray fourth upstream word-meaning line attached to 16.13–16.15 is excluded because it belongs to 16.16. The eight explicit grouped word-meaning slices remain covered by `pickWordMeaning`; all 18 chapters expand to their expected verse counts with no missing word-meaning record.
+
+The locked source URLs and commits remain unchanged. `No commentary.` is retained only for verses that the Vasuki manifest explicitly maps to no Śrīdhara section.
+
+## 14. Do not regress these rules
 
 - Do not merge separate verse cards.
 - Do not make a grouped source look like a fabricated new source record.
