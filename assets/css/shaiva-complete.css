@@ -2,7 +2,7 @@
    This file contains only manuscript-specific adaptations; do not recreate the old card reader. */
 [hidden]{display:none!important}
 #source-content{min-height:8rem}
-.shaiva-section-title{margin-top:0!important}
+.shaiva-section-title{margin-top:0!important;overflow-wrap:break-word}
 .shaiva-source-page{display:block;margin:0 0 21px;padding:0 0 7px;border-bottom:1px solid var(--rule);color:#817970;font-family:Merriweather,Georgia,serif;font-size:11px;line-height:1.45;letter-spacing:.01em}
 .shaiva-source-page a{color:inherit;text-decoration:none}
 .shaiva-source-page a:hover{text-decoration:underline}
@@ -11,6 +11,10 @@
 .shaiva-verse-pair .translation{margin:0 0 25px!important}
 .shaiva-verse-pair .shaiva-note{display:block;margin-top:8px;color:#887b72;font-family:Merriweather,Georgia,serif;font-size:11px;line-height:1.5}
 .shaiva-verse-pair [lang="sa-Deva"],.shaiva-standalone-sanskrit [lang="sa-Deva"]{white-space:pre-line;overflow-wrap:break-word;word-break:normal}
+/* The PDF also contains long continuous Vedic Sanskrit inside prose paragraphs.
+   Only those article blocks get an emergency grapheme-safe break on narrow screens. */
+.article #source-content p.shaiva-paragraph{overflow-wrap:break-word;word-break:normal}
+.article #source-content .shaiva-source-heading{overflow-wrap:break-word;word-break:normal}
 .shaiva-standalone-sanskrit{margin:0 0 23px}
 .shaiva-quote{margin:0 0 30px!important}
 .shaiva-cover{display:block;max-width:min(100%,475px);height:auto;margin:25px auto 36px}
