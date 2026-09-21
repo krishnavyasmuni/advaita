@@ -50,7 +50,7 @@ jobs:
           page=article/'index.html';backup=article/'source-original.html'
           if not backup.exists():
               source=page.read_text(encoding='utf-8')
-              assert len(source)>90000 and 'id="source-document"' in source,'Unexpected old article; do not replace'
+              assert len(source.encode('utf-8'))>90000 and 'id="source-document"' in source,'Unexpected old article; do not replace'
               backup.write_text(source,encoding='utf-8')
           shell='''<!doctype html>
           <html lang="en">
