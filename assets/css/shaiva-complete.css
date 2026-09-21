@@ -2,7 +2,7 @@
 [hidden]{display:none!important}
 .article-head h1{font-size:clamp(32px,3.6vw,43px);line-height:1.23;letter-spacing:-.018em}
 #source-content{min-height:9rem}
-.shaiva-tools{display:flex;justify-content:flex-end;align-items:center;min-height:39px;margin:-14px 0 30px}
+.shaiva-tools{display:flex;justify-content:flex-start;align-items:center;min-height:35px;margin:0 0 18px}
 .shaiva-sanskrit-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:35px;padding:6px 14px;border:1px solid var(--orange-soft);border-radius:999px;color:#9b4e1d;background:transparent;font:400 13px/1.45 Merriweather,Georgia,serif;cursor:pointer;white-space:nowrap}
 .shaiva-sanskrit-toggle:hover,.shaiva-sanskrit-toggle[aria-pressed="true"]{background:#eee8e2}
 .shaiva-sanskrit-toggle:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
@@ -20,6 +20,6 @@
 .shaiva-source-range{display:block;margin:42px 0 0;padding-top:12px;border-top:1px solid var(--rule);color:#817970;font:11px/1.5 Merriweather,Georgia,serif}
 .shaiva-loading-error{padding:22px 0;color:#7b3d35}
 .shaiva-loading-error a{color:var(--teal);text-decoration:underline}
-@media(max-width:900px){.article-head h1{font-size:clamp(31px,5vw,42px)}.shaiva-tools{margin:-10px 0 26px}}
-@media(max-width:620px){.article-head h1{font-size:clamp(29px,8vw,35px);line-height:1.2}.shaiva-tools{min-height:36px;margin:-9px 0 25px}.shaiva-sanskrit-toggle{min-height:34px;padding:5px 12px;font-size:12.5px}.article h3.shaiva-subheading{font-size:22px;margin:29px 0 17px}.article #source-content p.shaiva-sanskrit{font-size:18px;line-height:1.85;padding-left:12px;margin-bottom:19px}.shaiva-verse-pair{margin:20px 0 30px}.shaiva-cover{max-width:100%}.shaiva-source-range{font-size:10.5px}}
+@media(max-width:900px){.article-head h1{font-size:clamp(31px,5vw,42px)}}
+@media(max-width:620px){.article-head h1{font-size:clamp(29px,8vw,35px);line-height:1.2}.shaiva-tools{min-height:34px;margin:0 0 17px}.shaiva-sanskrit-toggle{min-height:34px;padding:5px 12px;font-size:12.5px}.article h3.shaiva-subheading{font-size:22px;margin:29px 0 17px}.article #source-content p.shaiva-sanskrit{font-size:18px;line-height:1.85;padding-left:12px;margin-bottom:19px}.shaiva-verse-pair{margin:20px 0 30px}.shaiva-cover{max-width:100%}.shaiva-source-range{font-size:10.5px}}
 @media print{body{background:var(--paper)}.sitebar,.side-toc,.mobile-toc,.page-nav,.shaiva-tools{display:none!important}.page{padding:0}.article-head{max-width:100%;margin:0 auto 25px}.reader-grid,.article{display:block;width:100%;max-width:100%}.shaiva-verse-pair{break-inside:avoid}.article #source-content p.shaiva-sanskrit{display:block!important}}
