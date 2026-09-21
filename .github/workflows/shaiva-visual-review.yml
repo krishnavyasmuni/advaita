@@ -1,15 +1,18 @@
 name: Review Shaiva and Varna rendered layouts
 on:
-  workflow_run:
-    workflows: ["pages build and deployment"]
-    types: [completed]
-    branches: [main]
+  push:
+    paths:
+      - .github/workflows/shaiva-visual-review.yml
+      - articles/a-shaiva-lens-on-shiva-as-the-supreme-deity/index.html
+      - articles/a-shashtric-lens-of-varna-part-one/index.html
+      - assets/js/article-reader-paged.js
+      - assets/css/document-paged.css
+      - assets/css/varna-vicara-paged.css
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
   compare:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,7 +28,7 @@ jobs:
         run: |
           mkdir -p /tmp/shaiva-qa
           python3 - <<'PY'
-          import json,os,shutil
+          import json,os,shutil,time
           from pathlib import Path
           from urllib.parse import quote
           from playwright.sync_api import sync_playwright
@@ -39,6 +42,18 @@ jobs:
               return url
             return url+('&' if '?' in url else '?')+'rev='+quote(revision)
 
+          def wait_for_reader(page,url):
+            deadline=time.monotonic()+120
+            response=None
+            while time.monotonic()<deadline:
+              response=page.goto(url,wait_until='domcontentloaded',timeout=45000)
+              page.wait_for_timeout(1000)
+              ready=page.evaluate("document.body.classList.contains('document-paged-page') && !!document.querySelector('.page-context span')")
+              if response and response.status==200 and ready:
+                return response
+              time.sleep(5)
+            raise AssertionError('The published article reader did not finish deploying.')
+          
           def style_of(page):
             return page.evaluate("""() => {
               const article=document.querySelector('.article');
@@ -100,8 +115,7 @@ jobs:
               records.append(record)
 
             discovery=browser.new_page(viewport={'width':390,'height':900},device_scale_factor=1)
-            initial=discovery.goto(revision_url(shaiva_base),wait_until='domcontentloaded',timeout=45000)
-            discovery.wait_for_function("document.querySelector('.page-context span')?.textContent.includes('of ')")
+            initial=wait_for_reader(discovery,revision_url(shaiva_base))
             items=discovery.locator('.side-toc .toc a[data-section]').evaluate_all("(links)=>links.map(a=>({id:a.dataset.section,title:a.textContent.trim()}))")
             assert initial and initial.status==200
             assert len(items)==19, f'Expected all 19 article sections, got {len(items)}'
