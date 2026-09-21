@@ -850,7 +850,7 @@
     '5:27-28': [[0], [1, 2]],
     '11:26-27': [[0], [1, 2]],
     '12:3-4': [[0], [1, 2]],
-    '16:13-15': [[0], [1], [2, 3]]
+    '16:13-15': [[0], [1], [2]]
   };
 
   const pickWordMeaning = (entry, n) => {
@@ -1013,7 +1013,7 @@
           ? (override.wordMeaning || c.word_meanings || '')
           : pickWordMeaning(c, n),
         wordMeaningShared: null,
-        mukEnglish: apiTranslation || (mukRange.start === n ? (m.translation || '') : ''),
+        mukEnglish: (mukRange.start === n ? (m.translation || '') : '') || apiTranslation,
         srid: {sc: sridharaCommentary}
       };
     });
