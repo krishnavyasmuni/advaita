@@ -754,7 +754,7 @@
 
   const GITA_DATA_COMMIT = '27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb';
   const GITA_DATA_BASE = 'https://raw.githubusercontent.com/gita/gita-frontend-v2/' + GITA_DATA_COMMIT + '/data/';
-  const VASUKI_MANIFEST_URL = '/vivekadrishti/assets/data/bhagavad-gita-vasuki-manifest.json?v=20260917-1';
+  const VASUKI_MANIFEST_URL = '/vivekadrishti/assets/data/bhagavad-gita-vasuki-manifest.json?v=20260922-commentary-map-1';
 
   const fetchJson = (url) => fetch(url).then((response) => {
     if (!response.ok) throw new Error('Could not load ' + url);
@@ -766,41 +766,76 @@
     return response.text();
   });
 
-  const parseVasukiSections = (markdown) => {
-    const text = String(markdown || '').replace(/\r\n?/g, '\n');
-    const labelRe = /^([ \t]*(श्रीधर|मधुसूदन|विश्वनाथ|बलदेव)ः?[ \t]*-{1,2}[ \t]*)(.*)$/gmu;
-    const labels = Array.from(text.matchAll(labelRe));
-    return labels
-      .filter((label) => label[2] === 'श्रीधर')
-      .map((label) => {
-        const labelIndex = labels.indexOf(label);
-        const start = label.index + label[1].length;
-        const end = labelIndex + 1 < labels.length ? labels[labelIndex + 1].index : text.length;
-        return text.slice(start, end).trim();
-      });
+  const sourceHeadingRe = /^##\s+([0-9०-९]+)[।.]\s*([0-9०-९]+)(?:\s*[-–—]\s*([0-9०-९]+))?/gmu;
+  const sourceLabelRe = /^[ \t]*(श्रीधर|मधुसूदन|विश्वनाथ|बलदेव)(?:ः[ \t]*-[ \t]*|[ \t]+-[ \t]*|[ \t]+:[ \t]*)/gmu;
+  const sourceVerseMarkerRe = /॥\s*([0-9०-९]+)(?:\s*[-–—]\s*([0-9०-९]+))?\s*(?:॥|।)/g;
+
+  const devanagariNumber = (value) => [...String(value || '')].reduce((total, character) => {
+    const digit = '०१२३४५६७८९'.indexOf(character);
+    return total * 10 + (digit >= 0 ? digit : Number(character) || 0);
+  }, 0);
+
+  const rangeFromMarker = (marker) => ({
+    start: devanagariNumber(marker[1]),
+    end: marker[2] ? devanagariNumber(marker[2]) : devanagariNumber(marker[1])
+  });
+
+  const lastSourceVerseRange = (value) => {
+    const markers = Array.from(String(value || '').matchAll(sourceVerseMarkerRe));
+    return markers.length ? rangeFromMarker(markers[markers.length - 1]) : null;
   };
 
   const pickVasukiByVerse = (markdown, manifest, chapterNumber) => {
-    const chapterManifest = (manifest.chapters || {})[String(chapterNumber)] || {};
-    const sections = parseVasukiSections(markdown);
-    if (sections.length !== Number(chapterManifest.sections)) {
-      throw new Error('Vasuki section count mismatch for chapter ' + chapterNumber);
+    const text = String(markdown || '').replace(/\r\n?/g, '\n');
+    const headings = Array.from(text.matchAll(sourceHeadingRe))
+      .filter((heading) => devanagariNumber(heading[1]) === chapterNumber);
+    if (!headings.length) {
+      throw new Error('No Vasuki verse headings found for chapter ' + chapterNumber);
     }
-    const mapping = chapterManifest.verse_to_section || [];
-    if (mapping.length !== counts[chapterNumber - 1]) {
-      throw new Error('Vasuki verse map count mismatch for chapter ' + chapterNumber);
-    }
+
+    const groups = new Map();
+    headings.forEach((heading, headingIndex) => {
+      const blockStart = heading.index;
+      const blockEnd = headingIndex + 1 < headings.length ? headings[headingIndex + 1].index : text.length;
+      const block = text.slice(blockStart, blockEnd);
+      const labels = Array.from(block.matchAll(sourceLabelRe));
+      if (!labels.length) return;
+
+      const firstLabel = labels[0];
+      const prelude = block.slice(heading[0].length, firstLabel.index);
+      const preludeRanges = Array.from(prelude.matchAll(sourceVerseMarkerRe)).map(rangeFromMarker);
+      const fallbackRange = {
+        start: devanagariNumber(heading[2]),
+        end: heading[3] ? devanagariNumber(heading[3]) : devanagariNumber(heading[2])
+      };
+
+      labels.filter((label) => label[1] === 'श्रीधर').forEach((label) => {
+        const beforeLabel = block.slice(0, label.index);
+        const range = label.index === firstLabel.index && preludeRanges.length
+          ? {
+              start: Math.min(...preludeRanges.map((item) => item.start)),
+              end: Math.max(...preludeRanges.map((item) => item.end))
+            }
+          : (lastSourceVerseRange(beforeLabel) || fallbackRange);
+        const labelIndex = labels.indexOf(label);
+        const bodyStart = label.index + label[0].length;
+        const bodyEnd = labelIndex + 1 < labels.length ? labels[labelIndex + 1].index : block.length;
+        const body = block.slice(bodyStart, bodyEnd).trim();
+        if (!body) return;
+
+        const key = range.start + '-' + range.end;
+        const group = groups.get(key) || {start: range.start, end: range.end, sections: []};
+        group.sections.push(body);
+        groups.set(key, group);
+      });
+    });
+
     const result = {};
-    mapping.forEach((sectionIndex, index) => {
-      const verse = index + 1;
-      if (sectionIndex === null || sectionIndex === undefined) {
-        result[verse] = 'No commentary.';
-        return;
+    groups.forEach((group) => {
+      const commentary = group.sections.join('\n\n');
+      for (let verse = group.start; verse <= group.end; verse += 1) {
+        result[verse] = {sc: commentary, start: group.start, end: group.end};
       }
-      if (!Number.isInteger(sectionIndex) || !sections[sectionIndex]) {
-        throw new Error('Vasuki verse map out of range for chapter ' + chapterNumber + ', verse ' + verse);
-      }
-      result[verse] = sections[sectionIndex];
     });
     return result;
   };
@@ -913,14 +948,17 @@
       : d.transliteration
         ? lines(d.transliteration)
         : '';
-    const commentary = d.srid && d.srid.sc
-      ? lines(d.srid.sc)
-      : (sourceMode === 'legacy' ? 'No separate Sanskrit commentary is recorded for this verse in the source data.' : 'No commentary.');
-    const translatedCommentary = sridharaEnglish[chapter] && sridharaEnglish[chapter][n]
-      ? lines(sridharaEnglish[chapter][n])
-      : (sourceMode === 'legacy'
-        ? (d.srid && d.srid.et ? lines(d.srid.et) : 'The source repository supplies Śrīdhara Svāmī’s commentary in Sanskrit; no English translation field is supplied there.')
-        : (d.srid && d.srid.sc ? 'The Sanskrit commentary is shown above; no separate English rendering is supplied in the source record.' : 'No commentary.'));
+    const sridhara = sourceMode === 'legacy'
+      ? (d.srid && d.srid.sc ? {sc: d.srid.sc, start: n, end: n} : null)
+      : (d.srid && d.srid.start === n ? d.srid : null);
+    const commentary = sridhara
+      ? lines(sridhara.sc)
+      : '';
+    const translatedCommentary = sridhara
+      ? lines(d.translatedCommentary || (sourceMode === 'legacy'
+        ? (d.srid && d.srid.et ? d.srid.et : 'The source repository supplies Śrīdhara Svāmī’s commentary in Sanskrit; no English rendering is supplied there.')
+        : 'English rendering not supplied for this source passage.'))
+      : '';
 
     const translationPanel = english
       ? '<p class="gita-translation">' + english + '</p>'
@@ -939,8 +977,14 @@
       '<div class="gita-controls">' +
       wordMeaningPanel +
       transliterationPanel +
-      '<details class="gita-details"><summary>Śrīdhara Sanskrit</summary><div class="gita-reveal"><p lang="sa">' + commentary + '</p></div></details>' +
-      '</div><section class="gita-commentary"><h3>Śrīdhara’s Commentary.</h3><p>' + translatedCommentary + '</p></section></article>';
+      (sridhara ? '<details class="gita-details"><summary>Śrīdhara Sanskrit' +
+        (sridhara.start !== sridhara.end ? ' (' + chapter + '.' + sridhara.start + '–' + sridhara.end + ')' : '') +
+        '</summary><div class="gita-reveal"><p lang="sa">' + commentary + '</p></div></details>' : '') +
+      '</div>' +
+      (sridhara ? '<section class="gita-commentary"><h3>Śrīdhara’s Commentary' +
+        (sridhara.start !== sridhara.end ? ' (' + chapter + '.' + sridhara.start + '–' + sridhara.end + ')' : '') +
+        '.</h3><p>' + translatedCommentary + '</p></section>' : '') +
+      '</article>';
   };
 
   const renderChapter = (data, meanings, sourceMode) => {
@@ -999,7 +1043,13 @@
         (api.adi && api.adi.et) ||
         (api.siva && api.siva.et)
       );
-      const sridharaCommentary = vasukiByVerse[n] || 'No commentary.';
+      const sridharaCommentary = vasukiByVerse[n] || null;
+      const translatedCommentary = sridharaCommentary
+        ? Array.from({length: sridharaCommentary.end - sridharaCommentary.start + 1}, (_, offset) => {
+            const value = (sridharaEnglish[chapter] || {})[String(sridharaCommentary.start + offset)] || '';
+            return value === 'No commentary.' ? '' : value;
+          }).filter(Boolean).join('\n\n')
+        : '';
       return {
         verse: n,
         slok: override.slok || api.slok || pickSanskritVerse(c, n),
@@ -1014,7 +1064,8 @@
           : pickWordMeaning(c, n),
         wordMeaningShared: null,
         mukEnglish: (mukRange.start === n ? (m.translation || '') : '') || apiTranslation,
-        srid: {sc: sridharaCommentary}
+        srid: sridharaCommentary,
+        translatedCommentary
       };
     });
     renderChapter(data, {}, 'mukundananda');
