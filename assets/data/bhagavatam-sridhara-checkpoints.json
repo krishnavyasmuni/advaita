@@ -12828,6 +12828,36 @@
       "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
       "released_at": "2026-09-22",
       "release_note": "Published Canto 12.6 with exact pinned source mapping and independently translated Śrīdhara word meanings."
+    },
+    {
+      "id": "canto-12-chapter-7-release",
+      "range": "ŚB 12.7.1–12.7.25",
+      "status": "source-checked-and-released",
+      "english_source": "https://vedabase.io/en/library/sb/12/7/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/12/07_purANa-laxaNa-varNanaM_nAma.md",
+      "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "ed6f026cde729991320ab9b555c05b51580275d4",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/12/07_purANa-laxaNa-varNanaM_nAma.md",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto12-ch07.json"
+      ],
+      "records_checked": 22,
+      "exact_sridhara_source_blocks": 19,
+      "no_commentary_ranges": [
+        "12.7.5",
+        "12.7.18",
+        "12.7.23–12.7.24"
+      ],
+      "source_gap_ranges": [
+        "12.7.5",
+        "12.7.18",
+        "12.7.23–12.7.24"
+      ],
+      "live_render": null,
+      "generated_at": "2026-09-22",
+      "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
+      "released_at": "2026-09-22",
+      "release_note": "Published Canto 12.7 with exact pinned source mapping and independently translated Śrīdhara word meanings."
     }
   ],
   "generated_at": "2026-09-21"
