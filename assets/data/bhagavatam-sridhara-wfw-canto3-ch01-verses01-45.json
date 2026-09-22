@@ -5,7 +5,7 @@
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/01_vidurasyoddhavena_saha_samAgamaH.md",
   "source_blob_sha": "53f97bcc137d3356aa67db17c0541c26303a89da",
-  "editorial_note": "Canto 3 Chapter 1 Śrīdhara glosses repaired from the exact pinned source block; no-commentary sentinel preserved for 3.1.5.",
+  "editorial_note": "Canto 3 Chapter 1 Śrīdhara source blocks and glosses repaired from the exact pinned source; no-commentary sentinel preserved where the source explicitly has no explanation.",
   "scope": "ŚB 3.1.1–3.1.45; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -327,16 +327,40 @@
       "start": 6,
       "end": 6,
       "source_marker": "३.१.६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "त्यागानर्हस्यापि गृहस्य त्यागे हेतुत्वेन कौरवापराधान् आह---यदेत्य् एकादशभिः । एतेषां च तदा स क्षत्ता अयाद् इत्य् एकादशे क्रिया-सम्बन्धः । यविष्ठस्य कनिष्ठस्य पाण्डोः । विबन्धून् पितृ-हीनान् ॥६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "त्यागानर्हस्यापि गृहस्य त्यागे हेतुत्वेन",
+          "as the cause for abandoning even a house unfit to be abandoned"
+        ],
+        [
+          "कौरवापराधान् आह",
+          "he states the offenses of the Kauravas"
+        ],
+        [
+          "यद् इति एकादशभिः",
+          "with eleven verses beginning ‘yad’"
+        ],
+        [
+          "एतेषां च तदा स क्षत्ता अयाद् इति",
+          "and the action ‘then Vidura departed’ is connected with these"
+        ],
+        [
+          "एकादशे क्रिया-सम्बन्धः",
+          "connected with the verb in the eleventh"
+        ],
+        [
+          "यविष्ठस्य कनिष्ठस्य पाण्डोः",
+          "of Pāṇḍu, the younger"
+        ],
+        [
+          "विबन्धून् पितृ-हीनान्",
+          "fatherless, without a protector"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Śrīdhara states the Kauravas’ offenses as the cause for abandoning even a house that ought not to be abandoned. The verses beginning with ‘yad’ are eleven in number, and the verb ‘then Vidura departed’ in the eleventh is connected with them. ‘Yaviṣṭhasya’ means the younger Pāṇḍu, and ‘vibandhūn’ means fatherless, without a protector.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -344,16 +368,40 @@
       "start": 7,
       "end": 7,
       "source_marker": "३.१.७",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "कुरु-देवस्य युधिष्ठिरस्य देव्या द्रौपद्या आत्मनः स्नुषायाः स्वीयैर् अस्रैर् अश्रुभिः स्व-कुच-कुङ्कुमानि रिपु-स्त्रीणां वा तद्-भर्तृ-वधेन हरन्त्याः ॥७॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "कुरु-देवस्य युधिष्ठिरस्य",
+          "of Yudhiṣṭhira, the lord of the Kurus"
+        ],
+        [
+          "देव्या द्रौपद्या",
+          "of the queen Draupadī"
+        ],
+        [
+          "आत्मनः स्नुषायाः",
+          "of his own daughter-in-law"
+        ],
+        [
+          "स्वीयैर् अस्रैर् अश्रुभिः",
+          "with her own tears"
+        ],
+        [
+          "स्व-कुच-कुङ्कुमानि हरन्त्याः",
+          "wiping away the vermilion from her breasts"
+        ],
+        [
+          "रिपु-स्त्रीणां वा",
+          "or of the enemy women"
+        ],
+        [
+          "तद्-भर्तृ-वधेन",
+          "by the killing of their husbands"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Draupadī is the queen of Yudhiṣṭhira, the lord of the Kurus. The verse refers to her own tears wiping away the vermilion from her breasts, or to the vermilion of the enemy women being wiped away by the killing of their husbands.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -361,16 +409,48 @@
       "start": 8,
       "end": 8,
       "source_marker": "३.१.८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "सत्यावलम्बस्य सत्याश्रयस्य वनात् प्रत्यागतस्य समयेन पूर्व-कृतेन दायम् अंशं याचमानस्य यद् यदा नादान् न ददौ । तमो मोहं जुषाणः \\[पुत्रं सेवमानः, अविवेकं वा\\][^२] ॥८॥\n\n[^२]: \"पुत्रम्॥।वा\" इति क्वाचित्कः पाठः ।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "सत्यावलम्बस्य सत्याश्रयस्य",
+          "of one supported by truth, whose refuge is truth"
+        ],
+        [
+          "वनात् प्रत्यागतस्य",
+          "who had returned from the forest"
+        ],
+        [
+          "समयेन पूर्व-कृतेन दायम् अंशम्",
+          "the share previously assigned, at the proper time"
+        ],
+        [
+          "याचमानस्य",
+          "of one asking"
+        ],
+        [
+          "यद् यदा नादान् न ददौ",
+          "when he did not give what was requested"
+        ],
+        [
+          "तमो मोहम् जुषाणः",
+          "embracing darkness and delusion"
+        ],
+        [
+          "पुत्रम् सेवमानः",
+          "serving his son"
+        ],
+        [
+          "अविवेकम् वा",
+          "or lack of discrimination"
+        ],
+        [
+          "पाठान्तरम्",
+          "an alternative reading"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The verse concerns one supported by truth who had returned from the forest and, at the proper time, asked for the share previously assigned to him. When it was not given, Dhṛtarāṣṭra embraced darkness and delusion by serving his son, or, according to the alternative reading, by lacking discrimination.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -439,16 +519,48 @@
       "start": 10,
       "end": 10,
       "source_marker": "३.१.१०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "इदानीं विदुरस्यैव कृतं पराभवं दर्शयति---यदा इत्य्-आदि-षड्भिः । यदा पूर्वजेन धृतराष्ट्रेण मन्त्राय च उपहूतोऽन्तर्-गृहं प्रविष्टो मन्त्रं पृष्टः सन्न्, अथानन्तरं तद् आह । किं मन्त्रिणोऽद्यापि यद् वैदुरिकं विदुर-वाक्यम् इति प्रसिद्धं वदन्ति ॥१०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "इदानीम् विदुरस्य एव कृतम् पराभवम् दर्शयति",
+          "now he shows the defeat and humiliation inflicted on Vidura"
+        ],
+        [
+          "यदा इत्य्-आदि-षड्भिः",
+          "with six verses beginning ‘yadā’"
+        ],
+        [
+          "पूर्वजेन धृतराष्ट्रेण",
+          "by Dhṛtarāṣṭra, the elder"
+        ],
+        [
+          "मन्त्राय उपहूतः",
+          "invited for counsel"
+        ],
+        [
+          "अन्तर्-गृहम् प्रविष्टः",
+          "having entered the inner house"
+        ],
+        [
+          "मन्त्रम् पृष्टः सन्",
+          "having been asked for counsel"
+        ],
+        [
+          "अथ अनन्तरम् तत् आह",
+          "then afterwards he says this"
+        ],
+        [
+          "किम् मन्त्रिणः अद्य अपि",
+          "what do advisers even today"
+        ],
+        [
+          "यद् वैदुरिकम् विदुर-वाक्यम् इति प्रसिद्धम् वदन्ति",
+          "call ‘Vaidurīka’, the speech of Vidura; this is well known"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Śrīdhara now displays the humiliation inflicted on Vidura, in the six verses beginning with ‘yadā’. Dhṛtarāṣṭra, Vidura’s elder brother, invited him into the inner house for counsel and asked him for advice. The expression means that even today advisers call Vidura’s speech ‘Vaidurīka’; this is the established usage.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -456,16 +568,48 @@
       "start": 11,
       "end": 11,
       "source_marker": "३.१.११",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तद् एवाह---अजात-शत्रोर् इति त्रिभिः । तव आगोऽपराधं सहमानस्य दायं प्रतियच्छ देहि । यत्रापराधेऽनुजैः सह वर्तमानो वृकोदर-रूपोऽहिः क्रोधेन श्वसन् वर्तते । यद् यस्मात् त्वम् अलम् अत्यर्थं बिभेषि ॥११॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "तद् एव आह",
+          "he says that very thing"
+        ],
+        [
+          "अजात-शत्रोः इति त्रिभिः",
+          "in the three verses beginning ‘ajāta-śatroḥ’"
+        ],
+        [
+          "तव आगः अपराधम् सहमानस्य",
+          "of you who endure your offense"
+        ],
+        [
+          "दायम् प्रतियच्छ देहि",
+          "return and give the inheritance"
+        ],
+        [
+          "यत्र अपराधे",
+          "in the matter of that offense"
+        ],
+        [
+          "अनुजैः सह वर्तमानः",
+          "existing together with the younger brothers"
+        ],
+        [
+          "वृकोदर-रूपः अहिः",
+          "a serpent in the form of Bhīma"
+        ],
+        [
+          "क्रोधेन श्वसन् वर्तते",
+          "remains, breathing with anger"
+        ],
+        [
+          "यद् यस्मात् त्वम् अलम् अत्यर्थम् बिभेषि",
+          "because you greatly fear him"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Śrīdhara explains the three verses beginning with ‘ajāta-śatroḥ’. The meaning is: return the inheritance to you, Dhṛtarāṣṭra, who are enduring the offense. In this offense Bhīma, who is like a serpent and lives with the younger brothers, remains breathing with anger; therefore you are exceedingly afraid.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -473,16 +617,56 @@
       "start": 12,
       "end": 12,
       "source_marker": "३.१.१२",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "ननु मम तादृशाः पुत्रा बहवः सन्तीति गर्वं मा कृथा इत्य् आह---पार्थांस् तु मुकुन्द आत्मीयत्वेन गृहीतवान् । स च देवस् तत्रापि भगवान् न तु प्राकृतः । किं च, सह क्षिति-देवैर् विप्रैर् देवैश् चेन्द्रादिभिर् वर्तमानः । यतोऽसौ तत्रैव विप्रा देवाश् चेत्य् अर्थः । स च स्व-पुर्याम् एव सुखम् आस्ते, न त्व् अन्यत्र गतः । किं च, यदु-देवानां देवः पूज्यः । यतोऽसौ तत्रैव सर्वे राजानः । अतः पार्थानां दायं देहीति ॥१२॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "ननु मम तादृशाः पुत्राः बहवः सन्ति",
+          "‘Surely I have many sons like that’"
+        ],
+        [
+          "गर्वम् मा कृथा",
+          "do not become proud"
+        ],
+        [
+          "इत्य् आह",
+          "he says this"
+        ],
+        [
+          "पार्थान् तु मुकुन्दः आत्मीयत्वेन गृहीतवान्",
+          "but Mukunda has accepted the Pāṇḍavas as His own"
+        ],
+        [
+          "सः च देवः तत्र अपि भगवान्",
+          "and He is divine, there also Bhagavān"
+        ],
+        [
+          "न तु प्राकृतः",
+          "not material"
+        ],
+        [
+          "क्षिति-देवैः विप्रैः देवैः च इन्द्र-आदिभिः सह वर्तमानः",
+          "existing together with the earth-gods, brāhmaṇas, and gods beginning with Indra"
+        ],
+        [
+          "सः च स्व-पुर्याम् एव सुखम् आस्ते",
+          "and He remains happily in His own city"
+        ],
+        [
+          "यदु-देवानाम् देवः पूज्यः",
+          "the worshipful Lord of the Yadu lords"
+        ],
+        [
+          "यतः असौ तत्र एव सर्वे राजानः",
+          "because all the kings are there"
+        ],
+        [
+          "अतः पार्थानाम् दायम् देहि",
+          "therefore give the Pāṇḍavas’ share"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Śrīdhara warns Dhṛtarāṣṭra not to become proud by thinking, ‘I have many sons like that.’ Mukunda has accepted the Pāṇḍavas as His own. He is divine and Bhagavān, not material, and is present with the brāhmaṇas and gods headed by Indra. He remains happily in His own city, worshipped as the Lord of the Yadu lords, where all the kings are present. Therefore, give the Pāṇḍavas their share.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -490,16 +674,68 @@
       "start": 13,
       "end": 13,
       "source_marker": "३.१.१३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "दुर्योधनस् तन् न मन्यत इति चेद् अत आह---स एष मूर्तो दोष एव गृहान् प्रविष्ट आस्ते । दोषत्वे हेतुः\\--पुरुष-द्विट् श्री-कृष्ण-द्वेष्टा । कोऽसौ ? यं त्वम् अपत्य-मत्या पुष्णासि न त्व् अपत्यम् असौ । न पतत्य् अस्माद् इति ह्य् अपत्यं प्राहुः । गता श्रीर् यस्मात् स त्वम् इत्य् आक्रोशति । अत एनम् अशैवम् अमङ्गलम् आशु त्यज । कथं पुत्रस् त्याज्यः ? तत्राह---कुलस्य कौशलाय, त्यजेद् एकं कुलस्यार्थे[^३] \\[हितोपदेश १.१४३\\] इति हि न्यायः ॥१३॥\n\n[^३]: त्यजेद् एकं कुलस्यार्थे ग्रामस्यार्थे कुलं त्यजेत् ।\n\n    ग्रामं जनपदस्यार्थे आत्मार्थे पृथिवीं त्यजेत् ॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "दुर्योधनस् तन् न मन्यत इति चेत्",
+          "if Duryodhana does not accept that"
+        ],
+        [
+          "अतः आह",
+          "therefore he says"
+        ],
+        [
+          "स एष मूर्तः दोषः एव",
+          "he is embodied fault itself"
+        ],
+        [
+          "गृहान् प्रविष्टः आस्ते",
+          "he resides in the house"
+        ],
+        [
+          "पुरुष-द्विट् श्री-कृष्ण-द्वेष्टा",
+          "a hater of persons, a hater of Śrī Kṛṣṇa"
+        ],
+        [
+          "यं त्वम् अपत्य-मत्या पुष्णासि",
+          "whom you nourish, thinking him a child"
+        ],
+        [
+          "न तु अपत्यम् असौ",
+          "but he is not a child"
+        ],
+        [
+          "न पतति अस्मात् इति अपत्यम् प्राहुः",
+          "they call ‘apatya’ one from whom [the father] does not fall"
+        ],
+        [
+          "गता श्रीः यस्मात् स त्वम्",
+          "you are one from whom fortune has departed"
+        ],
+        [
+          "अतः एनम् अशैवम् अमङ्गलम् आशु त्यज",
+          "therefore quickly abandon this inauspicious one"
+        ],
+        [
+          "कुलस्य कौशलाय",
+          "for the welfare of the family"
+        ],
+        [
+          "त्यजेद् एकम् कुलस्य अर्थे",
+          "one should abandon one for the sake of the family"
+        ],
+        [
+          "ग्रामस्य अर्थे कुलम् त्यजेत्",
+          "one should abandon a family for the sake of a village"
+        ],
+        [
+          "ग्रामम् जनपदस्य अर्थे आत्म-अर्थे पृथिवीम् त्यजेत्",
+          "one should abandon a village for a district, and the earth for one’s own sake"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "If Duryodhana does not accept this, Śrīdhara says that he is embodied fault itself, residing in the house: he hates persons and hates Śrī Kṛṣṇa. Dhṛtarāṣṭra nourishes him, thinking him a child, but he is not truly an ‘apatya’; that word is explained as one from whom the father does not fall away. Since Dhṛtarāṣṭra’s fortune has departed, he is urged to abandon this inauspicious son quickly. The rule is quoted: for the welfare of the family one abandons one person; for a village one abandons a family; for a district one abandons a village; and for oneself one abandons the earth.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -507,16 +743,36 @@
       "start": 14,
       "end": 14,
       "source_marker": "३.१.१४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "इत्य् ऊचिवान् एवं उक्तवान् । असौ क्षत्ता विदुरः सतां स्पृहणीयं शीलं यस्य स कर्ण-दुःशासन-शकुनि-सहितेन दुर्योधनेन असत्-कृतस् तिरस्-कृतः ॥१४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "इति ऊचिवान्",
+          "having spoken thus"
+        ],
+        [
+          "एवम् उक्तवान्",
+          "having said this"
+        ],
+        [
+          "असौ क्षत्ता विदुरः",
+          "that Vidura"
+        ],
+        [
+          "सताम् स्पृहणीयम् शीलम् यस्य",
+          "whose character is desired by the virtuous"
+        ],
+        [
+          "कर्ण-दुःशासन-शकुनि-सहितेन दुर्योधनेन",
+          "by Duryodhana together with Karṇa, Duḥśāsana and Śakuni"
+        ],
+        [
+          "असत्-कृतः तिरस्-कृतः",
+          "was disrespected and insulted"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Having spoken thus, Vidura—whose character is desired by the virtuous—was disrespected and insulted by Duryodhana together with Karṇa, Duḥśāsana and Śakuni.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -524,16 +780,56 @@
       "start": 15,
       "end": 15,
       "source_marker": "३.१.१५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तिरस्कारम् आह---क इति । दासी-सुतो ह्य् अत्राह्वानानर्हः । जिह्मश् च कुटिलः । जिह्मताम् अह---यस्य बलिना अन्नेन पुष्टस् तस्मिन्न् एव प्रतीपः प्रतिकूलः परेषां कार्ये वर्तते । अतः पुरान् निर्वास्यताम् । श्वसानः श्वसन् जीव-मात्र-शेष इत्य् अर्थः । पाठान्तरे श्मशान-वद् अमङ्गलः ॥१५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "तिरस्कारम् आह",
+          "he describes the insult"
+        ],
+        [
+          "क इति",
+          "with the word ‘ka’"
+        ],
+        [
+          "दासी-सुतः अत्र आह्वान-अनर्हः",
+          "a son of a maidservant, unfit to be invited here"
+        ],
+        [
+          "जिह्मः च कुटिलः",
+          "and crooked"
+        ],
+        [
+          "यस्य बलिना अन्नेन पुष्टः",
+          "nourished by whose powerful food"
+        ],
+        [
+          "तस्मिन् एव प्रतीपः",
+          "hostile to that very person"
+        ],
+        [
+          "परेषाम् कार्ये वर्तते",
+          "he acts in the affairs of others"
+        ],
+        [
+          "अतः पुरान् निर्वास्यताम्",
+          "therefore let him be expelled from the cities"
+        ],
+        [
+          "श्वसानः",
+          "breathing"
+        ],
+        [
+          "जीव-मात्र-शेषः इति अर्थः",
+          "meaning that only a remnant of life remains"
+        ],
+        [
+          "पाठान्तरे श्मशान-वत् अमङ्गलः",
+          "according to another reading, inauspicious like a cremation ground"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Śrīdhara explains the insult: Vidura is called ‘ka’, a son of a maidservant and therefore unfit to be invited, and ‘jihma’, crooked. Though nourished by Duryodhana’s powerful food, he acts against that very person in the affairs of others. Therefore he is told to be expelled from the cities. ‘Breathing’ means that only a remnant of life remains; another reading makes him inauspicious like a cremation ground.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -891,16 +1187,28 @@
       "start": 22,
       "end": 22,
       "source_marker": "३.१.२२",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "श्रीधर-स्वामी (भावार्थ-दीपिका), विश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : त्रितादीनाम् एकादश-तीर्थानि तत्-तन्-नाम्ना प्रसिद्धान्य् आसेवितवान् ॥२२॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "त्रित-आदीनाम्",
+          "of Trita and others"
+        ],
+        [
+          "एकादश-तीर्थानि",
+          "the eleven sacred places"
+        ],
+        [
+          "तत्-तत्-नाम्ना प्रसिद्धानि",
+          "famous by their respective names"
+        ],
+        [
+          "आसेवितवान्",
+          "he visited and served"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Vidura visited and served the eleven sacred places of Trita and the others, each famous by its own name.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -908,16 +1216,48 @@
       "start": 23,
       "end": 23,
       "source_marker": "३.१.२३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "द्विज-देवैर् ऋषिभिर् देवैश् च कृतानि । अङ्गम् अङ्गं प्रति वर्तन्ते इति प्रत्यङ्गान्य् आयुधानि तेषु मुख्यं चक्रं तेनाङ्कितानि मूर्धन्य-हेम-कुम्भेषु चिह्नितानि मन्दिराणि, येषु तानि नाना-विधानि विष्णोर् आयतनानि क्षेत्राणि तीर्थानि चासिषेवे । येषां चक्राङ्कित-मन्दिर-वतां दर्शनाच् छ्री-कृष्ण-स्मरणं भवति ॥२३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "द्विज-देवैः कृतानि",
+          "made by brāhmaṇas and gods"
+        ],
+        [
+          "अङ्गम् अङ्गम् प्रति वर्तन्ते इति प्रत्यङ्गानि आयुधानि",
+          "weapons present in each limb are called ‘pratyaṅga’"
+        ],
+        [
+          "तेषु मुख्यम् चक्रम्",
+          "among them the principal weapon is the discus"
+        ],
+        [
+          "तेन अङ्कितानि मूर्धन्य-हेम-कुम्भेषु चिह्नितानि मन्दिराणि",
+          "temples marked with it on their crowning golden vessels"
+        ],
+        [
+          "नाना-विधानि विष्णोः आयतनानि",
+          "the various abodes of Viṣṇu"
+        ],
+        [
+          "क्षेत्राणि तीर्थानि च",
+          "holy fields and sacred places"
+        ],
+        [
+          "आशिषेवे",
+          "he served and visited"
+        ],
+        [
+          "येषाम् चक्र-अङ्कित-मन्दिरवताम् दर्शनात्",
+          "from seeing temples marked with the discus"
+        ],
+        [
+          "श्री-कृष्ण-स्मरणम् भवति",
+          "remembrance of Śrī Kṛṣṇa arises"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He visited the various abodes of Viṣṇu—holy fields and sacred places—made by brāhmaṇas and gods. The weapons present in each limb are called ‘pratyaṅga’; among them the principal is the discus, and temples were marked with it on their crowning golden vessels. Seeing such temples marked with the discus produces remembrance of Śrī Kṛṣṇa.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -925,16 +1265,28 @@
       "start": 24,
       "end": 24,
       "source_marker": "३.१.२४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अतिव्रज्य अतिक्रम्य । यावद् उद्धवः प्राप्तः, तावत् स्वयम् अपि यमुनां उपेत्य ॥२४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "अति-व्रज्य",
+          "having crossed beyond"
+        ],
+        [
+          "अतिक्रम्य",
+          "having passed over"
+        ],
+        [
+          "यावत् उद्धवः प्राप्तः",
+          "until Uddhava was reached"
+        ],
+        [
+          "तावत् स्वयम् अपि यमुनाम् उपेत्य",
+          "meanwhile he himself also approached the Yamunā"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "‘Ativrajya’ means ‘having crossed beyond’ or ‘having passed over’. Until Vidura reached Uddhava, he himself also approached the Yamunā.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -1351,16 +1703,68 @@
       "start": 34,
       "end": 34,
       "source_marker": "३.१.३४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "सात्वतानां उपासकानां कामान् दोग्धि पूरयतीति काम-दुघः । भगवत्त्वे हेतुः---यं शब्दस्य शास्त्रस्य योनिं कारणम् आमनन्ति वेदाः । कुतः ? मनो-मयं मनसः प्रवर्तकम् । तत् कुतः ? सत्त्वस्यान्तः-करणस्य चतुर्-विधस्य तुरीयं तत्त्वं चतुर्थम् अधिदैवम् । चित्ताहङ्कार-बुद्धि-मनसाम् अन्तः-करण-भेदानां क्रमेण वासुदेव-सङ्कर्षण-प्रद्युम्नानिरुद्धा ह्य् अधिष्ठातारः । मनसश् च शब्द-योनित्वं प्रसिद्धम्---मनः पूर्व-रूपम् । वाग् उत्तर-रूपम् इति । तथा अन्योऽन्तर आत्मा मनो-मयःइति प्रस्तुत्य तस्य यजुर् एव शिरः । ऋग् दक्षिणः पक्षः । सामोत्तरः पक्षः\\[तै।उ। २.१\\] इत्य्-आदि-श्रुतेः । तथा च शिक्षायां---\n\n> आत्मा बुद्ध्या समेत्यार्थान् मनो युङ्क्तेवि वक्षया । >\n> मनः कायाग्निम् आहन्ति स प्रेरयति मारुतम् । >\n> मारुतस् तूरसि चरन् मन्द्रं जनयति स्वरम् ॥ इत्य्-आदि ॥३४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "सात्वतानाम् उपासकानाम् कामान् दोग्धि पूरयति इति काम-दुघः",
+          "the fulfiller who yields and completes the desires of the worshipping Sātvatas"
+        ],
+        [
+          "भगवत्त्वे हेतुः",
+          "the reason for Bhagavān-hood"
+        ],
+        [
+          "यम् शब्दस्य शास्त्रस्य योनिम् कारणम् आमनन्ति वेदाः",
+          "whom the Vedas declare to be the source and cause of word and scripture"
+        ],
+        [
+          "मनः-मयम् मनसः प्रवर्तकम्",
+          "consisting of mind, the impeller of mind"
+        ],
+        [
+          "सत्त्वस्य अन्तः-करणस्य चतुर्-विधस्य तुरीयम् तत्त्वम् चतुर्थम् अधिदैवम्",
+          "the fourth principle and presiding deity of the fourfold inner organ of sattva"
+        ],
+        [
+          "चित्त-अहङ्कार-बुद्धि-मनसाम् अन्तः-करण-भेदानाम्",
+          "of the divisions of the inner organ—mind-stuff, ego, intellect and mind"
+        ],
+        [
+          "वासुदेव-सङ्कर्षण-प्रद्युम्न-अनिरुद्धाः अधिष्ठातारः",
+          "Vāsudeva, Saṅkarṣaṇa, Pradyumna and Aniruddha are the presiding deities"
+        ],
+        [
+          "मनसः च शब्द-योनित्वम् प्रसिद्धम्",
+          "the mind’s being the source of speech is well known"
+        ],
+        [
+          "मनः पूर्व-रूपम् वाक् उत्तर-रूपम्",
+          "mind is the prior form, speech the later form"
+        ],
+        [
+          "अन्यः अन्तर्-आत्मा मनो-मयः",
+          "the inner self is another, consisting of mind"
+        ],
+        [
+          "यजुः एव शिरः ऋक् दक्षिणः पक्षः साम उत्तरः पक्षः",
+          "the Yajur is its head, Ṛg its right wing, and Sāma its left wing"
+        ],
+        [
+          "आत्मा बुद्ध्या समेत्य अर्थान् मनः युङ्क्ते",
+          "the self, joining with the intellect, connects the mind to objects"
+        ],
+        [
+          "मनः काय-अग्निम् आहन्ति सः प्रेरयति मारुतम्",
+          "the mind strikes the bodily fire, and it impels the breath"
+        ],
+        [
+          "मारुतः ऊरसि चरन् मन्द्रम् जनयति स्वरम्",
+          "the breath moving in the chest produces a deep sound"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The phrase ‘source of all desires’ means one who yields and fulfils the desires of the Sātvata worshippers. Śrīdhara explains Bhagavān’s status: the Vedas declare Him the source and cause of speech and scripture, the impeller of mind. He is the fourth principle and presiding deity of the fourfold inner organ—mind-stuff, ego, intellect and mind—whose presiding deities are Vāsudeva, Saṅkarṣaṇa, Pradyumna and Aniruddha. The mind is well known as the source of speech: mind is the prior form and speech the later. The cited Upaniṣadic teaching assigns the Yajur to the head, Ṛg to the right wing and Sāma to the left. The cited phonetic teaching describes the self joining with intellect, the mind striking the bodily fire, the breath being impelled, and that breath producing a deep sound in the chest.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -1515,16 +1919,36 @@
       "start": 38,
       "end": 38,
       "source_marker": "३.१.३८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "रथ-यूथपानां मध्ये यशो-धाः कीर्ति-धारी । यद् वा, स्वीयानां तेषां कीर्ति-प्रदः उपरता अरयो यस्मात् । यस्य शर-कूटेन बाण-समूहेन गूढ आच्छन्नः ॥३८॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "रथ-यूथपानाम् मध्ये",
+          "among the leaders of chariot divisions"
+        ],
+        [
+          "यशो-धाः कीर्ति-धारी",
+          "the bearer of fame"
+        ],
+        [
+          "यद् वा स्वीयानाम् तेषाम् कीर्ति-प्रदः",
+          "or the giver of fame to his own people"
+        ],
+        [
+          "उपरताः अरयः यस्मात्",
+          "because the enemies had ceased"
+        ],
+        [
+          "यस्य शर-कूटेन बाण-समूहेन",
+          "by whose mass of arrows"
+        ],
+        [
+          "गूढः आच्छन्नः",
+          "he was hidden and covered"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He is the bearer of fame among the leaders of chariot divisions; or he is the giver of fame to his own people because their enemies had ceased. He was hidden and covered by the mass of his arrows.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
@@ -1776,16 +2200,76 @@
       "start": 43,
       "end": 43,
       "source_marker": "३.१.४३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "ननु हरेः किम् एवं लीलया, येन स्व-भक्तानां वन-वासादि-क्लेशा भवन्ति, स्वस्य च दौत्ये बन्धनोद्यमादि-पराभवः, तद् वरं तेषाम् अपराधानन्तरम् एव हननं नापराधोपेक्षेत्य् अत आह---नूनं निश्चितं त्रिभिर् मदैर् उत्पथानां उद्वृत्तानां वधाद् धेतोः प्रपन्नानाम् आर्ति-जिहीर्षयेशोऽघ-समय एव हन्तुं समर्थोऽपि कुरूणाम् अघं उपैक्षत । तदानीम् एव तेषां वधे सर्व-दुष्ट-राज-वधो न स्याद् इत्य् आशयेनेत्य् अर्थः ।\n\n> विद्या-मदो धन-मदस् तथैवाभिजनो मदः । >\n> एते मदा मदान्धानां त एव हि सतां दमाः ॥ इति त्रयो मदाः > ॥४३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "ननु हरेः किम् एवं लीलया",
+          "‘Why does Hari act in this way through play?’"
+        ],
+        [
+          "स्व-भक्तानाम् वन-वास-आदि-क्लेशाः भवन्ति",
+          "so that His devotees undergo the hardships of exile and the like"
+        ],
+        [
+          "स्वस्य च दौत्ये बन्धन-उद्यम-आदि-पराभवः",
+          "and He Himself suffers defeat through embassy, attempted imprisonment and the like"
+        ],
+        [
+          "तद् वरम् तेषाम् अपराध-अनन्तरम् एव हननम्",
+          "then it would be better to kill them immediately after their offense"
+        ],
+        [
+          "न अपराध-उपेक्षेत्",
+          "He should not overlook the offense"
+        ],
+        [
+          "नूनम् निश्चितम्",
+          "certainly"
+        ],
+        [
+          "त्रिभिः मदैः उत्पथानाम् उद्वृत्तानाम्",
+          "of those deviating and arrogant through three prides"
+        ],
+        [
+          "वधात् हेतोः",
+          "for the purpose of killing"
+        ],
+        [
+          "प्रपन्नानाम् आर्ति-जिहीर्षया",
+          "with the desire to remove the distress of the surrendered"
+        ],
+        [
+          "ईशः अघ-समय एव हन्तुम् समर्थः अपि",
+          "although the Lord was able to kill them at the very time of the offense"
+        ],
+        [
+          "कुरूणाम् अघम् उपैक्षत",
+          "He overlooked the offense of the Kurus"
+        ],
+        [
+          "तदानीम् एव तेषाम् वधे",
+          "if they had been killed at that time"
+        ],
+        [
+          "सर्व-दुष्ट-राज-वधः न स्यात्",
+          "the killing of all wicked kings would not have occurred"
+        ],
+        [
+          "विद्या-मदः धन-मदः अभिजनः मदः",
+          "pride of learning, pride of wealth and pride of birth"
+        ],
+        [
+          "एते मदाः मद-अन्धनाम्",
+          "these are the prides of the pride-blinded"
+        ],
+        [
+          "ते एव सताम् दमाः",
+          "these very things are restraints for the virtuous"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Śrīdhara raises the objection: why does Hari allow His devotees the hardships of exile while He Himself undergoes defeat through embassy, attempted imprisonment and similar acts? It would seem better to kill the offenders immediately rather than overlook their offense. The answer is that the Lord, desiring to remove the distress of the surrendered, waited to kill the arrogant men who had gone astray through three kinds of pride, although He was capable of killing them at once. If they had been killed then, all the wicked kings would not have been destroyed. The three prides are pride of learning, wealth and birth; these make the arrogant blind, whereas in the virtuous they become restraints.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source block restored and glossed."
     },
     {
       "canto": 3,
