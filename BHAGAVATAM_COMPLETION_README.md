@@ -101,34 +101,34 @@ manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
 current_contents_link_groups:
   - 1.1-1.19
   - 2.1-2.10
-  - 10.1
+  - 10.1-10.90
   - 11.1-11.31
-visible_contents_link_count: 61
+visible_contents_link_count: 150
 manifest_chapter_count: 335
-latest_verified_release: 11.31
-latest_release_status: RETRACTED_PENDING_FULL_VERIFICATION
-latest_release_source_blob_sha: f2de63ce4fe713e32beb98d8079faa55b6d2dfe8
-latest_release_expected_verses: 28
-latest_release_sridhara_blocks: 22
-latest_release_wfw_entries: 22
-latest_release_no_commentary: 5
+latest_verified_release: 10.90
+latest_release_status: SOURCE_CHECKED_AND_READER_COMMITTED
+latest_release_source_blob_sha: b0155e944f113a22deb1908d24482636020e2eeb
+latest_release_expected_verses: 42
+latest_release_sridhara_blocks: 28
+latest_release_wfw_entries: 42
+latest_release_no_commentary: 14
 canto_1_audit_status: COMPLETE
 canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
 canto_2_audit_status: COMPLETE
 canto_2_verified_chapters: 2.1-2.10
 canto_2_source_ranges: 371
-canto_10_audit_status: IN_PROGRESS
-canto_10_verified_chapters: 10.1-10.35
-canto_10_source_ranges: 1392
-canto_10_source_blocks: 958
-canto_10_wfw_entries: 1376
-canto_10_no_commentary_records: 612
+canto_10_audit_status: COMPLETE_SOURCE_CHECKED
+canto_10_verified_chapters: 10.1-10.90
+canto_10_source_ranges: 3768
+canto_10_source_blocks: 2607
+canto_10_wfw_entries: 3768
+canto_10_no_commentary_records: 989
 canto_11_audit_status: FAILED_FULL_VERIFICATION
 canto_11_verified_chapters: none under the full-verse standard
 canto_11_source_ranges: 1368
 canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23, 11.5.17, 11.5.23, 11.5.51, 11.6.2–11.6.3, 11.6.6, 11.6.7, 11.6.13, 11.6.14, 11.6.15, 11.6.20, 11.6.23, 11.6.24, 11.6.25, 11.6.26, 11.6.27, 11.6.28, 11.6.31, 11.6.32, 11.6.33, 11.6.34, 11.6.39, 11.6.40–11.6.41, 11.6.43, 11.6.44, 11.6.47, 11.6.50, 11.7.2, 11.7.6, 11.7.13, 11.7.15, 11.7.25, 11.7.31, 11.7.56, 11.7.59, 11.7.62, 11.7.65, 11.7.69–11.7.70, 11.7.73, 11.13.20, 11.14.40, 11.16.13, 11.16.15, 11.17.8, 11.17.18, 11.17.27, 11.17.46, 11.18.23, 11.19.12, 11.23.8, 11.23.12, 11.23.37, 11.25.10, 11.26.30, 11.29.28, 11.29.30, 11.30.25, 11.30.34–11.30.37, 11.30.39, 11.30.41, 11.30.43, 11.30.45, 11.30.47, 11.31.4, 11.31.19, 11.31.20, 11.31.23–11.31.24, 11.31.25–11.31.26
-next_resume_target: 10.36
-resume_note: "Canto 10.1–10.35 and Canto 11 Chapters 1–31 are live-verified. The next target is Canto 10.36; remaining Canto 10 chapters and Cantos 3–9 and 12 are not public."
+next_resume_target: 3.1
+resume_note: "Canto 10.1–10.90 is source-checked, reader-committed, and published chapter by chapter. The next target is Canto 3.1; Cantos 3–9 and 12 remain."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
