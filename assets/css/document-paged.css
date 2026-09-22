@@ -116,3 +116,41 @@
     min-width:82px;
   }
 }
+
+
+/* The shastric article uses one Latin typeface throughout. Devanāgarī
+   remains in the matching Noto serif family so its glyphs render cleanly. */
+.shastric-article .sitebar a,
+.shastric-article .article-head h1,
+.shastric-article .side-toc-title,
+.shastric-article .mobile-toc>summary,
+.shastric-article .article,
+.shastric-article .article h3,
+.shastric-article .document-content,
+.shastric-article .document-content details.sanskrit-reveal>summary,
+.shastric-article .document-content table caption{
+  font-family:Merriweather,Georgia,serif;
+}
+
+.shastric-article .document-content details.sanskrit-reveal>summary{
+  font-size:13px;
+  font-weight:400;
+  letter-spacing:0;
+}
+
+.shastric-article .document-content details.sanskrit-reveal [lang^="sa"],
+.shastric-article .document-content .sanskrit-text{
+  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;
+  font-size:20px;
+  line-height:1.58;
+  font-weight:400;
+  letter-spacing:0;
+}
+
+@media(max-width:620px){
+  .shastric-article .document-content details.sanskrit-reveal [lang^="sa"],
+  .shastric-article .document-content .sanskrit-text{
+    font-size:18px;
+    line-height:1.62;
+  }
+}
