@@ -8016,6 +8016,47 @@
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available."
+    },
+    {
+      "id": "canto-10-chapter-38-release",
+      "range": "ŚB 10.38.1–10.38.43",
+      "status": "source-checked-and-reader-committed",
+      "english_source": "https://vedabase.io/en/library/sb/10/38/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/38.md",
+      "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "6f0e673b25de5fbba5b0ba7edd8f8d8dd0b98f9d",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/10/34-49/38.md",
+      "records_checked": 43,
+      "exact_sridhara_source_blocks": 30,
+      "no_commentary_ranges": [
+        "10.38.3",
+        "10.38.17",
+        "10.38.25",
+        "10.38.26",
+        "10.38.29",
+        "10.38.30",
+        "10.38.31",
+        "10.38.32",
+        "10.38.34",
+        "10.38.35",
+        "10.38.36",
+        "10.38.39",
+        "10.38.40"
+      ],
+      "source_gap_ranges": [
+        "10.38.3",
+        "10.38.17",
+        "10.38.25",
+        "10.38.26",
+        "10.38.30",
+        "10.38.31",
+        "10.38.32",
+        "10.38.35",
+        "10.38.36"
+      ],
+      "live_render": null,
+      "generated_at": "2026-09-22",
+      "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available."
     }
   ],
   "generated_at": "2026-09-21"
