@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked; placeholder-free; translation-audit-in-progress",
+  "status": "source-checked; placeholder-free; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/60-69/60.md",
   "source_blob_sha": "fccd1e4b97a69973540504a5b5a586ecdfdf308c",
-  "editorial_note": "Canto 10 source text is pinned to vishvAsa/purANam_vaiShNavam. Placeholder glosses were removed; source-backed glosses are restored where available, and any remaining lexical forms are explicitly marked for human translation audit.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses removed and the remaining lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.60.1–10.60.50; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -37,7 +37,7 @@
           "Rukmiṇī"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa, Rāma, Nanda, love in this source range. Its opening gloss is preserved in Sanskrit as “अथ षष्टितमे कृष्णः परिहासेन रुक्मिणीम्”.",
+      "literal_english": "कृष्ण: Kṛṣṇa; राम: Rāma; नन्द: Nanda; प्रेम: love; रुक्मिणी: Rukmiṇī",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -62,7 +62,7 @@
           "principle"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa, love, principle in this source range. Its opening gloss is preserved in Sanskrit as “वक्ष्यमाणं रुक्मिण्याः श्री-कृष्ण परमं प्रेम सम्भावयितुं तस्योक्तम् एव तत्त्वम् अनुस्मारयति---यस् त्व् इति”.",
+      "literal_english": "कृष्ण: Kṛṣṇa; प्रेम: love; तत्त्व: principle",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -79,7 +79,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “आदौ तावत् त्रिभिः श्लोकैर् मन्दिरम् अनुवर्णयति---तस्मिन्न् इति”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -93,10 +93,10 @@
       "word_for_word": [
         [
           "उपाच्युतम् अच्युतस्य समीपे सा मणि-नूपुराभ्यां रेजे",
-          "upācyutm acyutsy smīpe sā mṇi-nūpurābhyāṃ reje — translation audit required"
+          "upācyutm acyutsy smīpe sā mṇi-nūpurābhyāṃ reje — near Acyuta she shone with jewel anklets"
         ]
       ],
-      "literal_english": "उपाच्युतम् अच्युतस्य समीपे सा मणि-नूपुराभ्यां रेजे: upācyutm acyutsy smīpe sā mṇi-nūpurābhyāṃ reje — translation audit required",
+      "literal_english": "उपाच्युतम् अच्युतस्य समीपे सा मणि-नूपुराभ्यां रेजे: upācyutm acyutsy smīpe sā mṇi-nūpurābhyāṃ reje — near Acyuta she shone with jewel anklets",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -110,26 +110,14 @@
       "word_for_word": [
         [
           "तां निरीक्ष्य प्रीतह् सन् स्मयमानो हरिर् आबभाषे",
-          "tāṃ nirīkṣy prīth sn smymāno hrir ābbhāṣe — translation audit required"
+          "tāṃ nirīkṣy prīth sn smymāno hrir ābbhāṣe — seeing her, Hari, pleased and smiling, spoke"
         ],
         [
           "यथोक्तं श्री-पराशरेण---",
-          "ythoktṃ śrī-prāśreṇ--- — translation audit required"
-        ],
-        [
-          "> देवत्वे देव-देहेयं मनुष्यत्वे च मानुषी",
-          "> devtve dev-deheyṃ mnuṣytve c mānuṣī — demigod and [forms: >, देवत्वे, देव-देहेयं, मनुष्यत्वे, मानुषी]"
-        ],
-        [
-          ">",
-          "> — translation audit required"
-        ],
-        [
-          "> विष्णोर् देहानुरूपां वै करोत्य् एषात्मनस् तनुम्",
-          "> viṣṇor dehānurūpāṃ vai kroty eṣātmns tnum — translation audit required"
+          "ythoktṃ śrī-prāśreṇ--- — as stated by Śrī Parāśara"
         ]
       ],
-      "literal_english": "तां निरीक्ष्य प्रीतह् सन् स्मयमानो हरिर् आबभाषे: tāṃ nirīkṣy prīth sn smymāno hrir ābbhāṣe — translation audit required; यथोक्तं श्री-पराशरेण---: ythoktṃ śrī-prāśreṇ--- — translation audit required; > देवत्वे देव-देहेयं मनुष्यत्वे च मानुषी: > devtve dev-deheyṃ mnuṣytve c mānuṣī — demigod and [forms: >, देवत्वे, देव-देहेयं, मनुष्यत्वे, मानुषी]; >: > — translation audit required; > विष्णोर् देहानुरूपां वै करोत्य् एषात्मनस् तनुम्: > viṣṇor dehānurūpāṃ vai kroty eṣātmns tnum — translation audit required",
+      "literal_english": "तां निरीक्ष्य प्रीतह् सन् स्मयमानो हरिर् आबभाषे: tāṃ nirīkṣy prīth sn smymāno hrir ābbhāṣe — seeing her, Hari, pleased and smiling, spoke; यथोक्तं श्री-पराशरेण---: ythoktṃ śrī-prāśreṇ--- — as stated by Śrī Parāśara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -143,10 +131,10 @@
       "word_for_word": [
         [
           "श्रीधर-स्वामी",
-          "śrīdhr-svāmī — translation audit required"
+          "śrīdhr-svāmī — Śrīdhara Svāmī"
         ]
       ],
-      "literal_english": "श्रीधर-स्वामी: śrīdhr-svāmī — translation audit required",
+      "literal_english": "श्रीधर-स्वामी: śrīdhr-svāmī — Śrīdhara Svāmī",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -163,7 +151,7 @@
           "rāsa"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats rāsa in this source range. Its opening gloss is preserved in Sanskrit as “तान् हित्वा नोऽस्मान् असमानान् कस्माद् ववृषे वृतवती त्वम्”.",
+      "literal_english": "रास: rāsa",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -177,22 +165,22 @@
       "word_for_word": [
         [
           "अस्पष्ट-वर्त्मनाम् अविज्ञाताचाराणाम्",
-          "aspṣṭ-vrtmnām avijñātācārāṇām — translation audit required"
+          "aspṣṭ-vrtmnām avijñātācārāṇām — of those whose path and conduct are unknown"
         ],
         [
           "अलोक-पथम् अस्त्री-पारतन्त्र्यम्",
-          "alok-pthm astrī-pārtntrym — translation audit required"
+          "alok-pthm astrī-pārtntrym — a path beyond ordinary perception; freedom from dependence on women"
         ],
         [
           "पदवीं मार्गम्",
-          "pdvīṃ mārgm — translation audit required"
+          "pdvīṃ mārgm — the path; the way"
         ],
         [
           "आस्थिता अनुसृताः",
-          "āsthitā anusṛtāḥ — translation audit required"
+          "āsthitā anusṛtāḥ — they followed; they adhered to"
         ]
       ],
-      "literal_english": "अस्पष्ट-वर्त्मनाम् अविज्ञाताचाराणाम्: aspṣṭ-vrtmnām avijñātācārāṇām — translation audit required; अलोक-पथम् अस्त्री-पारतन्त्र्यम्: alok-pthm astrī-pārtntrym — translation audit required; पदवीं मार्गम्: pdvīṃ mārgm — translation audit required; आस्थिता अनुसृताः: āsthitā anusṛtāḥ — translation audit required",
+      "literal_english": "अस्पष्ट-वर्त्मनाम् अविज्ञाताचाराणाम्: aspṣṭ-vrtmnām avijñātācārāṇām — of those whose path and conduct are unknown; अलोक-पथम् अस्त्री-पारतन्त्र्यम्: alok-pthm astrī-pārtntrym — a path beyond ordinary perception; freedom from dependence on women; पदवीं मार्गम्: pdvīṃ mārgm — the path; the way; आस्थिता अनुसृताः: āsthitā anusṛtāḥ — they followed; they adhered to",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -209,7 +197,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “किं च, निष्किञ्चना इति”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -223,18 +211,18 @@
       "word_for_word": [
         [
           "आत्म-समं परस्परम् अनुरूपम्",
-          "ātm-smṃ prsprm anurūpm — translation audit required"
+          "ātm-smṃ prsprm anurūpm — equal to oneself; mutually corresponding"
         ],
         [
           "जन्मैश्वर्याभ्यां सहिता आकृतिः रूपं जातिर् वा समा",
-          "jnmaiśvryābhyāṃ shitā ākṛtiḥ rūpṃ jātir vā smā — translation audit required"
+          "jnmaiśvryābhyāṃ shitā ākṛtiḥ rūpṃ jātir vā smā — endowed with birth and wealth; equal in form, appearance, or caste"
         ],
         [
           "भव आयतिः",
-          "bhv āytiḥ — translation audit required"
+          "bhv āytiḥ — bhava means state; āyati means the future"
         ]
       ],
-      "literal_english": "आत्म-समं परस्परम् अनुरूपम्: ātm-smṃ prsprm anurūpm — translation audit required; जन्मैश्वर्याभ्यां सहिता आकृतिः रूपं जातिर् वा समा: jnmaiśvryābhyāṃ shitā ākṛtiḥ rūpṃ jātir vā smā — translation audit required; भव आयतिः: bhv āytiḥ — translation audit required",
+      "literal_english": "आत्म-समं परस्परम् अनुरूपम्: ātm-smṃ prsprm anurūpm — equal to oneself; mutually corresponding; जन्मैश्वर्याभ्यां सहिता आकृतिः रूपं जातिर् वा समा: jnmaiśvryābhyāṃ shitā ākṛtiḥ rūpṃ jātir vā smā — endowed with birth and wealth; equal in form, appearance, or caste; भव आयतिः: bhv āytiḥ — bhava means state; āyati means the future",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -251,7 +239,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “न दीर्घा समीक्षा विचारो यस्यास् तया”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -285,7 +273,7 @@
           "rāsa"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats rāsa in this source range. Its opening gloss is preserved in Sanskrit as “तर्हि किम् इत्य् आनीताहम् ? इति चेत्, तत्राह---चैद्य-शाल्व-जरासन्ध- इति”.",
+      "literal_english": "रास: rāsa",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -299,10 +287,10 @@
       "word_for_word": [
         [
           "स्मय-नुत्तये गर्वापनयनाय",
-          "smy-nuttye grvāpnynāy — translation audit required"
+          "smy-nuttye grvāpnynāy — to remove her smile; to take away her pride"
         ]
       ],
-      "literal_english": "स्मय-नुत्तये गर्वापनयनाय: smy-nuttye grvāpnynāy — translation audit required",
+      "literal_english": "स्मय-नुत्तये गर्वापनयनाय: smy-nuttye grvāpnynāy — to remove her smile; to take away her pride",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -323,7 +311,7 @@
           "desire"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats body, desire in this source range. Its opening gloss is preserved in Sanskrit as “स्त्रीणाम् अतिदुःसहम् औदासीन्यम् अकामत्वं चाह---उदासीना इति”.",
+      "literal_english": "देह: body; काम: desire",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -338,13 +326,9 @@
         [
           "अविश्लेषाद् धेतोः आत्मानम् एव वल्लभाम् इत्य् एवार्थे इव-शब्दः",
           "aviśleṣād dhetoḥ ātmānm ev vllbhām ity evārthe iv-śbdḥ — indeed/only [forms: अविश्लेषाद्, धेतोः, आत्मानम्, वल्लभाम्, इत्य्, एवार्थे, इव-शब्दः]"
-        ],
-        [
-          "२१-२२",
-          "२१-२२ — translation audit required"
         ]
       ],
-      "literal_english": "अविश्लेषाद् धेतोः आत्मानम् एव वल्लभाम् इत्य् एवार्थे इव-शब्दः: aviśleṣād dhetoḥ ātmānm ev vllbhām ity evārthe iv-śbdḥ — indeed/only [forms: अविश्लेषाद्, धेतोः, आत्मानम्, वल्लभाम्, इत्य्, एवार्थे, इव-शब्दः]; २१-२२: २१-२२ — translation audit required",
+      "literal_english": "अविश्लेषाद् धेतोः आत्मानम् एव वल्लभाम् इत्य् एवार्थे इव-शब्दः: aviśleṣād dhetoḥ ātmānm ev vllbhām ity evārthe iv-śbdḥ — indeed/only [forms: अविश्लेषाद्, धेतोः, आत्मानम्, वल्लभाम्, इत्य्, एवार्थे, इव-शब्दः]",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -361,7 +345,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     },
@@ -378,7 +362,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “चिन्ता-लक्षणम् आह---पदा इति”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -392,7 +376,7 @@
       "word_for_word": [
         [
           "श्लथन्ति पतन्ति वलयानि यस्माद् धस्तात्",
-          "ślthnti ptnti vlyāni ysmād dhstāt — translation audit required"
+          "ślthnti ptnti vlyāni ysmād dhstāt — from whose hand the bracelets loosen and fall"
         ],
         [
           "देहश् च पपात",
@@ -400,10 +384,10 @@
         ],
         [
           "विक्लवा अवशा धीर् यस्याः तस्याः",
-          "viklvā avśā dhīr ysyāḥ tsyāḥ — translation audit required"
+          "viklvā avśā dhīr ysyāḥ tsyāḥ — she whose composure is disturbed and who is helpless"
         ]
       ],
-      "literal_english": "श्लथन्ति पतन्ति वलयानि यस्माद् धस्तात्: ślthnti ptnti vlyāni ysmād dhstāt — translation audit required; देहश् च पपात: dehś c ppāt — and [forms: देहश्, पपात]; विक्लवा अवशा धीर् यस्याः तस्याः: viklvā avśā dhīr ysyāḥ tsyāḥ — translation audit required",
+      "literal_english": "श्लथन्ति पतन्ति वलयानि यस्माद् धस्तात्: ślthnti ptnti vlyāni ysmād dhstāt — from whose hand the bracelets loosen and fall; देहश् च पपात: dehś c ppāt — and [forms: देहश्, पपात]; विक्लवा अवशा धीर् यस्याः तस्याः: viklvā avśā dhīr ysyāḥ tsyāḥ — she whose composure is disturbed and who is helpless",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -417,10 +401,10 @@
       "word_for_word": [
         [
           "हास्यस्य प्रौढिं गाम्भीर्यम्",
-          "hāsysy prauḍhiṃ gāmbhīrym — translation audit required"
+          "hāsysy prauḍhiṃ gāmbhīrym — the depth and gravity of the laughter"
         ]
       ],
-      "literal_english": "हास्यस्य प्रौढिं गाम्भीर्यम्: hāsysy prauḍhiṃ gāmbhīrym — translation audit required",
+      "literal_english": "हास्यस्य प्रौढिं गाम्भीर्यम्: hāsysy prauḍhiṃ gāmbhīrym — the depth and gravity of the laughter",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -434,10 +418,10 @@
       "word_for_word": [
         [
           "समुह्य निबध्य",
-          "smuhy nibdhy — translation audit required"
+          "smuhy nibdhy — having gathered and bound"
         ]
       ],
-      "literal_english": "समुह्य निबध्य: smuhy nibdhy — translation audit required",
+      "literal_english": "समुह्य निबध्य: smuhy nibdhy — having gathered and bound",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -451,22 +435,18 @@
       "word_for_word": [
         [
           "अश्रुकले अश्रुभिः शोभिते",
-          "aśrukle aśrubhiḥ śobhite — translation audit required"
+          "aśrukle aśrubhiḥ śobhite — adorned with tears"
         ],
         [
           "शुचा शोकाश्रुभिः",
-          "śucā śokāśrubhiḥ — translation audit required"
+          "śucā śokāśrubhiḥ — with grief; with tears of sorrow"
         ],
         [
           "सान्त्वयामास अनुनीतवान्",
-          "sāntvyāmās anunītvān — translation audit required"
-        ],
-        [
-          "२७-२८",
-          "२७-२८ — translation audit required"
+          "sāntvyāmās anunītvān — he consoled; he pacified"
         ]
       ],
-      "literal_english": "अश्रुकले अश्रुभिः शोभिते: aśrukle aśrubhiḥ śobhite — translation audit required; शुचा शोकाश्रुभिः: śucā śokāśrubhiḥ — translation audit required; सान्त्वयामास अनुनीतवान्: sāntvyāmās anunītvān — translation audit required; २७-२८: २७-२८ — translation audit required",
+      "literal_english": "अश्रुकले अश्रुभिः शोभिते: aśrukle aśrubhiḥ śobhite — adorned with tears; शुचा शोकाश्रुभिः: śucā śokāśrubhiḥ — with grief; with tears of sorrow; सान्त्वयामास अनुनीतवान्: sāntvyāmās anunītvān — he consoled; he pacified",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -480,14 +460,14 @@
       "word_for_word": [
         [
           "मा माम्",
-          "mā mām — translation audit required"
+          "mā mām — do not [fear] me"
         ],
         [
           "हे अङ्गने  सुन्दरि",
-          "he aṅgne  sundri — translation audit required"
+          "he aṅgne  sundri — O woman; O beautiful one"
         ]
       ],
-      "literal_english": "मा माम्: mā mām — translation audit required; हे अङ्गने  सुन्दरि: he aṅgne  sundri — translation audit required",
+      "literal_english": "मा माम्: mā mām — do not [fear] me; हे अङ्गने  सुन्दरि: he aṅgne  sundri — O woman; O beautiful one",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -505,7 +485,7 @@
         ],
         [
           "कटाक्षास् तैर् आक्षेपैर् अरुणाव् अपाङ्गौ यस्मिंस् तत्",
-          "kṭākṣās tair ākṣepair aruṇāv apāṅgau ysmiṃs tt — translation audit required"
+          "kṭākṣās tair ākṣepair aruṇāv apāṅgau ysmiṃs tt — in which the corners of the eyes were reddened by those sidelong glances"
         ],
         [
           "अत एव सुन्दरं कुटिलं भ्रुकुटी-तटं यस्मिंस् तत्",
@@ -516,7 +496,7 @@
           "nnu klhe kiṃ kautukṃ sukhṃ vā  at āh---ayṃ hi iti — said thus [forms: ननु, कलहे, किं, कौतुकं, सुखं, वा, अत, आह---अयं, हि]"
         ]
       ],
-      "literal_english": "प्रेम-संरम्भेण प्रणय-कोपेन स्फुरितः कम्पितोऽधरो यस्मिंस् तत्: prem-sṃrmbheṇ prṇy-kopen sphuritḥ kmpitoऽdhro ysmiṃs tt — love [forms: प्रेम-संरम्भेण, प्रणय-कोपेन, स्फुरितः, कम्पितोऽधरो, यस्मिंस्, तत्]; कटाक्षास् तैर् आक्षेपैर् अरुणाव् अपाङ्गौ यस्मिंस् तत्: kṭākṣās tair ākṣepair aruṇāv apāṅgau ysmiṃs tt — translation audit required; अत एव सुन्दरं कुटिलं भ्रुकुटी-तटं यस्मिंस् तत्: at ev sundrṃ kuṭilṃ bhrukuṭī-tṭṃ ysmiṃs tt — indeed/only [forms: अत, सुन्दरं, कुटिलं, भ्रुकुटी-तटं, यस्मिंस्, तत्]; ननु कलहे किं कौतुकं सुखं वा  अत आह---अयं हि इति: nnu klhe kiṃ kautukṃ sukhṃ vā  at āh---ayṃ hi iti — said thus [forms: ननु, कलहे, किं, कौतुकं, सुखं, वा, अत, आह---अयं, हि]",
+      "literal_english": "प्रेम-संरम्भेण प्रणय-कोपेन स्फुरितः कम्पितोऽधरो यस्मिंस् तत्: prem-sṃrmbheṇ prṇy-kopen sphuritḥ kmpitoऽdhro ysmiṃs tt — love [forms: प्रेम-संरम्भेण, प्रणय-कोपेन, स्फुरितः, कम्पितोऽधरो, यस्मिंस्, तत्]; कटाक्षास् तैर् आक्षेपैर् अरुणाव् अपाङ्गौ यस्मिंस् तत्: kṭākṣās tair ākṣepair aruṇāv apāṅgau ysmiṃs tt — in which the corners of the eyes were reddened by those sidelong glances; अत एव सुन्दरं कुटिलं भ्रुकुटी-तटं यस्मिंस् तत्: at ev sundrṃ kuṭilṃ bhrukuṭī-tṭṃ ysmiṃs tt — indeed/only [forms: अत, सुन्दरं, कुटिलं, भ्रुकुटी-तटं, यस्मिंस्, तत्]; ननु कलहे किं कौतुकं सुखं वा  अत आह---अयं हि इति: nnu klhe kiṃ kautukṃ sukhṃ vā  at āh---ayṃ hi iti — said thus [forms: ननु, कलहे, किं, कौतुकं, सुखं, वा, अत, आह---अयं, हि]",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -533,7 +513,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -570,7 +550,7 @@
           "nature"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa, mode, desire, rāsa in this source range. Its opening gloss is preserved in Sanskrit as “असमत्वं भयं दुर्गाश्रयणं प्रबलैः कलिः”.",
+      "literal_english": "कृष्ण: Kṛṣṇa; गुण: mode; काम: desire; रास: rāsa; ब्रह्म: Brahmā; प्रकृति: nature",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -607,7 +587,7 @@
           "Indra"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats self, sense, object, mode in this source range. Its opening gloss is preserved in Sanskrit as “यद् उक्तं राजभ्यो बिभ्यतः सुभ्रूः समुद्रं शरणं गतान् [भा”.",
+      "literal_english": "आत्मा: self; इन्द्रिय: sense; विषय: object; गुण: mode; शरण: shelter; इन्द्र: Indra",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -624,7 +604,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “अस्पष्ट-वर्त्मनां पुंसाम् अलोक-पथम् ईयुषाम् [१०.६०.१३] इति यद् उक्तं, तद् अपि तथैवेत्य् आह---त्वत्-पाद- इति”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -649,7 +629,7 @@
           "offering"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Brahmā, Supreme Person, offering in this source range. Its opening gloss is preserved in Sanskrit as “निष्किञ्चना वयं शश्वन् निष्किञ्चन-जन-प्रियाः”.",
+      "literal_english": "ब्रह्म: Brahmā; पुरुष: Supreme Person; बलि: offering",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -670,10 +650,6 @@
           "१०.६०.१५\\ ity anenoktm anaucityṃ prihrti---tvṃ vā iti — thus [forms: १०.६०.१५\\, इत्य्, अनेनोक्तम्, अनौचित्यं, परिहरति---त्वं, वा]"
         ],
         [
-          "आ",
-          "ā — translation audit required"
-        ],
-        [
           "उ",
           "u — translation audit required"
         ],
@@ -682,7 +658,7 @@
           "४.३.३३\\ iti śruteḥ — thus [forms: ४.३.३३\\, श्रुतेः]"
         ]
       ],
-      "literal_english": "पु: pu — translation audit required; १०.६०.१५\\ इत्य् अनेनोक्तम् अनौचित्यं परिहरति---त्वं वा इति: १०.६०.१५\\ ity anenoktm anaucityṃ prihrti---tvṃ vā iti — thus [forms: १०.६०.१५\\, इत्य्, अनेनोक्तम्, अनौचित्यं, परिहरति---त्वं, वा]; आ: ā — translation audit required; उ: u — translation audit required; ४.३.३३\\ इति श्रुतेः: ४.३.३३\\ iti śruteḥ — thus [forms: ४.३.३३\\, श्रुतेः]",
+      "literal_english": "पु: pu — translation audit required; १०.६०.१५\\ इत्य् अनेनोक्तम् अनौचित्यं परिहरति---त्वं वा इति: १०.६०.१५\\ ity anenoktm anaucityṃ prihrti---tvṃ vā iti — thus [forms: १०.६०.१५\\, इत्य्, अनेनोक्तम्, अनौचित्यं, परिहरति---त्वं, वा]; उ: u — translation audit required; ४.३.३३\\ इति श्रुतेः: ४.३.३३\\ iti śruteḥ — thus [forms: ४.३.३३\\, श्रुतेः]",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -715,7 +691,7 @@
           "sage"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats knowledge, self, mind, Brahmā in this source range. Its opening gloss is preserved in Sanskrit as “भिक्षुभिः श्लाघिता मुधा [भा”.",
+      "literal_english": "ज्ञान: knowledge; आत्मा: self; मनस्: mind; ब्रह्म: Brahmā; मुनि: sage",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -748,7 +724,7 @@
           "offering"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats knowledge, mode, rāsa, Supreme Person in this source range. Its opening gloss is preserved in Sanskrit as “स्वाज्ञानं परिहृत्य पुरुषान्तर-गुण-वर्णन-प्रदीप्त-कोप-संरम्भेण तस्मिन्न् एवाज्ञानम् आपादयति---जाड्यम् इति”.",
+      "literal_english": "ज्ञान: knowledge; गुण: mode; रास: rāsa; पुरुष: Supreme Person; बलि: offering",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -765,7 +741,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “यच् चान्यत् अस्पष्ट-वर्त्मनाम् इत्य्-आदिना अर्थात् त्वां भजन्तः सीदन्तीत्य् अवसादनं श्रमावहत्वम् उक्तं तद् अपि मन्दम् एवेत्य् आह---यद् वाञ्छया इति”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -790,7 +766,7 @@
           "mode"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats dharma, liberation, mode in this source range. Its opening gloss is preserved in Sanskrit as “यच् चोक्तं अथात्मनोऽनुरूपम् [भा”.",
+      "literal_english": "धर्म: dharma; मोक्ष: liberation; गुण: mode",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -827,7 +803,7 @@
           "hearing"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats birth, action, yoga, shelter in this source range. Its opening gloss is preserved in Sanskrit as “अतस् त्वाम् एवाहम् अभजम् इत्य् आह---तं त्वा इति”.",
+      "literal_english": "जन्म: birth; कर्म: action; योग: yoga; शरण: shelter; देव: demigod; श्रवण: hearing",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -848,7 +824,7 @@
           "offering"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats mode, offering in this source range. Its opening gloss is preserved in Sanskrit as “ये चोक्ता राज्ञां बहवो गुणाः, राज-पुत्रीप्सिता भूपैर् लोक-पाल-विभूतिभिः [भा”.",
+      "literal_english": "गुण: mode; बलि: offering",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -865,7 +841,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “तथा हि, ते पदाब्ज-मकरन्दम् अजिघ्रती सती या स्त्री विमूढा, सा कान्तोऽयम् इति मतिर् यस्याः सा कान्त-मतिर् जीवच्-छवं भजति”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -882,7 +858,7 @@
           "self"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats self in this source range. Its opening gloss is preserved in Sanskrit as “यद् उक्तं उदासीना वयम् [भा”.",
+      "literal_english": "आत्मन्: self",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -903,7 +879,7 @@
           "desire"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats mantra, desire in this source range. Its opening gloss is preserved in Sanskrit as “तद् एवं सर्वं तद् उक्तं प्रतिव्याख्याय प्रसन्न-चित्ता मन्त्रम् उपदिशन्त्य् आह द्वाभ्याम्---नैव इति”.",
+      "literal_english": "मन्त्र: mantra; काम: desire",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -917,14 +893,14 @@
       "word_for_word": [
         [
           "प्रलम्भिता उपहसिता",
-          "prlmbhitā uphsitā — translation audit required"
+          "prlmbhitā uphsitā — mocked; ridiculed"
         ],
         [
           "अन्वात्थ अन्वाख्यातवती",
-          "anvātth anvākhyātvtī — translation audit required"
+          "anvātth anvākhyātvtī — she narrated; she recounted"
         ]
       ],
-      "literal_english": "प्रलम्भिता उपहसिता: prlmbhitā uphsitā — translation audit required; अन्वात्थ अन्वाख्यातवती: anvātth anvākhyātvtī — translation audit required",
+      "literal_english": "प्रलम्भिता उपहसिता: prlmbhitā uphsitā — mocked; ridiculed; अन्वात्थ अन्वाख्यातवती: anvātth anvākhyātvtī — she narrated; she recounted",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -942,10 +918,10 @@
         ],
         [
           "अकामाय काम-निवृत्तये मोक्ष-पर्यवसायिन इत्य् अर्थः",
-          "akāmāy kām-nivṛttye mokṣ-pryvsāyin ity arthḥ — translation audit required"
+          "akāmāy kām-nivṛttye mokṣ-pryvsāyin ity arthḥ — the meaning is: for freedom from desire, ending in liberation"
         ]
       ],
-      "literal_english": "मयि एकान्त-भक्तायास् ते कामाः सन्त्य् एव: myi ekānt-bhktāyās te kāmāḥ snty ev — they/those indeed/only [forms: मयि, एकान्त-भक्तायास्, कामाः, सन्त्य्]; अकामाय काम-निवृत्तये मोक्ष-पर्यवसायिन इत्य् अर्थः: akāmāy kām-nivṛttye mokṣ-pryvsāyin ity arthḥ — translation audit required",
+      "literal_english": "मयि एकान्त-भक्तायास् ते कामाः सन्त्य् एव: myi ekānt-bhktāyās te kāmāḥ snty ev — they/those indeed/only [forms: मयि, एकान्त-भक्तायास्, कामाः, सन्त्य्]; अकामाय काम-निवृत्तये मोक्ष-पर्यवसायिन इत्य् अर्थः: akāmāy kām-nivṛttye mokṣ-pryvsāyin ity arthḥ — the meaning is: for freedom from desire, ending in liberation",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -966,7 +942,7 @@
           "object"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Nanda, object in this source range. Its opening gloss is preserved in Sanskrit as “अनुवादेन वरान् दत्त्वा ताम् अभिनन्दति---उपलब्धम् इति”.",
+      "literal_english": "नन्द: Nanda; विषय: object",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -995,7 +971,7 @@
           "happiness"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Nanda, devotion, desire, happiness in this source range. Its opening gloss is preserved in Sanskrit as “एकान्त-भक्तिम् अभिनन्द्य ताम् एव दृढीकर्तुं सकामान् भक्तान् निन्दति---ये माम् इति”.",
+      "literal_english": "नन्द: Nanda; भक्ति: devotion; काम: desire; सुख: happiness",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -1016,7 +992,7 @@
           "object"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats illusion, object in this source range. Its opening gloss is preserved in Sanskrit as “माया-मोहितत्वम् एवोपपादयति---मां प्राप्य इति”.",
+      "literal_english": "माया: illusion; विषय: object",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -1037,7 +1013,7 @@
           "desire"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Rāma, desire in this source range. Its opening gloss is preserved in Sanskrit as “तस्मात् हे गृहेश्वरि ! त्वया मयि भव-मोचनी निष्काम्आनुवृत्तिः कृता”.",
+      "literal_english": "राम: Rāma; काम: desire",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -1070,7 +1046,7 @@
           "truth"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Nanda, devotion, desire, love in this source range. Its opening gloss is preserved in Sanskrit as “किं च, सन्ति निष्कामाः प्रेम्णैव मय्य् अनुवर्तमाना बह्व्यः, किं तु त्वया सदृशीं क्वापि न पश्यामि इति तस्या भक्तिं बहु-मानेनाभिनन्दति---न त्वादृशीम् इति त्रिभिः”.",
+      "literal_english": "नन्द: Nanda; भक्ति: devotion; काम: desire; प्रेम: love; सत्य: truth",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -1088,7 +1064,7 @@
         ],
         [
           "अक्ष-गोष्ठ्यां द्यूत-सभायाम्",
-          "akṣ-goṣṭhyāṃ dyūt-sbhāyām — translation audit required"
+          "akṣ-goṣṭhyāṃ dyūt-sbhāyām — in the gambling assembly"
         ],
         [
           "तस्य भ्रातुर् वधम्",
@@ -1096,10 +1072,10 @@
         ],
         [
           "अनेनैवानिरुद्ध-विवाहानन्तर्यम् अस्य ज्ञातव्यम्",
-          "anenaivāniruddh-vivāhānntrym asy jñātvym — translation audit required"
+          "anenaivāniruddh-vivāhānntrym asy jñātvym — from this very context, the subsequent marriage of Aniruddha is to be understood"
         ]
       ],
-      "literal_english": "प्रोद्वाह-पर्वण्य् अनिरुद्ध-विवाहे: prodvāh-prvṇy aniruddh-vivāhe — Aniruddha [forms: प्रोद्वाह-पर्वण्य्, अनिरुद्ध-विवाहे]; अक्ष-गोष्ठ्यां द्यूत-सभायाम्: akṣ-goṣṭhyāṃ dyūt-sbhāyām — translation audit required; तस्य भ्रातुर् वधम्: tsy bhrātur vdhm — of him [forms: भ्रातुर्, वधम्]; अनेनैवानिरुद्ध-विवाहानन्तर्यम् अस्य ज्ञातव्यम्: anenaivāniruddh-vivāhānntrym asy jñātvym — translation audit required",
+      "literal_english": "प्रोद्वाह-पर्वण्य् अनिरुद्ध-विवाहे: prodvāh-prvṇy aniruddh-vivāhe — Aniruddha [forms: प्रोद्वाह-पर्वण्य्, अनिरुद्ध-विवाहे]; अक्ष-गोष्ठ्यां द्यूत-सभायाम्: akṣ-goṣṭhyāṃ dyūt-sbhāyām — in the gambling assembly; तस्य भ्रातुर् वधम्: tsy bhrātur vdhm — of him [forms: भ्रातुर्, वधम्]; अनेनैवानिरुद्ध-विवाहानन्तर्यम् अस्य ज्ञातव्यम्: anenaivāniruddh-vivāhānntrym asy jñātvym — from this very context, the subsequent marriage of Aniruddha is to be understood",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -1136,7 +1112,7 @@
           "truth"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Nanda, birth, action, yoga in this source range. Its opening gloss is preserved in Sanskrit as “अपि च दूत इति”.",
+      "literal_english": "नन्द: Nanda; जन्म: birth; कर्म: action; योग: yoga; व्रत: vow; सत्य: truth",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -1150,14 +1126,10 @@
       "word_for_word": [
         [
           "सौरत-संलापैः सुरत-नर्म-गोष्ठीभिः",
-          "saurt-sṃlāpaiḥ surt-nrm-goṣṭhībhiḥ — translation audit required"
-        ],
-        [
-          "५८-५९",
-          "५८-५९ — translation audit required"
+          "saurt-sṃlāpaiḥ surt-nrm-goṣṭhībhiḥ — with amorous conversations; playful erotic talks"
         ]
       ],
-      "literal_english": "सौरत-संलापैः सुरत-नर्म-गोष्ठीभिः: saurt-sṃlāpaiḥ surt-nrm-goṣṭhībhiḥ — translation audit required; ५८-५९: ५८-५९ — translation audit required",
+      "literal_english": "सौरत-संलापैः सुरत-नर्म-गोष्ठीभिः: saurt-sṃlāpaiḥ surt-nrm-goṣṭhībhiḥ — with amorous conversations; playful erotic talks",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -1174,7 +1146,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     }
