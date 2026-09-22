@@ -8135,6 +8135,43 @@
       "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
       "repair_note": "Repaired 10.38.37 into a full Śrīdhara word-for-word sequence."
+    },
+    {
+      "id": "canto-10-chapter-39-release",
+      "range": "ŚB 10.39.1–10.39.57",
+      "status": "source-checked-and-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/10/39/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/39.md",
+      "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "a01fbdeb909c13186389bae0d4dc270ab9f1690c",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/10/34-49/39.md",
+      "records_checked": 57,
+      "exact_sridhara_source_blocks": 47,
+      "no_commentary_ranges": [
+        "10.39.3",
+        "10.39.17",
+        "10.39.37",
+        "10.39.38",
+        "10.39.42",
+        "10.39.43",
+        "10.39.54",
+        "10.39.57"
+      ],
+      "source_gap_ranges": [
+        "10.39.3",
+        "10.39.17",
+        "10.39.37",
+        "10.39.38",
+        "10.39.42",
+        "10.39.43",
+        "10.39.54",
+        "10.39.57"
+      ],
+      "live_render": null,
+      "generated_at": "2026-09-22",
+      "notes": "Chapter published in Contents after source-lock, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
+      "repaired_at": "2026-09-22",
+      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for all commentary-bearing source ranges; explicit no-commentary markers preserved."
     }
   ],
   "generated_at": "2026-09-21"
