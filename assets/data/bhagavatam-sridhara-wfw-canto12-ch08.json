@@ -4,7 +4,7 @@
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/12/08_nArAyaNa-stavaH.md",
-  "source_blob_sha": "",
+  "source_blob_sha": "bfec1c4e812660a41ef9c2c41f52b7f900020c09",
   "editorial_note": "Canto 12.8 data is aligned to the pinned Śrīdhara source ranges; grouped 12.8.33–34 and exact no-commentary ranges are preserved.",
   "scope": "ŚB 12.8.1–12.8.49",
   "entries": [
@@ -1224,11 +1224,11 @@
       "canto": 12,
       "chapter": 8,
       "start": 33,
-      "end": 33,
-      "source_marker": "१२.८.३३",
+      "end": 34,
+      "source_marker": "१२.८.३३-३४",
       "sanskrit": "ताव् अनुवर्णयति द्वाभ्याम्—ताव् इति । रौरवं कृष्णाजिनं वल्कलं चाम्बरं ययोस् तौ । पवित्रे पाण्योर् ययोस् तौ । त्रि-वृत् त्रि-गुणं नव-तन्तुकम् इति वा त्रि-वृद् बहिः पवमानम् इत्य्-आदौ नवके प्रयोगात् । उपवीतकादीन् दधानौ । वेदं दर्भ-मुष्टिम् । किं च, साक्षात् तप एव तौ । तत्र हेतुः, तपत्-ताडिद्-वर्णं देदीप्यमान-विद्युत्-सङ्काशं यत् पिशङ्गं रोचिस् तेन रूपिणौ मूर्तिम् अन्तौ । तादृक्-तेजो-युक्त-मूर्तिभ्यां तपो-मयत्वेन प्रकाशमानाव् इत्य् अर्थः । प्रांशू उन्नतौ ॥३३-३४॥",
       "main_sanskrit": "तौ शुक्ल-कृष्णौ नव-कञ्ज-लोचनौ\n\nचतुर्-भुजौ रौरव-वल्कलाम्बरौ ।\n\nपवित्र-पाणी उपवीतकं त्रि-वृत्\n\nकमण्डलुं दण्डम् ऋजुं च वैणवम् ॥\n\nपद्माक्ष-मालाम् उत जन्तु-मार्जनं\n\nवेदं च साक्षात् तप एव रूपिणौ ।\n\nतपत्-तडिद्-वर्ण-पिशङ्ग-रोचिषा\n\nप्रांशू दधानौ विबुधर्षभार्चितौ ॥",
-      "transliteration": "tau śukla-kṛṣṇau nava-kañja-locanau  \ncatur-bhujau raurava-valkalāmbarau  \npavitra-pāṇī upavītakaṁ tri-vṛt  \nkamaṇḍaluṁ daṇḍam ṛjuṁ ca vaiṇavam",
+      "transliteration": "tau śukla-kṛṣṇau nava-kañja-locanau  \ncatur-bhujau raurava-valkalāmbarau  \npavitra-pāṇī upavītakaṁ tri-vṛt  \nkamaṇḍaluṁ daṇḍam ṛjuṁ ca vaiṇavam\n\npadmākṣa-mālām uta jantu-mārjanaṁ  \nvedaṁ ca sākṣāt tapa eva rūpiṇau  \ntapat-taḍid-varṇa-piśaṅga-rociṣā  \nprāṁśū dadhānau vibudharṣabhārcitau",
       "word_for_word": [
         [
           "तौ",
