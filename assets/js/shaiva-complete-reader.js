@@ -69,6 +69,10 @@ function normaliseSpelling(value){
     [/Purva[- ]Paksha/gi,'Pūrvapakṣa'],
     [/Paratattva/gi,'Paratattva'],
     [/\bsiva\b/gi,'Śiva'],
+    [/vishvottirnam/gi,'viśvottīrṇam'],
+    [/niranjanam/gi,'nirañjanam'],
+    [/Adi-rupam/gi,'Ādi-rūpam'],
+    [/maha-devam/gi,'mahā-devam'],
     [/Karmakanda/gi,'Karmakāṇḍa'],
     [/Jnana-kanda/gi,'jñāna-kāṇḍa'],
     [/Kali Yuga/gi,'Kali Yuga'],
@@ -280,6 +284,13 @@ function renderVerse(value){
 function renderQuote(value){
   const visible=articleText(value);
   if(!visible)return empty();
+  const inlineQuote=visible.match(/^([\s\S]*?\|\|\s*)([“\"][\s\S]+)$/);
+  if(inlineQuote){
+    const fragment=document.createDocumentFragment();
+    fragment.append(reference(inlineQuote[1].trim()));
+    fragment.append(translation(inlineQuote[2]));
+    return fragment;
+  }
   if(/^(?:english(?:\s+translation)?|translation)\s*:?[.]?$/i.test(visible))return reference('English translation');
   if(/^(?:Bhagavadgītā|Laugakṣī|Laugakshi)\b/i.test(visible))return reference(visible);
   const withoutLabel=visible.replace(/^\s*(?:English\s+)?translation\s*:\s*/i,'').trim();
