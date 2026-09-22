@@ -5772,12 +5772,12 @@
         "no_commentary_records": 21
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Repaired 10.1.10–12 into a full Śrīdhara word-for-word sequence."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-2-release",
       "range": "ŚB 10.2.1–10.2.42",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/2/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/02.md",
@@ -5848,12 +5848,14 @@
         "sridhara_records_with_text": 32,
         "literal_english_source_blocks": 36,
         "no_commentary_records": 8
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-3-release",
       "range": "ŚB 10.3.1–10.3.53",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/3/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/03.md",
@@ -5909,7 +5911,9 @@
         "sridhara_records_with_text": 20,
         "literal_english_source_blocks": 21,
         "no_commentary_records": 32
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-4-release",
@@ -5996,12 +6000,12 @@
         "no_commentary_records": 14
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Repaired 10.4.2 into a full Śrīdhara word-for-word sequence."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-5-release",
       "range": "ŚB 10.5.1–10.5.32",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/5/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/05.md",
@@ -6064,12 +6068,14 @@
         "sridhara_records_with_text": 18,
         "literal_english_source_blocks": 28,
         "no_commentary_records": 14
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-6-release",
       "range": "ŚB 10.6.1–10.6.44",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/6/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/06.md",
@@ -6131,12 +6137,14 @@
         "sridhara_records_with_text": 18,
         "literal_english_source_blocks": 28,
         "no_commentary_records": 17
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-7-release",
       "range": "ŚB 10.7.1–10.7.37",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/7/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/07.md",
@@ -6201,12 +6209,14 @@
         "sridhara_records_with_text": 26,
         "literal_english_source_blocks": 31,
         "no_commentary_records": 11
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-8-release",
       "range": "ŚB 10.8.1–10.8.52",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/8/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/08.md",
@@ -6283,12 +6293,14 @@
         "sridhara_records_with_text": 29,
         "literal_english_source_blocks": 38,
         "no_commentary_records": 23
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-9-release",
       "range": "ŚB 10.9.1–10.9.23",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/9/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/09.md",
@@ -6331,12 +6343,14 @@
         "sridhara_records_with_text": 9,
         "literal_english_source_blocks": 11,
         "no_commentary_records": 13
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-10-release",
       "range": "ŚB 10.10.1–10.10.43",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/10/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/10.md",
@@ -6410,12 +6424,14 @@
         "sridhara_records_with_text": 36,
         "literal_english_source_blocks": 41,
         "no_commentary_records": 7
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-11-release",
       "range": "ŚB 10.11.1–10.11.59",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/11/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/11.md",
@@ -6480,12 +6496,14 @@
         "sridhara_records_with_text": 12,
         "literal_english_source_blocks": 25,
         "no_commentary_records": 47
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-12-release",
       "range": "ŚB 10.12.1–10.12.44",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/12/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/12-17/12.md",
@@ -6541,12 +6559,14 @@
         "sridhara_records_with_text": 18,
         "literal_english_source_blocks": 20,
         "no_commentary_records": 26
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-13-release",
       "range": "ŚB 10.13.1–10.13.64",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/13/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/12-17/13.md",
@@ -6629,12 +6649,14 @@
         "sridhara_records_with_text": 35,
         "literal_english_source_blocks": 39,
         "no_commentary_records": 28
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-14-release",
       "range": "ŚB 10.14.1–10.14.61",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/14/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/12-17/14.md",
@@ -6719,12 +6741,14 @@
         "sridhara_records_with_text": 48,
         "literal_english_source_blocks": 49,
         "no_commentary_records": 13
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-15-release",
       "range": "ŚB 10.15.1–10.15.53",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/15/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/12-17/15.md",
@@ -6783,12 +6807,14 @@
         "sridhara_records_with_text": 5,
         "literal_english_source_blocks": 27,
         "no_commentary_records": 48
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-16-release",
       "range": "ŚB 10.16.1–10.16.67",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/16/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/12-17/16.md",
@@ -6869,12 +6895,14 @@
         "sridhara_records_with_text": 31,
         "literal_english_source_blocks": 41,
         "no_commentary_records": 36
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-17-release",
       "range": "ŚB 10.17.1–10.17.25",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/17/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/12-17/17.md",
@@ -6913,12 +6941,14 @@
         "sridhara_records_with_text": 4,
         "literal_english_source_blocks": 8,
         "no_commentary_records": 21
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-18-release",
       "range": "ŚB 10.18.1–10.18.32",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/18/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/18.md",
@@ -6968,12 +6998,14 @@
         "sridhara_records_with_text": 6,
         "literal_english_source_blocks": 18,
         "no_commentary_records": 26
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-19-release",
       "range": "ŚB 10.19.1–10.19.16",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/19/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/19.md",
@@ -7016,12 +7048,14 @@
         "sridhara_records_with_text": 5,
         "literal_english_source_blocks": 12,
         "no_commentary_records": 11
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-20-release",
       "range": "ŚB 10.20.1–10.20.49",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/20/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/20.md",
@@ -7074,12 +7108,14 @@
         "sridhara_records_with_text": 11,
         "literal_english_source_blocks": 17,
         "no_commentary_records": 38
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-21-release",
       "range": "ŚB 10.21.1–10.21.20",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/21/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/21.md",
@@ -7126,12 +7162,14 @@
         "sridhara_records_with_text": 16,
         "literal_english_source_blocks": 17,
         "no_commentary_records": 4
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-22-release",
       "range": "ŚB 10.22.1–10.22.38",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/22/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/22.md",
@@ -7198,12 +7236,14 @@
         "sridhara_records_with_text": 29,
         "literal_english_source_blocks": 33,
         "no_commentary_records": 9
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-23-release",
       "range": "ŚB 10.23.1–10.23.52",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/23/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/23.md",
@@ -7283,12 +7323,14 @@
         "sridhara_records_with_text": 26,
         "literal_english_source_blocks": 40,
         "no_commentary_records": 26
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-24-release",
       "range": "ŚB 10.24.1–10.24.38",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/24/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/24.md",
@@ -7355,12 +7397,14 @@
         "sridhara_records_with_text": 32,
         "literal_english_source_blocks": 34,
         "no_commentary_records": 6
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-25-release",
       "range": "ŚB 10.25.1–10.25.33",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/25/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/25.md",
@@ -7419,12 +7463,14 @@
         "sridhara_records_with_text": 19,
         "literal_english_source_blocks": 25,
         "no_commentary_records": 14
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-26-release",
       "range": "ŚB 10.26.1–10.26.25",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/26/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/26.md",
@@ -7474,12 +7520,14 @@
         "sridhara_records_with_text": 15,
         "literal_english_source_blocks": 19,
         "no_commentary_records": 10
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-27-release",
       "range": "ŚB 10.27.1–10.27.28",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/27/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/27.md",
@@ -7535,12 +7583,14 @@
         "sridhara_records_with_text": 23,
         "literal_english_source_blocks": 25,
         "no_commentary_records": 5
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-28-release",
       "range": "ŚB 10.28.1–10.28.17",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/28/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/18-28/28.md",
@@ -7584,12 +7634,14 @@
         "sridhara_records_with_text": 11,
         "literal_english_source_blocks": 13,
         "no_commentary_records": 6
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-29-release",
       "range": "ŚB 10.29.1–10.29.48",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/29/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/29-33_rasa-panchAdhyAya/29.md",
@@ -7658,12 +7710,14 @@
         "sridhara_records_with_text": 36,
         "literal_english_source_blocks": 36,
         "no_commentary_records": 12
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-30-release",
       "range": "ŚB 10.30.1–10.30.44",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/30/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/29-33_rasa-panchAdhyAya/30_atha-triMshodhyAyaH_unnumbered.md",
@@ -7732,12 +7786,14 @@
         "sridhara_records_with_text": 23,
         "literal_english_source_blocks": 28,
         "no_commentary_records": 21
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-31-release",
       "range": "ŚB 10.31.1–10.31.19",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/31/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/29-33_rasa-panchAdhyAya/31_athaikatriMshodhyAyaH_unnumbered.md",
@@ -7783,12 +7839,14 @@
         "sridhara_records_with_text": 18,
         "literal_english_source_blocks": 18,
         "no_commentary_records": 1
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-32-release",
       "range": "ŚB 10.32.1–10.32.22",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/32/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/29-33_rasa-panchAdhyAya/32_atha-dvAtriMshodhyAyaH_unnumbered.md",
@@ -7828,12 +7886,14 @@
         "sridhara_records_with_text": 8,
         "literal_english_source_blocks": 8,
         "no_commentary_records": 14
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-33-release",
       "range": "ŚB 10.33.1–10.33.39",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/33/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/29-33_rasa-panchAdhyAya/33_atha-trayastriMshodhyAyaH_unnumbered.md",
@@ -7899,12 +7959,14 @@
         "sridhara_records_with_text": 36,
         "literal_english_source_blocks": 36,
         "no_commentary_records": 3
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-34-release",
       "range": "ŚB 10.34.1–10.34.32",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/34/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/34.md",
@@ -7945,12 +8007,14 @@
         "sridhara_records_with_text": 9,
         "literal_english_source_blocks": 8,
         "no_commentary_records": 23
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-35-release",
       "range": "ŚB 10.35.1–10.35.26",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/35/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/35.md",
@@ -7990,12 +8054,14 @@
         "sridhara_records_with_text": 22,
         "literal_english_source_blocks": 12,
         "no_commentary_records": 4
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-36-release",
       "range": "ŚB 10.36.1–10.36.40",
-      "status": "source-checked-and-reader-committed",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/36/advanced-view/",
       "english_source_note": "The pinned Vedabase mirror was used as the main Sanskrit/transliteration/synonyms cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/36.md",
@@ -8064,12 +8130,14 @@
       "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; Vedabase and the English mirror are cross-checks, not copied prose.",
       "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
       "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
-      "live_render": null
+      "live_render": null,
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-37-release",
       "range": "ŚB 10.37.1–10.37.34",
-      "status": "source-checked-and-reader-committed",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/37/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/37.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -8091,7 +8159,12 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available."
+      "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available.",
+      "repaired_at": "2026-09-22",
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch37-verses01-34.json"
+      ]
     },
     {
       "id": "canto-10-chapter-38-release",
@@ -8134,7 +8207,10 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Repaired 10.38.37 into a full Śrīdhara word-for-word sequence."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch38-verses01-43.json"
+      ]
     },
     {
       "id": "canto-10-chapter-39-release",
@@ -8171,7 +8247,10 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after source-lock, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for all commentary-bearing source ranges; explicit no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch39-verses01-57.json"
+      ]
     },
     {
       "id": "canto-10-chapter-40-release",
@@ -8199,7 +8278,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for every commentary-bearing source block; explicit no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-41-release",
@@ -8251,7 +8330,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for every commentary-bearing source block; explicit no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-42-release",
@@ -8289,7 +8368,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for every commentary-bearing source block; explicit no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-43-release",
@@ -8335,7 +8414,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-44-release",
@@ -8391,7 +8470,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-45-release",
@@ -8437,7 +8516,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-46-release",
@@ -8479,7 +8558,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-47-release",
@@ -8517,7 +8596,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-48-release",
@@ -8553,7 +8632,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-49-release",
@@ -8579,7 +8658,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-50-release",
@@ -8615,7 +8694,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-51-release",
@@ -8673,7 +8752,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-52-release",
@@ -8699,7 +8778,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-53-release",
@@ -8727,7 +8806,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-54-release",
@@ -8773,7 +8852,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-55-release",
@@ -8823,7 +8902,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-56-release",
@@ -8871,7 +8950,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-57-release",
@@ -8909,7 +8988,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-58-release",
@@ -8969,7 +9048,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-59-release",
@@ -9005,7 +9084,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-60-release",
@@ -9033,7 +9112,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-61-release",
@@ -9081,7 +9160,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-62-release",
@@ -9131,7 +9210,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-63-release",
@@ -9187,7 +9266,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-64-release",
@@ -9239,7 +9318,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-65-release",
@@ -9275,7 +9354,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-66-release",
@@ -9335,7 +9414,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-67-release",
@@ -9377,7 +9456,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-68-release",
@@ -9427,7 +9506,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-69-release",
@@ -9479,7 +9558,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-70-release",
@@ -9523,7 +9602,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-71-release",
@@ -9561,7 +9640,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-72-release",
@@ -9597,7 +9676,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-73-release",
@@ -9633,7 +9712,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-74-release",
@@ -9701,7 +9780,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-75-release",
@@ -9753,7 +9832,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-76-release",
@@ -9793,7 +9872,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-77-release",
@@ -9833,7 +9912,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-78-release",
@@ -9871,7 +9950,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-79-release",
@@ -9921,7 +10000,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-80-release",
@@ -9969,7 +10048,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-81-release",
@@ -10034,7 +10113,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-82-release",
@@ -10106,7 +10185,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-83-release",
@@ -10173,7 +10252,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-84-release",
@@ -10266,7 +10345,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-85-release",
@@ -10312,7 +10391,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-86-release",
@@ -10362,7 +10441,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-87-release",
@@ -10398,7 +10477,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-88-release",
@@ -10448,7 +10527,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-89-release",
@@ -10532,7 +10611,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-90-release",
@@ -10584,7 +10663,7 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed generated placeholder glosses; restored source-backed Śrīdhara glosses where available and audited the remaining lexical rows against the pinned Sanskrit source. Exact no-commentary markers preserved."
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-3-chapter-1-release",
