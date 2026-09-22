@@ -63,6 +63,7 @@ function normaliseSpelling(value){
     [/Ishvara/gi,'Īśvara'],
     [/Devata/gi,'Devatā'],
     [/Narad/gi,'Nārada'],
+    [/Garud\b/gi,'Garuḍa'],
     [/Srimad/gi,'Śrīmad'],
     [/Suta/gi,'Sūta'],
     [/Purva[- ]Paksha/gi,'Pūrvapakṣa'],
@@ -132,7 +133,7 @@ function sentenceTitle(value){
     ['itihāsas','Itihāsas'],['dharmaśāstra','Dharmaśāstra'],['dharmaśāstras','Dharmaśāstras'],
     ['pūrvapakṣa','Pūrvapakṣa'],['mīmāṃsā','Mīmāṃsā'],['śaṅkara','Śaṅkara'],['śaṅkarācārya','Śaṅkarācārya']
   ];
-  for(const [from,to] of proper)text=text.replace(new RegExp('\\b'+from+'\\b','gu'),to);
+  for(const [from,to] of proper)text=text.replace(new RegExp('(?<!\\p{L})'+from+'(?!\\p{L})','gu'),to);
   text=text.charAt(0).toLocaleUpperCase()+text.slice(1);
   return text;
 }
