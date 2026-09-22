@@ -90,10 +90,71 @@
       "end": 8,
       "source_marker": "१०.६०.८",
       "sanskrit": "उपाच्युतम् अच्युतस्य समीपे सा मणि-नूपुराभ्यां रेजे । क्वणयती मणि-मयौ नूपुरी कूजयन्ती, तथा अङ्गुलीय-वलय-व्यजनान्य् अग्र-हस्ते हस्ताग्रे यस्याः सा । वस्त्रान्तेन गूढौ स्थगितौ कुचौ, तयोः कुङ्कुमं, तेन शोणो हारः, तस्य भासा नितम्बे धृता या परार्घ्या अमूल्या काञ्ची, तया च रेजे ॥८॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "उपाच्युतम्",
+          "near Acyuta"
+        ],
+        [
+          "अच्युतस्य समीपे",
+          "close to Acyuta"
+        ],
+        [
+          "सा रेजे",
+          "she shone"
+        ],
+        [
+          "मणि-नूपुराभ्याम्",
+          "with jewel anklets"
+        ],
+        [
+          "क्वणयती",
+          "tinkling"
+        ],
+        [
+          "मणि-मयौ नूपुरी",
+          "two jewel anklets"
+        ],
+        [
+          "कूजयन्ती",
+          "sounding"
+        ],
+        [
+          "अङ्गुलीय-वलय-व्यजनानि",
+          "rings, bracelets and fans"
+        ],
+        [
+          "अग्र-हस्ते हस्ताग्रे यस्याः सा",
+          "in whose forward hands and fingertips they were"
+        ],
+        [
+          "वस्त्र-अन्तेन गूढौ स्थगितौ कुचौ",
+          "whose two breasts were concealed and covered by the ends of her garment"
+        ],
+        [
+          "तयोः कुङ्कुमम्",
+          "saffron on them"
+        ],
+        [
+          "तेन शोणः हारः",
+          "by it, her necklace was red"
+        ],
+        [
+          "तस्य भासा",
+          "by its radiance"
+        ],
+        [
+          "नितम्बे धृता या परार्घ्या अमूल्या काञ्ची",
+          "the priceless, most precious belt worn on her hips"
+        ],
+        [
+          "तया च रेजे",
+          "she also shone with it"
+        ]
+      ],
+      "literal_english": "Rukmiṇī shone near Acyuta with jewel anklets, which tinkled and sounded. She wore rings, bracelets and fans on her hands and fingertips. Her two breasts were concealed by the ends of her garment; saffron was applied to them, making her necklace red. By the necklace’s radiance, the priceless, most precious belt worn on her hips also shone.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Sanskrit-first word-for-word and literal English repair completed."
     },
     {
       "canto": 10,
