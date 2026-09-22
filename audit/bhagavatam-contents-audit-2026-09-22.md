@@ -37,4 +37,4 @@ Canto 11 remains publicly accessible so existing material is not removed. Its vi
 
 ## Next release
 
-Canto 10.39 is held until the combined repair gate is formally closed. After that, release exactly one completed chapter at a time, with its data, reader route, Contents entry, and checkpoint updated together.
+The combined repair gate is now closed. Canto 10.39 is the next release; after that, publish exactly one completed chapter at a time with its data, reader route, Contents entry, and checkpoint updated together.
