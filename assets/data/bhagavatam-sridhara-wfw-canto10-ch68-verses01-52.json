@@ -542,8 +542,10 @@
       "sanskrit": "[+++]{।मर्क्}",
       "word_for_word": [],
       "literal_english": "",
-      "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source gap recorded exactly. The witness contains [+++]{।मर्क्}, so no Sanskrit or translation is supplied.",
+      "source_gap": true,
+      "source_gap_reason": "The pinned witness contains an OCR/source placeholder rather than Śrīdhara Sanskrit; no gloss is invented."
     },
     {
       "canto": 10,
@@ -571,8 +573,10 @@
       "sanskrit": "[+++]{।मर्क्}",
       "word_for_word": [],
       "literal_english": "",
-      "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source gap recorded exactly. The witness contains [+++]{।मर्क्}, so no Sanskrit or translation is supplied.",
+      "source_gap": true,
+      "source_gap_reason": "The pinned witness contains an OCR/source placeholder rather than Śrīdhara Sanskrit; no gloss is invented."
     },
     {
       "canto": 10,
