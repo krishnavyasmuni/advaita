@@ -32,6 +32,15 @@ The pinned Śrīdhara source has no separate commentary block for exactly these 
 
 Those verses intentionally render without Śrīdhara commentary panels. All other visible verses have a source-backed Śrīdhara block, including BG 18.1–18.78.
 
+## Full content audit — 2026-09-22
+
+- Sanskrit and transliteration: 701/701 pinned Vedic Scriptures records loaded with non-empty fields.
+- Mukundananda English: 701/701 pinned author records loaded with non-empty translations.
+- Word-for-word meanings: 701/701 visible verses produce non-empty source-backed panels after all 49 grouped records are split; the 8 source-specific multi-line boundary rules were checked.
+- Śrīdhara source mapping: the generated manifest matches the pinned source parser for all 18 chapters, with no overlaps or unmapped verses beyond BG 1.11, 1.47, 12.6, and 13.35, where the source has no Śrīdhara block.
+- Grouped English translations now render only on the first verse of their pinned range; later cards do not fall back to a different translator.
+- All 18 chapter shells point to the audited reader build. JavaScript syntax and chapter counts passed.
+
 ## Validation
 
 - JavaScript syntax check passed.

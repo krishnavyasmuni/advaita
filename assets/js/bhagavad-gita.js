@@ -754,7 +754,7 @@
 
   const GITA_DATA_COMMIT = '27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb';
   const GITA_DATA_BASE = 'https://raw.githubusercontent.com/gita/gita-frontend-v2/' + GITA_DATA_COMMIT + '/data/';
-  const VASUKI_MANIFEST_URL = '/vivekadrishti/assets/data/bhagavad-gita-vasuki-manifest.json?v=20260922-commentary-map-1';
+  const VASUKI_MANIFEST_URL = '/vivekadrishti/assets/data/bhagavad-gita-vasuki-manifest.json?v=20260922-content-audit-1';
 
   const fetchJson = (url) => fetch(url).then((response) => {
     if (!response.ok) throw new Error('Could not load ' + url);
@@ -1063,7 +1063,9 @@
           ? (override.wordMeaning || c.word_meanings || '')
           : pickWordMeaning(c, n),
         wordMeaningShared: null,
-        mukEnglish: (mukRange.start === n ? (m.translation || '') : '') || apiTranslation,
+        mukEnglish: mukRange.start === n
+        ? (m.translation || apiTranslation)
+        : '',
         srid: sridharaCommentary,
         translatedCommentary
       };
