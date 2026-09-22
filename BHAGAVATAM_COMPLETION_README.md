@@ -94,7 +94,7 @@ The current release ledger has been cleaned to retain only the verified public C
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 0d39797150a6888ce4905fb8c4763d49e41aad82
+last_audited_data_commit: 73e92c7e9a33135d15ee2294e967cb92a05520d0
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -107,7 +107,7 @@ current_contents_link_groups:
 visible_contents_link_count: 183
 manifest_chapter_count: 335
 latest_verified_release: 10.90
-latest_release_status: SOURCE_CHECKED_AND_READER_COMMITTED
+latest_release_status: SOURCE_CHECKED_AND_REPAIRED
 latest_release_source_blob_sha: b0155e944f113a22deb1908d24482636020e2eeb
 latest_release_expected_verses: 42
 latest_release_sridhara_blocks: 28
@@ -123,18 +123,22 @@ canto_3_verified_chapters: 3.1-3.33
 canto_3_source_ranges: 1288
 canto_3_source_blocks: 860
 canto_3_no_commentary_records: 420
-canto_10_audit_status: COMPLETE_SOURCE_CHECKED
+canto_10_audit_status: SOURCE_CHECKED_AND_REPAIRED
 canto_10_verified_chapters: 10.1-10.90
 canto_10_source_ranges: 3768
 canto_10_source_blocks: 2607
 canto_10_wfw_entries: 3768
 canto_10_no_commentary_records: 989
+canto_10_post_repair_records_checked: 3748
+canto_10_post_repair_wfw_rows_checked: 10159
+canto_10_placeholder_rows: 0
+canto_10_forbidden_filler_rows: 0
 canto_11_audit_status: FAILED_FULL_VERIFICATION
 canto_11_verified_chapters: none under the full-verse standard
 canto_11_source_ranges: 1368
 canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23, 11.5.17, 11.5.23, 11.5.51, 11.6.2–11.6.3, 11.6.6, 11.6.7, 11.6.13, 11.6.14, 11.6.15, 11.6.20, 11.6.23, 11.6.24, 11.6.25, 11.6.26, 11.6.27, 11.6.28, 11.6.31, 11.6.32, 11.6.33, 11.6.34, 11.6.39, 11.6.40–11.6.41, 11.6.43, 11.6.44, 11.6.47, 11.6.50, 11.7.2, 11.7.6, 11.7.13, 11.7.15, 11.7.25, 11.7.31, 11.7.56, 11.7.59, 11.7.62, 11.7.65, 11.7.69–11.7.70, 11.7.73, 11.13.20, 11.14.40, 11.16.13, 11.16.15, 11.17.8, 11.17.18, 11.17.27, 11.17.46, 11.18.23, 11.19.12, 11.23.8, 11.23.12, 11.23.37, 11.25.10, 11.26.30, 11.29.28, 11.29.30, 11.30.25, 11.30.34–11.30.37, 11.30.39, 11.30.41, 11.30.43, 11.30.45, 11.30.47, 11.31.4, 11.31.19, 11.31.20, 11.31.23–11.31.24, 11.31.25–11.31.26
 next_resume_target: 4.1
-resume_note: "Canto 3.1–3.33 and Canto 10.1–10.90 are source-checked, reader-committed, and published chapter by chapter. The next target is Canto 4.1; Cantos 4–9 and 12 remain."
+resume_note: "Canto 10.1–10.90 was re-audited after publication: the pinned Sanskrit/source mapping remains intact, generated placeholder glosses were removed, and the committed files were re-fetched with zero forbidden filler rows. The next target is Canto 4.1; Cantos 4–9 and 12 remain."
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
