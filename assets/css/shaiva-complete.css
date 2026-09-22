@@ -179,3 +179,64 @@
   color:#817970;
   font:400 11px/1.5 Merriweather,Georgia,serif;
 }
+
+/* Match the reference article's native disclosures and restrained subsection rhythm. */
+.shaiva-article-page #source-content details.sanskrit-reveal{margin:8px 0 15px}
+.shaiva-article-page #source-content details.sanskrit-reveal summary{cursor:pointer;user-select:none}
+.shaiva-article-page #source-content details.sanskrit-reveal [lang="sa-Deva"]{white-space:pre-line;overflow-wrap:break-word}
+.shaiva-article-page .article h3.shaiva-subheading{
+  margin:0;
+  padding:0;
+  color:var(--teal);
+  font-family:Vollkorn,Georgia,serif;
+  font-size:30px;
+  line-height:1.2;
+  font-weight:400;
+  text-align:center;
+  overflow-wrap:break-word;
+}
+.shaiva-article-page .article h3.shaiva-subheading:after{
+  display:block;
+  content:"";
+  width:260px;
+  max-width:40%;
+  height:2px;
+  margin:30px auto 42px;
+  background:var(--rule);
+}
+.shaiva-article-page #source-content p.translation .shaiva-verse-reference{
+  display:block;
+  margin-top:10px;
+  color:#817970;
+  font:400 11px/1.45 Merriweather,Georgia,serif;
+  letter-spacing:0;
+}
+/* Keep source tables aligned without the spreadsheet-like card treatment. */
+.shaiva-article-page #source-content .shaiva-parallel{
+  border:0;
+  border-radius:0;
+  border-collapse:collapse;
+  background:transparent;
+  box-shadow:none;
+}
+.shaiva-article-page #source-content .shaiva-parallel th,
+.shaiva-article-page #source-content .shaiva-parallel td{
+  padding:17px 16px;
+  border:0;
+  border-bottom:1px solid #ddd8d2;
+}
+.shaiva-article-page #source-content .shaiva-parallel thead th{
+  padding:0 16px 11px;
+  background:transparent;
+  color:#817970;
+  font:700 11px/1.45 Merriweather,Georgia,serif;
+}
+.shaiva-article-page #source-content .shaiva-parallel th:first-child,
+.shaiva-article-page #source-content .shaiva-parallel td:first-child{padding-left:0}
+.shaiva-article-page #source-content .shaiva-parallel th:last-child,
+.shaiva-article-page #source-content .shaiva-parallel td:last-child{padding-right:0}
+.shaiva-article-page #source-content .shaiva-parallel tbody tr:nth-child(even) td{background:transparent}
+@media(max-width:620px){
+  .shaiva-article-page .article h3.shaiva-subheading{font-size:25px;line-height:1.25}
+  .shaiva-article-page .article h3.shaiva-subheading:after{width:160px;max-width:52%;margin:21px auto 31px}
+}
