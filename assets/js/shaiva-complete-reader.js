@@ -98,7 +98,7 @@ function navLink(anchor,s,label){
  if(!s){anchor.classList.add('disabled');anchor.removeAttribute('href');return;}
  anchor.classList.remove('disabled');anchor.href=href(s);anchor.append(document.createTextNode(s.title));
 }
-function readPreference(){try{const value=sessionStorage.getItem('shaiva-show-sanskrit');return value===null||value==='true';}catch{return true;}}
+function readPreference(){try{return sessionStorage.getItem('shaiva-show-sanskrit')==='true';}catch{return false;}}
 function writePreference(on){try{sessionStorage.setItem('shaiva-show-sanskrit',String(on));}catch{}}
 async function render(){
  const pages=await load(),sections=sectionsFrom(pages);
@@ -126,7 +126,7 @@ async function render(){
  }
  root.replaceChildren(content);
  const toggle=document.getElementById('shaiva-sanskrit-toggle');
- const sanskritNodes=Array.from(root.querySelectorAll('.shaiva-sanskrit,.shaiva-parallel__sanskrit'));
+ const sanskritNodes=Array.from(root.querySelectorAll('.shaiva-sanskrit'));
  if(!sanskritNodes.length)toggle.parentElement.hidden=true;
  else{
   let show=readPreference();
