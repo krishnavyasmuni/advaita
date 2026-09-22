@@ -12746,6 +12746,34 @@
       "notes": "Chapter published after pinned-source, exact-range, word-for-word, no-commentary, and source-heading-normalization checks.",
       "released_at": "2026-09-22",
       "release_note": "Published Canto 12.3 with exact pinned source mapping, including the source’s underscore-formatted 12.3.29 heading, and independently translated Śrīdhara word meanings."
+    },
+    {
+      "id": "canto-12-chapter-4-release",
+      "range": "ŚB 12.4.1–12.4.43",
+      "status": "source-checked-and-released",
+      "english_source": "https://vedabase.io/en/library/sb/12/4/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShnavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/12/04_pralaya-varNanaM_nAma.md",
+      "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "215dd96fd58c45c96f6df9a0884bb49e66b16e9f",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/12/04_pralaya-varNanaM_nAma.md",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto12-ch04.json"
+      ],
+      "records_checked": 43,
+      "exact_sridhara_source_blocks": 40,
+      "no_commentary_ranges": [
+        "12.4.12",
+        "12.4.15–12.4.16"
+      ],
+      "source_gap_ranges": [
+        "12.4.12",
+        "12.4.15–12.4.16"
+      ],
+      "live_render": null,
+      "generated_at": "2026-09-22",
+      "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
+      "released_at": "2026-09-22",
+      "release_note": "Published Canto 12.4 with exact pinned source mapping and independently translated Śrīdhara word meanings."
     }
   ],
   "generated_at": "2026-09-21"
