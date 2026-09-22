@@ -66,11 +66,27 @@
       "sanskrit": "तद् आह---शुद्ध्य्-अशुद्धी इति । विचिकित्सार्थं योग्यम् अयोग्यं वेति सन्देह-द्वारा स्वाभाविक-प्रवृत्ति-प्रतिबन्धार्थम् इत्य् अर्थः । तत्र शुद्ध्य्-अशुद्धी योग्यत्वायोग्यत्वे । गुण-दोषौ तन्-निमित्तोपादेयत्वानुपादेयत्वे । शुभाशुभौ तन्-निमित्ताव् अर्थानर्थौ ॥३॥",
       "word_for_word": [
         [
-          "गुण-दोष",
+          "शुद्ध्य्-अशुद्धी",
+          "purity and impurity"
+        ],
+        [
+          "योग्यम्-अयोग्यम्",
+          "what is proper and improper"
+        ],
+        [
+          "गुण-दोषौ",
           "quality and fault"
+        ],
+        [
+          "शुभ-अशुभौ",
+          "auspicious and inauspicious"
+        ],
+        [
+          "अर्थ-अनर्थौ",
+          "benefit and harm"
         ]
       ],
-      "literal_english": "The teaching begins by distinguishing the Lord’s path from lesser, unstable aims. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "Purity and impurity concern fitness; quality and fault concern what is to be accepted or rejected; auspicious and inauspicious concern benefit and harm."
     },
     {
       "canto": 11,
@@ -194,11 +210,27 @@
       "sanskrit": "कालस्य शुद्ध्य्-अशुद्धी दर्शयति---कर्मण्य इति । द्रव्यतो द्रव्य-सम्पत्त्या स्वतो वा पूर्वाह्णादिर् यः कर्मण्यः कर्मार्हः, स कालस् तस्मिन् कर्मणि गुणवान् । यतो यस्मिन् द्रव्यालाभेन वा राष्ट्र-विप्लवादिना वा कर्म निर्वतते । यश् च सूतकादौ दशाहादि-लक्षणोऽकर्मकः कर्मानर्हः स्मृतः स कालो दोषः, अशुद्ध इत्य् अर्थः ॥९॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "कालस्य",
+          "of time"
+        ],
+        [
+          "कर्मण्यः",
+          "fit for action"
+        ],
+        [
+          "द्रव्य-सम्पत्त्या",
+          "through availability of materials"
+        ],
+        [
+          "अकर्मकः",
+          "unfit for action"
+        ],
+        [
+          "सूतकादौ",
+          "during periods of ritual impurity"
         ]
       ],
-      "literal_english": "The proper duty is defined by qualification, purification, and freedom from fruitive desire. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "A time is fit for action when the needed materials and circumstances are available. A time marked by sūtaka and similar impurity is unfit for the action."
     },
     {
       "canto": 11,
@@ -234,11 +266,27 @@
       "sanskrit": "शक्त्याशक्त्या सूर्योपरागादि-सूतकान् नादेः शक्तान् प्रत्य् अशुद्धिः, अशक्तान् प्रति शुद्धिः । बुद्ध्या पुत्र-जननादौ दशाहाद् वहिर् ज्ञानेन शुद्धिर् अन्तर् ज्ञानेनाशुद्धिः । समृद्ध्या जीर्ण-मल-वद् वस्त्रादेः समृद्धं प्रत्य् अशुद्धिर् दरिद्रं प्रति शुद्धिः । तत्रापि विशेषम् आह---यद् इति । एते च द्रव्य-वचनादयो द्रव्याशुद्धि-द्वारा आत्मने यद् अघं कुर्वन्ति तद् देशावस्थानुसारत एव यथा यथावत् कुर्वन्ति न सर्वतः । तथा हि, निर्भय एव देशी कुर्वन्ति, न तु चौराद्य्-आकुले । तथा रोगादि-व्यक्ति-रिक्त-युवाद्य्-अवस्थानाम् एव कुर्वन्ति, न बाल्य-रोगाद्य्-अवस्थायाम् इति । तथा च स्मृतिः---\n\n> देशं कालं तथात्मानं द्रव्यं द्रव्य-प्रयोजनम् । >\n> उपपत्तिम् अवस्थां च ज्ञात्वा शौचं प्रकल्पयेत् ॥ इति ॥११।",
       "word_for_word": [
         [
-          "ज्ञान",
-          "knowledge"
+          "शक्त्याशक्त्या",
+          "according to ability or inability"
+        ],
+        [
+          "शुद्धिः",
+          "purity"
+        ],
+        [
+          "अशुद्धिः",
+          "impurity"
+        ],
+        [
+          "देश-काल-अवस्था",
+          "place, time, and condition"
+        ],
+        [
+          "शौचम्",
+          "purification / cleanliness"
         ]
       ],
-      "literal_english": "The proper duty is defined by qualification, purification, and freedom from fruitive desire. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "Purity is applied according to a person's ability, knowledge, resources, place, time, and condition; the same rule is not imposed identically in every circumstance."
     },
     {
       "canto": 11,
@@ -298,11 +346,31 @@
       "sanskrit": "एवं तावद् द्रव्य-शुद्धिर् उक्ता, इदानीं कर्तृ-शुद्धिम् आह---स्नानेति । अवस्था कौमारादिः । वीर्यं शक्तिः । संस्कार उपनयनादिः । कर्म सन्ध्योपासन-दीक्षादि-लक्षणम् । आत्मनः साहङ्कारस्य कर्तुर् एतैः स्नानादिभिर् यथा-यथं तत्-कार्यानुसारिणी शुद्धिः । इयं च शुद्धिर् न व्यवहारार्था, किन्तु विहित-कर्मार्थेत्य् आह---शुद्धा इति । द्विज इत्य् उपलक्षणं शुद्रादेर् अपि ॥१४॥",
       "word_for_word": [
         [
+          "अवस्था",
+          "life stage"
+        ],
+        [
+          "वीर्यम्",
+          "strength"
+        ],
+        [
+          "संस्कारः",
+          "purificatory rite"
+        ],
+        [
           "कर्म",
-          "action"
+          "religious action"
+        ],
+        [
+          "स्नानादिभिः",
+          "by bathing and the like"
+        ],
+        [
+          "कर्तुः शुद्धिः",
+          "the agent's purification"
         ]
       ],
-      "literal_english": "The proper duty is defined by qualification, purification, and freedom from fruitive desire. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "The agent is purified, according to his circumstances, by bathing and other rites, by strength, life stage, and prescribed action; this purification serves the performance of duty."
     },
     {
       "canto": 11,
@@ -334,11 +402,27 @@
       "sanskrit": "अयं च गुण-दोष-विभागो न वास्तव इत्य् आह---क्वचिद् इति । आपदि प्रतिग्रहो गुणोऽप्य् अनापदि निषिद्धत्वाद् दोषः । पर-धर्मश् च परस्य गुणोऽपि स्वस्य दोषः । दोषोऽपि कुटुम्ब-त्यागादिर् विरक्तादेर् न दोषः, अपि तु विधि-बलेन गुणः । एवं योऽयं गुण-दोषयोर् एकस्मिन्न् अर्थे नियमो, गुण-दोषार्थं वा यो नियमो नियामकं शास्त्रं स तयोर् भेदम् एव बाधते ॥१६॥",
       "word_for_word": [
         [
-          "गुण-दोष",
-          "quality and fault"
+          "गुण-दोष-विभागः",
+          "the division of quality and fault"
+        ],
+        [
+          "आपदि प्रतिग्रहः",
+          "acceptance in distress"
+        ],
+        [
+          "पर-धर्मः",
+          "another person's duty"
+        ],
+        [
+          "विरक्तस्य",
+          "for a detached person"
+        ],
+        [
+          "नियमः",
+          "a rule"
         ]
       ],
-      "literal_english": "The proper duty is defined by qualification, purification, and freedom from fruitive desire. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "The quality-and-fault distinction is contextual: accepting gifts may be proper in distress, another person's duty is not one's own, and what is a fault for one person may be a virtue for a detached person."
     },
     {
       "canto": 11,
@@ -350,11 +434,27 @@
       "sanskrit": "दोषस्य क्वचिद् दोषत्वाभावे गुणत्वे चोदाहरणं दर्शयति । समानस्य तस्यैव कर्मणः सुरा-पानादेर् आचरणम् अपतितानां पतन-हेतुर् अपि जात्या कर्मणा वा पतितानां पुनः पातकम् अधिकार-भ्रंशकं न भवति, पूर्वम् एव पतितत्वात् । अतोऽत्र दोषस्यापि दोषता नास्तीत्य् अर्थः । तथा सङ्गोऽपि यो यतेर् दोषः, स गृहस्थस्यौत्पत्तिकः पूर्व-स्वीकृतो न दोषः, अपि तु गुणः । ऋतौ भार्याम् उपेयात् इत्य्-आदि-विधानात् । उभयत्र दृष्टान्तः---पूर्वम् एवाधः शयानो यथा न पततीति ॥१७॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "समानस्य कर्मणः",
+          "of the same action"
+        ],
+        [
+          "सुरा-पानम्",
+          "drinking liquor"
+        ],
+        [
+          "पतितानाम्",
+          "for those already fallen"
+        ],
+        [
+          "यतेः सङ्गः",
+          "attachment for an ascetic"
+        ],
+        [
+          "गृहस्थस्य गुणः",
+          "a virtue for a householder"
         ]
       ],
-      "literal_english": "The analysis turns to sense-control, the modes, and the way knowledge and devotion steady the practitioner. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "The same action can differ by qualification: drinking liquor is not a new fall for one already fallen, and attachment that is a fault for an ascetic is natural and duty-bound for a householder."
     },
     {
       "canto": 11,
@@ -366,11 +466,19 @@
       "sanskrit": "अतो गुण-दोष-नियम-विधीनां प्रवृत्ति-सङ्कोच-द्वारा निवृत्ताव् एव तात्पर्यम् इत्य् अभिप्रेत्याह---यतो यत इति ॥१८॥",
       "word_for_word": [
         [
-          "गुण-दोष",
-          "quality and fault"
+          "गुण-दोष-नियम-विधीनाम्",
+          "of the rules concerning quality and fault"
+        ],
+        [
+          "प्रवृत्ति-सङ्कोच-द्वारा",
+          "through restricting engagement"
+        ],
+        [
+          "निवृत्तौ तात्पर्यम्",
+          "the aim is withdrawal"
         ]
       ],
-      "literal_english": "The analysis turns to sense-control, the modes, and the way knowledge and devotion steady the practitioner. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "The regulations of quality and fault ultimately aim at withdrawal by restricting material engagement."
     },
     {
       "canto": 11,
@@ -478,11 +586,27 @@
       "sanskrit": "ननु प्रवृत्तस्य स्वर्गादि-फल-श्रवणात् कुतः स्वर्थ-विभ्रंशः ? तत्राह---फल-श्रुतिर् इति । इयं फल-श्रुतिर् न श्रेयः, परम-पुरुषार्थ-परा न भवतीत्य् अर्थः । किन्तु बहिर्मुखानां नॄणां मोक्ष-विवक्षयाऽवान्तर-फलैः कर्मसु रुच्य्-उत्पादन-मात्रम् । यथा भैषज्ये औषधे रोचनं रुच्य्-उत्पादनम् । तथा हि,\n\n> पिबति निम्बं प्रदास्यामि खलु ते खण्ड-लड्डुकान् । >\n> पित्रैवम् उक्तः पिबति न फलं तावद् एव तु ॥ इति ।\n\nतथा मातृ-वाक्यं च, शिखा ते वर्धते वत्स गुडूचीं श्रद्धया पिब इति । न फलं तावद् एव तु, किन्त्व् आरोग्यम् ॥२३॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "फल-श्रुतिः",
+          "the promise of a result"
+        ],
+        [
+          "न श्रेयः",
+          "not the highest good"
+        ],
+        [
+          "अवान्तर-फलैः",
+          "through intermediate results"
+        ],
+        [
+          "रुचि-उत्पादनम्",
+          "producing interest"
+        ],
+        [
+          "भैषज्य-रोचनम्",
+          "making medicine palatable"
         ]
       ],
-      "literal_english": "The analysis turns to sense-control, the modes, and the way knowledge and devotion steady the practitioner. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "The promised fruits of action are not the highest good; they merely create interest in practice through intermediate results, like making bitter medicine palatable."
     },
     {
       "canto": 11,
@@ -494,11 +618,31 @@
       "sanskrit": "ननु कर्म-काण्डे मोक्षस्य नामापि न श्रूयते, कुत एवं व्याख्यायते ? यथा-श्रुतस्याघटनाद् इत्य् आह---उत्पत्त्येति द्वाभ्याम् । उत्पत्त्या स्वभावत एव कामेषु पश्व्-आदिषु प्राणेष्व् आयुर्-इन्द्रिय-बल-वीर्यादिषु । स्व-जनेषु पुत्रादिषु । अनर्थ-हेतुषु परिपाकतो दुःख-हेतुषु ॥२४॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "उत्पत्त्या",
+          "by natural arising"
+        ],
+        [
+          "कामेषु",
+          "in desires"
+        ],
+        [
+          "पश्व्-आदिषु प्राणेषु",
+          "in animals and other living beings"
+        ],
+        [
+          "स्व-जनेषु",
+          "in one's own people"
+        ],
+        [
+          "अनर्थ-हेतुषु",
+          "causes of harm"
+        ],
+        [
+          "दुःख-हेतुषु",
+          "causes of suffering"
         ]
       ],
-      "literal_english": "The analysis turns to sense-control, the modes, and the way knowledge and devotion steady the practitioner. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "Desire naturally arises for animals, vital powers, and one's own people, even though these objects become causes of harm and, when matured, causes of suffering."
     },
     {
       "canto": 11,
@@ -534,11 +678,27 @@
       "sanskrit": "कथं तर्हि कर्म-मीमांसकाः फल-परतां वदन्ति ? तत्राह---एवम् इति । व्यवसितं वेदस्याभिप्रायम् । कुसुमिताम् अवान्तर-फल-प्ररोचनया रमणीयां परम-फल-श्रुतिं वदन्ति । कुतस् ते कु-बुद्धयः ? तद् आह---हि यस्माद् वेद-ज्ञा व्यासादयस् तथा न वदन्तीति ॥२६॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "वेदस्य अभिप्रायम्",
+          "the intention of the Veda"
+        ],
+        [
+          "अवान्तर-फल-प्ररोचनया",
+          "by enticing with intermediate fruits"
+        ],
+        [
+          "परम-फल-श्रुतिम्",
+          "the promise of the supreme fruit"
+        ],
+        [
+          "कु-बुद्धयः",
+          "misguided people"
+        ],
+        [
+          "वेद-ज्ञाः",
+          "knowers of the Veda"
         ]
       ],
-      "literal_english": "The analysis turns to sense-control, the modes, and the way knowledge and devotion steady the practitioner. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "Misguided ritualists mistake the Veda's intention: its intermediate fruits are an inducement toward the supreme fruit, as the Vedic knowers and Vyāsa explain."
     },
     {
       "canto": 11,
@@ -550,11 +710,35 @@
       "sanskrit": "कुबुद्धितां प्रपञ्चयति---कामिन इत्य् अष्टभिः । कामित्वात् कृपणाः, ततो लुब्धास् तृष्णाकुलाः, अतः पुष्पेष्व् अवान्तर-फलेषु परम-फल-बुद्धयः । अत एवाग्नि-मुग्धा अग्नि-साध्य-कर्माभिनिवेशेन लुप्त-विवेकाः, ततश् च धूमतान्ता धूम-मार्गोऽन्ते येषां ते । स्वं लोकम् आत्म-तत्त्वम् । तथा च श्रुतिः---\n\n> कश्चिद् ध वा अस्माल् लोकात् प्रेत्य >\n> आत्मानं वेद अयम् अहम् अस्मीति । >\n> कश्चित् स्वं लोकं न प्रतिजानाति >\n> अग्नि-मुग्धो हैव धूमतान्तः ॥ इति ॥२७॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "कामिनः",
+          "desirous people"
+        ],
+        [
+          "कृपणाः",
+          "miserly"
+        ],
+        [
+          "लुब्धाः",
+          "greedy"
+        ],
+        [
+          "अग्नि-मुग्धाः",
+          "deluded by fire"
+        ],
+        [
+          "धूम-तान्ताः",
+          "confused and exhausted by smoke"
+        ],
+        [
+          "स्वं लोकम्",
+          "their own abode / Self"
+        ],
+        [
+          "आत्म-तत्त्वम्",
+          "the truth of the Self"
         ]
       ],
-      "literal_english": "The analysis turns to sense-control, the modes, and the way knowledge and devotion steady the practitioner. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "The desirous become miserly and greedy, mistaking intermediate fruits for the supreme one. Deluded by ritual fire and the smoke-path, they fail to recognize their own abode—the truth of the Self."
     },
     {
       "canto": 11,
@@ -566,11 +750,31 @@
       "sanskrit": "कोऽसौ स्व-लोकः ? तम् आह---हृदि-स्थम् आत्मानं मां स्व-लोकम् । ननु हृदि-स्थम् अहङ्कारास्पदं जानन्त्य् एव ? सत्यम्, परमात्मानं तु न जानन्तीत्य् आह---य इदं यद्-व्यतिरिक्तं जगन् नास्ति । कुतः ? यत इदं जगज् जातम् । तं कुतो न जानन्ति ? हि यस्मात् । उक्थं कर्मैव शस्त्रं शंस्यं कथनीयं पशु-हिंसा-साधनं वा येषां ते । अतः केवलम् असु-तृपः प्राण-तर्पण-पराः । नीहारं तमस् तेन व्याप्तानि चक्षूंषि येषां ते, यथा सन्निहितम् अपि न जानन्ति तद्वत् । तथा च श्रुतिः,\n\n> न तं विदाथ य इमा जजानान्यद् >\n> युष्माकम् अन्तरं बभूव । >\n> नीहारेण प्रावृता जल्प्या >\n> चासु-तृप उक्थ-शासश् चरन्ति ॥ \\[ऋ।वे। १०.८३.७\\] इति ॥२८॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "हृदि-स्थम् आत्मानम्",
+          "the Self dwelling in the heart"
+        ],
+        [
+          "स्वं लोकम्",
+          "one's own abode"
+        ],
+        [
+          "यद्-व्यतिरिक्तम् जगत्",
+          "the universe apart from which"
+        ],
+        [
+          "उक्थ-शस्त्राः",
+          "those devoted to ritual recitation"
+        ],
+        [
+          "असु-तृपः",
+          "satisfied only by life-breath"
+        ],
+        [
+          "नीहारेण आवृत-दृष्टयः",
+          "whose sight is covered by mist"
         ]
       ],
-      "literal_english": "The analysis turns to sense-control, the modes, and the way knowledge and devotion steady the practitioner. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "The Lord is the Self dwelling in the heart and the true abode. Those absorbed in ritual recitation, satisfied only by bodily life, fail to know Him because their sight is covered by the mist of ignorance."
     },
     {
       "canto": 11,
@@ -602,11 +806,27 @@
       "sanskrit": "किं च, तेऽतिमन्द-बुद्धय इत्य् आह---स्वप्नोपमम् इति । अमुं पर-लोकम् । आशिषश् चास्मिन् लोके सङ्कल्प्य, न तु निश्चित्य, विघ्न-बाहुल्यात् । त्यजन्ति कर्मसु विनियोजयन्ति। यथा कश्चिद् वणिग् दुस्तर-समुद्रादि-लङ्घनेन बहु-धनार्जनेच्छया सिद्धं धनं त्यजन्न् उभय-भ्रष्टो भवति, तद्वद् इत्य् अर्थः ॥३१॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "स्वप्न-उपमम्",
+          "like a dream"
+        ],
+        [
+          "पर-लोकम्",
+          "the next world"
+        ],
+        [
+          "आशिषः सङ्कल्प्य",
+          "forming hopes"
+        ],
+        [
+          "कर्मसु विनियोजयन्ति",
+          "they engage themselves in actions"
+        ],
+        [
+          "उभय-भ्रष्टः",
+          "deprived of both"
         ]
       ],
-      "literal_english": "The conclusion places the Lord, the Veda, and exclusive devotion beyond material distinctions. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "Considering the next world dreamlike while forming uncertain hopes for this world, they abandon their attained result and engage in action again, becoming deprived of both."
     },
     {
       "canto": 11,
@@ -690,11 +910,31 @@
       "sanskrit": "तद् एवं वेदानां प्रवृत्ति-परत्वं निराकृत्य प्रकृतं निवृत्ति-परत्वम् एवोपसंहरति---वेदा इति । कर्म-ब्रह्म-देवता-काण्ड-विषया इमे वेदा ब्रह्मात्म-विषयाः, ब्रह्मैवात्मा न संसारीत्य् एतत्-पराः, तत्-परत्वाप्रतीतौ च ।\n\n> फल-श्रुतिर् इयं नॄणां न श्रेयो रोचनं परम् । >\n> श्रेयो-विवक्षया प्रोक्तः यथा भैषज्य-रोचनम् ॥ इत्य् उक्तम् एव ।\n\nकारणम् अनुस्मारयति---परोक्षेति । ऋषयो मन्त्रास् तद्-द्रष्टारो वा । तत् किम् इति यतः परोक्षम् एव मम च प्रियम् । अयं भावः---शुद्धान्तः-करणैर् एवैतद् बोद्धव्यं, नान्यैर् अनधिकारिभिर् वृथा कर्म-त्यागेन भ्रंश-प्रसङ्गाद् इति ॥३५॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "वेदाः",
+          "the Vedas"
+        ],
+        [
+          "कर्म-ब्रह्म-देवता-काण्ड-विषयाः",
+          "concerned with the sections on action, Brahman, and deities"
+        ],
+        [
+          "ब्रह्म आत्मा",
+          "Brahman is the Self"
+        ],
+        [
+          "न संसारी",
+          "not the transmigrating self"
+        ],
+        [
+          "परोक्षम्",
+          "indirect / hidden"
+        ],
+        [
+          "शुद्ध-अन्तःकरणैः",
+          "by those with purified hearts"
         ]
       ],
-      "literal_english": "The conclusion places the Lord, the Veda, and exclusive devotion beyond material distinctions. The Lord distinguishes the paths of action, knowledge, and devotion by qualification, showing how attachment to lesser aims binds a person and how devotion leads beyond those distinctions."
+      "literal_english": "The Vedas ultimately teach that Brahman is the Self, not the transmigrating person. Their deeper meaning is indirect and is understood by purified hearts, not by abandoning duty without qualification."
     },
     {
       "canto": 11,
