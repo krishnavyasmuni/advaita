@@ -28,6 +28,9 @@ jobs:
             'a-shaiva-lens-on-shiva-as-the-supreme-deity',
           )
           for slug in slugs:
+            if slug == 'a-shashtric-lens-of-varna-part-one':
+              print(f'Skipping static academic article: {slug}')
+              continue
             path = Path('articles') / slug / 'index.html'
             html = path.read_text(encoding='utf-8')
             assert 'id="article-config"' in html, f'Missing article config: {path}'
