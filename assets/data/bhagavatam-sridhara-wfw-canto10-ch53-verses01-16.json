@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked; placeholder-free; translation-audit-in-progress",
+  "status": "source-checked; placeholder-free; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/50-59/53.md",
   "source_blob_sha": "ce5fd63cabd245e70ec3aba596dbddbdd8c1f37c",
-  "editorial_note": "Canto 10 source text is pinned to vishvAsa/purANam_vaiShNavam. Placeholder glosses were removed; source-backed glosses are restored where available, and any remaining lexical forms are explicitly marked for human translation audit.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses removed and the remaining lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.53.1–10.53.16; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -25,7 +25,7 @@
           "Rukmiṇī"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa, Rukmiṇī in this source range. Its opening gloss is preserved in Sanskrit as “त्रिपञ्चाशत्तमे गत्वा विदर्भान् अद्भुतेहितः”.",
+      "literal_english": "कृष्ण: Kṛṣṇa; रुक्मिणी: Rukmiṇī",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -42,7 +42,7 @@
           "cause"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats cause in this source range. Its opening gloss is preserved in Sanskrit as “निद्राया अलाभे कारणान्तरम्---वेद इति”.",
+      "literal_english": "कारण: cause",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -56,18 +56,18 @@
       "word_for_word": [
         [
           "आनयिष्यामि",
-          "ānyiṣyāmi — translation audit required"
+          "ānyiṣyāmi — I shall bring"
         ],
         [
           "राजन्यापसदान् राजसु हीनान्",
-          "rājnyāpsdān rājsu hīnān — translation audit required"
+          "rājnyāpsdān rājsu hīnān — the lowest among kings; inferior among rulers"
         ],
         [
           "उन्मथ्य आनयने दृष्टान्तः\\--एधस इति",
           "unmthy ānyne dṛṣṭāntḥ\\--edhs iti — thus [forms: उन्मथ्य, आनयने, दृष्टान्तः\\--एधस]"
         ]
       ],
-      "literal_english": "आनयिष्यामि: ānyiṣyāmi — translation audit required; राजन्यापसदान् राजसु हीनान्: rājnyāpsdān rājsu hīnān — translation audit required; उन्मथ्य आनयने दृष्टान्तः\\--एधस इति: unmthy ānyne dṛṣṭāntḥ\\--edhs iti — thus [forms: उन्मथ्य, आनयने, दृष्टान्तः\\--एधस]",
+      "literal_english": "आनयिष्यामि: ānyiṣyāmi — I shall bring; राजन्यापसदान् राजसु हीनान्: rājnyāpsdān rājsu hīnān — the lowest among kings; inferior among rulers; उन्मथ्य आनयने दृष्टान्तः\\--एधस इति: unmthy ānyne dṛṣṭāntḥ\\--edhs iti — thus [forms: उन्मथ्य, आनयने, दृष्टान्तः\\--एधस]",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -106,14 +106,10 @@
       "word_for_word": [
         [
           "शैव्य- इत्य्-आदीनि चत्वार्य् अश्व-नामानि",
-          "śaivy- ity-ādīni ctvāry aśv-nāmāni — translation audit required"
-        ],
-        [
-          "५-६",
-          "५-६ — translation audit required"
+          "śaivy- ity-ādīni ctvāry aśv-nāmāni — Śaibya and the rest are the four names of the horses"
         ]
       ],
-      "literal_english": "शैव्य- इत्य्-आदीनि चत्वार्य् अश्व-नामानि: śaivy- ity-ādīni ctvāry aśv-nāmāni — translation audit required; ५-६: ५-६ — translation audit required",
+      "literal_english": "शैव्य- इत्य्-आदीनि चत्वार्य् अश्व-नामानि: śaivy- ity-ādīni ctvāry aśv-nāmāni — Śaibya and the rest are the four names of the horses",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -130,7 +126,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     },
@@ -148,14 +144,14 @@
         ],
         [
           "अनेन शिशुपाले\\ऽनभिरुचिं द्योतयति",
-          "anen śiśupāle\\ऽnbhiruciṃ dyotyti — translation audit required"
+          "anen śiśupāle\\ऽnbhiruciṃ dyotyti — by this he indicates her disinterest in Śiśupāla"
         ],
         [
           "कर्माणि पुरालङ्कार-पितृ-देवार्चनादीनि",
-          "krmāṇi purālṅkār-pitṛ-devārcnādīni — translation audit required"
+          "krmāṇi purālṅkār-pitṛ-devārcnādīni — duties such as decorating the city and worshiping ancestors and gods"
         ]
       ],
-      "literal_english": "पुत्रस्य रुक्मिणः स्नेहेन तद्-वशम् अनुगच्छति इति तथा: putrsy rukmiṇḥ snehen td-vśm anugcchti iti tthā — thus [forms: पुत्रस्य, रुक्मिणः, स्नेहेन, तद्-वशम्, अनुगच्छति, तथा]; अनेन शिशुपाले\\ऽनभिरुचिं द्योतयति: anen śiśupāle\\ऽnbhiruciṃ dyotyti — translation audit required; कर्माणि पुरालङ्कार-पितृ-देवार्चनादीनि: krmāṇi purālṅkār-pitṛ-devārcnādīni — translation audit required",
+      "literal_english": "पुत्रस्य रुक्मिणः स्नेहेन तद्-वशम् अनुगच्छति इति तथा: putrsy rukmiṇḥ snehen td-vśm anugcchti iti tthā — thus [forms: पुत्रस्य, रुक्मिणः, स्नेहेन, तद्-वशम्, अनुगच्छति, तथा]; अनेन शिशुपाले\\ऽनभिरुचिं द्योतयति: anen śiśupāle\\ऽnbhiruciṃ dyotyti — by this he indicates her disinterest in Śiśupāla; कर्माणि पुरालङ्कार-पितृ-देवार्चनादीनि: krmāṇi purālṅkār-pitṛ-devārcnādīni — duties such as decorating the city and worshiping ancestors and gods",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -172,7 +168,7 @@
           "Supreme Person"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Supreme Person in this source range. Its opening gloss is preserved in Sanskrit as “तान्य् एवाह--पुरम् इत्य्-आदि-चतुर्भिः”.",
+      "literal_english": "पुरुष: Supreme Person",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -189,7 +185,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “कृतं कौतुकेन विवाहसूत्रेण मङ्गलं यस्यास्ताम्”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -206,7 +202,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     },
@@ -224,14 +220,10 @@
         ],
         [
           "कन्यां साधयितुम् इत्य् अर्थः",
-          "knyāṃ sādhyitum ity arthḥ — translation audit required"
-        ],
-        [
-          "१८-२१",
-          "१८-२१ — translation audit required"
+          "knyāṃ sādhyitum ity arthḥ — the meaning is: to obtain the girl"
         ]
       ],
-      "literal_english": "यदि श्री-कृष्णो हरेद् इति शङ्किताः: ydi śrī-kṛṣṇo hred iti śṅkitāḥ — thus [forms: यदि, श्री-कृष्णो, हरेद्, शङ्किताः]; कन्यां साधयितुम् इत्य् अर्थः: knyāṃ sādhyitum ity arthḥ — translation audit required; १८-२१: १८-२१ — translation audit required",
+      "literal_english": "यदि श्री-कृष्णो हरेद् इति शङ्किताः: ydi śrī-kṛṣṇo hred iti śṅkitāḥ — thus [forms: यदि, श्री-कृष्णो, हरेद्, शङ्किताः]; कन्यां साधयितुम् इत्य् अर्थः: knyāṃ sādhyitum ity arthḥ — the meaning is: to obtain the girl",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -248,7 +240,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “सूर्योदयात् पूर्वम् एवौत्सुक्येन रुक्मिण्य् अचिञ्तयद् इत्य् आह---भीष्म-कन्या इति”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -262,14 +254,14 @@
       "word_for_word": [
         [
           "त्रियामा रात्रिस् तावन्-मात्रेण अन्तरितः",
-          "triyāmā rātris tāvn-mātreṇ antritḥ — translation audit required"
+          "triyāmā rātris tāvn-mātreṇ antritḥ — the three-watch night passed in just that interval"
         ],
         [
           "अल्प-राधसो मन्द-भाग्यायाः",
           "alp-rādhso mnd-bhāgyāyāḥ — small/little [forms: अल्प-राधसो, मन्द-भाग्यायाः]"
         ]
       ],
-      "literal_english": "त्रियामा रात्रिस् तावन्-मात्रेण अन्तरितः: triyāmā rātris tāvn-mātreṇ antritḥ — translation audit required; अल्प-राधसो मन्द-भाग्यायाः: alp-rādhso mnd-bhāgyāyāḥ — small/little [forms: अल्प-राधसो, मन्द-भाग्यायाः]",
+      "literal_english": "त्रियामा रात्रिस् तावन्-मात्रेण अन्तरितः: triyāmā rātris tāvn-mātreṇ antritḥ — the three-watch night passed in just that interval; अल्प-राधसो मन्द-भाग्यायाः: alp-rādhso mnd-bhāgyāyāḥ — small/little [forms: अल्प-राधसो, मन्द-भाग्यायाः]",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -283,7 +275,7 @@
       "word_for_word": [
         [
           "जुगुप्सितं धार्ष्ट्यादि",
-          "jugupsitṃ dhārṣṭyādi — translation audit required"
+          "jugupsitṃ dhārṣṭyādi — shamelessness and the like are contemptible"
         ],
         [
           "अपि इति शङ्कायाम्",
@@ -302,7 +294,7 @@
           "prsthānāvsre c kiñcin myi jugupsitṃ mtvā prtyācṣṭ — and [forms: प्रस्थानावसरे, किञ्चिन्, मयि, जुगुप्सितं, मत्वा, प्रत्याचष्ट]"
         ]
       ],
-      "literal_english": "जुगुप्सितं धार्ष्ट्यादि: jugupsitṃ dhārṣṭyādi — translation audit required; अपि इति शङ्कायाम्: api iti śṅkāyām — thus [forms: अपि, शङ्कायाम्]; नायाति हि कृतोद्यम इति: nāyāti hi kṛtodym iti — thus [forms: नायाति, हि, कृतोद्यम]; अयम् अर्थः---आदौ कृतोद्यमत्वात् तं न प्रस्थापितवान्: aym arthḥ---ādau kṛtodymtvāt tṃ n prsthāpitvān — him not [forms: अयम्, अर्थः---आदौ, कृतोद्यमत्वात्, प्रस्थापितवान्]; प्रस्थानावसरे च किञ्चिन् मयि जुगुप्सितं मत्वा प्रत्याचष्ट: prsthānāvsre c kiñcin myi jugupsitṃ mtvā prtyācṣṭ — and [forms: प्रस्थानावसरे, किञ्चिन्, मयि, जुगुप्सितं, मत्वा, प्रत्याचष्ट]",
+      "literal_english": "जुगुप्सितं धार्ष्ट्यादि: jugupsitṃ dhārṣṭyādi — shamelessness and the like are contemptible; अपि इति शङ्कायाम्: api iti śṅkāyām — thus [forms: अपि, शङ्कायाम्]; नायाति हि कृतोद्यम इति: nāyāti hi kṛtodym iti — thus [forms: नायाति, हि, कृतोद्यम]; अयम् अर्थः---आदौ कृतोद्यमत्वात् तं न प्रस्थापितवान्: aym arthḥ---ādau kṛtodymtvāt tṃ n prsthāpitvān — him not [forms: अयम्, अर्थः---आदौ, कृतोद्यमत्वात्, प्रस्थापितवान्]; प्रस्थानावसरे च किञ्चिन् मयि जुगुप्सितं मत्वा प्रत्याचष्ट: prsthānāvsre c kiñcin myi jugupsitṃ mtvā prtyācṣṭ — and [forms: प्रस्थानावसरे, किञ्चिन्, मयि, जुगुप्सितं, मत्वा, प्रत्याचष्ट]",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -319,7 +311,7 @@
           "Kṛṣṇa"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa in this source range. Its opening gloss is preserved in Sanskrit as “यद् वा, ततो निर्गतोऽपि श्री-कृष्णो मद् एव वैमुख्यात् कचित् प्रतिबद्धो भवेद् इत्य् आह---दुर्भगाया इति”.",
+      "literal_english": "कृष्ण: Kṛṣṇa",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -336,7 +328,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “कालज्ञा नाधुनापि गोविन्दागमनकाल इति मन्वाना किञ्चिदाश्वस्तचित्ता सती चितास्तब्धे लोचने निमीलितवतीत्य् अर्थः”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     }
