@@ -21,6 +21,8 @@ const empty=()=>document.createDocumentFragment();
 function normaliseSpelling(value){
   let text=String(value??'');
   const replacements=[
+    [/Sadashivam/gi,'Sadāśivam'],
+    [/Sadashiva/gi,'Sadāśiva'],
     [/Shvestahsvara/gi,'Śvetāśvatara'],
     [/Shvetashvara/gi,'Śvetāśvatara'],
     [/Shankaracharya/gi,'Śaṅkarācārya'],
@@ -39,7 +41,9 @@ function normaliseSpelling(value){
     [/Bhagavat Gita/gi,'Bhagavad Gītā'],
     [/Bhagavadgita/gi,'Bhagavad Gītā'],
     [/Bhagavat Puran/gi,'Bhāgavata Purāṇa'],
+    [/Puranic/gi,'Purāṇic'],
     [/Puranas/gi,'Purāṇas'],
+    [/Puran\b/gi,'Purāṇa'],
     [/Purana/gi,'Purāṇa'],
     [/Itihasas/gi,'Itihāsas'],
     [/Itihasa/gi,'Itihāsa'],
@@ -50,6 +54,20 @@ function normaliseSpelling(value){
     [/Shruti/gi,'Śruti'],
     [/Smriti/gi,'Smṛti'],
     [/Mimamsa/gi,'Mīmāṃsā'],
+    [/Metholodogy/gi,'Methodology'],
+    [/Sattvika/gi,'sāttvika'],
+    [/Sattvic/gi,'sāttvic'],
+    [/Tamasika/gi,'tāmasika'],
+    [/Tamasic/gi,'tāmasic'],
+    [/Guna/gi,'guṇa'],
+    [/Ishvara/gi,'Īśvara'],
+    [/Devata/gi,'Devatā'],
+    [/Narad/gi,'Nārada'],
+    [/Srimad/gi,'Śrīmad'],
+    [/Suta/gi,'Sūta'],
+    [/Purva[- ]Paksha/gi,'Pūrvapakṣa'],
+    [/Paratattva/gi,'Paratattva'],
+    [/\bsiva\b/gi,'Śiva'],
     [/Karmakanda/gi,'Karmakāṇḍa'],
     [/Jnana-kanda/gi,'jñāna-kāṇḍa'],
     [/Kali Yuga/gi,'Kali Yuga'],
@@ -69,6 +87,7 @@ function normaliseSpelling(value){
     [/Bhagavat Puran/gi,'Bhāgavata Purāṇa']
   ];
   for(const [pattern,replacement] of replacements)text=text.replace(pattern,replacement);
+  text=text.replace(/Rāmayana/gu,'Rāmāyaṇa').replace(/Bhāgavat\s+Purāṇa/gu,'Bhāgavata Purāṇa');
   return text;
 }
 
@@ -102,7 +121,19 @@ function sentenceTitle(value){
     .replace(/\s*:\s*$/,'')
     .trim();
   if(!text)return '';
-  text=text.charAt(0).toUpperCase()+text.slice(1);
+  text=text.toLocaleLowerCase();
+  const proper=[
+    ['śiva','Śiva'],['śaiva','Śaiva'],['viṣṇu','Viṣṇu'],['vaiṣṇava','Vaiṣṇava'],
+    ['rāma','Rāma'],['kṛṣṇa','Kṛṣṇa'],['mahādeva','Mahādeva'],['maheśvara','Maheśvara'],
+    ['nārayāṇa','Nārāyaṇa'],['mahānārāyaṇa','Mahānārāyaṇa'],['śvetāśvatara','Śvetāśvatara'],
+    ['upaniṣad','Upaniṣad'],['upaniṣads','Upaniṣads'],['purāṇa','Purāṇa'],['purāṇas','Purāṇas'],
+    ['padma','Padma'],['garuḍa','Garuḍa'],['bhāgavata','Bhāgavata'],['matsya','Matsya'],['kūrma','Kūrma'],
+    ['skanda','Skanda'],['śruti','Śruti'],['smṛti','Smṛti'],['gītā','Gītā'],['itihāsa','Itihāsa'],
+    ['itihāsas','Itihāsas'],['dharmaśāstra','Dharmaśāstra'],['dharmaśāstras','Dharmaśāstras'],
+    ['pūrvapakṣa','Pūrvapakṣa'],['mīmāṃsā','Mīmāṃsā'],['śaṅkara','Śaṅkara'],['śaṅkarācārya','Śaṅkarācārya']
+  ];
+  for(const [from,to] of proper)text=text.replace(new RegExp('\\b'+from+'\\b','gu'),to);
+  text=text.charAt(0).toLocaleUpperCase()+text.slice(1);
   return text;
 }
 
