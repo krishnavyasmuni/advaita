@@ -984,6 +984,53 @@
     {
       "canto": 12,
       "chapter": 9,
+      "start": 33,
+      "end": 33,
+      "source_marker": "१२.९.३३",
+      "sanskrit": "तावत् परिष्वङ्ग-लाभात् पूर्वम् एव ऋषेस् तस्यान्तर्हितो बभूव । तद्-उद्यम-वैफल्ये दृष्टान्तः, अनीशो निर्दैवस् तेन निर्मिता ईहा क्रीडा यथेति ॥३३॥",
+      "main_sanskrit": "तावत् स भगवान् साक्षाद् योगाधीशो गुहाशयः ।  \nअन्तर्दध ऋषेः सद्यो यथेहानीश-निर्मिता ॥",
+      "transliteration": "tāvat sa bhagavān sākṣād yogādhīśo guhāśayaḥ\nantardadhe ṛṣeḥ sadyo yathehānīśa-nirmitā",
+      "word_for_word": [
+        [
+          "तावत्",
+          "then"
+        ],
+        [
+          "सः भगवान्",
+          "that Lord"
+        ],
+        [
+          "साक्षात्",
+          "directly"
+        ],
+        [
+          "योगाधीशः",
+          "Lord of yoga"
+        ],
+        [
+          "गुहाशयः",
+          "dwelling in the heart"
+        ],
+        [
+          "अन्तर्दधे",
+          "disappeared"
+        ],
+        [
+          "ऋषेः",
+          "from the sage"
+        ],
+        [
+          "सद्यः",
+          "at once"
+        ]
+      ],
+      "literal_english": "Before the sage could obtain the embrace, the Lord, the direct Lord of yoga dwelling in the heart, disappeared at once, just as an endeavor made by one without power fails.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source range preserved."
+    },
+    {
+      "canto": 12,
+      "chapter": 9,
       "start": 34,
       "end": 34,
       "source_marker": "१२.९.३४",
