@@ -5,7 +5,7 @@
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/87.md",
   "source_blob_sha": "6e50f7b8c2e645808a8f31a835ec0d51f27effaa",
-  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses removed and the remaining lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses and internal form markers removed; lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.87.1–10.87.49; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -202,12 +202,12 @@
       "word_for_word": [
         [
           "ब्रह्म-सत्रम् इति",
-          "brhm-strm iti — Brahmā thus [forms: ब्रह्म-सत्रम्]"
+          "The session or ritual of Brahman."
         ]
       ],
-      "literal_english": "ब्रह्म-सत्रम् इति: brhm-strm iti — Brahmā thus [forms: ब्रह्म-सत्रम्]",
+      "literal_english": "ब्रह्म-सत्रम् इति: The session or ritual of Brahman.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -307,16 +307,16 @@
         ],
         [
           "किम् इति गुणवती हन्तव्या  इत्य् अत आह---दोष-गृभीत-गुणाम्",
-          "kim iti guṇvtī hntvyā  ity at āh---doṣ-gṛbhīt-guṇām — what thus said [forms: गुणवती, हन्तव्या, इत्य्, अत, आह---दोष-गृभीत-गुणाम्]"
+          "‘Why should one endowed with qualities be killed?’ Therefore he says: ‘one whose qualities are seized as faults…’"
         ],
         [
           "दोषाय आनन्दाद्य् आवरणाय गृहीता गुणा यया ताम्",
           "doṣāy ānndādy āvrṇāy gṛhītā guṇā yyā tām — for the sake of fault, she by whom qualities are taken as coverings of bliss and the like"
         ]
       ],
-      "literal_english": "जय जयेति: jy jyeti — victory; victory; भो अजित  जय जय उत्कर्षम् आविष्कुरु: bho ajit  jy jy utkrṣm āviṣkuru — O Unconquered One, victory, victory; manifest your excellence; आदरे वीप्सा: ādre vīpsā — repetition denotes respect; किम् इति गुणवती हन्तव्या  इत्य् अत आह---दोष-गृभीत-गुणाम्: kim iti guṇvtī hntvyā  ity at āh---doṣ-gṛbhīt-guṇām — what thus said [forms: गुणवती, हन्तव्या, इत्य्, अत, आह---दोष-गृभीत-गुणाम्]; दोषाय आनन्दाद्य् आवरणाय गृहीता गुणा यया ताम्: doṣāy ānndādy āvrṇāy gṛhītā guṇā yyā tām — for the sake of fault, she by whom qualities are taken as coverings of bliss and the like",
+      "literal_english": "जय जयेति: jy jyeti — victory; victory; भो अजित  जय जय उत्कर्षम् आविष्कुरु: bho ajit  jy jy utkrṣm āviṣkuru — O Unconquered One, victory, victory; manifest your excellence; आदरे वीप्सा: ādre vīpsā — repetition denotes respect; किम् इति गुणवती हन्तव्या  इत्य् अत आह---दोष-गृभीत-गुणाम्: ‘Why should one endowed with qualities be killed?’ Therefore he says: ‘one whose qualities are seized as faults…’; दोषाय आनन्दाद्य् आवरणाय गृहीता गुणा यया ताम्: doṣāy ānndādy āvrṇāy gṛhītā guṇā yyā tām — for the sake of fault, she by whom qualities are taken as coverings of bliss and the like",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1299,7 +1299,7 @@
       "word_for_word": [],
       "literal_english": "",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1311,16 +1311,16 @@
       "word_for_word": [
         [
           "ब्रह्म-दायादेति ब्रह्मैव दायम् इवायत्न-प्राप्यम् अत्ति सेवत इति तथा",
-          "brhm-dāyādeti brhmaiv dāym ivāytn-prāpym atti sevt iti tthā — Brahmā thus [forms: ब्रह्म-दायादेति, ब्रह्मैव, दायम्, इवायत्न-प्राप्यम्, अत्ति, सेवत, तथा]"
+          "Called Brahma-dāyāda because he consumes or serves Brahman, which is obtained effortlessly as an inheritance."
         ],
         [
           "ब्रह्म-पुत्रेति वा",
-          "brhm-putreti vā — Brahmā [forms: ब्रह्म-पुत्रेति, वा]"
+          "Or, ‘son of Brahmā.’"
         ]
       ],
-      "literal_english": "ब्रह्म-दायादेति ब्रह्मैव दायम् इवायत्न-प्राप्यम् अत्ति सेवत इति तथा: brhm-dāyādeti brhmaiv dāym ivāytn-prāpym atti sevt iti tthā — Brahmā thus [forms: ब्रह्म-दायादेति, ब्रह्मैव, दायम्, इवायत्न-प्राप्यम्, अत्ति, सेवत, तथा]; ब्रह्म-पुत्रेति वा: brhm-putreti vā — Brahmā [forms: ब्रह्म-पुत्रेति, वा]",
+      "literal_english": "ब्रह्म-दायादेति ब्रह्मैव दायम् इवायत्न-प्राप्यम् अत्ति सेवत इति तथा: Called Brahma-dāyāda because he consumes or serves Brahman, which is obtained effortlessly as an inheritance.; ब्रह्म-पुत्रेति वा: Or, ‘son of Brahmā.’",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1345,7 +1345,7 @@
       ],
       "literal_english": "पूर्णः कृत-कृत्यः: pūrṇḥ kṛt-kṛtyḥ — complete; having accomplished all duties; श्रुत-धरः श्रुतम् अर्थं मनसि धारयन्: śrut-dhrḥ śrutm arthṃ mnsi dhāryn — one who retains what is heard, holding its meaning in the mind; वीर-व्रतो नैष्ठिकः: vīr-vrto naiṣṭhikḥ — firm in the heroic vow; steadfast",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
