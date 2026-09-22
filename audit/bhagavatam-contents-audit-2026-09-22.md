@@ -9,7 +9,8 @@ This audit reconciles the public Contents page with the chapter checkpoint ledge
 - Canto 1: chapters 1–19 — 19 chapters
 - Canto 2: chapters 1–10 — 10 chapters
 - Canto 10: chapters 1–37 — 37 chapters
-- Total public chapters: 66
+- Canto 11: chapters 1–31 — 31 chapters, restored for access with an audit notice
+- Total public chapters: 97
 
 Every public chapter listed above has a corresponding chapter-level checkpoint or source-backed reader record. No completed chapter currently present in the ledger was omitted from the public Contents within these three published cantos.
 
@@ -33,8 +34,8 @@ Canto 1 and Canto 2 remain published after their existing source/checkpoint audi
 
 ## Canto 11 publication boundary
 
-Canto 11 is intentionally absent from public Contents. Its underlying files remain in the repository, but the evidence-based audit dated 2026-09-20 found that the prior completion labels did not establish reliable independent verse-by-verse word-for-word verification. Those legacy labels must not be treated as current certification. Canto 11 will be restored chapter-by-chapter only after each chapter passes the same source, translation, structural, and reader checks.
+Canto 11 has been restored to public Contents at the user’s request so all existing material remains accessible. A visible notice states that its chapter-by-chapter audit is in progress. Its underlying files remain intact. The evidence-based audit dated 2026-09-20 found that the prior completion labels did not establish reliable independent verse-by-verse word-for-word verification; those labels must not be treated as current certification. Each Canto 11 chapter will be re-audited and corrected in place, chapter by chapter.
 
 ## Next release
 
-Continue with Canto 10, Chapter 38, then publish each completed chapter immediately after validation.
+Continue with Canto 10, Chapter 38, while re-auditing Canto 11 chapter by chapter. Publish each completed or transparently marked chapter immediately after validation.
