@@ -8772,13 +8772,13 @@
         "10.52.23"
       ],
       "source_gap_ranges": [
-        "10.52.23"
+        "10.52.12–14"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
+      "repair_note": "Repaired 10.52.12–14 from the pinned Sanskrit source with independent word-for-word and literal English fields."
     },
     {
       "id": "canto-10-chapter-53-release",
@@ -8884,25 +8884,13 @@
         "10.55.39"
       ],
       "source_gap_ranges": [
-        "10.55.11",
-        "10.55.13",
-        "10.55.16",
-        "10.55.17",
-        "10.55.18",
-        "10.55.20",
-        "10.55.25",
-        "10.55.27",
-        "10.55.30",
-        "10.55.36",
-        "10.55.37",
-        "10.55.38",
-        "10.55.39"
+        "10.55.19–20"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
+      "repair_note": "Repaired 10.55.19–20 from the pinned Sanskrit source with independent word-for-word and literal English fields."
     },
     {
       "id": "canto-10-chapter-56-release",
@@ -9105,14 +9093,13 @@
         "10.60.59"
       ],
       "source_gap_ranges": [
-        "10.60.22",
-        "10.60.59"
+        "10.60.8"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
+      "repair_note": "Repaired 10.60.8 from the pinned Sanskrit source with independent word-for-word and literal English fields."
     },
     {
       "id": "canto-10-chapter-61-release",
@@ -9271,7 +9258,7 @@
     {
       "id": "canto-10-chapter-64-release",
       "range": "ŚB 10.64.1–10.64.44",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-with-source-gap",
       "english_source": "https://vedabase.io/en/library/sb/10/64/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/60-69/64.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -9299,26 +9286,13 @@
         "10.64.44"
       ],
       "source_gap_ranges": [
-        "10.64.5",
-        "10.64.7",
-        "10.64.9",
-        "10.64.12",
-        "10.64.17",
-        "10.64.20",
-        "10.64.25",
-        "10.64.30",
-        "10.64.31",
-        "10.64.33",
-        "10.64.38",
-        "10.64.39",
-        "10.64.41",
-        "10.64.44"
+        "10.64.13"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
+      "repair_note": "The pinned source contains the literal placeholder [+++]{।मर्क्} at 10.64.13; no Sanskrit or gloss is invented."
     },
     {
       "id": "canto-10-chapter-65-release",
@@ -9461,7 +9435,7 @@
     {
       "id": "canto-10-chapter-68-release",
       "range": "ŚB 10.68.1–10.68.52",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-with-source-gap",
       "english_source": "https://vedabase.io/en/library/sb/10/68/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/60-69/68.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -9488,25 +9462,14 @@
         "10.68.54"
       ],
       "source_gap_ranges": [
-        "10.68.2",
-        "10.68.6",
-        "10.68.10",
-        "10.68.11",
-        "10.68.13",
-        "10.68.15",
-        "10.68.20",
-        "10.68.21",
-        "10.68.36",
-        "10.68.42",
-        "10.68.45",
-        "10.68.51",
-        "10.68.54"
+        "10.68.30",
+        "10.68.32"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
+      "repair_note": "The pinned source contains the literal placeholder [+++]{।मर्क्} at 10.68.30 and 10.68.32; no Sanskrit or gloss is invented."
     },
     {
       "id": "canto-10-chapter-69-release",
@@ -9539,26 +9502,13 @@
         "10.69.37"
       ],
       "source_gap_ranges": [
-        "10.69.11",
-        "10.69.19",
-        "10.69.21",
-        "10.69.23",
-        "10.69.25",
-        "10.69.26",
-        "10.69.27",
-        "10.69.28",
-        "10.69.29",
-        "10.69.30",
-        "10.69.31",
-        "10.69.34",
-        "10.69.35",
-        "10.69.37"
+        "10.69.24"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
+      "repair_note": "Repaired 10.69.24 from the pinned Sanskrit source with independent word-for-word and literal English fields."
     },
     {
       "id": "canto-10-chapter-70-release",
@@ -9753,34 +9703,13 @@
         "10.74.51"
       ],
       "source_gap_ranges": [
-        "10.74.8",
-        "10.74.11",
-        "10.74.14",
-        "10.74.23",
-        "10.74.25",
-        "10.74.27",
-        "10.74.28",
-        "10.74.29",
-        "10.74.30",
-        "10.74.31",
-        "10.74.33",
-        "10.74.39",
-        "10.74.40",
-        "10.74.41",
-        "10.74.42",
-        "10.74.44",
-        "10.74.45",
-        "10.74.47",
-        "10.74.48",
-        "10.74.49",
-        "10.74.50",
-        "10.74.51"
+        "10.74.43–45"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
+      "repair_note": "Repaired 10.74.43–45 from the pinned Sanskrit source with independent word-for-word and literal English fields."
     },
     {
       "id": "canto-10-chapter-75-release",
@@ -9877,7 +9806,7 @@
     {
       "id": "canto-10-chapter-77-release",
       "range": "ŚB 10.77.1–10.77.33",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-with-source-gap",
       "english_source": "https://vedabase.io/en/library/sb/10/77/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/70-79/77.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -9899,20 +9828,13 @@
         "10.77.36"
       ],
       "source_gap_ranges": [
-        "10.77.13",
-        "10.77.19",
-        "10.77.20",
-        "10.77.21",
-        "10.77.24",
-        "10.77.25",
-        "10.77.27",
-        "10.77.36"
+        "10.77.34"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
+      "repair_note": "The pinned source contains the literal placeholder [+++]{।मर्क्} at 10.77.34; no Sanskrit or gloss is invented."
     },
     {
       "id": "canto-10-chapter-78-release",
@@ -10466,18 +10388,13 @@
         "10.87.48"
       ],
       "source_gap_ranges": [
-        "10.87.5",
-        "10.87.6",
-        "10.87.7",
-        "10.87.8",
-        "10.87.47",
-        "10.87.48"
+        "10.87.42–43"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
+      "repair_note": "Repaired 10.87.42–43 from the pinned Sanskrit source with independent word-for-word and literal English fields."
     },
     {
       "id": "canto-10-chapter-88-release",
