@@ -138,11 +138,27 @@
       "sanskrit": "तस्य ये ज्ञातयो बन्धवा अतिथयोऽध्वनीनाश् च तेन नार्चिता इत्य् अर्था । शून्यावसथे धर्म-कर्म-हीने गृहे देहे वा ॥७॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "ज्ञातयः बन्धवः",
+          "relatives and kinsmen"
+        ],
+        [
+          "अतिथयः",
+          "guests"
+        ],
+        [
+          "अध्वनीनः",
+          "travelers"
+        ],
+        [
+          "शून्यावसथः",
+          "an empty dwelling"
+        ],
+        [
+          "धर्म-कर्म-हीनः",
+          "devoid of religious practice"
         ]
       ],
-      "literal_english": "The brāhmaṇa describes the reversal of his fortune and the anguish caused by losing wealth and social standing. The Avantī brāhmaṇa recounts the violence he endured and resolves that the mind is the decisive cause of happiness and distress; steadiness and devotion free him from blame."
+      "literal_english": "His relatives, guests, and travelers were not honored; the house had become empty, devoid of religious practice."
     },
     {
       "canto": 11,
@@ -898,11 +914,27 @@
       "sanskrit": "धर्मात् पातयद्भिः परिभूतोऽपि सात्त्विकीं धृतिम् आस्थाय स्व-धर्म एव स्थित इमां वक्ष्यमाणां गाथाम् अगायत । सात्त्विकी धृतिश् च,\n\n> धृत्या यया धारयते मनः-प्राणेन्द्रिय-क्रियाः । >\n> योगेनाव्यभिचारिण्या धृतिः सा पार्थ सात्त्विकी ॥\\[गीता १८.३३\\] इति > ॥४२॥",
       "word_for_word": [
         [
-          "धृति",
-          "steadiness"
+          "धर्मात् पातयद्भिः",
+          "by those casting him down from his duty"
+        ],
+        [
+          "परिभूतः",
+          "though insulted"
+        ],
+        [
+          "सात्त्विकीं धृतिम्",
+          "sattvic steadfastness"
+        ],
+        [
+          "स्व-धर्मे स्थितः",
+          "remaining in his own duty"
+        ],
+        [
+          "गाथाम् अगायत",
+          "he sang a song"
         ]
       ],
-      "literal_english": "The brāhmaṇa maintains sattvic steadiness and rejects assigning his pain to external people, planets, or fate. The Avantī brāhmaṇa recounts the violence he endured and resolves that the mind is the decisive cause of happiness and distress; steadiness and devotion free him from blame."
+      "literal_english": "Though insulted by people who tried to pull him from his duty, the brāhmaṇa remained steady in sattvic resolve and sang the following song."
     },
     {
       "canto": 11,
@@ -915,11 +947,23 @@
       "source_note": "The pinned source repeats the heading 11.23.42 for this second block; its main verse and Śrīdhara marker are the following canonical verse, 43. The printed marker is preserved here.",
       "word_for_word": [
         [
-          "सुख-दुःख",
-          "happiness and distress"
+          "न आत्मा",
+          "not the Self"
+        ],
+        [
+          "न ग्रहादयः",
+          "nor planets and the like"
+        ],
+        [
+          "मनः",
+          "the mind"
+        ],
+        [
+          "सुख-दुःखयोः कारणम्",
+          "the cause of happiness and distress"
         ]
       ],
-      "literal_english": "The concluding song teaches that the mind creates the modes and that mastery of it ends the cycle. The Avantī brāhmaṇa recounts the violence he endured and resolves that the mind is the decisive cause of happiness and distress; steadiness and devotion free him from blame."
+      "literal_english": "Neither the Self nor planets and other external forces are the true cause; the mind alone is taught to be the cause of happiness and distress."
     },
     {
       "canto": 11,
@@ -931,11 +975,31 @@
       "sanskrit": "परिवर्तन-प्रकारम् आह---मन इत्य्-आदि । गुणान् गुण-वृत्तीः सृजति । ततश् च तेभ्यो गुणेभ्यः शुक्लानि सात्त्विकानि । कृष्णणि तामसानि । लोहितानि राजसानि । स-वर्णास् तत्-तत्-कर्मानुरूपाः सृतयो देव-तिर्यङ्-नरादि-गतयः ॥४४॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "मनः",
+          "the mind"
+        ],
+        [
+          "गुण-वृत्तिः",
+          "the modes and their functions"
+        ],
+        [
+          "शुक्लानि",
+          "white / sattvic"
+        ],
+        [
+          "कृष्णानि",
+          "black / tamasic"
+        ],
+        [
+          "लोहितानि",
+          "red / rajasic"
+        ],
+        [
+          "स-वर्णाः सृतयः",
+          "paths corresponding to the modes"
         ]
       ],
-      "literal_english": "The concluding song teaches that the mind creates the modes and that mastery of it ends the cycle. The Avantī brāhmaṇa recounts the violence he endured and resolves that the mind is the decisive cause of happiness and distress; steadiness and devotion free him from blame."
+      "literal_english": "The mind creates the functions of the modes: white sattvic paths, black tamasic paths, and red rajasic paths, each leading to a corresponding destination."
     },
     {
       "canto": 11,
@@ -947,11 +1011,35 @@
       "sanskrit": "तर्हि मनस एव संसारः स्यान् नात्मन इत्य् आशङ्क्याह---अनीह इति । अयम् अर्थः, अविद्ययाद्य्-आसेनेयम् आत्मनः संसृतिर् न तु स्वतः । यतस् तद् रहितस्येश्वरस्य सा नास्ति किन्तु तद्वतो जीवस्यैवेति । तद् एवाह---मनसा समीहमानेन सह-नियन्तृत्वेन वर्तमानोऽपि परमात्म अनीहस् तत् क्रिया-सङ्ग-रहितः । यतो हिरण्-मयो विद्या-शक्ति-प्रधानः । यतो मत्-सखः । मम जीवस्य सखा नियन्ता । अत उदुच्चैर् विचष्टे । अति-रोहित-ज्ञानेन केवलं पश्यतीत्य् अर्थः । असौ पुनर् अहं जीवः खलिङ्गं स्वस्मिन्न् आत्मनि लिङ्गयति द्योतयति संसारम् इति तथा तन्-मनः परिगृह्यात्मत्वेन स्वी-कृत्य मनसो गुणैः कर्मभिः सङ्गतः सम्बद्धो गुण-सङ्गाद् वा कामान् जूषन् निबद्ध इति ॥४५॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "अनीहः",
+          "unengaged"
+        ],
+        [
+          "परमात्मा",
+          "the Supreme Self"
+        ],
+        [
+          "मनसा समीहमानेन",
+          "while the mind is striving"
+        ],
+        [
+          "हिरण्मयः",
+          "the golden / knowledge-filled one"
+        ],
+        [
+          "मत्-सखः",
+          "My companion"
+        ],
+        [
+          "मनः परिगृह्य",
+          "having identified with the mind"
+        ],
+        [
+          "गुण-सङ्गात्",
+          "through association with the qualities"
         ]
       ],
-      "literal_english": "The concluding song teaches that the mind creates the modes and that mastery of it ends the cycle. The Avantī brāhmaṇa recounts the violence he endured and resolves that the mind is the decisive cause of happiness and distress; steadiness and devotion free him from blame."
+      "literal_english": "The Supreme Self remains unengaged even while the mind strives. The jīva, identifying the mind with the Self, becomes bound by actions and desires through association with the qualities."
     },
     {
       "canto": 11,
@@ -963,11 +1051,27 @@
       "sanskrit": "अतो मनो-निग्रहे कृते सर्वं कृतं स्यात्, तं विना तु सर्वं व्यर्थम् इत्य् आह---दानम् इति द्वाभ्याम् । स्व-धर्मो नित्य-नैमित्तिकः । सद्-व्रतान्य् एकादश्य्-उपवासादीनि । अन्यानि च यावन्ति कर्माणि । एते सर्वे उपाया मनो-निग्रह-लक्षणोऽन्तो निष्ठा फलं येषां ते तथा । ननु ज्ञानाङ्गत्वं तेषां प्रसिद्धं ? तत्राह---मनसः समाधिर् निग्रह एव परो योगो ज्ञानम् ॥४६॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "स्व-धर्मः",
+          "one's prescribed duty"
+        ],
+        [
+          "सद्-व्रतानि",
+          "good vows"
+        ],
+        [
+          "मनो-निग्रहः",
+          "control of the mind"
+        ],
+        [
+          "समाधिः",
+          "absorption"
+        ],
+        [
+          "परो योगः",
+          "the highest yoga"
         ]
       ],
-      "literal_english": "The concluding song teaches that the mind creates the modes and that mastery of it ends the cycle. The Avantī brāhmaṇa recounts the violence he endured and resolves that the mind is the decisive cause of happiness and distress; steadiness and devotion free him from blame."
+      "literal_english": "Daily duty, sacred vows, and other practices are complete only when they culminate in control of the mind; that control is the highest yoga."
     },
     {
       "canto": 11,
@@ -1139,11 +1243,31 @@
       "sanskrit": "ग्रह-पक्षेऽप्य् अजस्यात्मनः किं, यतो जन्यत इति जनो देहस् तस्यैव जन्म-लग्नापेक्षया द्वादशाष्टमादि-राशि-स्थास् ते सुख-दुःखयोर् निमित्तं भवन्ति । किं च, अन्तरिक्ष-स्थैर् ग्रहैस् तत्र-स्थस्य ग्रहस्यैव पादार्धादि-दृष्ट्य्-आदि-भेदैः पीडां वदन्ति दैव-ज्ञाः, न तु ग्रहकोणादिषु स्थितस्य तद् दृष्ट्य्-अगोचरस्य पुरुषस्य । ग्रह-गतैव तु पीडा तल् लग्नोत्पन्ने देहे तस्याभिमानाद् भवति । अतः पुरुषस् ततो ग्रहाद् देहाच् चान्यः कस्मै क्रुध्येत ? ॥५४॥",
       "word_for_word": [
         [
-          "सुख-दुःख",
-          "happiness and distress"
+          "अजस्य आत्मनः",
+          "of the unborn Self"
+        ],
+        [
+          "जन्म-लग्नम्",
+          "the birth ascendant"
+        ],
+        [
+          "ग्रहाः",
+          "the planets"
+        ],
+        [
+          "दृष्टि-भेदैः",
+          "through varieties of aspect"
+        ],
+        [
+          "पुरुषः अन्यः",
+          "the person is different"
+        ],
+        [
+          "कस्मै क्रुध्येत",
+          "at whom should he be angry?"
         ]
       ],
-      "literal_english": "The concluding song teaches that the mind creates the modes and that mastery of it ends the cycle. The Avantī brāhmaṇa recounts the violence he endured and resolves that the mind is the decisive cause of happiness and distress; steadiness and devotion free him from blame."
+      "literal_english": "Planets may affect the body associated with a birth ascendant, but the unborn Self is different from both body and planets; therefore no one should be blamed."
     },
     {
       "canto": 11,
@@ -1175,11 +1299,35 @@
       "sanskrit": "तत्र काल-पक्षेऽप्य् आत्मनः किं, यतोऽसौ कालात्मक एव ब्रह्मांशत्वात् । स्वांशस्य स्वतः पीडा नास्तीत्य् अत्र दृष्टान्तः, नाग्नेर् देतोस् तद् अंशस्य ज्वालादेस् तापो दाहतो नाशोऽस्ति । तत्रोपाधि-भूत-काष्ठांश-दाहान् नाशः स्याद् इति दृष्टान्तान्तरम् आह---हिमस्य तच् छैत्यं तद् अंशस्य तुषार-कणस्य नाशकं न स्याद् इत्य् अर्थः । किं च आस्ताम् अंशत्वं वस्तुतः पर एवायं न च परस्य द्वन्द्वं सुख-दुःखादिकम् अस्तीति ॥५६॥",
       "word_for_word": [
         [
-          "सुख-दुःख",
-          "happiness and distress"
+          "कालः",
+          "time"
+        ],
+        [
+          "आत्मनः",
+          "of the Self"
+        ],
+        [
+          "अंशः",
+          "a portion"
+        ],
+        [
+          "अग्नेः अंशः",
+          "a portion of fire"
+        ],
+        [
+          "तुषार-कणः",
+          "a snowflake"
+        ],
+        [
+          "परः",
+          "the Supreme"
+        ],
+        [
+          "द्वन्द्वम्",
+          "pairs of opposites"
         ]
       ],
-      "literal_english": "The concluding song teaches that the mind creates the modes and that mastery of it ends the cycle. The Avantī brāhmaṇa recounts the violence he endured and resolves that the mind is the decisive cause of happiness and distress; steadiness and devotion free him from blame."
+      "literal_english": "Time is related to the Lord as a portion, yet the Self is untouched by suffering. As a spark is not burned by its own fire, the Supreme is beyond the pairs of opposites."
     },
     {
       "canto": 11,
@@ -1311,11 +1459,23 @@
       "sanskrit": "मनो-निग्रहाशक्तोऽप्य् एतच् छ्रवणादि-निष्ठस् तत् कलं प्राप्नोतीत्य् आह---य इति । द्वन्द्वैः सुख-दुःखादिभिः ॥६२॥",
       "word_for_word": [
         [
-          "सुख-दुःख",
-          "happiness and distress"
+          "मनो-निग्रह-अशक्तः",
+          "unable to control the mind"
+        ],
+        [
+          "श्रवणादि-निष्ठः",
+          "steadfast in hearing and the other practices"
+        ],
+        [
+          "कलम्",
+          "the result"
+        ],
+        [
+          "द्वन्द्वैः",
+          "by the pairs of opposites"
         ]
       ],
-      "literal_english": "The concluding song teaches that the mind creates the modes and that mastery of it ends the cycle. The Avantī brāhmaṇa recounts the violence he endured and resolves that the mind is the decisive cause of happiness and distress; steadiness and devotion free him from blame."
+      "literal_english": "Even one unable to control the mind attains the result by remaining fixed in hearing and the other devotional practices, despite the pairs of opposites."
     }
   ]
 }
