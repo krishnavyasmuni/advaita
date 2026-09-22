@@ -14,7 +14,7 @@ async function load(){
  return pages;
 }
 function sectionGroup(title){
- if(/^index\b/i.test(title)||/^invocation$/i.test(title))return 'Manuscript';
+ if(/^index\b/i.test(title)||/^invocation$/i.test(title))return 'Opening';
  const number=parseInt(title,10);
  if(number<=4)return 'Introduction and Purāṇas';
  if(number<=6)return 'Scriptural evidence';
@@ -26,7 +26,7 @@ function sectionsFrom(pages){
   if(kind==='heading'){
    const number=/^\s*(\d+)\./.exec(value);
    const id=/^index\b/i.test(value)?'index':number?'section-'+number[1]:'section-'+sections.length;
-   current={id,title:value,parent:sectionGroup(value),blocks:[]};sections.push(current);
+   current={id,title:/^index\b/i.test(value)?'Contents':value,parent:sectionGroup(value),blocks:[]};sections.push(current);
   }else current.blocks.push({kind,value,page:i+1});
  }));return sections;
 }
@@ -108,7 +108,7 @@ async function render(){
  tools.append(button);content.append(tools);
  for(const block of chosen.blocks)content.append(renderBlock(block,chosen.id));
  if(chosen.id==='opening'){
-  const img=make('img','shaiva-cover');img.alt='Original artwork of Śiva from the supplied manuscript';img.decoding='async';img.loading='eager';content.append(img);
+  const img=make('img','shaiva-cover');img.alt='Śiva artwork';img.decoding='async';img.loading='eager';content.append(img);
   get('assets/data/shaiva-cover.webp.b64').then(x=>img.src='data:image/webp;base64,'+x).catch(e=>{console.warn('Original manuscript artwork could not load',e);img.remove();});
  }
  root.replaceChildren(content);
