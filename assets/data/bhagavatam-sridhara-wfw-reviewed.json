@@ -4308,8 +4308,16 @@
       "source_blob_sha": "12b2ba76390c9eba7f97df6e7d8ca094c4d74325",
       "pairs": [
         [
-          "यत् यां कथाम् आह",
-          "the story which he spoke"
+          "यत्",
+          "which"
+        ],
+        [
+          "याम् कथाम्",
+          "the story"
+        ],
+        [
+          "आह",
+          "he spoke"
         ]
       ]
     },
@@ -4910,7 +4918,11 @@
       "source_blob_sha": "12b2ba76390c9eba7f97df6e7d8ca094c4d74325",
       "pairs": [
         [
-          "व्यस्यन् विभक्तवन्तः",
+          "व्यस्यन्",
+          "having distributed"
+        ],
+        [
+          "विभक्तवन्तः",
           "having divided"
         ]
       ]
@@ -9661,8 +9673,12 @@
       "source_blob_sha": "e682da36c9d65e5eefb408315e8ff9f86dc1911d",
       "pairs": [
         [
-          "कृष्णया सह",
-          "together with Kṛṣṇā [Draupadī]"
+          "कृष्णया",
+          "with Kṛṣṇā (Draupadī)"
+        ],
+        [
+          "सह",
+          "together / with"
         ]
       ]
     },
@@ -15231,8 +15247,12 @@
       "end": 24,
       "pairs": [
         [
-          "अन्यैः बन्दिभिः",
-          "with other panegyrists"
+          "अन्यैः",
+          "with other"
+        ],
+        [
+          "बन्दिभिः",
+          "panegyrists"
         ]
       ],
       "source_path": "bhAgavatam/gauDIya-prastutiH/01/11_pura-praveshaH.md",
@@ -21387,8 +21407,12 @@
       "source_blob_sha": "b2bc0f93289c98c2dea5cead81e9c85772db20f3",
       "pairs": [
         [
-          "ताम् दुर्विज्ञेयाम्",
-          "that which is difficult to understand"
+          "ताम्",
+          "that"
+        ],
+        [
+          "दुर्विज्ञेयाम्",
+          "difficult to understand"
         ]
       ]
     },
@@ -21759,8 +21783,16 @@
       "source_blob_sha": "b2bc0f93289c98c2dea5cead81e9c85772db20f3",
       "pairs": [
         [
-          "अधर्मः मित्रम् यस्य",
-          "one whose friend is irreligion; Kali"
+          "अधर्मः",
+          "irreligion"
+        ],
+        [
+          "मित्रम्",
+          "friend"
+        ],
+        [
+          "यस्य",
+          "of whom / whose"
         ]
       ]
     },
