@@ -3,22 +3,27 @@
 ## Method
 
 - Fetched all 31 pinned Sanskrit source files from `vishvAsa/purANam_vaiShNavam` at commit `100560de6c9f68c2875097d40a2012a84c784179`.
-- Fetched all 40 local Canto 11 word-for-word JSON files, including split files for Chapter 1 and Chapter 2.
-- Normalized exposed `entries`/`records` arrays and checked row coverage, word-for-word pair counts, placeholder markers, and repeated literal translations.
+- Fetched all 40 local Canto 11 word-for-word JSON files, including split files for Chapters 1 and 2.
+- Normalized exposed entry arrays and checked row coverage, word-for-word pair counts, placeholder markers, repeated pair arrays, and repeated literal translations.
+- Repaired copied generic gloss arrays chapter-by-chapter against the pinned Śrīdhara Sanskrit blocks.
 
 ## Result
 
 - Source files checked: 31/31
 - Local files checked: 40
 - Normalized rows inspected: 1267
+- Explicit source “no commentary” rows preserved: 70
 - Placeholder/pending records: 0
-- Rows with fewer than two word-for-word pairs: 181
-- Chapters with repeated literal translations: 5, 6, 7, 13, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31
+- Non-commentary rows with fewer than two pairs: 1 legitimate one-phrase source block (11.24.9)
+- Repeated non-commentary word-for-word arrays: 0
+- Repeated non-commentary literal translations: 0
 
-## Finding
+## Repair pass completed
 
-This completes the outstanding mechanical/source-coverage audit pass, but it does not certify independent philological translation. The short-gloss and repeated-literal findings identify chapters requiring rewrite. Canto 11 remains publicly accessible with `published-audit-pending` checkpoint status, and its old `live-verified` labels are retained only as historical metadata.
+The copied generic gloss arrays were replaced with source-specific Sanskrit phrases and English renderings in Chapters 13, 21–31. Explicit source gaps remain explicitly labeled and were not filled with invented commentary.
 
-## Next
+This is a source-bound mechanical and translation audit, not an independent critical-edition certification. Sanskrit source text remains authoritative; browser visual verification is still separate.
 
-Finish Canto 10 chapter by chapter, then rewrite and re-certify Canto 11 chapter by chapter before moving to Canto 3.
+## Release boundary
+
+Canto 11 remains publicly accessible with its restoration notice. Canto 10.39 is deliberately held until the combined Canto 1, 2, 10, and 11 repair gate is closed. New publication continues chapter-by-chapter after that gate.
