@@ -113,7 +113,7 @@ async function render(){
  }
  root.replaceChildren(content);
  const toggle=document.getElementById('shaiva-sanskrit-toggle');
- const sanskritNodes=Array.from(root.querySelectorAll('.shaiva-sanskrit'));
+ const sanskritNodes=Array.from(root.querySelectorAll('.shaiva-sanskrit,.shaiva-parallel__sanskrit'));
  if(!sanskritNodes.length)toggle.parentElement.hidden=true;
  else{
   let show=readPreference();
