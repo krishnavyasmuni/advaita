@@ -1296,10 +1296,31 @@
       "end": 43,
       "source_marker": "१०.८७.४२-४३",
       "sanskrit": "इत्य् अशेष-समाम्नाय-पुराणोपनिषद्-रस इति, सर्व-श्रुति-पुराण-रहस्य-तात्पर्यम् इत्य् अर्थः ॥४२-४३॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "इति",
+          "thus"
+        ],
+        [
+          "अशेष-समाम्नाय-पुराण-उपनिषद्-रसः",
+          "the essence of all the Vedas, Purāṇas and Upaniṣads"
+        ],
+        [
+          "इति",
+          "this is the meaning"
+        ],
+        [
+          "सर्व-श्रुति-पुराण-रहस्य-तात्पर्यम्",
+          "the essential secret meaning of all śruti and Purāṇas"
+        ],
+        [
+          "इति अर्थः",
+          "this is the meaning"
+        ]
+      ],
+      "literal_english": "Thus the phrase “the essence of all the Vedas, Purāṇas and Upaniṣads” means the essential secret purport of all śruti and Purāṇas.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Sanskrit-first word-for-word and literal English repair completed."
     },
     {
       "canto": 10,
