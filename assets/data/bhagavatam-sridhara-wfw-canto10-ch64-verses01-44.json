@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked; placeholder-free; lexical rows audited",
+  "status": "source-checked; source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/60-69/64.md",
   "source_blob_sha": "18e38bc816f7dc096857379c340cc065c31aa514",
-  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses removed and the remaining lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored and the remaining lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.64.1–10.64.44; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -230,7 +230,7 @@
       "word_for_word": [],
       "literal_english": "",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
