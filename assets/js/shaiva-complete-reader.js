@@ -48,7 +48,7 @@ function sectionsFrom(pages){
   }else{const previous=current.blocks[current.blocks.length-1];if(kind==='table'&&previous?.kind==='table'&&Array.isArray(previous.value)&&Array.isArray(value))previous.value.push(...value);else if(kind==='sa'&&previous?.kind==='sa')previous.value+='\n'+value;else current.blocks.push({kind,value,page:i+1});}
  }));return sections;
 }
-function sanskrit(text){const cleaned=String(text??'').replace(/\s*\(Translation:\s*$/i,'').trim();const p=make('p','shaiva-sanskrit',cleaned);p.lang='sa-Deva';p.hidden=true;return p;}
+function sanskrit(text){const cleaned=String(text??'').replace(/\s*\(Translation:\s*$/i,'').trim();const details=make('details','sanskrit-reveal');details.append(make('summary',null,'Show Sanskrit'));const source=make('div',null,cleaned);source.lang='sa-Deva';details.append(source);return details;}
 function renderIndex(text){
  const entry=make('div','shaiva-index-entry');
  const pieces=text.split(/\s+(?=\d+\.\d+\s)/);
@@ -66,12 +66,12 @@ function renderBlock({kind,value},section){
   const plainTranslation=visible.replace(/^\s*(?:English\s+)?Translation:\s*/i,'').trim();
   if(!plainTranslation)return document.createDocumentFragment();
   const noteAt=plainTranslation.search(/\s+NOTE:\s*/i);
-  if(noteAt>0){const fragment=document.createDocumentFragment();const quoteText=stripOuterQuotes(plainTranslation.slice(0,noteAt).trim());if(quoteText)fragment.append(make('blockquote','translation shaiva-quote',quoteText));const noteText=plainTranslation.slice(noteAt+1).trim();if(noteText)fragment.append(make('small','shaiva-note',noteText));return fragment;}
+  if(noteAt>0){const fragment=document.createDocumentFragment();const quoteText=stripOuterQuotes(plainTranslation.slice(0,noteAt).trim());if(quoteText)fragment.append(make('p','translation',quoteText));const noteText=plainTranslation.slice(noteAt+1).trim();if(noteText)fragment.append(make('small','shaiva-note',noteText));return fragment;}
   const cleaned=stripOuterQuotes(plainTranslation);
-  return cleaned?make('blockquote','translation shaiva-quote',cleaned):document.createDocumentFragment();
+  return cleaned?make('p','translation',cleaned):document.createDocumentFragment();
  }
 function stripOuterQuotes(value){return String(value??'').trim().replace(/^[“"‘']+/,'').replace(/[”"’']+$/,'').trim();}
-function verseQuote(value,number){const block=make('blockquote','translation shaiva-quote',stripOuterQuotes(value));block.append(make('small','shaiva-verse-reference','Verse '+number));return block;}
+function verseQuote(value,number){const block=make('p','translation',stripOuterQuotes(value));block.append(make('small','shaiva-verse-reference','Verse '+number));return block;}
 function renderVerse(value){
  const raw=articleText(value),marks=[...raw.matchAll(/\|\|\s*(\d+)\s*\|\|/g)];
  if(!marks.length)return null;
@@ -111,7 +111,7 @@ function renderVerse(value){
   if(/popcultking/i.test(visible))return document.createDocumentFragment();
   const verse=renderVerse(value);if(verse)return verse;
   if(/^\s*[●•]\s*[\u200b\u200c\u200d]*/u.test(visible))return make('p','shaiva-bullet',visible.replace(/^\s*[●•]\s*[\u200b\u200c\u200d]*/u,''));
-  if(/^\s*\(?(?:English\s+)?translation\s*:\s*/i.test(visible)){const cleaned=stripOuterQuotes(visible.replace(/^\s*\(?(?:English\s+)?translation\s*:\s*/i,'').replace(/\)\s*$/,'').trim());return cleaned?make('blockquote','translation shaiva-quote',cleaned):document.createDocumentFragment();}
+  if(/^\s*\(?(?:English\s+)?translation\s*:\s*/i.test(visible)){const cleaned=stripOuterQuotes(visible.replace(/^\s*\(?(?:English\s+)?translation\s*:\s*/i,'').replace(/\)\s*$/,'').trim());return cleaned?make('p','translation',cleaned):document.createDocumentFragment();}
   if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(visible)&&visible.length<180)return make('h3','shaiva-subheading',visible);
   return make('p','shaiva-paragraph',visible);
  }
@@ -131,8 +131,6 @@ function navLink(anchor,s,label){
  if(!s){anchor.classList.add('disabled');anchor.removeAttribute('href');return;}
  anchor.classList.remove('disabled');anchor.href=href(s);anchor.append(document.createTextNode(s.title));
 }
-function readPreference(){try{return sessionStorage.getItem('shaiva-show-sanskrit')==='true';}catch{return false;}}
-function writePreference(on){try{sessionStorage.setItem('shaiva-show-sanskrit',String(on));}catch{}}
 async function render(){
  const pages=await load(),sections=sectionsFrom(pages);
  const params=new URLSearchParams(location.search),requested=params.get('section');
@@ -149,23 +147,12 @@ async function render(){
  document.title=chosen.title+' — A Scripture-Based Case for the Supremacy of Shiva — Viveka Dṛṣṭi';
  const content=document.createDocumentFragment();
  if(chosen.id!=='opening')content.append(make('h3','shaiva-section-title',chosen.title));
- const tools=make('div','shaiva-tools'),button=make('button','shaiva-sanskrit-toggle','Show Sanskrit');
- button.id='shaiva-sanskrit-toggle';button.type='button';button.setAttribute('aria-pressed','false');
- tools.append(button);content.append(tools);
  for(const block of chosen.blocks)content.append(renderBlock(block,chosen.id));
  if(chosen.id==='opening'){
   const img=make('img','shaiva-cover');img.alt='Śiva artwork';img.decoding='async';img.loading='eager';content.append(img);
   get('assets/data/shaiva-cover.webp.b64').then(x=>img.src='data:image/webp;base64,'+x).catch(e=>{console.warn('Original manuscript artwork could not load',e);img.remove();});
  }
  root.replaceChildren(content);
- const toggle=document.getElementById('shaiva-sanskrit-toggle');
- const sanskritNodes=Array.from(root.querySelectorAll('.shaiva-sanskrit'));
- if(!sanskritNodes.length)toggle.parentElement.hidden=true;
- else{
-  let show=readPreference();
-  function apply(){for(const p of sanskritNodes)p.hidden=!show;toggle.textContent=show?'Hide Sanskrit':'Show Sanskrit';toggle.setAttribute('aria-pressed',String(show));}
-  toggle.addEventListener('click',()=>{show=!show;writePreference(show);apply();});apply();
- }
 }
 render().catch(e=>{console.error('Unable to load the complete Śaiva manuscript',e);root.replaceChildren(make('p','shaiva-loading-error','The article could not load. Refresh this page or try again.'));const a=make('a','','Open preserved earlier edition');a.href='source-original.html';root.append(a);});
 })();
