@@ -145,10 +145,43 @@
       "end": 14,
       "source_marker": "१०.५२.१२-१४",
       "sanskrit": "ततो गिरेः दश चैकं च योजनानि तावद् उत्तुङ्गान् मागध-संरोध-देशम् अतिक्रम्य परतोऽधो निपेततुः ॥१२-१४॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "ततः",
+          "then"
+        ],
+        [
+          "गिरेः",
+          "from the mountain"
+        ],
+        [
+          "दश च एकं च योजनानि",
+          "eleven yojanas"
+        ],
+        [
+          "तावत् उत्तुङ्गान्",
+          "of that height"
+        ],
+        [
+          "मागध-संरोध-देशम्",
+          "the region of the Magadha encirclement"
+        ],
+        [
+          "अतिक्रम्य",
+          "having crossed beyond"
+        ],
+        [
+          "परतः",
+          "on the farther side"
+        ],
+        [
+          "अधः निपेततुः",
+          "they fell down"
+        ]
+      ],
+      "literal_english": "They then crossed beyond the region where the Magadha forces had encircled them and fell down on the far side below, from a height of eleven yojanas from the mountain.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Sanskrit-first word-for-word and literal English repair completed."
     },
     {
       "canto": 10,
