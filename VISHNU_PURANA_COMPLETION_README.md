@@ -193,19 +193,19 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 5 Chapters 22, 24, 27, 28, 29, 31, 32, 33, 34, and 35 rebuilt; all seven chapters reread remotely, with supplied Śrīdhara layers attached where present |
+| Last committed route | Book 5 Chapters 22, 24, 27, 28, 29, 31, 32, 33, 34, 35, and 36 rebuilt; all eleven chapters reread remotely, with supplied Śrīdhara layers attached where present |
 | Book 1 status | AUDITED structurally — 1,407 articles; 1,198 WFW controls, 209 main WFW layers still missing |
 | Book 2 status | AUDITED structurally — 787 articles; 710 WFW controls, 77 main WFW layers still missing |
 | Book 3 status | AUDITED structurally — 837 articles with WFW controls; semantic source review remains separate |
 | Book 4 status | AUDITED structurally — 1,354 articles; 61 WFW controls, 1,293 main WFW layers still missing |
-| Book 5 status | AUDITED structurally — 1,517 articles; 502 WFW controls, 1,015 main WFW layers still missing |
+| Book 5 status | AUDITED structurally — 1,517 articles; 526 WFW controls, 991 main WFW layers still missing |
 | Book 6 status | AUDITED structurally — 498 articles; 0 WFW controls, 498 main WFW layers still missing |
-| Current repair target | Rebuild 3,092 missing main WFW articles from the cited Vasuki Sanskrit, chapter by chapter |
+| Current repair target | Rebuild 3,068 missing main WFW articles from the cited Vasuki Sanskrit, chapter by chapter |
 | Next chapter after the repair target | None — the full-corpus lexical remediation queue remains open |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | OPEN — 3,092 main WFW articles remain; the VP WFW markup is standardized to the verified one-mapping-per-line layout |
-| Latest chapter verification commit | be8e50864e5463455150fd30b65a374deb534576 — Book 5 Chapter 35 reread remotely with 38/38 main WFW and 16 supplied Śrīdhara units |
-| Latest semantic audit | 2026-09-22 full-corpus audit — 126 routes and 6,400 articles; 3,308 WFW controls present and 3,092 main WFW layers still missing; VP controls now use the one-mapping-per-line layout; no source-range labels or leading markers remain |
+| Full-scope remediation queue | OPEN — 3,068 main WFW articles remain; the VP WFW markup is standardized to the verified one-mapping-per-line layout |
+| Latest chapter verification commit | 85d195d44ef48f558c9a4aea8810295296b74b4b — Book 5 Chapter 36 reread remotely with 24/24 main WFW and 6 supplied Śrīdhara units |
+| Latest semantic audit | 2026-09-22 full-corpus audit — 126 routes and 6,400 articles; 3,332 WFW controls present and 3,068 main WFW layers still missing; VP controls now use the one-mapping-per-line layout; no source-range labels or leading markers remain |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
