@@ -5,7 +5,7 @@
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/60-69/65.md",
   "source_blob_sha": "8ab4c14be9d9d768876ecaa7963ac359a7619ac8",
-  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses removed and the remaining lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses and internal form markers removed; lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.65.1–10.65.24; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -52,7 +52,7 @@
       ],
       "literal_english": "आशीर्भिर् अभिनन्दितो बभूव: āśīrbhir abhinndito bbhūv — he was congratulated and blessed",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -81,28 +81,28 @@
       "word_for_word": [
         [
           "गोप-वृद्धांश् च विधिवद् अभिवन्द्य यविष्ठैर् अभिवन्दितो बभूवेत्य् अर्थः",
-          "gop-vṛddhāṃś c vidhivd abhivndy yviṣṭhair abhivndito bbhūvety arthḥ — cowherd and [forms: गोप-वृद्धांश्, विधिवद्, अभिवन्द्य, यविष्ठैर्, अभिवन्दितो, बभूवेत्य्, अर्थः]"
+          "Having properly honored the elder cowherds, he was honored by the younger ones; this is the meaning."
         ],
         [
           "अपि च यथा-वय इति",
-          "api c ythā-vy iti — and as thus [forms: अपि, यथा-वय]"
+          "And also, according to age."
         ],
         [
           "ते सर्वे स्वेषु यादवेषु तं रामम् अनामयम् आरोग्यं पप्रच्छुः",
-          "te srve sveṣu yādveṣu tṃ rāmm anāmym ārogyṃ pprcchuḥ — they/those him [forms: सर्वे, स्वेषु, यादवेषु, रामम्, अनामयम्, आरोग्यं, पप्रच्छुः]"
+          "All of them among the Yadus asked Rāma whether he was well and free from illness."
         ],
         [
           "ते च तेन पृष्टा इति",
-          "te c ten pṛṣṭā iti — they/those and by him thus [forms: पृष्टा]"
+          "And they, being asked by him, replied."
         ],
         [
           "कृष्णे कृष्ण-प्राप्त्य्-अर्थं संन्यस्ताखिल-राधसस् त्यक्त-सर्व-विषयाः",
-          "kṛṣṇe kṛṣṇ-prāpty-arthṃ sṃnystākhil-rādhss tykt-srv-viṣyāḥ — Kṛṣṇa all [forms: कृष्णे, कृष्ण-प्राप्त्य्-अर्थं, संन्यस्ताखिल-राधसस्, त्यक्त-सर्व-विषयाः]"
+          "For Kṛṣṇa, having renounced all possessions and desires for attaining Kṛṣṇa, having abandoned all sense objects."
         ]
       ],
-      "literal_english": "गोप-वृद्धांश् च विधिवद् अभिवन्द्य यविष्ठैर् अभिवन्दितो बभूवेत्य् अर्थः: gop-vṛddhāṃś c vidhivd abhivndy yviṣṭhair abhivndito bbhūvety arthḥ — cowherd and [forms: गोप-वृद्धांश्, विधिवद्, अभिवन्द्य, यविष्ठैर्, अभिवन्दितो, बभूवेत्य्, अर्थः]; अपि च यथा-वय इति: api c ythā-vy iti — and as thus [forms: अपि, यथा-वय]; ते सर्वे स्वेषु यादवेषु तं रामम् अनामयम् आरोग्यं पप्रच्छुः: te srve sveṣu yādveṣu tṃ rāmm anāmym ārogyṃ pprcchuḥ — they/those him [forms: सर्वे, स्वेषु, यादवेषु, रामम्, अनामयम्, आरोग्यं, पप्रच्छुः]; ते च तेन पृष्टा इति: te c ten pṛṣṭā iti — they/those and by him thus [forms: पृष्टा]; कृष्णे कृष्ण-प्राप्त्य्-अर्थं संन्यस्ताखिल-राधसस् त्यक्त-सर्व-विषयाः: kṛṣṇe kṛṣṇ-prāpty-arthṃ sṃnystākhil-rādhss tykt-srv-viṣyāḥ — Kṛṣṇa all [forms: कृष्णे, कृष्ण-प्राप्त्य्-अर्थं, संन्यस्ताखिल-राधसस्, त्यक्त-सर्व-विषयाः]",
+      "literal_english": "गोप-वृद्धांश् च विधिवद् अभिवन्द्य यविष्ठैर् अभिवन्दितो बभूवेत्य् अर्थः: Having properly honored the elder cowherds, he was honored by the younger ones; this is the meaning.; अपि च यथा-वय इति: And also, according to age.; ते सर्वे स्वेषु यादवेषु तं रामम् अनामयम् आरोग्यं पप्रच्छुः: All of them among the Yadus asked Rāma whether he was well and free from illness.; ते च तेन पृष्टा इति: And they, being asked by him, replied.; कृष्णे कृष्ण-प्राप्त्य्-अर्थं संन्यस्ताखिल-राधसस् त्यक्त-सर्व-विषयाः: For Kṛṣṇa, having renounced all possessions and desires for attaining Kṛṣṇa, having abandoned all sense objects.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -293,7 +293,7 @@
       ],
       "literal_english": "मधुं चैत्रम्: mdhuṃ caitrm — Madhu; Caitra; माधवं वैशाखम्: mādhvṃ vaiśākhm — Mādhava; Vaiśākha",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
