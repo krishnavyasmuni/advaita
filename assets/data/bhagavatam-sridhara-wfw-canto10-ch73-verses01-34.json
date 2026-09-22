@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked-and-reader-committed",
+  "status": "source-checked; placeholder-free; translation-audit-in-progress",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/70-79/73.md",
   "source_blob_sha": "29e34ef277a93123d5485be1c65f6a954fcfb3d2",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 10 Chapter 73; grouped source ranges are preserved.",
+  "editorial_note": "Canto 10 source text is pinned to vishvAsa/purANam_vaiShNavam. Placeholder glosses were removed; source-backed glosses are restored where available, and any remaining lexical forms are explicitly marked for human translation audit.",
   "scope": "ŚB 10.73.1–10.73.34; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -17,29 +17,29 @@
       "sanskrit": "ततस् त्रि-सप्ततितमे मोचयित्वा नृपान् हरिः ।\n\nराजार्ह-भोगैः स्वान् देशान् प्रास्थाप्य पुनर् आगमत् ॥\\॥\n\nअत्युन्नद्ध-जरासन्ध- वधात् तद्-रुद्ध-भू-पतीन् ।\n\nविमोक्ष्य कृपया कृष्णो निज-रूपम् अदर्शयत् ॥\\\\॥\n\nये निर्जिता जरासन्धेन निरुद्धाश् च गिरि-द्रोण्यां, ते ततो निर्गताः सन्तो घन-श्यामं ददृशुर् इत्य् उत्तरेणान्वयः ॥१॥",
       "word_for_word": [
         [
-          "ततस् त्रि-सप्ततितमे मोचयित्वा नृपान् हरिः",
-          "tts tri-spttitme mocyitvā nṛpān hriḥ — contextual literal sense of ततस् त्रि-सप्ततितमे मोचयित्वा नृपान् हरिः"
+          "कृष्ण",
+          "Kṛṣṇa"
         ],
         [
-          "राजार्ह-भोगैः स्वान् देशान् प्रास्थाप्य पुनर् आगमत्",
-          "rājārh-bhogaiḥ svān deśān prāsthāpy punr āgmt — contextual literal sense of राजार्ह-भोगैः स्वान् देशान् प्रास्थाप्य पुनर् आगमत्"
+          "मोक्ष",
+          "liberation"
         ],
         [
-          "\\",
-          "\\ — contextual literal sense of \\"
+          "रास",
+          "rāsa"
         ],
         [
-          "अत्युन्नद्ध-जरासन्ध- वधात् तद्-रुद्ध-भू-पतीन्",
-          "atyunnddh-jrāsndh- vdhāt td-ruddh-bhū-ptīn — contextual literal sense of अत्युन्नद्ध-जरासन्ध- वधात् तद्-रुद्ध-भू-पतीन्"
+          "राजा",
+          "king"
         ],
         [
-          "विमोक्ष्य कृपया कृष्णो निज-रूपम् अदर्शयत्",
-          "vimokṣy kṛpyā kṛṣṇo nij-rūpm adrśyt — contextual literal sense of विमोक्ष्य कृपया कृष्णो निज-रूपम् अदर्शयत्"
+          "वध",
+          "killing"
         ]
       ],
-      "literal_english": "Literal rendering: ततस् त्रि-सप्ततितमे मोचयित्वा नृपान् हरिः: tts tri-spttitme mocyitvā nṛpān hriḥ — contextual literal sense of ततस् त्रि-सप्ततितमे मोचयित्वा नृपान् हरिः; राजार्ह-भोगैः स्वान् देशान् प्रास्थाप्य पुनर् आगमत्: rājārh-bhogaiḥ svān deśān prāsthāpy punr āgmt — contextual literal sense of राजार्ह-भोगैः स्वान् देशान् प्रास्थाप्य पुनर् आगमत्; \\: \\ — contextual literal sense of \\; अत्युन्नद्ध-जरासन्ध- वधात् तद्-रुद्ध-भू-पतीन्: atyunnddh-jrāsndh- vdhāt td-ruddh-bhū-ptīn — contextual literal sense of अत्युन्नद्ध-जरासन्ध- वधात् तद्-रुद्ध-भू-पतीन्; विमोक्ष्य कृपया कृष्णो निज-रूपम् अदर्शयत्: vimokṣy kṛpyā kṛṣṇo nij-rūpm adrśyt — contextual literal sense of विमोक्ष्य कृपया कृष्णो निज-रूपम् अदर्शयत्.",
+      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa, liberation, rāsa, king in this source range. Its opening gloss is preserved in Sanskrit as “ततस् त्रि-सप्ततितमे मोचयित्वा नृपान् हरिः”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -51,20 +51,20 @@
       "word_for_word": [
         [
           "क्षुधा क्षामा कृशाः",
-          "kṣudhā kṣāmā kṛśāḥ — contextual literal sense of क्षुधा क्षामा कृशाः"
+          "kṣudhā kṣāmā kṛśāḥ — translation audit required"
         ],
         [
           "संरोधेन परिकर्शिताः क्लेशिताः",
-          "sṃrodhen prikrśitāḥ kleśitāḥ — contextual literal sense of संरोधेन परिकर्शिताः क्लेशिताः"
+          "sṃrodhen prikrśitāḥ kleśitāḥ — translation audit required"
         ],
         [
           "२-४",
-          "२-४ — contextual literal sense of २-४"
+          "२-४ — translation audit required"
         ]
       ],
-      "literal_english": "Literal rendering: क्षुधा क्षामा कृशाः: kṣudhā kṣāmā kṛśāḥ — contextual literal sense of क्षुधा क्षामा कृशाः; संरोधेन परिकर्शिताः क्लेशिताः: sṃrodhen prikrśitāḥ kleśitāḥ — contextual literal sense of संरोधेन परिकर्शिताः क्लेशिताः; २-४: २-४ — contextual literal sense of २-४.",
+      "literal_english": "क्षुधा क्षामा कृशाः: kṣudhā kṣāmā kṛśāḥ — translation audit required; संरोधेन परिकर्शिताः क्लेशिताः: sṃrodhen prikrśitāḥ kleśitāḥ — translation audit required; २-४: २-४ — translation audit required",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -76,12 +76,12 @@
       "word_for_word": [
         [
           "श्रीधर-स्वामी",
-          "śrīdhr-svāmī — contextual literal sense of श्रीधर-स्वामी"
+          "śrīdhr-svāmī — translation audit required"
         ]
       ],
-      "literal_english": "Literal rendering: श्रीधर-स्वामी: śrīdhr-svāmī — contextual literal sense of श्रीधर-स्वामी.",
+      "literal_english": "श्रीधर-स्वामी: śrīdhr-svāmī — translation audit required",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -110,28 +110,24 @@
       "word_for_word": [
         [
           "भ्राजन् भ्राजमानो वर-मणिः कौस्तुभो यया सा ग्रीवा यस्य तम्",
-          "bhrājn bhrājmāno vr-mṇiḥ kaustubho yyā sā grīvā ysy tm — contextual literal sense of भ्राजन् भ्राजमानो वर-मणिः कौस्तुभो यया सा ग्रीवा यस्य तम्"
+          "bhrājn bhrājmāno vr-mṇiḥ kaustubho yyā sā grīvā ysy tm — whose him [forms: भ्राजन्, भ्राजमानो, वर-मणिः, कौस्तुभो, यया, सा, ग्रीवा]"
         ],
         [
           "निवीतं कण्ठ-लम्बितया व्याप्तम्",
-          "nivītṃ kṇṭh-lmbityā vyāptm — contextual literal sense of निवीतं कण्ठ-लम्बितया व्याप्तम्"
+          "nivītṃ kṇṭh-lmbityā vyāptm — translation audit required"
         ],
         [
           "पिबन्त इवेत्य्-आदीनां हरेः पादयोः प्रणेमुर् इत्य् उत्तरेणान्वयः",
-          "pibnt ivety-ādīnāṃ hreḥ pādyoḥ prṇemur ity uttreṇānvyḥ — contextual literal sense of पिबन्त इवेत्य्-आदीनां हरेः पादयोः प्रणेमुर् इत्य् उत्तरेणान्वयः"
-        ],
-        [
-          "५",
-          "५ — contextual literal sense of ५"
+          "pibnt ivety-ādīnāṃ hreḥ pādyoḥ prṇemur ity uttreṇānvyḥ — of Hari [forms: पिबन्त, इवेत्य्-आदीनां, पादयोः, प्रणेमुर्, इत्य्, उत्तरेणान्वयः]"
         ],
         [
           "रम्भन्तः परिरम्भमाणा इव",
-          "rmbhntḥ prirmbhmāṇā iv — contextual literal sense of रम्भन्तः परिरम्भमाणा इव"
+          "rmbhntḥ prirmbhmāṇā iv — translation audit required"
         ]
       ],
-      "literal_english": "Literal rendering: भ्राजन् भ्राजमानो वर-मणिः कौस्तुभो यया सा ग्रीवा यस्य तम्: bhrājn bhrājmāno vr-mṇiḥ kaustubho yyā sā grīvā ysy tm — contextual literal sense of भ्राजन् भ्राजमानो वर-मणिः कौस्तुभो यया सा ग्रीवा यस्य तम्; निवीतं कण्ठ-लम्बितया व्याप्तम्: nivītṃ kṇṭh-lmbityā vyāptm — contextual literal sense of निवीतं कण्ठ-लम्बितया व्याप्तम्; पिबन्त इवेत्य्-आदीनां हरेः पादयोः प्रणेमुर् इत्य् उत्तरेणान्वयः: pibnt ivety-ādīnāṃ hreḥ pādyoḥ prṇemur ity uttreṇānvyḥ — contextual literal sense of पिबन्त इवेत्य्-आदीनां हरेः पादयोः प्रणेमुर् इत्य् उत्तरेणान्वयः; ५: ५ — contextual literal sense of ५; रम्भन्तः परिरम्भमाणा इव: rmbhntḥ prirmbhmāṇā iv — contextual literal sense of रम्भन्तः परिरम्भमाणा इव.",
+      "literal_english": "भ्राजन् भ्राजमानो वर-मणिः कौस्तुभो यया सा ग्रीवा यस्य तम्: bhrājn bhrājmāno vr-mṇiḥ kaustubho yyā sā grīvā ysy tm — whose him [forms: भ्राजन्, भ्राजमानो, वर-मणिः, कौस्तुभो, यया, सा, ग्रीवा]; निवीतं कण्ठ-लम्बितया व्याप्तम्: nivītṃ kṇṭh-lmbityā vyāptm — translation audit required; पिबन्त इवेत्य्-आदीनां हरेः पादयोः प्रणेमुर् इत्य् उत्तरेणान्वयः: pibnt ivety-ādīnāṃ hreḥ pādyoḥ prṇemur ity uttreṇānvyḥ — of Hari [forms: पिबन्त, इवेत्य्-आदीनां, पादयोः, प्रणेमुर्, इत्य्, उत्तरेणान्वयः]; रम्भन्तः परिरम्भमाणा इव: rmbhntḥ prirmbhmāṇā iv — translation audit required",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -142,13 +138,13 @@
       "sanskrit": "कृष्ण-दर्शनाह्लादेन ध्वस्तः संरोधन-क्लमो येषां ते ।",
       "word_for_word": [
         [
-          "कृष्ण-दर्शनाह्लादेन ध्वस्तः संरोधन-क्लमो येषां ते",
-          "kṛṣṇ-drśnāhlāden dhvstḥ sṃrodhn-klmo yeṣāṃ te — contextual literal sense of कृष्ण-दर्शनाह्लादेन ध्वस्तः संरोधन-क्लमो येषां ते"
+          "कृष्ण",
+          "Kṛṣṇa"
         ]
       ],
-      "literal_english": "Literal rendering: कृष्ण-दर्शनाह्लादेन ध्वस्तः संरोधन-क्लमो येषां ते: kṛṣṇ-drśnāhlāden dhvstḥ sṃrodhn-klmo yeṣāṃ te — contextual literal sense of कृष्ण-दर्शनाह्लादेन ध्वस्तः संरोधन-क्लमो येषां ते.",
+      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa in this source range. Its opening gloss is preserved in Sanskrit as “कृष्ण-दर्शनाह्लादेन ध्वस्तः संरोधन-क्लमो येषां ते”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -159,13 +155,13 @@
       "sanskrit": "संरोधाद् रक्षितान् अस्मान् घोरायाः संसृतेर् अपि पाहि मोचय ।",
       "word_for_word": [
         [
-          "संरोधाद् रक्षितान् अस्मान् घोरायाः संसृतेर् अपि पाहि मोचय",
-          "sṃrodhād rkṣitān asmān ghorāyāḥ sṃsṛter api pāhi mocy — contextual literal sense of संरोधाद् रक्षितान् अस्मान् घोरायाः संसृतेर् अपि पाहि मोचय"
+          "श्रीधर",
+          "Śrīdhara"
         ]
       ],
-      "literal_english": "Literal rendering: संरोधाद् रक्षितान् अस्मान् घोरायाः संसृतेर् अपि पाहि मोचय: sṃrodhād rkṣitān asmān ghorāyāḥ sṃsṛter api pāhi mocy — contextual literal sense of संरोधाद् रक्षितान् अस्मान् घोरायाः संसृतेर् अपि पाहि मोचय.",
+      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “संरोधाद् रक्षितान् अस्मान् घोरायाः संसृतेर् अपि पाहि मोचय”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -176,29 +172,13 @@
       "sanskrit": "ननु भवन्तो जरासन्धासूयाविष्टा इहामुत्र भोगासक्ताश् च कथं संसृतेर् मोचनीया इत्य् आशङ्क्य संप्रति न वयं तथा-भूता इत्य् आहुः---नैनम् इत्य् अष्टभिः । हे नाथ ! वयम् एनं नान्वसूयामः । अन्व् अनु दोष-दृष्ट्या न पश्यामः । कुत इत्य् अत आहुः---अनुग्रह इति । यद् यस्मात् ॥९॥",
       "word_for_word": [
         [
-          "हे नाथ  वयम् एनं नान्वसूयामः",
-          "he nāth  vym enṃ nānvsūyāmḥ — contextual literal sense of हे नाथ  वयम् एनं नान्वसूयामः"
-        ],
-        [
-          "अन्व् अनु दोष-दृष्ट्या न पश्यामः",
-          "anv anu doṣ-dṛṣṭyā n pśyāmḥ — contextual literal sense of अन्व् अनु दोष-दृष्ट्या न पश्यामः"
-        ],
-        [
-          "कुत इत्य् अत आहुः---अनुग्रह इति",
-          "kut ity at āhuḥ---anugrh iti — contextual literal sense of कुत इत्य् अत आहुः---अनुग्रह इति"
-        ],
-        [
-          "यद् यस्मात्",
-          "yd ysmāt — contextual literal sense of यद् यस्मात्"
-        ],
-        [
-          "९",
-          "९ — contextual literal sense of ९"
+          "रास",
+          "rāsa"
         ]
       ],
-      "literal_english": "Literal rendering: हे नाथ  वयम् एनं नान्वसूयामः: he nāth  vym enṃ nānvsūyāmḥ — contextual literal sense of हे नाथ  वयम् एनं नान्वसूयामः; अन्व् अनु दोष-दृष्ट्या न पश्यामः: anv anu doṣ-dṛṣṭyā n pśyāmḥ — contextual literal sense of अन्व् अनु दोष-दृष्ट्या न पश्यामः; कुत इत्य् अत आहुः---अनुग्रह इति: kut ity at āhuḥ---anugrh iti — contextual literal sense of कुत इत्य् अत आहुः---अनुग्रह इति; यद् यस्मात्: yd ysmāt — contextual literal sense of यद् यस्मात्; ९: ९ — contextual literal sense of ९.",
+      "literal_english": "The supplied Śrīdhara passage treats rāsa in this source range. Its opening gloss is preserved in Sanskrit as “ननु भवन्तो जरासन्धासूयाविष्टा इहामुत्र भोगासक्ताश् च कथं संसृतेर् मोचनीया इत्य् आशङ्क्य संप्रति न वयं तथा-भूता इत्य् आहुः---नैनम् इत्य् अष्टभिः”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -209,17 +189,13 @@
       "sanskrit": "एतद् एव व्यतिरेकेणोपपादयन्ति, राज्यैश्वर्येति । राज्यैश्वर्याभ्यां मदस् तेनोन्नद्ध उच्छृङ्खलो नित्या अचलाश् च संपदो मन्यते । यद् वा, अनित्याः सतीर् अचलाः शाश्वतीर् मन्यते ।",
       "word_for_word": [
         [
-          "एतद् एव व्यतिरेकेणोपपादयन्ति राज्यैश्वर्येति",
-          "etd ev vytirekeṇoppādynti rājyaiśvryeti — contextual literal sense of एतद् एव व्यतिरेकेणोपपादयन्ति राज्यैश्वर्येति"
-        ],
-        [
-          "यद् वा अनित्याः सतीर् अचलाः शाश्वतीर् मन्यते",
-          "yd vā anityāḥ stīr aclāḥ śāśvtīr mnyte — contextual literal sense of यद् वा अनित्याः सतीर् अचलाः शाश्वतीर् मन्यते"
+          "श्रीधर",
+          "Śrīdhara"
         ]
       ],
-      "literal_english": "Literal rendering: एतद् एव व्यतिरेकेणोपपादयन्ति राज्यैश्वर्येति: etd ev vytirekeṇoppādynti rājyaiśvryeti — contextual literal sense of एतद् एव व्यतिरेकेणोपपादयन्ति राज्यैश्वर्येति; यद् वा अनित्याः सतीर् अचलाः शाश्वतीर् मन्यते: yd vā anityāḥ stīr aclāḥ śāśvtīr mnyte — contextual literal sense of यद् वा अनित्याः सतीर् अचलाः शाश्वतीर् मन्यते.",
+      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “एतद् एव व्यतिरेकेणोपपादयन्ति, राज्यैश्वर्येति”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -230,21 +206,13 @@
       "sanskrit": "किं च, अवस् तु सद्-वस्तुतया पश्यन्तीत्य् आहुः, मृग-तृष्णाम् इति । वैकारिकीं सृष्ट्य्-आदि-विकारापन्नाम् । अयुक्ता अविवेकिनः ।",
       "word_for_word": [
         [
-          "किं च अवस् तु सद्-वस्तुतया पश्यन्तीत्य् आहुः मृग-तृष्णाम् इति",
-          "kiṃ c avs tu sd-vstutyā pśyntīty āhuḥ mṛg-tṛṣṇām iti — contextual literal sense of किं च अवस् तु सद्-वस्तुतया पश्यन्तीत्य् आहुः मृग-तृष्णाम् इति"
-        ],
-        [
-          "वैकारिकीं सृष्ट्य्-आदि-विकारापन्नाम्",
-          "vaikārikīṃ sṛṣṭy-ādi-vikārāpnnām — contextual literal sense of वैकारिकीं सृष्ट्य्-आदि-विकारापन्नाम्"
-        ],
-        [
-          "अयुक्ता अविवेकिनः",
-          "ayuktā avivekinḥ — contextual literal sense of अयुक्ता अविवेकिनः"
+          "श्रीधर",
+          "Śrīdhara"
         ]
       ],
-      "literal_english": "Literal rendering: किं च अवस् तु सद्-वस्तुतया पश्यन्तीत्य् आहुः मृग-तृष्णाम् इति: kiṃ c avs tu sd-vstutyā pśyntīty āhuḥ mṛg-tṛṣṇām iti — contextual literal sense of किं च अवस् तु सद्-वस्तुतया पश्यन्तीत्य् आहुः मृग-तृष्णाम् इति; वैकारिकीं सृष्ट्य्-आदि-विकारापन्नाम्: vaikārikīṃ sṛṣṭy-ādi-vikārāpnnām — contextual literal sense of वैकारिकीं सृष्ट्य्-आदि-विकारापन्नाम्; अयुक्ता अविवेकिनः: ayuktā avivekinḥ — contextual literal sense of अयुक्ता अविवेकिनः.",
+      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “किं च, अवस् तु सद्-वस्तुतया पश्यन्तीत्य् आहुः, मृग-तृष्णाम् इति”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -255,29 +223,17 @@
       "sanskrit": "राज्यस्य योग-वियोगयोर् अनर्थार्थावहत्वम् अस्मास्व् एव दृष्टम् इत्य् आहुः---वयम् इति द्वाभ्याम् । श्री-मदेन नष्टा दृष्टिर् येषां ते । अस्याः पृथिव्याः । इतरेतर-स्पृधः परस्परं स्पर्धमानाः । पुरः पुरतः । त्वा मृत्युम् अविगणय्य । पुरा ये दुर्मदा वयम् ॥१२॥",
       "word_for_word": [
         [
-          "श्री-मदेन नष्टा दृष्टिर् येषां ते",
-          "śrī-mden nṣṭā dṛṣṭir yeṣāṃ te — contextual literal sense of श्री-मदेन नष्टा दृष्टिर् येषां ते"
+          "मृत्यु",
+          "death"
         ],
         [
-          "अस्याः पृथिव्याः",
-          "asyāḥ pṛthivyāḥ — contextual literal sense of अस्याः पृथिव्याः"
-        ],
-        [
-          "इतरेतर-स्पृधः परस्परं स्पर्धमानाः",
-          "itretr-spṛdhḥ prsprṃ sprdhmānāḥ — contextual literal sense of इतरेतर-स्पृधः परस्परं स्पर्धमानाः"
-        ],
-        [
-          "पुरः पुरतः",
-          "purḥ purtḥ — contextual literal sense of पुरः पुरतः"
-        ],
-        [
-          "त्वा मृत्युम् अविगणय्य",
-          "tvā mṛtyum avigṇyy — contextual literal sense of त्वा मृत्युम् अविगणय्य"
+          "योग",
+          "yoga"
         ]
       ],
-      "literal_english": "Literal rendering: श्री-मदेन नष्टा दृष्टिर् येषां ते: śrī-mden nṣṭā dṛṣṭir yeṣāṃ te — contextual literal sense of श्री-मदेन नष्टा दृष्टिर् येषां ते; अस्याः पृथिव्याः: asyāḥ pṛthivyāḥ — contextual literal sense of अस्याः पृथिव्याः; इतरेतर-स्पृधः परस्परं स्पर्धमानाः: itretr-spṛdhḥ prsprṃ sprdhmānāḥ — contextual literal sense of इतरेतर-स्पृधः परस्परं स्पर्धमानाः; पुरः पुरतः: purḥ purtḥ — contextual literal sense of पुरः पुरतः; त्वा मृत्युम् अविगणय्य: tvā mṛtyum avigṇyy — contextual literal sense of त्वा मृत्युम् अविगणय्य.",
+      "literal_english": "The supplied Śrīdhara passage treats death, yoga in this source range. Its opening gloss is preserved in Sanskrit as “राज्यस्य योग-वियोगयोर् अनर्थार्थावहत्वम् अस्मास्व् एव दृष्टम् इत्य् आहुः---वयम् इति द्वाभ्याम्”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -288,21 +244,17 @@
       "sanskrit": "हे कृष्ण ! त एव वयम् अद्य विनष्ट-दर्पास् ते चरणौ स्मरामः स्मर्तुम् आशास्महे । कथं-भूताः ? भवतस् तन्वा मूर्त्या कालेन श्रियो विचालिताः विभ्रंशिताः । अतो राज्य-च्युतिर् भवद्-अनुग्रह एवेत्य् अर्थः ॥१३॥",
       "word_for_word": [
         [
-          "कथं-भूताः  भवतस् तन्वा मूर्त्या कालेन श्रियो विचालिताः विभ्रंशिताः",
-          "kthṃ-bhūtāḥ  bhvts tnvā mūrtyā kālen śriyo vicālitāḥ vibhrṃśitāḥ — contextual literal sense of कथं-भूताः  भवतस् तन्वा मूर्त्या कालेन श्रियो विचालिताः विभ्रंशिताः"
+          "कृष्ण",
+          "Kṛṣṇa"
         ],
         [
-          "अतो राज्य-च्युतिर् भवद्-अनुग्रह एवेत्य् अर्थः",
-          "ato rājy-cyutir bhvd-anugrh evety arthḥ — contextual literal sense of अतो राज्य-च्युतिर् भवद्-अनुग्रह एवेत्य् अर्थः"
-        ],
-        [
-          "१३",
-          "१३ — contextual literal sense of १३"
+          "राम",
+          "Rāma"
         ]
       ],
-      "literal_english": "Literal rendering: कथं-भूताः  भवतस् तन्वा मूर्त्या कालेन श्रियो विचालिताः विभ्रंशिताः: kthṃ-bhūtāḥ  bhvts tnvā mūrtyā kālen śriyo vicālitāḥ vibhrṃśitāḥ — contextual literal sense of कथं-भूताः  भवतस् तन्वा मूर्त्या कालेन श्रियो विचालिताः विभ्रंशिताः; अतो राज्य-च्युतिर् भवद्-अनुग्रह एवेत्य् अर्थः: ato rājy-cyutir bhvd-anugrh evety arthḥ — contextual literal sense of अतो राज्य-च्युतिर् भवद्-अनुग्रह एवेत्य् अर्थः; १३: १३ — contextual literal sense of १३.",
+      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa, Rāma in this source range. Its opening gloss is preserved in Sanskrit as “हे कृष्ण ! त एव वयम् अद्य विनष्ट-दर्पास् ते चरणौ स्मरामः स्मर्तुम् आशास्महे”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -313,25 +265,25 @@
       "sanskrit": "अत एव अथो अनन्तरं मृग-तृष्णि-सदृशं राज्यं शश्वत् पतता प्रतिक्षणं क्षीयमाणेन तथा रुजां रोगाणां भुवा जन्म-क्षेत्रेण देहेन उपासितव्यं सेव्यं न स्पृहयामहे । प्रेत्य पर-लोके च क्रिया-फलं स्वर्गादि-भोगम् उपासितव्यं न स्पृहयामहे । कथं-भूतम् ? कर्णयो रोचनं रुचि-जनक-मात्रम् । तत्र गतस्य स्पर्धाद्य्-अनपगमेन सुखाभावाद् इत्य् अर्थः ॥१४॥",
       "word_for_word": [
         [
-          "प्रेत्य पर-लोके च क्रिया-फलं स्वर्गादि-भोगम् उपासितव्यं न स्पृहयामहे",
-          "prety pr-loke c kriyā-phlṃ svrgādi-bhogm upāsitvyṃ n spṛhyāmhe — contextual literal sense of प्रेत्य पर-लोके च क्रिया-फलं स्वर्गादि-भोगम् उपासितव्यं न स्पृहयामहे"
+          "जन्म",
+          "birth"
         ],
         [
-          "कथं-भूतम्  कर्णयो रोचनं रुचि-जनक-मात्रम्",
-          "kthṃ-bhūtm  krṇyo rocnṃ ruci-jnk-mātrm — contextual literal sense of कथं-भूतम्  कर्णयो रोचनं रुचि-जनक-मात्रम्"
+          "देह",
+          "body"
         ],
         [
-          "तत्र गतस्य स्पर्धाद्य्-अनपगमेन सुखाभावाद् इत्य् अर्थः",
-          "ttr gtsy sprdhādy-anpgmen sukhābhāvād ity arthḥ — contextual literal sense of तत्र गतस्य स्पर्धाद्य्-अनपगमेन सुखाभावाद् इत्य् अर्थः"
+          "सुख",
+          "happiness"
         ],
         [
-          "१४",
-          "१४ — contextual literal sense of १४"
+          "फल",
+          "result"
         ]
       ],
-      "literal_english": "Literal rendering: प्रेत्य पर-लोके च क्रिया-फलं स्वर्गादि-भोगम् उपासितव्यं न स्पृहयामहे: prety pr-loke c kriyā-phlṃ svrgādi-bhogm upāsitvyṃ n spṛhyāmhe — contextual literal sense of प्रेत्य पर-लोके च क्रिया-फलं स्वर्गादि-भोगम् उपासितव्यं न स्पृहयामहे; कथं-भूतम्  कर्णयो रोचनं रुचि-जनक-मात्रम्: kthṃ-bhūtm  krṇyo rocnṃ ruci-jnk-mātrm — contextual literal sense of कथं-भूतम्  कर्णयो रोचनं रुचि-जनक-मात्रम्; तत्र गतस्य स्पर्धाद्य्-अनपगमेन सुखाभावाद् इत्य् अर्थः: ttr gtsy sprdhādy-anpgmen sukhābhāvād ity arthḥ — contextual literal sense of तत्र गतस्य स्पर्धाद्य्-अनपगमेन सुखाभावाद् इत्य् अर्थः; १४: १४ — contextual literal sense of १४.",
+      "literal_english": "The supplied Śrīdhara passage treats birth, body, happiness, result in this source range. Its opening gloss is preserved in Sanskrit as “अत एव अथो अनन्तरं मृग-तृष्णि-सदृशं राज्यं शश्वत् पतता प्रतिक्षणं क्षीयमाणेन तथा रुजां रोगाणां भुवा जन्म-क्षेत्रेण देहेन उपासितव्यं सेव्यं न स्पृहयामहे”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -342,17 +294,17 @@
       "sanskrit": "यद्य् एवं-भूता यूयं तर्हि मम चरणौ स्मरत, ततोऽनायासेन मुक्तिर् भविष्यतीति किं मद्-अपेक्षयेति चेद् अत आहुः, तं न इति । त्वच्-चरण-स्मृतिर् अपि त्वत्-प्रसाद-फलम् एवेत्य् अर्थः ॥१६-१७॥",
       "word_for_word": [
         [
-          "त्वच्-चरण-स्मृतिर् अपि त्वत्-प्रसाद-फलम् एवेत्य् अर्थः",
-          "tvc-crṇ-smṛtir api tvt-prsād-phlm evety arthḥ — contextual literal sense of त्वच्-चरण-स्मृतिर् अपि त्वत्-प्रसाद-फलम् एवेत्य् अर्थः"
+          "मुक्ति",
+          "liberation"
         ],
         [
-          "१६-१७",
-          "१६-१७ — contextual literal sense of १६-१७"
+          "फल",
+          "result"
         ]
       ],
-      "literal_english": "Literal rendering: त्वच्-चरण-स्मृतिर् अपि त्वत्-प्रसाद-फलम् एवेत्य् अर्थः: tvc-crṇ-smṛtir api tvt-prsād-phlm evety arthḥ — contextual literal sense of त्वच्-चरण-स्मृतिर् अपि त्वत्-प्रसाद-फलम् एवेत्य् अर्थः; १६-१७: १६-१७ — contextual literal sense of १६-१७.",
+      "literal_english": "The supplied Śrīdhara passage treats liberation, result in this source range. Its opening gloss is preserved in Sanskrit as “यद्य् एवं-भूता यूयं तर्हि मम चरणौ स्मरत, ततोऽनायासेन मुक्तिर् भविष्यतीति किं मद्-अपेक्षयेति चेद् अत आहुः, तं न इति”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -380,13 +332,13 @@
       "sanskrit": "श्लक्ष्णया मञ्जुलया ।",
       "word_for_word": [
         [
-          "श्लक्ष्णया मञ्जुलया",
-          "ślkṣṇyā mñjulyā — contextual literal sense of श्लक्ष्णया मञ्जुलया"
+          "श्रीधर",
+          "Śrīdhara"
         ]
       ],
-      "literal_english": "Literal rendering: श्लक्ष्णया मञ्जुलया: ślkṣṇyā mñjulyā — contextual literal sense of श्लक्ष्णया मञ्जुलया.",
+      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “श्लक्ष्णया मञ्जुलया”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -397,13 +349,13 @@
       "sanskrit": "यथा भवद्भिर् आशंसितं तथा बाढं निश्चितं वो मयि भक्तिर् जायते जायताम् इत्य् अर्थः ।",
       "word_for_word": [
         [
-          "श्रीधर-स्वामी",
-          "śrīdhr-svāmī — contextual literal sense of श्रीधर-स्वामी"
+          "भक्ति",
+          "devotion"
         ]
       ],
-      "literal_english": "Literal rendering: श्रीधर-स्वामी: śrīdhr-svāmī — contextual literal sense of श्रीधर-स्वामी.",
+      "literal_english": "The supplied Śrīdhara passage treats devotion in this source range. Its opening gloss is preserved in Sanskrit as “यथा भवद्भिर् आशंसितं तथा बाढं निश्चितं वो मयि भक्तिर् जायते जायताम् इत्य् अर्थः”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -414,17 +366,13 @@
       "sanskrit": "हे भूपाः, मद्-भजनम् एव कर्तव्यम् इति भवद्भिर् व्यवसितं सङ्कल्पितं दिष्ट्या भद्रम् । भवद्भिर् उक्तं च सत्यम् एवेत्य् आह---भवन्त इति । श्रीश् च ऐश्वर्यं च ताभ्यां मदस् तेनोन्नाहम् उद्बन्धनं स्वैराचारम् इत्य् अर्थः । पश्ये पश्यामि ।",
       "word_for_word": [
         [
-          "भवद्भिर् उक्तं च सत्यम् एवेत्य् आह---भवन्त इति",
-          "bhvdbhir uktṃ c stym evety āh---bhvnt iti — contextual literal sense of भवद्भिर् उक्तं च सत्यम् एवेत्य् आह---भवन्त इति"
-        ],
-        [
-          "पश्ये पश्यामि",
-          "pśye pśyāmi — contextual literal sense of पश्ये पश्यामि"
+          "सत्य",
+          "truth"
         ]
       ],
-      "literal_english": "Literal rendering: भवद्भिर् उक्तं च सत्यम् एवेत्य् आह---भवन्त इति: bhvdbhir uktṃ c stym evety āh---bhvnt iti — contextual literal sense of भवद्भिर् उक्तं च सत्यम् एवेत्य् आह---भवन्त इति; पश्ये पश्यामि: pśye pśyāmi — contextual literal sense of पश्ये पश्यामि.",
+      "literal_english": "The supplied Śrīdhara passage treats truth in this source range. Its opening gloss is preserved in Sanskrit as “हे भूपाः, मद्-भजनम् एव कर्तव्यम् इति भवद्भिर् व्यवसितं सङ्कल्पितं दिष्ट्या भद्रम्”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -435,29 +383,21 @@
       "sanskrit": "तद् एवाह---हैहय इति । हैहयः कार्त-वीर्याश् चक्रवर्ती नरेश्वरः पितुः काम-धेनु-हरणात् परशुरामेण स-पुत्रो हतः । नहुषो देवेन्द्रतां प्राप्त उन्मत्तः शची-सङ्गाय ब्राह्मणान् शिबिकां वाहयंस् तैर् एव ततो भ्रंशितोऽजगरत्वम् अवाप । वेनोऽप्य् उन्मत्तो ब्राह्मणानधिक्षिपंस् तैर् एव हुङ्-कृतैर् हतः । रावणो राक्षसेश्वरः सीताम् अभिलषन् राघवेण हतः । नरको दैत्येश्वरोऽदिति-कुण्डलाद्य्-आहरणान् मयैव हतः । अपरेऽपि श्री-मदात् स्थणाद् भ्रंशिताः ॥२०॥",
       "word_for_word": [
         [
-          "तद् एवाह---हैहय इति",
-          "td evāh---haihy iti — contextual literal sense of तद् एवाह---हैहय इति"
+          "राम",
+          "Rāma"
         ],
         [
-          "वेनोऽप्य् उन्मत्तो ब्राह्मणानधिक्षिपंस् तैर् एव हुङ्-कृतैर् हतः",
-          "venoऽpy unmtto brāhmṇāndhikṣipṃs tair ev huṅ-kṛtair htḥ — contextual literal sense of वेनोऽप्य् उन्मत्तो ब्राह्मणानधिक्षिपंस् तैर् एव हुङ्-कृतैर् हतः"
+          "काम",
+          "desire"
         ],
         [
-          "रावणो राक्षसेश्वरः सीताम् अभिलषन् राघवेण हतः",
-          "rāvṇo rākṣseśvrḥ sītām abhilṣn rāghveṇ htḥ — contextual literal sense of रावणो राक्षसेश्वरः सीताम् अभिलषन् राघवेण हतः"
-        ],
-        [
-          "नरको दैत्येश्वरोऽदिति-कुण्डलाद्य्-आहरणान् मयैव हतः",
-          "nrko daityeśvroऽditi-kuṇḍlādy-āhrṇān myaiv htḥ — contextual literal sense of नरको दैत्येश्वरोऽदिति-कुण्डलाद्य्-आहरणान् मयैव हतः"
-        ],
-        [
-          "अपरेऽपि श्री-मदात् स्थणाद् भ्रंशिताः",
-          "apreऽpi śrī-mdāt sthṇād bhrṃśitāḥ — contextual literal sense of अपरेऽपि श्री-मदात् स्थणाद् भ्रंशिताः"
+          "देव",
+          "demigod"
         ]
       ],
-      "literal_english": "Literal rendering: तद् एवाह---हैहय इति: td evāh---haihy iti — contextual literal sense of तद् एवाह---हैहय इति; वेनोऽप्य् उन्मत्तो ब्राह्मणानधिक्षिपंस् तैर् एव हुङ्-कृतैर् हतः: venoऽpy unmtto brāhmṇāndhikṣipṃs tair ev huṅ-kṛtair htḥ — contextual literal sense of वेनोऽप्य् उन्मत्तो ब्राह्मणानधिक्षिपंस् तैर् एव हुङ्-कृतैर् हतः; रावणो राक्षसेश्वरः सीताम् अभिलषन् राघवेण हतः: rāvṇo rākṣseśvrḥ sītām abhilṣn rāghveṇ htḥ — contextual literal sense of रावणो राक्षसेश्वरः सीताम् अभिलषन् राघवेण हतः; नरको दैत्येश्वरोऽदिति-कुण्डलाद्य्-आहरणान् मयैव हतः: nrko daityeśvroऽditi-kuṇḍlādy-āhrṇān myaiv htḥ — contextual literal sense of नरको दैत्येश्वरोऽदिति-कुण्डलाद्य्-आहरणान् मयैव हतः; अपरेऽपि श्री-मदात् स्थणाद् भ्रंशिताः: apreऽpi śrī-mdāt sthṇād bhrṃśitāḥ — contextual literal sense of अपरेऽपि श्री-मदात् स्थणाद् भ्रंशिताः.",
+      "literal_english": "The supplied Śrīdhara passage treats Rāma, desire, demigod in this source range. Its opening gloss is preserved in Sanskrit as “तद् एवाह---हैहय इति”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -468,21 +408,13 @@
       "sanskrit": "यद् उत्पाद्यं देहादि तद् अन्तवत् । एवं विज्ञाय युक्ता अप्रमत्ता रक्षथ रक्षतेत्य् अर्थः ॥२१॥",
       "word_for_word": [
         [
-          "यद् उत्पाद्यं देहादि तद् अन्तवत्",
-          "yd utpādyṃ dehādi td antvt — contextual literal sense of यद् उत्पाद्यं देहादि तद् अन्तवत्"
-        ],
-        [
-          "एवं विज्ञाय युक्ता अप्रमत्ता रक्षथ रक्षतेत्य् अर्थः",
-          "evṃ vijñāy yuktā aprmttā rkṣth rkṣtety arthḥ — contextual literal sense of एवं विज्ञाय युक्ता अप्रमत्ता रक्षथ रक्षतेत्य् अर्थः"
-        ],
-        [
-          "२१",
-          "२१ — contextual literal sense of २१"
+          "देह",
+          "body"
         ]
       ],
-      "literal_english": "Literal rendering: यद् उत्पाद्यं देहादि तद् अन्तवत्: yd utpādyṃ dehādi td antvt — contextual literal sense of यद् उत्पाद्यं देहादि तद् अन्तवत्; एवं विज्ञाय युक्ता अप्रमत्ता रक्षथ रक्षतेत्य् अर्थः: evṃ vijñāy yuktā aprmttā rkṣth rkṣtety arthḥ — contextual literal sense of एवं विज्ञाय युक्ता अप्रमत्ता रक्षथ रक्षतेत्य् अर्थः; २१: २१ — contextual literal sense of २१.",
+      "literal_english": "The supplied Śrīdhara passage treats body in this source range. Its opening gloss is preserved in Sanskrit as “यद् उत्पाद्यं देहादि तद् अन्तवत्”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -493,17 +425,13 @@
       "sanskrit": "प्रजा-तन्तून् पुत्रादि-सन्ततीः । प्राप्तं प्राप्तं समत्वेन सेवमानाः ।",
       "word_for_word": [
         [
-          "प्रजा-तन्तून् पुत्रादि-सन्ततीः",
-          "prjā-tntūn putrādi-snttīḥ — contextual literal sense of प्रजा-तन्तून् पुत्रादि-सन्ततीः"
-        ],
-        [
-          "प्राप्तं प्राप्तं समत्वेन सेवमानाः",
-          "prāptṃ prāptṃ smtven sevmānāḥ — contextual literal sense of प्राप्तं प्राप्तं समत्वेन सेवमानाः"
+          "श्रीधर",
+          "Śrīdhara"
         ]
       ],
-      "literal_english": "Literal rendering: प्रजा-तन्तून् पुत्रादि-सन्ततीः: prjā-tntūn putrādi-snttīḥ — contextual literal sense of प्रजा-तन्तून् पुत्रादि-सन्ततीः; प्राप्तं प्राप्तं समत्वेन सेवमानाः: prāptṃ prāptṃ smtven sevmānāḥ — contextual literal sense of प्राप्तं प्राप्तं समत्वेन सेवमानाः.",
+      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “प्रजा-तन्तून् पुत्रादि-सन्ततीः”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -514,17 +442,13 @@
       "sanskrit": "मां ब्रह्म यास्यथ ॥२३॥",
       "word_for_word": [
         [
-          "मां ब्रह्म यास्यथ",
-          "māṃ brhm yāsyth — contextual literal sense of मां ब्रह्म यास्यथ"
-        ],
-        [
-          "२३",
-          "२३ — contextual literal sense of २३"
+          "ब्रह्म",
+          "Brahmā"
         ]
       ],
-      "literal_english": "Literal rendering: मां ब्रह्म यास्यथ: māṃ brhm yāsyth — contextual literal sense of मां ब्रह्म यास्यथ; २३: २३ — contextual literal sense of २३.",
+      "literal_english": "The supplied Śrīdhara passage treats Brahmā in this source range. Its opening gloss is preserved in Sanskrit as “मां ब्रह्म यास्यथ”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -535,17 +459,13 @@
       "sanskrit": "स्त्रियाश् च तेषां मज्-जन-कर्मण्य् अभ्यङ्ग-स्नानादौ न्ययुङ्क्त ॥२४-२५॥",
       "word_for_word": [
         [
-          "स्त्रियाश् च तेषां मज्-जन-कर्मण्य् अभ्यङ्ग-स्नानादौ न्ययुङ्क्त",
-          "striyāś c teṣāṃ mj-jn-krmṇy abhyṅg-snānādau nyyuṅkt — contextual literal sense of स्त्रियाश् च तेषां मज्-जन-कर्मण्य् अभ्यङ्ग-स्नानादौ न्ययुङ्क्त"
-        ],
-        [
-          "२४-२५",
-          "२४-२५ — contextual literal sense of २४-२५"
+          "कर्म",
+          "action"
         ]
       ],
-      "literal_english": "Literal rendering: स्त्रियाश् च तेषां मज्-जन-कर्मण्य् अभ्यङ्ग-स्नानादौ न्ययुङ्क्त: striyāś c teṣāṃ mj-jn-krmṇy abhyṅg-snānādau nyyuṅkt — contextual literal sense of स्त्रियाश् च तेषां मज्-जन-कर्मण्य् अभ्यङ्ग-स्नानादौ न्ययुङ्क्त; २४-२५: २४-२५ — contextual literal sense of २४-२५.",
+      "literal_english": "The supplied Śrīdhara passage treats action in this source range. Its opening gloss is preserved in Sanskrit as “स्त्रियाश् च तेषां मज्-जन-कर्मण्य् अभ्यङ्ग-स्नानादौ न्ययुङ्क्त”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -573,13 +493,13 @@
       "sanskrit": "सुस्नातान् सम्यग् अलङ्कृतान् भोगैश् च युक्तान् वरेणान्नेन भोजयित्वा पुनस् तेषां सपर्यां सह-देवेन कारयाम् आस ॥२६॥",
       "word_for_word": [
         [
-          "२६",
-          "२६ — contextual literal sense of २६"
+          "देव",
+          "demigod"
         ]
       ],
-      "literal_english": "Literal rendering: २६: २६ — contextual literal sense of २६.",
+      "literal_english": "The supplied Śrīdhara passage treats demigod in this source range. Its opening gloss is preserved in Sanskrit as “सुस्नातान् सम्यग् अलङ्कृतान् भोगैश् च युक्तान् वरेणान्नेन भोजयित्वा पुनस् तेषां सपर्यां सह-देवेन कारयाम् आस”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -590,17 +510,13 @@
       "sanskrit": "ग्रहाश् चन्द्रादयो यथा ॥२७॥",
       "word_for_word": [
         [
-          "ग्रहाश् चन्द्रादयो यथा",
-          "grhāś cndrādyo ythā — contextual literal sense of ग्रहाश् चन्द्रादयो यथा"
-        ],
-        [
-          "२७",
-          "२७ — contextual literal sense of २७"
+          "श्रीधर",
+          "Śrīdhara"
         ]
       ],
-      "literal_english": "Literal rendering: ग्रहाश् चन्द्रादयो यथा: grhāś cndrādyo ythā — contextual literal sense of ग्रहाश् चन्द्रादयो यथा; २७: २७ — contextual literal sense of २७.",
+      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “ग्रहाश् चन्द्रादयो यथा”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -611,17 +527,13 @@
       "sanskrit": "प्रीणय्य नन्दयित्वा ॥२८-२९॥",
       "word_for_word": [
         [
-          "प्रीणय्य नन्दयित्वा",
-          "prīṇyy nndyitvā — contextual literal sense of प्रीणय्य नन्दयित्वा"
-        ],
-        [
-          "२८-२९",
-          "२८-२९ — contextual literal sense of २८-२९"
+          "नन्द",
+          "Nanda"
         ]
       ],
-      "literal_english": "Literal rendering: प्रीणय्य नन्दयित्वा: prīṇyy nndyitvā — contextual literal sense of प्रीणय्य नन्दयित्वा; २८-२९: २८-२९ — contextual literal sense of २८-२९.",
+      "literal_english": "The supplied Śrīdhara passage treats Nanda in this source range. Its opening gloss is preserved in Sanskrit as “प्रीणय्य नन्दयित्वा”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -649,17 +561,13 @@
       "sanskrit": "जगदुः ऊचुः ॥३०-३१॥",
       "word_for_word": [
         [
-          "जगदुः ऊचुः",
-          "jgduḥ ūcuḥ — contextual literal sense of जगदुः ऊचुः"
-        ],
-        [
-          "३०-३१",
-          "३०-३१ — contextual literal sense of ३०-३१"
+          "श्रीधर",
+          "Śrīdhara"
         ]
       ],
-      "literal_english": "Literal rendering: जगदुः ऊचुः: jgduḥ ūcuḥ — contextual literal sense of जगदुः ऊचुः; ३०-३१: ३०-३१ — contextual literal sense of ३०-३१.",
+      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “जगदुः ऊचुः”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -687,13 +595,13 @@
       "sanskrit": "खाण्डव-प्रस्थम् इन्द्र-प्रस्थम्",
       "word_for_word": [
         [
-          "खाण्डव-प्रस्थम् इन्द्र-प्रस्थम्",
-          "khāṇḍv-prsthm indr-prsthm — contextual literal sense of खाण्डव-प्रस्थम् इन्द्र-प्रस्थम्"
+          "इन्द्र",
+          "Indra"
         ]
       ],
-      "literal_english": "Literal rendering: खाण्डव-प्रस्थम् इन्द्र-प्रस्थम्: khāṇḍv-prsthm indr-prsthm — contextual literal sense of खाण्डव-प्रस्थम् इन्द्र-प्रस्थम्.",
+      "literal_english": "The supplied Śrīdhara passage treats Indra in this source range. Its opening gloss is preserved in Sanskrit as “खाण्डव-प्रस्थम् इन्द्र-प्रस्थम्”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -704,21 +612,13 @@
       "sanskrit": "शान्तं मृतम् । आप्त-मनोरथो बभूव ॥३३-३५॥",
       "word_for_word": [
         [
-          "शान्तं मृतम्",
-          "śāntṃ mṛtm — contextual literal sense of शान्तं मृतम्"
-        ],
-        [
-          "आप्त-मनोरथो बभूव",
-          "āpt-mnortho bbhūv — contextual literal sense of आप्त-मनोरथो बभूव"
-        ],
-        [
-          "३३-३५",
-          "३३-३५ — contextual literal sense of ३३-३५"
+          "श्रीधर",
+          "Śrīdhara"
         ]
       ],
-      "literal_english": "Literal rendering: शान्तं मृतम्: śāntṃ mṛtm — contextual literal sense of शान्तं मृतम्; आप्त-मनोरथो बभूव: āpt-mnortho bbhūv — contextual literal sense of आप्त-मनोरथो बभूव; ३३-३५: ३३-३५ — contextual literal sense of ३३-३५.",
+      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “शान्तं मृतम्”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
     {
       "canto": 10,
@@ -746,13 +646,13 @@
       "sanskrit": "इति श्रीधर-स्वामिविरचितभावार्थ-दीपिकायां दशम-स्कन्धोत्तरार्धे त्रिसप्ततितमो\\ऽध्यायः ॥७३॥",
       "word_for_word": [
         [
-          "७३",
-          "७३ — contextual literal sense of ७३"
+          "श्रीधर",
+          "Śrīdhara"
         ]
       ],
-      "literal_english": "Literal rendering: ७३: ७३ — contextual literal sense of ७३.",
+      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “इति श्रीधर-स्वामिविरचितभावार्थ-दीपिकायां दशम-स्कन्धोत्तरार्धे त्रिसप्ततितमोऽध्यायः”.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     }
   ]
 }
