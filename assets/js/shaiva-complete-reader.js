@@ -48,7 +48,7 @@ function sectionsFrom(pages){
   }else{const previous=current.blocks[current.blocks.length-1];if(kind==='table'&&previous?.kind==='table'&&Array.isArray(previous.value)&&Array.isArray(value))previous.value.push(...value);else if(kind==='sa'&&previous?.kind==='sa')previous.value+='\n'+value;else current.blocks.push({kind,value,page:i+1});}
  }));return sections;
 }
-function sanskrit(text){const p=make('p','shaiva-sanskrit',text);p.lang='sa-Deva';p.hidden=true;return p;}
+function sanskrit(text){const cleaned=String(text??'').replace(/\s*\(Translation:\s*$/i,'').trim();const p=make('p','shaiva-sanskrit',cleaned);p.lang='sa-Deva';p.hidden=true;return p;}
 function renderIndex(text){
  const entry=make('div','shaiva-index-entry');
  const pieces=text.split(/\s+(?=\d+\.\d+\s)/);
