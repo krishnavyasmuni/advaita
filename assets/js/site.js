@@ -17,7 +17,9 @@ const repairVishnuWordForWord=()=>{
     const strong=row.querySelector(':scope > strong');
     if(!strong)return;
     const remainder=[...row.childNodes].filter(n=>n!==strong).map(n=>n.textContent||'').join('').replace(/^\s*—\s*/,'');
-    if(normalize(remainder)===translation)row.closest('.gita-dual-section')?.remove();
+    const rowText=normalize(row.textContent).toLowerCase(), translationText=translation.toLowerCase();
+    const copiedTranslation=(translationText.length>80&&rowText.includes(translationText.slice(0,100)))||/sri paraasharar|sri vishnu puraana|one who having|this completes chapter/i.test(rowText);
+    if(normalize(remainder)===translation||copiedTranslation)row.closest('.gita-dual-section')?.remove();
    });
    if(!detail.querySelector('.gita-dual-section'))detail.remove();
   });
