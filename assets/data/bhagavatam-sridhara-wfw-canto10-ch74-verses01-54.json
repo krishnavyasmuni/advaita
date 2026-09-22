@@ -857,10 +857,43 @@
       "end": 43,
       "source_marker": "१०.७४.४३",
       "sanskrit": "तावद् उत्थाय इत्य् अस्यायम् अभिप्रायः, एष मत्-पार्षदो मत्-तुल्य-बलः सर्वान् एतान् हन्याद् अतो मयैव शीघ्रं हन्तव्य इति तत्-क्षणम् एव उत्थाय शिरो जहार इति ॥४३-४५॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "तावत् उत्थाय",
+          "rising immediately"
+        ],
+        [
+          "इति अस्य अयम् अभिप्रायः",
+          "this is his intention"
+        ],
+        [
+          "एषः मत्-पार्षदः",
+          "this is my associate"
+        ],
+        [
+          "मत्-तुल्य-बलः",
+          "equal to me in strength"
+        ],
+        [
+          "सर्वान् एतान् हन्यात्",
+          "he might kill all these"
+        ],
+        [
+          "अतः मया एव शीघ्रं हन्तव्यः",
+          "therefore he must be killed quickly by me"
+        ],
+        [
+          "तत्-क्षणम् एव उत्थाय",
+          "rising at that very moment"
+        ],
+        [
+          "शिरः जहार",
+          "he severed his head"
+        ]
+      ],
+      "literal_english": "The intention of the words “rising immediately” is this: “This is my associate, equal to me in strength; he might kill all these, and therefore I must kill him quickly.” Thus he rose at that very moment and severed his head.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Sanskrit-first word-for-word and literal English repair completed."
     },
     {
       "canto": 10,
