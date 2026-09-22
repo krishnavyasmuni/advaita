@@ -121,5 +121,5 @@ async function render(){
   toggle.addEventListener('click',()=>{show=!show;writePreference(show);apply();});apply();
  }
 }
-render().catch(e=>{console.error('Unable to load the complete Śaiva manuscript',e);root.replaceChildren(make('p','shaiva-loading-error','The manuscript could not load. Refresh this page or open the preserved earlier edition.'));const a=make('a','','Open preserved earlier edition');a.href='source-original.html';root.append(a);});
+render().catch(e=>{console.error('Unable to load the complete Śaiva manuscript',e);root.replaceChildren(make('p','shaiva-loading-error','The article could not load. Refresh this page or try again.'));const a=make('a','','Open preserved earlier edition');a.href='source-original.html';root.append(a);});
 })();
