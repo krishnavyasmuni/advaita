@@ -12968,6 +12968,38 @@
       "notes": "Chapter published after pinned-source, exact-range, transliteration, lexical word-for-word, and no-commentary checks.",
       "released_at": "2026-09-22",
       "release_note": "Published Canto 12.10 with exact grouped source ranges and no-commentary sentinels."
+    },
+    {
+      "id": "canto-12-chapter-11-release",
+      "range": "ŚB 12.11.1–12.11.50",
+      "status": "source-checked-and-released",
+      "english_source": "https://vedabase.io/en/library/sb/12/11/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/12/11_Aditya-vyUha-vivaraNam.md",
+      "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "e6d7d8e971565a5a8d12647e3af55db42ede1062",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/12/11_Aditya-vyUha-vivaraNam.md",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto12-ch11.json"
+      ],
+      "records_checked": 47,
+      "exact_sridhara_source_blocks": 43,
+      "no_commentary_ranges": [
+        "12.11.4",
+        "12.11.8",
+        "12.11.15",
+        "12.11.45"
+      ],
+      "source_gap_ranges": [
+        "12.11.4",
+        "12.11.8",
+        "12.11.15",
+        "12.11.45"
+      ],
+      "live_render": null,
+      "generated_at": "2026-09-22",
+      "notes": "Chapter published after pinned-source, exact-range, transliteration, lexical word-for-word, and no-commentary checks.",
+      "released_at": "2026-09-22",
+      "release_note": "Published Canto 12.11 with grouped source ranges and the restored 12.11.49 source range."
     }
   ],
   "generated_at": "2026-09-21"
