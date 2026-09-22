@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked; placeholder-free; lexical rows audited",
+  "status": "source-checked; source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/34-49/44.md",
   "source_blob_sha": "6f00017aef6a69ef7bfc341c844e189c418387aa",
-  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses removed and the remaining lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored and the remaining lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.44.1–10.44.51; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -90,7 +90,7 @@
       ],
       "literal_english": "परिभ्रामणं हस्तादिषु गृहीत्वा परितश् चालनम्: pribhrāmṇṃ hstādiṣu gṛhītvā pritś cālnm — whirling him around after taking hold of his hands and other limbs; विक्षेपो नोदनम्: vikṣepo nodnm — throwing; pushing; परिरम्भो बाहुभ्यां निष्पीडनम्: prirmbho bāhubhyāṃ niṣpīḍnm — embracing; squeezing with the arms; अवपातनम् अधः-दिर्=र्त्ल्क्षेपः: avpātnm adhḥ-dir=rtlkṣepḥ — casting down; throwing downward; उत्सर्पणम् उत्सृज्य पुरतो गमनम्: utsrpṇm utsṛjy purto gmnm — advancing forward after letting go",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -123,7 +123,7 @@
       ],
       "literal_english": "उत्थापनं जानुनी पादौ च पिण्डी-कृत्य पतितस्योच्चाटनम्: utthāpnṃ jānunī pādau c piṇḍī-kṛty ptitsyoccāṭnm — lifting him; drawing up the knees and feet and raising the fallen man; उन्नयनं हस्ताभ्याम् उद्धृत्य नयनम्: unnynṃ hstābhyām uddhṛty nynm — raising; lifting and carrying with the hands; चालनं कण्ठादि-लग्नस्य निःसारणम्: cālnṃ kṇṭhādi-lgnsy niḥsārṇm — moving; removing what is clinging to the neck and so forth; स्थापनं पादादि-पिण्डी-करणम्: sthāpnṃ pādādi-piṇḍī-krṇm — setting down; compacting the feet and so forth; एवं परस्परम् आत्मनो देहस्य अपचक्रतुर् अपकारं कृतवन्तौ: evṃ prsprm ātmno dehsy apckrtur apkārṃ kṛtvntau — thus the two harmed each other’s bodies; they inflicted injury",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -144,7 +144,7 @@
       ],
       "literal_english": "वरूथशः समेताः सङ्घशो मिलिताः: vrūthśḥ smetāḥ sṅghśo militāḥ — assembled in groups; joined together; अत्र दृष्ट्वेत्य् अध्याहार्यम्: atr dṛṣṭvety adhyāhārym — here",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -203,7 +203,7 @@
       ],
       "literal_english": "समाजस्य सभायाः: smājsy sbhāyāḥ — of the assembly; of the court",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -237,7 +237,7 @@
       ],
       "literal_english": "वल्गतः शत्रुम् अभित इति: vlgtḥ śtrum abhit iti — moving swiftly around the enemy, it is said",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
