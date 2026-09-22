@@ -3,7 +3,7 @@
 > **Canto 11 status correction (2026-09-20):** The previous COMPLETE/LIVE_VERIFIED labels were not supported by a full verse-by-verse comparison. See [the deterministic mapping audit](audit/canto11/automated-summary.md) and [the evidentiary review](BHAGAVATAM_CANTO11_AUDIT_2026-09-20.md). All 31 chapters remain under verification. In particular, the pinned 11.23 numbering differs from the displayed VedaBase mirror from the mid-chapter onward. Do not reassert completion from file counts or this historical snapshot.
 
 
-> **Project-wide audit correction (2026-09-22):** A fresh audit of every reader-linked data file found that the prior completion labels were too broad. Canto 3 initially contained 3,542 generated filler gloss rows (“contextual literal sense of …”) across 1,321 records; Canto 3.1 is now repaired with zero such rows, leaving 3,401 to repair; the un-wired Canto 4 cache contains 3,216 such rows across 1,104 records; Canto 11 still requires full verse alignment verification; and Canto 10 has now been rechecked: six intact missing ranges were repaired, while four corrupt pinned-source rows remain explicitly tracked as source gaps (10.64.13, 10.68.30, 10.68.32, 10.77.34). Canto 12 passes the structural/source audit. These cantos must not be called complete or released until their real Sanskrit-first glosses are supplied and re-verified.
+> **Project-wide audit correction (2026-09-22):** A fresh audit of every reader-linked data file found that the prior completion labels were too broad. Canto 3 initially contained 3,542 generated filler gloss rows (“contextual literal sense of …”) across 1,321 records; Canto 3.1 and 3.2 are now repaired with zero such rows, leaving 3,292 to repair; the un-wired Canto 4 cache contains 3,216 such rows across 1,104 records; Canto 11 still requires full verse alignment verification; and Canto 10 has now been rechecked: six intact missing ranges were repaired, while four corrupt pinned-source rows remain explicitly tracked as source gaps (10.64.13, 10.68.30, 10.68.32, 10.77.34). Canto 12 passes the structural/source audit. These cantos must not be called complete or released until their real Sanskrit-first glosses are supplied and re-verified.
 
 ## Mission
 
@@ -125,9 +125,9 @@ canto_3_verified_chapters: 3.1-3.33
 canto_3_source_ranges: 1288
 canto_3_source_blocks: 860
 canto_3_no_commentary_records: 420
-canto_3_repaired_chapters: 3.1
-canto_3_placeholder_wfw_rows_remaining: 3401
-canto_3_literal_placeholder_records_remaining: 1292
+canto_3_repaired_chapters: 3.1, 3.2
+canto_3_placeholder_wfw_rows_remaining: 3292
+canto_3_literal_placeholder_records_remaining: 1270
 canto_4_audit_status: FAILED_PLACEHOLDER_GLOSSES
 canto_4_cached_records: 1104
 canto_4_placeholder_wfw_rows: 3216
@@ -155,7 +155,7 @@ canto_12_source_ranges: 507
 canto_12_sridhara_blocks: 441
 canto_12_no_commentary_ranges: 66
 next_resume_target: CANTO_3_PLACEHOLDER_REPAIR
-resume_note: The aggregate audit found 3,401 remaining filler rows in Canto 3 after repairing 3.1, dormant Canto 4 cache data, four explicit Canto 10 source gaps, and unresolved Canto 11 alignment. Continue repairing Canto 3 in canonical order before releasing Canto 4, 5, or 6.
+resume_note: The aggregate audit found 3,292 remaining filler rows in Canto 3 after repairing 3.1 and 3.2, dormant Canto 4 cache data, four explicit Canto 10 source gaps, and unresolved Canto 11 alignment. Continue repairing Canto 3 in canonical order before releasing Canto 4, 5, or 6.
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
