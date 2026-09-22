@@ -65,7 +65,7 @@ function renderBlock({kind,value},section){
  if(kind==='p'){
   if(section==='index')return renderIndex(value);
   if(section==='opening'&&value==='A Scripture-Based Case for the Supremacy of Shiva')return make('span','shaiva-source-title-anchor');
-  if(section==='opening'&&/^BY POPCULTKING$/i.test(value))return make('p','shaiva-byline',value);
+  if(section==='opening'&&/^BY POPCULTKING$/i.test(value))return document.createDocumentFragment();
   if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(value)&&value.length<180)return make('h3','shaiva-subheading',value);
   return make('p','shaiva-paragraph',value);
  }
