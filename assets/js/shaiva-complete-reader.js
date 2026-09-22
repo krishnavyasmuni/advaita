@@ -62,7 +62,7 @@ function renderBlock({kind,value},section){
  if(kind==='sa')return sanskrit(value);
  if(kind==='quote'){
   const visible=articleText(value);
-  if(visible==='English'||/^Bhagavadgītā, IX\.25$/.test(visible)||/^Laugakshi Smriti, Volume 6$/.test(visible))return make('p','shaiva-passage-label',visible);
+  if(visible==='English'||/^Bhagavadgītā, IX\.25$/i.test(visible)||/^Laugakshi Smriti, Volume 6$/.test(visible))return make('p','shaiva-passage-label',visible);
   const noteAt=visible.search(/\s+NOTE:\s*/i);
   if(noteAt>0){const fragment=document.createDocumentFragment();fragment.append(make('blockquote','translation shaiva-quote',visible.slice(0,noteAt).trim()));fragment.append(make('small','shaiva-note',visible.slice(noteAt+1).trim()));return fragment;}
   return make('blockquote','translation shaiva-quote',visible);
