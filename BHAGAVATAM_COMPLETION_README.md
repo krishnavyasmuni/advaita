@@ -94,7 +94,7 @@ The current release ledger has been cleaned to retain only the verified public C
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 73e92c7e9a33135d15ee2294e967cb92a05520d0
+last_audited_data_commit: 3c9f6cd8eca2de72bc6df68d46be5d73516cadf6
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
