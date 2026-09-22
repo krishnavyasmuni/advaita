@@ -38,4 +38,4 @@ Canto 11 has been restored to public Contents at the user’s request so all exi
 
 ## Next release
 
-Continue with Canto 10, Chapter 38, while re-auditing Canto 11 chapter by chapter. Publish each completed or transparently marked chapter immediately after validation.
+Continue with Canto 10, Chapter 39, while re-auditing Canto 11 chapter by chapter. Publish each completed or transparently marked chapter immediately after validation.
