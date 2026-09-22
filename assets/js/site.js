@@ -24,6 +24,24 @@ const repairVishnuWordForWord=()=>{
  });
 };
 repairVishnuWordForWord();
+// Keep the WFW control visible even when an invalid generated layer was removed.
+// The status is explicit; no ordinary translation is relabelled as lexical data.
+const restoreVishnuWordForWordControl=()=>{
+ if(!vishnuPuranaRoute)return;
+ document.querySelectorAll('.gita-verse').forEach(article=>{
+  const controls=article.querySelector(':scope > .gita-controls');
+  if(!controls)return;
+  const exists=[...controls.querySelectorAll(':scope > details.gita-details')].some(d=>/^Word-for-word$/i.test((d.querySelector(':scope > summary')?.textContent||'').trim()));
+  if(exists)return;
+  const detail=document.createElement('details');detail.className='gita-details';
+  const summary=document.createElement('summary');summary.textContent='Word-for-word';
+  const reveal=document.createElement('div');reveal.className='gita-reveal';
+  const note=document.createElement('p');note.className='gita-wfw-pending';note.textContent='No verified word-for-word rendering is currently published for this verse.';
+  reveal.append(note);detail.append(summary,reveal);controls.prepend(detail);
+ });
+};
+restoreVishnuWordForWordControl();
+
 
 const citation=/\/articles\/compilation-of-peer-reviewed-citations-against-aryan-migration-theory\/?$/.test(p),meat=/\/articles\/meat-eating-in-hinduism-through-the-lens-of-shastra\/?$/.test(p);
 const css=(key,href)=>{if(document.querySelector(`link[data-${key}]`))return;const l=document.createElement('link');l.rel='stylesheet';l.href=href;l.dataset[key]='1';document.head.append(l)};
