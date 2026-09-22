@@ -1,29 +1,46 @@
 {
-  "schema_version": 1,
-  "status": "source-checked-and-reader-committed",
+  "schema_version": 2,
+  "status": "source-checked-and-wfw-repaired",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/10_dasha-vidha-sRShTi-varNanam.md",
   "source_blob_sha": "3bee9041e7ca520876f69d594f407c9e387caf09",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 3 Chapter 10; grouped source ranges are preserved.",
-  "scope": "ŚB 3.10.1–3.10.25; pinned source ranges and explicit no-commentary markers preserved.",
+  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 3 Chapter 10; all pinned grouped ranges and the exact no-commentary marker are preserved.",
+  "scope": "ŚB 3.10.1–3.10.32; 26 reader records preserve the pinned grouped ranges.",
   "entries": [
+    {
+      "canto": 3,
+      "chapter": 10,
+      "start": 1,
+      "end": 1,
+      "source_marker": "३.१०.१",
+      "sanskrit": "दशमे काल-संप्रश्न- प्राप्तिं वक्तुं तद् उद्भवः । प्राकृतादि-विभागेन सर्गस् तु दशधोच्यते ॥१॥",
+      "word_for_word": [
+        [
+          "दशमे काल-संप्रश्न- प्राप्तिं वक्तुं तद् उद्भवः । प्राकृतादि-विभागेन सर्गस् तु दशधोच्यते ॥१॥",
+          "The tenth chapter explains the answer concerning time and the arising of Brahmā. Creation is described as tenfold through the divisions beginning with the material and continuing with the derivative creations."
+        ]
+      ],
+      "literal_english": "The tenth chapter explains the answer concerning time and the arising of Brahmā. Creation is described as tenfold through the divisions beginning with the material and continuing with the derivative creations.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
+    },
     {
       "canto": 3,
       "chapter": 10,
       "start": 2,
       "end": 2,
       "source_marker": "३.१०.२",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "मे मया । वदस्व वद । भासयस्वेति वा ॥२॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "मे मया । वदस्व वद । भासयस्वेति वा ॥२॥",
+          "“Me” means “by me.” “Speak” means “tell us”; or it means “make the meaning shine forth.”"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Me” means “by me.” “Speak” means “tell us”; or it means “make the meaning shine forth.”",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -31,32 +48,16 @@
       "start": 3,
       "end": 3,
       "source_marker": "३.१०.३",
-      "sanskrit": "सञ्चोदितः प्रार्थितः । हृदि-स्थान् एवाह, न तु ते प्रश्नास् तेन विस्मृता इत्य् अर्थः ॥३॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : सूत उवाचेति एवम् इत्य्-आदिका सङ्गतिः । स्वयम् एव सूतेन क्रियते, न श्री-शुक-कृतानूद्यत इति बोधयति । मैत्रेय उवाचेत्य् आदिकं तु श्री-शुक-वाक्यानुकरणम् । शुक उवाचेति भऋअतेति च पाठौ न बहु-सम्मतौ ॥३॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : भार्गवेत्य् आदिना ज्ञाने सामर्थ्यं द्योतितम् । हृदि-स्थान् इति न ते प्रशान् तेन विस्मृता इत्य् अर्थः ॥३॥\n\n———————————————————————————————————————",
+      "sanskrit": "सञ्चोदितः प्रार्थितः । हृदि-स्थान् एवाह, न तु ते प्रश्नास् तेन विस्मृता इत्य् अर्थः ॥३॥",
       "word_for_word": [
         [
-          "सञ्चोदितः प्रार्थितः",
-          "sñcoditḥ prārthitḥ — contextual literal sense of सञ्चोदितः प्रार्थितः"
-        ],
-        [
-          "हृदि-स्थान् एवाह न तु ते प्रश्नास् तेन विस्मृता इत्य् अर्थः",
-          "hṛdi-sthān evāh n tu te prśnās ten vismṛtā ity arthḥ — contextual literal sense of हृदि-स्थान् एवाह न तु ते प्रश्नास् तेन विस्मृता इत्य् अर्थः"
-        ],
-        [
-          "३",
-          "३ — contextual literal sense of ३"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "सञ्चोदितः प्रार्थितः । हृदि-स्थान् एवाह, न तु ते प्रश्नास् तेन विस्मृता इत्य् अर्थः ॥३॥",
+          "“Prompted” means requested. He speaks of the questions as residing in his heart; the meaning is that he had not forgotten them."
         ]
       ],
-      "literal_english": "Literal rendering: सञ्चोदितः प्रार्थितः: sñcoditḥ prārthitḥ — contextual literal sense of सञ्चोदितः प्रार्थितः; हृदि-स्थान् एवाह न तु ते प्रश्नास् तेन विस्मृता इत्य् अर्थः: hṛdi-sthān evāh n tu te prśnās ten vismṛtā ity arthḥ — contextual literal sense of हृदि-स्थान् एवाह न तु ते प्रश्नास् तेन विस्मृता इत्य् अर्थः; ३: ३ — contextual literal sense of ३; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "“Prompted” means requested. He speaks of the questions as residing in his heart; the meaning is that he had not forgotten them.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -64,49 +65,33 @@
       "start": 4,
       "end": 4,
       "source_marker": "३.१०.४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "आत्मनि श्री-नारायणे आत्मानं मन आवेश्य ॥४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "आत्मनि श्री-नारायणे आत्मानं मन आवेश्य ॥४॥",
+          "He placed his mind in the Self, Śrī Nārāyaṇa."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He placed his mind in the Self, Śrī Nārāyaṇa.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
       "chapter": 10,
       "start": 5,
       "end": 6,
-      "source_marker": "३.१०.५-६",
-      "sanskrit": "अब्ज-संभूतो ब्रह्मा यद् अधिष्ठाय स्थितः, कर्तरि क्तः । तत् पद्मम् अम्भश् च विलोक्य । कथं-भूतं पद्मम् अम्भश् च ? तेन प्रलय-कालेन कृतं वीर्यं यस्य तेन वायुना कम्पितं, न्यपाद् इत्य् उत्तरेणान्वयः ॥५॥ विवृद्धं विज्ञानं बलं च यस्य । न्यपात् सर्वं पीतवान् ॥६॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : तद् इति युग्मकम् ॥५॥ न्यपाद् इति यावत् प्रलये वर्धते स्म तावद् इति भावः ॥६॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : अब्ज-संभूतो ब्रह्मा यत् पद्मम् अधिष्ठित इति कर्तरि क्तः । तद् एव पद्मम् अम्भश् च वायुना कम्पितं वीक्ष्य न्यपाद् इत्य् उत्तरेणान्वयः । वायुना कथम्भूतेन ? तत्-कालेन प्रलय-समयेन कृतं वीर्यं यस्य तेन न्यपात् नाशयामासेत्य् अर्थः । प्रलय-काले यावत्-प्रमाणम् अम्भो वायुश् चावर्धत तावत्-प्रमाणम् एवेति ज्ञेयम् ॥५॥\n\n———————————————————————————————————————",
+      "source_marker": "३.१०.5–6",
+      "sanskrit": "अब्ज-संभूतो ब्रह्मा यद् अधिष्ठाय स्थितः, कर्तरि क्तः । तत् पद्मम् अम्भश् च विलोक्य । कथं-भूतं पद्मम् अम्भश् च ? तेन प्रलय-कालेन कृतं वीर्यं यस्य तेन वायुना कम्पितं, न्यपाद् इत्य् उत्तरेणान्वयः ॥५॥ विवृद्धं विज्ञानं बलं च यस्य । न्यपात् सर्वं पीतवान् ॥६॥",
       "word_for_word": [
         [
-          "अब्ज-संभूतो ब्रह्मा यद् अधिष्ठाय स्थितः कर्तरि क्तः",
-          "abj-sṃbhūto brhmā yd adhiṣṭhāy sthitḥ krtri ktḥ — contextual literal sense of अब्ज-संभूतो ब्रह्मा यद् अधिष्ठाय स्थितः कर्तरि क्तः"
-        ],
-        [
-          "तत् पद्मम् अम्भश् च विलोक्य",
-          "tt pdmm ambhś c viloky — contextual literal sense of तत् पद्मम् अम्भश् च विलोक्य"
-        ],
-        [
-          "५",
-          "५ — contextual literal sense of ५"
-        ],
-        [
-          "विवृद्धं विज्ञानं बलं च यस्य",
-          "vivṛddhṃ vijñānṃ blṃ c ysy — contextual literal sense of विवृद्धं विज्ञानं बलं च यस्य"
-        ],
-        [
-          "न्यपात् सर्वं पीतवान्",
-          "nypāt srvṃ pītvān — contextual literal sense of न्यपात् सर्वं पीतवान्"
+          "अब्ज-संभूतो ब्रह्मा यद् अधिष्ठाय स्थितः, कर्तरि क्तः । तत् पद्मम् अम्भश् च विलोक्य । कथं-भूतं पद्मम् अम्भश् च ? तेन प्रलय-कालेन कृतं वीर्यं यस्य तेन वायुना कम्पितं, न्यपाद् इत्य् उत्तरेणान्वयः ॥५॥ विवृद्धं विज्ञानं बलं च यस्य । न्यपात् सर्वं पीतवान् ॥६॥",
+          "Brahmā, born from the lotus on which he was established, saw the lotus and the waters. The lotus was shaken by the wind produced at the time of dissolution; Brahmā drank or absorbed the waters and saw the power and knowledge associated with creation. The commentary connects the two verses with his arising and his inspection of the lotus and cosmic waters."
         ]
       ],
-      "literal_english": "Literal rendering: अब्ज-संभूतो ब्रह्मा यद् अधिष्ठाय स्थितः कर्तरि क्तः: abj-sṃbhūto brhmā yd adhiṣṭhāy sthitḥ krtri ktḥ — contextual literal sense of अब्ज-संभूतो ब्रह्मा यद् अधिष्ठाय स्थितः कर्तरि क्तः; तत् पद्मम् अम्भश् च विलोक्य: tt pdmm ambhś c viloky — contextual literal sense of तत् पद्मम् अम्भश् च विलोक्य; ५: ५ — contextual literal sense of ५; विवृद्धं विज्ञानं बलं च यस्य: vivṛddhṃ vijñānṃ blṃ c ysy — contextual literal sense of विवृद्धं विज्ञानं बलं च यस्य; न्यपात् सर्वं पीतवान्: nypāt srvṃ pītvān — contextual literal sense of न्यपात् सर्वं पीतवान्.",
+      "literal_english": "Brahmā, born from the lotus on which he was established, saw the lotus and the waters. The lotus was shaken by the wind produced at the time of dissolution; Brahmā drank or absorbed the waters and saw the power and knowledge associated with creation. The commentary connects the two verses with his arising and his inspection of the lotus and cosmic waters.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -114,16 +99,16 @@
       "start": 7,
       "end": 7,
       "source_marker": "३.१०.७",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "पुष्करं पद्मम् । प्राग्-लीनान् त्रील् लोकान् कल्पितास्मि स्रक्ष्यामि ॥७॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "पुष्करं पद्मम् । प्राग्-लीनान् त्रील् लोकान् कल्पितास्मि स्रक्ष्यामि ॥७॥",
+          "“Lotus” means the lotus. I shall create the three worlds that had previously merged into the causal condition."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Lotus” means the lotus. I shall create the three worlds that had previously merged into the causal condition.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -131,16 +116,16 @@
       "start": 8,
       "end": 8,
       "source_marker": "३.१०.८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "भगवता स्वयं करणीये कर्मणि चोदितो नियुक्तः संस् तदा पद्म-कोशं प्रविश्य तम् एकम् एव त्रिधा लोक-रूपेण व्यभाङ्क्षीद् विबभाज । एकेन कमल-मुकुलेन कथं लोक-त्रय-सृष्टिर् इत्य् असंभावनां वारयितुं तस्य विशालताम् आह---द्वि-सप्तधा चतुर्दश-लोक-रूपेण । उरुधा ततोऽपि बहु-प्रकारेण । भाव्यं भावयितुं योग्यम् । अतो न तेन त्रि-लोकी-करणं चित्रम् इत्य् अर्थः ॥८॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "भगवता स्वयं करणीये कर्मणि चोदितो नियुक्तः संस् तदा पद्म-कोशं प्रविश्य तम् एकम् एव त्रिधा लोक-रूपेण व्यभाङ्क्षीद् विबभाज । एकेन कमल-मुकुलेन कथं लोक-त्रय-सृष्टिर् इत्य् असंभावनां वारयितुं तस्य विशालताम् आह---द्वि-सप्तधा चतुर्दश-लोक-रूपेण । उरुधा ततोऽपि बहु-प्रकारेण । भाव्यं भावयितुं योग्यम् । अतो न तेन त्रि-लोकी-करणं चित्रम् इत्य् अर्थः ॥८॥",
+          "Appointed by Bhagavān to perform the work that Bhagavān Himself would accomplish, Brahmā entered the lotus-bud and divided the one into the form of the worlds. To remove the doubt that one lotus-bud could produce three worlds, the commentary explains its vastness as fourteen worlds and as many divisions."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Appointed by Bhagavān to perform the work that Bhagavān Himself would accomplish, Brahmā entered the lotus-bud and divided the one into the form of the worlds. To remove the doubt that one lotus-bud could produce three worlds, the commentary explains its vastness as fourteen worlds and as many divisions.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -148,32 +133,16 @@
       "start": 9,
       "end": 9,
       "source_marker": "३.१०.९",
-      "sanskrit": "त्रि-लोकी-रूपेणैव विभागे हेतुम् आह---एतावांस् त्रि-लोकी-रूपो जीव-लोकस्य जीवानां भोग-स्थानस्य प्रत्य् अहं सृज्यस्य संस्था-भेदो रचनाविशेष उक्तः । ननु परमेष्ठिनोऽपि जीवत्वाविशेषाद् ब्रह्म-लोकस्यापि किम् इति प्रत्य् अहं सृष्टिर् न भवति तत्राह---हि यस्माद् निमित्तस्य निष्कामस्य धर्मस्य विपाकः फल-रूपोऽसौ । उपलक्षणम् एतत् सत्य-लोकस्य महः प्रभृति-लोकानां तद् वासिनां च । त्रै-लोक्यस्य काम्य-कर्म-फलत्वात् प्रतिकल्पम् उत्पत्ति-विनाशौ भवतः । महः प्रभृतीनाम् उपासनासमुचित-निष्काम-धर्म-फलत्वाद् द्वि-परार्ध-पर्यन्तं न नाशः । तत्र-स्थानां च ततः परं प्रायेण मुक्तिर् इति भावः ॥९॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : एतावान् द्विसप्तधा पर्यन्तः श्री-ब्रह्मा तु सर्वतो विशिष्टत्वात् तत्-स्रष्टेत्य् आह---धर्मस्येति । अनिमित्तस्य स्वभावेनैव क्रियमाणस्य, न तु गृहस्थवत् तत्-तत्-सङ्कल्पेनपीत्य् अर्थः । विपाकः पराकाष्ठा-प्राप्त-परिणामः । असाव् इति । ब्रह्मान्तरं व्यवच्छिनत्ति, ब्रह्मणोऽपि भयं मत्त\\[भा।पु। ११.१०.३०\\] इत्य्-आद्य्-उक्तेः ॥९॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : जीव-लोकस्य व्यष्टि-विराट्-समूहस्य संस्था-भेदः प्रतिबिम्बोचित-स्थान-रचना-विशेष उक्तः । ननु कथम् एतावतां जीवानाम् एकेनैव ब्रह्मणा संस्था-निर्माणं ? इत्य् अत आह---हि यस्माद् असौ अनिमित्तस्य निष्कामस्य धर्मस्य तपो-विद्यादेः विपाकः परिपाक-मूर्तिर् एव तपो-बलेन किम् अशक्यम् इति भावः ॥९॥\n\n———————————————————————————————————————",
+      "sanskrit": "त्रि-लोकी-रूपेणैव विभागे हेतुम् आह---एतावांस् त्रि-लोकी-रूपो जीव-लोकस्य जीवानां भोग-स्थानस्य प्रत्य् अहं सृज्यस्य संस्था-भेदो रचनाविशेष उक्तः । ननु परमेष्ठिनोऽपि जीवत्वाविशेषाद् ब्रह्म-लोकस्यापि किम् इति प्रत्य् अहं सृष्टिर् न भवति तत्राह---हि यस्माद् निमित्तस्य निष्कामस्य धर्मस्य विपाकः फल-रूपोऽसौ । उपलक्षणम् एतत् सत्य-लोकस्य महः प्रभृति-लोकानां तद् वासिनां च । त्रै-लोक्यस्य काम्य-कर्म-फलत्वात् प्रतिकल्पम् उत्पत्ति-विनाशौ भवतः । महः प्रभृतीनाम् उपासनासमुचित-निष्काम-धर्म-फलत्वाद् द्वि-परार्ध-पर्यन्तं न नाशः । तत्र-स्थानां च ततः परं प्रायेण मुक्तिर् इति भावः ॥९॥",
       "word_for_word": [
         [
-          "उपलक्षणम् एतत् सत्य-लोकस्य महः प्रभृति-लोकानां तद् वासिनां च",
-          "uplkṣṇm ett sty-loksy mhḥ prbhṛti-lokānāṃ td vāsināṃ c — contextual literal sense of उपलक्षणम् एतत् सत्य-लोकस्य महः प्रभृति-लोकानां तद् वासिनां च"
-        ],
-        [
-          "त्रै-लोक्यस्य काम्य-कर्म-फलत्वात् प्रतिकल्पम् उत्पत्ति-विनाशौ भवतः",
-          "trai-lokysy kāmy-krm-phltvāt prtiklpm utptti-vināśau bhvtḥ — contextual literal sense of त्रै-लोक्यस्य काम्य-कर्म-फलत्वात् प्रतिकल्पम् उत्पत्ति-विनाशौ भवतः"
-        ],
-        [
-          "तत्र-स्थानां च ततः परं प्रायेण मुक्तिर् इति भावः",
-          "ttr-sthānāṃ c ttḥ prṃ prāyeṇ muktir iti bhāvḥ — contextual literal sense of तत्र-स्थानां च ततः परं प्रायेण मुक्तिर् इति भावः"
-        ],
-        [
-          "९",
-          "९ — contextual literal sense of ९"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
+          "त्रि-लोकी-रूपेणैव विभागे हेतुम् आह---एतावांस् त्रि-लोकी-रूपो जीव-लोकस्य जीवानां भोग-स्थानस्य प्रत्य् अहं सृज्यस्य संस्था-भेदो रचनाविशेष उक्तः । ननु परमेष्ठिनोऽपि जीवत्वाविशेषाद् ब्रह्म-लोकस्यापि किम् इति प्रत्य् अहं सृष्टिर् न भवति तत्राह---हि यस्माद् निमित्तस्य निष्कामस्य धर्मस्य विपाकः फल-रूपोऽसौ । उपलक्षणम् एतत् सत्य-लोकस्य महः प्रभृति-लोकानां तद् वासिनां च । त्रै-लोक्यस्य काम्य-कर्म-फलत्वात् प्रतिकल्पम् उत्पत्ति-विनाशौ भवतः । महः प्रभृतीनाम् उपासनासमुचित-निष्काम-धर्म-फलत्वाद् द्वि-परार्ध-पर्यन्तं न नाशः । तत्र-स्थानां च ततः परं प्रायेण मुक्तिर् इति भावः ॥९॥",
+          "He explains the reason for the threefold division. This much is the three-world form, the particular arrangement of the places where living beings enjoy and the daily creation of embodied beings. Although Brahmā is also a jīva, his world is distinguished by his role as the supreme creator within the created order."
         ]
       ],
-      "literal_english": "Literal rendering: उपलक्षणम् एतत् सत्य-लोकस्य महः प्रभृति-लोकानां तद् वासिनां च: uplkṣṇm ett sty-loksy mhḥ prbhṛti-lokānāṃ td vāsināṃ c — contextual literal sense of उपलक्षणम् एतत् सत्य-लोकस्य महः प्रभृति-लोकानां तद् वासिनां च; त्रै-लोक्यस्य काम्य-कर्म-फलत्वात् प्रतिकल्पम् उत्पत्ति-विनाशौ भवतः: trai-lokysy kāmy-krm-phltvāt prtiklpm utptti-vināśau bhvtḥ — contextual literal sense of त्रै-लोक्यस्य काम्य-कर्म-फलत्वात् प्रतिकल्पम् उत्पत्ति-विनाशौ भवतः; तत्र-स्थानां च ततः परं प्रायेण मुक्तिर् इति भावः: ttr-sthānāṃ c ttḥ prṃ prāyeṇ muktir iti bhāvḥ — contextual literal sense of तत्र-स्थानां च ततः परं प्रायेण मुक्तिर् इति भावः; ९: ९ — contextual literal sense of ९; :  — contextual literal sense of .",
+      "literal_english": "He explains the reason for the threefold division. This much is the three-world form, the particular arrangement of the places where living beings enjoy and the daily creation of embodied beings. Although Brahmā is also a jīva, his world is distinguished by his role as the supreme creator within the created order.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -181,16 +150,16 @@
       "start": 10,
       "end": 10,
       "source_marker": "३.१०.१०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "काल-भेदेन लोक-सृष्टि-भेदं श्रुत्वा तम् एव कालं जिज्ञासुः पृच्छति । यत् कालाख्यं लक्षणं स्वरूपम् आत्थ अब्रवीः । कथं कालः कल्पते ? किं वा तस्य सूक्ष्मं स्थूलं च रूपं ? इति यथावद् वर्णयेत्य् अर्थः ॥१०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "काल-भेदेन लोक-सृष्टि-भेदं श्रुत्वा तम् एव कालं जिज्ञासुः पृच्छति । यत् कालाख्यं लक्षणं स्वरूपम् आत्थ अब्रवीः । कथं कालः कल्पते ? किं वा तस्य सूक्ष्मं स्थूलं च रूपं ? इति यथावद् वर्णयेत्य् अर्थः ॥१०॥",
+          "After hearing that the creation of the worlds varies according to time, Vidura asks to know that very time: what is its defining nature, how does time operate, and what are its subtle and gross forms? He asks for a complete explanation."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "After hearing that the creation of the worlds varies according to time, Vidura asks to know that very time: what is its defining nature, how does time operate, and what are its subtle and gross forms? He asks for a complete explanation.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -198,16 +167,16 @@
       "start": 11,
       "end": 11,
       "source_marker": "३.१०.११",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तत्र सामान्यतः कालस्य स्वरूपम् अत्रोच्यते, उत्तराध्याये तु विशेषतः । गुणानां व्यतिकरो महद्-आदि-परिणामस् तेनैवाक्रियते यः, स काल इति शेषः । वक्ष्यते चैकादशे---गुण-व्यतिकरः कालः स्वभावः सूत्रम् एव च \\[भा।पु। ११.२२.१३\\] इति । स्वतस् तु निर्विशेषः । अप्रतिष्ठितः क्वाप्य् अपर्यवसितः, आद्य्-अन्त-शून्य इत्य् अर्थः । एतद् एव दर्शयितुम् ईश्वरः सृष्ट्य्-आदि तेन निमित्त-भूतेन करोतीत्य् आह---पुरुष इति । उपादीयते निमित्ततया स्वीक्रियते इत्य् उपादानम् । स काल उपादानं निमित्तं यस्मिन्, तम् आत्मानम् एव विश्व-रूपेणासृजत् । स्व-व्यतिरेकेण सृज्यस्याभावात् । एतच् च वस्तु-कथन-मात्रम् । कालेन निमित्तेन चासृजद् इत्य् एतावद् एव विवक्षितम् ॥११॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "तत्र सामान्यतः कालस्य स्वरूपम् अत्रोच्यते, उत्तराध्याये तु विशेषतः । गुणानां व्यतिकरो महद्-आदि-परिणामस् तेनैवाक्रियते यः, स काल इति शेषः । वक्ष्यते चैकादशे---गुण-व्यतिकरः कालः स्वभावः सूत्रम् एव च \\[भा।पु। ११.२२.१३\\] इति । स्वतस् तु निर्विशेषः । अप्रतिष्ठितः क्वाप्य् अपर्यवसितः, आद्य्-अन्त-शून्य इत्य् अर्थः । एतद् एव दर्शयितुम् ईश्वरः सृष्ट्य्-आदि तेन निमित्त-भूतेन करोतीत्य् आह---पुरुष इति । उपादीयते निमित्ततया स्वीक्रियते इत्य् उपादानम् । स काल उपादानं निमित्तं यस्मिन्, तम् आत्मानम् एव विश्व-रूपेणासृजत् । स्व-व्यतिरेकेण सृज्यस्याभावात् । एतच् च वस्तु-कथन-मात्रम् । कालेन निमित्तेन चासृजद् इत्य् एतावद् एव विवक्षितम् ॥११॥",
+          "Here the general nature of time is stated, while a later chapter will explain it more specifically. Time is the disturbance of the guṇas, through which the transformation beginning with mahat is carried out. In itself time is without distinctions, but through its operation it produces the variations of creation."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Here the general nature of time is stated, while a later chapter will explain it more specifically. Time is the disturbance of the guṇas, through which the transformation beginning with mahat is carried out. In itself time is without distinctions, but through its operation it produces the variations of creation.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -215,32 +184,16 @@
       "start": 12,
       "end": 12,
       "source_marker": "३.१०.१२",
-      "sanskrit": "स्व-व्यतिरिक्त-सृज्याभावं दर्शयन् कालस्य सृष्टि-निमित्ततां दर्शयति---विश्वम् इति । विष्णु-मायया संस्थितं संहृतं ब्रह्म-तन्-मात्रं सद् विश्वम् । ईश्वरेण कर्त्रा कालेन निमित्तेन परिच्छिन्नं पृथक् प्रकाशितम् । अव्यक्ता मूर्तिः स्वरूपं यस्येति स्वतो निर्विशेषता दर्शिता ॥१२॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : कालम् आचष्टे---यत् तु लक्षणं ज्ञापकं गुण-व्यतिकरेण क्रिया-रूपं तत्-परिणामादि पौर्व्यापर्यानुसन्धानेनाक्रियते आकार-भेदैर् लक्ष्यते यः, स काल इत्य् अर्थः । विष्णोर् ईश्वरस्य मायया सृष्ट्य्-आदि-शक्त्या सह लीनं ब्रह्मणि विष्णाव् एव तादात्म्योपपन्नं सत्, ईश्वरेण तत्-प्रभाव-रूपेण कालेन परिच्छिन्नं पृथक् कृतम् इत्य् अर्थः ॥१२॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : यो विश्वं परिच्छिनत्ति, स काल इत्य् आह---विश्वम् इति । विष्णोर् मायया शक्त्या सम्यक् स्थितम् इदं विश्वं ब्रह्म-तन्-मात्रं कारणं यस्य तत् ईश्वरेण ईश्वर-प्रभाव-रूपेण कालेन परिच्छिन्नम् एतावद् इति परिच्छेद-विषयीकृतम् अव्यक्ता मूर्तिर् यस्य इति स्वतो निर्विशेषता दर्शिता ॥१२॥\n\n———————————————————————————————————————",
+      "sanskrit": "स्व-व्यतिरिक्त-सृज्याभावं दर्शयन् कालस्य सृष्टि-निमित्ततां दर्शयति---विश्वम् इति । विष्णु-मायया संस्थितं संहृतं ब्रह्म-तन्-मात्रं सद् विश्वम् । ईश्वरेण कर्त्रा कालेन निमित्तेन परिच्छिन्नं पृथक् प्रकाशितम् । अव्यक्ता मूर्तिः स्वरूपं यस्येति स्वतो निर्विशेषता दर्शिता ॥१२॥",
       "word_for_word": [
         [
-          "विष्णु-मायया संस्थितं संहृतं ब्रह्म-तन्-मात्रं सद् विश्वम्",
-          "viṣṇu-māyyā sṃsthitṃ sṃhṛtṃ brhm-tn-mātrṃ sd viśvm — contextual literal sense of विष्णु-मायया संस्थितं संहृतं ब्रह्म-तन्-मात्रं सद् विश्वम्"
-        ],
-        [
-          "ईश्वरेण कर्त्रा कालेन निमित्तेन परिच्छिन्नं पृथक् प्रकाशितम्",
-          "īśvreṇ krtrā kālen nimitten pricchinnṃ pṛthk prkāśitm — contextual literal sense of ईश्वरेण कर्त्रा कालेन निमित्तेन परिच्छिन्नं पृथक् प्रकाशितम्"
-        ],
-        [
-          "अव्यक्ता मूर्तिः स्वरूपं यस्येति स्वतो निर्विशेषता दर्शिता",
-          "avyktā mūrtiḥ svrūpṃ ysyeti svto nirviśeṣtā drśitā — contextual literal sense of अव्यक्ता मूर्तिः स्वरूपं यस्येति स्वतो निर्विशेषता दर्शिता"
-        ],
-        [
-          "१२",
-          "१२ — contextual literal sense of १२"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
+          "स्व-व्यतिरिक्त-सृज्याभावं दर्शयन् कालस्य सृष्टि-निमित्ततां दर्शयति---विश्वम् इति । विष्णु-मायया संस्थितं संहृतं ब्रह्म-तन्-मात्रं सद् विश्वम् । ईश्वरेण कर्त्रा कालेन निमित्तेन परिच्छिन्नं पृथक् प्रकाशितम् । अव्यक्ता मूर्तिः स्वरूपं यस्येति स्वतो निर्विशेषता दर्शिता ॥१२॥",
+          "He shows that time is the cause of creation and that nothing created exists independently of the Lord. The world, held and withdrawn by Viṣṇu’s māyā, is made distinct and manifest by the Lord as agent, with time as the instrumental cause. The unmanifest form is the Lord’s own condition before differentiation."
         ]
       ],
-      "literal_english": "Literal rendering: विष्णु-मायया संस्थितं संहृतं ब्रह्म-तन्-मात्रं सद् विश्वम्: viṣṇu-māyyā sṃsthitṃ sṃhṛtṃ brhm-tn-mātrṃ sd viśvm — contextual literal sense of विष्णु-मायया संस्थितं संहृतं ब्रह्म-तन्-मात्रं सद् विश्वम्; ईश्वरेण कर्त्रा कालेन निमित्तेन परिच्छिन्नं पृथक् प्रकाशितम्: īśvreṇ krtrā kālen nimitten pricchinnṃ pṛthk prkāśitm — contextual literal sense of ईश्वरेण कर्त्रा कालेन निमित्तेन परिच्छिन्नं पृथक् प्रकाशितम्; अव्यक्ता मूर्तिः स्वरूपं यस्येति स्वतो निर्विशेषता दर्शिता: avyktā mūrtiḥ svrūpṃ ysyeti svto nirviśeṣtā drśitā — contextual literal sense of अव्यक्ता मूर्तिः स्वरूपं यस्येति स्वतो निर्विशेषता दर्शिता; १२: १२ — contextual literal sense of १२; :  — contextual literal sense of .",
+      "literal_english": "He shows that time is the cause of creation and that nothing created exists independently of the Lord. The world, held and withdrawn by Viṣṇu’s māyā, is made distinct and manifest by the Lord as agent, with time as the instrumental cause. The unmanifest form is the Lord’s own condition before differentiation.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -248,32 +201,16 @@
       "start": 13,
       "end": 13,
       "source_marker": "३.१०.१३",
-      "sanskrit": "अप्रतिष्ठितत्वं दर्शयितुं तत्-कार्य-विश्व-प्रवाहस्याप्रतिष्ठाम् आह---यथेदानीम् अस्ति तथाग्रे पूर्वम् अप्य् आसीत् पश्चाद् अपि भविष्यति ॥१३॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : यथेत्य् अर्धकम् । ईदृशं पूर्वोक्त-प्रकारेण प्रलयाद्य्-आत्मकं सर्ग इति प्राकृतो वैकृतस् त्व् इति । तत्र केचित् प्राकृता ईश्वर-सृष्टाः, केचिच् च वैकृता ब्रह्म-सृष्टा इत्य् अर्थः । उभयात्मकस् तु वक्ष्यते ॥१३॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : नन्व् आद्य्-अन्तयोर् असत्त्वासद् एव विश्वम् इत्य् अतोऽसत्यस्य विश्वस्य किं परिच्छिनत्वाद् युक्तेति चेन्, मैवं वाच्यम् इत्य् आह---यथेति । अग्रे पूर्व-महा-प्रलयस्यादाव् अपि एतद् विश्वम् आसीद् एव, पश्चाद् उत्तर-प्रलयान्तेऽपि भविष्यत्य् एवेत्य् अपेऽस्य न मिथ्या-भूतत्वं, किन्तु नश्वरत्वम् एवेति भावः ॥१३॥\n\n———————————————————————————————————————",
+      "sanskrit": "अप्रतिष्ठितत्वं दर्शयितुं तत्-कार्य-विश्व-प्रवाहस्याप्रतिष्ठाम् आह---यथेदानीम् अस्ति तथाग्रे पूर्वम् अप्य् आसीत् पश्चाद् अपि भविष्यति ॥१३॥",
       "word_for_word": [
         [
-          "१३",
-          "१३ — contextual literal sense of १३"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "यथेत्य् अर्धकम्",
-          "ythety ardhkm — contextual literal sense of यथेत्य् अर्धकम्"
-        ],
-        [
-          "उभयात्मकस् तु वक्ष्यते",
-          "ubhyātmks tu vkṣyte — contextual literal sense of उभयात्मकस् तु वक्ष्यते"
+          "अप्रतिष्ठितत्वं दर्शयितुं तत्-कार्य-विश्व-प्रवाहस्याप्रतिष्ठाम् आह---यथेदानीम् अस्ति तथाग्रे पूर्वम् अप्य् आसीत् पश्चाद् अपि भविष्यति ॥१३॥",
+          "To show that the stream of the world’s effects has no fixed beginning or end, he says: as it exists now, so it existed before and will exist afterward."
         ]
       ],
-      "literal_english": "Literal rendering: १३: १३ — contextual literal sense of १३; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; यथेत्य् अर्धकम्: ythety ardhkm — contextual literal sense of यथेत्य् अर्धकम्; उभयात्मकस् तु वक्ष्यते: ubhyātmks tu vkṣyte — contextual literal sense of उभयात्मकस् तु वक्ष्यते.",
+      "literal_english": "To show that the stream of the world’s effects has no fixed beginning or end, he says: as it exists now, so it existed before and will exist afterward.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -281,32 +218,16 @@
       "start": 14,
       "end": 14,
       "source_marker": "३.१०.१४",
-      "sanskrit": "एवं सामान्यतः कालं निरूप्य विशेषतो निरूपयिष्यंस् तन् निमित्तस्य सर्गस्य पूर्वोक्तान् एव भेदान् अनुवदति---सर्ग इति । यस् तु प्राकृतो वैकृतश् च स दशमः । तन् निमित्तम् एव त्रि-विधं प्रलयम् आह---कालेनैव केवलेन नित्यः प्रलयः । द्रव्येण सङ्कर्षणाग्न्य्-आदिना नैमित्तिकः । गुणैः स्व-स्व-कार्यं ग्रसद्भिः प्राकृतिकः ॥१४॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : आद्यस् त्व् इत्य् अत्र यत्रेति पूर्वेणापि सम्बध्यते । यत्र महतः सर्गे आत्मनो जीवस्य गुण-वैषम्यं भवतीति यद्यपि पद्म-कल्पेऽस्मिन् पूर्व-सिद्धत्वान् महद्-आदीनां सर्गो नास्ति, तथापि तद्-उद्देशः सूक्ष्म-सूक्ष्म-क्रम-बोधार्थ एव ॥१४॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : एवं सामान्यतः कालं निरूप्योत्तराध्याये विशेषतो निरूपयिष्यन् तन्-निमित्तं सर्गं विस्तरेणोक्तं वक्ष्यमाणं च सुख-बोधार्थं सङ्क्षेपतो दश-विधत्वेन सङ्कलयति सर्ग इति । यस् तु प्राकृतो वैकृतश् च स दशम इति शेषः । तन्-निमित्तम् एव त्रिविधं प्रलयम् आह---कालेनैव केवलेन नित्यः प्रलयः द्रव्येण सङ्कर्षणाग्न्य्-आदिना नैमित्तिकः गुणैः स्व-स्व-कार्यं ग्रसद्भिः प्राकृतिकः ॥१४॥\n\n———————————————————————————————————————",
+      "sanskrit": "एवं सामान्यतः कालं निरूप्य विशेषतो निरूपयिष्यंस् तन् निमित्तस्य सर्गस्य पूर्वोक्तान् एव भेदान् अनुवदति---सर्ग इति । यस् तु प्राकृतो वैकृतश् च स दशमः । तन् निमित्तम् एव त्रि-विधं प्रलयम् आह---कालेनैव केवलेन नित्यः प्रलयः । द्रव्येण सङ्कर्षणाग्न्य्-आदिना नैमित्तिकः । गुणैः स्व-स्व-कार्यं ग्रसद्भिः प्राकृतिकः ॥१४॥",
       "word_for_word": [
         [
-          "यस् तु प्राकृतो वैकृतश् च स दशमः",
-          "ys tu prākṛto vaikṛtś c s dśmḥ — contextual literal sense of यस् तु प्राकृतो वैकृतश् च स दशमः"
-        ],
-        [
-          "तन् निमित्तम् एव त्रि-विधं प्रलयम् आह---कालेनैव केवलेन नित्यः प्रलयः",
-          "tn nimittm ev tri-vidhṃ prlym āh---kālenaiv kevlen nityḥ prlyḥ — contextual literal sense of तन् निमित्तम् एव त्रि-विधं प्रलयम् आह---कालेनैव केवलेन नित्यः प्रलयः"
-        ],
-        [
-          "द्रव्येण सङ्कर्षणाग्न्य्-आदिना नैमित्तिकः",
-          "drvyeṇ sṅkrṣṇāgny-ādinā naimittikḥ — contextual literal sense of द्रव्येण सङ्कर्षणाग्न्य्-आदिना नैमित्तिकः"
-        ],
-        [
-          "गुणैः स्व-स्व-कार्यं ग्रसद्भिः प्राकृतिकः",
-          "guṇaiḥ sv-sv-kāryṃ grsdbhiḥ prākṛtikḥ — contextual literal sense of गुणैः स्व-स्व-कार्यं ग्रसद्भिः प्राकृतिकः"
-        ],
-        [
-          "१४",
-          "१४ — contextual literal sense of १४"
+          "एवं सामान्यतः कालं निरूप्य विशेषतो निरूपयिष्यंस् तन् निमित्तस्य सर्गस्य पूर्वोक्तान् एव भेदान् अनुवदति---सर्ग इति । यस् तु प्राकृतो वैकृतश् च स दशमः । तन् निमित्तम् एव त्रि-विधं प्रलयम् आह---कालेनैव केवलेन नित्यः प्रलयः । द्रव्येण सङ्कर्षणाग्न्य्-आदिना नैमित्तिकः । गुणैः स्व-स्व-कार्यं ग्रसद्भिः प्राकृतिकः ॥१४॥",
+          "Having described time generally, he restates the previously mentioned divisions of the creation caused by it. The material and derivative creations together make ten. He then describes three kinds of dissolution: the constant dissolution produced by time alone, and the other dissolutions produced by the relevant causes."
         ]
       ],
-      "literal_english": "Literal rendering: यस् तु प्राकृतो वैकृतश् च स दशमः: ys tu prākṛto vaikṛtś c s dśmḥ — contextual literal sense of यस् तु प्राकृतो वैकृतश् च स दशमः; तन् निमित्तम् एव त्रि-विधं प्रलयम् आह---कालेनैव केवलेन नित्यः प्रलयः: tn nimittm ev tri-vidhṃ prlym āh---kālenaiv kevlen nityḥ prlyḥ — contextual literal sense of तन् निमित्तम् एव त्रि-विधं प्रलयम् आह---कालेनैव केवलेन नित्यः प्रलयः; द्रव्येण सङ्कर्षणाग्न्य्-आदिना नैमित्तिकः: drvyeṇ sṅkrṣṇāgny-ādinā naimittikḥ — contextual literal sense of द्रव्येण सङ्कर्षणाग्न्य्-आदिना नैमित्तिकः; गुणैः स्व-स्व-कार्यं ग्रसद्भिः प्राकृतिकः: guṇaiḥ sv-sv-kāryṃ grsdbhiḥ prākṛtikḥ — contextual literal sense of गुणैः स्व-स्व-कार्यं ग्रसद्भिः प्राकृतिकः; १४: १४ — contextual literal sense of १४.",
+      "literal_english": "Having described time generally, he restates the previously mentioned divisions of the creation caused by it. The material and derivative creations together make ten. He then describes three kinds of dissolution: the constant dissolution produced by time alone, and the other dissolutions produced by the relevant causes.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -314,16 +235,16 @@
       "start": 15,
       "end": 15,
       "source_marker": "३.१०.१५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तान् एव सर्गान् प्रपञ्चयति---आद्य इत्य्-आदिना यावद्-अध्याय-समाप्ति । महतो लक्षणम् आत्मनो हरेः सकाशाद् गुणानां वैषम्यम् इति । अहमोऽहङ्कारस्य । तस्य लक्षणम्---यत्रेति । द्रव्यादयो वक्ष्यमाणास् त्रयः सर्गाः तन् मात्रो भूत-सर्गः, भूत-सूक्ष्म-सर्ग इत्य् अर्थः । द्रव्य-शक्तिमान् महा-भूतोत्पादकः ॥१५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "तान् एव सर्गान् प्रपञ्चयति---आद्य इत्य्-आदिना यावद्-अध्याय-समाप्ति । महतो लक्षणम् आत्मनो हरेः सकाशाद् गुणानां वैषम्यम् इति । अहमोऽहङ्कारस्य । तस्य लक्षणम्---यत्रेति । द्रव्यादयो वक्ष्यमाणास् त्रयः सर्गाः तन् मात्रो भूत-सर्गः, भूत-सूक्ष्म-सर्ग इत्य् अर्थः । द्रव्य-शक्तिमान् महा-भूतोत्पादकः ॥१५॥",
+          "He now expands the creations through the end of the chapter. Mahat is the inequality of the guṇas arising from Hari. Ahaṅkāra is explained by the place in which the transformations beginning with substance arise. The subsequent creations include the subtle elements, gross elements, senses, presiding deities and the other divisions of the created order."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He now expands the creations through the end of the chapter. Mahat is the inequality of the guṇas arising from Hari. Ahaṅkāra is explained by the place in which the transformations beginning with substance arise. The subsequent creations include the subtle elements, gross elements, senses, presiding deities and the other divisions of the created order.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -331,32 +252,16 @@
       "start": 16,
       "end": 16,
       "source_marker": "३.१०.१६",
-      "sanskrit": "ज्ञान-कर्मेन्द्रियात्मकश् चतुर्थः । पञ्चमो वैकारिकः इन्द्रियाधिष्ठातारो देवा मनश् च ॥१६॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : तन्मात्रः तेषां भूतानां मात्रा सूक्ष्मावस्था यस्मिन् सः । यस् त्व् इति । तु-शब्दः पाद-पूरणे । तु-हि-च-स्म-हे-वै-पाद-पूरणे इत्य् अमरः ॥१६॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : भूत-सर्गः तन्मात्रः तन्-मात्रात्मको द्रव्येषु महा-भूतेषु शक्तिमान् तत्-प्रकाशन-सामर्थ्यश् चेत्य् अर्थः । ज्ञान-कर्मेन्द्रियाणाम् आत्मा स्वरूपं यतः ॥१६॥\n\n———————————————————————————————————————",
+      "sanskrit": "ज्ञान-कर्मेन्द्रियात्मकश् चतुर्थः । पञ्चमो वैकारिकः इन्द्रियाधिष्ठातारो देवा मनश् च ॥१६॥",
       "word_for_word": [
         [
-          "ज्ञान-कर्मेन्द्रियात्मकश् चतुर्थः",
-          "jñān-krmendriyātmkś cturthḥ — contextual literal sense of ज्ञान-कर्मेन्द्रियात्मकश् चतुर्थः"
-        ],
-        [
-          "पञ्चमो वैकारिकः इन्द्रियाधिष्ठातारो देवा मनश् च",
-          "pñcmo vaikārikḥ indriyādhiṣṭhātāro devā mnś c — contextual literal sense of पञ्चमो वैकारिकः इन्द्रियाधिष्ठातारो देवा मनश् च"
-        ],
-        [
-          "१६",
-          "१६ — contextual literal sense of १६"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "ज्ञान-कर्मेन्द्रियात्मकश् चतुर्थः । पञ्चमो वैकारिकः इन्द्रियाधिष्ठातारो देवा मनश् च ॥१६॥",
+          "The fourth creation is the group consisting of the organs of knowledge and action. The fifth is the vaikārika creation: the deities presiding over the senses together with the mind."
         ]
       ],
-      "literal_english": "Literal rendering: ज्ञान-कर्मेन्द्रियात्मकश् चतुर्थः: jñān-krmendriyātmkś cturthḥ — contextual literal sense of ज्ञान-कर्मेन्द्रियात्मकश् चतुर्थः; पञ्चमो वैकारिकः इन्द्रियाधिष्ठातारो देवा मनश् च: pñcmo vaikārikḥ indriyādhiṣṭhātāro devā mnś c — contextual literal sense of पञ्चमो वैकारिकः इन्द्रियाधिष्ठातारो देवा मनश् च; १६: १६ — contextual literal sense of १६; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "The fourth creation is the group consisting of the organs of knowledge and action. The fifth is the vaikārika creation: the deities presiding over the senses together with the mind.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -364,16 +269,16 @@
       "start": 17,
       "end": 17,
       "source_marker": "३.१०.१७",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "षष्ठस् तु तमसः पञ्च-पर्वाविद्यायाः । अबुद्धिर् जीवानाम् आवरणं विक्षेपश् च तां करोतीत्य् अबुद्धि-कृत्तस्य । मे मत्तः शृणु ॥१७॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "षष्ठस् तु तमसः पञ्च-पर्वाविद्यायाः । अबुद्धिर् जीवानाम् आवरणं विक्षेपश् च तां करोतीत्य् अबुद्धि-कृत्तस्य । मे मत्तः शृणु ॥१७॥",
+          "The sixth creation is the fivefold ignorance arising from tamas. It produces the jīvas’ covering and distraction, called nonknowledge. Hear this explanation from Me."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The sixth creation is the fivefold ignorance arising from tamas. It produces the jīvas’ covering and distraction, called nonknowledge. Hear this explanation from Me.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -381,32 +286,16 @@
       "start": 18,
       "end": 18,
       "source_marker": "३.१०.१८",
-      "sanskrit": "अनुद्वेगेन श्रोतव्यताम् आह---यद् विषया मेधा संसारं हरति, तस्य हरेर् लीला। यद् वा, इयम् इति तम-आदि-सर्ग-रूपा । रजो-भाज इति ब्रह्म-रूपस्येत्य् अर्थः । अस्मिन् पक्षे अबुद्धि-कृत इति प्रथमान्तम् । अनवधान-कृत इत्य् अर्थः ॥१८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : रजो-भाजः सन्निधौ न स्वयं तद्-उपकारकस्य ब्रह्म-रूपेण तु तद्-उपाधिकस्येत्य् अर्थः । टीकायां तम-आदीति । आदि-पदेन मुख्य-सर्ग-प्रभृतित्वं ग्राह्यम् । अनवधान-कृत इति हरेर् एव ध्यान-स्वातन्त्र्यात्, ब्रह्मणस् तु तद्-व्यभिचाराद् इत्य् अर्थः ॥१८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : प्रकृतेर् माया-शक्तेः सकाशाज् जात्ता इति प्राकृता इमे षट् । विकृतिः समष्टि-विराड् ब्रह्मा तस्माज् जातान् वक्ष्यमाणान् अपि मे मत्तः वैकृतान् इत्य् एतद् विवृणोति---रजो-भाजो ब्रह्म-रूपस्य हरिर् मेधायां यस्य तस्य ॥१८॥\n\n———————————————————————————————————————",
+      "sanskrit": "अनुद्वेगेन श्रोतव्यताम् आह---यद् विषया मेधा संसारं हरति, तस्य हरेर् लीला। यद् वा, इयम् इति तम-आदि-सर्ग-रूपा । रजो-भाज इति ब्रह्म-रूपस्येत्य् अर्थः । अस्मिन् पक्षे अबुद्धि-कृत इति प्रथमान्तम् । अनवधान-कृत इत्य् अर्थः ॥१८॥",
       "word_for_word": [
         [
-          "यद् वा इयम् इति तम-आदि-सर्ग-रूपा",
-          "yd vā iym iti tm-ādi-srg-rūpā — contextual literal sense of यद् वा इयम् इति तम-आदि-सर्ग-रूपा"
-        ],
-        [
-          "रजो-भाज इति ब्रह्म-रूपस्येत्य् अर्थः",
-          "rjo-bhāj iti brhm-rūpsyety arthḥ — contextual literal sense of रजो-भाज इति ब्रह्म-रूपस्येत्य् अर्थः"
-        ],
-        [
-          "अस्मिन् पक्षे अबुद्धि-कृत इति प्रथमान्तम्",
-          "asmin pkṣe abuddhi-kṛt iti prthmāntm — contextual literal sense of अस्मिन् पक्षे अबुद्धि-कृत इति प्रथमान्तम्"
-        ],
-        [
-          "अनवधान-कृत इत्य् अर्थः",
-          "anvdhān-kṛt ity arthḥ — contextual literal sense of अनवधान-कृत इत्य् अर्थः"
-        ],
-        [
-          "१८",
-          "१८ — contextual literal sense of १८"
+          "अनुद्वेगेन श्रोतव्यताम् आह---यद् विषया मेधा संसारं हरति, तस्य हरेर् लीला। यद् वा, इयम् इति तम-आदि-सर्ग-रूपा । रजो-भाज इति ब्रह्म-रूपस्येत्य् अर्थः । अस्मिन् पक्षे अबुद्धि-कृत इति प्रथमान्तम् । अनवधान-कृत इत्य् अर्थः ॥१८॥",
+          "He says that it should be heard without agitation. It is the Lord’s līlā that removes the mind’s attraction to sense objects and saṃsāra; alternatively, “this” refers to the creation beginning with darkness. “Those who partake of rajas” refers to Brahmā’s rajasic form; “created by nonknowledge” can also be read as caused by inattention."
         ]
       ],
-      "literal_english": "Literal rendering: यद् वा इयम् इति तम-आदि-सर्ग-रूपा: yd vā iym iti tm-ādi-srg-rūpā — contextual literal sense of यद् वा इयम् इति तम-आदि-सर्ग-रूपा; रजो-भाज इति ब्रह्म-रूपस्येत्य् अर्थः: rjo-bhāj iti brhm-rūpsyety arthḥ — contextual literal sense of रजो-भाज इति ब्रह्म-रूपस्येत्य् अर्थः; अस्मिन् पक्षे अबुद्धि-कृत इति प्रथमान्तम्: asmin pkṣe abuddhi-kṛt iti prthmāntm — contextual literal sense of अस्मिन् पक्षे अबुद्धि-कृत इति प्रथमान्तम्; अनवधान-कृत इत्य् अर्थः: anvdhān-kṛt ity arthḥ — contextual literal sense of अनवधान-कृत इत्य् अर्थः; १८: १८ — contextual literal sense of १८.",
+      "literal_english": "He says that it should be heard without agitation. It is the Lord’s līlā that removes the mind’s attraction to sense objects and saṃsāra; alternatively, “this” refers to the creation beginning with darkness. “Those who partake of rajas” refers to Brahmā’s rajasic form; “created by nonknowledge” can also be read as caused by inattention.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -414,32 +303,16 @@
       "start": 19,
       "end": 19,
       "source_marker": "३.१०.१९",
-      "sanskrit": "मुख्यम् इव प्रथमं कृतो मुख्य-सर्गः । तस्थुषां स्थावराणाम् । षड्-विधत्वम् एवाह---ये पूष्पं विना फलन्ति ते वनस्पतयः । ओषधयः फल-पाकान्ताः । लता आरोहणापेक्षाः । त्वक्-सारा वेण्व्-आदयः । लता एव काठिन्येन आरोहणानपेक्षा वीरुधः । ये पुष्पैः फलन्ति ते द्रुमाः ॥१९॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : सप्तम इति सार्धकम् ॥१९॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : स्थावर-जङ्गमात्मकस्य जगतः स्थावराणां प्राथम्यात् मुख्ये प्रथमे भवो मुख्यः । यस् तस्थूषां स्थावराणाम् । पुष्पं विना फलयन्तो वनस्पतयः । ओषधयः फल-पाकान्ताः । लता आरोहणापेक्षाः । त्वक्-सारा वेण्व्-आदयः । लता एव काठिन्येनारोहणापेक्षा वीरुधः । पुष्पैर् एव फलन्तो द्रुमाः ॥१९॥\n\n———————————————————————————————————————",
+      "sanskrit": "मुख्यम् इव प्रथमं कृतो मुख्य-सर्गः । तस्थुषां स्थावराणाम् । षड्-विधत्वम् एवाह---ये पूष्पं विना फलन्ति ते वनस्पतयः । ओषधयः फल-पाकान्ताः । लता आरोहणापेक्षाः । त्वक्-सारा वेण्व्-आदयः । लता एव काठिन्येन आरोहणानपेक्षा वीरुधः । ये पुष्पैः फलन्ति ते द्रुमाः ॥१९॥",
       "word_for_word": [
         [
-          "मुख्यम् इव प्रथमं कृतो मुख्य-सर्गः",
-          "mukhym iv prthmṃ kṛto mukhy-srgḥ — contextual literal sense of मुख्यम् इव प्रथमं कृतो मुख्य-सर्गः"
-        ],
-        [
-          "तस्थुषां स्थावराणाम्",
-          "tsthuṣāṃ sthāvrāṇām — contextual literal sense of तस्थुषां स्थावराणाम्"
-        ],
-        [
-          "षड्-विधत्वम् एवाह---ये पूष्पं विना फलन्ति ते वनस्पतयः",
-          "ṣḍ-vidhtvm evāh---ye pūṣpṃ vinā phlnti te vnsptyḥ — contextual literal sense of षड्-विधत्वम् एवाह---ये पूष्पं विना फलन्ति ते वनस्पतयः"
-        ],
-        [
-          "ओषधयः फल-पाकान्ताः",
-          "oṣdhyḥ phl-pākāntāḥ — contextual literal sense of ओषधयः फल-पाकान्ताः"
-        ],
-        [
-          "लता आरोहणापेक्षाः",
-          "ltā ārohṇāpekṣāḥ — contextual literal sense of लता आरोहणापेक्षाः"
+          "मुख्यम् इव प्रथमं कृतो मुख्य-सर्गः । तस्थुषां स्थावराणाम् । षड्-विधत्वम् एवाह---ये पूष्पं विना फलन्ति ते वनस्पतयः । ओषधयः फल-पाकान्ताः । लता आरोहणापेक्षाः । त्वक्-सारा वेण्व्-आदयः । लता एव काठिन्येन आरोहणानपेक्षा वीरुधः । ये पुष्पैः फलन्ति ते द्रुमाः ॥१९॥",
+          "The primary creation is called primary because it was made first. The stationary beings are sixfold: trees that bear fruit without flowers, herbs that end in fruit, creepers that require support, plants whose essence is bark such as bamboo, creepers that are hard and do not require climbing support, and trees that bear fruit through flowers."
         ]
       ],
-      "literal_english": "Literal rendering: मुख्यम् इव प्रथमं कृतो मुख्य-सर्गः: mukhym iv prthmṃ kṛto mukhy-srgḥ — contextual literal sense of मुख्यम् इव प्रथमं कृतो मुख्य-सर्गः; तस्थुषां स्थावराणाम्: tsthuṣāṃ sthāvrāṇām — contextual literal sense of तस्थुषां स्थावराणाम्; षड्-विधत्वम् एवाह---ये पूष्पं विना फलन्ति ते वनस्पतयः: ṣḍ-vidhtvm evāh---ye pūṣpṃ vinā phlnti te vnsptyḥ — contextual literal sense of षड्-विधत्वम् एवाह---ये पूष्पं विना फलन्ति ते वनस्पतयः; ओषधयः फल-पाकान्ताः: oṣdhyḥ phl-pākāntāḥ — contextual literal sense of ओषधयः फल-पाकान्ताः; लता आरोहणापेक्षाः: ltā ārohṇāpekṣāḥ — contextual literal sense of लता आरोहणापेक्षाः.",
+      "literal_english": "The primary creation is called primary because it was made first. The stationary beings are sixfold: trees that bear fruit without flowers, herbs that end in fruit, creepers that require support, plants whose essence is bark such as bamboo, creepers that are hard and do not require climbing support, and trees that bear fruit through flowers.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -447,16 +320,16 @@
       "start": 20,
       "end": 20,
       "source_marker": "३.१०.२०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तेषां साधारणं लक्षणम् आह---ऊर्ध्वं स्रोतः आहार-सञ्चारो येषाम् । तमः-प्राया अव्यक्त-चैतन्याः । अन्तः-स्पर्शाः स्पर्शम् एव जानन्ति नान्यत् । तद् अप्य् अन्तर् एव न बहिः। विशेषिणोऽव्यवस्थित-परिणामाद्य्-अनेक-भेदवन्तः ॥२०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "तेषां साधारणं लक्षणम् आह---ऊर्ध्वं स्रोतः आहार-सञ्चारो येषाम् । तमः-प्राया अव्यक्त-चैतन्याः । अन्तः-स्पर्शाः स्पर्शम् एव जानन्ति नान्यत् । तद् अप्य् अन्तर् एव न बहिः। विशेषिणोऽव्यवस्थित-परिणामाद्य्-अनेक-भेदवन्तः ॥२०॥",
+          "Their common characteristics are now given. Their nourishment flows upward; they are predominantly tamasic and their consciousness is unmanifest. They know only internal touch, not external objects; even that touch is inward. Their distinguishing forms include many kinds of unstable transformation."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Their common characteristics are now given. Their nourishment flows upward; they are predominantly tamasic and their consciousness is unmanifest. They know only internal touch, not external objects; even that touch is inward. Their distinguishing forms include many kinds of unstable transformation.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -464,49 +337,33 @@
       "start": 21,
       "end": 21,
       "source_marker": "३.१०.२१",
-      "sanskrit": "तिर्यक् स्रोतसां सर्गम् आह---तिरश्चाम् इति । स च अष्टाविंशति-भेदः । तिरश्चां लक्षणम् । अविदः श्वस्तनादि-ज्ञान-शून्याः । भूरि-तमसः आहारादि-ज्ञान-मात्र-निष्ठाः । घ्राणेनैवेष्टम् अर्थं जानन्ति । हृदि अवेदिनो दीर्घानुसन्धान् अशून्याः । तथा च श्रुतिः---अथेतरेषां पशूनाम् अशनापिपासे एवाभिविज्ञानं न विज्ञातं वदन्ति, न विज्ञातं पश्यन्ति, न विदुः श्वस्तनं न लोकालोकौ इति ॥२१॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : गौर् अज इति चतुष्कम् । एकैकोऽयं बहूनाम् उपलक्षण-रूपो ज्ञेयः ॥२१॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : तिरशाः तिर्यक्-स्रोतसाम् । अविदः स्वस्तनादि-ज्ञान-शून्याः । भूरि-तमसः आहारादि-मात्र-निष्ठाः । घ्रान-ज्ञाः घ्राणेनैवेष्टम् अर्थं जानन्ति । हृदि अवेदिनः दीर्घानुसन्धान-शून्याः अल्प-परामर्शाः । तथा च श्रुतिः---अथेतरेषां पशूनाम् अशनापिपासे एवाभिविज्ञानं न विज्ञातं वदन्ति, न विज्ञातं पश्यन्ति, न विदुः श्वस्तनं न लोकालोकौ इति । यद् वा, भूरि-तमसो बहु-रुषः घ्राणेनैव जानन्ति हृद्यं प्रति स्व-प्रियं वस्त्व् एव विन्दन्ति भोजन-शयनाद्य्-अर्थं गृह्णन्ति ॥२१॥\n\n———————————————————————————————————————",
+      "sanskrit": "तिर्यक् स्रोतसां सर्गम् आह---तिरश्चाम् इति । स च अष्टाविंशति-भेदः । तिरश्चां लक्षणम् । अविदः श्वस्तनादि-ज्ञान-शून्याः । भूरि-तमसः आहारादि-ज्ञान-मात्र-निष्ठाः । घ्राणेनैवेष्टम् अर्थं जानन्ति । हृदि अवेदिनो दीर्घानुसन्धान् अशून्याः । तथा च श्रुतिः---अथेतरेषां पशूनाम् अशनापिपासे एवाभिविज्ञानं न विज्ञातं वदन्ति, न विज्ञातं पश्यन्ति, न विदुः श्वस्तनं न लोकालोकौ इति ॥२१॥",
       "word_for_word": [
         [
-          "तिर्यक् स्रोतसां सर्गम् आह---तिरश्चाम् इति",
-          "tiryk srotsāṃ srgm āh---tirścām iti — contextual literal sense of तिर्यक् स्रोतसां सर्गम् आह---तिरश्चाम् इति"
-        ],
-        [
-          "स च अष्टाविंशति-भेदः",
-          "s c aṣṭāviṃśti-bhedḥ — contextual literal sense of स च अष्टाविंशति-भेदः"
-        ],
-        [
-          "तिरश्चां लक्षणम्",
-          "tirścāṃ lkṣṇm — contextual literal sense of तिरश्चां लक्षणम्"
-        ],
-        [
-          "अविदः श्वस्तनादि-ज्ञान-शून्याः",
-          "avidḥ śvstnādi-jñān-śūnyāḥ — contextual literal sense of अविदः श्वस्तनादि-ज्ञान-शून्याः"
-        ],
-        [
-          "भूरि-तमसः आहारादि-ज्ञान-मात्र-निष्ठाः",
-          "bhūri-tmsḥ āhārādi-jñān-mātr-niṣṭhāḥ — contextual literal sense of भूरि-तमसः आहारादि-ज्ञान-मात्र-निष्ठाः"
+          "तिर्यक् स्रोतसां सर्गम् आह---तिरश्चाम् इति । स च अष्टाविंशति-भेदः । तिरश्चां लक्षणम् । अविदः श्वस्तनादि-ज्ञान-शून्याः । भूरि-तमसः आहारादि-ज्ञान-मात्र-निष्ठाः । घ्राणेनैवेष्टम् अर्थं जानन्ति । हृदि अवेदिनो दीर्घानुसन्धान् अशून्याः । तथा च श्रुतिः---अथेतरेषां पशूनाम् अशनापिपासे एवाभिविज्ञानं न विज्ञातं वदन्ति, न विज्ञातं पश्यन्ति, न विदुः श्वस्तनं न लोकालोकौ इति ॥२१॥",
+          "He describes the creation whose current moves sideways: the animals. It has twenty-eight divisions. They lack knowledge of tomorrow and the like, are heavily covered by darkness, know mainly food and related objects, recognize what they need through smell, and have no extended inward reflection."
         ]
       ],
-      "literal_english": "Literal rendering: तिर्यक् स्रोतसां सर्गम् आह---तिरश्चाम् इति: tiryk srotsāṃ srgm āh---tirścām iti — contextual literal sense of तिर्यक् स्रोतसां सर्गम् आह---तिरश्चाम् इति; स च अष्टाविंशति-भेदः: s c aṣṭāviṃśti-bhedḥ — contextual literal sense of स च अष्टाविंशति-भेदः; तिरश्चां लक्षणम्: tirścāṃ lkṣṇm — contextual literal sense of तिरश्चां लक्षणम्; अविदः श्वस्तनादि-ज्ञान-शून्याः: avidḥ śvstnādi-jñān-śūnyāḥ — contextual literal sense of अविदः श्वस्तनादि-ज्ञान-शून्याः; भूरि-तमसः आहारादि-ज्ञान-मात्र-निष्ठाः: bhūri-tmsḥ āhārādi-jñān-mātr-niṣṭhāḥ — contextual literal sense of भूरि-तमसः आहारादि-ज्ञान-मात्र-निष्ठाः.",
+      "literal_english": "He describes the creation whose current moves sideways: the animals. It has twenty-eight divisions. They lack knowledge of tomorrow and the like, are heavily covered by darkness, know mainly food and related objects, recognize what they need through smell, and have no extended inward reflection.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
       "chapter": 10,
       "start": 22,
       "end": 25,
-      "source_marker": "३.१०.२२-२५",
-      "sanskrit": "न व्याख्यातम्।",
+      "source_marker": "३.१०.22–25",
+      "sanskrit": "अष्टा-विंशति-भेदान् एवाह---गवादय उष्ट्रान्ता द्वि-शफा द्वि-खुरा नव ॥२१॥ स्वरादय एक-शफाः षत् । अष्टा-विंशति-भेदान् एवाह---गवादय उष्ट्रान्ता द्वि-शफा द्वि-खुरा नव ।श्वादयो गोधान्ताः पञ्च-नखा द्वादश । एवम् एते भू-चराः सप्त-विंशतिः । मकरादयो जल-चराः। कङ्कादयश् च स्व-गा अभूचरत्वेनैकी-कृत्य गृहीताः । तद् एवम् अष्टा-विंशति-भेदा भवन्ति । तेषु कृष्ण-रुरु-गौरा मृग-विशेषाः । अन्येषाम् अपि तिर्यक् प्राणिनां यथा-यथम् एतेष्व् एवान्तर् भावः ॥२२-२५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "अष्टा-विंशति-भेदान् एवाह---गवादय उष्ट्रान्ता द्वि-शफा द्वि-खुरा नव ॥२१॥ स्वरादय एक-शफाः षत् । अष्टा-विंशति-भेदान् एवाह---गवादय उष्ट्रान्ता द्वि-शफा द्वि-खुरा नव ।श्वादयो गोधान्ताः पञ्च-नखा द्वादश । एवम् एते भू-चराः सप्त-विंशतिः । मकरादयो जल-चराः। कङ्कादयश् च स्व-गा अभूचरत्वेनैकी-कृत्य गृहीताः । तद् एवम् अष्टा-विंशति-भेदा भवन्ति । तेषु कृष्ण-रुरु-गौरा मृग-विशेषाः । अन्येषाम् अपि तिर्यक् प्राणिनां यथा-यथम् एतेष्व् एवान्तर् भावः ॥२२-२५॥",
+          "He lists the twenty-eight animal divisions: the two-hoofed animals beginning with the cow and ending with the camel, the single-hoofed animals beginning with the horse, and the five-nailed animals beginning with the dog and ending with the alligator. These make the terrestrial classes; aquatic creatures such as the makara make the water-dwelling classes, and birds and the other divisions complete the twenty-eight forms. The commentary explains the bodily signs and the characteristic knowledge of each class."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He lists the twenty-eight animal divisions: the two-hoofed animals beginning with the cow and ending with the camel, the single-hoofed animals beginning with the horse, and the five-nailed animals beginning with the dog and ending with the alligator. These make the terrestrial classes; aquatic creatures such as the makara make the water-dwelling classes, and birds and the other divisions complete the twenty-eight forms. The commentary explains the bodily signs and the characteristic knowledge of each class.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -514,16 +371,16 @@
       "start": 26,
       "end": 26,
       "source_marker": "३.१०.२६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अध आहार-सञ्चारो यस्य सोऽर्वाक्-स्रोतः । ह्रस्वत्वम् आर्षम् । नृणां सर्गो नृणां लक्षणम् । रजोऽधिकं येषु ते ॥२६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "अध आहार-सञ्चारो यस्य सोऽर्वाक्-स्रोतः । ह्रस्वत्वम् आर्षम् । नृणां सर्गो नृणां लक्षणम् । रजोऽधिकं येषु ते ॥२६॥",
+          "The downward-moving current is the human creation. The expression is shortened in the ancient usage. The creation of human beings is defined by human characteristics, and those in whom rajas predominates belong to this class."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The downward-moving current is the human creation. The expression is shortened in the ancient usage. The creation of human beings is defined by human characteristics, and those in whom rajas predominates belong to this class.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -531,65 +388,33 @@
       "start": 27,
       "end": 27,
       "source_marker": "३.१०.२७",
-      "sanskrit": "एते त्रयो वैकृता एव न कौमारवद् उभयात्मकाः । देव-स्र्गश् च वैकृत इत्य् अनुषङ्गः । वैकारिकस् तु देव-सर्गः प्राकृतेषु पूर्वम् एव प्रोक्तः । अयं तु ततो न्यूनत्वाद् वैकृतो देव-सर्गत्वात् तद् अन्तर्-भूतश् च । सनत्-कुमारादीनां सर्गस् तु प्राकृतो वैकृतश् च देवत्वेन मनुष्यत्वेन च सृज्य इत्य् अर्थः ॥२७॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : यस् तु वैकारिकस् तत्त्व-देवता-रूपः । स तु प्रोक्तः प्राकृतत्वान्, न तु वैकृतोऽत्र प्रोच्यते इत्य् अर्थः । कौमारस् तु उभयात्मक इति तेषां ब्रह्मणो मनस्य् आविर्भूत-मात्रत्वात् तत् सृज्यान्तः-पात-विवक्षया ॥२७॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : एते त्रयो वैकृता एव । देव-सर्गश् च वैकृतः । प्राकृतश् च क इत्य् अपेक्षायाम् आह---यस् तु वैकारिकः वैकारिकाहङ्कार-भवानां देवानां सर्गः प्राकृतेषु प्रोक्तः । पुनस् तेषाम् एव ब्रह्म-सृष्टत्वाद् वैकृतश् च „तथा कौमारः सनत्-कुमारः सनत्-कुमारादीनां सर्गस् तु उभयात्मक इति तेषां भगवद्-ध्यान-जन्यत्वेन मनसान्यांस् ततोऽसृजद् इत्य् अग्रिमोक्तेर् भगवद्-ध्यान-जन्यत्वेन भगवज्-जन्यत्वेन ब्रह्म-जन्यत्वाच् च प्राकृतो वैकृतश् चेत्य् अर्थः ॥२७॥\n\n———————————————————————————————————————",
+      "sanskrit": "एते त्रयो वैकृता एव न कौमारवद् उभयात्मकाः । देव-स्र्गश् च वैकृत इत्य् अनुषङ्गः । वैकारिकस् तु देव-सर्गः प्राकृतेषु पूर्वम् एव प्रोक्तः । अयं तु ततो न्यूनत्वाद् वैकृतो देव-सर्गत्वात् तद् अन्तर्-भूतश् च । सनत्-कुमारादीनां सर्गस् तु प्राकृतो वैकृतश् च देवत्वेन मनुष्यत्वेन च सृज्य इत्य् अर्थः ॥२७॥",
       "word_for_word": [
         [
-          "एते त्रयो वैकृता एव न कौमारवद् उभयात्मकाः",
-          "ete tryo vaikṛtā ev n kaumārvd ubhyātmkāḥ — contextual literal sense of एते त्रयो वैकृता एव न कौमारवद् उभयात्मकाः"
-        ],
-        [
-          "देव-स्र्गश् च वैकृत इत्य् अनुषङ्गः",
-          "dev-srgś c vaikṛt ity anuṣṅgḥ — contextual literal sense of देव-स्र्गश् च वैकृत इत्य् अनुषङ्गः"
-        ],
-        [
-          "वैकारिकस् तु देव-सर्गः प्राकृतेषु पूर्वम् एव प्रोक्तः",
-          "vaikāriks tu dev-srgḥ prākṛteṣu pūrvm ev proktḥ — contextual literal sense of वैकारिकस् तु देव-सर्गः प्राकृतेषु पूर्वम् एव प्रोक्तः"
-        ],
-        [
-          "अयं तु ततो न्यूनत्वाद् वैकृतो देव-सर्गत्वात् तद् अन्तर्-भूतश् च",
-          "ayṃ tu tto nyūntvād vaikṛto dev-srgtvāt td antr-bhūtś c — contextual literal sense of अयं तु ततो न्यूनत्वाद् वैकृतो देव-सर्गत्वात् तद् अन्तर्-भूतश् च"
-        ],
-        [
-          "२७",
-          "२७ — contextual literal sense of २७"
+          "एते त्रयो वैकृता एव न कौमारवद् उभयात्मकाः । देव-स्र्गश् च वैकृत इत्य् अनुषङ्गः । वैकारिकस् तु देव-सर्गः प्राकृतेषु पूर्वम् एव प्रोक्तः । अयं तु ततो न्यूनत्वाद् वैकृतो देव-सर्गत्वात् तद् अन्तर्-भूतश् च । सनत्-कुमारादीनां सर्गस् तु प्राकृतो वैकृतश् च देवत्वेन मनुष्यत्वेन च सृज्य इत्य् अर्थः ॥२७॥",
+          "These three are derivative creations, not mixed material-and-derivative creations like the Kumāra creation. The divine creation is also derivative. The vaikārika divine creation had already been mentioned among the material creations; this later divine creation is derivative because it is a subsequent and lesser manifestation. The creation of Sanat-kumāra and the others is both material and derivative."
         ]
       ],
-      "literal_english": "Literal rendering: एते त्रयो वैकृता एव न कौमारवद् उभयात्मकाः: ete tryo vaikṛtā ev n kaumārvd ubhyātmkāḥ — contextual literal sense of एते त्रयो वैकृता एव न कौमारवद् उभयात्मकाः; देव-स्र्गश् च वैकृत इत्य् अनुषङ्गः: dev-srgś c vaikṛt ity anuṣṅgḥ — contextual literal sense of देव-स्र्गश् च वैकृत इत्य् अनुषङ्गः; वैकारिकस् तु देव-सर्गः प्राकृतेषु पूर्वम् एव प्रोक्तः: vaikāriks tu dev-srgḥ prākṛteṣu pūrvm ev proktḥ — contextual literal sense of वैकारिकस् तु देव-सर्गः प्राकृतेषु पूर्वम् एव प्रोक्तः; अयं तु ततो न्यूनत्वाद् वैकृतो देव-सर्गत्वात् तद् अन्तर्-भूतश् च: ayṃ tu tto nyūntvād vaikṛto dev-srgtvāt td antr-bhūtś c — contextual literal sense of अयं तु ततो न्यूनत्वाद् वैकृतो देव-सर्गत्वात् तद् अन्तर्-भूतश् च; २७: २७ — contextual literal sense of २७.",
+      "literal_english": "These three are derivative creations, not mixed material-and-derivative creations like the Kumāra creation. The divine creation is also derivative. The vaikārika divine creation had already been mentioned among the material creations; this later divine creation is derivative because it is a subsequent and lesser manifestation. The creation of Sanat-kumāra and the others is both material and derivative.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
       "chapter": 10,
       "start": 28,
       "end": 29,
-      "source_marker": "३.१०.२८-२९",
-      "sanskrit": "वैकृतश् च देव-सर्गोऽष्ट-विधः । तत्र विबुधादयस् त्रयो भेदाः । गन्धर्वाप्सरस एकः । यक्ष-रक्षांस्य् एकः । भूत-प्रेत-पिशाचा एकः । सिद्ध-चारण-विद्याधरा एकः । किन्नरादय एकः । आदि-शब्दात् किंपुरुषाश्व-मुखादयः । एतद् विंशेऽध्याये स्पष्टं भविष्यति ॥२८-२९॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : देव-सर्ग इति सार्धकम् ।।२८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : वैकृतस् तु देव-सर्गोऽष्ट-भेदः तत्र विबुधादयस् त्रयो भेदाः गन्धर्वाप्सरस् एकः यक्ष-रक्ष;म्स्य् एकः भूत-प्रेत-पिशाचा एकः सिद्ध-चारण-विद्याधरा एकः किन्नरादयः एक इत्य् अष्टौ भेदाः । आदि-शब्दात् किंपुरुषादयः । विश्व-सृक् परमेश्वरो ब्रह्मा च ॥२८-२९॥\n\n———————————————————————————————————————",
+      "source_marker": "३.१०.28–29",
+      "sanskrit": "वैकृतश् च देव-सर्गोऽष्ट-विधः । तत्र विबुधादयस् त्रयो भेदाः । गन्धर्वाप्सरस एकः । यक्ष-रक्षांस्य् एकः । भूत-प्रेत-पिशाचा एकः । सिद्ध-चारण-विद्याधरा एकः । किन्नरादय एकः । आदि-शब्दात् किंपुरुषाश्व-मुखादयः । एतद् विंशेऽध्याये स्पष्टं भविष्यति ॥२८-२९॥",
       "word_for_word": [
         [
-          "वैकृतश् च देव-सर्गोऽष्ट-विधः",
-          "vaikṛtś c dev-srgoऽṣṭ-vidhḥ — contextual literal sense of वैकृतश् च देव-सर्गोऽष्ट-विधः"
-        ],
-        [
-          "तत्र विबुधादयस् त्रयो भेदाः",
-          "ttr vibudhādys tryo bhedāḥ — contextual literal sense of तत्र विबुधादयस् त्रयो भेदाः"
-        ],
-        [
-          "गन्धर्वाप्सरस एकः",
-          "gndhrvāpsrs ekḥ — contextual literal sense of गन्धर्वाप्सरस एकः"
-        ],
-        [
-          "यक्ष-रक्षांस्य् एकः",
-          "ykṣ-rkṣāṃsy ekḥ — contextual literal sense of यक्ष-रक्षांस्य् एकः"
-        ],
-        [
-          "भूत-प्रेत-पिशाचा एकः",
-          "bhūt-pret-piśācā ekḥ — contextual literal sense of भूत-प्रेत-पिशाचा एकः"
+          "वैकृतश् च देव-सर्गोऽष्ट-विधः । तत्र विबुधादयस् त्रयो भेदाः । गन्धर्वाप्सरस एकः । यक्ष-रक्षांस्य् एकः । भूत-प्रेत-पिशाचा एकः । सिद्ध-चारण-विद्याधरा एकः । किन्नरादय एकः । आदि-शब्दात् किंपुरुषाश्व-मुखादयः । एतद् विंशेऽध्याये स्पष्टं भविष्यति ॥२८-२९॥",
+          "The derivative divine creation is eightfold: the gods and related beings, the Gandharvas and Apsarases, the Yakṣas and Rākṣasas, the ghosts and Piśācas, the Siddhas, Cāraṇas and Vidyādharas, and the Kinnaras and related beings. The “etc.” includes Kimpuruṣas and horse-faced beings; the detailed account appears later."
         ]
       ],
-      "literal_english": "Literal rendering: वैकृतश् च देव-सर्गोऽष्ट-विधः: vaikṛtś c dev-srgoऽṣṭ-vidhḥ — contextual literal sense of वैकृतश् च देव-सर्गोऽष्ट-विधः; तत्र विबुधादयस् त्रयो भेदाः: ttr vibudhādys tryo bhedāḥ — contextual literal sense of तत्र विबुधादयस् त्रयो भेदाः; गन्धर्वाप्सरस एकः: gndhrvāpsrs ekḥ — contextual literal sense of गन्धर्वाप्सरस एकः; यक्ष-रक्षांस्य् एकः: ykṣ-rkṣāṃsy ekḥ — contextual literal sense of यक्ष-रक्षांस्य् एकः; भूत-प्रेत-पिशाचा एकः: bhūt-pret-piśācā ekḥ — contextual literal sense of भूत-प्रेत-पिशाचा एकः.",
+      "literal_english": "The derivative divine creation is eightfold: the gods and related beings, the Gandharvas and Apsarases, the Yakṣas and Rākṣasas, the ghosts and Piśācas, the Siddhas, Cāraṇas and Vidyādharas, and the Kinnaras and related beings. The “etc.” includes Kimpuruṣas and horse-faced beings; the detailed account appears later.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -606,24 +431,24 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; Śrīdhara marks 3.10.30 as not explained."
     },
     {
       "canto": 3,
       "chapter": 10,
       "start": 31,
       "end": 32,
-      "source_marker": "३.१०.३१-३२",
-      "sanskrit": "न व्याख्यातम्।",
+      "source_marker": "३.१०.31–32",
+      "sanskrit": "ननु तर्हि प्रथमं सृष्टिः प्रलयो वा, तत्राह---गुणेति । गुण-व्यत्यये सर्गे भ्राम्यन् भ्रमण-शीलो भ्रमिर् अविशेषाद् भ्राम्यद् भ्रमिस् तस्य नद्यां भ्रमतो यथा नादिर् नान्तस् तथा सृष्टि-संहारयोर् इत्य् अर्थः । संसारस्यानादित्वम् एक-रूपत्वं चाह---देवासुरादय इति । त एवेति । तन्-नामानस् तद्-रूपाश् चेत्य् अर्थः ॥३१-३२॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "ननु तर्हि प्रथमं सृष्टिः प्रलयो वा, तत्राह---गुणेति । गुण-व्यत्यये सर्गे भ्राम्यन् भ्रमण-शीलो भ्रमिर् अविशेषाद् भ्राम्यद् भ्रमिस् तस्य नद्यां भ्रमतो यथा नादिर् नान्तस् तथा सृष्टि-संहारयोर् इत्य् अर्थः । संसारस्यानादित्वम् एक-रूपत्वं चाह---देवासुरादय इति । त एवेति । तन्-नामानस् तद्-रूपाश् चेत्य् अर्थः ॥३१-३२॥",
+          "Creation and dissolution do not have a first point. In the disturbance of the guṇas the wandering world moves like a whirlpool; just as a person circling in a river cannot find its beginning or end, so no beginning or end of creation and dissolution is found. Saṃsāra is beginningless and its pattern remains continuous through gods, demons and the other beings."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Creation and dissolution do not have a first point. In the disturbance of the guṇas the wandering world moves like a whirlpool; just as a person circling in a river cannot find its beginning or end, so no beginning or end of creation and dissolution is found. Saṃsāra is beginningless and its pattern remains continuous through gods, demons and the other beings.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     }
   ]
 }
