@@ -1,6 +1,6 @@
 # Viṣṇu Purāṇa full-corpus audit — 2026-09-22
 
-Audited commit: `ba1b5ec398c42910849c52114eefa859b30da694`
+Audited commit: `80a1352571bc2408f228ff449a31fce74bb440c4`
 
 Scope: all 126 Viṣṇu Purāṇa chapter routes on `main`, using the cited Vishvas/Vasuki source paths recorded in each route. All inspection and writes were performed through the remote GitHub workspace; nothing was run locally or in a local browser.
 
@@ -20,7 +20,7 @@ Scope: all 126 Viṣṇu Purāṇa chapter routes on `main`, using the cited Vis
 
 The requirement is not complete.
 
-A WFW control exists for 3,143 of 6,400 articles. 3,257 articles still do not have a main-text lexical layer:
+A WFW control exists for 3,173 of 6,400 articles. 3,227 articles still do not have a main-text lexical layer:
 
 | Book | Articles | Main lexical WFW present | Still missing |
 |---|---:|---:|---:|
@@ -28,7 +28,7 @@ A WFW control exists for 3,143 of 6,400 articles. 3,257 articles still do not ha
 | 2 | 787 | 710 | 77 |
 | 3 | 837 | 837 | 0 |
 | 4 | 1,354 | 61 | 1,293 |
-| 5 | 1,517 | 337 | 1,180 |
+| 5 | 1,517 | 367 | 1,150 |
 | 6 | 498 | 0 | 498 |
 
 Books 1–2 contain some WFW controls with Śrīdhara material; those are not automatically counted as complete main-text WFW. Books 4–6 still need genuine Sanskrit-first reconstruction beyond the chapters already rebuilt; the current pass has rebuilt Books 5 Chapters 22, 24, 27, 28, and 31, with sourced Śrīdhara layers added for Chapters 22 and 31. A control’s presence is not being counted as semantic completion.
