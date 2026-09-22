@@ -27,8 +27,12 @@ jobs:
             'a-vaishnava-lens-on-vishnu-as-the-supreme-deity',
             'a-shaiva-lens-on-shiva-as-the-supreme-deity',
           )
+          static_slugs = {
+            'a-shashtric-lens-of-varna-part-one',
+            'a-shaiva-lens-on-shiva-as-the-supreme-deity',
+          }
           for slug in slugs:
-            if slug == 'a-shashtric-lens-of-varna-part-one':
+            if slug in static_slugs:
               print(f'Skipping static academic article: {slug}')
               continue
             path = Path('articles') / slug / 'index.html'
