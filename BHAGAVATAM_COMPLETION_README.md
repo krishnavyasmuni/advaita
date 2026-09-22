@@ -98,21 +98,21 @@ last_audited_data_commit: 220bd3ce0e299de6588d7a4f1f33b958eb5da7ac
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
-current_contents_link_groups: 1.1–1.8, 2.1–2.10, 3.1–3.33, 10.1–10.90, 11.1–11.31, 12.1–12.12
+current_contents_link_groups: 1.1–1.8, 2.1–2.10, 3.1–3.33, 10.1–10.90, 11.1–11.31, 12.1–12.13
   - 1.1-1.19
   - 2.1-2.10
   - 3.1-3.33
   - 10.1-10.90
   - 11.1-11.31
-visible_contents_link_count: 195
+visible_contents_link_count: 196
 manifest_chapter_count: 335
 latest_verified_release: 12.7
 latest_release_status: SOURCE_CHECKED_AND_RELEASED
-latest_release_source_blob_sha: 426ea5abed0376a5225da68631a78589d93e8ce3
-latest_release_expected_verses: 69
-latest_release_sridhara_blocks: 46
-latest_release_wfw_entries: 61
-latest_release_no_commentary: 15
+latest_release_source_blob_sha: 53ad115a6e994eb60c70970d521d8d6dd0cc11cc
+latest_release_expected_verses: 23
+latest_release_sridhara_blocks: 10
+latest_release_wfw_entries: 12
+latest_release_no_commentary: 2
 canto_1_audit_status: COMPLETE
 canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
 canto_2_audit_status: COMPLETE
@@ -138,13 +138,13 @@ canto_11_audit_status: FAILED_FULL_VERIFICATION
 canto_11_verified_chapters: none under the full-verse standard
 canto_11_source_ranges: 1368
 canto_11_no_commentary_ranges: 11.1.20, 11.2.3, 11.3.22, 11.4.23, 11.5.17, 11.5.23, 11.5.51, 11.6.2–11.6.3, 11.6.6, 11.6.7, 11.6.13, 11.6.14, 11.6.15, 11.6.20, 11.6.23, 11.6.24, 11.6.25, 11.6.26, 11.6.27, 11.6.28, 11.6.31, 11.6.32, 11.6.33, 11.6.34, 11.6.39, 11.6.40–11.6.41, 11.6.43, 11.6.44, 11.6.47, 11.6.50, 11.7.2, 11.7.6, 11.7.13, 11.7.15, 11.7.25, 11.7.31, 11.7.56, 11.7.59, 11.7.62, 11.7.65, 11.7.69–11.7.70, 11.7.73, 11.13.20, 11.14.40, 11.16.13, 11.16.15, 11.17.8, 11.17.18, 11.17.27, 11.17.46, 11.18.23, 11.19.12, 11.23.8, 11.23.12, 11.23.37, 11.25.10, 11.26.30, 11.29.28, 11.29.30, 11.30.25, 11.30.34–11.30.37, 11.30.39, 11.30.41, 11.30.43, 11.30.45, 11.30.47, 11.31.4, 11.31.19, 11.31.20, 11.31.23–11.31.24, 11.31.25–11.31.26
-canto_12_audit_status: IN_PROGRESS
-canto_12_verified_chapters: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, 12.7, 12.8, 12.9, 12.10, 12.11, 12.12
-canto_12_source_ranges: 494
-canto_12_sridhara_blocks: 430
-canto_12_no_commentary_ranges: 64
-next_resume_target: 12.13
-resume_note: Canto 12.1–12.12 are published and source-checked from the pinned Vasuki corpus with full Śrīdhara renderings, transliteration fields, and explicit no-commentary handling. Continue with Canto 12.13; do not mark Canto 12 complete until all 13 chapters pass the same release gate.
+canto_12_audit_status: COMPLETE
+canto_12_verified_chapters: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, 12.7, 12.8, 12.9, 12.10, 12.11, 12.12, 12.13
+canto_12_source_ranges: 506
+canto_12_sridhara_blocks: 440
+canto_12_no_commentary_ranges: 66
+next_resume_target: PROJECT_COMPLETION_AUDIT
+resume_note: Canto 12.1–12.13 are published and source-checked from the pinned Vasuki corpus with full Śrīdhara renderings, transliteration fields, and explicit no-commentary handling. Canto 12 is complete; perform the final aggregate audit before any project-wide completion claim.
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
