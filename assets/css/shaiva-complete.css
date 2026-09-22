@@ -93,8 +93,8 @@
   background:#eceae7;
   color:#625a53;
   font:700 11px/1.45 Merriweather,Georgia,serif;
-  letter-spacing:.065em;
-  text-transform:uppercase;
+  letter-spacing:0;
+  text-transform:none;
 }
 .shaiva-article-page #source-content .shaiva-parallel th:first-child,
 .shaiva-article-page #source-content .shaiva-parallel td:first-child{width:46%}
@@ -142,12 +142,33 @@
     margin:0 0 6px;
     color:#817970;
     font:700 10px/1.35 Merriweather,Georgia,serif;
-    letter-spacing:.07em;
-    text-transform:uppercase;
+    letter-spacing:0;
+    text-transform:none;
   }
   .shaiva-article-page #source-content .shaiva-parallel td+td{
     border-top:1px dashed #d7d1ca!important;
   }
   .shaiva-article-page #source-content .shaiva-parallel td.shaiva-parallel__sanskrit{font-size:18px;line-height:1.9}
   .shaiva-article-page #source-content .shaiva-parallel td.shaiva-parallel__english{font-size:16px;line-height:1.7}
+}
+
+/* Edited verse presentation: quiet references and natural prose lists. */
+.shaiva-article-page #source-content blockquote.shaiva-quote .shaiva-verse-reference{
+  display:block;
+  margin-top:9px;
+  color:#817970;
+  font:400 11px/1.45 Merriweather,Georgia,serif;
+  letter-spacing:0;
+}
+.shaiva-article-page #source-content p.shaiva-bullet{
+  display:list-item;
+  margin:0 0 12px 1.35em;
+  padding-left:4px;
+  list-style:disc;
+}
+@media(max-width:620px){
+  .shaiva-article-page #source-content p.shaiva-bullet{
+    margin-left:1.2em;
+    padding-left:2px;
+  }
 }
