@@ -690,3 +690,8 @@ existing complete design, every verse contains the exact required source
 material, the main Contents page lists only genuinely completed chapters, every
 chapter has a verified chapter-specific commit, and the final repository state
 passes the full validation checklist.
+
+
+## Audit snapshot — 2026-09-22 current main
+
+The current remote audit is recorded in `audit/vishnu-purana-wfw-audit-2026-09-22.md`. It supersedes older counts in this README. The repository is not semantically complete: a visible Word-for-word control is not proof that a genuine lexical layer exists. Missing main WFW must be rebuilt from Sanskrit phrase by phrase, and every chapter must be reread after its remote commit.
