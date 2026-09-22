@@ -211,7 +211,8 @@
     start: Number(entry.start),
     end: Number(entry.end || entry.start),
     pairs: Array.isArray(entry.pairs) ? entry.pairs : entry.word_for_word,
-    literal: String(entry.literal_english || '').trim()
+    literal: String(entry.literal_english || '').trim(),
+    sourceGap: Boolean(entry.source_gap)
   }))).catch((error) => {
     console.warn('Reviewed Śrīdhara word meanings unavailable:', error);
     return [];
@@ -250,6 +251,13 @@
     const label = document.createElement('div');
     label.className = 'gita-dual-label';
     label.textContent = 'Śrīdhara';
+    if (entry.sourceGap) {
+      const paragraph = document.createElement('p');
+      paragraph.className = 'gita-dual-empty';
+      paragraph.textContent = 'Source text unavailable in the pinned witness';
+      section.append(label, paragraph);
+      return section;
+    }
     const result = pairsParagraph(Array.isArray(entry.pairs) ? entry.pairs : []);
     section.append(label, result.empty ? (() => {
       const paragraph = document.createElement('p');
@@ -301,7 +309,8 @@
         const reveal = details.querySelector('.gita-reveal');
         if (!reveal) return;
         reveal.appendChild(makeSridharaSection(resolved));
-        if (noCommentary(resolved.pairs)) ensureCommentary(section, 'No commentary');
+        if (resolved.sourceGap) ensureCommentary(section, 'Source text unavailable in the pinned witness; no Śrīdhara gloss is invented.');
+        else if (noCommentary(resolved.pairs)) ensureCommentary(section, 'No commentary');
         if (resolved.literal) ensureCommentary(section, resolved.literal);
       });
     });
