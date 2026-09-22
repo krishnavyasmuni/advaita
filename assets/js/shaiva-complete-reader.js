@@ -37,7 +37,7 @@ function sectionsFrom(pages){
    const number=/^\s*(\d+)\./.exec(value);
    const id=/^index\b/i.test(value)?'index':number?'section-'+number[1]:'section-'+sections.length;
    current={id,title:/^index\b/i.test(value)?'Contents':value,parent:sectionGroup(value),blocks:[]};sections.push(current);
-  }else current.blocks.push({kind,value,page:i+1});
+  }else{const previous=current.blocks[current.blocks.length-1];if(kind==='table'&&previous?.kind==='table'&&Array.isArray(previous.value)&&Array.isArray(value))previous.value.push(...value);else current.blocks.push({kind,value,page:i+1});}
  }));return sections;
 }
 function sanskrit(text){const p=make('p','shaiva-sanskrit',text);p.lang='sa-Deva';p.hidden=true;return p;}
