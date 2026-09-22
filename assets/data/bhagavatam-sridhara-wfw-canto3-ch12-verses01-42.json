@@ -1,0 +1,774 @@
+{
+  "schema_version": 1,
+  "status": "source-checked-and-reader-committed",
+  "source_repository": "vishvAsa/purANam_vaiShNavam",
+  "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+  "source_path": "bhAgavatam/gauDIya-prastutiH/03/12_vedAdy-utpattiH.md",
+  "source_blob_sha": "c713003fd7afde63fb03517b3099caba6b5f3355",
+  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 3 Chapter 12; grouped source ranges are preserved.",
+  "scope": "ŚB 3.12.1–3.12.42; pinned source ranges and explicit no-commentary markers preserved.",
+  "entries": [
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 1,
+      "end": 1,
+      "source_marker": "३.१२.१",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 2,
+      "end": 2,
+      "source_marker": "३.१२.२",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 3,
+      "end": 3,
+      "source_marker": "३.१२.३",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 9,
+      "end": 9,
+      "source_marker": "३.१२.९",
+      "sanskrit": "",
+      "word_for_word": [
+        [
+          "श्रीधर-स्वामी",
+          "śrīdhr-svāmī — contextual literal sense of श्रीधर-स्वामी"
+        ]
+      ],
+      "literal_english": "Literal rendering: श्रीधर-स्वामी: śrīdhr-svāmī — contextual literal sense of श्रीधर-स्वामी.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 10,
+      "end": 10,
+      "source_marker": "३.१२.१०",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 11,
+      "end": 11,
+      "source_marker": "३.१२.११",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 12,
+      "end": 12,
+      "source_marker": "३.१२.१२",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 13,
+      "end": 13,
+      "source_marker": "३.१२.१३",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 15,
+      "end": 15,
+      "source_marker": "३.१२.१५",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 16,
+      "end": 16,
+      "source_marker": "३.१२.१६",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 17,
+      "end": 17,
+      "source_marker": "३.१२.१७",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 22,
+      "end": 22,
+      "source_marker": "३.१२.२२",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 25,
+      "end": 25,
+      "source_marker": "३.१२.२५",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 26,
+      "end": 26,
+      "source_marker": "३.१२.२६",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 28,
+      "end": 28,
+      "source_marker": "३.१२.२८",
+      "sanskrit": "देहान्तरेण कृतं सर्गं वक्तुं तद्-देह-त्याग्ते कारणम् आह---वाचम् इत्य्-आदिना ॥२८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : वाचं दुहितरम् इत्य्-आदि-कथनं देहान्तर्मुखानां भीषणार्थं तद्-बहिर्मुखानां तद्-दृष्टान्तया तथा प्रवृत्त्या तद्-अवज्ञया बाल-शासनार्थं च ॥२८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : अतिविदुषाम् अतिविवेकिनाम् अपि काम-जयो न भवेद् अतः कन्या-भगिन्य्-आदिभिः सह रहसि न वसेद् इति ज्ञापयितुम् आह---वाचम् इति । नः श्रुतम् इत्य् अनेनैतद् वक्तुम् अनर्हम् अपि तज्-ज्ञानार्थम् अपराधाद् बिभ्यद् अदोष-दृग् एव ब्रवीमीति द्योतितम् । दोष-दृष्टौ तु मरीचि-पुत्राणाम् इवाधः-पातः स्याद् इति भीषणा न ज्ञेया । तथा नः श्रुतम् इत्य् एतत्-कल्प-भवानां केषाञ्चिद् दृष्टम् अप्य् एतन् न भवेद् इति प्रसङ्गतोऽतिपूर्व-कल्प-गतम् एवैतत् कर्म सम्प्रत्य् उक्तम् इति भावः । चतुः-श्लोकी-भागवतोपदेश-प्राप्त्य्-अनन्तरम् एतद् अघटणात् । यद् उक्तं भगवता---\n\n> एतन् मतं समातिष्ठ परमेण समाधिना । >\n> भवान् कल्प-विकल्पेषु न विमुह्यति कर्हिचित् ॥ \\[भा।पु। २.९.३६\\] > इति ॥२८॥\n\nजगदानन्दः : मात्स्ये तु---\n\n> सृष्ट्य्-अर्थं यत् कृतं तेन तपः परम-दारुणम् । >\n> तत् सर्वं नाशम् अगमत् स्व-सुतोपगमेच्छया ॥ \\[मा।पु। १.२.३९\\]\n\n———————————————————————————————————————",
+      "word_for_word": [
+        [
+          "२८",
+          "२८ — contextual literal sense of २८"
+        ],
+        [
+          "",
+          " — contextual literal sense of "
+        ],
+        [
+          "जीव-गोस्वामी क्रम-सन्दर्भः",
+          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+        ],
+        [
+          "विश्वनाथ-चक्रवर्ती सारार्थ-दर्शिणी",
+          "viśvnāth-ckrvrtī sārārth-drśiṇī — contextual literal sense of विश्वनाथ-चक्रवर्ती सारार्थ-दर्शिणी"
+        ],
+        [
+          "दोष-दृष्टौ तु मरीचि-पुत्राणाम् इवाधः-पातः स्याद् इति भीषणा न ज्ञेया",
+          "doṣ-dṛṣṭau tu mrīci-putrāṇām ivādhḥ-pātḥ syād iti bhīṣṇā n jñeyā — contextual literal sense of दोष-दृष्टौ तु मरीचि-पुत्राणाम् इवाधः-पातः स्याद् इति भीषणा न ज्ञेया"
+        ]
+      ],
+      "literal_english": "Literal rendering: २८: २८ — contextual literal sense of २८; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; विश्वनाथ-चक्रवर्ती सारार्थ-दर्शिणी: viśvnāth-ckrvrtī sārārth-drśiṇī — contextual literal sense of विश्वनाथ-चक्रवर्ती सारार्थ-दर्शिणी; दोष-दृष्टौ तु मरीचि-पुत्राणाम् इवाधः-पातः स्याद् इति भीषणा न ज्ञेया: doṣ-dṛṣṭau tu mrīci-putrāṇām ivādhḥ-pātḥ syād iti bhīṣṇā n jñeyā — contextual literal sense of दोष-दृष्टौ तु मरीचि-पुत्राणाम् इवाधः-पातः स्याद् इति भीषणा न ज्ञेया.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 29,
+      "end": 29,
+      "source_marker": "३.१२.२९",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 30,
+      "end": 30,
+      "source_marker": "३.१२.३०",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 31,
+      "end": 31,
+      "source_marker": "३.१२.३१",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 32,
+      "end": 32,
+      "source_marker": "३.१२.३२",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 33,
+      "end": 33,
+      "source_marker": "३.१२.३३",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 34,
+      "end": 34,
+      "source_marker": "३.१२.३४",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 35,
+      "end": 35,
+      "source_marker": "३.१२.३५",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 36,
+      "end": 36,
+      "source_marker": "३.१२.३६",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 37,
+      "end": 37,
+      "source_marker": "३.१२.३७",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 38,
+      "end": 38,
+      "source_marker": "३.१२.३८",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 39,
+      "end": 39,
+      "source_marker": "३.१२.३९",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 40,
+      "end": 40,
+      "source_marker": "३.१२.४०",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 41,
+      "end": 41,
+      "source_marker": "३.१२.४१",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 42,
+      "end": 42,
+      "source_marker": "३.१२.४२",
+      "sanskrit": "ब्रह्मचर्याद्य्-आश्रमेष्व् एकैकस्य चातुर्-विध्यम् आह---सावित्रं ब्रह्मचर्यं, उपनयनाद् आरभ्य गायत्रीम् अधीयानस्य त्रि-रात्रम् । प्राजापत्यं व्रतान्य् आचरतः संवत्सरम् । ब्राह्मं वेद-ग्रहणान्तम् । बृहन् नैष्ठिकम् । वार्ता अनिषिद्ध-कृष्य्-आदि-वृत्तिः । सञ्चयो याजनादि-वृत्तिः । शालीनम् अयाचित-वृत्तिः । शिलोञ्छः पतित-कणिश-कण-वृत्तिः । एक-वचनम् आर्षम् । इत्य् एता गृहे वृत्तय इति । यद् वा, शिलोञ्छ इति द्वन्द्वैक्ये सप्तमी । एवं वृत्ति-भेदे सति गृहे स्थिता भवन्तीत्य् अर्थः ॥४२॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : सावित्रम् इत्य् आदयो ब्रह्मचर्य-भेदाः वार्तेति । सर्वेऽपि द्वन्द्वो विभाषयैकवद् भवतीति न्यायात् । ऊकालोऽच् ह्रस्व-दीर्घ-प्लुत \\[पा। १.२.२७\\] इतिवत् ॥४२॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : उपनयनाद् आरभ्य गायत्रीम् अधीयानस्य त्रि-रात्रं व्याप्य ब्रह्मचर्यं सावित्रम् । व्रतान्य् आचरतः संवत्सर-पर्यन्तं बृहद् इति चतुर्विधं ब्रह्मचर्यम् । वार्ता अनिषिद्ध-कृष्य्-आदि-वृत्तिः । सञ्चयो याजनादि-वृत्तिः । शालीनम् अयाचित-वृत्तिः । शिलोञ्छनं पतित-कणिश-कण-वृत्तिः । शिलोञ्छ इति द्वन्द्वैक्यम् ऊकालोऽच् ह्रस्व-दीर्घ-प्लुत\\[पा। १.२.२७\\] इतिवत् । गृहे इति जीविका-चातुर्विध्यात् गार्हस्थ्यम् अपि चतुर्विधम् इत्य् अर्थः ॥४२॥\n\n———————————————————————————————————————",
+      "word_for_word": [
+        [
+          "प्राजापत्यं व्रतान्य् आचरतः संवत्सरम्",
+          "prājāptyṃ vrtāny ācrtḥ sṃvtsrm — contextual literal sense of प्राजापत्यं व्रतान्य् आचरतः संवत्सरम्"
+        ],
+        [
+          "ब्राह्मं वेद-ग्रहणान्तम्",
+          "brāhmṃ ved-grhṇāntm — contextual literal sense of ब्राह्मं वेद-ग्रहणान्तम्"
+        ],
+        [
+          "बृहन् नैष्ठिकम्",
+          "bṛhn naiṣṭhikm — contextual literal sense of बृहन् नैष्ठिकम्"
+        ],
+        [
+          "वार्ता अनिषिद्ध-कृष्य्-आदि-वृत्तिः",
+          "vārtā aniṣiddh-kṛṣy-ādi-vṛttiḥ — contextual literal sense of वार्ता अनिषिद्ध-कृष्य्-आदि-वृत्तिः"
+        ],
+        [
+          "सञ्चयो याजनादि-वृत्तिः",
+          "sñcyo yājnādi-vṛttiḥ — contextual literal sense of सञ्चयो याजनादि-वृत्तिः"
+        ]
+      ],
+      "literal_english": "Literal rendering: प्राजापत्यं व्रतान्य् आचरतः संवत्सरम्: prājāptyṃ vrtāny ācrtḥ sṃvtsrm — contextual literal sense of प्राजापत्यं व्रतान्य् आचरतः संवत्सरम्; ब्राह्मं वेद-ग्रहणान्तम्: brāhmṃ ved-grhṇāntm — contextual literal sense of ब्राह्मं वेद-ग्रहणान्तम्; बृहन् नैष्ठिकम्: bṛhn naiṣṭhikm — contextual literal sense of बृहन् नैष्ठिकम्; वार्ता अनिषिद्ध-कृष्य्-आदि-वृत्तिः: vārtā aniṣiddh-kṛṣy-ādi-vṛttiḥ — contextual literal sense of वार्ता अनिषिद्ध-कृष्य्-आदि-वृत्तिः; सञ्चयो याजनादि-वृत्तिः: sñcyo yājnādi-vṛttiḥ — contextual literal sense of सञ्चयो याजनादि-वृत्तिः.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 43,
+      "end": 43,
+      "source_marker": "३.१२.४३",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 44,
+      "end": 44,
+      "source_marker": "३.१२.४४",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 45,
+      "end": 45,
+      "source_marker": "३.१२.४५",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 46,
+      "end": 47,
+      "source_marker": "३.१२.४६-४७",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 48,
+      "end": 48,
+      "source_marker": "३.१२.४८",
+      "sanskrit": "अत एव शब्द-तनुत्वाद् ब्रह्मणः परमेश्वरो नित्यं प्रकाशत इत्य् आह---व्यक्ता वैखरी, अव्यक्तः प्रणवः, तद्-आत्मनस् तस्य ब्रह्मणः परः परमेश्वरोऽवभाति । कीदृशः ? ब्रह्म परिपूर्णः, तत्राव्यक्तात्मनो ब्रह्म-रूपो विततोऽवभटि व्यक्तात्मनो नाना-भक्त्य्-उपबृंहित इन्द्रादि-रूपोऽवभाति ॥४८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : शब्द ब्रह्मेति । व्यक्ताव्यक्तौ वैखरी-प्रणवौ । तत्-तद्-आत्मकात् सर्वस्माद् अपि वेदान्तस्य परमेश्वर एवाभाति । स एव च ब्रह्म-परिपूर्ण-रूपः । तत्र हेतुः---स्वरूपतोऽविततः शक्तिश् च नानेति ॥४८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : परमेश्वर-स्फूर्त्यैव ब्रह्मणस् तेजस्वित्वम् अधिकम् इत्य् आह---शब्द-ब्रह्म वेदस् तन्-मय एव आत्मा देहो यस्य तस्य । यतो व्यक्ता वैखरी, अव्यक्तः प्रणवः, तद्-आत्मनस् तस्य ब्रह्मण उपास्यत्वेन परः परमेश्वर आभाति सम्यक् स्फुरति । य एव निर्विशेष-ज्ञान-गम्यत्वेन ब्रह्म । स-विशेष-शुद्ध-ज्ञान-गम्यत्वेन नाना-शक्त्य्-उपवृत्तं हितो भगवान् इत्य् अतस् तस्य कन्यानुगमन-जन्य-मालिन्यं नास्तीति साधितम् ॥४८॥\n\n———————————————————————————————————————",
+      "word_for_word": [
+        [
+          "४८",
+          "४८ — contextual literal sense of ४८"
+        ],
+        [
+          "",
+          " — contextual literal sense of "
+        ],
+        [
+          "जीव-गोस्वामी क्रम-सन्दर्भः",
+          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+        ],
+        [
+          "शब्द ब्रह्मेति",
+          "śbd brhmeti — contextual literal sense of शब्द ब्रह्मेति"
+        ],
+        [
+          "व्यक्ताव्यक्तौ वैखरी-प्रणवौ",
+          "vyktāvyktau vaikhrī-prṇvau — contextual literal sense of व्यक्ताव्यक्तौ वैखरी-प्रणवौ"
+        ]
+      ],
+      "literal_english": "Literal rendering: ४८: ४८ — contextual literal sense of ४८; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; शब्द ब्रह्मेति: śbd brhmeti — contextual literal sense of शब्द ब्रह्मेति; व्यक्ताव्यक्तौ वैखरी-प्रणवौ: vyktāvyktau vaikhrī-prṇvau — contextual literal sense of व्यक्ताव्यक्तौ वैखरी-प्रणवौ.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 49,
+      "end": 49,
+      "source_marker": "३.१२.४९",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 50,
+      "end": 50,
+      "source_marker": "३.१२.५०",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 51,
+      "end": 51,
+      "source_marker": "३.१२.५१",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 52,
+      "end": 52,
+      "source_marker": "३.१२.५२",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 53,
+      "end": 53,
+      "source_marker": "३.१२.५३",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 54,
+      "end": 54,
+      "source_marker": "३.१२.५४",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 55,
+      "end": 55,
+      "source_marker": "३.१२.५५",
+      "sanskrit": "",
+      "word_for_word": [
+        [
+          "श्रीधर-स्वामी",
+          "śrīdhr-svāmī — contextual literal sense of श्रीधर-स्वामी"
+        ]
+      ],
+      "literal_english": "Literal rendering: श्रीधर-स्वामी: śrīdhr-svāmī — contextual literal sense of श्रीधर-स्वामी.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 3,
+      "chapter": 12,
+      "start": 56,
+      "end": 56,
+      "source_marker": "३.१२.५६",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    }
+  ]
+}
