@@ -316,10 +316,51 @@
       "end": 19,
       "source_marker": "१०.५५.१९",
       "sanskrit": "वज्रस्य निष्पेष-निर्घाते यथा निष्ठुरस् तीव्रो नादो भवति, तथा-भूतं नादं व्यनदत् सामान्य-विशेषतया व्याप्य व्यापकत्व-भावेन पाकं पचतीतिवत् अतिनिष्ठुरं नादम् अकरोद् इत्य् अर्थः ॥१९-२०॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "वज्रस्य निष्पेष-निर्घाते",
+          "at the crushing impact of a thunderbolt"
+        ],
+        [
+          "यथा",
+          "as"
+        ],
+        [
+          "निष्ठुरः तीव्रः नादः भवति",
+          "a harsh, fierce sound occurs"
+        ],
+        [
+          "तथा-भूतं नादम्",
+          "a sound of that kind"
+        ],
+        [
+          "व्यनदत्",
+          "he made resound"
+        ],
+        [
+          "सामान्य-विशेषतया",
+          "through the relation of general and particular"
+        ],
+        [
+          "व्याप्य-व्यापकत्व-भावेन",
+          "through the relation of the pervaded and the pervader"
+        ],
+        [
+          "पाकं पचति इति इव",
+          "as though cooking food"
+        ],
+        [
+          "अति-निष्ठुरं नादम् अकरोत्",
+          "he produced a very harsh sound"
+        ],
+        [
+          "इति अर्थः",
+          "this is the meaning"
+        ]
+      ],
+      "literal_english": "As a harsh and fierce sound occurs at the crushing impact of a thunderbolt, he made a sound of that kind. Through the relation of the pervaded and the pervader, he produced an extremely harsh sound, as when something cooks food by pervading it; this is the meaning.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Sanskrit-first word-for-word and literal English repair completed."
     },
     {
       "canto": 10,
