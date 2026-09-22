@@ -82,6 +82,141 @@
   text-underline-offset:3px;
 }
 
+/* The index is part of the article, but reads as a quiet list rather than a
+   pasted page of a manuscript. */
+.document-paged-page .document-content .article-index{
+  margin:0 0 12px;
+}
+
+.document-paged-page .document-content .index-entry{
+  margin:0;
+  padding:15px 0 16px;
+  border-bottom:1px solid #ddd8d2;
+}
+
+.document-paged-page .document-content .index-entry:first-child{
+  padding-top:0;
+}
+
+.document-paged-page .document-content .index-heading{
+  display:block;
+  color:var(--teal);
+  font-size:19px;
+  line-height:1.42;
+  text-decoration:none;
+}
+
+.document-paged-page .document-content .index-subitem{
+  display:block;
+  margin:7px 0 0 22px;
+  color:#625b54;
+  font-size:14px;
+  line-height:1.55;
+  text-decoration:none;
+}
+
+.document-paged-page .document-content .index-heading:hover,
+.document-paged-page .document-content .index-subitem:hover{
+  color:var(--purple);
+  text-decoration:underline;
+}
+
+.document-paged-page .document-content .article-bullet{
+  margin-left:18px;
+  padding-left:2px;
+  text-indent:-18px;
+}
+
+.document-paged-page .document-content .article-bullet::first-letter{
+  color:#817970;
+}
+
+.document-paged-page .document-content .shaiva-parallel{
+  width:100%;
+  margin:30px 0 42px;
+  border-collapse:collapse;
+  table-layout:fixed;
+  font-size:15px;
+  line-height:1.58;
+}
+
+.document-paged-page .document-content .shaiva-parallel th,
+.document-paged-page .document-content .shaiva-parallel td{
+  padding:11px 12px;
+  border:1px solid #d8d2ca;
+  text-align:left;
+  vertical-align:top;
+  overflow-wrap:anywhere;
+}
+
+.document-paged-page .document-content .shaiva-parallel th{
+  background:#eee9e2;
+  color:#514941;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.01em;
+}
+
+.document-paged-page .document-content .shaiva-parallel th:first-child,
+.document-paged-page .document-content .shaiva-parallel td:first-child{
+  width:47%;
+}
+
+.document-paged-page .document-content .shaiva-parallel td.shaiva-parallel__sanskrit{
+  color:var(--sanskrit);
+  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;
+  font-size:19px;
+  line-height:1.7;
+  white-space:pre-line;
+}
+
+.document-paged-page .document-content .shaiva-parallel td.shaiva-parallel__english{
+  font-family:Merriweather,Georgia,serif;
+  font-size:15px;
+  line-height:1.58;
+}
+
+.document-paged-page .document-content .shaiva-parallel tbody tr:nth-child(even) td{
+  background:#f7f4f0;
+}
+
+.document-paged-page .document-content .shaiva-note{
+  display:block;
+  margin-top:10px;
+  color:#817970;
+  font-size:12px;
+  line-height:1.5;
+}
+
+/* The shastric article uses one Latin typeface throughout. Devanāgarī
+   remains in the matching Noto serif family so its glyphs render cleanly. */
+.shastric-article .sitebar a,
+.shastric-article .article-head h1,
+.shastric-article .side-toc-title,
+.shastric-article .mobile-toc>summary,
+.shastric-article .article,
+.shastric-article .article h3,
+.shastric-article .document-content,
+.shastric-article .document-content details.sanskrit-reveal>summary,
+.shastric-article .document-content table caption{
+  font-family:Merriweather,Georgia,serif;
+}
+
+.shastric-article .document-content details.sanskrit-reveal>summary{
+  font-size:13px;
+  font-weight:400;
+  letter-spacing:0;
+}
+
+.shastric-article .document-content details.sanskrit-reveal [lang^="sa"],
+.shastric-article .document-content .sanskrit-text{
+  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;
+  font-size:20px;
+  line-height:1.58;
+  font-weight:400;
+  letter-spacing:0;
+}
+
 @media(max-width:620px){
   .document-paged-page .document-content .source-citation,
   .document-paged-page .document-content .reference{
@@ -115,39 +250,64 @@
     padding:8px 9px;
     min-width:82px;
   }
-}
 
+  .document-paged-page .document-content .index-subitem{
+    margin-left:16px;
+    font-size:13px;
+  }
 
-/* The shastric article uses one Latin typeface throughout. Devanāgarī
-   remains in the matching Noto serif family so its glyphs render cleanly. */
-.shastric-article .sitebar a,
-.shastric-article .article-head h1,
-.shastric-article .side-toc-title,
-.shastric-article .mobile-toc>summary,
-.shastric-article .article,
-.shastric-article .article h3,
-.shastric-article .document-content,
-.shastric-article .document-content details.sanskrit-reveal>summary,
-.shastric-article .document-content table caption{
-  font-family:Merriweather,Georgia,serif;
-}
+  .document-paged-page .document-content .shaiva-parallel,
+  .document-paged-page .document-content .shaiva-parallel thead,
+  .document-paged-page .document-content .shaiva-parallel tbody,
+  .document-paged-page .document-content .shaiva-parallel tr,
+  .document-paged-page .document-content .shaiva-parallel th,
+  .document-paged-page .document-content .shaiva-parallel td{
+    display:block;
+    width:100%!important;
+  }
 
-.shastric-article .document-content details.sanskrit-reveal>summary{
-  font-size:13px;
-  font-weight:400;
-  letter-spacing:0;
-}
+  .document-paged-page .document-content .shaiva-parallel thead{
+    position:absolute;
+    width:1px!important;
+    height:1px;
+    overflow:hidden;
+    clip:rect(0 0 0 0);
+    clip-path:inset(50%);
+    white-space:nowrap;
+  }
 
-.shastric-article .document-content details.sanskrit-reveal [lang^="sa"],
-.shastric-article .document-content .sanskrit-text{
-  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;
-  font-size:20px;
-  line-height:1.58;
-  font-weight:400;
-  letter-spacing:0;
-}
+  .document-paged-page .document-content .shaiva-parallel tr{
+    padding:13px 0;
+    border-top:1px solid #d8d2ca;
+  }
 
-@media(max-width:620px){
+  .document-paged-page .document-content .shaiva-parallel tr:first-child{
+    border-top:0;
+  }
+
+  .document-paged-page .document-content .shaiva-parallel td{
+    padding:5px 9px 8px;
+    border:0;
+    background:transparent!important;
+  }
+
+  .document-paged-page .document-content .shaiva-parallel td::before{
+    display:block;
+    margin:0 0 4px;
+    color:#817970;
+    font-family:Merriweather,Georgia,serif;
+    font-size:10px;
+    font-weight:700;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    content:attr(data-label);
+  }
+
+  .document-paged-page .document-content .shaiva-parallel td.shaiva-parallel__sanskrit{
+    font-size:18px;
+    line-height:1.65;
+  }
+
   .shastric-article .document-content details.sanskrit-reveal [lang^="sa"],
   .shastric-article .document-content .sanskrit-text{
     font-size:18px;
