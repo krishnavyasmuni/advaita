@@ -128,3 +128,81 @@
   .document-paged-page .document-content td{padding:8px 9px}
   .document-paged-page .document-content .aside-note{padding-left:13px}
 }
+
+/* Clean academic treatment for the static Śāstric Lens article. */
+.shastric-article .article-head{margin-bottom:58px}
+.shastric-article .article-subtitle{
+  margin:18px auto 0;color:#756b62;font-size:15px;line-height:1.55;
+  font-style:italic;max-width:480px
+}
+.shastric-article .document-content{overflow-wrap:anywhere}
+.shastric-article .document-content>h2{
+  margin:58px 0 26px;padding:0 0 13px;border-bottom:1px solid #d8d2ca;
+  color:var(--teal);font-family:Vollkorn,Georgia,serif;font-size:31px;
+  font-weight:400;line-height:1.2;text-align:left
+}
+.shastric-article .document-content>h2:first-child{margin-top:0}
+.shastric-article .document-content>h3{
+  margin:36px 0 18px;padding:0;color:#625950;
+  font-family:Vollkorn,Georgia,serif;font-size:24px;font-weight:400;
+  line-height:1.28;text-align:left
+}
+.shastric-article .document-content>h3:after{display:none}
+.shastric-article .document-content p{margin:0 0 27px}
+.shastric-article .document-content .translation{
+  margin:15px 0 8px!important;padding:14px 18px;
+  border-left:2px solid var(--quote-rule);background:#eee9e4;
+  color:var(--quote);font-size:18px;line-height:1.68
+}
+.shastric-article .document-content .source-citation{
+  margin:-1px 0 29px!important;padding-left:18px;border-left:2px solid var(--quote-rule);
+  color:#746a61;font-size:14px;line-height:1.55
+}
+.shastric-article .document-content details.sanskrit-reveal{margin:17px 0 10px}
+.shastric-article .document-content details.sanskrit-reveal>summary{
+  padding:4px 11px;border-color:#d4ad8d;color:#9b4e1d;font-size:13px
+}
+.shastric-article .document-content details.sanskrit-reveal[open]>summary{background:#eee8e2}
+.shastric-article .document-content .aside-note{
+  margin:30px 0;padding:17px 20px 3px;border-left:3px solid #c9c1b9;
+  background:#f0ece7;color:#4f4841
+}
+.shastric-article .document-content .aside-note p{margin-bottom:23px}
+.shastric-article .document-content .closing-postscript{
+  margin:48px 0 10px;padding:22px 24px 5px;border-left:3px solid #71665e;
+  background:#eee9e3
+}
+.shastric-article .document-content .reference-entry{
+  display:grid;grid-template-columns:38px minmax(0,1fr);gap:14px;
+  padding:15px 0;border-bottom:1px solid #ddd8d2
+}
+.shastric-article .document-content .reference-entry>*{min-width:0;margin:0}
+.shastric-article .document-content .reference-entry>a:first-child{
+  color:var(--teal);font-size:14px;text-decoration:underline
+}
+.shastric-article .document-content table{
+  display:block;width:100%;max-width:100%;margin:28px 0 34px;
+  overflow-x:auto;border-collapse:collapse;font-size:15px;line-height:1.55
+}
+.shastric-article .document-content th,
+.shastric-article .document-content td{
+  padding:10px 12px;border:1px solid #d8d2ca;text-align:left;vertical-align:top;
+  min-width:80px;overflow-wrap:break-word
+}
+.shastric-article .document-content th{background:#eee9e2;color:#514941}
+.shastric-article .document-content tr:nth-child(even) td{background:#f0ece7}
+.shastric-article .toc-parent-link{display:block;color:var(--ink);font-size:15px;line-height:1.42;font-weight:700}
+.shastric-article .toc-parent-link:hover{color:var(--purple);text-decoration:none}
+.shastric-article .document-content [lang^="sa"]{
+  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif
+}
+@media(max-width:620px){
+  .shastric-article .article-subtitle{font-size:14px}
+  .shastric-article .document-content>h2{margin-top:44px;padding-bottom:11px;font-size:26px}
+  .shastric-article .document-content>h3{margin-top:30px;font-size:22px}
+  .shastric-article .document-content .translation{padding:12px 14px;font-size:16.8px;line-height:1.7}
+  .shastric-article .document-content .source-citation{padding-left:14px}
+  .shastric-article .document-content .aside-note{padding:14px 14px 1px}
+  .shastric-article .document-content .closing-postscript{padding:18px 15px 3px}
+  .shastric-article .document-content .reference-entry{grid-template-columns:28px minmax(0,1fr);gap:10px}
+}
