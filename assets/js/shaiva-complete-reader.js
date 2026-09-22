@@ -66,8 +66,8 @@ function renderBlock({kind,value},section){
   const tbody=document.createElement('tbody');
   for(const [original,english,note] of value){
    const row=document.createElement('tr');
-   const left=make('td','shaiva-parallel__sanskrit',original||'');left.lang='sa-Deva';
-   const right=make('td','shaiva-parallel__english',articleText(english||''));right.lang='en';
+   const left=make('td','shaiva-parallel__sanskrit',original||'');left.lang='sa-Deva';left.dataset.label='Sanskrit';
+   const right=make('td','shaiva-parallel__english',articleText(english||''));right.lang='en';right.dataset.label='English translation';
    const noteText=articleText(note||'');
    if(noteText)right.append(make('small','shaiva-note',noteText));
    row.append(left,right);tbody.append(row);
