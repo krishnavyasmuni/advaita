@@ -47,7 +47,7 @@ The current cache-busted asset versions in the shells are:
 - site.js?v=20260918-gita-template-1
 - bhagavad-gita.css?v=20260918-gita-all-chapters-1
 - gita-bhavishya-exact.css?v=20260918-gita-all-chapters-1
-- bhagavad-gita.js?v=20260921-gita-full-audit-1
+- bhagavad-gita.js?v=20260922-commentary-boundaries-1
 - bhagavad-gita-sridhara-all.js?build=20260918-gita-all-chapters-1
 - gita-bhavishya-exact.js?v=20260918-ch1-nav-commentary-2
 
@@ -273,7 +273,13 @@ The shared reader was audited against the pinned Holy Bhagavad Gita word-meaning
 
 The locked source URLs and commits remain unchanged. `No commentary.` is retained only for verses that the Vasuki manifest explicitly maps to no Śrīdhara section.
 
-## 14. Do not regress these rules
+## 14. Śrīdhara boundary audit — 2026-09-22
+
+The Gita reader now parses the pinned VishvAsa/Vasuki Markdown by visible verse heading and speaker boundary. It recognizes both `श्रीधरः -` and `श्रीधर :`, merges multiple Śrīdhara sections that belong to the same verse range, and renders a merged commentary once on the range’s first verse instead of repeating it on every verse card.
+
+The source-backed no-commentary verses are BG 1.11, 1.47, 12.6, and 13.35. All other verses, including BG 18.1–18.78, have a recognized Śrīdhara block. The full report is `GITA_AUDIT_2026-09-22.md`.
+
+## 15. Do not regress these rules
 
 - Do not merge separate verse cards.
 - Do not make a grouped source look like a fabricated new source record.
