@@ -364,6 +364,77 @@
     {
       "canto": 12,
       "chapter": 1,
+      "start": 17,
+      "end": 19,
+      "source_marker": "१२.१.१७-१९",
+      "sanskrit": "ततोऽग्नि-मित्रादयो नवेत्य् एवं शुङ्गा दश-वर्ष-शताधिकं द्वादशाधिकं वर्ष-शतम् ॥१७-१९॥",
+      "main_sanskrit": "अग्निमित्रस् ततस् तस्मात् सुज्येष्ठो भविता ततः ।\n\nवसुमित्रो भद्रकश् च पुलिन्दो भविता सुतः ॥\n\nततो घोषः सुतस् तस्माद् वज्रमित्रो भविष्यति ।\n\nततो भागवतस् तस्माद् देवभूतिः कुरूद्वह ॥\n\nशुङ्गा दशैते भोक्ष्यन्ति भूमिं वर्ष-शताधिकम् ।\n\nततः काण्वान् इयं भूमिर् यास्यत्य् अल्प-गुणान् नृप ॥",
+      "transliteration": "agnimitras tatas tasmāt sujyeṣṭho bhavitā tataḥ\nvasumitro bhadrakaś ca pulindo bhavitā sutaḥ\n\ntato ghoṣaḥ sutas tasmād vajramitro bhaviṣyati\ntato bhāgavatas tasmād devabhūtiḥ kurūdvaha\n\nśuṅgā daśaite bhokṣyanti bhūmiṁ varṣa-śatādhikām\ntataḥ kāṇvān iyaṁ bhūmir yāsyaty alpa-guṇān nṛpa",
+      "word_for_word": [
+        [
+          "अग्निमित्रः",
+          "Agnimitra"
+        ],
+        [
+          "सुज्येष्ठः",
+          "Sujyeṣṭha"
+        ],
+        [
+          "वसुमित्रः",
+          "Vasumitra"
+        ],
+        [
+          "भद्रकः",
+          "Bhadraka"
+        ],
+        [
+          "पुलिन्दः",
+          "Pulinda"
+        ],
+        [
+          "घोषः",
+          "Ghoṣa"
+        ],
+        [
+          "वज्रमित्रः",
+          "Vajramitra"
+        ],
+        [
+          "भागवतः",
+          "Bhāgavata"
+        ],
+        [
+          "देवभूतिः",
+          "Devabhūti"
+        ],
+        [
+          "दश एते",
+          "these ten"
+        ],
+        [
+          "भोक्ष्यन्ति",
+          "will rule"
+        ],
+        [
+          "वर्ष-शताधिकम्",
+          "more than a hundred years"
+        ],
+        [
+          "काण्वान्",
+          "the Kāṇvas"
+        ],
+        [
+          "अल्प-गुणान्",
+          "of few qualities"
+        ]
+      ],
+      "literal_english": "After Puṣyamitra came Agnimitra and the other nine Śuṅga kings. These ten ruled the earth for more than a hundred years—twelve years beyond a hundred—after which the earth would pass to the Kāṇvas, kings of lesser qualities.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact grouped source range 12.1.17–12.1.19 restored."
+    },
+    {
+      "canto": 12,
+      "chapter": 1,
       "start": 20,
       "end": 20,
       "source_marker": "१२.१.२०",
