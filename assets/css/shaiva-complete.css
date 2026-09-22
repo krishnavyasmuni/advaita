@@ -33,47 +33,47 @@
 @media(max-width:620px){.article-head h1{font-size:clamp(29px,8vw,35px);line-height:1.2}.shaiva-tools{min-height:34px;margin:0 0 17px}.shaiva-sanskrit-toggle{min-height:34px;padding:5px 12px;font-size:12.5px}.article h3.shaiva-subheading{font-size:22px;margin:29px 0 17px}.article #source-content p.shaiva-sanskrit{font-size:18px;line-height:1.85;padding-left:12px;margin-bottom:19px}.shaiva-verse-pair{margin:20px 0 30px}.shaiva-cover{max-width:100%}.shaiva-index-entry{padding:14px 0}.shaiva-index-heading{font-size:20px}.shaiva-index-subitem{margin-left:16px;font-size:13.5px}.shaiva-source-range{font-size:10.5px}}
 @media print{body{background:var(--paper)}.sitebar,.side-toc,.mobile-toc,.page-nav,.shaiva-tools{display:none!important}.page{padding:0}.article-head{max-width:100%;margin:0 auto 25px}.reader-grid,.article{display:block;width:100%;max-width:100%}.shaiva-verse-pair{break-inside:avoid}.article #source-content p.shaiva-sanskrit{display:block!important}}
 
-/* Article-specific visual polish: warm paper, restrained borders, and scripture panels. */
+/* Article-specific visual polish: keep this reader in the Varṇa-vicāra visual language. */
 .shaiva-article-page{
-  --paper:#fffdf9;
-  --ink:#3c352f;
-  --sanskrit:#7a4932;
-  --quote:#62506e;
-  --quote-rule:#8d718d;
-  --rule:rgba(116,91,69,.16);
-  --side-rule:#d9cdc1;
-  --orange-soft:#d6a17b;
-  background:#382d26;
+  --paper:#f4f4f4;
+  --ink:#3c362e;
+  --sanskrit:#7f432f;
+  --quote:#65516f;
+  --quote-rule:#8c739a;
+  --rule:rgba(119,119,119,.12);
+  --side-rule:#d4d0ca;
+  --orange-soft:#d8ad8b;
+  background:#2b261f;
 }
 .shaiva-article-page .sitebar,
 .shaiva-article-page .page{background:var(--paper)}
-.shaiva-article-page .sitebar{border-bottom-color:#e3d8ce}
+.shaiva-article-page .sitebar{border-bottom-color:var(--rule)}
 .shaiva-article-page .article-head h1{color:var(--teal)}
-.shaiva-article-page .page-context{border-bottom-color:#dfd5cc}
+.shaiva-article-page .page-context{border-bottom-color:#ddd8d2}
 .shaiva-article-page .shaiva-sanskrit-toggle{
-  border-color:#d2a17e;
-  color:#925229;
-  background:#fffaf4;
-  box-shadow:0 1px 0 rgba(90,56,36,.04);
+  border-color:var(--orange-soft);
+  color:#9b4e1d;
+  background:transparent;
+  box-shadow:none;
 }
 .shaiva-article-page .shaiva-sanskrit-toggle:hover,
 .shaiva-article-page .shaiva-sanskrit-toggle[aria-pressed="true"]{
-  background:#f5e8dc;
+  background:#eee8e2;
 }
 .shaiva-article-page .shaiva-sanskrit-toggle:focus-visible{
-  outline-color:#8c6a9a;
+  outline-color:var(--teal);
 }
 
-/* Aligned Sanskrit/English source blocks, presented as quiet scripture panels. */
+/* Aligned Sanskrit/English source blocks: quiet, readable tables. */
 .shaiva-article-page #source-content .shaiva-parallel{
   width:100%;
   margin:30px 0 40px;
-  border:1px solid rgba(126,82,53,.27);
-  border-radius:9px;
+  border:1px solid #d7d1ca;
+  border-radius:2px;
   border-collapse:separate;
   border-spacing:0;
-  background:#fffdf9;
-  box-shadow:0 6px 20px rgba(77,52,36,.055);
+  background:transparent;
+  box-shadow:none;
   overflow:hidden;
   table-layout:fixed;
   font-size:16.5px;
@@ -86,37 +86,37 @@
   vertical-align:top;
   text-align:left;
   border:0;
-  border-bottom:1px solid rgba(126,82,53,.15);
+  border-bottom:1px solid #ddd8d2;
   overflow-wrap:anywhere;
 }
 .shaiva-article-page #source-content .shaiva-parallel thead th{
-  background:#f8eee4;
-  color:#76533f;
-  font:700 12px/1.45 Merriweather,Georgia,serif;
-  letter-spacing:.035em;
+  background:#eceae7;
+  color:#625a53;
+  font:700 11px/1.45 Merriweather,Georgia,serif;
+  letter-spacing:.065em;
   text-transform:uppercase;
 }
 .shaiva-article-page #source-content .shaiva-parallel th:first-child,
 .shaiva-article-page #source-content .shaiva-parallel td:first-child{width:46%}
 .shaiva-article-page #source-content .shaiva-parallel th+th,
 .shaiva-article-page #source-content .shaiva-parallel td+td{
-  border-left:1px solid rgba(126,82,53,.15);
+  border-left:1px solid #e1ddd8;
 }
 .shaiva-article-page #source-content .shaiva-parallel tbody tr:last-child td{border-bottom:0}
-.shaiva-article-page #source-content .shaiva-parallel tbody tr:nth-child(even) td{background:#fffaf4}
+.shaiva-article-page #source-content .shaiva-parallel tbody tr:nth-child(even) td{background:#f8f7f6}
 .shaiva-article-page #source-content .shaiva-parallel td.shaiva-parallel__sanskrit{
-  color:#754631;
+  color:var(--sanskrit);
   font:400 19px/1.92 "Noto Serif Devanagari","Nirmala UI",Mangal,serif;
   white-space:pre-line;
 }
 .shaiva-article-page #source-content .shaiva-parallel td.shaiva-parallel__english{
-  color:#3e3731;
+  color:var(--ink);
   font:400 16.5px/1.72 Merriweather,Georgia,serif;
 }
 .shaiva-article-page #source-content .shaiva-parallel td.shaiva-parallel__english small{
   display:block;
   margin-top:9px;
-  color:#88766a;
+  color:#817970;
   font:11px/1.5 Merriweather,Georgia,serif;
 }
 .shaiva-article-page #source-content .shaiva-parallel td::before{display:none}
@@ -127,7 +127,7 @@
   .shaiva-article-page #source-content .shaiva-parallel tr{display:block;width:100%}
   .shaiva-article-page #source-content .shaiva-parallel thead{display:none}
   .shaiva-article-page #source-content .shaiva-parallel tr{
-    border-bottom:1px solid rgba(126,82,53,.16);
+    border-bottom:1px solid #ddd8d2;
   }
   .shaiva-article-page #source-content .shaiva-parallel tr:last-child{border-bottom:0}
   .shaiva-article-page #source-content .shaiva-parallel td{
@@ -140,13 +140,13 @@
     display:block;
     content:attr(data-label);
     margin:0 0 6px;
-    color:#8d6a55;
+    color:#817970;
     font:700 10px/1.35 Merriweather,Georgia,serif;
     letter-spacing:.07em;
     text-transform:uppercase;
   }
   .shaiva-article-page #source-content .shaiva-parallel td+td{
-    border-top:1px dashed rgba(126,82,53,.2)!important;
+    border-top:1px dashed #d7d1ca!important;
   }
   .shaiva-article-page #source-content .shaiva-parallel td.shaiva-parallel__sanskrit{font-size:18px;line-height:1.9}
   .shaiva-article-page #source-content .shaiva-parallel td.shaiva-parallel__english{font-size:16px;line-height:1.7}
