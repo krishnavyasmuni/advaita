@@ -21,7 +21,7 @@ function sectionGroup(title){
  return 'Objections and Dharmaśāstra';
 }
 function sectionsFrom(pages){
- const sections=[{id:'opening',title:'Invocation',parent:'Manuscript',blocks:[]}];let current=sections[0];
+ const sections=[{id:'opening',title:'Invocation',parent:'Opening',blocks:[]}];let current=sections[0];
  pages.forEach((blocks,i)=>blocks.forEach(([kind,value])=>{
   if(kind==='heading'){
    const number=/^\s*(\d+)\./.exec(value);
