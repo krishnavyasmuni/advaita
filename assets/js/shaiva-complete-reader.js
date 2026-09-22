@@ -64,9 +64,11 @@ function renderBlock({kind,value},section){
   const visible=articleText(value);
   if(visible==='English'||/^Bhagavadgītā, IX\.25$/i.test(visible)||/^Laugakshi Smriti, Volume 6$/.test(visible))return make('p','shaiva-passage-label',visible);
   const plainTranslation=visible.replace(/^\s*(?:English\s+)?Translation:\s*/i,'').trim();
+  if(!plainTranslation)return document.createDocumentFragment();
   const noteAt=plainTranslation.search(/\s+NOTE:\s*/i);
-  if(noteAt>0){const fragment=document.createDocumentFragment();fragment.append(make('blockquote','translation shaiva-quote',plainTranslation.slice(0,noteAt).trim()));fragment.append(make('small','shaiva-note',plainTranslation.slice(noteAt+1).trim()));return fragment;}
-  return make('blockquote','translation shaiva-quote',plainTranslation);
+  if(noteAt>0){const fragment=document.createDocumentFragment();const quoteText=stripOuterQuotes(plainTranslation.slice(0,noteAt).trim());if(quoteText)fragment.append(make('blockquote','translation shaiva-quote',quoteText));const noteText=plainTranslation.slice(noteAt+1).trim();if(noteText)fragment.append(make('small','shaiva-note',noteText));return fragment;}
+  const cleaned=stripOuterQuotes(plainTranslation);
+  return cleaned?make('blockquote','translation shaiva-quote',cleaned):document.createDocumentFragment();
  }
 function stripOuterQuotes(value){return String(value??'').trim().replace(/^[“"‘']+/,'').replace(/[”"’']+$/,'').trim();}
 function verseQuote(value,number){const block=make('blockquote','translation shaiva-quote',stripOuterQuotes(value));block.append(make('small','shaiva-verse-reference','Verse '+number));return block;}
@@ -109,7 +111,7 @@ function renderVerse(value){
   if(/popcultking/i.test(visible))return document.createDocumentFragment();
   const verse=renderVerse(value);if(verse)return verse;
   if(/^\s*[●•]\s*[\u200b\u200c\u200d]*/u.test(visible))return make('p','shaiva-bullet',visible.replace(/^\s*[●•]\s*[\u200b\u200c\u200d]*/u,''));
-  if(/^\s*\(?(?:English\s+)?translation\s*:\s*/i.test(visible))return make('blockquote','translation shaiva-quote',visible.replace(/^\s*\(?(?:English\s+)?translation\s*:\s*/i,'').replace(/\)\s*$/,'').trim());
+  if(/^\s*\(?(?:English\s+)?translation\s*:\s*/i.test(visible)){const cleaned=stripOuterQuotes(visible.replace(/^\s*\(?(?:English\s+)?translation\s*:\s*/i,'').replace(/\)\s*$/,'').trim());return cleaned?make('blockquote','translation shaiva-quote',cleaned):document.createDocumentFragment();}
   if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(visible)&&visible.length<180)return make('h3','shaiva-subheading',visible);
   return make('p','shaiva-paragraph',visible);
  }
