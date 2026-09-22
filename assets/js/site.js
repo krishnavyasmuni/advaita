@@ -5,7 +5,7 @@ const vishnuSupremacy=/\/articles\/a-vaishnava-lens-on-vishnu-as-the-supreme-dei
 const combinedBhavishya=/\/articles\/bhavisya-purana-addresses-varna-system\/?$/.test(p);
 const scripture=/\/articles\/(?:vishnu-purana-book-\d+-chapter-\d+|bhagavad-gita-chapter-\d+|bhavishya-purana-pratisargaparvan-part-\d+-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|bhavisya-purana-addresses-varna-system|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|srimad-bhagavatam-canto-\d{2}-sridhara-svami|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(p);
 // Viṣṇu Purāṇa WFW integrity guard: never display a full article translation as lexical data.
-const vishnuPuranaRoute=/\/articles\/vishnu-purana-book-\d+-chapter-\d+\/?$/.test(p);
+const vishnuPuranaRoute=/\/articles\/vishnu-purana-book-\d+-chapter-\d+(?:\/index\.html)?\/?$/.test(p);
 const repairVishnuWordForWord=()=>{
  if(!vishnuPuranaRoute)return;
  const normalize=s=>String(s||'').replace(/\s+/g,' ').trim();
