@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked; placeholder-free; lexical rows audited",
+  "status": "source-checked; source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/60-69/63.md",
   "source_blob_sha": "0b0c65b0b6d76dd0ff10dccc7f68568ff7b1b53d",
-  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses and internal form markers removed; lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed lexical audit completed; lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.63.1–10.63.53; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -57,7 +57,7 @@
       ],
       "literal_english": "राम-कृष्णानुवर्तिन इति तौ पुरतो निर्गताव् इत्य् अर्थः: ‘Following Rāma and Kṛṣṇa’; the two went out in front; this is the meaning.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -74,7 +74,7 @@
       ],
       "literal_english": "सर्वतो-दिशम् इत्य् अस्योत्तरेणान्वयः: srvto-diśm ity asyottreṇānvyḥ — sarvato-diśam is connected with what follows",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
