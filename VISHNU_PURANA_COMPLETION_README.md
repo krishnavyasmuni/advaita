@@ -193,16 +193,16 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 4 Chapters 6, 7, 8, and 19 missing-verse restorations; committed and reread |
-| Book 1 status | AUDITED structurally — 1,407 articles; 935 main lexical WFW, 472 main WFW still missing |
-| Book 2 status | AUDITED structurally — 787 articles; 507 main lexical WFW, 280 main WFW still missing |
+| Last committed route | Book 5 Chapters 14, 15, 25, 26, and 36 lexical rebuilds plus corpus-wide artifact cleanup; committed and reread |
+| Book 1 status | AUDITED structurally — 1,407 articles; 905 main lexical WFW, 502 main WFW still missing |
+| Book 2 status | AUDITED structurally — 787 articles; 710 main lexical WFW, 77 main WFW still missing |
 | Book 3 status | AUDITED structurally — 837 main lexical WFW layers present; semantic source review remains separate |
-| Current repair target | Rebuild 4,115 missing main lexical WFW articles from the cited Vasuki Sanskrit, chapter by chapter |
+| Current repair target | Rebuild 3,794 missing main lexical WFW articles from the cited Vasuki Sanskrit, chapter by chapter |
 | Next chapter after the repair target | None — the full-corpus lexical remediation queue remains open |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | OPEN — 4,115 main lexical WFW articles remain; six omitted Book 4 verse articles were restored |
-| Latest chapter verification commit | ba00b91cb74eec760956ec947a6ff47538a3a8ae — audit tracker and six Book 4 restorations committed and reread |
-| Latest semantic audit | 2026-09-22 full-corpus audit — 126 routes and 6,400 articles; contiguous IDs and complete Sanskrit/translation/transliteration structure; 2,285 main lexical WFW present and 4,115 still missing; no source-range labels or exact translation-tail WFW rows |
+| Full-scope remediation queue | OPEN — 3,794 main lexical WFW articles remain; six omitted Book 4 verse articles were restored and copied-translation rows were removed |
+| Latest chapter verification commit | 74466f9b91ccedbd07056356cb9d25b4f2e39a2e — remote corpus audit and chapter repairs reread |
+| Latest semantic audit | 2026-09-22 full-corpus audit — 126 routes and 6,400 articles; 2,606 main lexical WFW present and 3,794 still missing; no source-range labels, leading markers, embedded footnote artifacts, or translation-tail WFW rows; 182 articles now show an explicit pending control until lexical work is published |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
