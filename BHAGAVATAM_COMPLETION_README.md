@@ -125,6 +125,9 @@ canto_3_verified_chapters: 3.1-3.33
 canto_3_source_ranges: 1288
 canto_3_source_blocks: 860
 canto_3_no_commentary_records: 420
+canto_4_audit_status: FAILED_PLACEHOLDER_GLOSSES
+canto_4_cached_records: 1104
+canto_4_placeholder_wfw_rows: 3216
 canto_10_audit_status: FAILED_MISSING_WFW_RANGES
 canto_10_verified_chapters: 10.1-10.90
 canto_10_source_ranges: 3768
@@ -134,7 +137,7 @@ canto_10_no_commentary_records: 989
 canto_10_post_repair_records_checked: 3748
 canto_10_post_repair_wfw_rows_checked: 10159
 canto_10_placeholder_rows: 0
-canto_10_missing_wfw_ranges: 10.4.31, 10.52.12–10.52.14, 10.55.19, 10.60.8, 10.64.13, 10.68.30, 10.68.32, 10.69.24, 10.74.43, 10.77.34, 10.87.42–10.87.43
+canto_10_missing_wfw_ranges: 10.52.12–10.52.14, 10.55.19, 10.60.8, 10.64.13, 10.68.30, 10.68.32, 10.69.24, 10.74.43, 10.77.34, 10.87.42–10.87.43
 canto_10_form_marker_rows: 0
 canto_10_forbidden_filler_rows: 0
 canto_11_audit_status: FAILED_FULL_VERIFICATION
