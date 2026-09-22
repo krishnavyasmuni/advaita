@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked; placeholder-free; lexical rows audited",
+  "status": "source-checked; source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/34-49/47.md",
   "source_blob_sha": "1d21f35a1cee4b1c4c053504efe8119e790f7f4d",
-  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses removed and the remaining lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored and the remaining lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.47.1–10.47.68; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -1140,7 +1140,7 @@
       ],
       "literal_english": "विनुदन् अपनयन्: vinudn apnyn — dispelling; removing",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -1174,7 +1174,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -1286,7 +1286,7 @@
       ],
       "literal_english": "अत्यन्तापूर्वोऽनन्य-लभ्यः: atyntāpūrvoऽnny-lbhyḥ — utterly unprecedented; obtainable in no other way; अयं तद्-अनुराग-लक्षणः: ayṃ td-anurāg-lkṣṇḥ — this is the characteristic of that love; कुतोऽन्या इति---बहुलं छन्दसि इति विभक्ति-व्यत्यासः: kutoऽnyā iti---bhulṃ chndsi iti vibhkti-vytyāsḥ — ‘how could there be another?’; this is a change of case ending, permitted frequently in Vedic usage; कुतोऽन्यासाम् इत्य् अर्थः: kutoऽnyāsām ity arthḥ — the meaning is: how could this belong to the others?; अन्य-पदेन यक्षादि-स्त्री-ग्रहः: any-pden ykṣādi-strī-grhḥ — the word ‘other’ includes women such as yakṣīs and the like",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -1319,7 +1319,7 @@
       ],
       "literal_english": "किञ्चित् प्रार्थयितुम् आह---किं च इति: kiñcit prārthyitum āh---kiṃ c iti — desiring to request something, he says: ‘and also’; आशंसा इच्छा: āśṃsā icchā — hope; desire; स्वजनं भर्त्र्-आदिकम्: svjnṃ bhrtr-ādikm — one’s own people, beginning with the husband; श्रुतिभिर् वेद-शिरोभिः: śrutibhir ved-śirobhiḥ — by the śrutis, the Upaniṣads, the heads of the Veda; विमृग्याम् अन्वेषणीयाम्: vimṛgyām anveṣṇīyām — to be sought; to be investigated",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -1378,7 +1378,7 @@
       ],
       "literal_english": "अनुज्ञाप्य अनुज्ञां याचित्व: anujñāpy anujñāṃ yācitv — having requested permission; आमन्त्र्य पृष्ट्वा: āmntry pṛṣṭvā — having taken leave; having asked",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
@@ -1420,7 +1420,7 @@
       ],
       "literal_english": "नोऽस्माकं मनसो वृत्तयः कृष्ण-पादाम्बुजाश्रयाः स्युः: noऽsmākṃ mnso vṛttyḥ kṛṣṇ-pādāmbujāśryāḥ syuḥ — may the movements of our minds take shelter of Kṛṣṇa’s lotus feet; अभिधायिनीर् अभिधायिन्यः: abhidhāyinīr abhidhāyinyḥ — those who speak; the female speakers; कृष्णे रतिः स्याद् इति: kṛṣṇe rtiḥ syād iti — may there be attachment to Kṛṣṇa",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed forms checked; remaining lexical forms require human translation audit."
     },
     {
       "canto": 10,
