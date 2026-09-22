@@ -25,6 +25,8 @@ function normaliseSpelling(value){
     [/Sadashiva/gi,'Sadāśiva'],
     [/Shvestahsvara/gi,'Śvetāśvatara'],
     [/Shvetashvara/gi,'Śvetāśvatara'],
+    [/Shvetashvatara/gi,'Śvetāśvatara'],
+    [/Sri[- ]Rudram/gi,'Śrī-Rudram'],
     [/Shankaracharya/gi,'Śaṅkarācārya'],
     [/Shankara/gi,'Śaṅkara'],
     [/MahaNarayana/gi,'Mahānārāyaṇa'],
@@ -135,10 +137,11 @@ function sentenceTitle(value){
     ['padma','Padma'],['garuḍa','Garuḍa'],['bhāgavata','Bhāgavata'],['matsya','Matsya'],['kūrma','Kūrma'],
     ['skanda','Skanda'],['śruti','Śruti'],['smṛti','Smṛti'],['gītā','Gītā'],['itihāsa','Itihāsa'],
     ['itihāsas','Itihāsas'],['dharmaśāstra','Dharmaśāstra'],['dharmaśāstras','Dharmaśāstras'],
-    ['pūrvapakṣa','Pūrvapakṣa'],['mīmāṃsā','Mīmāṃsā'],['śaṅkara','Śaṅkara'],['śaṅkarācārya','Śaṅkarācārya']
+    ['pūrvapakṣa','Pūrvapakṣa'],['mīmāṃsā','Mīmāṃsā'],['śaṅkara','Śaṅkara'],['śaṅkarācārya','Śaṅkarācārya'],
+    ['adi','Ādi'],['hara','Hara'],['yajurveda','Yajurveda'],['bhagavad','Bhagavad']
   ];
   for(const [from,to] of proper)text=text.replace(new RegExp('(?<!\\p{L})'+from+'(?!\\p{L})','gu'),to);
-  text=text.charAt(0).toLocaleUpperCase()+text.slice(1);
+  text=text.replace(/^(\s*["“‘'(]*)([\p{L}])/u,(_,prefix,letter)=>prefix+letter.toLocaleUpperCase());
   return text;
 }
 
