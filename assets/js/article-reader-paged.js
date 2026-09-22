@@ -212,7 +212,7 @@ function render(index){
 /* Replace only after the entire document was successfully indexed. */
 if(segments.every(p=>p.nodes.length===0)){source.hidden=false;return;}
 document.body.replaceChildren(bar,main);
-document.body.className='document-paged-page';
+document.body.className='document-paged-page shastric-article';
 const requested=new URLSearchParams(location.search).get('section');
 let initial=segments.findIndex(p=>p.id===requested);
 if(initial<0&&location.hash){
