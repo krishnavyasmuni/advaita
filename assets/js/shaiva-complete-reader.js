@@ -63,9 +63,10 @@ function renderBlock({kind,value},section){
  if(kind==='quote'){
   const visible=articleText(value);
   if(visible==='English'||/^Bhagavadgītā, IX\.25$/i.test(visible)||/^Laugakshi Smriti, Volume 6$/.test(visible))return make('p','shaiva-passage-label',visible);
-  const noteAt=visible.search(/\s+NOTE:\s*/i);
-  if(noteAt>0){const fragment=document.createDocumentFragment();fragment.append(make('blockquote','translation shaiva-quote',visible.slice(0,noteAt).trim()));fragment.append(make('small','shaiva-note',visible.slice(noteAt+1).trim()));return fragment;}
-  return make('blockquote','translation shaiva-quote',visible);
+  const plainTranslation=visible.replace(/^\s*(?:English\s+)?Translation:\s*/i,'').trim();
+  const noteAt=plainTranslation.search(/\s+NOTE:\s*/i);
+  if(noteAt>0){const fragment=document.createDocumentFragment();fragment.append(make('blockquote','translation shaiva-quote',plainTranslation.slice(0,noteAt).trim()));fragment.append(make('small','shaiva-note',plainTranslation.slice(noteAt+1).trim()));return fragment;}
+  return make('blockquote','translation shaiva-quote',plainTranslation);
  }
 function stripOuterQuotes(value){return String(value??'').trim().replace(/^[“"‘']+/,'').replace(/[”"’']+$/,'').trim();}
 function verseQuote(value,number){const block=make('blockquote','translation shaiva-quote',stripOuterQuotes(value));block.append(make('small','shaiva-verse-reference','Verse '+number));return block;}
@@ -108,7 +109,7 @@ function renderVerse(value){
   if(/popcultking/i.test(visible))return document.createDocumentFragment();
   const verse=renderVerse(value);if(verse)return verse;
   if(/^\s*[●•]\s*[\u200b\u200c\u200d]*/u.test(visible))return make('p','shaiva-bullet',visible.replace(/^\s*[●•]\s*[\u200b\u200c\u200d]*/u,''));
-  if(/^\s*\(?translation\s*:\s*/i.test(visible))return make('blockquote','translation shaiva-quote',visible.replace(/^\s*\(?translation\s*:\s*/i,'').replace(/\)\s*$/,'').trim());
+  if(/^\s*\(?(?:English\s+)?translation\s*:\s*/i.test(visible))return make('blockquote','translation shaiva-quote',visible.replace(/^\s*\(?(?:English\s+)?translation\s*:\s*/i,'').replace(/\)\s*$/,'').trim());
   if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(visible)&&visible.length<180)return make('h3','shaiva-subheading',visible);
   return make('p','shaiva-paragraph',visible);
  }
