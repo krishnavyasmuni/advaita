@@ -1,0 +1,75 @@
+name: Verify baseline and compact JSON page equivalence
+on:
+  push:
+    branches: [optimization/lossless-canto10-json-20260922]
+    paths: [.github/workflows/verify-canto10-render-equivalence.yml]
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install browser testing dependency
+        run: |
+          python3 -m pip install --user --quiet playwright
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install chromium; fi
+      - name: Serve fixed baseline and candidate independently
+        run: |
+          git worktree add --detach /tmp/vd-audit-baseline 63075fa2bbce9c11c7d3095eaa75a404a64ab55b
+          mkdir -p /tmp/vd-web-base /tmp/vd-web-new
+          ln -s /tmp/vd-audit-baseline /tmp/vd-web-base/vivekadrishti
+          ln -s "$PWD" /tmp/vd-web-new/vivekadrishti
+          python3 -m http.server 8871 --bind 127.0.0.1 --directory /tmp/vd-web-base >/tmp/vd-base-http.log 2>&1 &
+          python3 -m http.server 8872 --bind 127.0.0.1 --directory /tmp/vd-web-new >/tmp/vd-new-http.log 2>&1 &
+          sleep 2
+          curl -fsS http://127.0.0.1:8871/vivekadrishti/ >/dev/null
+          curl -fsS http://127.0.0.1:8872/vivekadrishti/ >/dev/null
+      - name: Compare JSON meaning and seven key routes at phone and desktop widths
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,shutil
+          from playwright.sync_api import sync_playwright
+          from urllib.parse import urlparse
+          base='http://127.0.0.1:8871/vivekadrishti'
+          new='http://127.0.0.1:8872/vivekadrishti'
+          jsonpath='/assets/data/bhagavatam-sridhara-wfw-canto10.json'
+          paths=['/','/articles/varna-vicara/','/articles/a-shaiva-lens-on-shiva-as-the-supreme-deity/','/articles/srimad-bhagavatam-canto-10-sridhara-svami/','/articles/bhagavad-gita-chapter-1/','/articles/scripture/upanishads/adhyatma/','/articles/a-vaishnava-lens-on-vishnu-as-the-supreme-deity/']
+          with sync_playwright() as p:
+            exe=shutil.which('google-chrome') or shutil.which('chromium')
+            browser=p.chromium.launch(headless=True,executable_path=exe) if exe else p.chromium.launch(headless=True)
+            context=browser.new_context(locale='en-GB',reduced_motion='reduce')
+            page=context.new_page()
+            original=page.evaluate('''async u=>JSON.stringify(await (await fetch(u)).json())''',base+jsonpath)
+            compact=page.evaluate('''async u=>JSON.stringify(await (await fetch(u)).json())''',new+jsonpath)
+            assert original==compact,'Browser JSON.parse content differs'
+            print('BROWSER JSON PARSE EQUALITY: true; canonical UTF-8 bytes',len(original.encode('utf-8')))
+            page.close()
+            def capture(host,route,width):
+              page=context.new_page(viewport={'width':width,'height':900},device_scale_factor=1)
+              errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+              response=page.goto(host+route,wait_until='domcontentloaded',timeout=60000)
+              page.wait_for_timeout(1200)
+              page.evaluate('''async()=>{await document.fonts.ready}''')
+              page.add_style_tag(content='*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important;scroll-behavior:auto!important}')
+              page.wait_for_timeout(250)
+              data=page.evaluate('''()=>({title:document.title,text:document.body.innerText,bodyClass:document.body.className,headings:[...document.querySelectorAll('h1,h2,h3')].map(n=>n.textContent),navigation:[...document.querySelectorAll('.site-nav a')].map(a=>a.getAttribute('href')),tableCount:document.querySelectorAll('table').length,rootWidth:document.documentElement.scrollWidth})''')
+              picture=hashlib.sha256(page.screenshot(full_page=False,animations='disabled')).hexdigest()
+              page.close()
+              return response.status if response else None,data,picture,errors
+            for route in paths:
+              for width in [390,1365]:
+                before=capture(base,route,width)
+                after=capture(new,route,width)
+                assert before[0]==200 and after[0]==200,(route,width,'HTTP',before[0],after[0])
+                assert before[1]==after[1],(route,width,'DOM/text/nav/layout differ')
+                assert before[2]==after[2],(route,width,'viewport screenshots differ',before[2],after[2])
+                assert before[3]==after[3],(route,width,'browser errors differ',before[3],after[3])
+                print('BASELINE/CANDIDATE MATCH',route,'viewport',width,'characters',len(before[1]['text']),'screenshot sha256',before[2][:14],'errors',len(before[3]),flush=True)
+            context.close();browser.close()
+          print('PASS: JSON values and all 14 baseline-versus-candidate DOM, screenshot, and browser-error comparisons equal')
+          PY
