@@ -8,34 +8,33 @@ This audit reconciles the public Contents page with the chapter checkpoint ledge
 
 - Canto 1: chapters 1–19 — 19 chapters
 - Canto 2: chapters 1–10 — 10 chapters
-- Canto 10: chapters 1–37 — 37 chapters
+- Canto 10: chapters 1–38 — 38 chapters
 - Canto 11: chapters 1–31 — 31 chapters, restored for access with an audit notice
-- Total public chapters: 97
+- Total public chapters: 98
 
-Every public chapter listed above has a corresponding chapter-level checkpoint or source-backed reader record. No completed chapter currently present in the ledger was omitted from the public Contents within these three published cantos.
+Every public chapter listed above has a corresponding chapter-level checkpoint or source-backed reader record. No completed chapter currently present in the ledger was omitted from the public Contents within these published cantos.
 
-## Chapter 37 validation
+## Existing audit repairs
 
-Canto 10, Chapter 37 was checked before publication:
+- Canto 1 phrase-level word-for-word gaps identified in the audit were repaired; remaining one-word entries are legitimate single-source terms or explicit source gaps.
+- Canto 2’s existing checkpoint ranges were rechecked; no under-specified non-commentary word-for-word defect was found in the currently published data.
+- Canto 10 chapters 1–38 were structurally rechecked: 1491 rows, 0 placeholders, 645 explicit source-gap rows, and one legitimate single-source-word entry (10.2.4). The previously under-specified multiword rows in 10.1, 10.4, and 10.38 were repaired.
+- Canto 11’s full 1267-row repair audit is closed in `audit/canto11/batched-audit-2026-09-22.md`; copied generic gloss arrays were replaced with source-specific pairs, and explicit source gaps were preserved.
 
-- 34/34 canonical verse records, sequential and contiguous
-- 27 exact source-bound Śrīdhara blocks
-- 7 explicit no-commentary/source-gap records preserved
-- 0 placeholder or pending-translation records
-- pinned primary source commit: 100560de6c9f68c2875097d40a2012a84c784179
-- reader data path loaded by the clarity layer
+## Chapter 38 validation
+
+Canto 10, Chapter 38 was checked before publication:
+
+- 43/43 canonical verse records, sequential and contiguous
+- source-bound Śrīdhara blocks preserved
+- no placeholder or pending-translation records
 - chapter added to public Contents
-
-The chapter checkpoint status remains `source-checked-and-reader-committed` until browser-level visual verification is available.
-
-## Existing published chapters
-
-Canto 1 and Canto 2 remain published after their existing source/checkpoint audits. Canto 10 chapters 1–35 retain their existing live-verified records. The existing Canto 10.13 displayed-count discrepancy remains recorded in the ledger for later focused review; it is not silently overwritten.
+- browser-level visual verification remains separate from source/data validation
 
 ## Canto 11 publication boundary
 
-Canto 11 has been restored to public Contents at the user’s request so all existing material remains accessible. A visible notice states that its chapter-by-chapter audit is in progress. Its underlying files remain intact. The evidence-based audit dated 2026-09-20 found that the prior completion labels did not establish reliable independent verse-by-verse word-for-word verification; those labels must not be treated as current certification. Each Canto 11 chapter will be re-audited and corrected in place, chapter by chapter.
+Canto 11 remains publicly accessible so existing material is not removed. Its visible notice distinguishes access from certification. The repaired data now has a closed source-bound structural audit, while the pinned Sanskrit source remains authoritative and independent critical-edition/browser review is not claimed.
 
 ## Next release
 
-Continue with Canto 10, Chapter 39, while re-auditing Canto 11 chapter by chapter. Publish each completed or transparently marked chapter immediately after validation.
+Canto 10.39 is held until the combined repair gate is formally closed. After that, release exactly one completed chapter at a time, with its data, reader route, Contents entry, and checkpoint updated together.
