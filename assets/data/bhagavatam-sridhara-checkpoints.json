@@ -10585,58 +10585,30 @@
     {
       "id": "canto-3-chapter-1-release",
       "range": "ŚB 3.1.1–3.1.45",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-wfw-repaired",
       "english_source": "https://vedabase.io/en/library/sb/3/1/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/01.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "53f97bcc137d3356aa67db17c0541c26303a89da",
-      "source_path": "bhAgavatam/gauDIya-prastutiH/03/01.md",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/03/01_vidurasyoddhavena_saha_samAgamaH.md",
       "reader_data_files": [
         "assets/data/bhagavatam-sridhara-wfw-canto3-ch01-verses01-45.json"
       ],
       "records_checked": 45,
-      "exact_sridhara_source_blocks": 29,
+      "exact_sridhara_source_blocks": 43,
       "no_commentary_ranges": [
         "3.1.4",
-        "3.1.6",
-        "3.1.7",
-        "3.1.8",
-        "3.1.10",
-        "3.1.11",
-        "3.1.12",
-        "3.1.13",
-        "3.1.14",
-        "3.1.15",
-        "3.1.22",
-        "3.1.23",
-        "3.1.24",
-        "3.1.34",
-        "3.1.38",
-        "3.1.43"
+        "3.1.5"
       ],
       "source_gap_ranges": [
         "3.1.4",
-        "3.1.6",
-        "3.1.7",
-        "3.1.8",
-        "3.1.10",
-        "3.1.11",
-        "3.1.12",
-        "3.1.13",
-        "3.1.14",
-        "3.1.15",
-        "3.1.22",
-        "3.1.23",
-        "3.1.24",
-        "3.1.34",
-        "3.1.38",
-        "3.1.43"
+        "3.1.5"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
+      "notes": "Canto 3.1 source blocks were re-audited against the pinned file. All 43 supplied Śrīdhara blocks now have source-bound phrase glosses and close English translations; 3.1.4 and 3.1.5 are explicit no-commentary records.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for commentary-bearing source blocks; exact no-commentary markers preserved."
+      "repair_note": "Replaced all generated filler in 3.1; restored missing source blocks at 3.1.6–3.1.15, 3.1.22–3.1.24, 3.1.34, 3.1.38 and 3.1.43; preserved exact no-commentary sentinels at 3.1.4 and 3.1.5."
     },
     {
       "id": "canto-3-chapter-2-release",
@@ -13001,5 +12973,5 @@
       "release_note": "Published Canto 12.13 with all 23 verses and the pinned grouped source ranges preserved."
     }
   ],
-  "generated_at": "2026-09-21"
+  "generated_at": "2026-09-22"
 }
