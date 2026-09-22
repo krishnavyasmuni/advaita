@@ -8200,6 +8200,58 @@
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
       "repair_note": "Added source-specific Śrīdhara word-for-word pairs for every commentary-bearing source block; explicit no-commentary markers preserved."
+    },
+    {
+      "id": "canto-10-chapter-41-release",
+      "range": "ŚB 10.41.1–10.41.52",
+      "status": "source-checked-and-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/10/41/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/41.md",
+      "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "9ab3c044a25113ede4e70d3bc5cf9447bb3fbae5",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/10/34-49/41.md",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch41-verses01-52.json"
+      ],
+      "records_checked": 52,
+      "exact_sridhara_source_blocks": 38,
+      "no_commentary_ranges": [
+        "10.41.2",
+        "10.41.3",
+        "10.41.11",
+        "10.41.22",
+        "10.41.30",
+        "10.41.33",
+        "10.41.37",
+        "10.41.39",
+        "10.41.43",
+        "10.41.44",
+        "10.41.45",
+        "10.41.48",
+        "10.41.50",
+        "10.41.51"
+      ],
+      "source_gap_ranges": [
+        "10.41.2",
+        "10.41.3",
+        "10.41.11",
+        "10.41.22",
+        "10.41.30",
+        "10.41.33",
+        "10.41.37",
+        "10.41.39",
+        "10.41.43",
+        "10.41.44",
+        "10.41.45",
+        "10.41.48",
+        "10.41.50",
+        "10.41.51"
+      ],
+      "live_render": null,
+      "generated_at": "2026-09-22",
+      "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
+      "repaired_at": "2026-09-22",
+      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for every commentary-bearing source block; explicit no-commentary markers preserved."
     }
   ],
   "generated_at": "2026-09-21"
