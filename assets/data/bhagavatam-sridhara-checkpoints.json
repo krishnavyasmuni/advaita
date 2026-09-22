@@ -12659,8 +12659,8 @@
       "reader_data_files": [
         "assets/data/bhagavatam-sridhara-wfw-canto12-ch01.json"
       ],
-      "records_checked": 31,
-      "exact_sridhara_source_blocks": 26,
+      "records_checked": 32,
+      "exact_sridhara_source_blocks": 27,
       "no_commentary_ranges": [
         "12.1.5–12.1.8",
         "12.1.14",
@@ -12677,9 +12677,9 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
+      "notes": "Chapter published after pinned-source, exact-range, grouped 12.1.17–12.1.19 restoration, transliteration, word-for-word, and no-commentary checks.",
       "released_at": "2026-09-22",
-      "release_note": "Published Canto 12.1 with exact pinned source mapping and independently translated Śrīdhara word meanings."
+      "release_note": "Published Canto 12.1 with the restored grouped 12.1.17–12.1.19 source range."
     },
     {
       "id": "canto-12-chapter-2-release",
