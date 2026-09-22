@@ -4,6 +4,27 @@ const article=/^\/vivekadrishti\/articles\//.test(p)&&!dirs.some(r=>r.test(p));
 const vishnuSupremacy=/\/articles\/a-vaishnava-lens-on-vishnu-as-the-supreme-deity\/?$/.test(p);
 const combinedBhavishya=/\/articles\/bhavisya-purana-addresses-varna-system\/?$/.test(p);
 const scripture=/\/articles\/(?:vishnu-purana-book-\d+-chapter-\d+|bhagavad-gita-chapter-\d+|bhavishya-purana-pratisargaparvan-part-\d+-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|bhavisya-purana-addresses-varna-system|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|srimad-bhagavatam-canto-\d{2}-sridhara-svami|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(p);
+// Viṣṇu Purāṇa WFW integrity guard: never display a full article translation as lexical data.
+const vishnuPuranaRoute=/\/articles\/vishnu-purana-book-\d+-chapter-\d+\/?$/.test(p);
+const repairVishnuWordForWord=()=>{
+ if(!vishnuPuranaRoute)return;
+ const normalize=s=>String(s||'').replace(/\s+/g,' ').trim();
+ document.querySelectorAll('.gita-verse').forEach(article=>{
+  const translation=normalize(article.querySelector(':scope > .gita-translation')?.textContent);
+  if(!translation)return;
+  [...article.querySelectorAll(':scope > .gita-controls > details.gita-details')].filter(d=>/^Word-for-word$/i.test(normalize(d.querySelector(':scope > summary')?.textContent))).forEach(detail=>{
+   detail.querySelectorAll('.gita-wfw-list').forEach(row=>{
+    const strong=row.querySelector(':scope > strong');
+    if(!strong)return;
+    const remainder=[...row.childNodes].filter(n=>n!==strong).map(n=>n.textContent||'').join('').replace(/^\s*—\s*/,'');
+    if(normalize(remainder)===translation)row.closest('.gita-dual-section')?.remove();
+   });
+   if(!detail.querySelector('.gita-dual-section'))detail.remove();
+  });
+ });
+};
+repairVishnuWordForWord();
+
 const citation=/\/articles\/compilation-of-peer-reviewed-citations-against-aryan-migration-theory\/?$/.test(p),meat=/\/articles\/meat-eating-in-hinduism-through-the-lens-of-shastra\/?$/.test(p);
 const css=(key,href)=>{if(document.querySelector(`link[data-${key}]`))return;const l=document.createElement('link');l.rel='stylesheet';l.href=href;l.dataset[key]='1';document.head.append(l)};
 const js=(key,src)=>{if(document.querySelector(`script[data-${key}]`))return;const s=document.createElement('script');s.src=src;s.async=false;s.dataset[key]='1';document.body.append(s)};
