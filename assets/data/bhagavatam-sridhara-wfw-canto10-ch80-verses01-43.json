@@ -5,7 +5,7 @@
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/80-86/70_athAshItitamo-dhyayaH.md",
   "source_blob_sha": "438fda19394a1d5d41de90806dafaf38b12e72d0",
-  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses removed and the remaining lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses and internal form markers removed; lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.80.1–10.80.43; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -77,16 +77,16 @@
       "word_for_word": [
         [
           "उभय-लिङ्गं इति स्थिरं जङ्गमं च तस्यैव लिङ्गं मत्वा आनमेत्तद् एव शिरः",
-          "ubhy-liṅgṃ iti sthirṃ jṅgmṃ c tsyaiv liṅgṃ mtvā ānmettd ev śirḥ — thus and indeed/only [forms: उभय-लिङ्गं, स्थिरं, जङ्गमं, तस्यैव, लिङ्गं, मत्वा, आनमेत्तद्, शिरः]"
+          "Thinking that both the stationary and moving are his signs, he bowed his head to that very Lord."
         ],
         [
           "तान्य् एवाङ्गानि यानि पादोदकं भजन्तीति",
           "tāny evāṅgāni yāni pādodkṃ bhjntīti — those very limbs which partake of the water from the feet"
         ]
       ],
-      "literal_english": "उभय-लिङ्गं इति स्थिरं जङ्गमं च तस्यैव लिङ्गं मत्वा आनमेत्तद् एव शिरः: ubhy-liṅgṃ iti sthirṃ jṅgmṃ c tsyaiv liṅgṃ mtvā ānmettd ev śirḥ — thus and indeed/only [forms: उभय-लिङ्गं, स्थिरं, जङ्गमं, तस्यैव, लिङ्गं, मत्वा, आनमेत्तद्, शिरः]; तान्य् एवाङ्गानि यानि पादोदकं भजन्तीति: tāny evāṅgāni yāni pādodkṃ bhjntīti — those very limbs which partake of the water from the feet",
+      "literal_english": "उभय-लिङ्गं इति स्थिरं जङ्गमं च तस्यैव लिङ्गं मत्वा आनमेत्तद् एव शिरः: Thinking that both the stationary and moving are his signs, he bowed his head to that very Lord.; तान्य् एवाङ्गानि यानि पादोदकं भजन्तीति: tāny evāṅgāni yāni pādodkṃ bhjntīti — those very limbs which partake of the water from the feet",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -137,7 +137,7 @@
       ],
       "literal_english": "तथा-विधा कुचैला: tthā-vidhā kucailā — such a ragged garment",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -234,12 +234,12 @@
       "word_for_word": [
         [
           "अप्य् अस्ति किम् अस्तीति प्रश्नः",
-          "apy asti kim astīti prśnḥ — what [forms: अप्य्, अस्ति, अस्तीति, प्रश्नः]"
+          "The question is: ‘Does it exist? What exists?’"
         ]
       ],
-      "literal_english": "अप्य् अस्ति किम् अस्तीति प्रश्नः: apy asti kim astīti prśnḥ — what [forms: अप्य्, अस्ति, अस्तीति, प्रश्नः]",
+      "literal_english": "अप्य् अस्ति किम् अस्तीति प्रश्नः: The question is: ‘Does it exist? What exists?’",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -273,7 +273,7 @@
       ],
       "literal_english": "मह्यं मम: mhyṃ mm — to me; my",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -328,7 +328,7 @@
       ],
       "literal_english": "पर्यग्रहीत् पर्यरम्भत: prygrhīt pryrmbht — he embraced; he clasped",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -366,7 +366,7 @@
       ],
       "literal_english": "समर्हणम् उपायनम् उपहृत्य समर्प्य: smrhṇm upāynm uphṛty smrpy — an offering; having brought and presented a gift; पादावनेजनीर् अपः: pādāvnejnīr apḥ — water for washing the feet",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -400,7 +400,7 @@
       ],
       "literal_english": "धमनिभिः शिराभिः सन्ततं व्याप्तम्: dhmnibhiḥ śirābhiḥ snttṃ vyāptm — continuously pervaded by veins",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -451,7 +451,7 @@
       ],
       "literal_english": "सम्भृतः संमानितः: smbhṛtḥ sṃmānitḥ — honored; respected",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -555,16 +555,16 @@
         ],
         [
           "विज्ञेयं परमात्म-तत्त्वम्",
-          "vijñeyṃ prmātm-tttvm — principle/reality [forms: विज्ञेयं, परमात्म-तत्त्वम्]"
+          "The truth of the Supreme Self is to be known."
         ],
         [
           "तमसः संसारस्य",
           "tmsḥ sṃsārsy — of the darkness of saṃsāra"
         ]
       ],
-      "literal_english": "नौ आवयोः: nau āvyoḥ — of us two; यतो गुरोः: yto guroḥ — because of the guru; विज्ञेयं परमात्म-तत्त्वम्: vijñeyṃ prmātm-tttvm — principle/reality [forms: विज्ञेयं, परमात्म-तत्त्वम्]; तमसः संसारस्य: tmsḥ sṃsārsy — of the darkness of saṃsāra",
+      "literal_english": "नौ आवयोः: nau āvyoḥ — of us two; यतो गुरोः: yto guroḥ — because of the guru; विज्ञेयं परमात्म-तत्त्वम्: The truth of the Supreme Self is to be known.; तमसः संसारस्य: tmsḥ sṃsārsy — of the darkness of saṃsāra",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -692,16 +692,16 @@
         ],
         [
           "वातश् च वर्षं च तयोः समाहारः",
-          "vātś c vrṣṃ c tyoḥ smāhārḥ — and and [forms: वातश्, वर्षं, तयोः, समाहारः]"
+          "Wind and rain; their combination."
         ],
         [
           "स्तनयित्नवो गर्जितानि चाभवन्",
           "stnyitnvo grjitāni cābhvn — there were thundercloud roars; there were thunderclaps"
         ]
       ],
-      "literal_english": "अपर्तौ अपगते ऋतौ अकाल इत्य् अर्थः: aprtau apgte ṛtau akāl ity arthḥ — the meaning is: out of season, when the season had passed; वातश् च वर्षं च तयोः समाहारः: vātś c vrṣṃ c tyoḥ smāhārḥ — and and [forms: वातश्, वर्षं, तयोः, समाहारः]; स्तनयित्नवो गर्जितानि चाभवन्: stnyitnvo grjitāni cābhvn — there were thundercloud roars; there were thunderclaps",
+      "literal_english": "अपर्तौ अपगते ऋतौ अकाल इत्य् अर्थः: aprtau apgte ṛtau akāl ity arthḥ — the meaning is: out of season, when the season had passed; वातश् च वर्षं च तयोः समाहारः: Wind and rain; their combination.; स्तनयित्नवो गर्जितानि चाभवन्: stnyitnvo grjitāni cābhvn — there were thundercloud roars; there were thunderclaps",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -713,12 +713,12 @@
       "word_for_word": [
         [
           "निम्नं कूलं नतम् उन्नतं च स्थानम्",
-          "nimnṃ kūlṃ ntm unntṃ c sthānm — and [forms: निम्नं, कूलं, नतम्, उन्नतं, स्थानम्]"
+          "Low bank, high bank, and places that are lowered and raised."
         ]
       ],
-      "literal_english": "निम्नं कूलं नतम् उन्नतं च स्थानम्: nimnṃ kūlṃ ntm unntṃ c sthānm — and [forms: निम्नं, कूलं, नतम्, उन्नतं, स्थानम्]",
+      "literal_english": "निम्नं कूलं नतम् उन्नतं च स्थानम्: Low bank, high bank, and places that are lowered and raised.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -810,12 +810,12 @@
       "word_for_word": [
         [
           "फलितम् उपसंहरति गुरोर् इति",
-          "phlitm upsṃhrti guror iti — thus [forms: फलितम्, उपसंहरति, गुरोर्]"
+          "He concludes the result with ‘of the guru.’"
         ]
       ],
-      "literal_english": "फलितम् उपसंहरति गुरोर् इति: phlitm upsṃhrti guror iti — thus [forms: फलितम्, उपसंहरति, गुरोर्]",
+      "literal_english": "फलितम् उपसंहरति गुरोर् इति: He concludes the result with ‘of the guru.’",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -827,12 +827,12 @@
       "word_for_word": [
         [
           "अस्माभिः किम् अनिर्वृत्तम् असम्पन्नं येषाम् अस्माकं भवता सह वासोऽभूत्",
-          "asmābhiḥ kim anirvṛttm asmpnnṃ yeṣām asmākṃ bhvtā sh vāsoऽbhūt — what whose [forms: अस्माभिः, अनिर्वृत्तम्, असम्पन्नं, अस्माकं, भवता, सह, वासोऽभूत्]"
+          "What remains unfulfilled for us, whose dwelling with you has occurred?"
         ]
       ],
-      "literal_english": "अस्माभिः किम् अनिर्वृत्तम् असम्पन्नं येषाम् अस्माकं भवता सह वासोऽभूत्: asmābhiḥ kim anirvṛttm asmpnnṃ yeṣām asmākṃ bhvtā sh vāsoऽbhūt — what whose [forms: अस्माभिः, अनिर्वृत्तम्, असम्पन्नं, अस्माकं, भवता, सह, वासोऽभूत्]",
+      "literal_english": "अस्माभिः किम् अनिर्वृत्तम् असम्पन्नं येषाम् अस्माकं भवता सह वासोऽभूत्: What remains unfulfilled for us, whose dwelling with you has occurred?",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
     },
     {
       "canto": 10,
