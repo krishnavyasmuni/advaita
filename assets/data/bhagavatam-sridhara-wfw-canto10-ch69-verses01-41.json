@@ -440,10 +440,35 @@
       "end": 24,
       "source_marker": "१०.६९.२४",
       "sanskrit": "वितानाग्नीन् आहवनीयादीन् अग्नि-होत्रेण पञ्चभिर् मखैर् महा-यज्ञैर् यजन्तम् ॥२४-३१॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "वितान-अग्नीन्",
+          "the ritual fires"
+        ],
+        [
+          "आहवनीय-आदीन्",
+          "beginning with the Āhavanīya fire"
+        ],
+        [
+          "अग्नि-होत्रेण",
+          "by the Agnihotra sacrifice"
+        ],
+        [
+          "पञ्चभिः मखैः",
+          "by the five sacrifices"
+        ],
+        [
+          "महा-यज्ञैः",
+          "great sacrifices"
+        ],
+        [
+          "यजन्तम्",
+          "worshiping, performing sacrifice"
+        ]
+      ],
+      "literal_english": "He was worshiping the ritual fires, beginning with the Āhavanīya, by the Agnihotra and the five great sacrifices.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Sanskrit-first word-for-word and literal English repair completed."
     },
     {
       "canto": 10,
