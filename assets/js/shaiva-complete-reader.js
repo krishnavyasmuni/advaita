@@ -11,6 +11,10 @@ const articleText=value=>String(value??'')
  .replace(/\bthis\s+document\b/gi,'this article')
  .replace(/\bthe\s+document\b/gi,'the article')
  .replace(/\bdocument\b/gi,'article')
+ .replace(/\b([A-Z]{2,})\b/g,m=>m.toLowerCase())
+ .replace(/\s+([,.;:!?])/g,'$1')
+ .replace(/([,.;:!?])(?=[A-Z“‘])/g,'$1 ')
+ .replace(/,([A-Za-z])/g,', $1')
  .replace(/\s{2,}/g,' ')
  .trim();
 async function get(path){const r=await fetch(site+path+'?v=20260921-tidy-3');if(!r.ok)throw Error(path+': HTTP '+r.status);return(await r.text()).trim();}
@@ -57,6 +61,23 @@ function renderBlock({kind,value},section){
   if(visible==='English'||/^Bhagavadgītā, IX\.25$/.test(visible)||/^Laugakshi Smriti, Volume 6$/.test(visible))return make('p','shaiva-passage-label',visible);
   return make('blockquote','translation shaiva-quote',visible);
  }
+function stripOuterQuotes(value){return String(value??'').trim().replace(/^[“"‘']+/,'').replace(/[”"’']+$/,'').trim();}
+function verseQuote(value,number){const block=make('blockquote','translation shaiva-quote',stripOuterQuotes(value));block.append(make('small','shaiva-verse-reference','Verse '+number));return block;}
+function renderVerse(value){
+ const raw=articleText(value),marks=[...raw.matchAll(/\|\|\s*(\d+)\s*\|\|/g)];
+ if(!marks.length)return null;
+ const fragment=document.createDocumentFragment(),quoted=marks.some(m=>/^\s*[“"‘']/.test(raw.slice(m.index+m[0].length)));
+ if(quoted){
+  const lead=raw.slice(0,marks[0].index).trim();
+  if(lead)fragment.append(make('p','shaiva-paragraph',lead));
+  marks.forEach((m,i)=>{const start=m.index+m[0].length,end=marks[i+1]?.index??raw.length,text=raw.slice(start,end).trim();if(text)fragment.append(verseQuote(text,m[1]));});
+ }else{
+  let start=0;
+  marks.forEach(m=>{const text=raw.slice(start,m.index).trim();if(text)fragment.append(verseQuote(text,m[1]));start=m.index+m[0].length;});
+  const tail=raw.slice(start).trim();if(tail)fragment.append(make('p','shaiva-paragraph',tail));
+ }
+ return fragment;
+}
  if(kind==='table'){
   const table=make('table','shaiva-parallel');
   table.setAttribute('aria-label','Sanskrit and English translation');
@@ -79,6 +100,8 @@ function renderBlock({kind,value},section){
   if(section==='index')return renderIndex(visible);
   if(section==='opening'&&visible==='A Scripture-Based Case for the Supremacy of Shiva')return make('span','shaiva-source-title-anchor');
   if(/popcultking/i.test(visible))return document.createDocumentFragment();
+  const verse=renderVerse(value);if(verse)return verse;
+  if(/^\s*[●•]\s*/u.test(visible))return make('p','shaiva-bullet',visible.replace(/^\s*[●•]\s*/u,''));
   if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(visible)&&visible.length<180)return make('h3','shaiva-subheading',visible);
   return make('p','shaiva-paragraph',visible);
  }
