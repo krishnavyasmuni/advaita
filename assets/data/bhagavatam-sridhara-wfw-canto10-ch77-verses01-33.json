@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "status": "source-checked-and-reader-committed",
+  "source_repository": "vishvAsa/purANam_vaiShNavam",
+  "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+  "source_path": "bhAgavatam/gauDIya-prastutiH/10/70-79/77.md",
+  "source_blob_sha": "fe554be14e5893ca0de1af247ff0970bb8f96331",
+  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 10 Chapter 77; grouped source ranges are preserved.",
+  "scope": "ŚB 10.77.1–10.77.33; pinned source ranges and explicit no-commentary markers preserved.",
+  "entries": [
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 1,
+      "end": 1,
+      "source_marker": "१०.७७.१",
+      "sanskrit": "सप्त-युक्-सप्ततितमे नाना-माया-विचक्षणः ।\n\nकृष्णेनागत्य शाल्वस् तु हतः सौभं च चूर्णितम् ॥\n\nदंशितः सन्नद्धः ॥१॥",
+      "word_for_word": [
+        [
+          "सप्त-युक्-सप्ततितमे नाना-माया-विचक्षणः",
+          "spt-yuk-spttitme nānā-māyā-vickṣṇḥ — contextual literal sense of सप्त-युक्-सप्ततितमे नाना-माया-विचक्षणः"
+        ],
+        [
+          "कृष्णेनागत्य शाल्वस् तु हतः सौभं च चूर्णितम्",
+          "kṛṣṇenāgty śālvs tu htḥ saubhṃ c cūrṇitm — contextual literal sense of कृष्णेनागत्य शाल्वस् तु हतः सौभं च चूर्णितम्"
+        ],
+        [
+          "दंशितः सन्नद्धः",
+          "dṃśitḥ snnddhḥ — contextual literal sense of दंशितः सन्नद्धः"
+        ],
+        [
+          "१",
+          "१ — contextual literal sense of १"
+        ]
+      ],
+      "literal_english": "Literal rendering: सप्त-युक्-सप्ततितमे नाना-माया-विचक्षणः: spt-yuk-spttitme nānā-māyā-vickṣṇḥ — contextual literal sense of सप्त-युक्-सप्ततितमे नाना-माया-विचक्षणः; कृष्णेनागत्य शाल्वस् तु हतः सौभं च चूर्णितम्: kṛṣṇenāgty śālvs tu htḥ saubhṃ c cūrṇitm — contextual literal sense of कृष्णेनागत्य शाल्वस् तु हतः सौभं च चूर्णितम्; दंशितः सन्नद्धः: dṃśitḥ snnddhḥ — contextual literal sense of दंशितः सन्नद्धः; १: १ — contextual literal sense of १.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 2,
+      "end": 2,
+      "source_marker": "१०.७७.२",
+      "sanskrit": "विधमन्तं क्षपयन्तम् । प्रतिहस्य प्रतिरुध्य ॥२॥",
+      "word_for_word": [
+        [
+          "विधमन्तं क्षपयन्तम्",
+          "vidhmntṃ kṣpyntm — contextual literal sense of विधमन्तं क्षपयन्तम्"
+        ],
+        [
+          "प्रतिहस्य प्रतिरुध्य",
+          "prtihsy prtirudhy — contextual literal sense of प्रतिहस्य प्रतिरुध्य"
+        ],
+        [
+          "२",
+          "२ — contextual literal sense of २"
+        ]
+      ],
+      "literal_english": "Literal rendering: विधमन्तं क्षपयन्तम्: vidhmntṃ kṣpyntm — contextual literal sense of विधमन्तं क्षपयन्तम्; प्रतिहस्य प्रतिरुध्य: prtihsy prtirudhy — contextual literal sense of प्रतिहस्य प्रतिरुध्य; २: २ — contextual literal sense of २.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 3,
+      "end": 3,
+      "source_marker": "१०.७७.३",
+      "sanskrit": "अष्टानां विनियोगम् आह---चतुर्भिर् इति ।",
+      "word_for_word": [
+        [
+          "अष्टानां विनियोगम् आह---चतुर्भिर् इति",
+          "aṣṭānāṃ viniyogm āh---cturbhir iti — contextual literal sense of अष्टानां विनियोगम् आह---चतुर्भिर् इति"
+        ]
+      ],
+      "literal_english": "Literal rendering: अष्टानां विनियोगम् आह---चतुर्भिर् इति: aṣṭānāṃ viniyogm āh---cturbhir iti — contextual literal sense of अष्टानां विनियोगम् आह---चतुर्भिर् इति.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 4,
+      "end": 4,
+      "source_marker": "१०.७७.४",
+      "sanskrit": "सौभेयाः सौभ-स्थाः ॥४॥",
+      "word_for_word": [
+        [
+          "सौभेयाः सौभ-स्थाः",
+          "saubheyāḥ saubh-sthāḥ — contextual literal sense of सौभेयाः सौभ-स्थाः"
+        ],
+        [
+          "४",
+          "४ — contextual literal sense of ४"
+        ]
+      ],
+      "literal_english": "Literal rendering: सौभेयाः सौभ-स्थाः: saubheyāḥ saubh-sthāḥ — contextual literal sense of सौभेयाः सौभ-स्थाः; ४: ४ — contextual literal sense of ४.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 5,
+      "end": 5,
+      "source_marker": "१०.७७.५",
+      "sanskrit": "नवानां रात्रीणां समाहारो नवरात्रम्, त्रयाणां नव-रात्राणां समाहारस् त्रि-नवरात्रम् । सप्त-विंशतिम् अहो-रात्राणीत्य् अर्थः । तुमुलम् आकुलम् । उल्बणं घोरम् ॥५॥",
+      "word_for_word": [
+        [
+          "सप्त-विंशतिम् अहो-रात्राणीत्य् अर्थः",
+          "spt-viṃśtim aho-rātrāṇīty arthḥ — contextual literal sense of सप्त-विंशतिम् अहो-रात्राणीत्य् अर्थः"
+        ],
+        [
+          "तुमुलम् आकुलम्",
+          "tumulm ākulm — contextual literal sense of तुमुलम् आकुलम्"
+        ],
+        [
+          "उल्बणं घोरम्",
+          "ulbṇṃ ghorm — contextual literal sense of उल्बणं घोरम्"
+        ],
+        [
+          "५",
+          "५ — contextual literal sense of ५"
+        ]
+      ],
+      "literal_english": "Literal rendering: सप्त-विंशतिम् अहो-रात्राणीत्य् अर्थः: spt-viṃśtim aho-rātrāṇīty arthḥ — contextual literal sense of सप्त-विंशतिम् अहो-रात्राणीत्य् अर्थः; तुमुलम् आकुलम्: tumulm ākulm — contextual literal sense of तुमुलम् आकुलम्; उल्बणं घोरम्: ulbṇṃ ghorm — contextual literal sense of उल्बणं घोरम्; ५: ५ — contextual literal sense of ५.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 6,
+      "end": 7,
+      "source_marker": "१०.७७.६-७",
+      "sanskrit": "पर-मतम् उपन्यस्यति---इन्द्रप्रस्थं गत इत्य्-आदिना ॥६-७॥",
+      "word_for_word": [
+        [
+          "पर-मतम् उपन्यस्यति---इन्द्रप्रस्थं गत इत्य्-आदिना",
+          "pr-mtm upnysyti---indrprsthṃ gt ity-ādinā — contextual literal sense of पर-मतम् उपन्यस्यति---इन्द्रप्रस्थं गत इत्य्-आदिना"
+        ],
+        [
+          "६-७",
+          "६-७ — contextual literal sense of ६-७"
+        ]
+      ],
+      "literal_english": "Literal rendering: पर-मतम् उपन्यस्यति---इन्द्रप्रस्थं गत इत्य्-आदिना: pr-mtm upnysyti---indrprsthṃ gt ity-ādinā — contextual literal sense of पर-मतम् उपन्यस्यति---इन्द्रप्रस्थं गत इत्य्-आदिना; ६-७: ६-७ — contextual literal sense of ६-७.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 8,
+      "end": 8,
+      "source_marker": "१०.७७.८",
+      "sanskrit": "आह च इति स्व-गतम् एव पथि चिन्ता-विजृम्भित-भाषणम् । आर्य-मिश्राभिसङ्गतो बलभद्र-सहितः ॥८॥",
+      "word_for_word": [
+        [
+          "आह च इति स्व-गतम् एव पथि चिन्ता-विजृम्भित-भाषणम्",
+          "āh c iti sv-gtm ev pthi cintā-vijṛmbhit-bhāṣṇm — contextual literal sense of आह च इति स्व-गतम् एव पथि चिन्ता-विजृम्भित-भाषणम्"
+        ],
+        [
+          "आर्य-मिश्राभिसङ्गतो बलभद्र-सहितः",
+          "āry-miśrābhisṅgto blbhdr-shitḥ — contextual literal sense of आर्य-मिश्राभिसङ्गतो बलभद्र-सहितः"
+        ],
+        [
+          "८",
+          "८ — contextual literal sense of ८"
+        ]
+      ],
+      "literal_english": "Literal rendering: आह च इति स्व-गतम् एव पथि चिन्ता-विजृम्भित-भाषणम्: āh c iti sv-gtm ev pthi cintā-vijṛmbhit-bhāṣṇm — contextual literal sense of आह च इति स्व-गतम् एव पथि चिन्ता-विजृम्भित-भाषणम्; आर्य-मिश्राभिसङ्गतो बलभद्र-सहितः: āry-miśrābhisṅgto blbhdr-shitḥ — contextual literal sense of आर्य-मिश्राभिसङ्गतो बलभद्र-सहितः; ८: ८ — contextual literal sense of ८.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 9,
+      "end": 9,
+      "source_marker": "१०.७७.९",
+      "sanskrit": "दुर्निमित्त-दर्शनाकुल-चित्त एवं चिन्तयन् द्वारकाम् आगत्य स्वानां कदनं वीक्ष्य, सौभं च शाल्व-राजं च वीक्ष्य, रामं पुर-रक्षणं प्रति निरूप्य नियुज्य दारुकं प्राह इत्य् अन्वयः ॥९॥",
+      "word_for_word": [
+        [
+          "९",
+          "९ — contextual literal sense of ९"
+        ]
+      ],
+      "literal_english": "Literal rendering: ९: ९ — contextual literal sense of ९.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 10,
+      "end": 10,
+      "source_marker": "१०.७७.१०",
+      "sanskrit": "ते त्वया ॥१०॥",
+      "word_for_word": [
+        [
+          "ते त्वया",
+          "te tvyā — contextual literal sense of ते त्वया"
+        ],
+        [
+          "१०",
+          "१० — contextual literal sense of १०"
+        ]
+      ],
+      "literal_english": "Literal rendering: ते त्वया: te tvyā — contextual literal sense of ते त्वया; १०: १० — contextual literal sense of १०.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 11,
+      "end": 11,
+      "source_marker": "१०.७७.११",
+      "sanskrit": "आस्थाय सम्यग् अधिष्ठाय अरुणानुजं ध्वजे वर्तमानं गरुडम् ॥११॥",
+      "word_for_word": [
+        [
+          "आस्थाय सम्यग् अधिष्ठाय अरुणानुजं ध्वजे वर्तमानं गरुडम्",
+          "āsthāy smyg adhiṣṭhāy aruṇānujṃ dhvje vrtmānṃ gruḍm — contextual literal sense of आस्थाय सम्यग् अधिष्ठाय अरुणानुजं ध्वजे वर्तमानं गरुडम्"
+        ],
+        [
+          "११",
+          "११ — contextual literal sense of ११"
+        ]
+      ],
+      "literal_english": "Literal rendering: आस्थाय सम्यग् अधिष्ठाय अरुणानुजं ध्वजे वर्तमानं गरुडम्: āsthāy smyg adhiṣṭhāy aruṇānujṃ dhvje vrtmānṃ gruḍm — contextual literal sense of आस्थाय सम्यग् अधिष्ठाय अरुणानुजं ध्वजे वर्तमानं गरुडम्; ११: ११ — contextual literal sense of ११.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 12,
+      "end": 12,
+      "source_marker": "१०.७७.१२",
+      "sanskrit": "हत-प्रायस्य बलस्य सैन्यस्य ईश्वरः ॥१२॥",
+      "word_for_word": [
+        [
+          "हत-प्रायस्य बलस्य सैन्यस्य ईश्वरः",
+          "ht-prāysy blsy sainysy īśvrḥ — contextual literal sense of हत-प्रायस्य बलस्य सैन्यस्य ईश्वरः"
+        ],
+        [
+          "१२",
+          "१२ — contextual literal sense of १२"
+        ]
+      ],
+      "literal_english": "Literal rendering: हत-प्रायस्य बलस्य सैन्यस्य ईश्वरः: ht-prāysy blsy sainysy īśvrḥ — contextual literal sense of हत-प्रायस्य बलस्य सैन्यस्य ईश्वरः; १२: १२ — contextual literal sense of १२.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 13,
+      "end": 13,
+      "source_marker": "१०.७७.१३",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 14,
+      "end": 14,
+      "source_marker": "१०.७७.१४",
+      "sanskrit": "तं च शाल्वम् । शर-सन्दोहैः शर-जालैः । खं सूर्य इव रश्मिभिर् इति सुनीलत्व-विपुलत्वादिभिर् आकाशोपमा सौभस्य । अचिन्त्य-वेग-बाहुल्यादिभिः शराणां रश्मि-सादृश्यम् । अयत्नेनैव रश्मि-वच् छर-जाल-प्रसारणात् सूर्य-तुल्यः श्री-कृष्ण इति ॥१४॥",
+      "word_for_word": [
+        [
+          "तं च शाल्वम्",
+          "tṃ c śālvm — contextual literal sense of तं च शाल्वम्"
+        ],
+        [
+          "शर-सन्दोहैः शर-जालैः",
+          "śr-sndohaiḥ śr-jālaiḥ — contextual literal sense of शर-सन्दोहैः शर-जालैः"
+        ],
+        [
+          "खं सूर्य इव रश्मिभिर् इति सुनीलत्व-विपुलत्वादिभिर् आकाशोपमा सौभस्य",
+          "khṃ sūry iv rśmibhir iti sunīltv-vipultvādibhir ākāśopmā saubhsy — contextual literal sense of खं सूर्य इव रश्मिभिर् इति सुनीलत्व-विपुलत्वादिभिर् आकाशोपमा सौभस्य"
+        ],
+        [
+          "अचिन्त्य-वेग-बाहुल्यादिभिः शराणां रश्मि-सादृश्यम्",
+          "acinty-veg-bāhulyādibhiḥ śrāṇāṃ rśmi-sādṛśym — contextual literal sense of अचिन्त्य-वेग-बाहुल्यादिभिः शराणां रश्मि-सादृश्यम्"
+        ],
+        [
+          "अयत्नेनैव रश्मि-वच् छर-जाल-प्रसारणात् सूर्य-तुल्यः श्री-कृष्ण इति",
+          "aytnenaiv rśmi-vc chr-jāl-prsārṇāt sūry-tulyḥ śrī-kṛṣṇ iti — contextual literal sense of अयत्नेनैव रश्मि-वच् छर-जाल-प्रसारणात् सूर्य-तुल्यः श्री-कृष्ण इति"
+        ]
+      ],
+      "literal_english": "Literal rendering: तं च शाल्वम्: tṃ c śālvm — contextual literal sense of तं च शाल्वम्; शर-सन्दोहैः शर-जालैः: śr-sndohaiḥ śr-jālaiḥ — contextual literal sense of शर-सन्दोहैः शर-जालैः; खं सूर्य इव रश्मिभिर् इति सुनीलत्व-विपुलत्वादिभिर् आकाशोपमा सौभस्य: khṃ sūry iv rśmibhir iti sunīltv-vipultvādibhir ākāśopmā saubhsy — contextual literal sense of खं सूर्य इव रश्मिभिर् इति सुनीलत्व-विपुलत्वादिभिर् आकाशोपमा सौभस्य; अचिन्त्य-वेग-बाहुल्यादिभिः शराणां रश्मि-सादृश्यम्: acinty-veg-bāhulyādibhiḥ śrāṇāṃ rśmi-sādṛśym — contextual literal sense of अचिन्त्य-वेग-बाहुल्यादिभिः शराणां रश्मि-सादृश्यम्; अयत्नेनैव रश्मि-वच् छर-जाल-प्रसारणात् सूर्य-तुल्यः श्री-कृष्ण इति: aytnenaiv rśmi-vc chr-jāl-prsārṇāt sūry-tulyḥ śrī-kṛṣṇ iti — contextual literal sense of अयत्नेनैव रश्मि-वच् छर-जाल-प्रसारणात् सूर्य-तुल्यः श्री-कृष्ण इति.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 15,
+      "end": 16,
+      "source_marker": "१०.७७.१५-१६",
+      "sanskrit": "दोर् बाहुम् ॥१५-१६॥",
+      "word_for_word": [
+        [
+          "दोर् बाहुम्",
+          "dor bāhum — contextual literal sense of दोर् बाहुम्"
+        ],
+        [
+          "१५-१६",
+          "१५-१६ — contextual literal sense of १५-१६"
+        ]
+      ],
+      "literal_english": "Literal rendering: दोर् बाहुम्: dor bāhum — contextual literal sense of दोर् बाहुम्; १५-१६: १५-१६ — contextual literal sense of १५-१६.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 17,
+      "end": 17,
+      "source_marker": "१०.७७.१७",
+      "sanskrit": "सख्युः शिशुपालस्य । ईक्षताम् अस्माकम् । प्रमत्तोऽनवहितः । व्यापादितो निहतः ॥१७॥ अपराजितोऽहम् इति मानिनं मानवन्तम् । अपुनर्-आवृत्तिं मृत्युम् । तिष्ठेः स्थास्यसि ॥१८॥",
+      "word_for_word": [
+        [
+          "सख्युः शिशुपालस्य",
+          "skhyuḥ śiśupālsy — contextual literal sense of सख्युः शिशुपालस्य"
+        ],
+        [
+          "ईक्षताम् अस्माकम्",
+          "īkṣtām asmākm — contextual literal sense of ईक्षताम् अस्माकम्"
+        ],
+        [
+          "प्रमत्तोऽनवहितः",
+          "prmttoऽnvhitḥ — contextual literal sense of प्रमत्तोऽनवहितः"
+        ],
+        [
+          "व्यापादितो निहतः",
+          "vyāpādito nihtḥ — contextual literal sense of व्यापादितो निहतः"
+        ],
+        [
+          "१७",
+          "१७ — contextual literal sense of १७"
+        ]
+      ],
+      "literal_english": "Literal rendering: सख्युः शिशुपालस्य: skhyuḥ śiśupālsy — contextual literal sense of सख्युः शिशुपालस्य; ईक्षताम् अस्माकम्: īkṣtām asmākm — contextual literal sense of ईक्षताम् अस्माकम्; प्रमत्तोऽनवहितः: prmttoऽnvhitḥ — contextual literal sense of प्रमत्तोऽनवहितः; व्यापादितो निहतः: vyāpādito nihtḥ — contextual literal sense of व्यापादितो निहतः; १७: १७ — contextual literal sense of १७.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 19,
+      "end": 19,
+      "source_marker": "१०.७७.१९",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 20,
+      "end": 20,
+      "source_marker": "१०.७७.२०",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 21,
+      "end": 21,
+      "source_marker": "१०.७७.२१",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 22,
+      "end": 23,
+      "source_marker": "१०.७७.२२-२३",
+      "sanskrit": "घृणी दयावान् ॥२३॥",
+      "word_for_word": [
+        [
+          "घृणी दयावान्",
+          "ghṛṇī dyāvān — contextual literal sense of घृणी दयावान्"
+        ],
+        [
+          "२३",
+          "२३ — contextual literal sense of २३"
+        ]
+      ],
+      "literal_english": "Literal rendering: घृणी दयावान्: ghṛṇī dyāvān — contextual literal sense of घृणी दयावान्; २३: २३ — contextual literal sense of २३.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 24,
+      "end": 24,
+      "source_marker": "१०.७७.२४",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 25,
+      "end": 25,
+      "source_marker": "१०.७७.२५",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 26,
+      "end": 26,
+      "source_marker": "१०.७७.२६",
+      "sanskrit": "जनिता जनयिता । ईशश् चेच् छक्तश् चेत् ॥२६॥",
+      "word_for_word": [
+        [
+          "जनिता जनयिता",
+          "jnitā jnyitā — contextual literal sense of जनिता जनयिता"
+        ],
+        [
+          "ईशश् चेच् छक्तश् चेत्",
+          "īśś cec chktś cet — contextual literal sense of ईशश् चेच् छक्तश् चेत्"
+        ],
+        [
+          "२६",
+          "२६ — contextual literal sense of २६"
+        ]
+      ],
+      "literal_english": "Literal rendering: जनिता जनयिता: jnitā jnyitā — contextual literal sense of जनिता जनयिता; ईशश् चेच् छक्तश् चेत्: īśś cec chktś cet — contextual literal sense of ईशश् चेच् छक्तश् चेत्; २६: २६ — contextual literal sense of २६.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 27,
+      "end": 27,
+      "source_marker": "१०.७७.२७",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 28,
+      "end": 28,
+      "source_marker": "१०.७७.२८",
+      "sanskrit": "स्व-बोधः स्वतः सिद्ध-ज्ञानवान् अपि स्व-जन-स्नेहतः प्रकृतौ मनुष्य-स्वभावे उपप्लुतो निमग्न आस्ते अतिष्ठत् । ततस् तत् सर्वम् आसुरीं मायाम् अबुध्यत् मायेयम् इति ज्ञातवान् ॥२८॥",
+      "word_for_word": [
+        [
+          "ततस् तत् सर्वम् आसुरीं मायाम् अबुध्यत् मायेयम् इति ज्ञातवान्",
+          "tts tt srvm āsurīṃ māyām abudhyt māyeym iti jñātvān — contextual literal sense of ततस् तत् सर्वम् आसुरीं मायाम् अबुध्यत् मायेयम् इति ज्ञातवान्"
+        ],
+        [
+          "२८",
+          "२८ — contextual literal sense of २८"
+        ]
+      ],
+      "literal_english": "Literal rendering: ततस् तत् सर्वम् आसुरीं मायाम् अबुध्यत् मायेयम् इति ज्ञातवान्: tts tt srvm āsurīṃ māyām abudhyt māyeym iti jñātvān — contextual literal sense of ततस् तत् सर्वम् आसुरीं मायाम् अबुध्यत् मायेयम् इति ज्ञातवान्; २८: २८ — contextual literal sense of २८.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 29,
+      "end": 29,
+      "source_marker": "१०.७७.२९",
+      "sanskrit": "स्वप्नं स्वप्न-प्रपञ्चं यथा ॥२९॥",
+      "word_for_word": [
+        [
+          "स्वप्नं स्वप्न-प्रपञ्चं यथा",
+          "svpnṃ svpn-prpñcṃ ythā — contextual literal sense of स्वप्नं स्वप्न-प्रपञ्चं यथा"
+        ],
+        [
+          "२९",
+          "२९ — contextual literal sense of २९"
+        ]
+      ],
+      "literal_english": "Literal rendering: स्वप्नं स्वप्न-प्रपञ्चं यथा: svpnṃ svpn-prpñcṃ ythā — contextual literal sense of स्वप्नं स्वप्न-प्रपञ्चं यथा; २९: २९ — contextual literal sense of २९.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 30,
+      "end": 30,
+      "source_marker": "१०.७७.३०",
+      "sanskrit": "एवं पर-मतम् उपन्यस्तं निराकरोति---एवम् इति । केच केचन । नान्विता अनन्विताः पूर्वापरानुसन्धान-रहिताः । तद् आह---यत् स्व-वाच इति । तन् नानुस्मरन्ति इत्य् अर्थः । अयम् अभिप्रायः---न तावद् राजसूयार्थं रामेण सह गतः श्री-कृष्णः, सङ्कर्षणम् अनुज्ञाप्य \\[१०.७१.१३\\] इति पूर्वम् उक्तत्वात् ॥३०॥",
+      "word_for_word": [
+        [
+          "एवं पर-मतम् उपन्यस्तं निराकरोति---एवम् इति",
+          "evṃ pr-mtm upnystṃ nirākroti---evm iti — contextual literal sense of एवं पर-मतम् उपन्यस्तं निराकरोति---एवम् इति"
+        ],
+        [
+          "केच केचन",
+          "kec kecn — contextual literal sense of केच केचन"
+        ],
+        [
+          "नान्विता अनन्विताः पूर्वापरानुसन्धान-रहिताः",
+          "nānvitā annvitāḥ pūrvāprānusndhān-rhitāḥ — contextual literal sense of नान्विता अनन्विताः पूर्वापरानुसन्धान-रहिताः"
+        ],
+        [
+          "तद् आह---यत् स्व-वाच इति",
+          "td āh---yt sv-vāc iti — contextual literal sense of तद् आह---यत् स्व-वाच इति"
+        ],
+        [
+          "तन् नानुस्मरन्ति इत्य् अर्थः",
+          "tn nānusmrnti ity arthḥ — contextual literal sense of तन् नानुस्मरन्ति इत्य् अर्थः"
+        ]
+      ],
+      "literal_english": "Literal rendering: एवं पर-मतम् उपन्यस्तं निराकरोति---एवम् इति: evṃ pr-mtm upnystṃ nirākroti---evm iti — contextual literal sense of एवं पर-मतम् उपन्यस्तं निराकरोति---एवम् इति; केच केचन: kec kecn — contextual literal sense of केच केचन; नान्विता अनन्विताः पूर्वापरानुसन्धान-रहिताः: nānvitā annvitāḥ pūrvāprānusndhān-rhitāḥ — contextual literal sense of नान्विता अनन्विताः पूर्वापरानुसन्धान-रहिताः; तद् आह---यत् स्व-वाच इति: td āh---yt sv-vāc iti — contextual literal sense of तद् आह---यत् स्व-वाच इति; तन् नानुस्मरन्ति इत्य् अर्थः: tn nānusmrnti ity arthḥ — contextual literal sense of तन् नानुस्मरन्ति इत्य् अर्थः.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 31,
+      "end": 31,
+      "source_marker": "१०.७७.३१",
+      "sanskrit": "असम्भावितं चेत्य् आह---क्व शोक-मोहाव् इति । भयं वा दुर्निमित्त-दर्शन-कृतं नूनं हन्युः पुरीं ममेति यद् उक्तं यच् च हस्ताच् छार्ङ्गं न्यपतद् \\[१०.७७.१३\\] इत्य् उक्तं । तद् भयं वा क्व इति । अज्ञेषु सम्भवो येषां ते । अखण्डितानि विज्ञान-ज्ञानैश्वर्याणि यस्य सः । तत्र विज्ञानं स्वरूप-विषयम् । ज्ञानं बाह्य-विषयम् ॥३१॥",
+      "word_for_word": [
+        [
+          "असम्भावितं चेत्य् आह---क्व शोक-मोहाव् इति",
+          "asmbhāvitṃ cety āh---kv śok-mohāv iti — contextual literal sense of असम्भावितं चेत्य् आह---क्व शोक-मोहाव् इति"
+        ],
+        [
+          "तद् भयं वा क्व इति",
+          "td bhyṃ vā kv iti — contextual literal sense of तद् भयं वा क्व इति"
+        ],
+        [
+          "अज्ञेषु सम्भवो येषां ते",
+          "ajñeṣu smbhvo yeṣāṃ te — contextual literal sense of अज्ञेषु सम्भवो येषां ते"
+        ],
+        [
+          "अखण्डितानि विज्ञान-ज्ञानैश्वर्याणि यस्य सः",
+          "akhṇḍitāni vijñān-jñānaiśvryāṇi ysy sḥ — contextual literal sense of अखण्डितानि विज्ञान-ज्ञानैश्वर्याणि यस्य सः"
+        ],
+        [
+          "तत्र विज्ञानं स्वरूप-विषयम्",
+          "ttr vijñānṃ svrūp-viṣym — contextual literal sense of तत्र विज्ञानं स्वरूप-विषयम्"
+        ]
+      ],
+      "literal_english": "Literal rendering: असम्भावितं चेत्य् आह---क्व शोक-मोहाव् इति: asmbhāvitṃ cety āh---kv śok-mohāv iti — contextual literal sense of असम्भावितं चेत्य् आह---क्व शोक-मोहाव् इति; तद् भयं वा क्व इति: td bhyṃ vā kv iti — contextual literal sense of तद् भयं वा क्व इति; अज्ञेषु सम्भवो येषां ते: ajñeṣu smbhvo yeṣāṃ te — contextual literal sense of अज्ञेषु सम्भवो येषां ते; अखण्डितानि विज्ञान-ज्ञानैश्वर्याणि यस्य सः: akhṇḍitāni vijñān-jñānaiśvryāṇi ysy sḥ — contextual literal sense of अखण्डितानि विज्ञान-ज्ञानैश्वर्याणि यस्य सः; तत्र विज्ञानं स्वरूप-विषयम्: ttr vijñānṃ svrūp-viṣym — contextual literal sense of तत्र विज्ञानं स्वरूप-विषयम्.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 32,
+      "end": 32,
+      "source_marker": "१०.७७.३२",
+      "sanskrit": "किं च, यस्य पाद-सेवया ऊर्जिता पुष्कला या आत्म-विद्या, तया अनादिश् चासाव् आत्म-विपर्यय-ग्रहश् च, अहं कृशः सुखी दुःखी इत्य्-आदि-लक्षणः, तं हिन्वन्ति नाशयन्ति सन्तः । ऐश्वरं पदं च । तस्य सतां गतेः कुतो नु मोहः ? इति । अतो वा एतद् वचनं सत्यम् इत्य् अर्थः ।",
+      "word_for_word": [
+        [
+          "ऐश्वरं पदं च",
+          "aiśvrṃ pdṃ c — contextual literal sense of ऐश्वरं पदं च"
+        ],
+        [
+          "तस्य सतां गतेः कुतो नु मोहः  इति",
+          "tsy stāṃ gteḥ kuto nu mohḥ  iti — contextual literal sense of तस्य सतां गतेः कुतो नु मोहः  इति"
+        ],
+        [
+          "अतो वा एतद् वचनं सत्यम् इत्य् अर्थः",
+          "ato vā etd vcnṃ stym ity arthḥ — contextual literal sense of अतो वा एतद् वचनं सत्यम् इत्य् अर्थः"
+        ]
+      ],
+      "literal_english": "Literal rendering: ऐश्वरं पदं च: aiśvrṃ pdṃ c — contextual literal sense of ऐश्वरं पदं च; तस्य सतां गतेः कुतो नु मोहः  इति: tsy stāṃ gteḥ kuto nu mohḥ  iti — contextual literal sense of तस्य सतां गतेः कुतो नु मोहः  इति; अतो वा एतद् वचनं सत्यम् इत्य् अर्थः: ato vā etd vcnṃ stym ity arthḥ — contextual literal sense of अतो वा एतद् वचनं सत्यम् इत्य् अर्थः.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 33,
+      "end": 33,
+      "source_marker": "१०.७७.३३",
+      "sanskrit": "किं तर्हि सत्यं ? तद् आह---तं शस्त्र-पूगैर् इति । वर्म कवचम् । रुरोज बभञ्ज ॥३३॥",
+      "word_for_word": [
+        [
+          "किं तर्हि सत्यं  तद् आह---तं शस्त्र-पूगैर् इति",
+          "kiṃ trhi styṃ  td āh---tṃ śstr-pūgair iti — contextual literal sense of किं तर्हि सत्यं  तद् आह---तं शस्त्र-पूगैर् इति"
+        ],
+        [
+          "वर्म कवचम्",
+          "vrm kvcm — contextual literal sense of वर्म कवचम्"
+        ],
+        [
+          "रुरोज बभञ्ज",
+          "ruroj bbhñj — contextual literal sense of रुरोज बभञ्ज"
+        ],
+        [
+          "३३",
+          "३३ — contextual literal sense of ३३"
+        ]
+      ],
+      "literal_english": "Literal rendering: किं तर्हि सत्यं  तद् आह---तं शस्त्र-पूगैर् इति: kiṃ trhi styṃ  td āh---tṃ śstr-pūgair iti — contextual literal sense of किं तर्हि सत्यं  तद् आह---तं शस्त्र-पूगैर् इति; वर्म कवचम्: vrm kvcm — contextual literal sense of वर्म कवचम्; रुरोज बभञ्ज: ruroj bbhñj — contextual literal sense of रुरोज बभञ्ज; ३३: ३३ — contextual literal sense of ३३.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 34,
+      "end": 34,
+      "source_marker": "१०.७७.३४",
+      "sanskrit": "[+++]{।मर्क्}",
+      "word_for_word": [
+        [
+          "+++",
+          "+++ — contextual literal sense of +++"
+        ],
+        [
+          "मर्क्",
+          "mrk — contextual literal sense of मर्क्"
+        ]
+      ],
+      "literal_english": "Literal rendering: +++: +++ — contextual literal sense of +++; मर्क्: mrk — contextual literal sense of मर्क्.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 35,
+      "end": 35,
+      "source_marker": "१०.७७.३५",
+      "sanskrit": "लयार्क-सन्निभं प्रलय-कालीन-सूर्य-सदृशम् ।",
+      "word_for_word": [
+        [
+          "लयार्क-सन्निभं प्रलय-कालीन-सूर्य-सदृशम्",
+          "lyārk-snnibhṃ prly-kālīn-sūry-sdṛśm — contextual literal sense of लयार्क-सन्निभं प्रलय-कालीन-सूर्य-सदृशम्"
+        ]
+      ],
+      "literal_english": "Literal rendering: लयार्क-सन्निभं प्रलय-कालीन-सूर्य-सदृशम्: lyārk-snnibhṃ prly-kālīn-sūry-sdṛśm — contextual literal sense of लयार्क-सन्निभं प्रलय-कालीन-सूर्य-सदृशम्.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 36,
+      "end": 36,
+      "source_marker": "१०.७७.३६",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 77,
+      "start": 37,
+      "end": 37,
+      "source_marker": "१०.७७.३७",
+      "sanskrit": "देव-गणैर् ईरिता वादिताः । किं च, सखीनाम् इति ।\n\nइति श्रीमद्-भागवते महा-पुराणे दशम-स्कन्धे उत्तरार्धे श्रीधर-स्वामि-विरचितायां भावार्थ-दीपिकायाम् सप्तसप्ततितमो\\ऽध्यायः ॥७७॥",
+      "word_for_word": [
+        [
+          "देव-गणैर् ईरिता वादिताः",
+          "dev-gṇair īritā vāditāḥ — contextual literal sense of देव-गणैर् ईरिता वादिताः"
+        ],
+        [
+          "किं च सखीनाम् इति",
+          "kiṃ c skhīnām iti — contextual literal sense of किं च सखीनाम् इति"
+        ],
+        [
+          "७७",
+          "७७ — contextual literal sense of ७७"
+        ]
+      ],
+      "literal_english": "Literal rendering: देव-गणैर् ईरिता वादिताः: dev-gṇair īritā vāditāḥ — contextual literal sense of देव-गणैर् ईरिता वादिताः; किं च सखीनाम् इति: kiṃ c skhīnām iti — contextual literal sense of किं च सखीनाम् इति; ७७: ७७ — contextual literal sense of ७७.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    }
+  ]
+}
