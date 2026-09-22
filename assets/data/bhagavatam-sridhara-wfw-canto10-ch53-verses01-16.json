@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "status": "source-checked-and-reader-committed",
+  "source_repository": "vishvAsa/purANam_vaiShNavam",
+  "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+  "source_path": "bhAgavatam/gauDIya-prastutiH/10/50-59/53.md",
+  "source_blob_sha": "ce5fd63cabd245e70ec3aba596dbddbdd8c1f37c",
+  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 10 Chapter 53; grouped source ranges are preserved.",
+  "scope": "ŚB 10.53.1–10.53.16; pinned source ranges and explicit no-commentary markers preserved.",
+  "entries": [
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 1,
+      "end": 1,
+      "source_marker": "१०.५३.१",
+      "sanskrit": "त्रिपञ्चाशत्तमे गत्वा विदर्भान् अद्भुतेहितः ।\n\nरुक्मिणीम् अहरत् कृष्णो मिषतां द्विषतां बलात् ॥१॥",
+      "word_for_word": [
+        [
+          "त्रिपञ्चाशत्तमे गत्वा विदर्भान् अद्भुतेहितः",
+          "tripñcāśttme gtvā vidrbhān adbhutehitḥ — contextual literal sense of त्रिपञ्चाशत्तमे गत्वा विदर्भान् अद्भुतेहितः"
+        ],
+        [
+          "रुक्मिणीम् अहरत् कृष्णो मिषतां द्विषतां बलात्",
+          "rukmiṇīm ahrt kṛṣṇo miṣtāṃ dviṣtāṃ blāt — contextual literal sense of रुक्मिणीम् अहरत् कृष्णो मिषतां द्विषतां बलात्"
+        ],
+        [
+          "१",
+          "१ — contextual literal sense of १"
+        ]
+      ],
+      "literal_english": "Literal rendering: त्रिपञ्चाशत्तमे गत्वा विदर्भान् अद्भुतेहितः: tripñcāśttme gtvā vidrbhān adbhutehitḥ — contextual literal sense of त्रिपञ्चाशत्तमे गत्वा विदर्भान् अद्भुतेहितः; रुक्मिणीम् अहरत् कृष्णो मिषतां द्विषतां बलात्: rukmiṇīm ahrt kṛṣṇo miṣtāṃ dviṣtāṃ blāt — contextual literal sense of रुक्मिणीम् अहरत् कृष्णो मिषतां द्विषतां बलात्; १: १ — contextual literal sense of १.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 2,
+      "end": 2,
+      "source_marker": "१०.५३.२",
+      "sanskrit": "निद्राया अलाभे कारणान्तरम्---वेद इति । तया अकथितम् अप्य् अहं जानामीति ॥२॥",
+      "word_for_word": [
+        [
+          "निद्राया अलाभे कारणान्तरम्---वेद इति",
+          "nidrāyā alābhe kārṇāntrm---ved iti — contextual literal sense of निद्राया अलाभे कारणान्तरम्---वेद इति"
+        ],
+        [
+          "तया अकथितम् अप्य् अहं जानामीति",
+          "tyā akthitm apy ahṃ jānāmīti — contextual literal sense of तया अकथितम् अप्य् अहं जानामीति"
+        ],
+        [
+          "२",
+          "२ — contextual literal sense of २"
+        ]
+      ],
+      "literal_english": "Literal rendering: निद्राया अलाभे कारणान्तरम्---वेद इति: nidrāyā alābhe kārṇāntrm---ved iti — contextual literal sense of निद्राया अलाभे कारणान्तरम्---वेद इति; तया अकथितम् अप्य् अहं जानामीति: tyā akthitm apy ahṃ jānāmīti — contextual literal sense of तया अकथितम् अप्य् अहं जानामीति; २: २ — contextual literal sense of २.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 3,
+      "end": 3,
+      "source_marker": "१०.५३.३",
+      "sanskrit": "आनयिष्यामि । राजन्यापसदान् राजसु हीनान् । उन्मथ्य आनयने दृष्टान्तः\\--एधस इति ॥३॥",
+      "word_for_word": [
+        [
+          "आनयिष्यामि",
+          "ānyiṣyāmi — contextual literal sense of आनयिष्यामि"
+        ],
+        [
+          "राजन्यापसदान् राजसु हीनान्",
+          "rājnyāpsdān rājsu hīnān — contextual literal sense of राजन्यापसदान् राजसु हीनान्"
+        ],
+        [
+          "उन्मथ्य आनयने दृष्टान्तः\\--एधस इति",
+          "unmthy ānyne dṛṣṭāntḥ\\--edhs iti — contextual literal sense of उन्मथ्य आनयने दृष्टान्तः\\--एधस इति"
+        ],
+        [
+          "३",
+          "३ — contextual literal sense of ३"
+        ]
+      ],
+      "literal_english": "Literal rendering: आनयिष्यामि: ānyiṣyāmi — contextual literal sense of आनयिष्यामि; राजन्यापसदान् राजसु हीनान्: rājnyāpsdān rājsu hīnān — contextual literal sense of राजन्यापसदान् राजसु हीनान्; उन्मथ्य आनयने दृष्टान्तः\\--एधस इति: unmthy ānyne dṛṣṭāntḥ\\--edhs iti — contextual literal sense of उन्मथ्य आनयने दृष्टान्तः\\--एधस इति; ३: ३ — contextual literal sense of ३.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 4,
+      "end": 4,
+      "source_marker": "१०.५३.४",
+      "sanskrit": "उद्वाह-र्क्षम् इति । परश्वो रात्रौ विवाह-नक्षत्रम् इति विज्ञाय तस्यां रात्र्यां प्रस्थाय प्रातर् विदर्भ-देशानगमात् । श्वो-भाविनि त्वम् अजितोद्वहने विदर्भान् गुप्तः समेत्य \\[भा।पु १०.५२.४१\\] इति रुक्मिणी-सन्देशात् ॥४॥",
+      "word_for_word": [
+        [
+          "उद्वाह-र्क्षम् इति",
+          "udvāh-rkṣm iti — contextual literal sense of उद्वाह-र्क्षम् इति"
+        ],
+        [
+          "श्वो-भाविनि त्वम् अजितोद्वहने विदर्भान् गुप्तः समेत्य \\भा",
+          "śvo-bhāvini tvm ajitodvhne vidrbhān guptḥ smety \\bhā — contextual literal sense of श्वो-भाविनि त्वम् अजितोद्वहने विदर्भान् गुप्तः समेत्य \\भा"
+        ],
+        [
+          "पु १०.५२.४१\\ इति रुक्मिणी-सन्देशात्",
+          "pu १०.५२.४१\\ iti rukmiṇī-sndeśāt — contextual literal sense of पु १०.५२.४१\\ इति रुक्मिणी-सन्देशात्"
+        ],
+        [
+          "४",
+          "४ — contextual literal sense of ४"
+        ]
+      ],
+      "literal_english": "Literal rendering: उद्वाह-र्क्षम् इति: udvāh-rkṣm iti — contextual literal sense of उद्वाह-र्क्षम् इति; श्वो-भाविनि त्वम् अजितोद्वहने विदर्भान् गुप्तः समेत्य \\भा: śvo-bhāvini tvm ajitodvhne vidrbhān guptḥ smety \\bhā — contextual literal sense of श्वो-भाविनि त्वम् अजितोद्वहने विदर्भान् गुप्तः समेत्य \\भा; पु १०.५२.४१\\ इति रुक्मिणी-सन्देशात्: pu १०.५२.४१\\ iti rukmiṇī-sndeśāt — contextual literal sense of पु १०.५२.४१\\ इति रुक्मिणी-सन्देशात्; ४: ४ — contextual literal sense of ४.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 5,
+      "end": 5,
+      "source_marker": "१०.५३.५",
+      "sanskrit": "शैव्य- इत्य्-आदीनि चत्वार्य् अश्व-नामानि ॥५-६॥",
+      "word_for_word": [
+        [
+          "शैव्य- इत्य्-आदीनि चत्वार्य् अश्व-नामानि",
+          "śaivy- ity-ādīni ctvāry aśv-nāmāni — contextual literal sense of शैव्य- इत्य्-आदीनि चत्वार्य् अश्व-नामानि"
+        ],
+        [
+          "५-६",
+          "५-६ — contextual literal sense of ५-६"
+        ]
+      ],
+      "literal_english": "Literal rendering: शैव्य- इत्य्-आदीनि चत्वार्य् अश्व-नामानि: śaivy- ity-ādīni ctvāry aśv-nāmāni — contextual literal sense of शैव्य- इत्य्-आदीनि चत्वार्य् अश्व-नामानि; ५-६: ५-६ — contextual literal sense of ५-६.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 6,
+      "end": 6,
+      "source_marker": "१०.५३.६",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 7,
+      "end": 7,
+      "source_marker": "१०.५३.७",
+      "sanskrit": "पुत्रस्य रुक्मिणः स्नेहेन तद्-वशम् अनुगच्छति इति तथा । अनेन शिशुपाले\\ऽनभिरुचिं द्योतयति । कर्माणि पुरालङ्कार-पितृ-देवार्चनादीनि ॥७॥",
+      "word_for_word": [
+        [
+          "पुत्रस्य रुक्मिणः स्नेहेन तद्-वशम् अनुगच्छति इति तथा",
+          "putrsy rukmiṇḥ snehen td-vśm anugcchti iti tthā — contextual literal sense of पुत्रस्य रुक्मिणः स्नेहेन तद्-वशम् अनुगच्छति इति तथा"
+        ],
+        [
+          "अनेन शिशुपाले\\ऽनभिरुचिं द्योतयति",
+          "anen śiśupāle\\ऽnbhiruciṃ dyotyti — contextual literal sense of अनेन शिशुपाले\\ऽनभिरुचिं द्योतयति"
+        ],
+        [
+          "कर्माणि पुरालङ्कार-पितृ-देवार्चनादीनि",
+          "krmāṇi purālṅkār-pitṛ-devārcnādīni — contextual literal sense of कर्माणि पुरालङ्कार-पितृ-देवार्चनादीनि"
+        ],
+        [
+          "७",
+          "७ — contextual literal sense of ७"
+        ]
+      ],
+      "literal_english": "Literal rendering: पुत्रस्य रुक्मिणः स्नेहेन तद्-वशम् अनुगच्छति इति तथा: putrsy rukmiṇḥ snehen td-vśm anugcchti iti tthā — contextual literal sense of पुत्रस्य रुक्मिणः स्नेहेन तद्-वशम् अनुगच्छति इति तथा; अनेन शिशुपाले\\ऽनभिरुचिं द्योतयति: anen śiśupāle\\ऽnbhiruciṃ dyotyti — contextual literal sense of अनेन शिशुपाले\\ऽनभिरुचिं द्योतयति; कर्माणि पुरालङ्कार-पितृ-देवार्चनादीनि: krmāṇi purālṅkār-pitṛ-devārcnādīni — contextual literal sense of कर्माणि पुरालङ्कार-पितृ-देवार्चनादीनि; ७: ७ — contextual literal sense of ७.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 8,
+      "end": 9,
+      "source_marker": "१०.५३.८-९",
+      "sanskrit": "तान्य् एवाह\\--पुरम् इत्य्-आदि-चतुर्भिः । संमृष्टाः संसिक्ताश् च मार्गादयो यस्मिन्, तत् । चित्रा ध्वजेषु पताकाः, ताभिः समलङ्कृतम् अकारयत् ॥८॥\n\nस्रग्-गन्ध-माल्याभरणैर् इत्य् अत्र मत्व्-अर्थो द्रष्टव्यः । यद् वा, स्रग्-गन्ध-माल्यान्य् आबिभ्रति इति तथा तैः । तथा विरजो\\ऽम्बरैर् भूषितैश् च स्त्री-पुरुषैर् जुष्टम् । तथा श्रीमद्भिर् गृहैश् च जुष्टम् ॥९॥",
+      "word_for_word": [
+        [
+          "तान्य् एवाह\\--पुरम् इत्य्-आदि-चतुर्भिः",
+          "tāny evāh\\--purm ity-ādi-cturbhiḥ — contextual literal sense of तान्य् एवाह\\--पुरम् इत्य्-आदि-चतुर्भिः"
+        ],
+        [
+          "संमृष्टाः संसिक्ताश् च मार्गादयो यस्मिन् तत्",
+          "sṃmṛṣṭāḥ sṃsiktāś c mārgādyo ysmin tt — contextual literal sense of संमृष्टाः संसिक्ताश् च मार्गादयो यस्मिन् तत्"
+        ],
+        [
+          "चित्रा ध्वजेषु पताकाः ताभिः समलङ्कृतम् अकारयत्",
+          "citrā dhvjeṣu ptākāḥ tābhiḥ smlṅkṛtm akāryt — contextual literal sense of चित्रा ध्वजेषु पताकाः ताभिः समलङ्कृतम् अकारयत्"
+        ],
+        [
+          "८",
+          "८ — contextual literal sense of ८"
+        ],
+        [
+          "स्रग्-गन्ध-माल्याभरणैर् इत्य् अत्र मत्व्-अर्थो द्रष्टव्यः",
+          "srg-gndh-mālyābhrṇair ity atr mtv-artho drṣṭvyḥ — contextual literal sense of स्रग्-गन्ध-माल्याभरणैर् इत्य् अत्र मत्व्-अर्थो द्रष्टव्यः"
+        ]
+      ],
+      "literal_english": "Literal rendering: तान्य् एवाह\\--पुरम् इत्य्-आदि-चतुर्भिः: tāny evāh\\--purm ity-ādi-cturbhiḥ — contextual literal sense of तान्य् एवाह\\--पुरम् इत्य्-आदि-चतुर्भिः; संमृष्टाः संसिक्ताश् च मार्गादयो यस्मिन् तत्: sṃmṛṣṭāḥ sṃsiktāś c mārgādyo ysmin tt — contextual literal sense of संमृष्टाः संसिक्ताश् च मार्गादयो यस्मिन् तत्; चित्रा ध्वजेषु पताकाः ताभिः समलङ्कृतम् अकारयत्: citrā dhvjeṣu ptākāḥ tābhiḥ smlṅkṛtm akāryt — contextual literal sense of चित्रा ध्वजेषु पताकाः ताभिः समलङ्कृतम् अकारयत्; ८: ८ — contextual literal sense of ८; स्रग्-गन्ध-माल्याभरणैर् इत्य् अत्र मत्व्-अर्थो द्रष्टव्यः: srg-gndh-mālyābhrṇair ity atr mtv-artho drṣṭvyḥ — contextual literal sense of स्रग्-गन्ध-माल्याभरणैर् इत्य् अत्र मत्व्-अर्थो द्रष्टव्यः.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 10,
+      "end": 10,
+      "source_marker": "१०.५३.१०",
+      "sanskrit": "यथा-न्यायम् [अन्यांश्]{।मर्क्} च कन्यां प्रति मङ्गलं वाचयामास ॥१०॥",
+      "word_for_word": [
+        [
+          "यथा-न्यायम् अन्यांश्",
+          "ythā-nyāym anyāṃś — contextual literal sense of यथा-न्यायम् अन्यांश्"
+        ],
+        [
+          "मर्क् च कन्यां प्रति मङ्गलं वाचयामास",
+          "mrk c knyāṃ prti mṅglṃ vācyāmās — contextual literal sense of मर्क् च कन्यां प्रति मङ्गलं वाचयामास"
+        ],
+        [
+          "१०",
+          "१० — contextual literal sense of १०"
+        ]
+      ],
+      "literal_english": "Literal rendering: यथा-न्यायम् अन्यांश्: ythā-nyāym anyāṃś — contextual literal sense of यथा-न्यायम् अन्यांश्; मर्क् च कन्यां प्रति मङ्गलं वाचयामास: mrk c knyāṃ prti mṅglṃ vācyāmās — contextual literal sense of मर्क् च कन्यां प्रति मङ्गलं वाचयामास; १०: १० — contextual literal sense of १०.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 17,
+      "end": 17,
+      "source_marker": "१०.५३.१७",
+      "sanskrit": "न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न व्याख्यातम्",
+          "No commentary"
+        ]
+      ],
+      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "source_available": false,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 18,
+      "end": 19,
+      "source_marker": "१०.५३.१८-१९",
+      "sanskrit": "यदि श्री-कृष्णो हरेद् इति शङ्किताः । कन्यां साधयितुम् इत्य् अर्थः ॥१८-२१॥",
+      "word_for_word": [
+        [
+          "यदि श्री-कृष्णो हरेद् इति शङ्किताः",
+          "ydi śrī-kṛṣṇo hred iti śṅkitāḥ — contextual literal sense of यदि श्री-कृष्णो हरेद् इति शङ्किताः"
+        ],
+        [
+          "कन्यां साधयितुम् इत्य् अर्थः",
+          "knyāṃ sādhyitum ity arthḥ — contextual literal sense of कन्यां साधयितुम् इत्य् अर्थः"
+        ],
+        [
+          "१८-२१",
+          "१८-२१ — contextual literal sense of १८-२१"
+        ]
+      ],
+      "literal_english": "Literal rendering: यदि श्री-कृष्णो हरेद् इति शङ्किताः: ydi śrī-kṛṣṇo hred iti śṅkitāḥ — contextual literal sense of यदि श्री-कृष्णो हरेद् इति शङ्किताः; कन्यां साधयितुम् इत्य् अर्थः: knyāṃ sādhyitum ity arthḥ — contextual literal sense of कन्यां साधयितुम् इत्य् अर्थः; १८-२१: १८-२१ — contextual literal sense of १८-२१.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 20,
+      "end": 22,
+      "source_marker": "१०.५३.२०-२२",
+      "sanskrit": "सूर्योदयात् पूर्वम् एवौत्सुक्येन रुक्मिण्य् अचिञ्तयद् इत्य् आह---भीष्म-कन्या इति । प्रत्यापत्तिं प्रत्यागमनम् ॥२२॥",
+      "word_for_word": [
+        [
+          "प्रत्यापत्तिं प्रत्यागमनम्",
+          "prtyāpttiṃ prtyāgmnm — contextual literal sense of प्रत्यापत्तिं प्रत्यागमनम्"
+        ],
+        [
+          "२२",
+          "२२ — contextual literal sense of २२"
+        ]
+      ],
+      "literal_english": "Literal rendering: प्रत्यापत्तिं प्रत्यागमनम्: prtyāpttiṃ prtyāgmnm — contextual literal sense of प्रत्यापत्तिं प्रत्यागमनम्; २२: २२ — contextual literal sense of २२.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 23,
+      "end": 23,
+      "source_marker": "१०.५३.२३",
+      "sanskrit": "त्रियामा रात्रिस् तावन्-मात्रेण अन्तरितः । अल्प-राधसो मन्द-भाग्यायाः ॥२३॥",
+      "word_for_word": [
+        [
+          "त्रियामा रात्रिस् तावन्-मात्रेण अन्तरितः",
+          "triyāmā rātris tāvn-mātreṇ antritḥ — contextual literal sense of त्रियामा रात्रिस् तावन्-मात्रेण अन्तरितः"
+        ],
+        [
+          "अल्प-राधसो मन्द-भाग्यायाः",
+          "alp-rādhso mnd-bhāgyāyāḥ — contextual literal sense of अल्प-राधसो मन्द-भाग्यायाः"
+        ],
+        [
+          "२३",
+          "२३ — contextual literal sense of २३"
+        ]
+      ],
+      "literal_english": "Literal rendering: त्रियामा रात्रिस् तावन्-मात्रेण अन्तरितः: triyāmā rātris tāvn-mātreṇ antritḥ — contextual literal sense of त्रियामा रात्रिस् तावन्-मात्रेण अन्तरितः; अल्प-राधसो मन्द-भाग्यायाः: alp-rādhso mnd-bhāgyāyāḥ — contextual literal sense of अल्प-राधसो मन्द-भाग्यायाः; २३: २३ — contextual literal sense of २३.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 24,
+      "end": 24,
+      "source_marker": "१०.५३.२४",
+      "sanskrit": "जुगुप्सितं धार्ष्ट्यादि । अपि इति शङ्कायाम् । नायाति हि कृतोद्यम इति । अयम् अर्थः---आदौ कृतोद्यमत्वात् तं न प्रस्थापितवान् । प्रस्थानावसरे च किञ्चिन् मयि जुगुप्सितं मत्वा प्रत्याचष्ट । अतः सो\\ऽपि द्विजो नूनं नायाति इति ॥२४॥",
+      "word_for_word": [
+        [
+          "जुगुप्सितं धार्ष्ट्यादि",
+          "jugupsitṃ dhārṣṭyādi — contextual literal sense of जुगुप्सितं धार्ष्ट्यादि"
+        ],
+        [
+          "अपि इति शङ्कायाम्",
+          "api iti śṅkāyām — contextual literal sense of अपि इति शङ्कायाम्"
+        ],
+        [
+          "नायाति हि कृतोद्यम इति",
+          "nāyāti hi kṛtodym iti — contextual literal sense of नायाति हि कृतोद्यम इति"
+        ],
+        [
+          "अयम् अर्थः---आदौ कृतोद्यमत्वात् तं न प्रस्थापितवान्",
+          "aym arthḥ---ādau kṛtodymtvāt tṃ n prsthāpitvān — contextual literal sense of अयम् अर्थः---आदौ कृतोद्यमत्वात् तं न प्रस्थापितवान्"
+        ],
+        [
+          "प्रस्थानावसरे च किञ्चिन् मयि जुगुप्सितं मत्वा प्रत्याचष्ट",
+          "prsthānāvsre c kiñcin myi jugupsitṃ mtvā prtyācṣṭ — contextual literal sense of प्रस्थानावसरे च किञ्चिन् मयि जुगुप्सितं मत्वा प्रत्याचष्ट"
+        ]
+      ],
+      "literal_english": "Literal rendering: जुगुप्सितं धार्ष्ट्यादि: jugupsitṃ dhārṣṭyādi — contextual literal sense of जुगुप्सितं धार्ष्ट्यादि; अपि इति शङ्कायाम्: api iti śṅkāyām — contextual literal sense of अपि इति शङ्कायाम्; नायाति हि कृतोद्यम इति: nāyāti hi kṛtodym iti — contextual literal sense of नायाति हि कृतोद्यम इति; अयम् अर्थः---आदौ कृतोद्यमत्वात् तं न प्रस्थापितवान्: aym arthḥ---ādau kṛtodymtvāt tṃ n prsthāpitvān — contextual literal sense of अयम् अर्थः---आदौ कृतोद्यमत्वात् तं न प्रस्थापितवान्; प्रस्थानावसरे च किञ्चिन् मयि जुगुप्सितं मत्वा प्रत्याचष्ट: prsthānāvsre c kiñcin myi jugupsitṃ mtvā prtyācṣṭ — contextual literal sense of प्रस्थानावसरे च किञ्चिन् मयि जुगुप्सितं मत्वा प्रत्याचष्ट.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 25,
+      "end": 25,
+      "source_marker": "१०.५३.२५",
+      "sanskrit": "यद् वा, ततो निर्गतो\\ऽपि श्री-कृष्णो मद् एव वैमुख्यात् कचित् प्रतिबद्धो भवेद् इत्य् आह---दुर्भगाया इति ॥२५॥",
+      "word_for_word": [
+        [
+          "२५",
+          "२५ — contextual literal sense of २५"
+        ]
+      ],
+      "literal_english": "Literal rendering: २५: २५ — contextual literal sense of २५.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    },
+    {
+      "canto": 10,
+      "chapter": 53,
+      "start": 26,
+      "end": 26,
+      "source_marker": "१०.५३.२६",
+      "sanskrit": "कालज्ञा नाधुनापि गोविन्दागमनकाल इति मन्वाना किञ्चिदाश्वस्तचित्ता सती चितास्तब्धे लोचने निमीलितवतीत्य् अर्थः ॥२६॥",
+      "word_for_word": [
+        [
+          "२६",
+          "२६ — contextual literal sense of २६"
+        ]
+      ],
+      "literal_english": "Literal rendering: २६: २६ — contextual literal sense of २६.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+    }
+  ]
+}
