@@ -47,14 +47,20 @@ function renderBlock({kind,value},section){
   return make('blockquote','translation shaiva-quote',value);
  }
  if(kind==='table'){
-  const fragment=document.createDocumentFragment();
+  const table=make('table','shaiva-parallel');
+  table.setAttribute('aria-label','Sanskrit and English translation');
+  const thead=document.createElement('thead'),headRow=document.createElement('tr');
+  const sanskritHead=make('th',null,'Sanskrit'),englishHead=make('th',null,'English translation');
+  sanskritHead.scope='col';englishHead.scope='col';sanskritHead.lang='sa-Deva';headRow.append(sanskritHead,englishHead);thead.append(headRow);
+  const tbody=document.createElement('tbody');
   for(const [original,english,note] of value){
-   const pair=make('div','shaiva-verse-pair');
-   if(original)pair.append(sanskrit(original));
-   if(english){const trans=make('p','translation shaiva-verse-translation',english);trans.lang='en';pair.append(trans);}
-   if(note)pair.append(make('small','shaiva-note',note));
-   fragment.append(pair);
-  }return fragment;
+   const row=document.createElement('tr');
+   const left=make('td','shaiva-parallel__sanskrit',original||'');left.lang='sa-Deva';
+   const right=make('td','shaiva-parallel__english',english||'');right.lang='en';
+   if(note)right.append(make('small','shaiva-note',note));
+   row.append(left,right);tbody.append(row);
+  }
+  table.append(thead,tbody);return table;
  }
  if(kind==='p'){
   if(section==='index')return renderIndex(value);
@@ -79,14 +85,13 @@ function navLink(anchor,s,label){
  if(!s){anchor.classList.add('disabled');anchor.removeAttribute('href');return;}
  anchor.classList.remove('disabled');anchor.href=href(s);anchor.append(document.createTextNode(s.title));
 }
-function readPreference(){try{return sessionStorage.getItem('shaiva-show-sanskrit')==='true';}catch{return false;}}
+function readPreference(){try{const value=sessionStorage.getItem('shaiva-show-sanskrit');return value===null||value==='true';}catch{return true;}}
 function writePreference(on){try{sessionStorage.setItem('shaiva-show-sanskrit',String(on));}catch{}}
 async function render(){
  const pages=await load(),sections=sectionsFrom(pages);
  const params=new URLSearchParams(location.search),requested=params.get('section');
  let chosen=sections.find(s=>s.id===requested);
- const pageMatch=/^#source-page-(\d+)$/.exec(location.hash);
- if(!chosen&&pageMatch){const p=Number(pageMatch[1]);chosen=sections.find(s=>s.blocks.some(b=>b.page===p));}
+ const pageMatch=null;
  if(!chosen)chosen=sections[0];
  const i=sections.indexOf(chosen);
  if(requested&&!sections.some(s=>s.id===requested))history.replaceState(null,'',href(chosen));
@@ -101,20 +106,11 @@ async function render(){
  const tools=make('div','shaiva-tools'),button=make('button','shaiva-sanskrit-toggle','Show Sanskrit');
  button.id='shaiva-sanskrit-toggle';button.type='button';button.setAttribute('aria-pressed','false');
  tools.append(button);content.append(tools);
- let lastPage=0;
- for(const block of chosen.blocks){
-  if(block.page!==lastPage){
-   lastPage=block.page;const anchor=make('span','shaiva-source-anchor');anchor.id='source-page-'+lastPage;
-   anchor.setAttribute('aria-label','Source PDF page '+lastPage);content.append(anchor);
-  }
-  content.append(renderBlock(block,chosen.id));
- }
+ for(const block of chosen.blocks)content.append(renderBlock(block,chosen.id));
  if(chosen.id==='opening'){
   const img=make('img','shaiva-cover');img.alt='Original artwork of Śiva from the supplied manuscript';img.decoding='async';img.loading='eager';content.append(img);
   get('assets/data/shaiva-cover.webp.b64').then(x=>img.src='data:image/webp;base64,'+x).catch(e=>{console.warn('Original manuscript artwork could not load',e);img.remove();});
  }
- const from=chosen.blocks[0]?.page,to=chosen.blocks[chosen.blocks.length-1]?.page;
- if(from&&to)content.append(make('small','shaiva-source-range',from===to?'Original manuscript · PDF page '+from:'Original manuscript · PDF pages '+from+'–'+to));
  root.replaceChildren(content);
  const toggle=document.getElementById('shaiva-sanskrit-toggle');
  const sanskritNodes=Array.from(root.querySelectorAll('.shaiva-sanskrit'));
@@ -124,7 +120,6 @@ async function render(){
   function apply(){for(const p of sanskritNodes)p.hidden=!show;toggle.textContent=show?'Hide Sanskrit':'Show Sanskrit';toggle.setAttribute('aria-pressed',String(show));}
   toggle.addEventListener('click',()=>{show=!show;writePreference(show);apply();});apply();
  }
- if(pageMatch)requestAnimationFrame(()=>document.getElementById('source-page-'+pageMatch[1])?.scrollIntoView());
 }
 render().catch(e=>{console.error('Unable to load the complete Śaiva manuscript',e);root.replaceChildren(make('p','shaiva-loading-error','The manuscript could not load. Refresh this page or open the preserved earlier edition.'));const a=make('a','','Open preserved earlier edition');a.href='source-original.html';root.append(a);});
 })();
