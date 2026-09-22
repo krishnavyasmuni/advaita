@@ -33,7 +33,17 @@
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch20-verses01-51.json?v=20260922-c3-20',
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch21-verses01-52.json?v=20260922-c3-21',
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch22-verses01-38.json?v=20260922-c3-22',
-    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch23-verses01-53.json?v=20260922-c3-23'
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch23-verses01-53.json?v=20260922-c3-23',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch24-verses01-43.json?v=20260922-c3-24',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch25-verses01-39.json?v=20260922-c3-25',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch26-verses01-63.json?v=20260922-c3-26',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch27-verses01-25.json?v=20260922-c3-27',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch28-verses01-38.json?v=20260922-c3-28',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch29-verses01-42.json?v=20260922-c3-29',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch30-verses01-31.json?v=20260922-c3-30',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch31-verses01-42.json?v=20260922-c3-31',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-38.json?v=20260922-c3-32',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto3-ch33-verses01-34.json?v=20260922-c3-33'
   );
   if (canto === 10) paths.push(
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto10-ch01-verses01-69.json?v=20260919-1',
