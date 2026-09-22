@@ -8252,6 +8252,44 @@
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
       "repaired_at": "2026-09-22",
       "repair_note": "Added source-specific Śrīdhara word-for-word pairs for every commentary-bearing source block; explicit no-commentary markers preserved."
+    },
+    {
+      "id": "canto-10-chapter-42-release",
+      "range": "ŚB 10.42.1–10.42.38",
+      "status": "source-checked-and-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/10/42/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/42.md",
+      "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "80d02e0f0031bdcbb57f6bdcf9f5d04fdb4b938",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/10/34-49/42.md",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch42-verses01-38.json"
+      ],
+      "records_checked": 38,
+      "exact_sridhara_source_blocks": 31,
+      "no_commentary_ranges": [
+        "10.42.9",
+        "10.42.10",
+        "10.42.11",
+        "10.42.18",
+        "10.42.31",
+        "10.42.33",
+        "10.42.35"
+      ],
+      "source_gap_ranges": [
+        "10.42.9",
+        "10.42.10",
+        "10.42.11",
+        "10.42.18",
+        "10.42.31",
+        "10.42.33",
+        "10.42.35"
+      ],
+      "live_render": null,
+      "generated_at": "2026-09-22",
+      "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
+      "repaired_at": "2026-09-22",
+      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for every commentary-bearing source block; explicit no-commentary markers preserved."
     }
   ],
   "generated_at": "2026-09-21"
