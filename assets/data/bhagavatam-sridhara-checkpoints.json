@@ -10613,50 +10613,24 @@
     {
       "id": "canto-3-chapter-2-release",
       "range": "ŚB 3.2.1–3.2.34",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-wfw-repaired",
       "english_source": "https://vedabase.io/en/library/sb/3/2/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/02.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "51f65bbdf357dc75b0148578f8ce01fe03458c25",
-      "source_path": "bhAgavatam/gauDIya-prastutiH/03/02.md",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/03/02_kRShNa-bAla-lIlA-varNanam.md",
       "reader_data_files": [
         "assets/data/bhagavatam-sridhara-wfw-canto3-ch02-verses01-34.json"
       ],
       "records_checked": 34,
-      "exact_sridhara_source_blocks": 22,
-      "no_commentary_ranges": [
-        "3.2.5",
-        "3.2.7",
-        "3.2.17",
-        "3.2.22",
-        "3.2.25",
-        "3.2.27",
-        "3.2.29",
-        "3.2.30",
-        "3.2.31",
-        "3.2.32",
-        "3.2.33",
-        "3.2.34"
-      ],
-      "source_gap_ranges": [
-        "3.2.5",
-        "3.2.7",
-        "3.2.17",
-        "3.2.22",
-        "3.2.25",
-        "3.2.27",
-        "3.2.29",
-        "3.2.30",
-        "3.2.31",
-        "3.2.32",
-        "3.2.33",
-        "3.2.34"
-      ],
+      "exact_sridhara_source_blocks": 34,
+      "no_commentary_ranges": [],
+      "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
+      "notes": "Canto 3.2 was re-audited against the pinned file. All 34 numbered verses have supplied Śrīdhara blocks; generated filler and false no-commentary records were removed.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for commentary-bearing source blocks; exact no-commentary markers preserved."
+      "repair_note": "Restored source blocks previously mislabeled as no commentary at 3.2.5, 3.2.7, 3.2.17, 3.2.22, 3.2.25, 3.2.27, and 3.2.29–3.2.34; all 34 blocks now have source-bound glosses."
     },
     {
       "id": "canto-3-chapter-3-release",
