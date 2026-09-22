@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked-and-reader-committed",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/80-86/_index.md",
   "source_blob_sha": "94e7c3850e85d11b8bfd1fc617eb25f033c8f63c",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 10 Chapter 84; explicit source gaps are preserved.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "ŚB 10.84.1–10.84.68; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -23,7 +23,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -40,7 +40,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -57,7 +57,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -74,7 +74,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -91,7 +91,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -108,7 +108,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -125,7 +125,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -142,7 +142,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -159,7 +159,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -176,7 +176,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -193,7 +193,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -210,7 +210,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -227,7 +227,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -244,7 +244,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -261,7 +261,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -278,7 +278,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -295,7 +295,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -312,7 +312,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -329,7 +329,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -346,7 +346,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -363,7 +363,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -380,7 +380,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -397,7 +397,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -414,7 +414,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -431,7 +431,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -448,7 +448,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -465,7 +465,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -482,7 +482,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -499,7 +499,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -516,7 +516,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -533,7 +533,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -550,7 +550,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -567,7 +567,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -584,7 +584,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -601,7 +601,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -618,7 +618,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -635,7 +635,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -652,7 +652,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -669,7 +669,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -686,7 +686,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -703,7 +703,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -720,7 +720,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -737,7 +737,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -754,7 +754,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -771,7 +771,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -788,7 +788,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -805,7 +805,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -822,7 +822,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -839,7 +839,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -856,7 +856,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -873,7 +873,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -890,7 +890,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -907,7 +907,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -924,7 +924,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -941,7 +941,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -958,7 +958,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -975,7 +975,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -992,7 +992,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1009,7 +1009,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1026,7 +1026,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1043,7 +1043,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1060,7 +1060,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1077,7 +1077,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1094,7 +1094,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1111,7 +1111,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1128,7 +1128,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1145,7 +1145,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1162,7 +1162,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "The pinned source directory has no supplied Śrīdhara block for this canonical verse; no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     }
   ]
 }

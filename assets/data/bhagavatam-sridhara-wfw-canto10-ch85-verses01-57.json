@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "source-checked; source-checked; lexical rows audited",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/80-86/72_bhagavatA_devakI-prArthanayA_tadIya-mRta-putrAN.md",
-  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed lexical audit completed; lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "ŚB 10.85.1–10.85.57; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -38,7 +38,7 @@
       ],
       "literal_english": "कृष्ण: Kṛṣṇa; राम: Rāma; नन्द: Nanda; ज्ञान: knowledge; तत्त्व: principle",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -63,7 +63,7 @@
       ],
       "literal_english": "धाम प्रभावस् तत् सूचकम्: dhām prbhāvs tt sūckm — splendor; its indicator; जात-विश्रम्भ उत्पन्न-विश्वासः: jāt-viśrmbh utpnn-viśvāsḥ — trust that has arisen; परिभाष्य सम्बोध्य: pribhāṣy smbodhy — having addressed; having instructed",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -80,7 +80,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -117,7 +117,7 @@
       ],
       "literal_english": "कृष्ण: Kṛṣṇa; राम: Rāma; बलराम: Balarāma; कर्म: action; देव: demigod; कारण: cause",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -154,7 +154,7 @@
       ],
       "literal_english": "ज्ञान: knowledge; आत्मन्: self; मनः: mind; कारण: cause; सृष्टि: creation; दान: gift",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -191,7 +191,7 @@
       ],
       "literal_english": "गुण: mode; सत्त्व: clarity; ब्रह्म: Brahmā; कारण: cause; कार्य: effect; पुरुष: Supreme Person",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -208,7 +208,7 @@
       ],
       "literal_english": "सत्त्व: clarity",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -225,7 +225,7 @@
       ],
       "literal_english": "देव: demigod",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -242,7 +242,7 @@
       ],
       "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -259,7 +259,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -276,7 +276,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -293,7 +293,7 @@
       ],
       "literal_english": "कार्य: effect",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -322,7 +322,7 @@
       ],
       "literal_english": "गुण: mode; सत्त्व: clarity; ब्रह्म: Brahmā; कार्य: effect",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -347,7 +347,7 @@
       ],
       "literal_english": "तस्मान् न सन्तीति: Therefore they do not exist.; नन्व् असतां कथं प्रतीतिरत आह---यर्हीति: ‘How can non-existent things be perceived?’ Therefore he says: ‘when…’; अन्य^१५३दा त्व-व्यावहारिको विकल्पकस् त्वम् एवावशिष्यस इत्य् अर्थः: any^१५३dā tv-vyāvhāriko viklpks tvm evāvśiṣys ity arthḥ — the meaning is: on another occasion, you alone remain, beyond practical distinctions",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -380,7 +380,7 @@
       ],
       "literal_english": "ज्ञान: knowledge; कर्म: action; देह: body; गुण: mode; संसार: material existence",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -397,7 +397,7 @@
       ],
       "literal_english": "तत्त्व: principle",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -414,7 +414,7 @@
       ],
       "literal_english": "देह: body",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -431,7 +431,7 @@
       ],
       "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -456,7 +456,7 @@
       ],
       "literal_english": "तत् तस्माद् अरणं शरणम् आपन्नानां संसृति-भयम् अपहन्तीति तथा तत्: tt tsmād arṇṃ śrṇm āpnnānāṃ sṃsṛti-bhym aphntīti tthā tt — therefore that is refuge, because it removes the fear of saṃsāra from those who take shelter; ननु त्वम् अति-सुखी वृथा किं निर्विद्यसेऽत आह---एतावतेति: ‘You are extremely happy; why do you become detached without cause?’ Therefore he says: ‘so much…’; इन्द्रिय-लालसेन इन्द्रियार्थ-तृष्णया: indriy-lālsen indriyārth-tṛṣṇyā — through craving for the objects of the senses",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -485,7 +485,7 @@
       ],
       "literal_english": "देवकी: Devakī; वसुदेव: Vasudeva; माया: illusion; देव: demigod",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -502,7 +502,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -531,7 +531,7 @@
       ],
       "literal_english": "उपमन्महे उपमन्यामहे: upmnmhe upmnyāmhe — we consider; we compare; समुद्दिश्य विषयी-कृत्य: smuddiśy viṣyī-kṛty — specifying; making [it] the object; तत्त्व-ग्रामस् तत्त्व-समूहः: The collection and group of principles.; उदाहृतः सम्यङ् निरूपितः: udāhṛtḥ smyṅ nirūpitḥ — cited; properly explained",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -548,7 +548,7 @@
       ],
       "literal_english": "ब्रह्म: Brahmā",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -581,7 +581,7 @@
       ],
       "literal_english": "धर्म: dharma; आत्मा: self; देह: body; गुण: mode; ब्रह्म: Brahmā",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -598,7 +598,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -615,7 +615,7 @@
       ],
       "literal_english": "सु-विस्मिता सती: su-vismitā stī — being greatly astonished",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -632,7 +632,7 @@
       ],
       "literal_english": "समाश्राव्य सम्बोध्य: smāśrāvy smbodhy — having made [her] hear; having informed",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -649,7 +649,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -666,7 +666,7 @@
       ],
       "literal_english": "भूमेर् भारायमाणानां राज्ञाम् अर्थे तेषां निधनार्थं मे मयि किलावतीर्णौ: For the sake of the kings who burdened the earth, for their destruction, you two descended in me.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -695,7 +695,7 @@
       ],
       "literal_english": "माया: illusion; गुण: mode; शरण: shelter; पुरुष: Supreme Person",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -712,7 +712,7 @@
       ],
       "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -729,7 +729,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -758,7 +758,7 @@
       ],
       "literal_english": "दैत्य-राड् बलिः: daity-rāḍ bliḥ — Bali, the king of the demons; कथं भूतौ: Of what nature—how situated?; विश्वस्यात्म-भूतं दैवम्: viśvsyātm-bhūtṃ daivm — the Lord who is the self of the universe; सान्वयः स-परिवरः: Together with descendants and retinue.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -775,7 +775,7 @@
       ],
       "literal_english": "ब्रह्म: Brahmā",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -792,7 +792,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -817,7 +817,7 @@
       ],
       "literal_english": "इन्द्रसेनो बलिः: indrseno bliḥ — Bali, called Indrasena; प्रेम-विभिन्नया प्रेमार्द्रया धिया: With a mind softened and broken by love.; बिभ्रद् धारयन्: bibhrd dhāryn — bearing; holding",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -850,7 +850,7 @@
       ],
       "literal_english": "कृष्ण: Kṛṣṇa; नन्द: Nanda; ज्ञान: knowledge; योग: yoga; दान: gift",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -871,7 +871,7 @@
       ],
       "literal_english": "रजस्: passion; योग: yoga",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -888,7 +888,7 @@
       ],
       "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -905,7 +905,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -934,7 +934,7 @@
       ],
       "literal_english": "गोप: cowherd; भक्ति: devotion; सत्त्व: clarity; काम: desire",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -951,7 +951,7 @@
       ],
       "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -980,7 +980,7 @@
       ],
       "literal_english": "राम: Rāma; काम: desire; शरण: shelter; फल: result",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -997,7 +997,7 @@
       ],
       "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1018,7 +1018,7 @@
       ],
       "literal_english": "देव: demigod; कारण: cause",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1035,7 +1035,7 @@
       ],
       "literal_english": "कर्म: action",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1060,7 +1060,7 @@
       ],
       "literal_english": "कंस: Kaṁsa; योग: yoga; देव: demigod",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1077,7 +1077,7 @@
       ],
       "literal_english": "लोकं देव-लोकम्: The world—the world of the gods.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1110,7 +1110,7 @@
       ],
       "literal_english": "स्मरोद्-गीथः स्मर-सहित उद्गीथः: Udgītha accompanied by Smara.; सद्-गुतिं मोक्षम्: sd-gutiṃ mokṣm — the good destination; liberation; स्मरस्यैव पूर्वं कीर्तिमान् इति नाम: Previously named Kīrtimān, belonging to Smara himself.; अतः कीर्तिमन्तं प्रथम-जं कंसायानकदुन्दुभिः: Therefore Ānakadundubhi gave his first-born, Kīrtimān, to Kaṁsa.; अर्पयाम् आस \\भा: arpyām ās \\bhā — he bestowed",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1127,7 +1127,7 @@
       ],
       "literal_english": "अयच्छताम् अर्पयाम् आसतुः: aycchtām arpyām āstuḥ — the two bestowed; the two gave",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1144,7 +1144,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1161,7 +1161,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1186,7 +1186,7 @@
       ],
       "literal_english": "देवकी: Devakī; नन्द: Nanda; देव: demigod",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1203,7 +1203,7 @@
       ],
       "literal_english": "धाम देव-लोकम्: Abode—the world of the gods.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1224,7 +1224,7 @@
       ],
       "literal_english": "कृष्ण: Kṛṣṇa; माया: illusion",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1241,7 +1241,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1270,7 +1270,7 @@
       ],
       "literal_english": "नन्द: Nanda; मोक्ष: liberation; पूजा: worship; सुख: happiness",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ],
   "source_blob_sha": "03b20fc7d06cbed8a01dfeeb4354b675f5dc7129"

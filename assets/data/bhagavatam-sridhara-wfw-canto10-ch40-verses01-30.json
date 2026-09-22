@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked-and-reader-committed",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/34-49/40.md",
   "source_blob_sha": "eec1f396f7155abacc281643b7f1c015dceef81b",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 10 Chapter 40; grouped source ranges are preserved.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "ŚB 10.40.1–10.40.30; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -43,7 +43,7 @@
       ],
       "literal_english": "Literal rendering: त्वाम्: You; नतोऽस्मि: I bow; आद्यम् पुरुषम् अव्ययम्: the original imperishable Person; अखिल-हेतूनाम् हेतुम्: the cause of all causes; नारायणम्: Nārāyaṇa; नाभि-जातात्: born from the navel.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -88,7 +88,7 @@
       ],
       "literal_english": "Literal rendering: अखिल-हेतु-हेतुत्वम्: being the cause of all causes; भूः: earth; खस्य आदिः: the beginning of ether; अहङ्कारः: false ego; अजा: the unmanifest material nature; माया: Māyā; पुरुषः: the Person; अङ्ग-भूताः: become limbs.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -129,7 +129,7 @@
       ],
       "literal_english": "Literal rendering: अति-स्तुतिः: excessive praise; अनात्मतया: as not the Self; जडत्वेन: because of inertness; अजः: Brahmā, the unborn; गुणैः अनुबद्धः: bound by the modes; गुणातीतम्: beyond the modes; स्वरूपम्: true nature.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -174,7 +174,7 @@
       ],
       "literal_english": "Literal rendering: योगिनः: yogīs; हैरण्य-गर्भाः: those related to Hiraṇyagarbha; अध्यात्म: the individual self; अधिभूत: the elements; अधिदैव: the presiding deities; साक्षिणम्: the witness; अन्तर्यामि-स्वरूपम्: the form of the indwelling Lord; ईश्वरम्: the controller.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -211,7 +211,7 @@
       ],
       "literal_english": "Literal rendering: त्रयी: the three Vedas; वैतानिकाः: performers of Vedic sacrifice; कर्म-योगिनः: practitioners of karma-yoga; त्वाम् एव: You alone; इन्द्र-वरुण-वाय्व्-आदीन्: Indra, Varuṇa, Vāyu and others; आख्यया: by the designation.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -232,7 +232,7 @@
       ],
       "literal_english": "Literal rendering: ज्ञान-यज्ञेन: by the sacrifice of knowledge; समाधिना: by absorption in meditation.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -265,7 +265,7 @@
       ],
       "literal_english": "Literal rendering: संस्कृतात्मानः: those whose selves are refined; वैष्णव-शैव-दीक्षा: initiation in Vaiṣṇava or Śaiva rites; त्वन्मयाः: filled with You; पञ्चरात्रादि-विधिना: by the Pañcarātra and other procedures; वासुदेव-सङ्कर्षण-प्रद्युम्न-अनिरुद्ध: Vāsudeva, Saṅkarṣaṇa, Pradyumna and Aniruddha.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -290,7 +290,7 @@
       ],
       "literal_english": "Literal rendering: बह्व्-आचार्य-विभेदेन: through the distinction of many teachers; शैव-पाशुपतादि-मार्गेन: through Śaiva, Pāśupata and other paths; त्वाम् एव: You alone.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -319,7 +319,7 @@
       ],
       "literal_english": "Literal rendering: क्षुद्र-देवता-भक्ताः: devotees of lesser deities; सर्व-देव-मय: whose form is all the gods; अन्य-धियः: with differing conceptions; बुद्धि-मात्र-भेदः: only a difference of understanding.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -356,7 +356,7 @@
       ],
       "literal_english": "Literal rendering: सर्वे मार्गाः: all paths; अद्रेः सकाशात्: from the mountain; नद्यः: rivers; पर्जन्येन: by rain; सिन्धुम्: the ocean; गतयः: destinations.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -397,7 +397,7 @@
       ],
       "literal_english": "Literal rendering: सत्त्वम्: goodness; प्रकृतिः: material nature; गुणाः: modes; ब्रह्म-पर्यन्ताः: up to Brahmā; जीवाः: living beings; उपाधि: designation; त्वयि: in You.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -430,7 +430,7 @@
       ],
       "literal_english": "Literal rendering: तुभ्यम्: to You; अविभक्त-दृष्टिः: whose vision is undivided; अलिप्त-बुद्धिः: whose intelligence is unattached; सर्वात्मन्: O Self of all; सर्व-धियां साक्षिन्: witness of every intelligence.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -471,7 +471,7 @@
       ],
       "literal_english": "Literal rendering: अग्निः मुखम्: fire is the mouth; ईक्षणम्: sight; चक्षुः: the eye; श्रुतिः: hearing; कं मूर्धा: the sky is the head; प्राणः: life air; बलम्: strength.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -496,7 +496,7 @@
       ],
       "literal_english": "Literal rendering: अद्रयः: mountains; अस्थि: bones; नखानि: nails.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -533,7 +533,7 @@
       ],
       "literal_english": "Literal rendering: प्रपञ्चः: the universe; त्वद्-अवयव-भूतः: constituting Your limbs; षट्-विकाराः: the six transformations; अव्ययात्मन्: O immutable Self; पूर्णः: complete; मनोमयः: comprised of mind.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -566,7 +566,7 @@
       ],
       "literal_english": "Literal rendering: स्वरूपम्: true nature; दुरवगाहम्: difficult to fathom; अवतार-कथामृतम्: the nectar of the narratives of Your incarnations; आमृष्टाः: cleansed; शुक्: sorrow.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -599,7 +599,7 @@
       ],
       "literal_english": "Literal rendering: हयशीर्ष: Hayagrīva; हयग्रीवाय: unto Hayagrīva; मधु-कैटभयोः: of Madhu and Kaiṭabha; मृत्यवे: unto the killer; हन्त्रे: unto the slayer.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -628,7 +628,7 @@
       ],
       "literal_english": "Literal rendering: अकूपाराय: unto the Tortoise; कूर्माय: unto Kūrma; क्षित्य्-उद्धारः: lifting up the earth; विहारः: whose sport.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -645,7 +645,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -666,7 +666,7 @@
       ],
       "literal_english": "Literal rendering: भृगूणाम् पतये: unto the lord of the Bhṛgus; परशुरामाय: unto Paraśurāma.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -699,7 +699,7 @@
       ],
       "literal_english": "Literal rendering: चतुर्-व्यूह: the fourfold expansion; वासुदेवाय: unto Vāsudeva; सङ्कर्षण: Saṅkarṣaṇa; प्रद्युम्न: Pradyumna; अनिरुद्ध: Aniruddha.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -716,7 +716,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -745,7 +745,7 @@
       ],
       "literal_english": "Literal rendering: बन्ध-मोक्षम्: bondage and liberation; असति देहादौ: when the body and so on are unreal; ग्राहः: grasping; असत्-ग्राहः: grasping the unreal.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -782,7 +782,7 @@
       ],
       "literal_english": "Literal rendering: लोक-वृत्तम्: the worldly condition; आत्मा: the self; देहः: the body; अर्थः: wealth; हिरण्यम्: gold; पशु: cattle.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -819,7 +819,7 @@
       ],
       "literal_english": "Literal rendering: मूढत्वम्: bewilderment; विपर्यय-मति: perverted understanding; अनित्ये: in the temporary; अनात्मनि: in what is not the self; द्वन्द्वेषु: in dualities; तमो-विष्टः: overcome by darkness.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -852,7 +852,7 @@
       ],
       "literal_english": "Literal rendering: जलात् उद्भवानि: arising from water; तृणादीनि: grass and so on; माया-च्छन्नम्: covered by Māyā; पराङ्मुखः: turned away; देहाभिमुखः: turned toward the body.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -889,7 +889,7 @@
       ],
       "literal_english": "Literal rendering: विषय-वासना: desire for sense objects; कृपणा धीः: a pitiable intelligence; काम-कर्मभ्याम्: by desire and action; इन्द्रियैः: by the senses; मनः: the mind; रोद्धुम्: to restrain.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -926,7 +926,7 @@
       ],
       "literal_english": "Literal rendering: अस्वतन्त्रः: not independent; तव अङ्घ्रिम्: Your feet; शरणम्: shelter; ईश: O Lord; दुरापम्: difficult to attain; अनुग्रहः: mercy.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -963,7 +963,7 @@
       ],
       "literal_english": "Literal rendering: विज्ञान-मात्रा मूर्तिः: whose form is pure consciousness; सर्व-प्रत्यय-हेतवे: the cause of all cognition; पुरुषस्य ईशाः: the controllers of the person; काल-कर्म-स्वभाव: time, action and nature; ब्रह्मणे: unto the complete; अनन्त-शक्तये: unto the possessor of infinite powers.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1012,7 +1012,7 @@
       ],
       "literal_english": "Literal rendering: वासुदेवाय: unto Vāsudeva; चित्त-अधिष्ठात्रे: unto the presiding Lord of the mind; सर्व-भूत-क्षयाय: unto the shelter of all beings; सङ्कर्षणाय: unto Saṅkarṣaṇa; हृषीकेश: Hṛṣīkeśa; प्रद्युम्न: Pradyumna; अनिरुद्ध: Aniruddha; शरणागतम्: one who has taken shelter; पाहि: protect.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ]
 }

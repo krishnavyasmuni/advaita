@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/01-11/07.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.7.1–10.7.37; grouped source ranges and source gaps are preserved exactly from the pinned local cache.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 7, all 37 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -72,7 +72,8 @@
         ]
       ],
       "literal_english": "The seventh chapter describes Kṛṣṇa drinking the life-breath of the demon Pūtanā under the pretense of nursing, overturning the cart, throwing Tṛṇāvarta down, and showing the universe in His mouth. The king, filled with the nectar of the ocean of Kṛṣṇa’s childhood, praises the subject and asks to hear more. The phrase ‘by whatever form’ means that whatever deeds the Lord performs even in incarnations such as Matsya become pleasing to the ear and bring joy to the mind.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -123,7 +124,8 @@
         ]
       ],
       "literal_english": "Even so, hearing the account removes a person’s disinterest, mental weariness and the many desires that arise from them. It produces purity of sattva, devotion to Hari and friendship with Hari’s servants. If you grant this favor, tell the story of Hari that is a garland of such deeds, or that captivates the mind.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -146,7 +148,8 @@
         ]
       ],
       "literal_english": "The phrase atha intensifies the eagerness. Anurundhata means ‘imitating’ or ‘following.’",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -162,7 +165,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -201,7 +204,8 @@
         ]
       ],
       "literal_english": "After being honored with food and other offerings by the brāhmaṇas, who performed auspicious rites, the child’s eyes became sleepy. They laid him down beneath the cart, on a swing, as his observance required.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -224,7 +228,8 @@
         ]
       ],
       "literal_english": "He lifted it upward; he moved it above.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -279,7 +284,8 @@
         ]
       ],
       "literal_english": "The cart, beneath which the child lay, was overturned by the blow of his small, tender foot, like a sprout. The demon in the shape of the cart fell upside down. The vessels, filled with various substances and made of bronze and other metals apart from gold and silver, were thrown about. The wheel and axle were displaced, the cart-pole was broken, and everything changed its proper arrangement.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -306,7 +312,8 @@
         ]
       ],
       "literal_english": "They became agitated on seeing the astonishing event. This is stated by the question ‘how?’: it fell upside down, contrary to its former position.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -325,7 +332,8 @@
         ]
       ],
       "literal_english": "Their minds were unsettled, uncertain and raised upon doubt.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -356,7 +364,8 @@
         ]
       ],
       "literal_english": "They did not believe it and did not accept it as true. They thought: ‘This cannot be the deed of a child; what could these children know?’",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -375,7 +384,8 @@
         ]
       ],
       "literal_english": "They performed the rite with hymns that destroy demons.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -414,7 +424,8 @@
         ]
       ],
       "literal_english": "The brāhmaṇas, unaware of the Lord’s power, imitate the earlier procedure. Balibhiḥ means ‘by the powerful ones’; alternatively it means that, together with offerings for the eight directions, the brāhmaṇas worshiped the child as before with curd and other items, after performing the fire offering.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -453,7 +464,8 @@
         ]
       ],
       "literal_english": "Asūyā means exposing faults in good qualities; īrṣyā means intolerance or jealousy. The blessings they had made were the blessings uttered by those brāhmaṇas.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -488,7 +500,8 @@
         ]
       ],
       "literal_english": "With that intention, the foremost brāhmaṇas performed the ablution using water containing pure herbs, consecrated by the formulas of the Sāma, Ṛg and Yajur Vedas.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -504,7 +517,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -520,7 +533,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -536,7 +549,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -575,7 +588,8 @@
         ]
       ],
       "literal_english": "In play the child lifted the cart into the sky with His soft foot and pressed Tṛṇāvarta down with His foot, throwing him to the ground. The phrase āroham utsaṅgam means ‘climb onto the lap.’",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -618,7 +632,8 @@
         ]
       ],
       "literal_english": "Not knowing that Kṛṣṇa had made Himself heavy in order to save Himself from Tṛṇāvarta, Yaśodā, fearing a calamity, meditated on the Supreme Person. She was astonished, oppressed by the weight of the worlds contained within Kṛṣṇa’s abdomen. Alternatively, He was present among the activities of the worlds; the worlds themselves did not know that He was their inner belly.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -641,7 +656,8 @@
         ]
       ],
       "literal_english": "The explanation of the previous verse should be consulted.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -660,7 +676,8 @@
         ]
       ],
       "literal_english": "He made a sound; that is the meaning.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -687,7 +704,8 @@
         ]
       ],
       "literal_english": "She did not see him in the place where she had set him down.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -702,7 +720,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -729,7 +748,8 @@
         ]
       ],
       "literal_english": "A fierce wind arose from the whirlwind when the rain of dust was falling.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -745,7 +765,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -780,7 +800,8 @@
         ]
       ],
       "literal_english": "The whirlwind, taking that form, carried Kṛṣṇa. Its force became still, and after somehow reaching the sky it could not go any farther upward.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -815,7 +836,8 @@
         ]
       ],
       "literal_english": "Because of His great heaviness, Tṛṇāvarta considered Him like a stone or a mountain. Kṛṣṇa, holding him by the throat, was held by him; although Tṛṇāvarta wanted to cast Him off, he could not do so.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -830,7 +852,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -845,7 +868,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -888,7 +912,8 @@
         ]
       ],
       "literal_english": "They took Kṛṣṇa, who was hanging upon the demon’s chest, brought Him back to His mother, and handed Him over. They were astonished: the demon had carried Him through the sky, yet He had been recovered from the mouth of death and they rejoiced.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -919,7 +944,8 @@
         ]
       ],
       "literal_english": "They spoke to one another about the joyful event: ‘Ah, how wonderful!’ Death had been brought to its end. Some of them say that this is not surprising at all; it naturally happened. Others among them say that the demon was ferocious.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -935,7 +961,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -950,7 +976,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -989,7 +1016,8 @@
         ]
       ],
       "literal_english": "When Yaśodā was expecting the heavy arrival of Tṛṇāvarta, Kṛṣṇa awakened her and showed the universe in His yawning mouth.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1016,7 +1044,8 @@
         ]
       ],
       "literal_english": "This means that He had almost finished drinking: the breast had been almost entirely drunk by Him.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1043,7 +1072,8 @@
         ]
       ],
       "literal_english": "The mountains and their daughters, the rivers.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1058,7 +1088,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ]
 }

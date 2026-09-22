@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/18-28/24.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.24.1–10.24.38; source gaps and explicit no-commentary records are preserved exactly from the pinned local cache.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 24, all 38 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -52,7 +52,8 @@
         ]
       ],
       "literal_english": "In the Twenty-fourth Chapter, Kṛṣṇa turned the cowherds away from Indra’s sacrifice with reasons and initiated the Govardhana festival. He removed the ritual pride of the brāhmaṇas and broke Maghavan’s pride. The fearful brāhmaṇas worshiped Bhagavān while remaining in their own āśramas, and Bhagavān, residing there, saw the cowherds preparing Indra’s sacrifice.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -67,7 +68,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -114,7 +116,8 @@
         ]
       ],
       "literal_english": "“If this sacrifice is not fruitless, what is its result, who is the deity, by whom is it performed, and by what means is it accomplished?”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -161,7 +164,8 @@
         ]
       ],
       "literal_english": "Nanda says that a great desire for hearing is present—perhaps meaning that Kṛṣṇa Himself has a great desire to hear. Kṛṣṇa replies by silence: for those who see the Self everywhere there is no distinction between one’s own and another’s, and therefore no separate enemy, neutral person or friend whose affairs must be hidden.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -208,7 +212,8 @@
         ]
       ],
       "literal_english": "Nanda says that a great desire for hearing is present—perhaps meaning that Kṛṣṇa Himself has a great desire to hear. Kṛṣṇa replies by silence: for those who see the Self everywhere there is no distinction between one’s own and another’s, and therefore no separate enemy, neutral person or friend whose affairs must be hidden.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -251,7 +256,8 @@
         ]
       ],
       "literal_english": "Action should be performed after considering it with friends and understanding it, not merely by following tradition. The learned person’s action bears its proper result; this does not follow simply for the ignorant person who acts without understanding.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -294,7 +300,8 @@
         ]
       ],
       "literal_english": "“Is this ritual practice of yours established after consideration from scripture, or is it merely worldly custom received through tradition? Explain it properly and with reasons.”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -337,7 +344,8 @@
         ]
       ],
       "literal_english": "Indra is regarded as the Lord and controller through his giving rain. Special devotion to him is thought to satisfy him and give life to grass and other plants that are almost dead.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -376,7 +384,8 @@
         ]
       ],
       "literal_english": "“We and other people worship the lord of the rain-clouds, the controller, with sacrifices and the prepared materials that possess productive power.”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -415,7 +424,8 @@
         ]
       ],
       "literal_english": "They live by the rain for the attainment of duty, prosperity and desire. Rain is regarded as producing the result, because without it agriculture and similar activities fail.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -430,7 +440,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -465,7 +476,8 @@
         ]
       ],
       "literal_english": "The rejection of the deity is not the final intention; the purpose is to provoke Indra’s anger and bring him down from the mountain of pride.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -508,7 +520,8 @@
         ]
       ],
       "literal_english": "First he rejects dependence on the gods through the doctrine of karma. If someone asks how an inert action can produce a result, the answer is that Mīmāṁsakas have great faith in karma’s being the cause of results because this is established by scriptural statements.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -543,7 +556,8 @@
         ]
       ],
       "literal_english": "Some, afraid of going too far, consider the Lord dependent on karma. This view is restated and rejected: the Lord Himself is untouched by actions, yet gives living beings the results of their respective actions.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -586,7 +600,8 @@
         ]
       ],
       "literal_english": "Since the result is accomplished by karma itself, and karma’s supposed dependence is like a goat’s hanging breast, no deity is needed. The action is ordained by nature—by previous impressions—and the performer is unable to alter it.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -617,7 +632,8 @@
         ]
       ],
       "literal_english": "He explains that activity is controlled by nature because it depends on previous impressions; therefore, he asks, what need is there to invoke an indwelling controller?",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -656,7 +672,8 @@
         ]
       ],
       "literal_english": "Therefore, because action arising from nature is presented as the cause of everything, karma alone should be worshiped; the argument is continued through the bodies produced by it.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -691,7 +708,8 @@
         ]
       ],
       "literal_english": "Sampūjayed means “one should honor.” If one objects that ritual action consists in giving materials to a deity and therefore cannot succeed without one, the reply treats the deity as only a limb of the ritual and supports the causal argument directly.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -726,7 +744,8 @@
         ]
       ],
       "literal_english": "By the force of the argument he points out the fault in the opposing view: the person who depends on something is serving it and living by it.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -757,7 +776,8 @@
         ]
       ],
       "literal_english": "To explain his own occupation, he gives the different occupations of the social classes. The brāhmaṇa lives by teaching the Veda and related work.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -796,7 +816,8 @@
         ]
       ],
       "literal_english": "The vaiśya occupation is fourfold: agriculture, trade, cow protection, and lending at interest, living from the increase.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -831,7 +852,8 @@
         ]
       ],
       "literal_english": "If one objects that even the cows’ livelihood depends on great Indra, he refutes this through the non-theistic Sāṅkhya view: living production arises through the union of female and male, not through dependence on Indra.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -874,7 +896,8 @@
         ]
       ],
       "literal_english": "Rain falls everywhere, even on oceans, rocks and saline lands; therefore it is not shown to be preceded by an intelligent purpose. Living beings prosper through the clouds themselves.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -909,7 +932,8 @@
         ]
       ],
       "literal_english": "If one claims that a deity is needed for livelihood and protection, the answer is that towns and countries have their own means; for us, forests, mountains and the like are the causes of our livelihood and protection.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -944,7 +968,8 @@
         ]
       ],
       "literal_english": "Including the brāhmaṇas, he concludes the argument and proposes a new arrangement using the materials of Indra’s sacrifice; the materials are the means.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -983,7 +1008,8 @@
         ]
       ],
       "literal_english": "Sūpa is mung-bean soup; pāyasa is cooked in milk; sanyāva and similar foods are preparations of wheat and related grains, listed in their ritual order.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1018,7 +1044,8 @@
         ]
       ],
       "literal_english": "For the beauty of the sacrifice and to produce faith, he says that offerings should be made. The gifts are cows, or gifts accompanied by cows.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1045,7 +1072,8 @@
         ]
       ],
       "literal_english": "Yavasa means grass or fodder.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1060,7 +1088,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1095,7 +1124,8 @@
         ]
       ],
       "literal_english": "He approved everyone with a nod of His head and said, “This is for the cows, the brāhmaṇas and the mountains—and for Me.”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1110,7 +1140,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1141,7 +1172,8 @@
         ]
       ],
       "literal_english": "With that material—the materials of Indra’s sacrifice—they should honor Govardhana Hill and the brāhmaṇas appropriately.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1157,7 +1189,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1184,7 +1216,8 @@
         ]
       ],
       "literal_english": "The carts were joined to excellent oxen and accompanied by the blessings of the brāhmaṇas.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1200,7 +1233,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1235,7 +1268,8 @@
         ]
       ],
       "literal_english": "To that Self, Kṛṣṇa offered obeisance with His own self, together with the people of Vraja, reciting the exclamation “Ah!”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1266,7 +1300,8 @@
         ]
       ],
       "literal_english": "The mountain is described as taking the form of desire and of a serpent and the like; to this mountain the offering is made for welfare and safety.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1297,7 +1332,8 @@
         ]
       ],
       "literal_english": "The mountain is described as taking the form of desire and of a serpent and the like; to this mountain the offering is made for welfare and safety.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ]
 }

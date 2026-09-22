@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/29-33_rasa-panchAdhyAya/33_atha-trayastriMshodhyAyaH_unnumbered.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.33.1–10.33.39; the pinned cache’s closing numbering drift is recorded without altering any supplied Sanskrit.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 33, all 39 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap records.",
   "entries": [
     {
@@ -44,7 +44,8 @@
         ]
       ],
       "literal_english": "The gopīs heard the charming words of the Supreme Lord, and their pain of separation ended. Touching His body, they felt their desires fulfilled; Śrīdhara connects this fulfillment with the Lord’s limbs and with the forest pastimes.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -60,7 +61,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -104,7 +105,7 @@
       ],
       "literal_english": "The rāsa festival began, adorned by the circle of gopīs. Kṛṣṇa entered between every pair and held each woman close, while the sky filled with the celestial beings’ airplanes.",
       "source_available": true,
-      "source_note": "The supplied Śrīdhara source block spans 10.33.3–10.33.4 and is repeated unchanged in the verse-level reader records."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -136,7 +137,7 @@
       ],
       "literal_english": "Kettledrums sounded, flowers fell, and the Gandharva chiefs with their wives sang the Lord’s stainless glory.",
       "source_available": true,
-      "source_note": "The supplied Śrīdhara source block spans 10.33.3–10.33.4 and is repeated unchanged in the verse-level reader records."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -163,7 +164,8 @@
         ]
       ],
       "literal_english": "The armlets, ankle bells and waist bells of the women who danced with Kṛṣṇa produced a tumultuous sound throughout the rāsa circle.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -186,7 +188,8 @@
         ]
       ],
       "literal_english": "The singers praised the spotless, pure glory of the Supreme Lord Śrī Kṛṣṇa.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -217,7 +220,8 @@
         ]
       ],
       "literal_english": "Kṛṣṇa shone among the golden-hued gopīs like a great sapphire or blue jewel among golden ornaments.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -264,7 +268,8 @@
         ]
       ],
       "literal_english": "Śrīdhara compares the dancing scene to lightning in a cloud: the gopīs’ feet and arms moved, their eyebrows played, their waists bent, their earrings swung, their faces perspired, and their hair and belts loosened.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -295,7 +300,8 @@
         ]
       ],
       "literal_english": "The gopīs danced and sang loudly, delighted by Kṛṣṇa’s touch; their colored throats and songs filled the world.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -338,7 +344,8 @@
         ]
       ],
       "literal_english": "One gopī sang pure notes with Mukunda and was praised by Him. Another repeated the melody in a fixed rhythmic form and received special honor.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -365,7 +372,8 @@
         ]
       ],
       "literal_english": "A gopī exhausted by the rāsa dance grasped Kṛṣṇa’s shoulder with her arm; the dance had loosened her bracelets and jasmine flowers.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -381,7 +389,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -416,7 +424,8 @@
         ]
       ],
       "literal_english": "A gopī smelled Kṛṣṇa’s sandalwood-smeared arm, fragrant like a lotus, and kissed it with joyful hairs standing on her body.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -451,7 +460,8 @@
         ]
       ],
       "literal_english": "Another gopī held Kṛṣṇa’s shoulder and back as He moved; the source points to the sound of her anklet and girdle.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -478,7 +488,8 @@
         ]
       ],
       "literal_english": "The other gopīs also sported with Kṛṣṇa, each according to her own varied graceful movements.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -517,7 +528,8 @@
         ]
       ],
       "literal_english": "Śrīdhara describes the gopīs dancing with Kṛṣṇa amid the sounds of ornaments, perspiration, loosened garlands and hair, while the bees of the rāsa gathering serve as singers.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -544,7 +556,8 @@
         ]
       ],
       "literal_english": "Kṛṣṇa enjoyed with the gopīs through His own pastimes, like a child playing with his own reflections; the activity is His own artistry shared with them.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -575,7 +588,8 @@
         ]
       ],
       "literal_english": "Overcome with joy from contact with Kṛṣṇa, the gopīs could not quickly restore their loosened hair and other bindings; their garlands and ornaments had slipped.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -606,7 +620,8 @@
         ]
       ],
       "literal_english": "The gopīs’ senses were overwhelmed by Kṛṣṇa’s play, and even the demigods’ wives became disturbed. The astonished moon seemed to forget its course, so the night became very long and they enjoyed freely.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -633,7 +648,8 @@
         ]
       ],
       "literal_english": "Because each gopī had prayed for Kṛṣṇa as her husband and He had promised to fulfill that desire, He manifested as many forms as there were gopīs and enjoyed with them.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -656,7 +672,8 @@
         ]
       ],
       "literal_english": "Śrīdhara marks the next statement as an expression of Kṛṣṇa’s exceptional mercy toward the gopīs.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -687,7 +704,8 @@
         ]
       ],
       "literal_english": "The delighted gopīs honored Kṛṣṇa with smiling glances and sang of His deeds; the touch of His fingernails increased their joy.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -726,7 +744,8 @@
         ]
       ],
       "literal_english": "Kṛṣṇa entered the water with the gopīs, following garlands scented and colored by their contact and breast kuṅkuma. He broke through the embankment and crossed ordinary worldly and Vedic limits.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -749,7 +768,8 @@
         ]
       ],
       "literal_english": "Although self-satisfied and self-delighting, Kṛṣṇa still enjoyed in the water within the circle of gopīs.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -780,7 +800,8 @@
         ]
       ],
       "literal_english": "Kṛṣṇa then went to a Yamunā grove filled with the fragrance of flowers from land and water, carried by the breeze and surrounded by bees and beautiful women.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -815,7 +836,8 @@
         ]
       ],
       "literal_english": "Kṛṣṇa, whose resolve is true, spent all the autumn nights among loving women. Śrīdhara stresses that He remained self-contained, so this is presented as victory over lust.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -831,7 +853,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "The pinned cache preserves the exact Śrīdhara sentinel for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -854,7 +876,8 @@
         ]
       ],
       "literal_english": "The question asks how the self-satisfied Lord could have acted in a way contrary to dharma by touching the wives of others.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -885,7 +908,8 @@
         ]
       ],
       "literal_english": "The answer begins by asking why an act condemned as adharma was performed by one whose desires are already fulfilled.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -916,7 +940,8 @@
         ]
       ],
       "literal_english": "Śrīdhara answers by the greater-to-lesser reasoning that great controllers may perform acts that would be faults in ordinary people; even famous powerful figures are cited as examples.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -951,7 +976,8 @@
         ]
       ],
       "literal_english": "A person may think that whatever a great person does can be imitated. Śrīdhara rejects this: an ordinary embodied person who is not an independent controller would be destroyed by imitating Rudra’s drinking of poison.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -982,7 +1008,8 @@
         ]
       ],
       "literal_english": "The words of the empowered controllers are true, and their conduct is exemplary when it accords with their own instructions; one should follow what is consistent and non-contradictory.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1010,7 +1037,7 @@
       ],
       "literal_english": "The great beings’ apparent transgressions serve only to exhaust their previously begun karma; that exhaustion is their remaining task.",
       "source_available": true,
-      "source_note": "The pinned cache’s closing labels drift by one verse; this exact supplied block is aligned to the canonical verse by its Sanskrit content and the pinned English mirror. The Devanāgarī is preserved verbatim."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1046,7 +1073,7 @@
       ],
       "literal_english": "Those satisfied by serving the dust of the Lord’s lotus feet are devotees, and the wise are not bound by material reactions. Therefore the Lord, who assumes forms by His own will, cannot be bound.",
       "source_available": true,
-      "source_note": "The pinned cache’s closing labels drift by one verse; this exact supplied block is aligned to the canonical verse by its Sanskrit content and the pinned English mirror. The Devanāgarī is preserved verbatim."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1074,7 +1101,7 @@
       ],
       "literal_english": "The Lord is the indwelling witness within the gopīs and their husbands and is the embodied enjoyer in the play, but He is not a limited person like us who could incur such fault.",
       "source_available": true,
-      "source_note": "The pinned cache’s closing labels drift by one verse; this exact supplied block is aligned to the canonical verse by its Sanskrit content and the pinned English mirror. The Devanāgarī is preserved verbatim."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1102,7 +1129,7 @@
       ],
       "literal_english": "The Lord manifests humanlike pastimes out of mercy, to make even those whose minds are turned outward toward romantic pleasure become His own.",
       "source_available": true,
-      "source_note": "The pinned cache’s closing labels drift by one verse; this exact supplied block is aligned to the canonical verse by its Sanskrit content and the pinned English mirror. The Devanāgarī is preserved verbatim."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1130,7 +1157,7 @@
       ],
       "literal_english": "The cowherd men did not envy Kṛṣṇa. Śrīdhara says that people who perform such acts without the Lord’s extraordinary power should be understood as sinful.",
       "source_available": true,
-      "source_note": "The pinned cache’s closing labels drift by one verse; this exact supplied block is aligned to the canonical verse by its Sanskrit content and the pinned English mirror. The Devanāgarī is preserved verbatim."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1158,7 +1185,7 @@
       ],
       "literal_english": "When Brahmā’s night had passed and the Brahma-muhūrta arrived, the gopīs’ nocturnal pastime came to its close and they were sent back.",
       "source_available": true,
-      "source_note": "The pinned cache’s closing labels drift by one verse; this exact supplied block is aligned to the canonical verse by its Sanskrit content and the pinned English mirror. The Devanāgarī is preserved verbatim."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1198,7 +1225,7 @@
       ],
       "literal_english": "The concluding teaching is that faithful hearing or description of Kṛṣṇa’s pastimes with the women of Vraja brings pure devotion and quickly removes lust, the heart’s disease.",
       "source_available": true,
-      "source_note": "The pinned cache’s closing labels drift by one verse; this exact supplied block is aligned to the canonical verse by its Sanskrit content and the pinned English mirror. The Devanāgarī is preserved verbatim."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ]
 }

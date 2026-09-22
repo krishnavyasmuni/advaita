@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/12-17/17.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.17.1–10.17.25; source gaps and explicit no-commentary records are preserved exactly from the pinned local cache.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 17, all 25 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -60,7 +60,8 @@
         ]
       ],
       "literal_english": "In the Seventeenth Chapter, the serpents brought that serpent to ruin. He protected relatives who were exhausted by their own suffering and sleeping there from the forest fire. This was an improper and unpleasant situation.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -76,7 +77,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -119,7 +120,8 @@
         ]
       ],
       "literal_english": "Those serpents, afraid, offered Garuḍa their respective portions that had been given by the people, so that they might obtain protection.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -135,7 +137,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -150,7 +152,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -166,7 +169,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -182,7 +185,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -221,7 +224,8 @@
         ]
       ],
       "literal_english": "Garuḍa’s approach was unfathomable in its power and therefore difficult to withstand.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -237,7 +241,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -253,7 +257,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -269,7 +273,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -285,7 +289,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -301,7 +305,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -317,7 +321,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -333,7 +337,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -376,7 +380,8 @@
         ]
       ],
       "literal_english": "The meaning is that the trees, which had previously been dry, sprouted again.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -392,7 +397,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -407,7 +412,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -423,7 +429,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -439,7 +445,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -454,7 +460,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -470,7 +477,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -485,7 +492,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -501,7 +509,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -517,7 +525,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     }
   ]
 }

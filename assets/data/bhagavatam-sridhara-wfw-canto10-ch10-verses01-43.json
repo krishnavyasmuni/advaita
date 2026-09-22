@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/01-11/10.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.10.1–10.10.43; source gaps and explicit no-commentary records are preserved exactly from the pinned local cache.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 10, all 43 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -60,7 +60,8 @@
         ]
       ],
       "literal_english": "In the Tenth [Chapter] He knocked down the twin Arjuna trees while crawling, and Kṛṣṇa was praised by the two gods who had been dwelling there. Let the reprehensible act be told—the act by which even the darkness of anger arose in the exalted divine sage Nārada.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -75,7 +76,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -90,7 +92,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -129,7 +132,8 @@
         ]
       ],
       "literal_english": "They were within the Ganges, in the midst of the river where there are rows of lotus groves.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -164,7 +168,8 @@
         ]
       ],
       "literal_english": "He saw them, and by seeing them he understood that the two were intoxicated and maddened.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -195,7 +200,8 @@
         ]
       ],
       "literal_english": "When the question ‘Why?’ is raised, the explanation begins with the words ‘having seen them.’",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -234,7 +240,8 @@
         ]
       ],
       "literal_english": "The purpose was mercy: the destruction of their intoxication and the granting of Lord Kṛṣṇa’s audience. The passage that follows, beginning ‘for no other...’, explains this purpose.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -250,7 +257,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -281,7 +288,8 @@
         ]
       ],
       "literal_english": "They thought this perishable body to be free from old age and death, as though it were truly ageless and immortal.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -336,7 +344,8 @@
         ]
       ],
       "literal_english": "The body may be designated a human king or an earthly god, yet it is eaten by dogs and others; it becomes what is called excrement, or is burned and becomes ashes, or becomes what is called worms. One who harms living beings for the sake of that body—does he know his own good, when hell results from such harm? He certainly does not.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -379,7 +388,8 @@
         ]
       ],
       "literal_english": "He now says that even the idea ‘I am the body’ does not stand consistently. The body might be claimed by the father who supplied the seed, by the mother, or by the maternal grandfather when the child is made his daughter’s son; the text thus begins to expose the uncertainty of bodily ownership.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -422,7 +432,8 @@
         ]
       ],
       "literal_english": "The body has its origin in the unmanifest and returns to the unmanifest. Who, except a foolish person, would claim such a body as the self, thinking ‘this is my ātman’?",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -473,7 +484,8 @@
         ]
       ],
       "literal_english": "Having described the conduct of one blinded by wealth, he determines the remedy: poverty—indeed, poverty alone, or the supreme poverty. Why? Through comparison with himself, the poor person sees the suffering of living beings and therefore does not harm them.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -520,7 +532,8 @@
         ]
       ],
       "literal_english": "He gives an example. Just as one whose body has been pierced by a thorn understands another’s pain, so by signs such as the change in facial expression he understands that pleasure and pain are alike in all living beings.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -559,7 +572,8 @@
         ]
       ],
       "literal_english": "Moreover, he says through these four verses that poverty can assist even liberation. The poor person is free from the pride that arises from the ego.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -574,7 +588,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -605,7 +620,8 @@
         ]
       ],
       "literal_english": "Saintly persons spontaneously associate with the poor. Through that association the thirst of material craving is diminished.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -652,7 +668,8 @@
         ]
       ],
       "literal_english": "One might object that a wealthy person could also be dear to saintly persons, rather than a poor person. He answers: those who possess wealth are afflicted by the pride and arrogance produced by it.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -679,7 +696,8 @@
         ]
       ],
       "literal_english": "‘Dark intoxication’ means the intoxication produced by ignorance.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -706,7 +724,8 @@
         ]
       ],
       "literal_english": "‘Covered by darkness’ means being pervaded by darkness.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -745,7 +764,8 @@
         ]
       ],
       "literal_english": "He curses them because they deserve it, and he also bestows mercy, saying ‘May it not remain so.’ By My grace, remembrance will arise in them.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -784,7 +804,8 @@
         ]
       ],
       "literal_english": "They will again obtain the status of the heavenly world and divine bodies; by My mercy they will become endowed with devotion.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -799,7 +820,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -826,7 +848,8 @@
         ]
       ],
       "literal_english": "He introduces the subject at hand with the words ‘of the sage.’",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -865,7 +888,8 @@
         ]
       ],
       "literal_english": "Why should this be done? He answers: it must be made true because the speaker is the divine sage Nārada; what he says therefore comes to pass.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -892,7 +916,8 @@
         ]
       ],
       "literal_english": "‘The twins’ means the two born together. The trees were freed merely by Kṛṣṇa Himself entering between them.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -939,7 +964,8 @@
         ]
       ],
       "literal_english": "‘Following’ means coming after Him. The trees’ root-bond was uprooted by Dāmodara, and their trunks, shoots and branches trembled intensely from the force of the Supreme Lord Kṛṣṇa’s movement.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -986,7 +1012,8 @@
         ]
       ],
       "literal_english": "They shone forth toward all directions, illuminating them. As fire assumes a visible form, the two beings emerged from the trees; they were free from passion, free from intoxication, and free from pride.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1033,7 +1060,8 @@
         ]
       ],
       "literal_english": "If someone asks, ‘Why do you two bow to me, a cowherd?’, they answer: ‘O Kṛṣṇa, O great yogin of inconceivable power, You are not merely a cowherd but the Supreme Person, the primordial cause. You are not only the instrumental cause; You are also the material cause. Thus they praise You as both manifest and unmanifest.’",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1084,7 +1112,8 @@
         ]
       ],
       "literal_english": "You alone are the body, the life-breaths, the self, the ego, the senses and their Lord. Although time may be called the instrumental cause and primordial nature the material cause, You alone are also time and nature: as the Lord, You are the controller of all.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1127,7 +1156,8 @@
         ]
       ],
       "literal_english": "Nature is Your energy, the person is Your portion, and the great principle is Your effect. Therefore everything is You.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1178,7 +1208,8 @@
         ]
       ],
       "literal_english": "If You alone are everything, why does knowledge of You not arise when a pot and other objects are known? They answer: as the seer, You are not grasped by intellect, ego, senses and the other instruments that are themselves objects of perception. And who could know You? You are self-luminous even before the creation of the individual soul, yet the body and its covering by the guṇas conceal You.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1221,7 +1252,8 @@
         ]
       ],
       "literal_english": "Because You are difficult to know, we simply bow to You. Your greatness is covered by the guṇas, just as the sun’s radiance is covered by clouds.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1260,7 +1292,8 @@
         ]
       ],
       "literal_english": "How could the knowledge ‘I am the Lord’ arise? The two answer with the words ‘from whom...’, pointing to the source from which such knowledge could come.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1295,7 +1328,8 @@
         ]
       ],
       "literal_english": "‘For coming into being’ means for arising; ‘for freedom from becoming’ means for Him in whom worldly becoming has ceased. The intended meaning is absolute liberation.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1310,7 +1344,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1349,7 +1384,8 @@
         ]
       ],
       "literal_english": "We two were attendants—servants of Kubera, or servants of Nārada. By Your mercy we have obtained the sight of the Lord.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1392,7 +1428,8 @@
         ]
       ],
       "literal_english": "May our former nature, the tendency toward sense objects, now be gone. The plural may refer to all who are connected with us, or to the many forms of the Lord. We bow our heads to the universe that is Your abode and to Your divine forms.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1415,7 +1452,8 @@
         ]
       ],
       "literal_english": "‘Sankīrtita’ means praised or celebrated.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1454,7 +1492,8 @@
         ]
       ],
       "literal_english": "They praise Him with words such as ‘There is no other enjoyer of what is to be enjoyed.’ The Lord’s mercy has been bestowed in the form of their loss of wealth.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1501,7 +1540,8 @@
         ]
       ],
       "literal_english": "This is appropriate: saintly persons follow their duty, are equal-minded, know the self, and have offered their very selves to Me. The phrase ‘especially’ indicates their abundant compassion. Their association does not bind the eyes, just as looking at the sun does not bind the eyes when one is prepared for its light.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1552,7 +1592,8 @@
         ]
       ],
       "literal_english": "‘O Nalakūvara, you two may go to your own abode, with Me as your supreme goal.’ The love for Me that you sought has already arisen in you. ‘Abhava’ means that in which worldly becoming is absent.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1568,7 +1609,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     }
   ]
 }

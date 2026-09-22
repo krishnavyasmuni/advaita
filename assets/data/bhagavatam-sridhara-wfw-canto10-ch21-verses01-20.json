@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/18-28/21.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.21.1–10.21.20; source gaps and explicit no-commentary records are preserved exactly from the pinned local cache.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 21, all 20 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -60,7 +60,8 @@
         ]
       ],
       "literal_english": "In the Twenty-first Chapter, when Hari had arrived in autumn-beautiful Vṛndāvana, the gopīs’ song is uttered after hearing that flute sound. The forest was such that its waters were made clear by autumn and it was pervaded throughout by the wind.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -107,7 +108,8 @@
         ]
       ],
       "literal_english": "In the flowering forest ranges, intoxicated bees and birds, in their flocks, made the lakes, rivers and mountains resonant. Kṛṣṇa entered that forest and played His flute.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -123,7 +125,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -139,7 +141,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -190,7 +192,8 @@
         ]
       ],
       "literal_english": "This describes the agitation produced in the gopīs’ minds by remembering Kṛṣṇa. He entered Vṛndāvana with a dancer-like body bearing a peacock-feather crown. The forest was marked by His footprints and gave rise to pleasure, and His fame was sung by groups of cowherds. The flute’s holes are imagined as filled by the nectar of His lips, so that the song could spread forth as though issuing from the flute itself. The source also preserves an additional stanza, marked as extra in the Vīra-Rāghava edition, describing the peacock feather, forest-roaming form, ear ornaments, flute-playing hands, the cowherd boys’ singing, and the delight of all beings.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -206,7 +209,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -257,7 +260,8 @@
         ]
       ],
       "literal_english": "The description continues for thirteen verses. For those who possess eyes, the beloved sight—and the highest fruit of their eyes—is the face of Rāma and Kṛṣṇa as They lead the cows into the forest with Their friends, following the flute and releasing affectionate sidelong glances. Alternatively, those whose eyes drank in Their faces were the ones who truly enjoyed that sight.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -300,7 +304,8 @@
         ]
       ],
       "literal_english": "Their blue and yellow garments were interwoven with variegated garlands of mango shoots and the like, making a splendidly varied dress. At times the two of Them shone greatly in the midst of the cowherd assembly. The thought is: how great must be the piety of the cowherd boys.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -355,7 +360,8 @@
         ]
       ],
       "literal_english": "What piety did this flute perform? It independently enjoys the nectar of Dāmodara’s lips, although that nectar belongs to the gopīs alone, tasting it as though only its remaining rasa were left. The lakes nourished by its waters appear joyful through blossoming lotuses, and the trees of the bamboo lineage shed streams of honey like tears, just as elders rejoice and weep on seeing a devotee of Bhagavān born in their family.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -406,7 +412,8 @@
         ]
       ],
       "literal_english": "Vṛndāvana expands the earth’s fame even beyond heaven because it received the beauty and prosperity obtained from the lotus feet of Devakī’s son. Hearing Govinda’s flute, the peacocks, thinking the sound of the flute a soft rumbling cloud, became intoxicated and danced; all the other creatures stopped their activities on the mountain slopes. Such a sight is not found in other worlds.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -453,7 +460,8 @@
         ]
       ],
       "literal_english": "The does, although animals of dull understanding, are fortunate and fulfilled. Hearing the flute sound, they offered honor to Nanda’s son through loving glances, together with their husbands, the blackbucks. The implied contrast is that the gopīs’ own husbands were petty and could not tolerate this before them.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -504,7 +512,8 @@
         ]
       ],
       "literal_english": "Seeing Kṛṣṇa, whose form and character are a festival for women, and hearing the uninterrupted song played by Him on the flute, even goddesses traveling in aerial cars and seated in the laps of the gods lost their composure, overcome by Cupid, and fainted. Their falling flowers and loosened waist garments were signs of that delusion.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -555,7 +564,8 @@
         ]
       ],
       "literal_english": "The cows and calves raised their ear openings and drank the flute’s nectar, fearing it might spill. Calves who had begun drinking at the breast stood still with mouthfuls of milk from the udders in their mouths, forgetting their activity. Through the path of their eyes they touched Govinda in their minds, and tears appeared in their eyes.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -602,7 +612,8 @@
         ]
       ],
       "literal_english": "As for the birds, they must be sages. They climbed the tree branches with lovely shoots, closed their eyes in comfort, abandoned all other speech, and listened to the sweet flute song revealed by Kṛṣṇa. In the same way, sages give up the fruits of Vedic action and, taking their seat on the branches of the Vedic tree, listen only to Kṛṣṇa’s song.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -649,7 +660,8 @@
         ]
       ],
       "literal_english": "Even the rivers are described as conscious lovers: their currents were broken by the desire indicated by whirlpools, and their waves became arms. Offering lotuses, they held Murāri’s pair of feet as if in an embrace.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -696,7 +708,8 @@
         ]
       ],
       "literal_english": "Because the cloud resembled Kṛṣṇa, the friend who removes the world’s distress, it rose above Him and, growing through love, made an umbrella with its own body, along with rows of flowers and hailstones like flowers.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -751,7 +764,8 @@
         ]
       ],
       "literal_english": "The Pulindī women were fulfilled. Kuṅkuma that had adorned the breasts of Kṛṣṇa’s beloveds during their love-play, and that had been reddened by the hue of Urugāya’s lotus feet and rubbed onto the grasses as He walked, was seen by them. Smearing it on their faces and breasts heated by desire, they gave up the pain caused by Cupid. The source contrasts them with others like the speakers, who do not obtain such relief.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -802,7 +816,8 @@
         ]
       ],
       "literal_english": "The speakers joyfully say that Govardhana is surely the best of Hari’s servants. The touch of Rāma and Kṛṣṇa’s feet gives it joy, shown by the sprouting grass that resembles horripilation. It honors Them, together with the cows and Their friends, by providing water, fresh grass and caves, and is therefore especially fortunate.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -853,7 +868,8 @@
         ]
       ],
       "literal_english": "While the two were tending the cows in forest after forest, Their sweet musical phrases and great flute sounds caused moving creatures to become still, taking on the nature of the immovable, and caused the trees to display horripilation, taking on the nature of the moving. The supplied Śrīdhara block is labeled for verses 19–20 and further explains the ropes used for the cows and the splendor of the cowherd leaders: ropes for binding and drawing unmanageable cows, wound around the head and with a shoulder rope.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -868,7 +884,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ]
 }

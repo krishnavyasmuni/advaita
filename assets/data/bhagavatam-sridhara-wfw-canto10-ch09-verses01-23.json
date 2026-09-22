@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/01-11/09.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.9.1–10.9.23; grouped source ranges and source gaps are preserved exactly from the pinned local cache.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 9, all 23 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -92,7 +92,8 @@
         ]
       ],
       "literal_english": "When the milk overflowed, the cowherd woman went to attend to it; seeing the breaking of the pot and the other acts, she bound Kṛṣṇa with a rope. Seeing the universe resting in His small belly and the two-finger shortfall in the binding, He showed completeness. She herself churned the yogurt.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -123,7 +124,8 @@
         ]
       ],
       "literal_english": "The particle ca is connected in the sense ‘then she also sang’: at the time when she churned the yogurt, she sang.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -139,7 +141,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -162,7 +164,8 @@
         ]
       ],
       "literal_english": "The explanation of the previous verse should be consulted.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -178,7 +181,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -194,7 +197,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -210,7 +213,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -226,7 +229,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -242,7 +245,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -258,7 +261,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -274,7 +277,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -290,7 +293,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -377,7 +380,8 @@
         ]
       ],
       "literal_english": "He states her lack of understanding of the problem of binding. Binding requires an externally encircling rope around something enclosed within, and it presupposes an object with front and back divisions that can be surrounded by placing the rope in front and wrapping it around. None of this applies to Him: a pervader cannot be bound as though He were the pervaded, and nothing exists apart from Him. Yet she considered the transcendent Lord, bearing human marks, to be her son and bound Him as if He were an ordinary child.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -393,7 +397,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -416,7 +420,8 @@
         ]
       ],
       "literal_english": "The explanation of the previous verse should be consulted.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -432,7 +437,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present in the pinned cache for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -447,7 +452,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -494,7 +500,8 @@
         ]
       ],
       "literal_english": "He answers the objection that independence is destroyed in this way: ‘Thus it has been shown...’ This universe together with its presiding lords is under His control; that is the meaning.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -561,7 +568,8 @@
         ]
       ],
       "literal_english": "Other devotees also receive the Lord’s mercy, but this is exceedingly wondrous. Thus, with hairs standing on end, he says: not even this mercy was received by Brahmā, although he is the Lord’s son; by Śiva, although he is His very self; or by Śrī, although she is His wife.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -616,7 +624,8 @@
         ]
       ],
       "literal_english": "He states the conclusion with the words ‘This Lord is not easily attained.’ ‘Embodied persons’ means those identified with the body; ‘ascetics and others’ are included among them. ‘Knowers’ means those whose bodily identification has ceased—yet even they do not attain Him easily.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -647,7 +656,8 @@
         ]
       ],
       "literal_english": "He now states that although Kṛṣṇa is bound by His devotees, He nevertheless has the power to liberate others.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -662,7 +672,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/12-17/16.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.16.1–10.16.67; source gaps and explicit no-commentary records are preserved exactly from the pinned local cache.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 16, all 67 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -52,7 +52,8 @@
         ]
       ],
       "literal_english": "In the Sixteenth Chapter, Kāliya is subdued in the Yamunā lake, and after his wives praise Him Kṛṣṇa grants mercy. Having killed the ass-demons and eaten the palm fruits, the Lord, the moon of all arts, danced on Kāliya’s hoods and drove him away.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -68,7 +69,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -84,7 +85,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -100,7 +101,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -139,7 +140,8 @@
         ]
       ],
       "literal_english": "It was a lake whose residents on the bank died when touched by a wind carrying drops of water and poisonous waves.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -155,7 +157,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -198,7 +200,8 @@
         ]
       ],
       "literal_english": "It was the serpent’s lake: its mass of water rose when the serpents were shaken by the weight of the Supreme Person’s fall, and its waves were made frightening by poison. The water spread a hundred bows around; this was not astonishing, because Kṛṣṇa possesses limitless strength.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -214,7 +217,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -230,7 +233,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -246,7 +249,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -261,7 +264,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -277,7 +281,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -293,7 +297,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -309,7 +313,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -325,7 +329,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -341,7 +345,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -357,7 +361,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -400,7 +404,8 @@
         ]
       ],
       "literal_english": "The footprints explain how the path was known. Between the footprints of Lord Kṛṣṇa were the footprints of the others, appearing intermittently after the other marks were excluded. This is like yogins seeking the supreme truth by rejecting the various limiting adjuncts.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -443,7 +448,8 @@
         ]
       ],
       "literal_english": "Then, seeing Kṛṣṇa from afar encircled by the serpent’s body, and seeing the cowherd boys and animals as well, they became distressed and fell into utter bewilderment.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -459,7 +465,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -474,7 +480,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -489,7 +496,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -505,7 +513,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -548,7 +556,8 @@
         ]
       ],
       "literal_english": "Pained by the Lord’s expanding body, the serpent released his coil and abandoned Him. Enraged, he raised his hoods, hissed, and simply stared. Poison issued from the openings of his nostrils; his eyes were heated and fixed like a vessel in a fire, and firebrands seemed to blaze from his mouths.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -591,7 +600,8 @@
         ]
       ],
       "literal_english": "Hari played and moved all around him. The serpent’s gaze was armed with a most terrible fire of poison, and his two-forked tongue moved toward each face.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -607,7 +617,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -623,7 +633,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -639,7 +649,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -682,7 +692,8 @@
         ]
       ],
       "literal_english": "Whenever the serpent raised a hood while angrily hissing, Kṛṣṇa bent it down with a blow of His foot. At that moment the delighted Gandharvas and others worshiped Him with flowers. The son of Yaśodā appeared like the ancient Person reclining on Śeṣa; alternatively, being pleased by the flowers, He subdued the serpent for his benefit.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -698,7 +709,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -714,7 +725,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -730,7 +741,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -773,7 +784,8 @@
         ]
       ],
       "literal_english": "First, the serpent wives calm the angry Lord by approving His punishment and then praise Him. The tradition counts their bowing and prayers in the stated groups of verses. They deny that Your discipline and mercy are partial: You impose punishment while considering what is beneficial.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -812,7 +824,8 @@
         ]
       ],
       "literal_english": "It was said that even punishment may be mercy; now they explain that this is mercy rather than punishment. The serpent’s visible serpenthood reveals a root sin, and the discipline that removes it is mercy, even though it appears as anger.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -851,7 +864,8 @@
         ]
       ],
       "literal_english": "They celebrate Kāliya’s former merit, saying that this is a great mercy. It came to one who was without pride and honored others, and to one who protects or gives life to all living beings.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -894,7 +908,8 @@
         ]
       ],
       "literal_english": "This fortune did not arise from austerity or another practice; it arose from the inconceivable splendor of Your mercy. Even Lakṣmī, for whose favor Brahmā and others perform austerity, undertook austerity desiring the privilege of touching Your feet. Who knows what this serpent did to receive such grace?",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -910,7 +925,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -953,7 +968,8 @@
         ]
       ],
       "literal_english": "How wonderful—he obtained without effort the dust of the feet that others seek. The desired service became a visible treasure before him, simply because he had prayed that it be his.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -969,7 +985,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1012,7 +1028,8 @@
         ]
       ],
       "literal_english": "They establish that the Lord is both the cause and beyond all causes: He is the treasury of knowledge and distinctive awareness, complete in both. He is qualityless and changeless, yet possesses infinite power; He is the controller of material nature and also beyond nature. As the source of knowledge and awareness, He is the Lord and the cause; homage is offered to that twofold reality.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1055,7 +1072,8 @@
         ]
       ],
       "literal_english": "Because of His infinite power, He is worshiped as Time, the form of time, the navel or support of time, and the witness of the moments of creation and the like. He is the universe and its form, yet also its overseer, not merely an observer but its doer and cause, taking the form of all its instruments.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1098,7 +1116,8 @@
         ]
       ],
       "literal_english": "He is the form of the elements, senses, life-breath, mind, intellect, and heart, and therefore the form of every agent. As the ego and the three qualities, He is worshiped as the power through which the individual souls’ experience is hidden within the created work.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1137,7 +1156,8 @@
         ]
       ],
       "literal_english": "You are not covered by ego: You are endless because ego cannot limit You, subtle because You are unseen, changeless because adjuncts do not alter You, and all-knowing. Through māyā You accommodate opposing viewpoints—existent and nonexistent, omniscient and limited, bound and liberated, one and many. You also appear diverse through the distinct powers of word and referent.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1180,7 +1200,8 @@
         ]
       ],
       "literal_english": "They further praise Your uncovered nature: You are the root of valid knowledge and appear as the eyes and other senses; You are the seer whose knowledge depends on nothing else. You are the source of scripture, the Veda’s own breath, and the Veda of both engagement and withdrawal.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1219,7 +1240,8 @@
         ]
       ],
       "literal_english": "Because Your sovereignty is unobscured, they worship You in the fourfold form: Kṛṣṇa, Rāma, Saṅkarṣaṇa, and Vāsudeva—the pure being called Vāsudeva shining there. You are the Lord of the Sātvatas, protecting worshipers through attainments such as residence in Your world.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1262,7 +1284,8 @@
         ]
       ],
       "literal_english": "The fourfold form is explained: the Lord illumines the qualities, meaning the inner instruments, and presides over mind and the other faculties. He appears as four through the qualities, concealing Himself to produce different results for worshipers. The functions of the mind indicate Him, but He is their witness and self-awareness, beyond being an object.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1305,7 +1328,8 @@
         ]
       ],
       "literal_english": "They bow to Him whose play is unmanifest and whose glory is beyond reasoning, yet who is the basis by which every manifest effect arises. O Lord of the senses, You are not driven by desire for objects; You are the sage who delights in the Self. Nor are You dependent on a practice—you are by nature silent and self-contained.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1352,7 +1376,8 @@
         ]
       ],
       "literal_english": "You know the course of both gross and subtle things and are present everywhere; You are the overseer of all. You are beyond the universe, in which no world exists as an independent reality, and You are also its substratum. You witness both superimposition and its removal, and You are the ground of ignorance and knowledge. In another analysis, You are beyond the states of waking and the rest, yet appear as their witness through Your own māyā. By all these incomparable powers, You are the supreme Lord.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1395,7 +1420,8 @@
         ]
       ],
       "literal_english": "Having pleased the Lord by approving His discipline and by their prostrations, the serpent wives now ask what offense beings dependent on Him have committed. You alone create their birth and the rest; You arrange their frightening and other natures as impressions, and You play by bearing the beginningless power of time.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1438,7 +1464,8 @@
         ]
       ],
       "literal_english": "These bodies are Your own forms and instruments for Your play. Yet now they have become peaceful and dear to You, because You are acting to protect the dharma of the good and are standing as their protector.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1477,7 +1504,8 @@
         ]
       ],
       "literal_english": "Therefore, any offense arising from their unwelcome conduct and the like should be endured by You. The supplied source marks this explanation as extending through the following verse.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1492,7 +1520,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1531,7 +1560,8 @@
         ]
       ],
       "literal_english": "If Your favor toward others would mean their death, they answer that this is not so: “Please arrange it.” By Your command, these living beings need not meet death now; the source preserves this explanation through verses 53–55.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1546,7 +1576,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1561,7 +1592,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1592,7 +1624,8 @@
         ]
       ],
       "literal_english": "“The grasping of the unreal” means that their very nature is directed toward the unreal. Alternatively, grasping the body and other non-self things, though unreal, arises from habit and is difficult to abandon.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1631,7 +1664,8 @@
         ]
       ],
       "literal_english": "“Created by the qualities” means emanation through the qualities; the created world has varied natures and the like within that process.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1647,7 +1681,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1663,7 +1697,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1706,7 +1740,8 @@
         ]
       ],
       "literal_english": "The river is enjoyed by the cows and by human beings; this explains why the Yamunā’s bank is a suitable place for them.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1722,7 +1757,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1761,7 +1796,8 @@
         ]
       ],
       "literal_english": "The commentary says, “You must depart even from here,” because if You remain in this place the intended protection cannot occur.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1804,7 +1840,8 @@
         ]
       ],
       "literal_english": "He also says that there would be no fear of Garuḍa: the island named in the verse provides a fearless place of residence.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1819,7 +1856,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1834,7 +1872,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1849,7 +1888,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1864,7 +1904,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ]
 }

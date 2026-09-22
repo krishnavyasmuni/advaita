@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/01-11/01.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.1.1–10.1.69; grouped source ranges and source gaps are preserved exactly.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 1, all 69 canonical verses, with 62 pinned source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -36,7 +36,8 @@
         ]
       ],
       "literal_english": "Śrīdhara begins with a salutation and explains the architecture of the Tenth Canto. Its subject is the Supreme Abode known as Kṛṣṇa, the shelter of the sheltered; the Canto describes His glory, His incarnations, and the removal of the earth’s burden. It contains ninety chapters: the opening chapters describe Brahmā’s prayer and Kṛṣṇa’s advent, the Vraja pastimes, the Mathurā episode, and the later Dvārakā pastimes.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -55,7 +56,8 @@
         ]
       ],
       "literal_english": "The word ‘by His portion’ is understood in its intended, implied sense.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -78,7 +80,8 @@
         ]
       ],
       "literal_english": "Although Kṛṣṇa’s birth and departure for Vraja were already mentioned earlier, Śrīdhara says that the King now asks for the account to be narrated again in detail.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -109,7 +112,8 @@
         ]
       ],
       "literal_english": "Śrīdhara distinguishes three kinds of people: liberated persons, those seeking liberation, and sense-enjoyers. Hearing Kṛṣṇa’s story is the means for the seekers, the highest object for the worldly, and the means by which the liberated relish the self; one who destroys the self is called a killer of animals.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -136,7 +140,8 @@
         ]
       ],
       "literal_english": "Kṛṣṇa is the speaker’s family Deity, so His story should always be heard. Bhīṣma and the great warriors crossed the otherwise impassable battlefield because Kṛṣṇa was their boat; the King asks Śukadeva to speak of His deeds.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -167,7 +172,8 @@
         ]
       ],
       "literal_english": "Kṛṣṇa not only protected the Pāṇḍavas: He also protected the speaker’s own body. He entered Uttarā’s womb and, holding His discus, saved the unborn child—the continuation of the Kuru and Pāṇḍu lines—from Aśvatthāmā’s brahmāstra.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -183,7 +189,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present for this range in the pinned cache; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -210,7 +216,8 @@
         ]
       ],
       "literal_english": "Śrīdhara resolves the apparent contradiction concerning Balarāma. The sons born to Rohiṇī are listed, and the eight sons born to Devakī are listed; therefore the statement that Balarāma was born from Devakī’s womb refers to His transfer and relation to that pregnancy.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -233,7 +240,8 @@
         ]
       ],
       "literal_english": "The question ‘why?’ means: since there was no real possibility that the Lord could fear Kaṁsa, why did the Lord permit the appearance of this situation?",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -284,7 +292,8 @@
         ]
       ],
       "literal_english": "The question is why Kaṁsa killed his sister’s children when the eighth child, not every child, was said to be the cause of his death. Śrīdhara identifies the difficulty and takes the narrative forward to the specific circumstances of the prophecy.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -311,7 +320,8 @@
         ]
       ],
       "literal_english": "Parīkṣit asks how Śukadeva can speak while suffering hunger and thirst. Śukadeva replies that his life depends on drinking the nectar of Hari’s stories; if that drinking stopped, life itself would immediately cease.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -327,7 +337,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present for this range in the pinned cache; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -342,7 +352,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -369,7 +380,8 @@
         ]
       ],
       "literal_english": "Śrīdhara first states the cause of the Lord’s incarnation. The earth was oppressed by the immense weight of demons who had taken the forms of proud kings and whose armies numbered in the tens of thousands.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -392,7 +404,8 @@
         ]
       ],
       "literal_english": "The earth, assuming her appropriate form, approached and stood near the all-pervading Lord.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -407,7 +420,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -422,7 +436,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -445,7 +460,8 @@
         ]
       ],
       "literal_english": "The speaker asks the hearers to listen immediately to the Lord’s own, manly speech—the speech of the Supreme Person—and not to delay.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -468,7 +484,8 @@
         ]
       ],
       "literal_english": "Śrīdhara says that, even before the formal request, the Lord had understood the fever and distress that would arise from the demon kings’ actions; the prayer therefore asks Him to remove that affliction.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -483,7 +500,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -498,7 +516,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -525,7 +544,8 @@
         ]
       ],
       "literal_english": "The verse is explained as referring to the transfer of Balarāma from Devakī’s womb to Rohiṇī’s, while Kṛṣṇa would appear from Devakī and also manifest the corresponding birth in Yaśodā’s household.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -540,7 +560,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -567,7 +588,8 @@
         ]
       ],
       "literal_english": "Śrīdhara introduces the account of Kṛṣṇa’s advent in the prison of the Bhoja king. The narrative beginning with Śūrasena continues through the end of the chapter and explains the setting, the family line, and the circumstances that made the Lord’s appearance necessary.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -582,7 +604,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -605,7 +628,8 @@
         ]
       ],
       "literal_english": "The ‘newly married woman’ is the bride who has just entered the household; the image establishes the intimate family setting in which the journey takes place.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -628,7 +652,8 @@
         ]
       ],
       "literal_english": "‘The reins’ means the rays or straps by which the chariot is controlled.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -647,7 +672,8 @@
         ]
       ],
       "literal_english": "The word for a gift means the equipment or articles that accompany the bride.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -662,7 +688,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -677,7 +704,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -700,7 +728,8 @@
         ]
       ],
       "literal_english": "Addressing Kaṁsa as ‘O Kaṁsa, Kaṁsa,’ Vasudeva calls to him directly.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -723,7 +752,8 @@
         ]
       ],
       "literal_english": "‘Destroyer of the family’ means one who disgraces and ruins his own lineage; Vasudeva presents Kaṁsa’s intended act as the beginning of that ruin.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -746,7 +776,8 @@
         ]
       ],
       "literal_english": "‘Cruel’ means merciless. Vasudeva emphasizes that killing one’s own sister is an act of extreme brutality.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -769,7 +800,8 @@
         ]
       ],
       "literal_english": "Vasudeva first addresses Kaṁsa by conciliatory speech and then by reasoning that separates the relevant considerations; he tries to restrain him without provoking him.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -796,7 +828,8 @@
         ]
       ],
       "literal_english": "Even if Kaṁsa fears death, death cannot be avoided, just as birth cannot be avoided. The next body will provide the same kinds of objects for enjoyment or affection, so fear of death cannot justify committing sin.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -819,7 +852,8 @@
         ]
       ],
       "literal_english": "If the next body did not exist, preserving this body even through sin might have some rationale; but another body certainly follows, so the proposed justification is unsound.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -842,7 +876,8 @@
         ]
       ],
       "literal_english": "‘Going’ supplies the illustration: just as a traveller leaves one place and reaches another, the embodied self leaves one body and obtains another.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -873,7 +908,8 @@
         ]
       ],
       "literal_english": "Śrīdhara gives a second illustration. A person sees a king or hears of Indra; those impressions remain in the mind, which then imagines a waking body resembling what was seen or heard, though it cannot be precisely identified.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -900,7 +936,8 @@
         ]
       ],
       "literal_english": "Different actions produce different bodies, but the particular reason why a particular body is obtained is the Lord’s inscrutable arrangement; the text therefore asks us to understand the principle from the principle of causation.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -927,7 +964,8 @@
         ]
       ],
       "literal_english": "Even if some body will certainly arise, one might still claim that anything may be done to preserve a beloved royal body. Śrīdhara rejects that reasoning by distinguishing the illuminating, conscious self from the perishable body.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -946,7 +984,8 @@
         ]
       ],
       "literal_english": "Vasudeva concludes the conciliatory approach and begins to distinguish the relevant alternatives.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -965,7 +1004,8 @@
         ]
       ],
       "literal_english": "He returns once more to conciliatory speech, continuing to appeal to Kaṁsa’s better judgment.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -981,7 +1021,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present for this range in the pinned cache; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1000,7 +1040,8 @@
         ]
       ],
       "literal_english": "The name Ānakadundubhi is connected with the respectful address ‘greatly fortunate’; Śrīdhara explains the intended honor in Vasudeva’s title.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1023,7 +1064,8 @@
         ]
       ],
       "literal_english": "Anticipating that Kaṁsa will not accept the argument, Vasudeva says that Kaṁsa himself has become death to Devakī. This is the very danger he is asking Kaṁsa to avoid becoming.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1046,7 +1088,8 @@
         ]
       ],
       "literal_english": "To remove the fault of neglecting the proper response, Vasudeva says that he will act in the proposed way and give Kaṁsa what he seeks.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1069,7 +1112,8 @@
         ]
       ],
       "literal_english": "If sons are born and Kaṁsa nevertheless survives, the opposite possibility also remains: Kaṁsa might die through one of Vasudeva’s sons. Vasudeva therefore answers the objection by exposing its uncertainty.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1092,7 +1136,8 @@
         ]
       ],
       "literal_english": "The unseen results of living beings’ actions are difficult to reason about. Śrīdhara illustrates this with fire: a person may approach it for one purpose, yet its result depends on conditions that are not wholly within ordinary calculation.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1115,7 +1160,8 @@
         ]
       ],
       "literal_english": "Vasudeva considers the matter as far as his own understanding reaches and presents the argument within the limits of his discernment.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1138,7 +1184,8 @@
         ]
       ],
       "literal_english": "To give Kaṁsa confidence, Vasudeva opens his lotus-like face and speaks with a smile.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1157,7 +1204,8 @@
         ]
       ],
       "literal_english": "The bodiless voice said exactly what it intended; its statement is certain and should be accepted as the settled fact of the situation.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1173,7 +1221,7 @@
       ],
       "literal_english": "No Śrīdhara source block is present for this range in the pinned cache; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1196,7 +1244,8 @@
         ]
       ],
       "literal_english": "When the time of delivery arrived, Devakī was wholly possessed by the Lord, the Deity of all beings; she was therefore described as one whose entire being was divine.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1211,7 +1260,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1234,7 +1284,8 @@
         ]
       ],
       "literal_english": "When asked how Vasudeva could hand a son over to death, Śrīdhara answers with the question ‘what is difficult?’—for one whose purpose is governed by the Lord’s command, even this dreadful act is possible.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1249,7 +1300,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1264,7 +1316,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1279,7 +1332,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1302,7 +1356,8 @@
         ]
       ],
       "literal_english": "Kaṁsa’s peace was not aligned with the divine purpose, so Nārada opposed that temporary calm. He begins by referring to Nanda and the other families and explains the hidden arrangement behind their births.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1329,7 +1384,8 @@
         ]
       ],
       "literal_english": "‘Both’ means the two families—the households of Vasudeva and Nanda.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1352,7 +1408,8 @@
         ]
       ],
       "literal_english": "The killing enterprise against Devakī’s children was arranged by the gods; that divine action is understood as the omitted subject.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1367,7 +1424,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1386,7 +1444,8 @@
         ]
       ],
       "literal_english": "‘Chains’ means the iron fetters and shackles by which Vasudeva and Devakī were bound.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1401,7 +1460,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1416,7 +1476,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1431,7 +1492,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/12-17/14.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.14.1–10.14.61; source gaps and explicit no-commentary records are preserved exactly from the pinned local cache.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 14, all 61 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -52,7 +52,8 @@
         ]
       ],
       "literal_english": "In the Fourteenth Chapter, Brahmā, bewildered after seeing the extraordinary event and unable to act, praises Kṛṣṇa. Trembling with fear from his own offense and unable to fathom the Lord’s greatness, he praises the form he saw: a body like a rain cloud, lightning-like clothing, guñjā earrings, a peacock-feather crest, forest garlands, beauty marked by His morsel of food, and tender feet—the son of the cowherd.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -99,7 +100,8 @@
         ]
       ],
       "literal_english": "Even though this incarnation has made Himself easily visible, no Brahmā—not even I—can measure the greatness of Your form. You are accessible through Your grace and manifest according to the wishes of Your devotees, yet You are not made of material elements; You are inconceivable pure being. If even the glory of Your cosmic form cannot be measured, what can be said of the glory of this direct, incomparable form, beyond the modes, whose bliss is self-contained?",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -142,7 +144,8 @@
         ]
       ],
       "literal_english": "How will the ignorant cross worldly existence? Those who do nothing else but honor Your eternally manifest account, spoken by the good, with body, speech, and mind, hearing it in their own places simply through its presence, generally conquer You—even though no one else can conquer the Unconquered. What need is there for the labor of abstract knowledge?",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -158,7 +161,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -201,7 +204,8 @@
         ]
       ],
       "literal_english": "This establishes through the conduct of the good that knowledge comes by devotion alone. Formerly, even yogins could not gain knowledge through yoga; later, by offering their worldly efforts to You and by devotion arising through the sacred account, they easily knew the all-pervading Self and attained the supreme goal.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -248,7 +252,8 @@
         ]
       ],
       "literal_english": "Knowledge of both the qualified and unqualified is difficult, so the Lord is reached through hearing His account rather than by another path. The glory of the Lord whose qualities are unlimited can be known by stainless inward selves whose senses have been withdrawn, through direct experience. The inner instrument knows Him by relinquishing particular modifications; He is not an object with a form, but shines by His own self-luminous awareness.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -264,7 +269,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -307,7 +312,8 @@
         ]
       ],
       "literal_english": "Therefore devotion alone is fitting. The devotee carefully awaits when Your mercy will come, experiences the fruit of his own actions without attachment, and lives without tormenting himself through excessive austerity. Such a person becomes an heir to liberation; apart from the life of devotion, nothing else is needed to inherit it.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -350,7 +356,8 @@
         ]
       ],
       "literal_english": "After praising the Lord, Brahmā confesses his offense: “O Lord, see my wickedness. Even against You, the enchanter of the enchanters, I tried to spread my own illusion in order to see Your majesty. How significant am I to attempt this before You? Nothing—just as a flame arising from fire has no power against the fire itself. Please forgive me.”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -393,7 +400,8 @@
         ]
       ],
       "literal_english": "Born from rajas and ignorant, I became blind with the deep darkness of the pride “I am the creator of the universe.” Thus I imagined myself separate from You and thought myself a lord. But with You as my Master, I am only Your servant. Thinking me therefore worthy of compassion, please forgive me.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -444,7 +452,8 @@
         ]
       ],
       "literal_english": "What am I compared with Your greatness? My body is only the cosmic shell enclosed by nature, mahat, ego, space, air, fire, water, and earth; even there it is merely seven spans by its own measure. The countless universes are atoms for You, and the passages through which cosmic winds travel are like windows in Your pores. Because I am so insignificant, I deserve Your compassion.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -487,7 +496,8 @@
         ]
       ],
       "literal_english": "In the world, what offense is it for a child in the womb to kick its mother? All things designated by “exists” and “does not exist,” by gross and subtle effect and cause, are within the scope of those words. O Adhokṣaja, is there even the slightest thing outside Your belly? Nothing is outside it. Since I too am within You, please tolerate my offense as a mother tolerates a child’s.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -530,7 +540,8 @@
         ]
       ],
       "literal_english": "It is well known that at the dissolution of the three worlds, when the oceans merge in a flood, the Unborn Brahmā emerged from the navel of Nārāyaṇa through the lotus stalk. That statement is certainly not false. Yet, O Lord, why should I not have emerged from You? Indeed, I was born from You.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -569,7 +580,8 @@
         ]
       ],
       "literal_english": "You are Nārāyaṇa, not merely His son. Nara is the multitude of living beings, and You are their refuge; You are the Self of all embodied beings, their controller, and the witness of every world. Thus You alone are Nārāyaṇa. The traditional derivations also say that the principles arising from Nara, and the waters born from Nara, have Nārāyaṇa as their resting place; that Nārāyaṇa too is Your own form and limb. Yet even that form is not a limiting container of Your immeasurable nature.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -612,7 +624,8 @@
         ]
       ],
       "literal_english": "If that body supporting the universe and situated in water were truly limited to a place, then even after entering the lotus stalk and searching for a hundred years I should have seen it. I did not see it there or within my heart; only after performing austerity did I see it immediately. Therefore that limitation of Your form by a particular place is māyā.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -651,7 +664,8 @@
         ]
       ],
       "literal_english": "If the world beginning with water were real in itself, it would limit You. You Yourself have shown that it is a display of māyā: in this very incarnation, Your mother saw the outward universe within Your belly. O subduer of māyā, this reveals that the world does not delimit You.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -694,7 +708,8 @@
         ]
       ],
       "literal_english": "One might say that what exists outside is simply reflected inside. But everything seen in Your belly appears exactly as it does outside, not as a reversed reflection; and You, the supposed mirror, do not produce a separate mirror-image distinction. Therefore the entire appearance is māyā.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -733,7 +748,8 @@
         ]
       ],
       "literal_english": "Not only Your mother but I too was shown this today. Apart from You, this entire universe is māyā, and You showed that to me. With all the principles and with me, You were worshiped as countless four-armed forms. I also saw the universes, even though that had not been stated earlier.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -780,7 +796,8 @@
         ]
       ],
       "literal_english": "You are pure consciousness, yet You appear as the manifold world. In the nondual Lord, this diversity is connected with an independent māyā for the sake of activity, as in the forms of the fish and other incarnations. To those who do not know Your true nature, You appear within material nature as the creator, preserver, and destroyer.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -815,7 +832,8 @@
         ]
       ],
       "literal_english": "Among the gods You are Upendra; among the sages You are Paraśurāma; and among human beings You are Rāma.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -858,7 +876,8 @@
         ]
       ],
       "literal_english": "How can Your independent Lordship include births in lowly forms such as a fish, begging in the form of Vāmana, or fear and flight on some occasion? No one knows the activities of Your divine play in the three worlds—where, how, when, or how many they are. Your yoga-māyā is inconceivable.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -897,7 +916,8 @@
         ]
       ],
       "literal_english": "Even if the glory of the incarnations is inconceivable, one may ask how an unreal world appears real. The answer concludes the discussion: although the appearance arises and disappears in You, it appears as though existent, eternal, happy, and conscious because You are its substratum and Your qualities shine through it.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -952,7 +972,8 @@
         ]
       ],
       "literal_english": "You alone are real, because You are the Self; the seen world is not the Self and is therefore not ultimately real. You are the first cause, ancient yet ever new, the Person, eternal and full. The words “endless” and “nondual” deny limitation by place, time, or object. “Self-luminous,” “stainless,” and “free from adjuncts” deny attainment by action or knowledge, transformation, and purification: You are already complete and untouched.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -995,7 +1016,8 @@
         ]
       ],
       "literal_english": "Those who see You correctly as their own inward Self cross the ocean of false becoming. The guru is the sun, and the knowledge of the Upaniṣads received from him is the good eye by which they see; they know You as the Self of all selves, not merely in a secondary sense.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1038,7 +1060,8 @@
         ]
       ],
       "literal_english": "The three meanings are established in order: one crosses by knowledge, one seems to cross, and one crosses by knowing You as the Self. The world is projected by that very ignorance, just as the snake’s appearance and disappearance are superimposed upon and withdrawn from a rope.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1085,7 +1108,8 @@
         ]
       ],
       "literal_english": "Why is it said that one seems to cross? Bondage in becoming and liberation from it are merely names based on ignorance; they are not present in the pure Self, which is unbroken awareness. Therefore there is ultimately no bondage, no knowledge that removes it, and no liberation—just as night and day do not exist in the sun itself.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1128,7 +1152,8 @@
         ]
       ],
       "literal_english": "Thinking You, the Self, to be the body and other non-self forms, and superimposing the body on the Self, one reverses the relationship and searches for the lost Self outside. It is strange: no one searches in the forest for something lost inside the house.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1175,7 +1200,8 @@
         ]
       ],
       "literal_english": "The discriminating seek the Supreme Self within the body, which is a mixture of consciousness and inert matter, while rejecting the inert as not-Self. One cannot know the real rope without removing the imagined snake; likewise, the substratum is not known without negating the superimposed appearance. Therefore liberation comes through knowing the Self as the Self.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1214,7 +1240,8 @@
         ]
       ],
       "literal_english": "Even though knowledge was described as if within reach, a person who receives even a trace of grace from one part of Your two lotus feet knows the truth of Your glory. Without that grace, someone may search for a long time, examining and negating everything that is not a part of You, yet fail to know it.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1230,7 +1257,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1273,7 +1300,8 @@
         ]
       ],
       "literal_english": "The cows and women of Vraja are exceedingly blessed. You became their calves and sons, and they drank the milk that You tasted and that even all sacrifices still cannot offer You as satisfaction. A birth endowed with devotion is therefore superior, even to birth among the gods.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1289,7 +1317,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1332,7 +1360,8 @@
         ]
       ],
       "literal_english": "Who can describe the fortune of these devotees? Śarva and the other deities who preside over the mind, intellect, ego, eyes, and the remaining senses—thirteen deities in all—are exceedingly fortunate. Their senses are cups, Your lotus feet are the lotus, and the nectar of those feet is the sweet, intoxicating drink they receive. If each sense is fulfilled by serving only one aspect of Your beauty, fragrance, or glory, what can be said of the fortune of those who serve You with every sense?",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1371,7 +1400,8 @@
         ]
       ],
       "literal_english": "The great blessing Brahmā requested is this: any birth in the human world, even one in a forest, and especially one in Gokula, where one may be bathed in the dust of any resident’s feet. What benefit is there in birth in the highest world compared with that? The residents of Gokula are blessed because their entire life is centered on Mukunda, who is still sought by the Vedas.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1414,7 +1444,8 @@
         ]
       ],
       "literal_english": "What can be said of the fulfillment of those devotees, for whose devotion You Yourself seem indebted? You cannot give a fruit higher than Yourself, yet even Pūtanā reached You merely by imitating the appearance of a devotee, and Nanda and the others received the great fruit associated with her. Nor would giving Yourself repay the debt: for the devotees, even Baka and Aghāsura are present in Your abode, and everything there exists for Your sake.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1457,7 +1488,8 @@
         ]
       ],
       "literal_english": "One may ask why the devotees’ fortune exceeds that of renunciants who are free from attachment and other faults. O Kṛṣṇa, attachment and the other impulses are thieves, the house is a prison, and delusion is a shackle on the feet only so long as people do not belong to You. For Your devotees, even attachment becomes fixed upon You and is liberating; their devotion is greater than mere renunciation.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1496,7 +1528,8 @@
         ]
       ],
       "literal_english": "If You say that You already exist among them as their sons, the answer is that You do so in order to expand the mass of joy of the people who have surrendered to You. Merely taking the role of a son through an apparent relationship does not repay the debt You owe to such devotion.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1535,7 +1568,8 @@
         ]
       ],
       "literal_english": "From the beginning the Lord’s inconceivable, infinite qualities have been declared difficult to know. He now seems to mock those who stand claiming, “We know You,” for His glory is not an object of the mind, speech, or any of their instruments.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1574,7 +1608,8 @@
         ]
       ],
       "literal_english": "Abandoning the pride of being lord of the world, Brahmā says, “Please permit me to depart.” You alone know Your own glory and all the knowledge and power of beings such as us, because You are the seer of all worlds. Therefore this world and this body, which I had treated as objects of “mine,” are offered back to You.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1625,7 +1660,8 @@
         ]
       ],
       "literal_english": "Brahmā bows with great reverence, asking Kṛṣṇa to send this servant away. He praises Him as the sun that gives joy to the lotus of the Vṛṣṇi dynasty; as the moon that increases the oceans of earth, gods, twice-born sages, and animals; as the sun that dispels the darkness of false religion and destroys demons such as Kaṁsa. Even comparisons with the sun are inadequate, so he bows to the worshipful Lord through the end of the age.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1668,7 +1704,8 @@
         ]
       ],
       "literal_english": "“May that Acyuta protect you—He who, with His friends and calves, delights in the wonder of their release, who joyfully sustained all the forms of the sons whose return was delayed, and who brings auspiciousness to Vraja.” The commentary explains the verse as bowing at His feet; the desired object is what is worshiped and sought from every side.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1684,7 +1721,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1731,7 +1768,8 @@
         ]
       ],
       "literal_english": "How could they have remained seated there for so long, forgetting hunger and thirst? Although a year had passed without Kṛṣṇa, the Lord of their life-breath, separation from a beloved makes even a moment seem longer than a year. Yet, struck by māyā, they thought the entire year was only half a moment.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1747,7 +1785,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1790,7 +1828,8 @@
         ]
       ],
       "literal_english": "They said: “Welcome—you have come back safely and very quickly. Without you we did not eat even a single mouthful. Come here; eat properly and without distraction.”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1806,7 +1845,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1822,7 +1861,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1838,7 +1877,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1881,7 +1920,8 @@
         ]
       ],
       "literal_english": "The creeper of the residents of Vraja’s affection for their own children grew day after day for a year, gradually becoming limitless, just as their unprecedented love for Kṛṣṇa had grown. Brahmā now asks about this increase of love.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1916,7 +1956,8 @@
         ]
       ],
       "literal_english": "Because Kṛṣṇa is directly the Self, greater love for Him than for those who belong to oneself is appropriate. The next verses first establish that the Self is naturally most dear, while love for others depends upon their being associated with the Self.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1951,7 +1992,8 @@
         ]
       ],
       "literal_english": "Why is this so? Because each person sees the self in his own body as the seat of ego and therefore loves it above all else.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1994,7 +2036,8 @@
         ]
       ],
       "literal_english": "The visible gradations of love depend on gradations in identifying the self with the body. The sons and others who follow the body are therefore not as dear as the body to one who believes the body is the self.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -2010,7 +2053,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -2026,7 +2069,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -2053,7 +2096,8 @@
         ]
       ],
       "literal_english": "The matter under discussion is stated directly: “this Kṛṣṇa.”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -2092,7 +2136,8 @@
         ]
       ],
       "literal_english": "Kṛṣṇa is not only the Self of conscious beings but, in reality, the Self even of inert things. For those who know Him as the cause of the whole universe, everything moving and unmoving is the form of Bhagavān, and nothing is separate from Him.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -2135,7 +2180,8 @@
         ]
       ],
       "literal_english": "What is the real object? The real meaning is the cause in which an effect resides as its transformation. As the Upaniṣad says, a modification is only a product of speech; clay alone is real. Kṛṣṇa is the cause even of that cause. Therefore let anyone point out what object exists apart from Śrī Kṛṣṇa.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -2178,7 +2224,8 @@
         ]
       ],
       "literal_english": "Since Śrī Kṛṣṇa alone is ultimate reality, those who take exclusive shelter of the tender lotus feet of the meritorious Murāri have liberation accomplished without effort. For them the ocean of becoming becomes no more than water in a calf’s footprint; the supreme abode of Vaikuṇṭha is attained, and the place that is the object of calamity never becomes theirs again. They do not return.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -2193,7 +2240,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -2209,7 +2257,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -2248,7 +2296,8 @@
         ]
       ],
       "literal_english": "“A bee at the feet of Nṛsiṁha, Śrīdhara Svāmī, composed this hymn of praise according to his ability.” This is the concluding signature of the commentary.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "complete",
+  "status": "source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/12-17/13.md",
-  "editorial_note": "Complete source-bound Śrīdhara commentary for ŚB 10.13.1–10.13.64; source gaps and explicit no-commentary records are preserved exactly from the pinned local cache.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed glosses restored or translated; lexical rows in this chapter have been individually audited. Exact no-commentary markers preserved.",
   "scope": "Canto 10 Chapter 13, all 64 canonical verses, with pinned Śrīdhara source blocks plus explicit source-gap/no-commentary records.",
   "entries": [
     {
@@ -48,7 +48,8 @@
         ]
       ],
       "literal_english": "In the Thirteenth Chapter, Brahmā carried away the calves and their keepers by his illusion. Then Kṛṣṇa, whose form was all of them, continued for a year exactly as before. Nūtanayasi means, “you make it fresh.”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -83,7 +84,8 @@
         ]
       ],
       "literal_english": "Indeed, this is the natural disposition of those who retain and take the essence. Once heard, the account of Acyuta becomes pleasingly fresh at every moment. This is so even for those whose speech, hearing, and minds have the account of Acyuta alone as their object.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -98,7 +100,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -113,7 +116,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -156,7 +160,8 @@
         ]
       ],
       "literal_english": "He praises the sandbank as a place for arranging the meal. It possessed the treasures of their play and had soft, clean sand. It had a blossoming lake, called blossoming because of its abundance of lotuses. Bees and birds were drawn there by its fragrance, and the trees were filled with echoes of sounds from the water.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -172,7 +177,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -188,7 +193,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -231,7 +236,8 @@
         ]
       ],
       "literal_english": "Then they shone, seated all around Kṛṣṇa in many continuous rows and circles. Their faces were turned toward Him and their eyes were opened wide, like the petals surrounding the whorl of a lotus.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -262,7 +268,8 @@
         ]
       ],
       "literal_english": "They made their dishes from flowers, from the petals of those flowers, and from other leaves.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -278,7 +285,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -321,7 +328,8 @@
         ]
       ],
       "literal_english": "The Lord, who is the enjoyer of sacrifice, also ate among them, and His play was like that of children. The flute rested between His belly and garment, while He held a soft morsel of curd-rice and fruits between the joints of His fingers. Standing in the center like a lotus whorl, He faced all directions while His friends sat around Him and He entertained them with joking words. While heaven and its residents looked on in wonder, He ate among the people.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -336,7 +344,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -352,7 +361,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -387,7 +396,8 @@
         ]
       ],
       "literal_english": "They were in the mountains and in their caves, in bowers whose inner spaces were covered by vines and the like, and in the ravines.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -430,7 +440,8 @@
         ]
       ],
       "literal_english": "Brahmā, born from the lotus arising from the waters, came immediately afterward, at that very moment, having reached that opening. Wanting to see another beautiful manifestation of the Lord’s glory, he took the calves and calf-keepers from the sandbank to another place and himself disappeared.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -461,7 +472,8 @@
         ]
       ],
       "literal_english": "“Both” means both the calves and the calf-keepers. He examined them and looked into what had happened.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -477,7 +489,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -493,7 +505,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -536,7 +548,8 @@
         ]
       ],
       "literal_english": "The words “as many as” are now explained. The number did not exceed the measure of the small bodies of the calves and calf-keepers; the same applies below. Dala can mean a leaf-shaped instrument, or a piece of bamboo, that is, a flute; śik means a hanging bag. Alternatively, Kṛṣṇa, the unborn source of every form, shone as all the bodies of the calves and their keepers. The well-known statement that the whole world is pervaded by Viṣṇu became directly manifest, as though its meaning had taken visible form.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -575,7 +588,8 @@
         ]
       ],
       "literal_english": "Thus, being the Self of all, He entered Vraja. The calves were forms of the Self, and the action itself was performed by Him. With the forms of the Self He warded things off; as the one who caused them to act, He was Himself the agent. Playing with His own forms means that both the action and its instruments were Himself.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -591,7 +605,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -634,7 +648,8 @@
         ]
       ],
       "literal_english": "The bewilderment of the cowherd women is described: their mothers, quickly rising when they heard the flute, lifted their sons with both arms as though they were the Supreme Brahman. They made them drink milk, sweet and intoxicating like nectar.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -673,7 +688,8 @@
         ]
       ],
       "literal_english": "By the rule governing each watch and the play of time, evening came. He returned through His own auspicious actions, delighting the mothers; then they fondled Him with massage and other acts of loving care.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -704,7 +720,8 @@
         ]
       ],
       "literal_english": "The bewilderment of the cows is described: they were called back, summoned, and united with their calves.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -747,7 +764,8 @@
         ]
       ],
       "literal_english": "Even for Kṛṣṇa there was an asymmetry that could not be prevented. The cows and cowherd women had toward Him the same motherhood, expressed through tender care, as before, but with an even greater abundance of affection. Hari’s childhood among them also remained as before, but without the covering of illusion that says, “She is my mother; I am her son.”",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -782,7 +800,8 @@
         ]
       ],
       "literal_english": "Formerly the residents of Vraja had greater love for Kṛṣṇa, Yaśodā’s son, than even for their own sons; now that same excess of love increased for their own children. Ā ābdam means for the whole year, and the increase was without limit.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -821,7 +840,8 @@
         ]
       ],
       "literal_english": "Thus Śrī Kṛṣṇa, the Self, became the calf-keeper and played there, protecting Himself by Himself under the guise of the calves and their keepers.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -864,7 +884,8 @@
         ]
       ],
       "literal_english": "Until this point Rāma too had remained bewildered. At the end of the year He somehow understood what had happened. “In five or six nights” means in the five or six nights still remaining to complete the year.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -880,7 +901,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -927,7 +948,8 @@
         ]
       ],
       "literal_english": "At once the herd of cows, controlled by affection and drawn by love for the calves, forgot its own body and hastened to the enclosure. It crossed the difficult path beyond the cowherds; running with the two feet together, the animals appeared almost two-footed. Their necks were bent toward their humps, their tails were raised, and milk streamed from them everywhere. The expression “the herd” includes bulls and the other cattle as well.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -966,7 +988,8 @@
         ]
       ],
       "literal_english": "The particular activity of the cows is now described. They came together below Govardhana, including cows that had recently given birth again and had calves.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1009,7 +1032,8 @@
         ]
       ],
       "literal_english": "After describing the excessive affection of the cows toward the calves as seen by Rāma, the affection of the cowherd men is described. They came with their sons to see the calves, accompanied by shame at the futility of restraining the cows, intense anger, and the hardship caused by the difficult path.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1052,7 +1076,8 @@
         ]
       ],
       "literal_english": "On seeing their sons, their hearts became immersed in the nectar of love. Although they had come with the shame, anger, and distress that made them want to chastise the boys, their anger disappeared and affection arose instead. By smelling the boys’ heads, they attained the highest joy.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1068,7 +1093,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1084,7 +1109,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1127,7 +1152,8 @@
         ]
       ],
       "literal_english": "He voices his thought: “What is this?” Formerly Vraja’s love was directed to Vāsudeva; now an unprecedented love for their own children is increasing. What is this wonder? I too, together with Vraja, have excessive love for these children—what is its cause?",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1143,7 +1169,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1159,7 +1185,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1202,7 +1228,8 @@
         ]
       ],
       "literal_english": "Balarāma first knew these forms as generally belonging to Kṛṣṇa, then asked Kṛṣṇa and learned the specific truth through His instruction. He knew that the calves were portions of the sages and the calf-keepers portions of the gods; now, even in this differentiated basis, You alone shine. Therefore distinguish everything separately and tell me what happened. By the Lord’s brief reply, the event became known to Balarāma.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1241,7 +1268,8 @@
         ]
       ],
       "literal_english": "When the question arose, “What happened then?”, the answer is given: after the year had passed, in a period no longer than a moment by His own measure, he saw Hari together with His attendants.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1276,7 +1304,8 @@
         ]
       ],
       "literal_english": "Having seen them, he reasoned through the next two verses, beginning with “as many as.” The phrase “in my resting place of māyā” means on the bed formed by my own illusory potency.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1292,7 +1321,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1331,7 +1360,8 @@
         ]
       ],
       "literal_english": "While reasoning in this way, he was not bewildered. The explanation follows the reading ātmabhūḥ, “the self-born one,” after meditating for a long time on these distinctions.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1346,7 +1376,8 @@
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1393,7 +1424,8 @@
         ]
       ],
       "literal_english": "If He is the support of māyā, how could He be bewildered? Two examples show that a lesser power cannot cover the great magician. Fog in night darkness does not make a separate covering but dissolves into the darkness already present; a firefly’s light produces no separate illumination in the daytime. Likewise, when a great person employs māyā, another, lesser māyā accomplishes nothing and merely destroys its own power by merging into the Self.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1440,7 +1472,8 @@
         ]
       ],
       "literal_english": "Another wonder is described: as many as there were calf-keepers, calves, and keepers, all their staffs, horns, and other belongings were present as well.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1456,7 +1489,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1487,7 +1520,8 @@
         ]
       ],
       "literal_english": "Likewise, abundant merit accumulated over many births is offered by qualified persons.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1503,7 +1537,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1534,7 +1568,8 @@
         ]
       ],
       "literal_english": "The self here means Brahmā, together with all beings from him down to a blade of grass; they are many worshipful beings, and they offer many acts of worship.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1550,7 +1585,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1566,7 +1601,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1609,7 +1644,8 @@
         ]
       ],
       "literal_english": "Although all of them possess forms, their special nature is explained: they are forms of truth, knowledge, infinity, and bliss. Each is of a single measure, without mixture with anything different, and their forms are of one essence and always the same. Alternatively, Brahman itself—the single essence of truth, knowledge, and the rest—is their form. Thus the Upaniṣad says that they are those whose very sight is self-knowledge; they appear without being touched by the vastness of their own glory.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1625,7 +1661,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1672,7 +1708,8 @@
         ]
       ],
       "literal_english": "The expression is explained in more than one way: with immense wonder he raised and turned his eyes, or he fell upon the back of a swan. Another division means “having churned and overturned,” while another textual reading means “agitated.” By the radiance of those forms, Brahmā’s senses were arrested, and he became silent and motionless. The comparison is to a small image near Pūr, the goddess presiding over Vraja, like an artificial four-faced figurine near her.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1727,7 +1764,8 @@
         ]
       ],
       "literal_english": "The Lord is said to have lifted the self-born Brahmā out of this delusion. While Brahmā, the lord of Sarasvatī, was bewildered by the thought “What is this?” and unable even to see further, the Supreme Unborn Kṛṣṇa quickly covered and withdrew the māyā-shaped curtain that had displayed the wonder. Alternatively, because Brahmā was unfit to see His sovereignty, Kṛṣṇa spread māyā over him. The cause was His inconceivable, extraordinary glory: He is self-luminous, unborn and beyond material nature, and His nature is known through the Upaniṣadic teachings that negate everything non-self.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1743,7 +1781,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1759,7 +1797,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1802,7 +1840,8 @@
         ]
       ],
       "literal_english": "He then saw Vṛndāvana, where people and animals that were naturally hostile—even lions and the like—lived together as friends. Anger, thirst, and the other causes of conflict had fled because the Unconquered Lord dwelt there.",
-      "source_available": true
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed lexical row audit completed."
     },
     {
       "canto": 10,
@@ -1818,7 +1857,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1834,7 +1873,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1850,7 +1889,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     },
     {
       "canto": 10,
@@ -1866,7 +1905,7 @@
       ],
       "literal_english": "The pinned local Canto 10 source cache has no Śrīdhara block for this canonical range; no commentary is invented.",
       "source_available": false,
-      "source_note": "No source block is present in the pinned local cache for this canonical range."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Exact no-commentary marker preserved."
     }
   ]
 }
