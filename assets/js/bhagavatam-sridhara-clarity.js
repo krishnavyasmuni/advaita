@@ -193,7 +193,8 @@
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto12-ch08.json?v=20260922-c12-8',
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto12-ch09.json?v=20260922-c12-9',
     '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto12-ch10.json?v=20260922-c12-10',
-    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto12-ch11.json?v=20260922-c12-11'
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto12-ch11.json?v=20260922-c12-11',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto12-ch12.json?v=20260922-c12-12'
   );
 
   const reviewed = Promise.all(paths.map((path) =>
