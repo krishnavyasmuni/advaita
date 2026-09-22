@@ -949,6 +949,40 @@
     {
       "canto": 12,
       "chapter": 3,
+      "start": 29,
+      "end": 29,
+      "source_marker": "१२.३.२९",
+      "sanskrit": "काम्यानां कर्मणां विषये यदा प्रीतिः, तत् तदा रजस्-तमः-प्रधानं द्वापरं जानीहीति पूर्वेणानुषङ्गः ॥२९॥",
+      "main_sanskrit": "यदा लोभस् त्व् असन्तोषो मानो दम्भोऽथ मत्सरः ।\n\nकर्मणां चापि काम्यानां द्वापरं तद् रजस्-तमः ॥",
+      "word_for_word": [
+        [
+          "काम्यानाम् कर्मणाम् विषये",
+          "regarding fruitive actions"
+        ],
+        [
+          "यदा प्रीतिः",
+          "when there is attachment"
+        ],
+        [
+          "रजस्-तमः-प्रधानम्",
+          "predominated by rajas and tamas"
+        ],
+        [
+          "द्वापरम्",
+          "the Dvāpara age"
+        ],
+        [
+          "पूर्वेण अनुषङ्गः",
+          "connected with the preceding statement"
+        ]
+      ],
+      "literal_english": "When there is attachment to fruitive actions, understand that the age is Dvāpara, predominated by rajas and tamas; this meaning is supplied by connection with the preceding statement.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact source range preserved. The source heading uses an underscore variant for 12.3.29; the verse and Śrīdhara block are retained exactly."
+    },
+    {
+      "canto": 12,
+      "chapter": 3,
       "start": 30,
       "end": 30,
       "source_marker": "१२.३.३०",
