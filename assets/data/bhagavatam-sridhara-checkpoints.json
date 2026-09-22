@@ -7927,6 +7927,33 @@
       "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
       "contents_link": "https://krishnavyasmuni.github.io/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/#canto-10",
       "live_render": null
+    },
+    {
+      "id": "canto-10-chapter-37-release",
+      "range": "ŚB 10.37.1–10.37.34",
+      "status": "source-checked-and-reader-committed",
+      "english_source": "https://vedabase.io/en/library/sb/10/37/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/37.md",
+      "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "83b1b231ca668479cb498daeabfb1dce2ef80141",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/10/34-49/37.md",
+      "records_checked": 34,
+      "exact_sridhara_source_blocks": 27,
+      "no_commentary_ranges": [
+        "10.37.7",
+        "10.37.14",
+        "10.37.17",
+        "10.37.19",
+        "10.37.25",
+        "10.37.27",
+        "10.37.31"
+      ],
+      "source_gap_ranges": [
+        "10.37.7"
+      ],
+      "live_render": null,
+      "generated_at": "2026-09-22",
+      "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available."
     }
   ],
   "generated_at": "2026-09-21"
