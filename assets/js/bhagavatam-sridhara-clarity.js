@@ -183,7 +183,8 @@
   }
 
   if (canto === 12) paths.push(
-    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto12-ch01.json?v=20260922-c12-1'
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto12-ch01.json?v=20260922-c12-1',
+    '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto12-ch02.json?v=20260922-c12-2'
   );
 
   const reviewed = Promise.all(paths.map((path) =>
