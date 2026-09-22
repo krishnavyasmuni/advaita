@@ -3,6 +3,16 @@
 const site='/vivekadrishti/',base=site+'articles/a-shaiva-lens-on-shiva-as-the-supreme-deity/';
 const root=document.getElementById('source-content');if(!root)return;
 const make=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
+const articleText=value=>String(value??'')
+ .replace(/\bcontinued\s+on\s+(?:the\s+)?source\s+PDF\s+page\s+\d+\b/gi,'')
+ .replace(/\bsource\s+PDF\s+page\s+\d+\b/gi,'')
+ .replace(/\bPDF\s+page\s+\d+\b/gi,'')
+ .replace(/\bsource\s+document\b/gi,'source')
+ .replace(/\bthis\s+document\b/gi,'this article')
+ .replace(/\bthe\s+document\b/gi,'the article')
+ .replace(/\bdocument\b/gi,'article')
+ .replace(/\s{2,}/g,' ')
+ .trim();
 async function get(path){const r=await fetch(site+path+'?v=20260921-tidy-3');if(!r.ok)throw Error(path+': HTTP '+r.status);return(await r.text()).trim();}
 async function load(){
  const encoded=await get('assets/data/shaiva-manuscript.b64');
@@ -43,8 +53,9 @@ function renderIndex(text){
 function renderBlock({kind,value},section){
  if(kind==='sa')return sanskrit(value);
  if(kind==='quote'){
-  if(value==='English'||/^Bhagavadgītā, IX\.25$/.test(value)||/^Laugakshi Smriti, Volume 6$/.test(value))return make('p','shaiva-passage-label',value);
-  return make('blockquote','translation shaiva-quote',value);
+  const visible=articleText(value);
+  if(visible==='English'||/^Bhagavadgītā, IX\.25$/.test(visible)||/^Laugakshi Smriti, Volume 6$/.test(visible))return make('p','shaiva-passage-label',visible);
+  return make('blockquote','translation shaiva-quote',visible);
  }
  if(kind==='table'){
   const table=make('table','shaiva-parallel');
@@ -56,20 +67,22 @@ function renderBlock({kind,value},section){
   for(const [original,english,note] of value){
    const row=document.createElement('tr');
    const left=make('td','shaiva-parallel__sanskrit',original||'');left.lang='sa-Deva';
-   const right=make('td','shaiva-parallel__english',english||'');right.lang='en';
-   if(note)right.append(make('small','shaiva-note',note));
+   const right=make('td','shaiva-parallel__english',articleText(english||''));right.lang='en';
+   const noteText=articleText(note||'');
+   if(noteText)right.append(make('small','shaiva-note',noteText));
    row.append(left,right);tbody.append(row);
   }
   table.append(thead,tbody);return table;
  }
  if(kind==='p'){
-  if(section==='index')return renderIndex(value);
-  if(section==='opening'&&value==='A Scripture-Based Case for the Supremacy of Shiva')return make('span','shaiva-source-title-anchor');
-  if(/popcultking/i.test(value))return document.createDocumentFragment();
-  if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(value)&&value.length<180)return make('h3','shaiva-subheading',value);
-  return make('p','shaiva-paragraph',value);
+  const visible=articleText(value);
+  if(section==='index')return renderIndex(visible);
+  if(section==='opening'&&visible==='A Scripture-Based Case for the Supremacy of Shiva')return make('span','shaiva-source-title-anchor');
+  if(/popcultking/i.test(visible))return document.createDocumentFragment();
+  if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(visible)&&visible.length<180)return make('h3','shaiva-subheading',visible);
+  return make('p','shaiva-paragraph',visible);
  }
- return make('p','shaiva-paragraph',String(value));
+ return make('p','shaiva-paragraph',articleText(value));
 }
 function href(s){return s.id==='opening'?base:base+'?section='+encodeURIComponent(s.id);}
 function tocInto(node,sections,selected){
