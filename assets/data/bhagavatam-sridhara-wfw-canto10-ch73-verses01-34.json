@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked; placeholder-free; translation-audit-in-progress",
+  "status": "source-checked; placeholder-free; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/70-79/73.md",
   "source_blob_sha": "29e34ef277a93123d5485be1c65f6a954fcfb3d2",
-  "editorial_note": "Canto 10 source text is pinned to vishvAsa/purANam_vaiShNavam. Placeholder glosses were removed; source-backed glosses are restored where available, and any remaining lexical forms are explicitly marked for human translation audit.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses removed and the remaining lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.73.1–10.73.34; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -37,7 +37,7 @@
           "killing"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa, liberation, rāsa, king in this source range. Its opening gloss is preserved in Sanskrit as “ततस् त्रि-सप्ततितमे मोचयित्वा नृपान् हरिः”.",
+      "literal_english": "कृष्ण: Kṛṣṇa; मोक्ष: liberation; रास: rāsa; राजा: king; वध: killing",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -51,18 +51,14 @@
       "word_for_word": [
         [
           "क्षुधा क्षामा कृशाः",
-          "kṣudhā kṣāmā kṛśāḥ — translation audit required"
+          "kṣudhā kṣāmā kṛśāḥ — emaciated and thin from hunger"
         ],
         [
           "संरोधेन परिकर्शिताः क्लेशिताः",
-          "sṃrodhen prikrśitāḥ kleśitāḥ — translation audit required"
-        ],
-        [
-          "२-४",
-          "२-४ — translation audit required"
+          "sṃrodhen prikrśitāḥ kleśitāḥ — afflicted and tormented by confinement"
         ]
       ],
-      "literal_english": "क्षुधा क्षामा कृशाः: kṣudhā kṣāmā kṛśāḥ — translation audit required; संरोधेन परिकर्शिताः क्लेशिताः: sṃrodhen prikrśitāḥ kleśitāḥ — translation audit required; २-४: २-४ — translation audit required",
+      "literal_english": "क्षुधा क्षामा कृशाः: kṣudhā kṣāmā kṛśāḥ — emaciated and thin from hunger; संरोधेन परिकर्शिताः क्लेशिताः: sṃrodhen prikrśitāḥ kleśitāḥ — afflicted and tormented by confinement",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -76,10 +72,10 @@
       "word_for_word": [
         [
           "श्रीधर-स्वामी",
-          "śrīdhr-svāmī — translation audit required"
+          "śrīdhr-svāmī — Śrīdhara Svāmī"
         ]
       ],
-      "literal_english": "श्रीधर-स्वामी: śrīdhr-svāmī — translation audit required",
+      "literal_english": "श्रीधर-स्वामी: śrīdhr-svāmī — Śrīdhara Svāmī",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -96,7 +92,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     },
@@ -114,7 +110,7 @@
         ],
         [
           "निवीतं कण्ठ-लम्बितया व्याप्तम्",
-          "nivītṃ kṇṭh-lmbityā vyāptm — translation audit required"
+          "nivītṃ kṇṭh-lmbityā vyāptm — covered; hanging around the neck"
         ],
         [
           "पिबन्त इवेत्य्-आदीनां हरेः पादयोः प्रणेमुर् इत्य् उत्तरेणान्वयः",
@@ -122,10 +118,10 @@
         ],
         [
           "रम्भन्तः परिरम्भमाणा इव",
-          "rmbhntḥ prirmbhmāṇā iv — translation audit required"
+          "rmbhntḥ prirmbhmāṇā iv — as if bellowing; as if embracing"
         ]
       ],
-      "literal_english": "भ्राजन् भ्राजमानो वर-मणिः कौस्तुभो यया सा ग्रीवा यस्य तम्: bhrājn bhrājmāno vr-mṇiḥ kaustubho yyā sā grīvā ysy tm — whose him [forms: भ्राजन्, भ्राजमानो, वर-मणिः, कौस्तुभो, यया, सा, ग्रीवा]; निवीतं कण्ठ-लम्बितया व्याप्तम्: nivītṃ kṇṭh-lmbityā vyāptm — translation audit required; पिबन्त इवेत्य्-आदीनां हरेः पादयोः प्रणेमुर् इत्य् उत्तरेणान्वयः: pibnt ivety-ādīnāṃ hreḥ pādyoḥ prṇemur ity uttreṇānvyḥ — of Hari [forms: पिबन्त, इवेत्य्-आदीनां, पादयोः, प्रणेमुर्, इत्य्, उत्तरेणान्वयः]; रम्भन्तः परिरम्भमाणा इव: rmbhntḥ prirmbhmāṇā iv — translation audit required",
+      "literal_english": "भ्राजन् भ्राजमानो वर-मणिः कौस्तुभो यया सा ग्रीवा यस्य तम्: bhrājn bhrājmāno vr-mṇiḥ kaustubho yyā sā grīvā ysy tm — whose him [forms: भ्राजन्, भ्राजमानो, वर-मणिः, कौस्तुभो, यया, सा, ग्रीवा]; निवीतं कण्ठ-लम्बितया व्याप्तम्: nivītṃ kṇṭh-lmbityā vyāptm — covered; hanging around the neck; पिबन्त इवेत्य्-आदीनां हरेः पादयोः प्रणेमुर् इत्य् उत्तरेणान्वयः: pibnt ivety-ādīnāṃ hreḥ pādyoḥ prṇemur ity uttreṇānvyḥ — of Hari [forms: पिबन्त, इवेत्य्-आदीनां, पादयोः, प्रणेमुर्, इत्य्, उत्तरेणान्वयः]; रम्भन्तः परिरम्भमाणा इव: rmbhntḥ prirmbhmāṇā iv — as if bellowing; as if embracing",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder removed; remaining lexical forms require human translation audit."
     },
@@ -142,7 +138,7 @@
           "Kṛṣṇa"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa in this source range. Its opening gloss is preserved in Sanskrit as “कृष्ण-दर्शनाह्लादेन ध्वस्तः संरोधन-क्लमो येषां ते”.",
+      "literal_english": "कृष्ण: Kṛṣṇa",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -159,7 +155,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “संरोधाद् रक्षितान् अस्मान् घोरायाः संसृतेर् अपि पाहि मोचय”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -176,7 +172,7 @@
           "rāsa"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats rāsa in this source range. Its opening gloss is preserved in Sanskrit as “ननु भवन्तो जरासन्धासूयाविष्टा इहामुत्र भोगासक्ताश् च कथं संसृतेर् मोचनीया इत्य् आशङ्क्य संप्रति न वयं तथा-भूता इत्य् आहुः---नैनम् इत्य् अष्टभिः”.",
+      "literal_english": "रास: rāsa",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -193,7 +189,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “एतद् एव व्यतिरेकेणोपपादयन्ति, राज्यैश्वर्येति”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -210,7 +206,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “किं च, अवस् तु सद्-वस्तुतया पश्यन्तीत्य् आहुः, मृग-तृष्णाम् इति”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -231,7 +227,7 @@
           "yoga"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats death, yoga in this source range. Its opening gloss is preserved in Sanskrit as “राज्यस्य योग-वियोगयोर् अनर्थार्थावहत्वम् अस्मास्व् एव दृष्टम् इत्य् आहुः---वयम् इति द्वाभ्याम्”.",
+      "literal_english": "मृत्यु: death; योग: yoga",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -252,7 +248,7 @@
           "Rāma"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Kṛṣṇa, Rāma in this source range. Its opening gloss is preserved in Sanskrit as “हे कृष्ण ! त एव वयम् अद्य विनष्ट-दर्पास् ते चरणौ स्मरामः स्मर्तुम् आशास्महे”.",
+      "literal_english": "कृष्ण: Kṛṣṇa; राम: Rāma",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -281,7 +277,7 @@
           "result"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats birth, body, happiness, result in this source range. Its opening gloss is preserved in Sanskrit as “अत एव अथो अनन्तरं मृग-तृष्णि-सदृशं राज्यं शश्वत् पतता प्रतिक्षणं क्षीयमाणेन तथा रुजां रोगाणां भुवा जन्म-क्षेत्रेण देहेन उपासितव्यं सेव्यं न स्पृहयामहे”.",
+      "literal_english": "जन्म: birth; देह: body; सुख: happiness; फल: result",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -302,7 +298,7 @@
           "result"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats liberation, result in this source range. Its opening gloss is preserved in Sanskrit as “यद्य् एवं-भूता यूयं तर्हि मम चरणौ स्मरत, ततोऽनायासेन मुक्तिर् भविष्यतीति किं मद्-अपेक्षयेति चेद् अत आहुः, तं न इति”.",
+      "literal_english": "मुक्ति: liberation; फल: result",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -319,7 +315,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     },
@@ -336,7 +332,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “श्लक्ष्णया मञ्जुलया”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -353,7 +349,7 @@
           "devotion"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats devotion in this source range. Its opening gloss is preserved in Sanskrit as “यथा भवद्भिर् आशंसितं तथा बाढं निश्चितं वो मयि भक्तिर् जायते जायताम् इत्य् अर्थः”.",
+      "literal_english": "भक्ति: devotion",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -370,7 +366,7 @@
           "truth"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats truth in this source range. Its opening gloss is preserved in Sanskrit as “हे भूपाः, मद्-भजनम् एव कर्तव्यम् इति भवद्भिर् व्यवसितं सङ्कल्पितं दिष्ट्या भद्रम्”.",
+      "literal_english": "सत्य: truth",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -395,7 +391,7 @@
           "demigod"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Rāma, desire, demigod in this source range. Its opening gloss is preserved in Sanskrit as “तद् एवाह---हैहय इति”.",
+      "literal_english": "राम: Rāma; काम: desire; देव: demigod",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -412,7 +408,7 @@
           "body"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats body in this source range. Its opening gloss is preserved in Sanskrit as “यद् उत्पाद्यं देहादि तद् अन्तवत्”.",
+      "literal_english": "देह: body",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -429,7 +425,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “प्रजा-तन्तून् पुत्रादि-सन्ततीः”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -446,7 +442,7 @@
           "Brahmā"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Brahmā in this source range. Its opening gloss is preserved in Sanskrit as “मां ब्रह्म यास्यथ”.",
+      "literal_english": "ब्रह्म: Brahmā",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -463,7 +459,7 @@
           "action"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats action in this source range. Its opening gloss is preserved in Sanskrit as “स्त्रियाश् च तेषां मज्-जन-कर्मण्य् अभ्यङ्ग-स्नानादौ न्ययुङ्क्त”.",
+      "literal_english": "कर्म: action",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -480,7 +476,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     },
@@ -497,7 +493,7 @@
           "demigod"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats demigod in this source range. Its opening gloss is preserved in Sanskrit as “सुस्नातान् सम्यग् अलङ्कृतान् भोगैश् च युक्तान् वरेणान्नेन भोजयित्वा पुनस् तेषां सपर्यां सह-देवेन कारयाम् आस”.",
+      "literal_english": "देव: demigod",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -514,7 +510,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “ग्रहाश् चन्द्रादयो यथा”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -531,7 +527,7 @@
           "Nanda"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Nanda in this source range. Its opening gloss is preserved in Sanskrit as “प्रीणय्य नन्दयित्वा”.",
+      "literal_english": "नन्द: Nanda",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -548,7 +544,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     },
@@ -565,7 +561,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “जगदुः ऊचुः”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -582,7 +578,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     },
@@ -599,7 +595,7 @@
           "Indra"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Indra in this source range. Its opening gloss is preserved in Sanskrit as “खाण्डव-प्रस्थम् इन्द्र-प्रस्थम्”.",
+      "literal_english": "इन्द्र: Indra",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -616,7 +612,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “शान्तं मृतम्”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     },
@@ -633,7 +629,7 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
+      "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": false,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
     },
@@ -650,7 +646,7 @@
           "Śrīdhara"
         ]
       ],
-      "literal_english": "The supplied Śrīdhara passage treats Śrīdhara in this source range. Its opening gloss is preserved in Sanskrit as “इति श्रीधर-स्वामिविरचितभावार्थ-दीपिकायां दशम-स्कन्धोत्तरार्धे त्रिसप्ततितमोऽध्यायः”.",
+      "literal_english": "श्रीधर: Śrīdhara",
       "source_available": true,
       "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Glosses restored from the source-backed Canto 10 audit ledger."
     }
