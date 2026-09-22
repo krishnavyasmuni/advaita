@@ -26,4 +26,4 @@ This is a source-bound mechanical and translation audit, not an independent crit
 
 ## Release boundary
 
-Canto 11 remains publicly accessible with its restoration notice. Canto 10.39 is deliberately held until the combined Canto 1, 2, 10, and 11 repair gate is closed. New publication continues chapter-by-chapter after that gate.
+Canto 11 remains publicly accessible with its restoration notice. The combined Canto 1, 2, 10, and 11 repair gate is now closed. Canto 10.39 is the next release, followed by one completed chapter at a time.
