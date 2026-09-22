@@ -18,11 +18,23 @@
       "sanskrit": "नित्य-मुक्तः स्वतः सर्व-वेद-कृत् सर्व-वेद-वित् ।\n\nस्व-पर-ज्ञान-दाता यस् तं वन्दे गुरुम् ईश्वरम् ॥\n\nद्वाविंशे तत्त्व-सङ्ख्यानाम् अविरोध-विधोच्यते ।\n\nपुं-प्रकृत्योर् विवेकश् च जन्म-मृत्यु-विधादि च ॥\n\nतद् एवं वेदानां प्रवृत्ति-परत्वं निराकृत्य मोक्ष-परत्वं निर्णीतम् । सन्ति च मोक्ष-परत्वेऽपि तद्-अवान्तर-विवादाः । तथा हि, केचित् तत्त्व-सङ्ख्यासु विवदन्ते, तत्रपि बाह्यार्थ-सद्-असत्त्वे आत्मत्वेऽप्य् एकत्व-नानात्वादिषु तत्र किं सत्यं ? इति जिज्ञासया पृच्छति---कतीति । ऋषिभिर् आगमेषु बहुधा सङ्ख्यातानि, तेषु कति युक्तानि ? इत्य् अर्थः । भगवन्-मतानुवाद-पूर्वकं बहुधा सङ्ख्यानं प्रपञ्चयति---नवेति त्रिभिः । त्वं तावद् अष्टाविंशति-तत्त्वान्य् आत्थ । तानि च वयं शुश्रुम श्रुतवन्तः ॥१-२॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "तत्त्व-सङ्ख्या",
+          "enumeration of principles"
+        ],
+        [
+          "कति",
+          "how many"
+        ],
+        [
+          "ऋषिभिः",
+          "by the sages"
+        ],
+        [
+          "अष्टाविंशति-तत्त्वानि",
+          "twenty-eight principles"
         ]
       ],
-      "literal_english": "The elements and their numerical enumeration are presented from the various standpoints of the sages. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The sages enumerate the principles in many ways and ask which enumerations are coherent; the chapter begins by examining the twenty-eight-principle view."
     },
     {
       "canto": 11,
@@ -58,11 +70,27 @@
       "sanskrit": "विवक्षा-भेदेन सर्वं युक्तम् एव । मायया च किं नाम न युक्तं ? इत्य् आह---युक्तम् इति । यथा ब्राह्मणा भाषन्ते तद् युक्तं, न च वस्तुतः । यस्मात् सन्ति सर्वत्र अन्तर्-भूतानि सर्वाणि तत्त्वानि । किं च, मायाम् इति । असत्त्वेऽपि मायाश्रयत्वाद् घटत एवेत्य् अर्थः । उद्गृह्य स्वीकृत्य । न हि मरीचि-जल-परिमाणादि-विवादे किञ्चिद् अघटितम् इव भवति ॥४॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "विवक्षा-भेदेन",
+          "according to differences in intended emphasis"
+        ],
+        [
+          "युक्तम्",
+          "coherent / valid"
+        ],
+        [
+          "मायया",
+          "through Māyā"
+        ],
+        [
+          "अन्तर्-भूतानि",
+          "included within"
+        ],
+        [
+          "उद्गृह्य",
+          "having accepted"
         ]
       ],
-      "literal_english": "The elements and their numerical enumeration are presented from the various standpoints of the sages. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "Different intentions can make different enumerations coherent, even though Māyā makes the apparent distinctions possible; all principles are included within one another."
     },
     {
       "canto": 11,
@@ -146,11 +174,31 @@
       "sanskrit": "अनुप्रवेशं दर्शयति---एकस्मिन्न् अपीति । पूर्वस्मिन् कारण-भूते तत्त्वे कार्य-तत्त्वानि सूक्ष्म-रूपेण प्रविष्टानि, मृदि घटवत् । अपरस्मिन् कार्य-तत्त्वे कारण-तत्त्वान्य् अनुगतत्वेन प्रविष्टानि, घटे मृद्वत् ॥८॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "कारण-भूते तत्त्वे",
+          "in the principle serving as cause"
+        ],
+        [
+          "कार्य-तत्त्वानि",
+          "effect-principles"
+        ],
+        [
+          "सूक्ष्म-रूपेण",
+          "in subtle form"
+        ],
+        [
+          "मृदि घटवत्",
+          "like a pot in clay"
+        ],
+        [
+          "कारण-तत्त्वानि",
+          "cause-principles"
+        ],
+        [
+          "घटे मृद्वत्",
+          "like clay in a pot"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "Cause-principles enter effect-principles subtly, like a pot in clay; the causes likewise remain present in their effects, like clay in a pot."
     },
     {
       "canto": 11,
@@ -162,11 +210,27 @@
       "sanskrit": "अविरोधम् उपसंहरति । अतोऽमीषां तत्त्वानां पौर्वापर्यं तत्-तत्-कारण-कार्यत्वं प्रसङ्ख्यानं च न्यूनाधिकम् अभीप्सतां वादिनां मध्ये यथा विवक्षया यद्-वक्त्रं यस्य मुखं प्रवर्तते, तत् सर्वं विविक्तं निश्चितं वयं गृह्णीमः । उक्त-न्यायेन सर्वत्र युक्तेः सम्भवात् ॥९॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "पौर्वापर्यम्",
+          "sequence of prior and later"
+        ],
+        [
+          "कारण-कार्यत्वम्",
+          "being cause and effect"
+        ],
+        [
+          "प्रसङ्ख्यानम्",
+          "enumeration"
+        ],
+        [
+          "विवक्षया",
+          "according to intended emphasis"
+        ],
+        [
+          "युक्तेः सम्भवात्",
+          "because reasoning is possible"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The various sequences and counts of principles are accepted wherever the intended distinction and causal reasoning are coherent."
     },
     {
       "canto": 11,
@@ -178,11 +242,31 @@
       "sanskrit": "ननु कार्य-कारण-तत्त्वनां पृथक्त्वापृथक्त्व-विवक्षया भवतु नाम सङ्ख्या-भेदः, जीवेश्वरयोस् तु कथं भेदाभेद-विवक्षा, यया षड्-विंशति-पञ्च-विंशति-पक्षौ प्रवृत्तौ ? अत आह---अनादीति । स्वतो न सम्भवति, अन्यतस् तु सम्भवात्, स्वतः सर्व-ज्ञः परमेश्वरोऽन्यो भवितव्य इति षड्-विंशति-पक्षाभिप्राय इत्य् अर्थः ॥१०॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "कार्य-कारण-तत्त्वानाम्",
+          "of effect and cause principles"
+        ],
+        [
+          "भेदाभेद-विवक्षा",
+          "the intended distinction and non-distinction"
+        ],
+        [
+          "जीवेश्वरयोः",
+          "of the individual soul and the Lord"
+        ],
+        [
+          "षड्-विंशति-पञ्च-विंशति-पक्षौ",
+          "the twenty-six- and twenty-five-principle views"
+        ],
+        [
+          "स्वतः सर्वज्ञः",
+          "omniscient by nature"
+        ],
+        [
+          "परमेश्वरः",
+          "the Supreme Lord"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "Different counts arise from whether the individual soul and the Lord are treated as distinct or non-distinct; one view emphasizes the Lord's natural omniscience."
     },
     {
       "canto": 11,
@@ -262,11 +346,31 @@
       "sanskrit": "पक्षान्तरम् उद्भावयति, के ते गुणाः, किं प्रयोजनाः, किं स्वरूपाः, एतत् सर्वं दर्शयन्न् अर्थान् नवैकादश पञ्च त्रीणीति स्व-मतत्व-प्रतिपादन-श्लोके त्रीणीति पदं व्याचष्टे, सत्त्वं रजस् तम इति । मतान्तरे, कालः, सूत्रां, पुरुष इति । स्व-मते तु गुणानाम् आगमापायित्वात् प्रकृतेर् भेदो विवक्षितोऽतो गुणास् त्रीणि तत्त्वान्य् अपराणि पञ्च-विंशति-तत्त्वानि पूर्वोक्त-पक्ष-द्वय-साधारणानि दर्शयति---पुरुष इति सार्ध-द्वाभ्याम् । व्यक्तं महत्-तत्त्वम् । नभ-आदीनि पञ्च-तन्-मात्राणि । मे मया ॥१४॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "त्रयः गुणाः",
+          "the three qualities"
+        ],
+        [
+          "सत्त्वं रजस् तमः",
+          "sattva, rajas, and tamas"
+        ],
+        [
+          "पुरुषः",
+          "the Person"
+        ],
+        [
+          "व्यक्तम्",
+          "the manifest"
+        ],
+        [
+          "महत्-तत्त्वम्",
+          "the principle of mahat"
+        ],
+        [
+          "पञ्च-तन्मात्राणि",
+          "the five subtle elements"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The three qualities are sattva, rajas, and tamas; the manifest principle, mahat, and the five subtle elements are then enumerated."
     },
     {
       "canto": 11,
@@ -278,11 +382,31 @@
       "sanskrit": "एकादश दर्शयति---श्रोत्रम् इति । दर्शनं चक्षुः । ज्ञान-शक्तयो ज्ञानेन्द्रियाणि पञ्च । वग्-आदि-पाय्व्-अन्तानि द्वन्द्वैक्येनोक्तानि चत्वार्य् अङ्घ्रिश् चेति कर्माणि कर्मेन्द्रियाणि पञ्च । उभयात्मकं मनः । उभयेन्द्रिय-साधारणम् इत्य् अर्थः । अङ्ग हे उद्धव । एवम् एतान्य् एकादश ॥१५॥",
       "word_for_word": [
         [
-          "कर्म",
-          "action"
+          "श्रोत्रम्",
+          "the ear"
+        ],
+        [
+          "चक्षुः",
+          "the eye"
+        ],
+        [
+          "ज्ञानेन्द्रियाणि",
+          "the five knowledge-senses"
+        ],
+        [
+          "कर्मेन्द्रियाणि",
+          "the five action-senses"
+        ],
+        [
+          "मनः",
+          "the mind"
+        ],
+        [
+          "एकादश",
+          "eleven"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The eleven principles are the five knowledge-senses, five action-senses, and the mind."
     },
     {
       "canto": 11,
@@ -314,11 +438,31 @@
       "sanskrit": "तद् एवं मत-त्रयेऽपि तत्त्व-सङ्ख्या-भेदं निरूप्य यद् विवक्षया गायन्तीति यत् पृष्टं, तत्-तन्-मत-तात्पर्यं दर्शयति---सर्गादाव् इति । कार्याणि षोडश विकाराः, कारणानि महद्-आदीनि सप्त, तद्-रूपिणी सती प्रकृतिर् अस्य विश्वस्य सर्गादौ गुणैः सृज्यत्वाद्य्-अवस्थां धत्ते, उपादान-कारण-रूपत्वात् । पूरुषस् त्व् अव्यक्तोऽपरिणामी निमित्त-भूतः केवलम् ईक्षते। अतः परिणामिन्याः प्रकृतेः पुरुषो भिन्न इति ॥१७॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "कार्याणि षोडश",
+          "sixteen effects"
+        ],
+        [
+          "कारणानि सप्त",
+          "seven causes"
+        ],
+        [
+          "प्रकृतिः",
+          "Prakṛti"
+        ],
+        [
+          "पुरुषः",
+          "the Person"
+        ],
+        [
+          "उपादान-कारणम्",
+          "the material cause"
+        ],
+        [
+          "निमित्त-भूतः",
+          "the instrumental cause"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "Sixteen effects and seven causes are described: Prakṛti is the material cause, while the Person is the unchanging instrumental cause who merely observes."
     },
     {
       "canto": 11,
@@ -330,11 +474,31 @@
       "sanskrit": "तत्त्वैर् आरब्ध-कार्यस्य तद् अन्तर्-भावम् अभिप्रेत्याह---व्यक्तादय इति । व्यक्तादयो महद्-आदयः प्रकृतेर् उत्पन्ना ये धातवस् ते विकुर्वाणाः पुरुषेक्षणेन लब्ध-वीर्याः संहता जण्डं सूजन्ति । प्रकृतेर् बलात् ताम् आश्रित्येत्य् अर्थः ॥१८॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "व्यक्तादयः",
+          "the manifest and the others"
+        ],
+        [
+          "महद्-आदयः",
+          "mahat and the others"
+        ],
+        [
+          "धातवः",
+          "elements"
+        ],
+        [
+          "पुरुष-ईक्षणेन",
+          "through the Person's glance"
+        ],
+        [
+          "जण्डम्",
+          "the cosmic egg"
+        ],
+        [
+          "सूजन्ति",
+          "they create"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The manifest principles and the elements produced from Prakṛti, empowered by the Person's glance, combine to create the cosmic egg."
     },
     {
       "canto": 11,
@@ -346,11 +510,27 @@
       "sanskrit": "एवं स्व-मतम् उपसंहृत्य मतान्तरेष्व् अपि सामान्यतो निरूपितां घटनां विशेषतः स-तात्पर्यां दर्शयति---सप्तैवेति । जानातीति द्रष्टा जीवः उभयोर् द्रष्टृ-दृश्ययोर् आधार आत्मा चेति सप्त । तत्र प्रकृत्य्-आदीनां कारणत्वेन खादिष्व् अन्तर्-भावः । उत्तरेषाम् अन्तर्-भावार्थम् आह---ततस् तेभ्यः सप्तभ्यो देहेन्द्रियासवः सर्व-कार्याणि जायन्ते ॥१९॥",
       "word_for_word": [
         [
-          "देह",
-          "body"
+          "द्रष्टा जीवः",
+          "the jīva as seer"
+        ],
+        [
+          "आधारः आत्मा",
+          "the Self as support"
+        ],
+        [
+          "सप्त",
+          "seven"
+        ],
+        [
+          "देह-इन्द्रिय-असवः",
+          "body, senses, and vital airs"
+        ],
+        [
+          "सर्व-कार्याणि",
+          "all effects"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The seven are Prakṛti and its causes, the seer-jīva, and the supporting Self; from them arise body, senses, vital airs, and all effects."
     },
     {
       "canto": 11,
@@ -362,11 +542,23 @@
       "sanskrit": "षड् इति मतेऽपि भौतिकस्य भूतान्तर्-भवं जीवस्य च परमात्मान्तर्-भावम् आह---तैर् युक्त इति । [^११९]स च परः पुमांस् तैर् आत्म-सम्भूतैः पञ्च-भूतैर् युत इदं\nदेहादिकं सृष्ट्वा तत् स्वयं समुपाविशत् । पूर्वस्मिन् कारणे पञ्च-भूतात्मके भौतिकेन्द्रियादीनाम् अन्तर्-भव उक्तः पूर्वोक्त्या ज्ञात्व्यः^३^ ॥२०॥\n\n[^११९]: स चेत्य् आदितः ज्ञातव्य इति पर्यन्तं मुद्रितादर्श-गतो\n    भागोऽत्रानुपयुक्तत्वात् प्राचीन-पुस्तकेष्व् अनुपलम्भाच् च प्रक्षिप्त\n    इति प्रतीयते इति पाद-टीका ।",
       "word_for_word": [
         [
-          "देह",
-          "body"
+          "षड्",
+          "six"
+        ],
+        [
+          "पञ्च-भूतैः",
+          "by the five elements"
+        ],
+        [
+          "देह-आदिकम्",
+          "the body and its adjuncts"
+        ],
+        [
+          "अन्तर्-भावः",
+          "inclusion / subsumption"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "In the six-principle view, the five elements subsume the material principles, and the Supreme Person enters the body and its adjuncts."
     },
     {
       "canto": 11,
@@ -378,11 +570,23 @@
       "sanskrit": "अन्नं पृथ्वी । आत्मनो जातानि आत्मना सह चत्वारि तत्त्वानि । अन्तर्-भावार्थम् आह---तैर् इति । अवयविनः कार्यस्य ॥२१॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "अन्नम्",
+          "food"
+        ],
+        [
+          "पृथ्वी",
+          "earth"
+        ],
+        [
+          "चत्वारि तत्त्वानि",
+          "four principles"
+        ],
+        [
+          "अवयविनः कार्यस्य",
+          "of the composite effect"
         ]
       ],
-      "literal_english": "The Lord explains the relation of the living being, the mind, the senses, and the subtle body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "Earth is food; together with the Self, the four principles are included within the composite effect."
     },
     {
       "canto": 11,
@@ -490,11 +694,27 @@
       "sanskrit": "ननु गुण-साम्यं प्रकृतिस् तस्याः सत्त्वादयो गुणाः, न त्व् आत्मन इति तयोर् भेदाप्रतीतेः कथं ज्ञातुं शक्यते ? इत्य् उद्धवः पृच्छति---प्रकृतिर् इति । आत्मना जडाजड-स्वभावेन विलक्षणौ । अन्योन्यापाश्रयात् परस्पर-परिहारेणाप्रतीतेर् इत्य् अर्थः । अन्योन्यापाश्रयत्वम् एवाह---प्रकृताव् इति । प्रकृतौ तत्-कार्ये देहे । प्रकृतिश् चात्मनि । तेन विना तस्या अप्रतीतेः । अहम् इत्य् अभेद-प्रतीतेर् न देहात्मनो भेदो लक्ष्यत इत्य् अर्थः ॥२६॥",
       "word_for_word": [
         [
-          "देह",
-          "body"
+          "प्रकृतिः",
+          "Prakṛti"
+        ],
+        [
+          "देहः",
+          "the body"
+        ],
+        [
+          "आत्मा",
+          "the Self"
+        ],
+        [
+          "अन्योन्य-आश्रयत्वम्",
+          "mutual dependence"
+        ],
+        [
+          "अभेद-प्रतीतिः",
+          "the perception of non-difference"
         ]
       ],
-      "literal_english": "The analysis traces how qualities, action, and identification produce the experience of embodied life. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "Prakṛti and the Self seem indistinguishable because the body depends on the Self and the Self is perceived through the body; this is mutual dependence."
     },
     {
       "canto": 11,
@@ -554,11 +774,27 @@
       "sanskrit": "विकाराविकाराभ्यां नानात्वैकत्वाभ्यां सापेक्ष-निरपेक्षत्वाभ्यां प्रकाशाप्रकाशाभ्यां चात्यन्तं भेदं वक्तुम् आह---प्रकृतिः पुरुषश् चेति विकल्पोऽत्यन्त-भेद एव । कुतः ? इत्य् अपेक्षायां प्रकृति-शब्दोक्त-देहादि-सङ्घातस्य विकारित्वं तावद् दर्शयति---एष इति द्वाभ्यम् । एष सर्गः सृज्यत इति सर्गो देहादि-सङ्घातो वैकारिको विकारवत्। अत्र हेतुः---गुण-व्यतिकरात्मको गुण-क्षोभ-कृतः ॥२९॥",
       "word_for_word": [
         [
-          "देह",
-          "body"
+          "प्रकृतिः",
+          "Prakṛti"
+        ],
+        [
+          "पुरुषः",
+          "the Person"
+        ],
+        [
+          "विकारी",
+          "subject to change"
+        ],
+        [
+          "गुण-व्यतिकर-आत्मकः",
+          "consisting of disturbance of the qualities"
+        ],
+        [
+          "गुण-क्षोभ-कृतः",
+          "caused by agitation of the qualities"
         ]
       ],
-      "literal_english": "The analysis traces how qualities, action, and identification produce the experience of embodied life. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "Prakṛti changes because it is constituted by disturbance of the qualities, whereas the Person is distinct and unchanging."
     },
     {
       "canto": 11,
@@ -710,11 +946,31 @@
       "sanskrit": "लिङ्ग-शरीराध्यासेन सर्वं घटत इत्य् उत्तरम् आह---मन इति । प्रधानत्वेन पञ्चभिर् इति निर्देशोऽन्येषाम् अप्य् उपलक्षणार्थम् । देहाद् देहान्तरं प्रति याति । ततोऽन्य एवात्मा तन्-मनोऽनुवर्तते अहङ्कारेणानुगच्छति ॥३६॥",
       "word_for_word": [
         [
-          "देह",
-          "body"
+          "लिङ्ग-शरीर-अध्यासेन",
+          "through superimposition on the subtle body"
+        ],
+        [
+          "देहात् देहान्तरम्",
+          "from one body to another"
+        ],
+        [
+          "आत्मा",
+          "the Self"
+        ],
+        [
+          "मनः",
+          "the mind"
+        ],
+        [
+          "अहङ्कारेण",
+          "through ego"
+        ],
+        [
+          "अनुगच्छति",
+          "follows"
         ]
       ],
-      "literal_english": "The final verses distinguish birth, death, and the self from the changing body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death.",
+      "literal_english": "Through identification with the subtle body, the mind and ego carry the individual from one body to another; the Self itself is different.",
       "source_note": "The pinned source repeats the 11.22.36 heading after the merged 11.22.35–36 block; this duplicate source block is retained verbatim and is not silently discarded.",
       "source_numbering_note": "Pinned Sanskrit prints heading 11.22.36 for canonical verse 11.22.37; matched by the complete main Sanskrit to the pinned English mirror."
     },
@@ -771,11 +1027,31 @@
       "sanskrit": "जन्म तु विषयस्य देहस्यात्मतया स्वी-कृतिम् अभिमानं प्राहुः, न तु देहवद्-उत्पत्तिः । न च पुत्रादि-देहवत्-प्रीत्य्-अतिशय-मात्रेण किन्तु सर्व-भावेनाभेदेन । अभिमान-मात्रेणोत्पत्ति-मरणयोर् दृष्टान्त-द्वयम्, यथा स्वप्नश् च मनो-रथश् चेत्य् अर्थः ॥४०॥",
       "word_for_word": [
         [
-          "देह",
-          "body"
+          "जन्म",
+          "birth"
+        ],
+        [
+          "विषयस्य देहस्य आत्मतया",
+          "taking the body of an object as the Self"
+        ],
+        [
+          "अभिमानः",
+          "identification"
+        ],
+        [
+          "न तु देहवत् उत्पत्तिः",
+          "not origination like a body"
+        ],
+        [
+          "स्वप्नः",
+          "dream"
+        ],
+        [
+          "मनोरथः",
+          "mental fancy"
         ]
       ],
-      "literal_english": "The final verses distinguish birth, death, and the self from the changing body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "Birth is identification with a body, not bodily origination of the Self; dream and mental fancy illustrate this merely assumed birth and death."
     },
     {
       "canto": 11,
@@ -947,11 +1223,27 @@
       "sanskrit": "देह-सम्बन्धाज् जन्म-मरणादीनीत्य् उपपादितम् अर्थम् उपसंहरति---एता इति । हि स्फुटम् । अन्यस्य देहस्य । तनूर् अवस्थाः । गुण-सङ्गात् प्रकृत्य्-अविवेकात् । कश्चित् परमेश्वरानुग्रहतः क्वचित् कथञ्चिज् जहाति । अवस्थवतो देहस्य द्रष्टा नासाव् अवस्थावान् इति विवेक-ज्ञानेन ॥४८॥",
       "word_for_word": [
         [
-          "देह",
-          "body"
+          "देह-सम्बन्धात्",
+          "from connection with the body"
+        ],
+        [
+          "तनूः अवस्थाः",
+          "the body's states"
+        ],
+        [
+          "गुण-सङ्गात्",
+          "from association with the qualities"
+        ],
+        [
+          "प्रकृति-अविवेकात्",
+          "from failure to distinguish Prakṛti"
+        ],
+        [
+          "द्रष्टा",
+          "the witness"
         ]
       ],
-      "literal_english": "The final verses distinguish birth, death, and the self from the changing body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The states of the body arise from bodily connection, association with the qualities, and failure to distinguish Prakṛti; the witness is distinct from them."
     },
     {
       "canto": 11,
@@ -1007,11 +1299,27 @@
       "sanskrit": "अविवेकिनः संसारं प्रपञ्चयति---प्रकृतेर् इति पञ्चभिः । तत्त्वेन तत्त्व-दृष्ट्या, स्पर्शेषु विषयेषु संमूढ इति वा ॥५१॥",
       "word_for_word": [
         [
-          "तत्त्व",
-          "principle"
+          "अविवेकिनः",
+          "of the undiscriminating"
+        ],
+        [
+          "संसारम्",
+          "worldly existence"
+        ],
+        [
+          "तत्त्वेन",
+          "in reality / by truth"
+        ],
+        [
+          "स्पर्शेषु",
+          "in sense contacts"
+        ],
+        [
+          "संमूढः",
+          "deluded"
         ]
       ],
-      "literal_english": "The final verses distinguish birth, death, and the self from the changing body. The discussion counts the principles of creation and explains how mind, subtle body, action, and identification with the elements carry the living being through birth and death."
+      "literal_english": "The undiscriminating person experiences worldly existence by confusing reality with sense contacts and becoming deluded."
     },
     {
       "canto": 11,
