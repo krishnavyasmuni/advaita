@@ -1,6 +1,6 @@
 # Viṣṇu Purāṇa full-corpus audit — 2026-09-22
 
-Audited commit: `be8e50864e5463455150fd30b65a374deb534576`
+Audited commit: `85d195d44ef48f558c9a4aea8810295296b74b4b`
 
 Scope: all 126 Viṣṇu Purāṇa chapter routes on `main`, using the cited Vishvas/Vasuki source paths recorded in each route. All inspection and writes were performed through the remote GitHub workspace; nothing was run locally or in a local browser.
 
@@ -20,7 +20,7 @@ Scope: all 126 Viṣṇu Purāṇa chapter routes on `main`, using the cited Vis
 
 The requirement is not complete.
 
-A WFW control exists for 3,308 of 6,400 articles. 3,092 articles still do not have a main-text lexical layer:
+A WFW control exists for 3,332 of 6,400 articles. 3,068 articles still do not have a main-text lexical layer:
 
 | Book | Articles | Main lexical WFW present | Still missing |
 |---|---:|---:|---:|
@@ -28,17 +28,17 @@ A WFW control exists for 3,308 of 6,400 articles. 3,092 articles still do not ha
 | 2 | 787 | 710 | 77 |
 | 3 | 837 | 837 | 0 |
 | 4 | 1,354 | 61 | 1,293 |
-| 5 | 1,517 | 502 | 1,015 |
+| 5 | 1,517 | 526 | 991 |
 | 6 | 498 | 0 | 498 |
 
 Books 1–2 contain some WFW controls with Śrīdhara material; those are not automatically counted as complete main-text WFW. Books 4–6 still need genuine Sanskrit-first reconstruction beyond the chapters already rebuilt; the current pass has rebuilt Books 5 Chapters 22, 24, 27, 28, and 31, with sourced Śrīdhara layers added for Chapters 22 and 31. A control’s presence is not being counted as semantic completion.
 
 ## Śrīdhara and control status
 
-The repository contains 3,499 articles with a Śrīdhara Sanskrit control and 3,026 explicit `No commentary.` states after the Chapter 35 rebuild. The structural control check confirms that the published Transliteration controls are present, but it does not prove that every IAST string or every Śrīdhara translation is semantically correct.
+The repository contains 3,505 articles with a Śrīdhara Sanskrit control and 3,044 explicit `No commentary.` states after the Chapter 36 rebuild. The structural control check confirms that the published Transliteration controls are present, but it does not prove that every IAST string or every Śrīdhara translation is semantically correct.
 
 ## Required next work
 
 Rebuild the missing main WFW one complete chapter at a time from the exact displayed Sanskrit, with every phrase mapped directly, then independently check the corresponding Śrīdhara Sanskrit and English. Do not mark a chapter complete merely because its route or button exists. Do not replace missing lexical work with the ordinary translation, a placeholder, or a generated paragraph.
 
-This audit therefore records the site as structurally repaired in the areas above but semantically incomplete for the remaining 3,092 main WFW articles. Chapter-by-chapter lexical rebuilding remains open.
+This audit therefore records the site as structurally repaired in the areas above but semantically incomplete for the remaining 3,068 main WFW articles. Chapter-by-chapter lexical rebuilding remains open.
