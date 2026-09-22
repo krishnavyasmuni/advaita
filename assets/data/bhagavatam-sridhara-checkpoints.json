@@ -12708,6 +12708,44 @@
       "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
       "released_at": "2026-09-22",
       "release_note": "Published Canto 12.2 with exact pinned source mapping and independently translated Śrīdhara word meanings."
+    },
+    {
+      "id": "canto-12-chapter-3-release",
+      "range": "ŚB 12.3.1–12.3.52",
+      "status": "source-checked-and-released",
+      "english_source": "https://vedabase.io/en/library/sb/12/3/advanced-view/",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/12/03_yugAnuvarNanaM.md",
+      "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "source_blob_sha": "63e6e9ccdad31250cc9cc54dfd99f27e992a7e9e",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/12/03_yugAnuvarNanaM.md",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto12-ch03.json"
+      ],
+      "records_checked": 48,
+      "exact_sridhara_source_blocks": 39,
+      "no_commentary_ranges": [
+        "12.3.10",
+        "12.3.12",
+        "12.3.37–12.3.39",
+        "12.3.42",
+        "12.3.44",
+        "12.3.46",
+        "12.3.49"
+      ],
+      "source_gap_ranges": [
+        "12.3.10",
+        "12.3.12",
+        "12.3.37–12.3.39",
+        "12.3.42",
+        "12.3.44",
+        "12.3.46",
+        "12.3.49"
+      ],
+      "live_render": null,
+      "generated_at": "2026-09-22",
+      "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
+      "released_at": "2026-09-22",
+      "release_note": "Published Canto 12.3 with exact pinned source mapping and independently translated Śrīdhara word meanings."
     }
   ],
   "generated_at": "2026-09-21"
