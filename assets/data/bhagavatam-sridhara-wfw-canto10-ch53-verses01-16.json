@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked; placeholder-free; lexical rows audited",
+  "status": "source-checked; source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/50-59/53.md",
   "source_blob_sha": "ce5fd63cabd245e70ec3aba596dbddbdd8c1f37c",
-  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses and internal form markers removed; lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed lexical audit completed; lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.53.1–10.53.16; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -69,7 +69,7 @@
       ],
       "literal_english": "आनयिष्यामि: ānyiṣyāmi — I shall bring; राजन्यापसदान् राजसु हीनान्: rājnyāpsdān rājsu hīnān — the lowest among kings; inferior among rulers; उन्मथ्य आनयने दृष्टान्तः\\--एधस इति: ‘Uprooting and bringing [them]’; the example is fuel or wood.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -94,7 +94,7 @@
       ],
       "literal_english": "उद्वाह-र्क्षम् इति: udvāh-rkṣm iti — the constellation for the wedding; श्वो-भाविनि त्वम् अजितोद्वहने विदर्भान् गुप्तः समेत्य \\भा: śvo-bhāvini tvm ajitodvhne vidrbhān guptḥ smety \\bhā — tomorrow, when your marriage to the Unconquered Lord is to occur, secretly meet in Vidarbha; पु १०.५२.४१\\ इति रुक्मिणी-सन्देशात्: From Rukmiṇī’s message: Bhāgavata Purāṇa 10.52.41.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -111,7 +111,7 @@
       ],
       "literal_english": "शैव्य- इत्य्-आदीनि चत्वार्य् अश्व-नामानि: śaivy- ity-ādīni ctvāry aśv-nāmāni — Śaibya and the rest are the four names of the horses",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -153,7 +153,7 @@
       ],
       "literal_english": "पुत्रस्य रुक्मिणः स्नेहेन तद्-वशम् अनुगच्छति इति तथा: putrsy rukmiṇḥ snehen td-vśm anugcchti iti tthā — thus, out of affection for Rukmiṇī’s son, he follows his will; अनेन शिशुपाले\\ऽनभिरुचिं द्योतयति: anen śiśupāle\\ऽnbhiruciṃ dyotyti — by this he indicates her disinterest in Śiśupāla; कर्माणि पुरालङ्कार-पितृ-देवार्चनादीनि: krmāṇi purālṅkār-pitṛ-devārcnādīni — duties such as decorating the city and worshiping ancestors and gods",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -225,7 +225,7 @@
       ],
       "literal_english": "यदि श्री-कृष्णो हरेद् इति शङ्किताः: ydi śrī-kṛṣṇo hred iti śṅkitāḥ — they feared that Śrī Kṛṣṇa might abduct her; कन्यां साधयितुम् इत्य् अर्थः: knyāṃ sādhyitum ity arthḥ — the meaning is: to obtain the girl",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -263,7 +263,7 @@
       ],
       "literal_english": "त्रियामा रात्रिस् तावन्-मात्रेण अन्तरितः: triyāmā rātris tāvn-mātreṇ antritḥ — the three-watch night passed in just that interval; अल्प-राधसो मन्द-भाग्यायाः: alp-rādhso mnd-bhāgyāyāḥ — of one possessing little merit and poor fortune",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -296,7 +296,7 @@
       ],
       "literal_english": "जुगुप्सितं धार्ष्ट्यादि: jugupsitṃ dhārṣṭyādi — shamelessness and the like are contemptible; अपि इति शङ्कायाम्: api iti śṅkāyām — the word api expresses doubt; नायाति हि कृतोद्यम इति: nāyāti hi kṛtodym iti — for he does not come, although he has made an effort; अयम् अर्थः---आदौ कृतोद्यमत्वात् तं न प्रस्थापितवान्: aym arthḥ---ādau kṛtodymtvāt tṃ n prsthāpitvān — the meaning is: because he had made the effort at first, he did not send him; प्रस्थानावसरे च किञ्चिन् मयि जुगुप्सितं मत्वा प्रत्याचष्ट: prsthānāvsre c kiñcin myi jugupsitṃ mtvā prtyācṣṭ — at the time of departure, thinking that she despised something in me, he refused",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
