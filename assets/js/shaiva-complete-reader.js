@@ -15,8 +15,12 @@ const articleText=value=>String(value??'')
  .replace(/\s+([,.;:!?])/g,'$1')
  .replace(/([,.;:!?])(?=[A-Z“‘])/g,'$1 ')
  .replace(/,([A-Za-z])/g,', $1')
+ .replace(/\s*&\s*/g,' and ')
+ .replace(/\bShvetashvara\b/gi,'Śvetāśvatara')
+ .replace(/\bShvestahsvara\b/gi,'Śvetāśvatara')
  .replace(/\s{2,}/g,' ')
- .trim();
+ .trim()
+ .replace(/^([a-z])/u,(_,c)=>c.toUpperCase());
 async function get(path){const r=await fetch(site+path+'?v=20260921-tidy-3');if(!r.ok)throw Error(path+': HTTP '+r.status);return(await r.text()).trim();}
 async function load(){
  const encoded=await get('assets/data/shaiva-manuscript.b64');
@@ -59,6 +63,8 @@ function renderBlock({kind,value},section){
  if(kind==='quote'){
   const visible=articleText(value);
   if(visible==='English'||/^Bhagavadgītā, IX\.25$/.test(visible)||/^Laugakshi Smriti, Volume 6$/.test(visible))return make('p','shaiva-passage-label',visible);
+  const noteAt=visible.search(/\s+NOTE:\s*/i);
+  if(noteAt>0){const fragment=document.createDocumentFragment();fragment.append(make('blockquote','translation shaiva-quote',visible.slice(0,noteAt).trim()));fragment.append(make('small','shaiva-note',visible.slice(noteAt+1).trim()));return fragment;}
   return make('blockquote','translation shaiva-quote',visible);
  }
 function stripOuterQuotes(value){return String(value??'').trim().replace(/^[“"‘']+/,'').replace(/[”"’']+$/,'').trim();}
@@ -101,7 +107,8 @@ function renderVerse(value){
   if(section==='opening'&&visible==='A Scripture-Based Case for the Supremacy of Shiva')return make('span','shaiva-source-title-anchor');
   if(/popcultking/i.test(visible))return document.createDocumentFragment();
   const verse=renderVerse(value);if(verse)return verse;
-  if(/^\s*[●•]\s*/u.test(visible))return make('p','shaiva-bullet',visible.replace(/^\s*[●•]\s*/u,''));
+  if(/^\s*[●•]\s*[\u200b\u200c\u200d]*/u.test(visible))return make('p','shaiva-bullet',visible.replace(/^\s*[●•]\s*[\u200b\u200c\u200d]*/u,''));
+  if(/^\s*\(?translation\s*:\s*/i.test(visible))return make('blockquote','translation shaiva-quote',visible.replace(/^\s*\(?translation\s*:\s*/i,'').replace(/\)\s*$/,'').trim());
   if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(visible)&&visible.length<180)return make('h3','shaiva-subheading',visible);
   return make('p','shaiva-paragraph',visible);
  }
