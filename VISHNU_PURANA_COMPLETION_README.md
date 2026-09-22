@@ -193,16 +193,16 @@ for the next AI; do not infer progress from an old chat message.
 
 | Field | Current state |
 |---|---|
-| Last committed route | Book 3 Chapters 9, 11, 13, 15, 16, 17, and 18 remaining Śrīdhara WFW repairs; committed and read back |
-| Book 1 status | AUDITED — false full-paragraph WFW rows removed; remaining phrase-level rows retained; lexical completeness requires a fresh source-backed pass |
-| Book 2 status | AUDITED — false repeated-translation WFW rows removed; remaining phrase-level rows retained; lexical completeness requires a fresh source-backed pass |
-| Book 3 status | AUDITED — false repeated-translation WFW rows removed; remaining phrase-level rows retained; lexical completeness requires a fresh source-backed pass |
-| Current repair target | Viṣṇu Purāṇa WFW rebuild — Books 1–6 must be completed only from source-backed phrase mappings; Books 4–6 show a restored WFW control with an explicit verification-pending notice |
-| Next chapter after the repair target | None — the Books 1–3 repair target is complete; future work starts only from a new source-backed discrepancy |
+| Last committed route | Book 4 Chapters 6, 7, 8, and 19 missing-verse restorations; committed and reread |
+| Book 1 status | AUDITED structurally — 1,407 articles; 935 main lexical WFW, 472 main WFW still missing |
+| Book 2 status | AUDITED structurally — 787 articles; 507 main lexical WFW, 280 main WFW still missing |
+| Book 3 status | AUDITED structurally — 837 main lexical WFW layers present; semantic source review remains separate |
+| Current repair target | Rebuild 4,115 missing main lexical WFW articles from the cited Vasuki Sanskrit, chapter by chapter |
+| Next chapter after the repair target | None — the full-corpus lexical remediation queue remains open |
 | Main Contents page | Book 1 Chapters 1–22, Book 2 Chapters 1–16, and Book 3 Chapters 1–18 are listed and resolve through the generated Contents route |
-| Full-scope remediation queue | OPEN — repository-wide false WFW cleanup is complete, but genuine lexical reconstruction remains for the routes whose generated rows were removed |
-| Latest chapter verification commit | 66811d0d9ed15a7f4a96f27171eae375ce601651 — Book 3 Chapter 18 final Śrīdhara WFW phrase split; committed content read back exactly |
-| Latest semantic audit | 2026-09-22 full-corpus WFW audit — 126 routes and 6,394 articles checked; false full-translation rows removed; remaining false-tail count 0, duplicate-translation count 0, leading-marker count 0, source-range count 0; Books 4–6 WFW controls restored with an explicit pending notice pending genuine lexical reconstruction |
+| Full-scope remediation queue | OPEN — 4,115 main lexical WFW articles remain; six omitted Book 4 verse articles were restored |
+| Latest chapter verification commit | ba00b91cb74eec760956ec947a6ff47538a3a8ae — audit tracker and six Book 4 restorations committed and reread |
+| Latest semantic audit | 2026-09-22 full-corpus audit — 126 routes and 6,400 articles; contiguous IDs and complete Sanskrit/translation/transliteration structure; 2,285 main lexical WFW present and 4,115 still missing; no source-range labels or exact translation-tail WFW rows |
 | Progress rule | Mark a chapter semantically complete only after its source witness, verse segmentation, commentary ranges, Contents link, commit, and post-commit read-back all pass |
 
 A published route and a semantically complete chapter are different states. A
