@@ -147,7 +147,7 @@
     {
       "id": "canto-1-chapter-4-verses-1-15",
       "range": "ŚB 1.4.1–1.4.15",
-      "status": "source-checked-and-live",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/1/4/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/04_nAradasyAgamanam.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -180,7 +180,9 @@
         "displayed_records": 31,
         "sridhara_records_with_text": 31,
         "literal_english_records": 15
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 1.4.2 phrase-level gloss into separate word/phrase pairs."
     },
     {
       "id": "canto-1-chapter-5-verses-1-15",
@@ -1308,7 +1310,7 @@
     {
       "id": "canto-1-chapter-4-verses-16-27",
       "range": "ŚB 1.4.16–1.4.27",
-      "status": "source-checked-and-live",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/1/4/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/04_nAradasyAgamanam.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -1335,7 +1337,9 @@
         "displayed_records": 31,
         "sridhara_records_with_text": 23,
         "literal_english_records": 23
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 1.4.23 phrase-level gloss into separate word/phrase pairs."
     },
     {
       "id": "canto-1-chapter-4-verses-28-31",
@@ -1571,7 +1575,7 @@
     {
       "id": "canto-1-chapter-8-verses-16-45",
       "range": "ŚB 1.8.16–1.8.45",
-      "status": "source-checked-and-live",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/1/8/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/08_garbha-raxA.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -1620,7 +1624,9 @@
         "displayed_records": 52,
         "sridhara_records_with_text": 52,
         "literal_english_records": 42
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 1.8.17 phrase-level gloss into separate word/phrase pairs."
     },
     {
       "id": "canto-1-chapter-8-verses-46-52",
@@ -1804,7 +1810,7 @@
     {
       "id": "canto-1-chapter-11-verses-16-39",
       "range": "ŚB 1.11.16–1.11.39",
-      "status": "source-checked-and-live",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/1/11/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/11_pura-praveshaH.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -1846,7 +1852,9 @@
         "displayed_records": 39,
         "sridhara_records_with_text": 39,
         "literal_english_records": 38
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 1.11.24 phrase-level gloss into separate word/phrase pairs."
     },
     {
       "id": "canto-1-chapter-12-verses-18-22",
@@ -2110,7 +2118,7 @@
     {
       "id": "canto-1-chapter-15-verses-17-46",
       "range": "ŚB 1.15.17–1.15.46",
-      "status": "source-checked-and-live",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/1/15/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/15_pANDava-prayANam.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -2158,7 +2166,9 @@
         "displayed_records": 45,
         "sridhara_records_with_text": 29,
         "literal_english_records": 29
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 1.15.33 and 1.15.45 phrase-level glosses into separate word/phrase pairs."
     },
     {
       "id": "canto-1-chapter-15-verses-47-51",
@@ -4746,7 +4756,7 @@
     {
       "id": "canto-11-chapter-21-release",
       "range": "ŚB 11.21.1–11.21.43",
-      "status": "published-audit-pending",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/11/21/advanced-view/",
       "english_source_note": "Wisdomlib/Vedabase were used only as independent reading and sense cross-checks; the site’s fields are source-bound and independently written.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/21_shrI-bhagavad-uddhava-saMvAde_guNa-doSha-vyavas.md",
@@ -4814,12 +4824,14 @@
         "no_commentary_records": 0
       },
       "legacy_status": "live-verified",
-      "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit."
+      "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 14 under-specified Śrīdhara rows with source-bound word/phrase pairs and row-specific literal renderings."
     },
     {
       "id": "canto-11-chapter-22-release",
       "range": "ŚB 11.22.1–11.22.61",
-      "status": "published-audit-pending",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/11/22/advanced-view/",
       "english_source_note": "Wisdomlib/Vedabase were used only as independent reading and sense cross-checks; the site’s fields are source-bound and independently written.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/22_shrI-bhagavad-uddhava-saMvAde.md",
@@ -4905,7 +4917,9 @@
         "no_commentary_records": 0
       },
       "legacy_status": "live-verified",
-      "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit."
+      "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 18 under-specified Śrīdhara rows with source-bound word/phrase pairs and row-specific literal renderings."
     },
     {
       "id": "canto-11-chapter-23-release",
@@ -5589,7 +5603,7 @@
     {
       "id": "canto-10-chapter-1-release",
       "range": "ŚB 10.1.1–10.1.69",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/1/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/01.md",
@@ -5698,7 +5712,9 @@
         "sridhara_records_with_text": 45,
         "literal_english_source_blocks": 62,
         "no_commentary_records": 21
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 10.1.10–12 into a full Śrīdhara word-for-word sequence."
     },
     {
       "id": "canto-10-chapter-2-release",
@@ -5840,7 +5856,7 @@
     {
       "id": "canto-10-chapter-4-release",
       "range": "ŚB 10.4.1–10.4.46",
-      "status": "live-verified",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/4/advanced-view/",
       "english_source_note": "Vedabase was used as a cross-check; the published Śrīdhara fields are independently written from the pinned Sanskrit.",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/01-11/04.md",
@@ -5920,7 +5936,9 @@
         "sridhara_records_with_text": 31,
         "literal_english_source_blocks": 44,
         "no_commentary_records": 14
-      }
+      },
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 10.4.2 into a full Śrīdhara word-for-word sequence."
     },
     {
       "id": "canto-10-chapter-5-release",
@@ -8020,7 +8038,7 @@
     {
       "id": "canto-10-chapter-38-release",
       "range": "ŚB 10.38.1–10.38.43",
-      "status": "source-checked-and-reader-committed",
+      "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/10/38/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/10/34-49/38.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -8056,7 +8074,9 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available."
+      "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available.",
+      "repaired_at": "2026-09-22",
+      "repair_note": "Repaired 10.38.37 into a full Śrīdhara word-for-word sequence."
     }
   ],
   "generated_at": "2026-09-21"
