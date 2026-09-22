@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked; placeholder-free; lexical rows audited",
+  "status": "source-checked; source-checked; lexical rows audited",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/10/50-59/55.md",
   "source_blob_sha": "f9b2c790dea0023d5397ff541d821b1b8d3d0172",
-  "editorial_note": "Pinned Śrīdhara source preserved. Placeholder glosses and internal form markers removed; lexical rows in this chapter have been individually audited.",
+  "editorial_note": "Pinned Śrīdhara source preserved. Source-backed lexical audit completed; lexical rows in this chapter have been individually audited.",
   "scope": "ŚB 10.55.1–10.55.38; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -23,7 +23,7 @@
       ],
       "literal_english": "श्रीधर-स्वामी: śrīdhr-svāmī — Śrīdhara Svāmī",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -40,7 +40,7 @@
       ],
       "literal_english": "अनवमो\\ऽन्यूनः: anvmo\\ऽnyūnḥ — not inferior; undiminished",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -57,7 +57,7 @@
       ],
       "literal_english": "न व्याख्यातम्: No commentary",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -74,7 +74,7 @@
       ],
       "literal_english": "निर्जगार गिलितवान्: nirjgār gilitvān — he swallowed",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -91,7 +91,7 @@
       ],
       "literal_english": "स्वधितिना शस्त्रिकया अवद्यन् अवाद्यन् खण्डितवन्तः: svdhitinā śstrikyā avdyn avādyn khṇḍitvntḥ — with an axe, they cut and severed",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -112,7 +112,7 @@
       ],
       "literal_english": "तत्त्वं \\कामो\\ऽयं तव भर्ता ते\\: tttvṃ \\kāmo\\ऽyṃ tv bhrtā te\\ — in truth, this Cupid is your husband; उत्पत्तिं श्री-कृष्णाद् रुक्मिण्याम् उत्पन्न इति: utpttiṃ śrī-kṛṣṇād rukmiṇyām utpnn iti — his birth: he was born from Śrī Kṛṣṇa and Rukmiṇī",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -133,7 +133,7 @@
       ],
       "literal_english": "यशस्विनी पतिव्रता भर्तृ-देह-प्राप्तिं प्रतीक्षमाणा: yśsvinī ptivrtā bhrtṛ-deh-prāptiṃ prtīkṣmāṇā — the famous chaste wife, awaiting union with her husband; तं शिशुं काम-देवं बुद्ध्वा विज्ञाय: tṃ śiśuṃ kām-devṃ buddhvā vijñāy — recognizing that child as Cupid",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -150,7 +150,7 @@
       ],
       "literal_english": "विभ्रमं सम्मोहम्: vibhrmṃ smmohm — delusion; confusion",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -171,7 +171,7 @@
       ],
       "literal_english": "अङ्ग हे राजन्: aṅg he rājn — O king; सौरतैर् भावैर् उपतस्थे\\ऽभजत्: saurtair bhāvair uptsthe\\ऽbhjt — she served with amorous sentiments",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -319,7 +319,7 @@
       "word_for_word": [],
       "literal_english": "",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -353,7 +353,7 @@
       ],
       "literal_english": "वैहायस आकाशे स्थितः: vaihāys ākāśe sthitḥ — standing in the sky",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -374,7 +374,7 @@
       ],
       "literal_english": "सत्त्वात्मिकां सत्त्व-गुण-मयीं प्रायुङ्क्त इत्य् उत्तरस्यानुषङ्गः: sttvātmikāṃ sttv-guṇ-myīṃ prāyuṅkt ity uttrsyānuṣṅgḥ — the continuation with the following verb is: she employed the sattva-based, made-of-sattva [power]; ता मायाः व्यधमयत् स नाशयत्: tā māyāḥ vydhmyt s nāśyt — he destroyed those illusions",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -395,7 +395,7 @@
       ],
       "literal_english": "ताम्राणि श्मश्रूणि यस्मिंस् तत्: tāmrāṇi śmśrūṇi ysmiṃs tt — that in which the beard was copper-colored; ओजसा बलेन: ojsā blen — with vigor; with strength",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -429,7 +429,7 @@
       ],
       "literal_english": "विद्युता सह बलाहको मेघ इव: vidyutā sh blāhko megh iv — like a cloud together with lightning",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -463,7 +463,7 @@
       ],
       "literal_english": "नीलाश् च वक्राश् च ये\\ऽलकास् त एव आलयः तैः ह्रीता लज्जिताः: Those curls that are blue and crooked are their dwelling; by them she was ashamed.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -535,7 +535,7 @@
       ],
       "literal_english": "एतेन तुल्यं वयो रूपं च यस्य स भवेद् इति: eten tulyṃ vyo rūpṃ c ysy s bhved iti — he would have the same age and appearance as this one",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
@@ -586,7 +586,7 @@
       ],
       "literal_english": "देवक्य्-आनकदुन्दुभ्यां देवक्य्-आनकदुन्दुभिभ्याम् इत्य् अर्थः: devky-ānkdundubhyāṃ devky-ānkdundubhibhyām ity arthḥ — the meaning is: by Devakī and Ānakadundubhi, that is, by Devakī and Vasudeva",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Placeholder glosses removed; lexical row audit completed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved. Source-backed glosses restored; lexical row audit completed."
     },
     {
       "canto": 10,
