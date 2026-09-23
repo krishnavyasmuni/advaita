@@ -128,8 +128,27 @@ for(const node of [...root.querySelectorAll(blockSelector)]){
   if(node.children.length)continue;
   const value=node.textContent||'';
   if(!/[\u0900-\u097F]/u.test(value))continue;
-  if(!/[A-Za-z]/u.test(value)){node.replaceWith(makeDetails(value));continue;}
+  if(!/[A-Za-z]/u.test(value)){
+    if(/^h[2-4]$/i.test(node.tagName)){
+      const heading=node.cloneNode(false);
+      heading.removeAttribute('style');
+      heading.textContent='Sanskrit passage';
+      node.replaceWith(heading,makeDetails(value));
+    }else{
+      node.replaceWith(makeDetails(value));
+    }
+    continue;
+  }
   splitBlock(node);
+}
+
+/* Sanskrit-only source headings become plain English labels while the
+   original heading text remains available inside its control. */
+for(const node of [...document.querySelectorAll('.toc a,.toc-parent')]){
+  const value=(node.textContent||'').trim();
+  if(/^[\s\u0900-\u097F०-९।॥|,.;:!?()\-–—]+$/u.test(value)&&/[\u0900-\u097F]/u.test(value)){
+    node.textContent='Sanskrit passage';
+  }
 }
 
 /* A transliteration is never left as a loose line in the article. */
