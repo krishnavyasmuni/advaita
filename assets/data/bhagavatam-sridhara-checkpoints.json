@@ -10607,9 +10607,9 @@
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Canto 3.1 source blocks were re-audited against the pinned file. All 43 supplied Śrīdhara blocks now have source-bound phrase glosses and close English translations; 3.1.4 and 3.1.5 are explicit no-commentary records.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Replaced all generated filler in 3.1; restored missing source blocks at 3.1.6–3.1.15, 3.1.22–3.1.24, 3.1.34, 3.1.38 and 3.1.43; preserved exact no-commentary sentinels at 3.1.4 and 3.1.5.",
-      "word_for_word_status": "lexical-pairs-present"
+      "repaired_at": "2026-09-23",
+      "repair_note": "Replaced all generated filler in 3.1; restored missing source blocks at 3.1.6–3.1.15, 3.1.22–3.1.24, 3.1.34, 3.1.38 and 3.1.43; preserved exact no-commentary sentinels at 3.1.4 and 3.1.5. IAST keys and full source transliteration audited on 2026-09-23.",
+      "word_for_word_status": "lexical-pairs-reviewed"
     },
     {
       "id": "canto-3-chapter-2-release",
@@ -10630,9 +10630,9 @@
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Canto 3.2 was re-audited against the pinned file. All 34 numbered verses have supplied Śrīdhara blocks; generated filler and false no-commentary records were removed.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Restored source blocks previously mislabeled as no commentary at 3.2.5, 3.2.7, 3.2.17, 3.2.22, 3.2.25, 3.2.27, and 3.2.29–3.2.34; all 34 blocks now have source-bound glosses.",
-      "word_for_word_status": "lexical-pairs-present"
+      "repaired_at": "2026-09-23",
+      "repair_note": "Restored source blocks previously mislabeled as no commentary at 3.2.5, 3.2.7, 3.2.17, 3.2.22, 3.2.25, 3.2.27, and 3.2.29–3.2.34; all 34 blocks now have source-bound glosses. IAST keys and full source transliteration audited on 2026-09-23.",
+      "word_for_word_status": "lexical-pairs-reviewed"
     },
     {
       "id": "canto-3-chapter-3-release",
@@ -10657,10 +10657,10 @@
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Canto 3.3 was re-audited against the pinned file. The reader preserves grouped source range 3.3.20–3.3.21; 3.3.25 is the only explicit no-commentary range.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Restored missing source blocks at 3.3.6–3.3.7, 3.3.13, 3.3.15, 3.3.17–3.3.18 and 3.3.28; removed all generated filler; preserved grouped 3.3.20–3.3.21.",
+      "repaired_at": "2026-09-23",
+      "repair_note": "Restored missing source blocks at 3.3.6–3.3.7, 3.3.13, 3.3.15, 3.3.17–3.3.18 and 3.3.28; removed all generated filler; preserved grouped 3.3.20–3.3.21. IAST keys and full source transliteration audited on 2026-09-23.",
       "numbered_verses": 28,
-      "word_for_word_status": "lexical-pairs-present"
+      "word_for_word_status": "lexical-pairs-reviewed"
     },
     {
       "id": "canto-3-chapter-4-release",
@@ -10685,9 +10685,9 @@
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter source and commentary alignment checked against the pinned source; 34 reader records cover 36 numbered verses because 3.4.33–3.4.35 is one grouped commentary record.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Removed 125 filler gloss pairs; restored source-bound Śrīdhara blocks for 3.4.2, 3.4.5, 3.4.7, 3.4.8, 3.4.22, 3.4.23, 3.4.26, and 3.4.36; preserved grouped 3.4.33–3.4.35; kept only the pinned no-commentary marker at 3.4.27.",
-      "word_for_word_status": "lexical-pairs-present"
+      "repaired_at": "2026-09-23",
+      "repair_note": "Removed 125 filler gloss pairs; restored source-bound Śrīdhara blocks for 3.4.2, 3.4.5, 3.4.7, 3.4.8, 3.4.22, 3.4.23, 3.4.26, and 3.4.36; preserved grouped 3.4.33–3.4.35; kept only the pinned no-commentary marker at 3.4.27. IAST keys and full source transliteration audited on 2026-09-23.",
+      "word_for_word_status": "lexical-pairs-reviewed"
     },
     {
       "id": "canto-3-chapter-5-release",
@@ -11048,10 +11048,10 @@
       "generated_at": "2026-09-23",
       "notes": "All 37 numbered verses are covered by 35 source-bound records; grouped ranges 3.16.2–3.16.3 and 3.16.27–3.16.28 are preserved. Explicit no-commentary markers are kept separate from source gaps.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Replaced 129 filler rows across 27 records, corrected the no-commentary ranges, preserved both grouped source ranges, and replaced every supplied commentary-wide pseudo-pair with reviewed IAST lexical pairs.",
+      "repair_note": "Replaced 129 filler rows across 27 records, corrected the no-commentary ranges, preserved both grouped source ranges, and replaced every supplied commentary-wide pseudo-pair with reviewed IAST lexical pairs. IAST keys and full source transliteration audited on 2026-09-23.",
       "numbered_verses": 37,
       "supplementary_source_blocks": [],
-      "word_for_word_status": "lexical-pairs-present"
+      "word_for_word_status": "lexical-pairs-reviewed"
     },
     {
       "id": "canto-3-chapter-17-release",
@@ -11094,10 +11094,10 @@
       "generated_at": "2026-09-23",
       "notes": "All 31 numbered verses are covered by 30 source-bound records; grouped range 3.17.21–3.17.22 is preserved. Explicit no-commentary markers are kept separate from source gaps.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Replaced 34 filler rows across 7 records, corrected the no-commentary ranges, restored the exact source mapping, and replaced every supplied commentary-wide pseudo-pair with reviewed IAST lexical pairs.",
+      "repair_note": "Replaced 34 filler rows across 7 records, corrected the no-commentary ranges, restored the exact source mapping, and replaced every supplied commentary-wide pseudo-pair with reviewed IAST lexical pairs. IAST keys and full source transliteration audited on 2026-09-23.",
       "numbered_verses": 31,
       "supplementary_source_blocks": [],
-      "word_for_word_status": "lexical-pairs-present"
+      "word_for_word_status": "lexical-pairs-reviewed"
     },
     {
       "id": "canto-3-chapter-18-release",
