@@ -934,15 +934,11 @@
     const rootLines = rootText.split('\n').map((x) => x.trim()).filter(Boolean).join('<br>');
     const english = sourceMode === 'legacy'
       ? (d.gambir && d.gambir.et ? lines(d.gambir.et) : 'English translation unavailable in the source record.')
-      : d.mukEnglish
-        ? lines(d.mukEnglish)
-        : '';
+      : lines(d.mukEnglish || 'English translation unavailable in the pinned source records.');
     const key = chapter + '.' + n;
     const wordMeaning = sourceMode === 'legacy'
       ? lines(meanings[key] || 'Word-for-word meaning unavailable in the source record.')
-      : d.wordMeaning
-        ? lines(d.wordMeaning)
-        : '';
+      : lines(d.wordMeaning || 'Word-for-word meaning unavailable in the pinned source record.');
     const transliteration = sourceMode === 'legacy'
       ? lines(d.transliteration || 'Transliteration unavailable in the source record.')
       : d.transliteration
@@ -960,9 +956,7 @@
         : 'English rendering not supplied for this source passage.'))
       : '';
 
-    const translationPanel = english
-      ? '<p class="gita-translation">' + english + '</p>'
-      : '';
+    const translationPanel = '<p class="gita-translation">' + english + '</p>';
     const wordMeaningPanel = '<details class="gita-details"><summary>Word-for-word</summary><div class="gita-reveal"><p>' +
       (wordMeaning || 'No word-for-word meaning is supplied separately in the pinned source record.') +
       '</p></div></details>';
@@ -1061,11 +1055,18 @@
           : (c.transliteration ? commonRange : null),
         wordMeaning: hasWordMeaningOverride
           ? (override.wordMeaning || c.word_meanings || '')
-          : pickWordMeaning(c, n),
+          // Keep a source-backed grouped record visible if a future source
+          // revision adds a range the explicit splitter does not recognize.
+          : (pickWordMeaning(c, n) || String(c.word_meanings || '').trim()),
         wordMeaningShared: null,
+        // Mukundananda groups several consecutive verses in one record.
+        // Keep that exact source text on the first verse, then use the
+        // pinned per-verse Gambirananda record for later cards so every
+        // visible verse has an English translation without duplicating a
+        // multi-verse paragraph or silently leaving the card blank.
         mukEnglish: mukRange.start === n
-        ? (m.translation || apiTranslation)
-        : '',
+          ? (m.translation || apiTranslation)
+          : apiTranslation,
         srid: sridharaCommentary,
         translatedCommentary
       };
