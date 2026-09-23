@@ -17,7 +17,7 @@ Complete and semantically audit all 126 Viṣṇu Purāṇa chapter routes (6,40
 
 Start at Book 6, Chapter 8, verse 64, then work backwards to 6.8.1. After publishing that complete chapter, start Book 6, Chapter 7 at its final source verse and work down to verse 1. Continue chapter-by-chapter in descending order through Book 6, then Books 5, 4, 3, 2, and 1. Verify each chapter's actual verse count from its source; never assume a count.
 
-Current resume point: Book 6, Chapter 5, final source verse downwards. Book 6, Chapters 8, 7, and 6 are the completed releases recorded below.
+Current resume point: Book 6, Chapter 4, final source verse downwards. Book 6, Chapters 8, 7, 6, and 5 are the completed releases recorded below.
 
 ## Source hierarchy
 
@@ -65,17 +65,17 @@ Batch checks and report only meaningful findings to keep the loop fast. If a wit
 | 3 | 837 | 837 | 0 |
 | 4 | 1,354 | 61 | 1,293 |
 | 5 | 1,517 | 673 | 844 |
-| 6 | 498 | 220 | 278 |
-| **Total** | **6,400** | **3,699** | **2,701** |
+| 6 | 498 | 307 | 191 |
+| **Total** | **6,400** | **3,786** | **2,614** |
 
-These are direct full-corpus audit totals after the 2026-09-23 alignment and no-commentary repairs, plus the complete reconstructions of Book 6, Chapters 7 and 6. They do not certify the remaining verses or imply that the whole Purāṇa is finished. The detailed report is in `audit/vishnu-purana-wfw-audit-2026-09-23.md`; the earlier 2026-09-22 ledger is retained as historical context.
+These are direct full-corpus audit totals after the 2026-09-23 alignment and no-commentary repairs, plus the complete reconstructions of Book 6, Chapters 7, 6, and 5. They do not certify the remaining verses or imply that the whole Purāṇa is finished. The detailed report is in `audit/vishnu-purana-wfw-audit-2026-09-23.md`; the earlier 2026-09-22 ledger is retained as historical context.
 
 | Current release | Verified chapter state |
 |---|---|
 | Book 6, Chapter 8 | 64/64 verse articles; 64 Sanskrit, translations, main WFW panels, and IAST panels; 31 sourced Śrīdhara Sanskrit/commentary panels; 33 exact no-commentary states |
 | Next | Book 6, Chapter 7, verse 106 downwards |
 
-Chapter 6.8's disputed readings were checked against the Vasuki mūla and numbered Vishvas witness, Śrīdhara text, fixed Wikisource revision, and GRETIL. Verse 6.8.15 now reads **पुंसां (puṃsām)** in agreement with the numbered and Śrīdhara witnesses; the mūla file's differing **पुंसा (puṃsā)** is disclosed in its source note. Its 832 main and 113 Śrīdhara phrase-gloss rows were checked for Sanskrit/IAST pairing. The main and Śrīdhara transliteration panels were cross-checked against their displayed Devanāgarī. The word-for-word layer is a lexical map, not copied running prose. Book 6, Chapter 7 was read against the Vasuki mūla blob `6e616a59a64804bc9d519fdbd399cfd88bc49501` and Śrīdhara file blob `e791efd7bd58ee362317656c7e890b38e5385975`; Book 6, Chapter 6 was read against mūla blob `1bcec8b89e78113a879fe65bd04fb22ceb6336ce` and Śrīdhara blob `087a000f56e68581ac7126f269d25abe84270d2a` on the `content` branch.
+Chapter 6.8's disputed readings were checked against the Vasuki mūla and numbered Vishvas witness, Śrīdhara text, fixed Wikisource revision, and GRETIL. Verse 6.8.15 now reads **पुंसां (puṃsām)** in agreement with the numbered and Śrīdhara witnesses; the mūla file's differing **पुंसा (puṃsā)** is disclosed in its source note. Its 832 main and 113 Śrīdhara phrase-gloss rows were checked for Sanskrit/IAST pairing. The main and Śrīdhara transliteration panels were cross-checked against their displayed Devanāgarī. The word-for-word layer is a lexical map, not copied running prose. Book 6, Chapter 7 was read against the Vasuki mūla blob `6e616a59a64804bc9d519fdbd399cfd88bc49501` and Śrīdhara file blob `e791efd7bd58ee362317656c7e890b38e5385975`; Book 6, Chapter 6 was read against mūla blob `1bcec8b89e78113a879fe65bd04fb22ceb6336ce` and Śrīdhara blob `087a000f56e68581ac7126f269d25abe84270d2a`; Book 6, Chapter 5 was read against mūla blob `75250053faa0b915f1ebb92223dda7191fb1d9cc` and Śrīdhara blob `d9147ba9a9f0e1fc91d0c7bcbfab2937a84ca5dd` on the `content` branch.
 
 ## Completion rule
 
