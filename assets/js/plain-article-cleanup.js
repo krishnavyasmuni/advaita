@@ -34,7 +34,10 @@ const toAscii=value=>String(value??'')
   .replace(/\bcontinued\s+on\s+(?:the\s+)?source\s+PDF\s+page\s+\d+\b/gi,'')
   .replace(/\bsource\s+PDF\s+page\s+\d+\b/gi,'')
   .replace(/\bPDF\s+page\s+\d+\b/gi,'')
-  .replace(/\bsource\s+PDF\b/gi,'')
+  .replace(/\bsource\s+PDF\b/gi,'article')
+  .replace(/\bPDF\b/gi,'article')
+  .replace(/\bBY\s+POPCULTKING\b/gi,'')
+  .replace(/\bPOPCULTKING\b/gi,'')
   .replace(/\b([A-Z]{2,})\b/g,match=>match.toLowerCase())
   .replace(/[ \t]{2,}/g,' ');
 
