@@ -22,6 +22,14 @@ function normaliseSpelling(value){
   /* The article uses plain English for all Roman text. Sanskrit source text
      stays in Devanagari and is only rendered by the Sanskrit control. */
   return String(value??'')
+    .replace(/[śṣ]/g,'sh').replace(/[ŚṢ]/g,'Sh')
+    .replace(/[ṛṝ]/g,'r').replace(/[ṚṜ]/g,'R')
+    .replace(/[ṇṅñ]/g,'n').replace(/[ṆṄÑ]/g,'N')
+    .replace(/[ṭ]/g,'t').replace(/[Ṭ]/g,'T')
+    .replace(/[ḍ]/g,'d').replace(/[Ḍ]/g,'D')
+    .replace(/[ḷ]/g,'l').replace(/[Ḷ]/g,'L')
+    .replace(/[ṃṁ]/g,'m').replace(/[ṂṀ]/g,'M')
+    .replace(/[ḥ]/g,'h').replace(/[Ḥ]/g,'H')
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g,'')
     .replace(/[ß]/g,'ss')
