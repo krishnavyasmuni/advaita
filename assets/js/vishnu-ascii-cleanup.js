@@ -22,7 +22,10 @@ const toAscii=value=>String(value??'')
   .replace(/[\u0300-\u036f]/g,'')
   .replace(/[ß]/g,'ss')
   .replace(/[æ]/gi,'ae')
-  .replace(/[œ]/gi,'oe');
+  .replace(/[œ]/gi,'oe')
+  .replace(/\bKrshna\b/gi,'Krishna')
+  .replace(/\bRgveda\b/gi,'Rigveda')
+  .replace(/\bDrshti\b/gi,'Drishti');
 
 const isSanskritNode=node=>{
   const element=node.nodeType===Node.ELEMENT_NODE?node:node.parentElement;
