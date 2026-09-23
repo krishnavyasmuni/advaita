@@ -94,7 +94,7 @@
     wfwReveal.dataset.gitaBaseHtml = gitaWfw;
     const sridPairs = verseData && verseData.reviewed === true ? verseData.word_for_word : [];
     wfwReveal.innerHTML = dualBlock(
-      '<div class="gita-word-source">Bhagavad Gītā</div>' + gitaWfw,
+      gitaWfw,
       renderPairs(sridPairs)
     );
     transReveal.innerHTML = transReveal.dataset.gitaBaseHtml || transReveal.innerHTML;
