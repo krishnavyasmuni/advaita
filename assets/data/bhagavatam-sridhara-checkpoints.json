@@ -11416,7 +11416,7 @@
       "source_blob_sha": "4b9e095c8f388845c346eff24daebcb917154a3c",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/22_kardama-devahUti-vivAhaH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch22-verses01-38.json"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch22-verses01-38.json?v=20260923-c322-2"
       ],
       "records_checked": 38,
       "exact_sridhara_source_blocks": 37,
@@ -11428,7 +11428,7 @@
       "generated_at": "2026-09-23",
       "notes": "All 39 verses are covered in 38 source ranges (including grouped 3.22.2–3.22.3); 37 Śrīdhara commentary blocks have IAST and independent word-for-word glosses, and only the pinned source’s explicit 3.22.26 no-commentary marker is retained. Live rendering was not independently confirmed.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Compared all 38 verse ranges with the pinned Śrīdhara source, including grouped 3.22.2–3 and explicit no-commentary 3.22.26. Replaced IAST keys with exact source-derived Devanāgarī spans, added complete IAST transliterations, restored 37 English checkpoint entries, consolidated the overlapping duplicate at 3.22.16, added missing phrase glosses at 3.22.16 and 3.22.31, and corrected the tṛn-affix gloss.",
+      "repair_note": "Compared all 38 verse ranges with the pinned Śrīdhara source, including grouped 3.22.2–3 and explicit no-commentary 3.22.26. Replaced IAST keys with exact source-derived Devanāgarī spans, added complete IAST transliterations, restored 37 English checkpoint entries, consolidated the overlapping duplicate at 3.22.16, added missing phrase glosses at 3.22.16 and 3.22.31, and corrected the tṛn-affix gloss. Standardized every stored IAST line with the reader's Devanāgarī-to-IAST converter, including numerals and danda punctuation; set the explicit no-commentary display text to the reader's exact sentinel.",
       "numbered_verses": 39,
       "sanskrit_source_blocks": [
         "3.22.1",
