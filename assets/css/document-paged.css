@@ -217,6 +217,15 @@
   letter-spacing:0;
 }
 
+.shastric-article .document-content .sanskrit-transliteration{
+  margin:12px 0 16px;
+  color:var(--sanskrit);
+  font-family:Merriweather,Georgia,serif;
+  font-size:15px;
+  line-height:1.55;
+  font-style:italic;
+}
+
 @media(max-width:620px){
   .document-paged-page .document-content .source-citation,
   .document-paged-page .document-content .reference{
@@ -312,5 +321,10 @@
   .shastric-article .document-content .sanskrit-text{
     font-size:18px;
     line-height:1.62;
+  }
+
+  .shastric-article .document-content .sanskrit-transliteration{
+    margin:10px 0 14px;
+    font-size:14px;
   }
 }
