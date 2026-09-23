@@ -4,7 +4,7 @@
 (()=>{
 'use strict';
 
-if(!/\/articles\/(?:a-shashtric-lens-of-varna-part-one|meat-eating-in-hinduism-through-the-lens-of-shastra)\/?$/.test(location.pathname))return;
+if(!/\/articles\/(?:a-shashtric-lens-of-varna-part-one|meat-eating-in-hinduism-through-the-lens-of-shastra|a-vaishnava-lens-on-vishnu-as-the-supreme-deity)\/?$/.test(location.pathname))return;
 const root=document.getElementById('source-content');
 if(!root)return;
 
