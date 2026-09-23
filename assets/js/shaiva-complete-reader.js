@@ -417,7 +417,7 @@ async function render(){
   document.getElementById('section-count').textContent='Section '+(index+1)+' of '+sections.length;
   navLink(document.getElementById('page-prev'),sections[index-1],'Previous');
   navLink(document.getElementById('page-next'),sections[index+1],'Next');
-  document.title=selected.title+' — A Scripture-Based Case for the Supremacy of Shiva — Viveka Drsti';
+  document.title=selected.title+' — A Scripture-Based Case for the Supremacy of Shiva — Viveka Drishti';
   const content=document.createDocumentFragment();
   content.append(make('h3',null,selected.title));
   for(const block of selected.blocks)content.append(renderBlock(block,selected.id));
