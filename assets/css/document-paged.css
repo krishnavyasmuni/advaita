@@ -189,14 +189,9 @@
   line-height:1.5;
 }
 
-/* The shastric article uses one Latin typeface throughout. Devanāgarī
-   remains in the matching Noto serif family so its glyphs render cleanly. */
-.shastric-article .sitebar a,
-.shastric-article .article-head h1,
-.shastric-article .side-toc-title,
-.shastric-article .mobile-toc>summary,
+/* Body text uses Merriweather; structural headings inherit the shared
+   Vollkorn styling from the Varna reader. Devanagari uses Noto Serif. */
 .shastric-article .article,
-.shastric-article .article h3,
 .shastric-article .document-content,
 .shastric-article .document-content details.sanskrit-reveal>summary,
 .shastric-article .document-content table caption{
