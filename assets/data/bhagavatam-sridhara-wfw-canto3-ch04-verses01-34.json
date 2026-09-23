@@ -5,7 +5,7 @@
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/04_yadu-vaMsha-saMhAra-kathanam.md",
   "source_blob_sha": "dc6c3b73e2f26e998276bf216315af069d363cdb",
-  "editorial_note": "Canto 3 Chapter 4 source blocks and Śrīdhara glosses repaired from the exact pinned source; grouped 3.4.33–3.4.35 preserved and 3.4.27 kept as explicit no-commentary.",
+  "editorial_note": "Exact pinned Śrīdhara Sanskrit retained; supplied commentary blocks have independent phrase-level word-for-word glosses, with IAST keys and full source transliteration.",
   "scope": "ŚB 3.4.1–3.4.34; pinned source ranges and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -17,37 +17,40 @@
       "sanskrit": "चतुर्थे बन्धु-निधनं श्रुत्वात्म-ज्ञान-लब्धये ।\n\nउद्धवस्योपदेशेन क्षता मैत्रेयम् आगमत् ॥\n\nतैर् ब्राह्मणैर् अनुज्ञाताः । वारुणीं पैष्ठीं मदिराम् ॥१॥",
       "word_for_word": [
         [
-          "चतुर्थे",
+          "caturthe",
           "in the Fourth Canto"
         ],
         [
-          "बन्धु-निधनम् श्रुत्वा",
+          "bandhu-nidhanam śrutvā",
           "hearing the death of relatives"
         ],
         [
-          "आत्म-ज्ञान-लब्धये",
+          "ātma-jñāna-labdhaye",
           "for attaining knowledge of the self"
         ],
         [
-          "उद्धवस्य उपदेशेन",
+          "uddhavasya upadeśena",
           "by Uddhava’s instruction"
         ],
         [
-          "क्षत्ता मैत्रेयम् आगमत्",
+          "kṣattā maitreyam āgamat",
           "Vidura went to Maitreya"
         ],
         [
-          "तैः ब्राह्मणैः अनुज्ञातः",
+          "taiḥ brāhmaṇaiḥ anujñātaḥ",
           "permitted by those brāhmaṇas"
         ],
         [
-          "वारुणीम् पैष्ठीम् मदिराम्",
+          "vāruṇīm paiṣṭhīm madirām",
           "the fermented Varuṇī liquor"
         ]
       ],
       "literal_english": "In the Fourth Canto, after hearing of the death of his relatives, Vidura went to Maitreya for knowledge of the self, following Uddhava’s instruction. He was permitted by the brāhmaṇas and accepted the Varuṇī liquor.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "caturthe bandhu-nidhanaṃ śrutvātma-jñāna-labdhaye । uddhavasyopadeśena kṣatā maitreyam āgamat ॥ tair brāhmaṇair anujñātāḥ । vāruṇīṃ paiṣṭhīṃ madirām ॥1॥"
+      ]
     },
     {
       "canto": 3,
@@ -58,25 +61,28 @@
       "sanskrit": "वारुण्य् एव मैत्रेयं तस्य दोषेण निम्लोचति अस्तं गच्छति सति । मर्दनं कदनम् ॥२॥",
       "word_for_word": [
         [
-          "वारुणी एव मैत्रेयम्",
+          "vāruṇī eva maitreyam",
           "the Varuṇī itself, Maitreya"
         ],
         [
-          "तस्य दोषेण",
+          "tasya doṣeṇa",
           "by its fault"
         ],
         [
-          "निम्लोचति अस्तम् गच्छति सति",
+          "nimlocati astam gacchati sati",
           "when the sun was setting"
         ],
         [
-          "मर्दनम् कदनम्",
+          "mardanam kadanam",
           "distress and affliction"
         ]
       ],
       "literal_english": "The Varuṇī itself caused Maitreya distress when the sun was setting; this is the explanation of the affliction mentioned in the verse.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "vāruṇy eva maitreyaṃ tasya doṣeṇa nimlocati astaṃ gacchati sati । mardanaṃ kadanam ॥2॥"
+      ]
     },
     {
       "canto": 3,
@@ -87,7 +93,7 @@
       "sanskrit": "उपसृत्य सरस्वत्याम् आचम्य ॥३॥",
       "word_for_word": [
         [
-          "उपसृत्य सरस्वत्याम्",
+          "upasṛtya sarasvatyām",
           "having approached the Sarasvatī"
         ],
         [
@@ -97,7 +103,10 @@
       ],
       "literal_english": "He approached the Sarasvatī and performed ācamana, sipping water for purification.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "upasṛtya sarasvatyām ācamya ॥3॥"
+      ]
     },
     {
       "canto": 3,
@@ -112,17 +121,20 @@
           "I too was spoken to"
         ],
         [
-          "पूर्वम् एव",
+          "pūrvam eva",
           "earlier itself"
         ],
         [
-          "द्वारकायाम्",
+          "dvārakāyām",
           "in Dvārakā"
         ]
       ],
       "literal_english": "‘I too was spoken to earlier, in Dvārakā.’",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "ahaṃ coktaḥ pūrvam eva dvārakāyām ॥4॥"
+      ]
     },
     {
       "canto": 3,
@@ -133,17 +145,20 @@
       "sanskrit": "तद् अभिप्रेतं कुल-संहारादिकम् ॥५॥",
       "word_for_word": [
         [
-          "तत् अभिप्रेतम्",
+          "tat abhipretam",
           "that intended matter"
         ],
         [
-          "कुल-संहार-आदिकम्",
+          "kula-saṃhāra-ādikam",
           "the destruction of the dynasty and the like"
         ]
       ],
       "literal_english": "This refers to the intended destruction of the dynasty and related events.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "tad abhipretaṃ kula-saṃhārādikam ॥5॥"
+      ]
     },
     {
       "canto": 3,
@@ -154,21 +169,24 @@
       "sanskrit": "कृत-केतं कृतावासम् । अकेतनम् अनाश्रयम् ॥६॥",
       "word_for_word": [
         [
-          "कृत-केतुम्",
+          "kṛta-ketum",
           "having made a sign"
         ],
         [
-          "कृत-आवासम्",
+          "kṛta-āvāsam",
           "having made a dwelling"
         ],
         [
-          "अकेतनम् अनाश्रयम्",
+          "aketanam anāśrayam",
           "without a house and without a support"
         ]
       ],
       "literal_english": "He made a sign and established a dwelling, yet remained without a house and without a worldly support.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "kṛta-ketaṃ kṛtāvāsam । aketanam anāśrayam ॥6॥"
+      ]
     },
     {
       "canto": 3,
@@ -179,25 +197,28 @@
       "sanskrit": "विरजं विरजसं शुद्ध-सत्त्व-मयम् । विदितं लक्षितम् । कौशं कौशेयम् ॥७॥",
       "word_for_word": [
         [
-          "विरजम् विरजसम्",
+          "virajam virajasam",
           "stainless and free from passion"
         ],
         [
-          "शुद्ध-सत्त्व-मयम्",
+          "śuddha-sattva-mayam",
           "consisting of pure sattva"
         ],
         [
-          "विदितम् लक्षितम्",
+          "viditam lakṣitam",
           "known and perceived"
         ],
         [
-          "कौशम् कौशेयम्",
+          "kauśam kauśeyam",
           "silken"
         ]
       ],
       "literal_english": "The form is stainless, free from passion and made of pure sattva; it is perceived as a silken form.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "virajaṃ virajasaṃ śuddha-sattva-mayam । viditaṃ lakṣitam । kauśaṃ kauśeyam ॥7॥"
+      ]
     },
     {
       "canto": 3,
@@ -208,29 +229,32 @@
       "sanskrit": "अधिश्रित्योपरि स्थापयित्वा । अपाश्रितः पृष्ठतोऽवष्टब्धोऽर्भको बालः कोमलोऽश्वत्थो येन तम् । त्यक्तं पिप्पलं विषय-सुखं येन तम् । तथाप्य् अकृशम् आनन्द-पूर्णम् ॥८॥",
       "word_for_word": [
         [
-          "अधिश्रित्य उपरि स्थापयित्वा",
+          "adhiśritya upari sthāpayitvā",
           "having mounted and placed above"
         ],
         [
-          "अपाश्रितः पृष्ठतः अवष्टब्धः",
+          "apāśritaḥ pṛṣṭhataḥ avaṣṭabdhaḥ",
           "supported from behind"
         ],
         [
-          "अर्भकः बालः कोमलः अश्वत्थः",
+          "arbhakaḥ bālaḥ komalaḥ aśvatthaḥ",
           "a tender young child like a delicate aśvattha tree"
         ],
         [
-          "त्यक्तम् पिप्पलम् विषय-सुखम् येन",
+          "tyaktam pippalam viṣaya-sukham yena",
           "by whom the pipal of sense pleasure was abandoned"
         ],
         [
-          "तथापि अकृशम् आनन्द-पूर्णम्",
+          "tathāpi akṛśam ānanda-pūrṇam",
           "nevertheless not thin, but full of bliss"
         ]
       ],
       "literal_english": "Having mounted and placed Himself above, He was supported from behind like a tender young child or delicate aśvattha tree. He had abandoned the pipal tree of sense pleasure, yet He was not diminished; He was full of bliss.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "adhiśrityopari sthāpayitvā । apāśritaḥ pṛṣṭhato’vaṣṭabdho’rbhako bālaḥ komalo’śvattho yena tam । tyaktaṃ pippalaṃ viṣaya-sukhaṃ yena tam । tathāpy akṛśam ānanda-pūrṇam ॥8॥"
+      ]
     },
     {
       "canto": 3,
@@ -241,25 +265,28 @@
       "sanskrit": "द्वैपायनः सुहृत् सखा च यस्य स स्व-गुरु-पुत्रत्वात्, पराशर-शिष्यो मैत्रेय इत्य् अर्थः ॥९॥",
       "word_for_word": [
         [
-          "द्वैपायनः सुहृत् सखा च यस्य",
+          "dvaipāyanaḥ suhṛt sakhā ca yasya",
           "whose friend and companion was Dvaipāyana"
         ],
         [
-          "स्व-गुरु-पुत्रत्वात्",
+          "sva-guru-putratvāt",
           "because he was the son of his own teacher"
         ],
         [
-          "पराशर-शिष्यः मैत्रेयः",
+          "parāśara-śiṣyaḥ maitreyaḥ",
           "Maitreya, disciple of Parāśara"
         ],
         [
-          "इति अर्थः",
+          "iti arthaḥ",
           "this is the meaning"
         ]
       ],
       "literal_english": "Dvaipāyana was his friend and companion because he was the son of his own teacher; Maitreya was the disciple of Parāśara. That is the meaning.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "dvaipāyanaḥ suhṛt sakhā ca yasya sa sva-guru-putratvāt, parāśara-śiṣyo maitreya ity arthaḥ ॥9॥"
+      ]
     },
     {
       "canto": 3,
@@ -270,33 +297,36 @@
       "sanskrit": "प्रमोदेन भावेन चानता कन्धरा यस्य । पठान्तरे प्रमोदस्य भारेण । अनुरागेण सह हासो यस्यां तया समीक्षया विश्रमयन् विगत-श्रमं कुर्वन् ॥१०॥",
       "word_for_word": [
         [
-          "प्रमोदेन भावेन",
+          "pramodena bhāvena",
           "with a joyful feeling"
         ],
         [
-          "आनता कन्धरा यस्य",
+          "ānatā kandharā yasya",
           "whose neck was bent"
         ],
         [
-          "पाठान्तरे प्रमोदस्य भारेण",
+          "pāṭhāntare pramodasya bhāreṇa",
           "according to another reading, by the weight of joy"
         ],
         [
-          "अनुरागेण सह हासः यस्याम्",
+          "anurāgeṇa saha hāsaḥ yasyām",
           "with affectionate laughter in which"
         ],
         [
-          "तया समीक्षया विश्रमयन्",
+          "tayā samīkṣayā viśramayan",
           "by that glance He gave rest"
         ],
         [
-          "विगत-श्रमम् कुर्वन्",
+          "vigata-śramam kurvan",
           "making [them] free from fatigue"
         ]
       ],
       "literal_english": "His neck was bent with joyful feeling, or, according to another reading, under the weight of joy. His glance contained laughter together with affection; by that glance He gave them rest and removed their fatigue.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "pramodena bhāvena cānatā kandharā yasya । paṭhāntare pramodasya bhāreṇa । anurāgeṇa saha hāso yasyāṃ tayā samīkṣayā viśramayan vigata-śramaṃ kurvan ॥10॥"
+      ]
     },
     {
       "canto": 3,
@@ -307,45 +337,48 @@
       "sanskrit": "हे उद्धव, ते मनसीप्सितम् अहम् अन्तः-स्थितो वेद वेद्मि । दाने हेतुः---विश्व-सृजां वसूनां च मिलितानां सत्रे । हे वसो ! इति पुरा पूर्व-जन्मनि त्वं वसुर् अभूः, तदा मत्-प्राप्ति-कामेन त्वयाहम् इष्टः । अतस् तत्-साधनं ददामि दास्यामि । अन्यैर् मत्-पराङ्मुखैर् दुष्प्रापम् ॥११॥",
       "word_for_word": [
         [
-          "ते मनसि ईप्सितम्",
+          "te manasi īpsitam",
           "what is desired in your mind"
         ],
         [
-          "अहम् अन्तः-स्थितः वेद वेद्मि",
+          "aham antaḥ-sthitaḥ veda vedmi",
           "I, dwelling within, know"
         ],
         [
-          "दाने हेतुः",
+          "dāne hetuḥ",
           "the reason for the gift"
         ],
         [
-          "विश्व-सृजाम् वसूनाम् च मिलितानाम् सत्रे",
+          "viśva-sṛjām vasūnām ca militānām satre",
           "at the sacrifice of the gathered creators and Vasus"
         ],
         [
-          "हे वसो",
+          "he vaso",
           "O Vasu"
         ],
         [
-          "पूर्व-जन्मनि त्वम् वसुः अभूः",
+          "pūrva-janmani tvam vasuḥ abhūḥ",
           "in a former birth you were a Vasu"
         ],
         [
-          "मत्-प्राप्ति-कामेन त्वया अहम् इष्टः",
+          "mat-prāpti-kāmena tvayā aham iṣṭaḥ",
           "you worshipped Me desiring to attain Me"
         ],
         [
-          "तत्-साधनम् ददामि",
+          "tat-sādhanam dadāmi",
           "I give the means for that attainment"
         ],
         [
-          "अन्यैः मत्-पराङ्मुखैः दुष्प्रापम्",
+          "anyaiḥ mat-parāṅmukhaiḥ duṣprāpam",
           "difficult to obtain for others turned away from Me"
         ]
       ],
       "literal_english": "‘O Uddhava, I know what is desired in your mind, dwelling within you.’ The reason for the gift is this: at the sacrifice of the gathered creators and Vasus, Uddhava had been a Vasu in a former birth and had worshipped Kṛṣṇa desiring to attain Him. Kṛṣṇa therefore gives him the means for that attainment, which is difficult for those turned away from Him.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "he uddhava, te manasīpsitam aham antaḥ-sthito veda vedmi । dāne hetuḥ---viśva-sṛjāṃ vasūnāṃ ca militānāṃ satre । he vaso ! iti purā pūrva-janmani tvaṃ vasur abhūḥ, tadā mat-prāpti-kāmena tvayāham iṣṭaḥ । atas tat-sādhanaṃ dadāmi dāsyāmi । anyair mat-parāṅmukhair duṣprāpam ॥11॥"
+      ]
     },
     {
       "canto": 3,
@@ -356,45 +389,48 @@
       "sanskrit": "तस्य भाग्यम् अभिनन्दति । स एष भवो जन्म ते भवानां मध्ये चरमः । यद्य् अस्मिन् मद्-अनुग्रह आसादितो लब्धः । यत् पुनर् मां रह एकान्ते विशदानुवृत्त्या एकान्त-भक्त्या ददृश्वान् दृष्टवान् असि एतद् दिष्ट्या भद्रं जातम् इत्य् अर्थः । नृ-लोकान् नृ-शब्देन जीवास् तेषां लोकान् उत्सृजन्तं वैकुण्ठं गच्छन्तम् इत्य् अर्थः ॥१२॥",
       "word_for_word": [
         [
-          "तस्य भाग्यम् अभिनन्दति",
+          "tasya bhāgyam abhinandati",
           "he praises his fortune"
         ],
         [
-          "सः एषः भवः",
+          "saḥ eṣaḥ bhavaḥ",
           "this present birth"
         ],
         [
-          "ते भवानाम् मध्ये चरमः",
+          "te bhavānām madhye caramaḥ",
           "is the last among your births"
         ],
         [
-          "मद्-अनुग्रहः आसादितः लब्धः",
+          "mad-anugrahaḥ āsāditaḥ labdhaḥ",
           "My mercy has been attained"
         ],
         [
-          "माम् रहः एकान्ते",
+          "mām rahaḥ ekānte",
           "Me in a secluded place"
         ],
         [
-          "विशद-अनुवृत्त्या एकान्त-भक्त्या",
+          "viśada-anuvṛttyā ekānta-bhaktyā",
           "through pure, exclusive devotion"
         ],
         [
-          "ददृश्वान् दृष्टवान् असि",
+          "dadṛśvān dṛṣṭavān asi",
           "you have seen"
         ],
         [
-          "एतत् दिष्ट्या भद्रम् जातम्",
+          "etat diṣṭyā bhadram jātam",
           "by good fortune this auspicious thing has occurred"
         ],
         [
-          "नृ-लोकान् उत्सृजन्तम् वैकुण्ठम् गच्छन्तम्",
+          "nṛ-lokān utsṛjantam vaikuṇṭham gacchantam",
           "leaving the human worlds and going to Vaikuṇṭha"
         ]
       ],
       "literal_english": "Śrīdhara praises Uddhava’s fortune. This is the last of his births, and he has obtained Kṛṣṇa’s mercy: through pure, exclusive devotion he has seen Kṛṣṇa in a secluded place. By good fortune this auspicious event has occurred; he is leaving the human worlds and going to Vaikuṇṭha.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "tasya bhāgyam abhinandati । sa eṣa bhavo janma te bhavānāṃ madhye caramaḥ । yady asmin mad-anugraha āsādito labdhaḥ । yat punar māṃ raha ekānte viśadānuvṛttyā ekānta-bhaktyā dadṛśvān dṛṣṭavān asi etad diṣṭyā bhadraṃ jātam ity arthaḥ । nṛ-lokān nṛ-śabdena jīvās teṣāṃ lokān utsṛjantaṃ vaikuṇṭhaṃ gacchantam ity arthaḥ ॥12॥"
+      ]
     },
     {
       "canto": 3,
@@ -405,29 +441,32 @@
       "sanskrit": "ददामीति यद् उक्तं, तद् एव निर्दिशति । पुरा पूर्वस्मिन् पाद्मे कल्पे । आदि-सर्गे सर्गोपक्रमे । मम महिमा लीला अवभास्यते येन तत् ॥१३॥",
       "word_for_word": [
         [
-          "ददामि इति यत् उक्तम्",
+          "dadāmi iti yat uktam",
           "what was said, ‘I give’"
         ],
         [
-          "तत् एव निर्दिशति",
+          "tat eva nirdiśati",
           "he indicates that very thing"
         ],
         [
-          "पुरा पूर्वस्मिन् पाद्मे कल्पे",
+          "purā pūrvasmin pādme kalpe",
           "formerly, in the previous Pādma Kalpa"
         ],
         [
-          "आदि-सर्गे सर्ग-उपक्रमे",
+          "ādi-sarge sarga-upakrame",
           "at the beginning of creation"
         ],
         [
-          "मम महिमा लीला अवभास्यते येन",
+          "mama mahimā līlā avabhāsyate yena",
           "by which My glory and play are manifested"
         ]
       ],
       "literal_english": "Śrīdhara identifies what Kṛṣṇa meant by saying ‘I give’. Formerly, in the previous Pādma Kalpa, at the beginning of creation, Kṛṣṇa’s glory and play were manifested through this teaching.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "dadāmīti yad uktaṃ, tad eva nirdiśati । purā pūrvasmin pādme kalpe । ādi-sarge sargopakrame । mama mahimā līlā avabhāsyate yena tat ॥13॥"
+      ]
     },
     {
       "canto": 3,
@@ -438,7 +477,7 @@
       "sanskrit": "इत्य् एवम् आदृतश् चासाव् उक्तश् चाहम् । प्रतीक्षणं कृपावलोक एवानुग्रहस् तस्य भाजनः पात्र-भूतः । पाठान्तरे प्रतिक्षणम् अनुग्रहस्य पात्रम् इति । शुचोऽश्रूणि मुञ्चन्न् आवभाषे उक्तवान् असि ॥१४॥",
       "word_for_word": [
         [
-          "इति एवम् आदृतः च असौ",
+          "iti evam ādṛtaḥ ca asau",
           "thus he was honoured"
         ],
         [
@@ -446,29 +485,32 @@
           "and I was addressed"
         ],
         [
-          "प्रति-क्षणम् कृपा-अवलोकः",
+          "prati-kṣaṇam kṛpā-avalokaḥ",
           "a compassionate glance at every moment"
         ],
         [
-          "अनुग्रहस्य पात्रम्",
+          "anugrahasya pātram",
           "a recipient of mercy"
         ],
         [
-          "पाठान्तरे प्रति-क्षणम् अनुग्रहस्य पात्रम्",
+          "pāṭhāntare prati-kṣaṇam anugrahasya pātram",
           "according to another reading, a recipient of mercy at every moment"
         ],
         [
-          "शुचः अश्रूणि मुञ्चन्",
+          "śucaḥ aśrūṇi muñcan",
           "releasing tears of sorrow"
         ],
         [
-          "आवभाषे उक्तवान् असि",
+          "āvabhāṣe uktavān asi",
           "he spoke"
         ]
       ],
       "literal_english": "Thus Kṛṣṇa honoured and addressed him. Uddhava was the recipient of mercy through a compassionate glance at every moment—or, according to another reading, he was continually a recipient of mercy. Releasing tears of sorrow, he spoke.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "ity evam ādṛtaś cāsāv uktaś cāham । pratīkṣaṇaṃ kṛpāvaloka evānugrahas tasya bhājanaḥ pātra-bhūtaḥ । pāṭhāntare pratikṣaṇam anugrahasya pātram iti । śuco’śrūṇi muñcann āvabhāṣe uktavān asi ॥14॥"
+      ]
     },
     {
       "canto": 3,
@@ -479,45 +521,48 @@
       "sanskrit": "न हि स्वाज्ञान-निवृत्ति-मात्र-कामोऽहं, किन्तु त्वन्-निषेवणोत्सुकस् त्वयि चाघटमानाचरणं दृष्ट्वा मे मोहो भवति, अतस् त्वं तत्त्व-ज्ञानं देहीति प्रार्थयितुम् आह---को न्व् इति । चतुर्षु धर्मादिषु तथापि, हे भूमन् ! भवत्-पदाम्भोज-निषेवणोत्सुकोऽहम्, तान् न प्रवृणोमि ॥१५॥",
       "word_for_word": [
         [
-          "न हि स्व-अज्ञान-निवृत्ति-मात्र-कामः अहम्",
+          "na hi sva-ajñāna-nivṛtti-mātra-kāmaḥ aham",
           "I do not merely desire the removal of my own ignorance"
         ],
         [
-          "त्वत्-निषेवण-उत्सुकः",
+          "tvat-niṣevaṇa-utsukaḥ",
           "I am eager to serve You"
         ],
         [
-          "त्वयि अघटमान-आचरणम् दृष्ट्वा",
+          "tvayi aghaṭamāna-ācaraṇam dṛṣṭvā",
           "seeing conduct impossible in You"
         ],
         [
-          "मे मोहः भवति",
+          "me mohaḥ bhavati",
           "I become bewildered"
         ],
         [
-          "तत्त्व-ज्ञानम् देहि",
+          "tattva-jñānam dehi",
           "give me knowledge of truth"
         ],
         [
-          "चतुर्-षु धर्म-आदिषु",
+          "catur-ṣu dharma-ādiṣu",
           "among the four aims beginning with dharma"
         ],
         [
-          "हे भूमन्",
+          "he bhūman",
           "O all-pervading Lord"
         ],
         [
-          "भवत्-पद-अम्भोज-निषेवण-उत्सुकः अहम्",
+          "bhavat-pada-ambhoja-niṣevaṇa-utsukaḥ aham",
           "I am eager to serve Your lotus feet"
         ],
         [
-          "तान् न प्रवृणोमि",
+          "tān na pravṛṇomi",
           "I do not choose them"
         ]
       ],
       "literal_english": "I do not merely desire the removal of my own ignorance; I am eager to serve You. When I see conduct that seems impossible for You, I become bewildered, so I ask You to give me knowledge of the truth. O all-pervading Lord, although the four aims beginning with dharma are available, I do not choose them; I am eager only to serve Your lotus feet.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "na hi svājñāna-nivṛtti-mātra-kāmo’haṃ, kintu tvan-niṣevaṇotsukas tvayi cāghaṭamānācaraṇaṃ dṛṣṭvā me moho bhavati, atas tvaṃ tattva-jñānaṃ dehīti prārthayitum āha---ko nv iti । caturṣu dharmādiṣu tathāpi, he bhūman ! bhavat-padāmbhoja-niṣevaṇotsuko’ham, tān na pravṛṇomi ॥15॥"
+      ]
     },
     {
       "canto": 3,
@@ -528,37 +573,40 @@
       "sanskrit": "अघटमानाचरणं दर्शयति । कर्माण्य् अनीहस्य निःस्पृहस्य निष्क्रियस्य वा । अभवस्य अजन्मनः भवो जन्म । कालात्मनस् तव अरि-भयाद् दुर्गाश्रयः पलायनं च। स्वात्मनि रतिर् यस्य तस्य बह्वीभिः स्त्रीभिर् गृहस्थाश्रम इति यद् इहास्मिन् विषये विदुषाम् अपि धीः संशयेन खिद्यति ॥१६॥",
       "word_for_word": [
         [
-          "अघटमान-आचरणम् दर्शयति",
+          "aghaṭamāna-ācaraṇam darśayati",
           "he shows the impossible conduct"
         ],
         [
-          "कर्माणि अनीहस्य निःस्पृहस्य निष्क्रियस्य वा",
+          "karmāṇi anīhasya niḥspṛhasya niṣkriyasya vā",
           "actions of one without desire, without longing, or inactive"
         ],
         [
-          "अभवस्य अजन्मनः भवः जन्म",
+          "abhavasya ajanmanaḥ bhavaḥ janma",
           "birth of one unborn"
         ],
         [
-          "काल-आत्मनः तव अरि-भयात् दुर्ग-आश्रयः पलायनम्",
+          "kāla-ātmanaḥ tava ari-bhayāt durga-āśrayaḥ palāyanam",
           "for You, Time Himself, fleeing to a fort from fear of enemies"
         ],
         [
-          "स्व-आत्मनि रतिः यस्य",
+          "sva-ātmani ratiḥ yasya",
           "whose delight is in His own self"
         ],
         [
-          "बह्वीभिः स्त्रीभिः गृहस्थ-आश्रमः",
+          "bahvībhiḥ strībhiḥ gṛhastha-āśramaḥ",
           "the household state with many women"
         ],
         [
-          "विदुषाम् अपि धीः संशयेन खिद्यति",
+          "viduṣām api dhīḥ saṃśayena khidyati",
           "even the intellect of the learned is troubled by doubt"
         ]
       ],
       "literal_english": "Śrīdhara explains the conduct that appears impossible: actions by One without desire, the birth of the Unborn, and, though He is Time Himself, fleeing to a fort from fear of enemies. Though delighting in His own self, He entered household life with many women. Even the intellect of learned people is troubled by doubt about this.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "aghaṭamānācaraṇaṃ darśayati । karmāṇy anīhasya niḥspṛhasya niṣkriyasya vā । abhavasya ajanmanaḥ bhavo janma । kālātmanas tava ari-bhayād durgāśrayaḥ palāyanaṃ ca। svātmani ratir yasya tasya bahvībhiḥ strībhir gṛhasthāśrama iti yad ihāsmin viṣaye viduṣām api dhīḥ saṃśayena khidyati ॥16॥"
+      ]
     },
     {
       "canto": 3,
@@ -569,41 +617,44 @@
       "sanskrit": "किं च, मन्त्रेषु च प्रस्तुतेषु च सत्स्य् माम् आहूय वै अहो पृच्छेर् अपृच्छः । अकुण्ठितः कालादिना अखण्डः सन्ततः सदात्मा संशयादि-रहितो बोधो विद्या-शक्तिर् यस्य । मुग्धवद् अज्ञवत् । अप्रमत्तोऽवहितः सन् ॥१७॥",
       "word_for_word": [
         [
-          "मन्त्रेषु प्रस्तुतेषु च",
+          "mantreṣu prastuteṣu ca",
           "when the mantras and rites were being presented"
         ],
         [
-          "माम् आहूय",
+          "mām āhūya",
           "having summoned me"
         ],
         [
-          "अहो पृच्छेः अपृच्छः",
+          "aho pṛccheḥ apṛcchaḥ",
           "‘ah, you asked me’"
         ],
         [
-          "अकुण्ठितः काल-आदिना",
+          "akuṇṭhitaḥ kāla-ādinā",
           "unhindered by time and the like"
         ],
         [
-          "अखण्डः सन्ततः सद्-आत्मा",
+          "akhaṇḍaḥ santataḥ sad-ātmā",
           "unbroken, continuous and true in nature"
         ],
         [
-          "बोधः विद्या-शक्तिः यस्य",
+          "bodhaḥ vidyā-śaktiḥ yasya",
           "whose knowledge is the power of wisdom"
         ],
         [
-          "मुग्ध-वत् अज्ञ-वत्",
+          "mugdha-vat ajña-vat",
           "like an innocent ignorant person"
         ],
         [
-          "अप्रमत्तः अवहितः सन्",
+          "apramattaḥ avahitaḥ san",
           "being attentive and alert"
         ]
       ],
       "literal_english": "When the mantras and rites were being presented, You summoned me and asked me—‘Ah, you asked me.’ Your knowledge is unhindered by time, unbroken, continuous and true in nature, yet You acted like an innocent ignorant person while remaining attentive and alert.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "kiṃ ca, mantreṣu ca prastuteṣu ca satsy mām āhūya vai aho pṛccher apṛcchaḥ । akuṇṭhitaḥ kālādinā akhaṇḍaḥ santataḥ sadātmā saṃśayādi-rahito bodho vidyā-śaktir yasya । mugdhavad ajñavat । apramatto’vahitaḥ san ॥17॥"
+      ]
     },
     {
       "canto": 3,
@@ -614,45 +665,48 @@
       "sanskrit": "स्वात्मनस् तव रहो रहस्यं तत्त्वं तस्य प्रकाशकम् । कस्मै ब्रह्मणे । सर्वनामत्वम् आर्षम् । नोऽस्माकं ग्रहणायापि क्षमं यदि योग्यं, तर्हि वद । भर्तः स्वामिन्, यद् यतो वृजिनं सम्षार-दुःखम् अञ्जसानायासेन तरिष्यामः ॥१८॥",
       "word_for_word": [
         [
-          "स्व-आत्मनः तव रहः रहस्यम् तत्त्वम्",
+          "sva-ātmanaḥ tava rahaḥ rahasyam tattvam",
           "the secret truth of Your own self"
         ],
         [
-          "तस्य प्रकाशकम्",
+          "tasya prakāśakam",
           "the revealer of it"
         ],
         [
-          "कस्मै ब्रह्मणे",
+          "kasmai brahmaṇe",
           "to which Brahmā"
         ],
         [
-          "सर्वनामत्वम् आर्षम्",
+          "sarvanāmatvam ārṣam",
           "the universal pronoun is an archaic usage"
         ],
         [
-          "नः अस्माकम् ग्रहणाय अपि क्षमम्",
+          "naḥ asmākam grahaṇāya api kṣamam",
           "fit even for our understanding"
         ],
         [
-          "यदि योग्यं तर्हि वद",
+          "yadi yogyaṃ tarhi vada",
           "if it is suitable, then speak"
         ],
         [
-          "भर्तः स्वामिन्",
+          "bhartaḥ svāmin",
           "O Lord, O Master"
         ],
         [
-          "यत् यतः वृजिनम् संसार-दुःखम्",
+          "yat yataḥ vṛjinam saṃsāra-duḥkham",
           "the suffering of saṃsāra, which is misery"
         ],
         [
-          "अञ्जसा अनायासेन तरिष्यामः",
+          "añjasā anāyāsena tariṣyāmaḥ",
           "we shall cross easily"
         ]
       ],
       "literal_english": "Tell us the secret truth of Your own self, which You revealed to Brahmā. The universal pronoun is an archaic usage. If this teaching is fit even for our understanding, then speak, O Lord, O Master, so that we may easily cross the suffering of saṃsāra.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "svātmanas tava raho rahasyaṃ tattvaṃ tasya prakāśakam । kasmai brahmaṇe । sarvanāmatvam ārṣam । no’smākaṃ grahaṇāyāpi kṣamaṃ yadi yogyaṃ, tarhi vada । bhartaḥ svāmin, yad yato vṛjinaṃ samṣāra-duḥkham añjasānāyāsena tariṣyāmaḥ ॥18॥"
+      ]
     },
     {
       "canto": 3,
@@ -663,21 +717,24 @@
       "sanskrit": "आवेदितो हार्दो हृदि-स्थितोऽभिप्रायो येन तस्मै ॥१९॥",
       "word_for_word": [
         [
-          "आवेदितः हार्दः अभिप्रायः",
+          "āveditaḥ hārdaḥ abhiprāyaḥ",
           "the heartfelt intention was made known"
         ],
         [
-          "हृदि-स्थितः",
+          "hṛdi-sthitaḥ",
           "which was present in the heart"
         ],
         [
-          "येन तस्मै",
+          "yena tasmai",
           "to him by whom it was made known"
         ]
       ],
       "literal_english": "The teaching was given to the one by whom the intention present in the heart was understood and made known.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "āvedito hārdo hṛdi-sthito’bhiprāyo yena tasmai ॥19॥"
+      ]
     },
     {
       "canto": 3,
@@ -688,29 +745,32 @@
       "sanskrit": "आराधित-पादो भगवान् स एव तीर्थं गुरुस् तस्माद् अधीतोऽधिगतस् तत्त्वात्म-विबोधस्य परमार्थात्म-ज्ञानस्य मार्गो येन सोऽहम् । देवं परिवृत्य प्रदक्षिणी-कृत्य॥२०॥",
       "word_for_word": [
         [
-          "आराधित-पादः भगवान्",
+          "ārādhita-pādaḥ bhagavān",
           "Bhagavān whose feet have been worshipped"
         ],
         [
-          "सः एव तीर्थम् गुरुः",
+          "saḥ eva tīrtham guruḥ",
           "He Himself is the sacred ford and the guru"
         ],
         [
-          "तस्मात् अधीतः अधिगतः",
+          "tasmāt adhītaḥ adhigataḥ",
           "from Him it was studied and understood"
         ],
         [
-          "तत्त्व-आत्म-विबोधस्य परमार्थ-आत्म-ज्ञानस्य मार्गः",
+          "tattva-ātma-vibodhasya paramārtha-ātma-jñānasya mārgaḥ",
           "the path to knowledge of the self and ultimate reality"
         ],
         [
-          "देवम् परिवृत्य प्रदक्षिणीकृत्य",
+          "devam parivṛtya pradakṣiṇīkṛtya",
           "having circumambulated the Lord"
         ]
       ],
       "literal_english": "Bhagavān whose feet have been worshipped is Himself the sacred ford and the guru. From Him Uddhava learned and understood the path to knowledge of the self and ultimate reality, and he circumambulated the Lord.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "ārādhita-pādo bhagavān sa eva tīrthaṃ gurus tasmād adhīto’dhigatas tattvātma-vibodhasya paramārthātma-jñānasya mārgo yena so’ham । devaṃ parivṛtya pradakṣiṇī-kṛtya॥20॥"
+      ]
     },
     {
       "canto": 3,
@@ -721,25 +781,28 @@
       "sanskrit": "तस्त दर्शनेनाह्लादो वियोगेनार्तिश् च ताभ्यां युतो बदर्य्-आश्रम-स्थानं गमिष्यामि ॥२१॥",
       "word_for_word": [
         [
-          "तस्य दर्शनेन आह्लादः",
+          "tasya darśanena āhlādaḥ",
           "joy from seeing Him"
         ],
         [
-          "वियोगेन आर्तिः च",
+          "viyogena ārtiḥ ca",
           "and pain from separation"
         ],
         [
-          "ताभ्याम् युतः",
+          "tābhyām yutaḥ",
           "endowed with both"
         ],
         [
-          "बदरी-आश्रम-स्थानम् गमिष्यामि",
+          "badarī-āśrama-sthānam gamiṣyāmi",
           "I shall go to the place of Badarī Āśrama"
         ]
       ],
       "literal_english": "I am endowed both with joy from seeing Him and pain from separation; with these two feelings I shall go to Badarī Āśrama.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "tasta darśanenāhlādo viyogenārtiś ca tābhyāṃ yuto badary-āśrama-sthānaṃ gamiṣyāmi ॥21॥"
+      ]
     },
     {
       "canto": 3,
@@ -750,37 +813,40 @@
       "sanskrit": "मृदु परोपद्रव-शून्यम् । तीव्रं दुश्चरम् । दीर्घम् आकल्पान्तम् । तेपाते तपश् चरत इत्य् अर्थः । लोक-भावनौ लोकानुग्रह-कारकौ ॥२२॥",
       "word_for_word": [
         [
-          "मृदु",
+          "mṛdu",
           "gentle"
         ],
         [
-          "पर-उपद्रव-शून्यम्",
+          "para-upadrava-śūnyam",
           "free from harming others"
         ],
         [
-          "तीव्रम् दुश्चरम्",
+          "tīvram duścaram",
           "severe and difficult to perform"
         ],
         [
-          "दीर्घम् आ-कल्प-अन्तम्",
+          "dīrgham ā-kalpa-antam",
           "long, lasting until the end of the kalpa"
         ],
         [
-          "तेपाते तपः चरतः",
+          "tepāte tapaḥ carataḥ",
           "they performed austerity"
         ],
         [
-          "लोक-भावनौ",
+          "loka-bhāvanau",
           "benefactors of the worlds"
         ],
         [
-          "लोक-अनुग्रह-कारकौ",
+          "loka-anugraha-kārakau",
           "causing the welfare of the worlds"
         ]
       ],
       "literal_english": "Their austerity was gentle and free from harming others, yet severe and difficult to perform, and long-lasting until the end of the kalpa. They performed it as benefactors of the worlds, bringing welfare to the worlds.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "mṛdu paropadrava-śūnyam । tīvraṃ duścaram । dīrgham ākalpāntam । tepāte tapaś carata ity arthaḥ । loka-bhāvanau lokānugraha-kārakau ॥22॥"
+      ]
     },
     {
       "canto": 3,
@@ -791,17 +857,20 @@
       "sanskrit": "ज्ञानेन विवेकेन ॥२३॥",
       "word_for_word": [
         [
-          "ज्ञानेन",
+          "jñānena",
           "through knowledge"
         ],
         [
-          "विवेकेन",
+          "vivekena",
           "through discrimination"
         ]
       ],
       "literal_english": "Through knowledge and discrimination.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "jñānena vivekena ॥23॥"
+      ]
     },
     {
       "canto": 3,
@@ -812,17 +881,20 @@
       "sanskrit": "विश्रम्भाद् विश्वासात् ॥२४॥",
       "word_for_word": [
         [
-          "विश्रम्भात्",
+          "viśrambhāt",
           "through trust"
         ],
         [
-          "विश्वासात्",
+          "viśvāsāt",
           "through confidence"
         ]
       ],
       "literal_english": "Through trust and confidence.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "viśrambhād viśvāsāt ॥24॥"
+      ]
     },
     {
       "canto": 3,
@@ -833,29 +905,32 @@
       "sanskrit": "यद् यस्माद् विष्णोर् भृत्याः स्व-भृत्य-प्रयोजन-साधकाः सन्तश् चरन्ति । न हि कृतार्थानाम् अन्यत् कृत्यम् अस्तीत्य् अर्थः ॥२५॥",
       "word_for_word": [
         [
-          "यत् यस्मात्",
+          "yat yasmāt",
           "because"
         ],
         [
-          "विष्णोः भृत्याः",
+          "viṣṇoḥ bhṛtyāḥ",
           "the servants of Viṣṇu"
         ],
         [
-          "स्व-भृत्य-प्रयोजन-साधकाः सन्तः चरन्ति",
+          "sva-bhṛtya-prayojana-sādhakāḥ santaḥ caranti",
           "move about accomplishing the purpose of His servants"
         ],
         [
-          "न हि कृत-अर्थानाम् अन्यत् कृत्यम् अस्ति",
+          "na hi kṛta-arthānām anyat kṛtyam asti",
           "for those whose purpose is fulfilled there is no other duty"
         ],
         [
-          "इति अर्थः",
+          "iti arthaḥ",
           "this is the meaning"
         ]
       ],
       "literal_english": "The servants of Viṣṇu move about accomplishing the purpose of His servants. For those whose purpose is fulfilled there is no other duty; that is the meaning.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "yad yasmād viṣṇor bhṛtyāḥ sva-bhṛtya-prayojana-sādhakāḥ santaś caranti । na hi kṛtārthānām anyat kṛtyam astīty arthaḥ ॥25॥"
+      ]
     },
     {
       "canto": 3,
@@ -866,45 +941,48 @@
       "sanskrit": "तत्त्वाय संराध्य इति । अयं भावः---भगवतैव स्मरण-मात्रेण तवापि तत्त्वम् उपदिष्ट-प्रायम् । अथ केवलम् असम्भावनादि-निवृत्तये ज्ञानी कश्चिद् आराध्यः । स च तवाराध्यो मैत्रेयो न त्व् अहम् । ममान्तिक एव त्वद्-उपदेशे तस्यादिष्टत्वाद् इति ॥२६॥",
       "word_for_word": [
         [
-          "तत्त्वाय संराध्य",
+          "tattvāya saṃrādhya",
           "having worshipped for the truth"
         ],
         [
-          "अयं भावः",
+          "ayaṃ bhāvaḥ",
           "the idea is this"
         ],
         [
-          "भगवता स्मरण-मात्रेण",
+          "bhagavatā smaraṇa-mātreṇa",
           "by Bhagavān merely through remembrance"
         ],
         [
-          "तव अपि तत्त्वम् उपदिष्ट-प्रायम्",
+          "tava api tattvam upadiṣṭa-prāyam",
           "the truth has almost been taught to you"
         ],
         [
-          "असम्भावना-आदि-निवृत्तये",
+          "asambhāvanā-ādi-nivṛttaye",
           "for removing doubt and the like"
         ],
         [
-          "ज्ञानी कश्चित् आराध्यः",
+          "jñānī kaścit ārādhyaḥ",
           "some knower should be worshipped"
         ],
         [
-          "सः तव आराध्यः मैत्रेयः",
+          "saḥ tava ārādhyaḥ maitreyaḥ",
           "Maitreya is the one you should worship"
         ],
         [
-          "न तु अहम्",
+          "na tu aham",
           "not I"
         ],
         [
-          "मम अन्तिके एव त्वत्-उपदेशे तस्य आदिष्टत्वात्",
+          "mama antike eva tvat-upadeśe tasya ādiṣṭatvāt",
           "because he was appointed to instruct you near me"
         ]
       ],
       "literal_english": "The idea is this: by merely remembering Bhagavān, the truth has almost been taught to you. To remove doubt and similar obstacles, a knower should be worshipped. Maitreya, not I, is the one you should worship, because he was appointed to instruct you in my presence.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "tattvāya saṃrādhya iti । ayaṃ bhāvaḥ---bhagavataiva smaraṇa-mātreṇa tavāpi tattvam upadiṣṭa-prāyam । atha kevalam asambhāvanādi-nivṛttaye jñānī kaścid ārādhyaḥ । sa ca tavārādhyo maitreyo na tv aham । mamāntika eva tvad-upadeśe tasyādiṣṭatvād iti ॥26॥"
+      ]
     },
     {
       "canto": 3,
@@ -932,25 +1010,28 @@
       "sanskrit": "ब्रह्म-शापेननिधनं प्राप्तेषु यद्य् अस्मात् त्रयाणां ब्रह्मादीनाम् ईशो हरिर् अप्य् आकृतिंमनुष्याकारं त्यक्तवान् ॥२८॥",
       "word_for_word": [
         [
-          "ब्रह्म-शापेन निधनम् प्राप्तेषु",
+          "brahma-śāpena nidhanam prāpteṣu",
           "when death had been reached through Brahmā’s curse"
         ],
         [
-          "यत् अस्मात्",
+          "yat asmāt",
           "because of this"
         ],
         [
-          "त्रयाणाम् ब्रह्म-आदीनाम् ईशः हरिः अपि",
+          "trayāṇām brahma-ādīnām īśaḥ hariḥ api",
           "although Hari is the Lord of the three beginning with Brahmā"
         ],
         [
-          "आकृतिम् मनुष्य-आकारम् त्यक्तवान्",
+          "ākṛtim manuṣya-ākāram tyaktavān",
           "He abandoned the human form"
         ]
       ],
       "literal_english": "When death came through the curse of Brahmā, Hari—Lord of the three beginning with Brahmā—also abandoned His human form.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "brahma-śāpenanidhanaṃ prāpteṣu yady asmāt trayāṇāṃ brahmādīnām īśo harir apy ākṛtiṃmanuṣyākāraṃ tyaktavān ॥28॥"
+      ]
     },
     {
       "canto": 3,
@@ -961,29 +1042,32 @@
       "sanskrit": "ब्रह्म-शापः अपदेशो मिषं यस्य तेन कालेन स्व-शक्ति-रूपेण । अमोघं वाञ्छितं यस्य । न ह्य् अत्र शापः प्रभुः, किन्तु भगवद्-इच्छैवेत्य् अर्थः ॥२९॥",
       "word_for_word": [
         [
-          "ब्रह्म-शापः अपदेशः मिषम् यस्य",
+          "brahma-śāpaḥ apadeśaḥ miṣam yasya",
           "for whom Brahmā’s curse was a pretext"
         ],
         [
-          "तेन कालेन स्व-शक्ति-रूपेण",
+          "tena kālena sva-śakti-rūpeṇa",
           "through that time in the form of His own power"
         ],
         [
-          "अमोघम् वाञ्छितम् यस्य",
+          "amogham vāñchitam yasya",
           "whose desire is unfailing"
         ],
         [
-          "न हि अत्र शापः प्रभुः",
+          "na hi atra śāpaḥ prabhuḥ",
           "the curse is not the governing cause here"
         ],
         [
-          "भगवत्-इच्छा एव",
+          "bhagavat-icchā eva",
           "it is Bhagavān’s will alone"
         ]
       ],
       "literal_english": "Brahmā’s curse was only a pretext; the actual instrument was time in the form of Bhagavān’s own power. His desire is unfailing. The curse is not the governing cause here—Bhagavān’s will alone is.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "brahma-śāpaḥ apadeśo miṣaṃ yasya tena kālena sva-śakti-rūpeṇa । amoghaṃ vāñchitaṃ yasya । na hy atra śāpaḥ prabhuḥ, kintu bhagavad-icchaivety arthaḥ ॥29॥"
+      ]
     },
     {
       "canto": 3,
@@ -994,21 +1078,24 @@
       "sanskrit": "मय्य् उपरते सति ज्ञानम् अर्हति ज्ञान-योग्यो भवति ॥३०॥",
       "word_for_word": [
         [
-          "मयि उपरते सति",
+          "mayi uparate sati",
           "when I have ceased"
         ],
         [
-          "ज्ञानम् अर्हति",
+          "jñānam arhati",
           "he becomes fit for knowledge"
         ],
         [
-          "ज्ञान-योग्यः भवति",
+          "jñāna-yogyaḥ bhavati",
           "he becomes qualified for wisdom"
         ]
       ],
       "literal_english": "When I have ceased, he becomes fit for knowledge and qualified for wisdom.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "mayy uparate sati jñānam arhati jñāna-yogyo bhavati ॥30॥"
+      ]
     },
     {
       "canto": 3,
@@ -1019,25 +1106,28 @@
       "sanskrit": "मत्तः सकाशाद् ईषद् अपि न्यूनो न भवति । यद्य् अस्माद् गुणैर् विषयैर् न क्षोभितः । मद्-वयुनं मद्-विषयं ज्ञानं लोकस्योपदिशन् ॥३१॥",
       "word_for_word": [
         [
-          "मत्तः सकाशात् ईषत् अपि न्यूनः न भवति",
+          "mattaḥ sakāśāt īṣat api nyūnaḥ na bhavati",
           "he is not even slightly less than Me"
         ],
         [
-          "गुणैः विषयैः न क्षोभितः",
+          "guṇaiḥ viṣayaiḥ na kṣobhitaḥ",
           "not agitated by qualities or objects"
         ],
         [
-          "मद्-वयुनम् मद्-विषयम् ज्ञानम्",
+          "mad-vayunam mad-viṣayam jñānam",
           "knowledge concerning Me and My object"
         ],
         [
-          "लोकस्य उपदिशन्",
+          "lokasya upadiśan",
           "teaching the world"
         ]
       ],
       "literal_english": "He is not even slightly less than Me, and is not agitated by qualities or objects. He teaches the world knowledge concerning Me and My object.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "mattaḥ sakāśād īṣad api nyūno na bhavati । yady asmād guṇair viṣayair na kṣobhitaḥ । mad-vayunaṃ mad-viṣayaṃ jñānaṃ lokasyopadiśan ॥31॥"
+      ]
     },
     {
       "canto": 3,
@@ -1048,21 +1138,24 @@
       "sanskrit": "एवम् अनेनाभिप्रायेण शब्द-योनिना वेद-कर्त्रा ईजे पूजयामास ॥३२॥",
       "word_for_word": [
         [
-          "एवम् अनेन अभिप्रायेण",
+          "evam anena abhiprāyeṇa",
           "with this intention"
         ],
         [
-          "शब्द-योनिना वेद-कर्त्रा",
+          "śabda-yoninā veda-kartrā",
           "by the source of sound, the maker of the Veda"
         ],
         [
-          "ईजे पूजयामास",
+          "īje pūjayāmāsa",
           "he worshipped"
         ]
       ],
       "literal_english": "With this intention, Brahmā, the maker of the Veda and source of sacred sound, worshipped Bhagavān.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "evam anenābhiprāyeṇa śabda-yoninā veda-kartrā īje pūjayāmāsa ॥32॥"
+      ]
     },
     {
       "canto": 3,
@@ -1073,21 +1166,24 @@
       "sanskrit": "अन्येषां पशु-तुल्यानाम् । विक्लवात्मनाम् अधीर-चित्तानाम् ॥ मनसेक्षितं चिन्तितम् ॥३३-३५॥",
       "word_for_word": [
         [
-          "अन्येषाम् पशु-तुल्यानाम्",
+          "anyeṣām paśu-tulyānām",
           "of others like animals"
         ],
         [
-          "विक्लव-आत्मनाम् अधीर-चित्तानाम्",
+          "viklava-ātmanām adhīra-cittānām",
           "of those with agitated, unsteady minds"
         ],
         [
-          "मनसा ईक्षितम् चिन्तितम्",
+          "manasā īkṣitam cintitam",
           "perceived and conceived by the mind"
         ]
       ],
       "literal_english": "For others who are like animals, with agitated and unsteady minds, the matter is only mentally perceived and conceived.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "anyeṣāṃ paśu-tulyānām । viklavātmanām adhīra-cittānām ॥ manasekṣitaṃ cintitam ॥33-35॥"
+      ]
     },
     {
       "canto": 3,
@@ -1098,25 +1194,28 @@
       "sanskrit": "कालिन्द्याः सकाशात् सिद्ध एव विदुरः कतिपयैर् दिनैः स्वः-सरितं गङ्गां प्रापद्यत प्राप्तः ॥३६॥",
       "word_for_word": [
         [
-          "कालिन्द्याः सकाशात्",
+          "kālindyāḥ sakāśāt",
           "from the Yamunā"
         ],
         [
-          "सिद्धः एव विदुरः",
+          "siddhaḥ eva viduraḥ",
           "Vidura, already perfected"
         ],
         [
-          "कतिपयैः दिनैः",
+          "katipayaiḥ dinaiḥ",
           "after a few days"
         ],
         [
-          "स्वः-सरितम् गङ्गाम् प्रापद्यत प्राप्तः",
+          "svaḥ-saritam gaṅgām prāpadyata prāptaḥ",
           "reached the heavenly river, the Gaṅgā"
         ]
       ],
       "literal_english": "Vidura, already perfected, reached the heavenly river Gaṅgā from the Yamunā after a few days.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and glossed.",
+      "transliteration": [
+        "kālindyāḥ sakāśāt siddha eva viduraḥ katipayair dinaiḥ svaḥ-saritaṃ gaṅgāṃ prāpadyata prāptaḥ ॥36॥"
+      ]
     }
   ]
 }
