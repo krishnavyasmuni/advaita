@@ -63,7 +63,7 @@ The renderer then loads the correct chapter from the chapter number. Do not past
 
 ## 3. Chapter names and verse counts
 
-The names below are the conventional/traditional Sanskrit titles used by this site. They are editorial chapter labels: the original Gītā verse records do not print a title above each chapter.
+The names below are the Sanskrit chapter names used by this site.
 
 | Chapter | Traditional name | English gloss | Verses |
 |---:|---|---|---:|
