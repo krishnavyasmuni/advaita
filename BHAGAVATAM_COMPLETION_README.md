@@ -96,7 +96,7 @@ The current release ledger has been cleaned to retain only the verified public C
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 20b7269a98bb04f3788ec4e31ea0f3c8a305d9c4
+last_audited_data_commit: d0bd0f1689da060814dc143d55c93c73fb18e211
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -108,13 +108,13 @@ current_contents_link_groups: 1.1–1.8, 2.1–2.10, 3.1–3.33, 10.1–10.90, 1
   - 11.1-11.31
 visible_contents_link_count: 196
 manifest_chapter_count: 335
-latest_verified_release: "3.20"
-latest_release_status: SOURCE_CHECKED_AND_COMMITTED
-latest_release_source_blob_sha: aac12d62868bb8d6b6c0dfd875fd5746028090d5
-latest_release_expected_verses: 53
-latest_release_sridhara_blocks: 51
-latest_release_wfw_entries: 51
-latest_release_no_commentary: 0
+latest_verified_release: "3.25"
+latest_release_status: LIVE_VERIFIED
+latest_release_source_blob_sha: ebbe2b3712054ab23c8f419e6845fe2cf4941e2f
+latest_release_expected_verses: 44
+latest_release_sridhara_blocks: 38
+latest_release_wfw_entries: 39
+latest_release_no_commentary: 1
 canto_1_audit_status: COMPLETE
 canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
 canto_2_audit_status: COMPLETE
@@ -158,8 +158,8 @@ canto_12_verified_chapters: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, 12.7, 12.8, 12.9
 canto_12_source_ranges: 507
 canto_12_sridhara_blocks: 441
 canto_12_no_commentary_ranges: 66
-next_resume_target: CANTO_3_CHAPTER_21_WFW_REPAIR
-resume_note: Canto 3.20 is source-checked and committed: 53 numbered verses in 51 records, 51 exact Śrīdhara blocks, and no no-commentary markers; 3.20.2–3.20.4 remains grouped. Continue at Canto 3.21, then finish Canto 3.19–3.33 before moving on to Cantos 4, 5, and 6. The aggregate filler count has not been recalculated.
+next_resume_target: CANTO_3_CHAPTER_20_WFW_REPAIR
+resume_note: Canto 3.19 is now source-checked and live-verified: 38 numbered verses, 34 exact Śrīdhara commentary blocks, four explicit no-commentary markers, 251 complete word-for-word pairs, and zero placeholders. Canto 3.20 is the next canonical incomplete chapter; its existing partial work must be audited and finished before proceeding. Preserve all existing content and links. The aggregate Canto 3/Canto 4 filler counts have not been recalculated.
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
