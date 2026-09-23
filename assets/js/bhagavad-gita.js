@@ -842,6 +842,100 @@
 
   const esc = (value) => String(value || '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const lines = (value) => esc(value).replace(/\n/g, '<br>');
+
+  const devanagariToIast = (value) => {
+    const independent = {'अ':'a','आ':'ā','इ':'i','ई':'ī','उ':'u','ऊ':'ū','ऋ':'ṛ','ॠ':'ṝ','ऌ':'ḷ','ॡ':'ḹ','ए':'e','ऐ':'ai','ओ':'o','औ':'au','ॐ':'oṃ'};
+    const consonants = {'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'ṅ','च':'c','छ':'ch','ज':'j','झ':'jh','ञ':'ñ','ट':'ṭ','ठ':'ṭh','ड':'ḍ','ढ':'ḍh','ण':'ṇ','त':'t','थ':'th','द':'d','ध':'dh','न':'n','प':'p','फ':'ph','ब':'b','भ':'bh','म':'m','य':'y','र':'r','ल':'l','व':'v','श':'ś','ष':'ṣ','स':'s','ह':'h','ळ':'ḷ'};
+    const matras = {'ा':'ā','ि':'i','ी':'ī','ु':'u','ू':'ū','ृ':'ṛ','ॄ':'ṝ','ॢ':'ḷ','ॣ':'ḹ','े':'e','ै':'ai','ो':'o','ौ':'au'};
+    const marks = {'ं':'ṃ','ः':'ḥ','ँ':'m̐','ऽ':'’','।':' |','॥':' ||','०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};
+    const s = String(value || '');
+    let out = '';
+    for (let i = 0; i < s.length; i += 1) {
+      const ch = s[i];
+      if (independent[ch]) { out += independent[ch]; continue; }
+      if (consonants[ch]) {
+        out += consonants[ch];
+        const next = s[i + 1];
+        if (next === '्') { i += 1; continue; }
+        if (matras[next]) { out += matras[next]; i += 1; continue; }
+        out += 'a';
+        continue;
+      }
+      if (matras[ch]) { out += matras[ch]; continue; }
+      if (ch === '्' || ch === '़') continue;
+      out += marks[ch] ?? ch;
+    }
+    return out.replace(/\s+([|])/g, ' $1').replace(/\s{2,}/g, ' ').trim();
+  };
+
+  const iastToDevanagari = (value) => {
+    const vowels = {'a':'अ','ā':'आ','i':'इ','ī':'ई','u':'उ','ū':'ऊ','ṛ':'ऋ','ṝ':'ॠ','ḷ':'ऌ','ḹ':'ॡ','e':'ए','ai':'ऐ','o':'ओ','au':'औ'};
+    const consonants = {'kh':'ख','gh':'घ','ṅ':'ङ','ch':'छ','jh':'झ','ñ':'ञ','ṭh':'ठ','ṭ':'ट','ḍh':'ढ','ḍ':'ड','ṇ':'ण','th':'थ','dh':'ध','ph':'फ','bh':'भ','ś':'श','ṣ':'ष','k':'क','g':'ग','c':'च','j':'ज','t':'त','d':'द','n':'न','p':'प','b':'ब','m':'म','y':'य','r':'र','l':'ल','v':'व','s':'स','h':'ह'};
+    const vowelMarks = {'a':'','ā':'ा','i':'ि','ī':'ी','u':'ु','ū':'ू','ṛ':'ृ','ṝ':'ॄ','ḷ':'ॢ','ḹ':'ॣ','e':'े','ai':'ै','o':'ो','au':'ौ'};
+    const marks = {'ṃ':'ं','ḥ':'ः','m̐':'ँ','’':'ऽ'};
+    const convertWord = (word) => {
+      let out = '';
+      let i = 0;
+      let afterConsonant = false;
+      while (i < word.length) {
+        const two = word.slice(i, i + 2);
+        const one = word[i];
+        if (marks[two]) { out += marks[two]; i += 2; continue; }
+        if (marks[one]) { out += marks[one]; i += 1; continue; }
+        const consonant = consonants[two] ? two : (consonants[one] ? one : '');
+        if (consonant) {
+          if (afterConsonant) out += '्';
+          out += consonants[consonant];
+          i += consonant.length;
+          afterConsonant = true;
+          if (word.slice(i, i + 1) === '̇') i += 1;
+          continue;
+        }
+        const vowel = vowels[two] ? two : (vowels[one] ? one : '');
+        if (vowel) {
+          if (afterConsonant) out += vowelMarks[vowel];
+          else out += vowels[vowel];
+          i += vowel.length;
+          afterConsonant = false;
+          continue;
+        }
+        if (one === '्') { out += '्'; i += 1; afterConsonant = false; continue; }
+        out += one;
+        i += 1;
+        afterConsonant = false;
+      }
+      return out;
+    };
+    return String(value || '').split(/(\s+|[-–—/|.,;:!?()[\]“”‘’'"])/u).map((part) => {
+      if (!part || /^\s+$/.test(part) || /^[\-–—/|.,;:!?()[\]“”‘’'"]$/u.test(part)) return part;
+      return convertWord(part);
+    }).join('');
+  };
+
+  const parseWordMeaning = (value) => String(value || '')
+    .replace(/<br\s*\/?>(?=.)/gi, '\n')
+    .split(/[;\n]+/)
+    .map((entry) => entry.trim())
+    .filter(Boolean)
+    .map((entry) => {
+      const separator = entry.match(/\s*[—–]\s*|\s+-\s+/u);
+      if (!separator) return [entry, ''];
+      const index = separator.index;
+      return [entry.slice(0, index).trim(), entry.slice(index + separator[0].length).trim()];
+    })
+    .filter((pair) => pair[0]);
+
+  const renderWordMeaningRows = (value, emptyText) => {
+    const pairs = parseWordMeaning(value);
+    if (!pairs.length) return '<p class="gita-dual-empty">' + esc(emptyText || 'Word-for-word meaning unavailable in the pinned source record.') + '</p>';
+    return '<div class="gita-word-list">' + pairs.map((pair, index) => {
+      const term = pair[0];
+      const devanagari = /[\u0900-\u097F]/u.test(term) ? term : iastToDevanagari(term);
+      const iast = /[\u0900-\u097F]/u.test(term) ? devanagariToIast(term) : term;
+      const punctuation = index === pairs.length - 1 ? '.' : ';';
+      return '<div class="gita-word-row"><span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> <span class="gita-word-iast">(<em>' + esc(iast) + '</em>)</span> <span class="gita-word-gloss">— ' + esc(pair[1]) + punctuation + '</span></div>';
+    }).join('') + '</div>';
+  };
   const VEDICSCRIPTURES_GITA_COMMIT = '43dfc8db815d01e15a347ea294b089334cf2aa17';
   const VEDICSCRIPTURES_GITA_BASE = 'https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/' + VEDICSCRIPTURES_GITA_COMMIT + '/slok/';
   const VEDICSCRIPTURES_COUNTS = [47,72,43,42,29,47,30,28,34,42,55,20,35,27,20,24,28,78];
@@ -957,9 +1051,9 @@
       : '';
 
     const translationPanel = '<p class="gita-translation">' + english + '</p>';
-    const wordMeaningPanel = '<details class="gita-details"><summary>Word-for-word</summary><div class="gita-reveal"><p>' +
-      (wordMeaning || 'No word-for-word meaning is supplied separately in the pinned source record.') +
-      '</p></div></details>';
+    const wordMeaningPanel = '<details class="gita-details gita-word-for-word"><summary>Word-for-word</summary><div class="gita-reveal">' +
+      renderWordMeaningRows(wordMeaning, 'No word-for-word meaning is supplied separately in the pinned source record.') +
+      '</div></details>';
     const transliterationPanel = transliteration
       ? '<details class="gita-details"><summary>Transliteration</summary><div class="gita-reveal"><p><em>' + transliteration + '</em></p></div></details>'
       : '';
