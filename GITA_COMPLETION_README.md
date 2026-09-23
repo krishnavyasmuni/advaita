@@ -1,6 +1,6 @@
 # Bhagavad Gītā reader — complete replication and handoff guide
 
-Status: all 18 Bhagavad Gītā chapter shells now use the completed Chapter 1 reader template. The shared renderer is designed for 701 visible verse cards, one card per verse, with the pinned Sanskrit, transliteration, Mukundananda translation, word-for-word panel, and Śrīdhara panels.
+Status: all 18 Bhagavad Gītā chapter shells now use the completed Chapter 1 reader template. The shared renderer is designed for 701 visible verse cards, one card per verse, with the pinned Sanskrit, transliteration, source English translation, word-for-word panel, and Śrīdhara panels.
 
 Live entry points:
 
@@ -63,7 +63,7 @@ The renderer then loads the correct chapter from the chapter number. Do not past
 
 ## 3. Chapter names and verse counts
 
-The names below are the conventional/traditional Sanskrit titles used by this site. They are editorial chapter labels: the original Gītā verse records do not print a title above each chapter.
+The names below are the Sanskrit chapter names used by this site.
 
 | Chapter | Traditional name | English gloss | Verses |
 |---:|---|---|---:|
@@ -116,7 +116,7 @@ It must:
 - extract the Sanskrit for the requested verse from the API record;
 - keep the verse heading and card id at one verse only;
 - render the three controls in the same order on every card;
-- render the exact Mukundananda translation on the first card of a grouped translation record; use the pinned per-verse Gambirananda record on later cards in that range so every verse card has an English translation without duplicating a multi-verse paragraph;
+- render the cleaned pinned Gambirananda translation for every verse card; remove translator/editor bracketed and parenthetical insertions from the visible English so it stays limited to the verse translation;
 - render a mapped Vasuki section or the intentional text No commentary.;
 - leave the panel in the DOM even when a source field is empty.
 
@@ -148,7 +148,7 @@ The explicit grouped word-meaning slices currently used by pickWordMeaning are:
 
 The fourth line in the pinned 16.13–16.15 record must not be attached to verse 16.15. It is the next verse’s source material and must not be fabricated into the 16.15 card. If the upstream record is re-pinned, re-audit this boundary rather than guessing.
 
-For Mukundananda’s grouped English records, the exact grouped source remains intact and appears on the first verse card. Later cards use the pinned Vedic Scriptures per-verse Gambirananda translation; this keeps every visible verse populated without repeating a multi-verse paragraph.
+The visible English now comes from the pinned per-verse Gambirananda records, with source-editorial bracketed and parenthetical insertions removed from the reader display.
 
 ## 7. Śrīdhara panels
 

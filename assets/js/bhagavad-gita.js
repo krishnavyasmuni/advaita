@@ -949,7 +949,13 @@
   const cleanApiTranslation = (value) =>
     String(value || '')
       .replace(/^\s*[0-9०-९]+\.[0-9०-९]+\.?\s*/, '')
+      // Remove translator/editor bracket notes so the visible English stays
+      // limited to the verse translation itself.
+      .replace(/\[[^\]]*\]/g, '')
+      .replace(/\([^)]*\)/g, '')
       .replace(/\s+/g, ' ')
+      .replace(/\s+([,.;!?])/g, '$1')
+      .replace(/,\s*,/g, ',')
       .trim();
 
   const expandEntries = (entries) => {
@@ -1028,7 +1034,7 @@
     const rootLines = rootText.split('\n').map((x) => x.trim()).filter(Boolean).join('<br>');
     const english = sourceMode === 'legacy'
       ? (d.gambir && d.gambir.et ? lines(d.gambir.et) : 'English translation unavailable in the source record.')
-      : lines(d.mukEnglish || 'English translation unavailable in the pinned source records.');
+      : lines(d.apiEnglish || 'English translation unavailable in the pinned source records.');
     const key = chapter + '.' + n;
     const wordMeaning = sourceMode === 'legacy'
       ? lines(meanings[key] || 'Word-for-word meaning unavailable in the source record.')
@@ -1158,6 +1164,7 @@
         // pinned per-verse Gambirananda record for later cards so every
         // visible verse has an English translation without duplicating a
         // multi-verse paragraph or silently leaving the card blank.
+        apiEnglish: apiTranslation,
         mukEnglish: mukRange.start === n
           ? (m.translation || apiTranslation)
           : apiTranslation,
