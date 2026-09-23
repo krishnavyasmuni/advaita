@@ -6,7 +6,7 @@ This audit covers the 126 Viṣṇu Purāṇa chapter routes in this repository 
 
 The corpus is not complete yet.
 
-Every article currently has a Sanskrit block, an English translation, and a transliteration block. The Word-for-word control is present for 3,543 of 6,400 articles; 2,857 still need genuine Sanskrit-first lexical mapping.
+Every article currently has a Sanskrit block, an English translation, and a transliteration block. The Word-for-word control is present for 3,649 of 6,400 articles; 2,751 still need genuine Sanskrit-first lexical mapping.
 
 | Book | Articles | Word-for-word present | Still missing |
 |---|---:|---:|---:|
@@ -15,8 +15,8 @@ Every article currently has a Sanskrit block, an English translation, and a tran
 | 3 | 837 | 837 | 0 |
 | 4 | 1,354 | 61 | 1,293 |
 | 5 | 1,517 | 673 | 844 |
-| 6 | 498 | 64 | 434 |
-| **Total** | **6,400** | **3,543** | **2,857** |
+| 6 | 498 | 170 | 328 |
+| **Total** | **6,400** | **3,649** | **2,751** |
 
 Śrīdhara status after the repairs in this branch:
 
@@ -43,8 +43,8 @@ The English witness is used as a cross-check, not as a substitute for translatin
 - Added the required explicit no-commentary marker to the ten Book 2 articles listed above.
 - Corrected the Book 6 chapter 7 page metadata, which incorrectly identified the page as Book 3 chapter 1.
 - Corrected a serious Śrīdhara alignment error in Book 5 chapter 1: the closing commentary for verse 5.1.87 had been attached to verse 5.1.1. Verse 5.1.1 now carries its actual opening Śrīdhara passage, and verse 5.1.87 carries the closing Śrīdhara passage.
-- Added a Sanskrit-first word-for-word control and cleaner English translation for those two repaired verses.
+- Added a Sanskrit-first word-for-word control and cleaner English translation for those two repaired verses.\n- Reconstructed Book 6, Chapter 7, verses 1–106 from the Vasuki mūla: every verse now has a real lexical map, source-aligned Devanāgarī, IAST, and concise English; several misaligned main-Sanskrit blocks, OCR tails, and placeholder translations were corrected. Existing Śrīdhara Sanskrit/IAST was retained where supplied, and the two remaining placeholder Śrīdhara translations were replaced with translations of the displayed commentary. The mūla witness was read at blob `6e616a59a64804bc9d519fdbd399cfd88bc49501`; the Śrīdhara witness was read at blob `e791efd7bd58ee362317656c7e890b38e5385975`.
 
 ## Remaining work
 
-The repository must not be called complete until the remaining 2,857 articles receive real lexical mappings, with every Sanskrit word or compound represented by an accurate IAST form and concise gloss. The Books 4–6 gaps are especially large, and their English should be reviewed against the Sanskrit rather than assumed correct merely because an English paragraph is present.
+The repository must not be called complete until the remaining 2,751 articles receive real lexical mappings, with every Sanskrit word or compound represented by an accurate IAST form and concise gloss. The Books 4–6 gaps are especially large, and their English should be reviewed against the Sanskrit rather than assumed correct merely because an English paragraph is present.
