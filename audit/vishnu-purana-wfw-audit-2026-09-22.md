@@ -1,6 +1,6 @@
 # Viṣṇu Purāṇa full-corpus audit — 2026-09-22
 
-Audited commit: `c8ca1aab6e791010c41287c5738d3989d522811a`
+Full-corpus baseline commit: `c8ca1aab6e791010c41287c5738d3989d522811a` (2026-09-22); chapter-level delta added below.
 
 Scope: all 126 Viṣṇu Purāṇa chapter routes on `main`, using the cited Vishvas/Vasuki source paths recorded in each route. All inspection and writes were performed through the remote GitHub workspace; nothing was run locally or in a local browser.
 
@@ -20,7 +20,7 @@ Scope: all 126 Viṣṇu Purāṇa chapter routes on `main`, using the cited Vis
 
 The requirement is not complete.
 
-A WFW control exists for 3,501 of 6,400 articles. 2,899 articles still do not have a main-text lexical layer:
+Following the verified Book 6 Chapter 8 release, 3,565 of 6,400 articles have a main-text lexical layer; 2,835 remain missing:
 
 | Book | Articles | Main lexical WFW present | Still missing |
 |---|---:|---:|---:|
@@ -29,16 +29,29 @@ A WFW control exists for 3,501 of 6,400 articles. 2,899 articles still do not ha
 | 3 | 837 | 837 | 0 |
 | 4 | 1,354 | 61 | 1,293 |
 | 5 | 1,517 | 695 | 822 |
-| 6 | 498 | 0 | 498 |
+| 6 | 498 | 64 | 434 |
 
-Books 1–2 contain some WFW controls with Śrīdhara material; those are not automatically counted as complete main-text WFW. Books 4–6 still need genuine Sanskrit-first reconstruction beyond the chapters already rebuilt; the current pass has rebuilt Books 5 Chapters 22, 24, 27, 28, and 31, with sourced Śrīdhara layers added for Chapters 22 and 31. A control’s presence is not being counted as semantic completion.
+Books 1–2 contain some WFW controls with Śrīdhara material; those are not automatically counted as complete main-text WFW. Books 4–6 still need genuine Sanskrit-first reconstruction beyond the chapters already rebuilt; the current reverse-order pass has now rebuilt Book 6 Chapter 8 (64/64 main lexical layers), alongside the previously rebuilt Book 5 chapters. A control’s presence is not being counted as semantic completion.
 
 ## Śrīdhara and control status
 
-The repository contains 3,570 articles with a Śrīdhara Sanskrit control and 3,148 explicit `No commentary.` states after the Chapter 38 rebuild. The structural control check confirms that the published Transliteration controls are present, but it does not prove that every IAST string or every Śrīdhara translation is semantically correct.
+After replacing Book 6 Chapter 8's previous 24 Śrīdhara controls and 41 no-commentary states with 31 source-mapped Śrīdhara controls and 33 exact no-commentary states, the repository contains 3,577 articles with a Śrīdhara Sanskrit control and 3,140 explicit `No commentary.` states. The structural control check confirms that the published Transliteration controls are present, but it does not prove that every IAST string or every Śrīdhara translation is semantically correct.
 
 ## Required next work
 
 Rebuild the missing main WFW one complete chapter at a time from the exact displayed Sanskrit, with every phrase mapped directly, then independently check the corresponding Śrīdhara Sanskrit and English. Do not mark a chapter complete merely because its route or button exists. Do not replace missing lexical work with the ordinary translation, a placeholder, or a generated paragraph.
 
-This audit therefore records the site as structurally repaired in the areas above but semantically incomplete for the remaining 2,899 main WFW articles. Chapter-by-chapter lexical rebuilding remains open.
+This audit therefore records the site as structurally repaired in the areas above but semantically incomplete for the remaining 2,835 main WFW articles. Chapter-by-chapter lexical rebuilding remains open.
+
+
+## Incremental reverse-order chapter audit — 2026-09-23
+
+Book 6 Chapter 8 has been rebuilt from its final verse backwards and published as a complete chapter. The dynamic Contents page already generates all eight Book 6 chapter links, including this route, so no Contents-file change was needed.
+
+- 64/64 contiguous verse articles, Sanskrit blocks, English translations, Word-for-word controls, and Transliteration controls.
+- 832 main-text lexical mappings and 113 Śrīdhara lexical mappings; each entry pairs Sanskrit, IAST, and a concise gloss.
+- 31 source-mapped Śrīdhara Sanskrit/commentary blocks and 33 exact `No commentary.` states.
+- Main IAST and supplied Śrīdhara IAST were checked against their displayed Devanāgarī; the verse 6.8.15 spelling and lexical gloss were corrected to `पुंसां (puṃsām)`.
+- No placeholder word-for-word messages, ellipses, displayed source-range labels, missing verse IDs, or unbalanced HTML remain in this chapter.
+
+This is an incremental chapter audit, not a claim that the rest of the 6,400-verse corpus is complete. The next reverse-order target is Book 6 Chapter 7, beginning with its source's final verse, 6.7.106.
