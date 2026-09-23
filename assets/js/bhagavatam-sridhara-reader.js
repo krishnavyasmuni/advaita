@@ -267,8 +267,33 @@
         start: Number(entry.start),
         end: Number(entry.end),
         text: String(entry.sanskrit).trim(),
-        sourceAvailable: true
+        sourceAvailable: true,
+        wordForWord: Array.isArray(entry.word_for_word) ? entry.word_for_word : [],
+        transliteration: Array.isArray(entry.transliteration)
+          ? entry.transliteration.join('\\n')
+          : devanagariToIast(entry.sanskrit)
       }));
+  }
+
+  function parseLocalWordForWord(data) {
+    return Object.values(data && data.entries ? data.entries : {})
+      .filter((entry) => entry && Array.isArray(entry.word_for_word))
+      .map((entry) => ({
+        start: Number(entry.start),
+        end: Number(entry.end),
+        pairs: entry.word_for_word
+          .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1])
+          .map((pair) => [String(pair[0]), String(pair[1])])
+      }));
+  }
+
+  function wordForWordForRange(entries, start, end) {
+    const pairs = [];
+    entries
+      .filter((entry) => entry.end >= start && entry.start <= end)
+      .sort((a, b) => a.start - b.start || a.end - b.end)
+      .forEach((entry) => entry.pairs.forEach((pair) => pairs.push(pair)));
+    return pairs;
   }
 
   function appendLines(target, text, italic) {
@@ -298,6 +323,22 @@
       const gloss = item.slice(separator).trim();
       target.append(key, document.createTextNode(' ' + gloss));
     });
+  }
+
+  function appendWordForWordPairs(target, pairs) {
+    pairs.forEach((pair, index) => {
+      if (index) target.appendChild(document.createTextNode('; '));
+      const key = document.createElement('strong');
+      key.textContent = pair[0];
+      target.append(key, document.createTextNode(' — ' + pair[1]));
+    });
+  }
+
+  function makeWordForWordParagraph(pairs) {
+    const paragraph = document.createElement('p');
+    paragraph.className = 'gita-wfw-list';
+    appendWordForWordPairs(paragraph, pairs);
+    return paragraph;
   }
 
   function makeDualSection(label, className, body) {
@@ -380,7 +421,7 @@
     });
   }
 
-  function renderVerse(chapter, entry, sridharaEntries, commentaryEntries) {
+  function renderVerse(chapter, entry, sridharaEntries, commentaryEntries, wordForWordEntries) {
     const section = document.createElement('article');
     section.className = 'gita-verse sb-verse-section';
     const range = entry.start === entry.end ? String(entry.start) : entry.start + '–' + entry.end;
@@ -421,6 +462,11 @@
     } else {
       wordSections.push(makeDualSection('Bhāgavatam', 'gita-dual-gita',
         makeEmptyParagraph('No source text')));
+    }
+    const sridharaPairs = wordForWordForRange(wordForWordEntries, entry.start, entry.end);
+    if (sridharaPairs.length) {
+      wordSections.push(makeDualSection('Śrīdhara', 'gita-dual-sridhara',
+        makeWordForWordParagraph(sridharaPairs)));
     }
     controls.appendChild(makeDetails('Word-for-word', wordSections));
 
@@ -535,15 +581,29 @@
       const englishUrl = chapterEnglishUrl(manifest, config, chapter);
       const sridharaUrl = chapterSridharaUrl(manifest, config, chapter);
       const commentaryUrlValue = commentaryUrl(manifest);
+      const checkpointUrl = '/vivekadrishti/assets/data/bhagavatam-sridhara-checkpoints.json';
       const requests = [fetchText(englishUrl)];
       if (sridharaUrl) {
         requests.push(config.sridhara_mode === 'local-cached' ? fetchJson(sridharaUrl) : fetchText(sridharaUrl));
       }
       if (commentaryUrlValue) requests.push(fetchJson(commentaryUrlValue));
+      requests.push(fetchJson(checkpointUrl));
       const results = await Promise.all(requests);
       const english = parseEnglish(results[0]);
       const sridharaResult = sridharaUrl ? results[1] : null;
       const commentaryResult = commentaryUrlValue ? results[sridharaUrl ? 2 : 1] : null;
+      const checkpointResult = results[sridharaUrl ? (commentaryUrlValue ? 3 : 2) : (commentaryUrlValue ? 2 : 1)];
+      const checkpoint = (checkpointResult && Array.isArray(checkpointResult.checkpoints))
+        ? checkpointResult.checkpoints.find((item) =>
+          item.id === 'canto-' + canto + '-chapter-' + chapter + '-release')
+        : null;
+      const wfwPaths = checkpoint && Array.isArray(checkpoint.reader_data_files)
+        ? checkpoint.reader_data_files
+        : [];
+      const wfwResults = await Promise.all(wfwPaths.map((path) =>
+        fetchJson(path.charAt(0) === '/' ? path : '/vivekadrishti/' + path)
+      ));
+      const wordForWordEntries = wfwResults.flatMap(parseLocalWordForWord);
       const sridharaEntries = sridharaUrl
         ? (config.sridhara_mode === 'local-cached'
           ? parseLocalSridhara(sridharaResult)
@@ -559,7 +619,7 @@
       populateContents(contentsList, english.entries, chapter);
       if (heroTitle) heroTitle.textContent = 'Canto ' + canto + ', Chapter ' + chapter;
        if (titleNode) titleNode.textContent = english.title || 'Chapter ' + chapter;
-      english.entries.forEach((entry) => shell.appendChild(renderVerse(chapter, entry, sridharaEntries, commentaryEntries)));
+      english.entries.forEach((entry) => shell.appendChild(renderVerse(chapter, entry, sridharaEntries, commentaryEntries, wordForWordEntries)));
       const annotated = english.entries.filter((entry) => sridharaForRange(sridharaEntries, entry.start, entry.end, chapter)).length;
       const sourceMessage = annotated + ' of ' + english.entries.length + ' displayed verse records have Śrīdhara text.';
       setStatus('Canto ' + canto + ', Chapter ' + chapter + ' loaded · ' + sourceMessage);
