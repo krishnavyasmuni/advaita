@@ -92,6 +92,6 @@ for(const node of textNodes){
 const title=document.querySelector('.article-head h1');
 if(title)title.textContent=toAscii(title.textContent);
 const brand=document.querySelector('.sitebar a');
-if(brand)brand.textContent='Viveka Drsti';
-document.title=toAscii(document.title).replace(/Viveka Drsti/,'Viveka Drsti');
+if(brand)brand.textContent='Viveka Drishti';
+document.title=toAscii(document.title).replace(/Viveka Drsti/g,'Viveka Drishti');
 })();
