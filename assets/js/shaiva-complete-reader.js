@@ -73,10 +73,10 @@ function sentenceTitle(value){
   if(!text)return '';
   text=text.toLocaleLowerCase();
   const proper=['shiva','shaiva','vishnu','vaishnava','narayana','mahanarayana',
-    'rama','krishna','mahadeva','maheshvara','svetashvatara','upanishad','upanishads',
+    'rama','krishna','mahadeva','maheshvara','shvetashvatara','upanishad','upanishads',
     'purana','puranas','padma','garuda','bhagavata','matsya','kurma','skanda','shruti',
     'smriti','gita','itihasa','itihasas','dharmashastra','dharmashastras','purvapaksha',
-    'mimamsa','shankara','shankaracharya','adi','hara','yajurveda','bhagavad','karmakanda',
+    'mimamsa','shankara','shankaracharya','shri','shastra','shastras','adi','hara','yajurveda','bhagavad','karmakanda',
     'jnana','sattvic','sattvika','tamasic','tamasika'];
   for(const word of proper){
     const title=word.charAt(0).toUpperCase()+word.slice(1);
