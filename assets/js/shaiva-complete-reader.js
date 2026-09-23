@@ -188,24 +188,91 @@ function sectionGroup(number){
 }
 
 function sectionsFrom(pages){
-  const sections=[{id:'opening',title:'Invocation',parent:'Opening',blocks:[]}];
-  let current=sections[0];
+  const opening={id:'opening-salutation',title:'Opening Salutation',parent:'Opening',blocks:[]};
+  const sections=[opening];
+  const subsectionTitles={
+    '1.1':{id:'introduction',title:'Introduction'},
+    '1.2':{id:'methodology',title:'Methodology'},
+    '2.1':{id:'padma-pur-a-s-contradiction',title:'Padma Purana and Its Contradiction'},
+    '2.2':{id:'garuda-pur-a-s-contradiction',title:'Garuda Purana and Its Contradiction'},
+    '2.3':{id:'supremacy-of-shiva-in-vaishnava-puranas',title:'Supremacy of Shiva in Vaishnava Puranas'},
+    '3.1':{id:'shiva-purana-on-the-true-nature-of-vishnu',title:'Shiva Purana on the True Nature of Vishnu'},
+    '3.2':{id:'tamasic-nature-of-vaishnava-puranas',title:'Tamasic Nature of Vaishnava Puranas'},
+    '5.1':{id:'shvetashvatara-upanishad-and-adi-shankaracharya-on-shivas-supremacy',title:'Shvetashvatara Upanishad and Adi Shankaracharya on the Supremacy of Shiva'},
+    '5.2':{id:'the-vai-ava-claim-relative-superiority-and-courtesy',title:'The Vaishnava Claim: Relative Superiority and Courtesy'},
+    '5.3':{id:'hara-as-the-destroyer-of-the-root-of-bondage',title:'Hara as the Destroyer of the Root of Bondage'},
+    '5.4':{id:'sri-rudram-in-yajurveda',title:'Sri Rudram in Yajurveda'},
+    '5.5':{id:'supremacy-of-vishnu-in-brahmanas',title:'Supremacy of Vishnu in Brahmanas'},
+    '6.1':{id:'lord-rama-on-supremacy-of-shiva',title:'Lord Rama on the Supremacy of Shiva'},
+    '6.2':{id:'supremacy-of-shiva-in-bhagavad-gita',title:'Supremacy of Shiva in Bhagavad Gita'}
+  };
+  let current=opening;
+  let major=null;
+  let chapterTitle='Opening Salutation';
+  let skippingIndex=false;
+  let pending=[];
+  const append=(target,block)=>{
+    const previous=target.blocks[target.blocks.length-1];
+    if(block.kind==='table'&&previous?.kind==='table'&&Array.isArray(previous.value)&&Array.isArray(block.value)){
+      previous.value.push(...block.value);
+    }else if(block.kind==='sa'&&previous?.kind==='sa'){
+      previous.value+='\n'+block.value;
+    }else{
+      target.blocks.push(block);
+    }
+  };
+  const start=(id,title,number,parentTitle)=>{
+    current={id,title,parent:sectionGroup(number),chapterTitle:parentTitle,blocks:pending};
+    sections.push(current);
+    pending=[];
+  };
   pages.forEach((blocks,pageIndex)=>blocks.forEach(([kind,value])=>{
     if(kind==='heading'){
       const info=normaliseMajorHeading(value);
-      current={id:info.id,title:info.title,parent:info.id==='index'?'Opening':sectionGroup(info.number),blocks:[]};
-      if(info.prefix)current.blocks.push({kind:'subheading',value:info.prefix,page:pageIndex+1});
-      sections.push(current);
+      if(info.id==='index'){
+        skippingIndex=true;
+        current=null;
+        major=null;
+        pending=[];
+        return;
+      }
+      skippingIndex=false;
+      major=info.number;
+      chapterTitle=info.title;
+      current=null;
+      pending=[];
+      if(major===1||major===2||major===3||major===5)return;
+      if(major===6&&info.prefix){
+        const first=subsectionTitles['6.1'];
+        start(first.id,first.title,major,chapterTitle);
+        return;
+      }
+      const id=major===4?'double-standards-on-absolute-and-relative-supremacy':
+        major===7?'purva-paksha-mahanarayana-upanishad':
+        major===8?'addressing-the-scope-of-questions-argument':
+        major===9?'smriti-testimony':info.id;
+      start(id,info.title,major,null);
       return;
     }
-    const previous=current.blocks[current.blocks.length-1];
-    if(kind==='table'&&previous?.kind==='table'&&Array.isArray(previous.value)&&Array.isArray(value)){
-      previous.value.push(...value);
-    }else if(kind==='sa'&&previous?.kind==='sa'){
-      previous.value+='\n'+value;
-    }else{
-      current.blocks.push({kind,value,page:pageIndex+1});
+    if(skippingIndex)return;
+    if(kind==='p'){
+      const text=articleText(value);
+      const match=/^\s*(\d{1,2})\.(\d{1,2})\s+(.+)$/.exec(text);
+      if(match){
+        const sourceMajor=Number(match[1]);
+        const minor=Number(match[2]);
+        const misnumberedFiveThree=major===5&&sourceMajor===4&&minor===3;
+        const key=misnumberedFiveThree?'5.3':`${sourceMajor}.${minor}`;
+        const definition=subsectionTitles[key];
+        if(definition&&(sourceMajor===major||misnumberedFiveThree)){
+          start(definition.id,definition.title,major,chapterTitle);
+          return;
+        }
+      }
     }
+    const block={kind,value,page:pageIndex+1};
+    if(current)append(current,block);
+    else if(major!==null)append({blocks:pending},block);
   }));
   return sections;
 }
@@ -343,34 +410,41 @@ function renderBlock(block,section){
   if(block.kind==='subheading')return make('h3',null,sentenceTitle(block.value));
   if(block.kind==='p'){
     const visible=articleText(block.value);
-    if(section==='opening'&&/^a scripture-based case for the supremacy of shiva$/i.test(visible))return empty();
+    if(section==='opening-salutation'&&/^a scripture-based case for the supremacy of shiva$/i.test(visible))return empty();
     return renderParagraph(block.value,section);
   }
   return make('p',null,articleText(block.value));
 }
 
 function href(section){
-  return section.id==='opening'?base:base+'?section='+encodeURIComponent(section.id);
+  return section.id==='opening-salutation'?base:base+'?section='+encodeURIComponent(section.id);
 }
 
 function tocInto(node,sections,selected){
   node.replaceChildren();
-  let group='';
-  let children=null;
+  const groups=new Map();
   for(const section of sections){
-    if(section.parent!==group){
-      group=section.parent;
-      const wrapper=make('div','toc-group');
-      wrapper.append(make('div','toc-parent',group));
-      children=make('div','toc-children');
-      wrapper.append(children);
+    let group=groups.get(section.parent);
+    if(!group){
+      const wrapper=make('details','toc-group');
+      const summary=make('summary','toc-parent');
+      summary.append(make('span','toc-parent-title',section.parent));
+      const children=make('div','toc-children');
+      wrapper.append(summary,children);
       node.append(wrapper);
+      group={wrapper,summary,children,current:null};
+      groups.set(section.parent,group);
     }
     const link=make('a',section.id===selected.id?'is-active':'',section.title);
     link.href=href(section);
     link.dataset.section=section.id;
-    if(section.id===selected.id)link.setAttribute('aria-current','page');
-    children.append(link);
+    if(section.id===selected.id){
+      link.setAttribute('aria-current','page');
+      group.wrapper.classList.add('has-current');
+      group.current=make('span','toc-current',section.title);
+      group.summary.append(group.current);
+    }
+    group.children.append(link);
   }
 }
 
@@ -406,14 +480,24 @@ async function render(){
   const pages=await load();
   const sections=sectionsFrom(pages);
   const requested=new URLSearchParams(location.search).get('section');
-  let selected=sections.find(section=>section.id===requested)||sections[0];
-  if(requested&&!sections.some(section=>section.id===requested))history.replaceState(null,'',href(selected));
+  const legacy={
+    opening:'opening-salutation',index:'opening-salutation',
+    'section-1':'introduction','section-2':'padma-pur-a-s-contradiction',
+    'section-3':'shiva-purana-on-the-true-nature-of-vishnu',
+    'section-4':'double-standards-on-absolute-and-relative-supremacy',
+    'section-5':'shvetashvatara-upanishad-and-adi-shankaracharya-on-shivas-supremacy',
+    'section-6':'lord-rama-on-supremacy-of-shiva','section-7':'purva-paksha-mahanarayana-upanishad',
+    'section-8':'addressing-the-scope-of-questions-argument','section-9':'smriti-testimony'
+  };
+  const resolved=requested&&legacy[requested]||requested;
+  let selected=sections.find(section=>section.id===resolved)||sections[0];
+  if(requested&&selected.id!==requested)history.replaceState(null,'',href(selected));
   const index=sections.indexOf(selected);
   const desktop=document.getElementById('shaiva-desktop-toc');
   const mobile=document.getElementById('shaiva-mobile-toc');
   if(desktop)tocInto(desktop,sections,selected);
   if(mobile)tocInto(mobile,sections,selected);
-  document.getElementById('section-parent').textContent=selected.parent;
+  document.getElementById('section-parent').textContent=selected.chapterTitle||selected.parent;
   document.getElementById('section-count').textContent='Section '+(index+1)+' of '+sections.length;
   navLink(document.getElementById('page-prev'),sections[index-1],'Previous');
   navLink(document.getElementById('page-next'),sections[index+1],'Next');
