@@ -123,9 +123,10 @@ function makeToc(nav){
   let group=null,items=null;
   for(const p of segments){
     if(group!==p.group){
-      group=p.group;const wrap=el('div','toc-group');
-      wrap.append(el('div','toc-parent',group.title));
-      items=el('div','toc-children');wrap.append(items);nav.append(wrap);
+      group=p.group;const wrap=el('details','toc-group');
+      const label=el('summary','toc-parent');
+      label.append(el('span','toc-parent-title',group.title),el('span','toc-current',''));
+      items=el('div','toc-children');wrap.append(label,items);nav.append(wrap);
     }
     const a=el('a',null,p.title);a.dataset.section=p.id;a.href=href(p);items.append(a);
   }
@@ -198,6 +199,12 @@ function render(index){
     for(const a of nav.querySelectorAll('a[data-section]')){
       const active=a.dataset.section===page.id;a.classList.toggle('is-active',active);
       if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');
+    }
+    for(const group of nav.querySelectorAll('.toc-group')){
+      const active=group.querySelector('a[aria-current="page"]');
+      const current=group.querySelector('.toc-current');
+      group.classList.toggle('has-current',!!active);
+      if(current)current.textContent=active?text(active):'';
     }
   }
   document.title=`${page.title} — ${title} — Viveka Dṛṣṭi`;
