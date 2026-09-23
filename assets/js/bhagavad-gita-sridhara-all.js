@@ -35,15 +35,23 @@
 
   const cleanSrid = (text) => String(text || '').replace(/^\s*[।॥]+\s*\d+(?:\.\d+)?\s*[।॥]*\s*/, '').trim();
 
-  const renderPairs = (pairs) => {
-    if (!Array.isArray(pairs) || !pairs.length) return '<p class="gita-dual-empty">No commentary.</p>';
-    return '<p class="gita-wfw-list">' + pairs.map((pair, index) => {
-      const term = Array.isArray(pair) ? pair[0] : '';
-      const displayTerm = index === 0 ? capitalizeLeadingLatin(term) : term;
-      const gloss = Array.isArray(pair) ? pair[1] : '';
-      const displayGloss = index === 0 ? capitalizeLeadingLatin(gloss) : gloss;
-      return '<strong>' + esc(displayTerm) + '</strong> — ' + esc(displayGloss);
-    }).join('; ') + '.</p>';
+  const renderPairs = (pairs, emptyText) => {
+    if (!Array.isArray(pairs) || !pairs.length) {
+      return '<p class="gita-dual-empty">' + esc(emptyText || 'No separate Śrīdhara word-for-word source is mapped for this verse.') + '</p>';
+    }
+    return '<div class="gita-word-list">' + pairs.map((pair, index) => {
+      const term = Array.isArray(pair) ? String(pair[0] || '').trim() : '';
+      const gloss = Array.isArray(pair) ? String(pair[1] || '').trim() : '';
+      const termIsDevanagari = /[\\u0900-\\u097F]/u.test(term);
+      const devanagari = termIsDevanagari ? term : '';
+      const iast = termIsDevanagari ? devaToIast(term) : term;
+      const punctuation = index === pairs.length - 1 ? '.' : ';';
+      return '<div class="gita-word-row">' +
+        (devanagari ? '<span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> ' : '') +
+        '<span class="gita-word-iast">(<em>' + esc(iast) + '</em>)</span> ' +
+        '<span class="gita-word-gloss">— ' + esc(gloss) + punctuation + '</span>' +
+      '</div>';
+    }).join('') + '</div>';
   };
 
   const joinedGloss = (pairs) => (Array.isArray(pairs) ? pairs : [])
@@ -68,49 +76,51 @@
   };
 
   const enhanceVerse = (article) => {
-    if (!chapterData || !article || article.dataset.sridharaToolsAll === '1' || article.querySelector('.gita-dual-section')) return;
-    const match = article.id && article.id.match(new RegExp('^gita-' + chapter + '-(\\d+)$'));
+    if (!chapterData || !article || article.dataset.sridharaToolsAll === '1') return;
+    const match = article.id && article.id.match(new RegExp('^gita-' + chapter + '-(\\\\d+)$'));
     if (!match) return;
     const verse = Number(match[1]);
     const verseData = chapterData.verses && chapterData.verses[String(verse)];
-    if (!verseData || verseData.reviewed !== true) return;
 
     const details = article.querySelectorAll('.gita-details');
-    if (details.length < 3) return;
+    if (details.length < 2) return;
     const wfwReveal = details[0].querySelector('.gita-reveal');
     const transReveal = details[1].querySelector('.gita-reveal');
-    const sridTextNode = details[2].querySelector('.gita-reveal p');
+    const sridTextNode = details[2] ? details[2].querySelector('.gita-reveal p') : null;
     const englishNode = article.querySelector('.gita-commentary p');
-    if (!wfwReveal || !transReveal || !sridTextNode || !englishNode) return;
+    if (!wfwReveal || !transReveal) return;
 
-    const gitaWfw = wfwReveal.innerHTML;
-    const gitaTrans = transReveal.innerHTML;
-    const existingCommentary = englishNode.textContent || '';
+    const gitaWfw = wfwReveal.dataset.gitaBaseHtml || wfwReveal.innerHTML;
+    wfwReveal.dataset.gitaBaseHtml = gitaWfw;
+    const sridPairs = verseData && verseData.reviewed === true ? verseData.word_for_word : [];
+    wfwReveal.innerHTML = dualBlock(
+      '<div class="gita-word-source">Bhagavad Gītā</div>' + gitaWfw,
+      renderPairs(sridPairs)
+    );
+    transReveal.innerHTML = transReveal.dataset.gitaBaseHtml || transReveal.innerHTML;
+    transReveal.dataset.gitaBaseHtml = transReveal.innerHTML;
+
+    const existingCommentary = englishNode ? englishNode.textContent || '' : '';
     const capitalizedCommentary = capitalizeLeadingLatin(existingCommentary);
-    if (capitalizedCommentary !== existingCommentary) englishNode.textContent = capitalizedCommentary;
-    const sridRaw = cleanSrid(sridTextNode.textContent);
-    const noCommentary = /^no commentary\.?$/i.test(sridRaw);
-    const sridTrans = noCommentary ? '<p class="gita-dual-empty">No commentary.</p>' : '<p><em>' + esc(capitalizeLeadingLatin(devaToIast(sridRaw))) + '</em></p>';
+    if (englishNode && capitalizedCommentary !== existingCommentary) englishNode.textContent = capitalizedCommentary;
 
-    // Keep each control semantically scoped: the Word-for-word drawer must
-    // contain only the Gita's word meanings, while Śrīdhara's Sanskrit
-    // commentary stays in its own drawer.
-    wfwReveal.innerHTML = gitaWfw;
-    transReveal.innerHTML = gitaTrans;
-
-    if (noCommentary) {
-      englishNode.textContent = 'No commentary.';
-      englishNode.classList.add('gita-no-source');
-    } else {
-      const literalTranslation = capitalizeLeadingLatin(String(verseData.translation || '').trim() || joinedGloss(verseData.word_for_word));
-      if (literalTranslation) {
-        englishNode.textContent = literalTranslation;
-        englishNode.classList.remove('gita-no-source');
+    const sridRaw = sridTextNode ? cleanSrid(sridTextNode.textContent) : '';
+    const noCommentary = !sridRaw || /^no commentary\\.?$/i.test(sridRaw);
+    if (englishNode) {
+      if (noCommentary) {
+        englishNode.textContent = 'No commentary.';
+        englishNode.classList.add('gita-no-source');
+      } else {
+        const literalTranslation = capitalizeLeadingLatin(String(verseData && verseData.translation || '').trim() || joinedGloss(sridPairs));
+        if (literalTranslation) {
+          englishNode.textContent = literalTranslation;
+          englishNode.classList.remove('gita-no-source');
+        }
       }
+      const commentarySection = englishNode.closest('.gita-commentary');
+      if (commentarySection) commentarySection.hidden = false;
     }
 
-    const commentarySection = englishNode.closest('.gita-commentary');
-    if (commentarySection) commentarySection.hidden = false;
     article.dataset.sridharaToolsAll = '1';
   };
 
