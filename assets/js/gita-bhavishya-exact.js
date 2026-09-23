@@ -202,8 +202,8 @@
           imp(paragraph, 'line-height', isSanskrit ? '1.55' : '1.42');
         });
         reveal.querySelectorAll('.gita-dual-label').forEach((label) => {
-          imp(label, 'margin', '0 0 3px');
-          imp(label, 'font-size', '11.5px');
+          imp(label, 'margin', '0 0 7px');
+          imp(label, 'font-size', narrow ? '17px' : '19px');
           imp(label, 'line-height', '1.2');
         });
         reveal.querySelectorAll('.gita-wfw-list').forEach((list) => {
