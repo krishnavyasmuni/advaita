@@ -843,6 +843,21 @@
   const esc = (value) => String(value || '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const lines = (value) => esc(value).replace(/\n/g, '<br>');
 
+  const capitalizeEnglishStart = (value) => String(value || '').replace(/^(\s*[““‘"'(\[]*\s*)([a-z])/u, (_, prefix, first) => prefix + first.toUpperCase());
+
+  const normalizeEnglishSentences = (value) => {
+    let text = String(value || '')
+      .replace(/\r\n?/g, '\n')
+      .replace(/[ \t]+/g, ' ')
+      .replace(/[ \t]*([,;:!?])/g, '$1')
+      .replace(/([,;:!?])(?=[A-Za-z])/g, '$1 ')
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+    text = text.replace(/(^|[.!?]\s+|\n+)([““‘"'(\[]*\s*)([a-z])/gu, (_, boundary, prefix, first) => boundary + prefix + first.toUpperCase());
+    if (text && !/[.!?…]["'”’)\]]*$/u.test(text)) text += '.';
+    return text;
+  };
+
   const devanagariToIast = (value) => {
     const independent = {'अ':'a','आ':'ā','इ':'i','ई':'ī','उ':'u','ऊ':'ū','ऋ':'ṛ','ॠ':'ṝ','ऌ':'ḷ','ॡ':'ḹ','ए':'e','ऐ':'ai','ओ':'o','औ':'au','ॐ':'oṃ'};
     const consonants = {'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'ṅ','च':'c','छ':'ch','ज':'j','झ':'jh','ञ':'ñ','ट':'ṭ','ठ':'ṭh','ड':'ḍ','ढ':'ḍh','ण':'ṇ','त':'t','थ':'th','द':'d','ध':'dh','न':'n','प':'p','फ':'ph','ब':'b','भ':'bh','म':'m','य':'y','र':'r','ल':'l','व':'v','श':'ś','ष':'ṣ','स':'s','ह':'h','ळ':'ḷ'};
@@ -933,7 +948,7 @@
       const devanagari = /[\u0900-\u097F]/u.test(term) ? term : iastToDevanagari(term);
       const iast = /[\u0900-\u097F]/u.test(term) ? devanagariToIast(term) : term;
       const punctuation = index === pairs.length - 1 ? '.' : ';';
-      return '<div class="gita-word-row"><span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> <span class="gita-word-iast">(<em>' + esc(iast) + '</em>)</span> <span class="gita-word-gloss">— ' + esc(pair[1]) + punctuation + '</span></div>';
+      return '<div class="gita-word-row"><span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> <span class="gita-word-iast">(<em>' + esc(iast) + '</em>)</span> <span class="gita-word-gloss">— ' + esc(capitalizeEnglishStart(pair[1])) + punctuation + '</span></div>';
     }).join('') + '</div>';
   };
   const VEDICSCRIPTURES_GITA_COMMIT = '43dfc8db815d01e15a347ea294b089334cf2aa17';
@@ -1032,9 +1047,10 @@
       ? String(d.slok || '').replace(/\|\|[^|]+\|\|/g, '').replace(/\|/g, '').replace(/\\n/g, '\n').replace(/\s+\d+-\d+\s*$/, '')
       : String(d.slok || '').replace(/(?:\|\||।।)\s*[0-9०-९]+(?:[-–][0-9०-९]+)?\s*(?:\|\||।।)/g, '').replace(/\|/g, '');
     const rootLines = rootText.split('\n').map((x) => x.trim()).filter(Boolean).join('<br>');
-    const english = sourceMode === 'legacy'
-      ? (d.gambir && d.gambir.et ? lines(d.gambir.et) : 'English translation unavailable in the source record.')
-      : lines(d.apiEnglish || 'English translation unavailable in the pinned source records.');
+    const englishSource = sourceMode === 'legacy'
+      ? (d.gambir && d.gambir.et ? d.gambir.et : 'English translation unavailable in the source record.')
+      : (d.apiEnglish || 'English translation unavailable in the pinned source records.');
+    const english = lines(normalizeEnglishSentences(englishSource));
     const key = chapter + '.' + n;
     const wordMeaning = sourceMode === 'legacy'
       ? lines(meanings[key] || 'Word-for-word meaning unavailable in the source record.')
@@ -1051,9 +1067,9 @@
       ? lines(sridhara.sc)
       : '';
     const translatedCommentary = sridhara
-      ? lines(d.translatedCommentary || (sourceMode === 'legacy'
+      ? lines(normalizeEnglishSentences(d.translatedCommentary || (sourceMode === 'legacy'
         ? (d.srid && d.srid.et ? d.srid.et : 'The source repository supplies Śrīdhara Svāmī’s commentary in Sanskrit; no English rendering is supplied there.')
-        : 'English rendering not supplied for this source passage.'))
+        : 'English rendering not supplied for this source passage.')))
       : '';
 
     const translationPanel = '<p class="gita-translation">' + english + '</p>';
