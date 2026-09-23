@@ -212,7 +212,8 @@
     end: Number(entry.end || entry.start),
     pairs: Array.isArray(entry.pairs) ? entry.pairs : entry.word_for_word,
     literal: String(entry.literal_english || '').trim(),
-    sourceGap: Boolean(entry.source_gap)
+    sourceGap: Boolean(entry.source_gap),
+    sourceAvailable: entry.source_available !== false
   }))).catch((error) => {
     console.warn('Reviewed Śrīdhara word meanings unavailable:', error);
     return [];
@@ -246,13 +247,20 @@
   }
 
   function makeSridharaSection(entry) {
+    if (entry.sourceGap || !entry.sourceAvailable) return null;
     const section = document.createElement('div');
     section.className = 'gita-dual-section gita-dual-sridhara';
     const label = document.createElement('div');
     label.className = 'gita-dual-label';
     label.textContent = 'Śrīdhara';
     const result = pairsParagraph(Array.isArray(entry.pairs) ? entry.pairs : []);
-    if (entry.sourceGap || result.empty) return null;
+    if (result.empty) {
+      const paragraph = document.createElement('p');
+      paragraph.className = 'gita-dual-empty';
+      paragraph.textContent = 'Śrīdhara word-for-word not available for this source block';
+      section.append(label, paragraph);
+      return section;
+    }
     section.append(label, result.node);
     return section;
   }
