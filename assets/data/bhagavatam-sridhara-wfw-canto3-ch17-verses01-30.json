@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "source-checked-and-repaired",
+  "status": "source-checked-and-wfw-repaired",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/17_hiraNyAxa-digvijayaH.md",
   "source_blob_sha": "26fb6657c5df7e57f0ccbc9f21a6756d5a9887bc",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 3 Chapter 17; every pinned source range is preserved and translated.",
+  "editorial_note": "Source-bound Śrīdhara Sanskrit with independently reviewed IAST lexical word-for-word pairs and complete English rendering.",
   "scope": "ŚB 3.17.1–3.17.31; all 30 pinned source ranges preserved, including grouped 3.17.21–3.17.22.",
   "entries": [
     {
@@ -17,13 +17,44 @@
       "sanskrit": "ततः सप्तदशे जन्म तयोर् लोक-भयङ्-करम् । हिरण्याक्ष-प्रभावश् च वर्ण्यते दिग्-जयेऽद्भुतः ॥ क्षेमं विधास्यति \\[३.१६.३७\\] इति ब्रह्म-वचनानन्तरं । शङ्कया त्यक्ताः ॥१॥",
       "word_for_word": [
         [
-          "ततः सप्तदशे जन्म तयोर् लोक-भयङ्-करम् । हिरण्याक्ष-प्रभावश् च वर्ण्यते दिग्-जयेऽद्भुतः ॥ क्षेमं विधास्यति \\[३.१६.३७\\] इति ब्रह्म-वचनानन्तरं । शङ्कया त्यक्ताः ॥१॥",
-          "Thereafter the seventeenth chapter describes the birth of the two sons, terrifying to the world, and the astonishing conquest of the directions by Hiraṇyākṣa. After Brahmā’s statement that he would grant their welfare, they were abandoned out of fear."
+          "tataḥ saptadaśe",
+          "thereafter, in the seventeenth [chapter]"
+        ],
+        [
+          "janma tayor",
+          "the birth of those two"
+        ],
+        [
+          "loka-bhayaṅ-karam",
+          "terrifying to the world"
+        ],
+        [
+          "hiraṇyākṣa-prabhāvaḥ",
+          "Hiraṇyākṣa’s prowess"
+        ],
+        [
+          "dig-jaye’dbhutaḥ",
+          "astonishing in conquest of the directions"
+        ],
+        [
+          "kṣemaṃ vidhāsyati",
+          "will grant welfare"
+        ],
+        [
+          "iti brahma-vacanānantaram",
+          "after Brahmā’s statement"
+        ],
+        [
+          "śaṅkayā tyaktāḥ",
+          "abandoned from fear"
         ]
       ],
       "literal_english": "Thereafter the seventeenth chapter describes the birth of the two sons, terrifying to the world, and the astonishing conquest of the directions by Hiraṇyākṣa. After Brahmā’s statement that he would grant their welfare, they were abandoned out of fear.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "tataḥ saptadaśe janma tayor loka-bhayaṅ-karam । hiraṇyākṣa-prabhāvaś ca varṇyate dig-jaye’dbhutaḥ ॥ kṣemaṃ vidhāsyati \\[3.16.37\\] iti brahma-vacanānantaraṃ । śaṅkayā tyaktāḥ ॥1॥"
+      ]
     },
     {
       "canto": 3,
@@ -34,13 +65,40 @@
       "sanskrit": "भर्तुर् आदेशात् \\\"लोकान् क्रन्दयिष्यति\\\" इति तद्-वाक्यात् अपत्याभ्यां सर्व-लोकोपद्रवम् अपत्यं प्रति विष्णु-हस्ततो वधाद् वा शङ्कमाना ॥२॥",
       "word_for_word": [
         [
-          "भर्तुर् आदेशात् \\\"लोकान् क्रन्दयिष्यति\\\" इति तद्-वाक्यात् अपत्याभ्यां सर्व-लोकोपद्रवम् अपत्यं प्रति विष्णु-हस्ततो वधाद् वा शङ्कमाना ॥२॥",
-          "Because of the husband’s prediction, “He will make the worlds cry,” they feared that the two sons would trouble the entire world; they also feared their being killed by Viṣṇu’s hand."
+          "bhartur ādeśāt",
+          "from the husband’s command"
+        ],
+        [
+          "lokān krandayiṣyati",
+          "he will make the worlds cry"
+        ],
+        [
+          "tad-vākyāt",
+          "from that statement"
+        ],
+        [
+          "apatyābhyām",
+          "because of the two sons"
+        ],
+        [
+          "sarva-lokopadravam",
+          "disturbance of the whole world"
+        ],
+        [
+          "viṣṇu-hastataḥ vadhāt",
+          "from being slain by Viṣṇu’s hand"
+        ],
+        [
+          "śaṅkamānā",
+          "fearing"
         ]
       ],
       "literal_english": "Because of the husband’s prediction, “He will make the worlds cry,” they feared that the two sons would trouble the entire world; they also feared their being killed by Viṣṇu’s hand.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "bhartur ādeśāt \\\"lokān krandayiṣyati\\\" iti tad-vākyāt apatyābhyāṃ sarva-lokopadravam apatyaṃ prati viṣṇu-hastato vadhād vā śaṅkamānā ॥2॥"
+      ]
     },
     {
       "canto": 3,
@@ -51,13 +109,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -68,13 +127,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -85,13 +145,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -102,13 +163,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -119,13 +181,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -136,13 +199,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -153,13 +217,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -170,13 +235,20 @@
       "sanskrit": "ग्राम-सिंहाः श्वानः ॥१०॥",
       "word_for_word": [
         [
-          "ग्राम-सिंहाः श्वानः ॥१०॥",
-          "The lions of the village are dogs."
+          "grāma-siṃhāḥ",
+          "the lions of the village"
+        ],
+        [
+          "śvānaḥ",
+          "are dogs"
         ]
       ],
       "literal_english": "The lions of the village are dogs.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "grāma-siṃhāḥ śvānaḥ ॥10॥"
+      ]
     },
     {
       "canto": 3,
@@ -187,13 +259,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -204,13 +277,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -221,13 +295,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -238,13 +313,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -255,13 +331,44 @@
       "sanskrit": "दृष्ट्वेति । ब्रह्म-पुत्रान् सनकादीन् ऋते ब्रह्म-सृष्टाः । सर्वा एव प्रजा अतत्-तत्त्व-विदो भीता विश्व-सम्प्लवं मेनिरे । देवास् तु ब्रह्म-वाक्यात् तत्त्व-विदोऽभीता आसन्, न तु विश्व-सम्प्लवं मेनिरे इत्य् अर्थः ॥१५॥",
       "word_for_word": [
         [
-          "दृष्ट्वेति । ब्रह्म-पुत्रान् सनकादीन् ऋते ब्रह्म-सृष्टाः । सर्वा एव प्रजा अतत्-तत्त्व-विदो भीता विश्व-सम्प्लवं मेनिरे । देवास् तु ब्रह्म-वाक्यात् तत्त्व-विदोऽभीता आसन्, न तु विश्व-सम्प्लवं मेनिरे इत्य् अर्थः ॥१५॥",
-          "Except for Brahmā’s sons, Sanaka and the others, all the creatures born from Brahmā, not knowing the truth, were afraid and thought that the universe was about to dissolve. The gods, knowing the truth because of Brahmā’s word, were fearless and did not think the universe would dissolve."
+          "dṛṣṭvā",
+          "having seen"
+        ],
+        [
+          "brahma-putrān sanakādīn ṛte",
+          "except Brahmā’s sons headed by Sanaka"
+        ],
+        [
+          "brahma-sṛṣṭāḥ sarvāḥ eva prajāḥ",
+          "all creatures created by Brahmā"
+        ],
+        [
+          "atat-tattva-vidaḥ",
+          "not knowing that truth"
+        ],
+        [
+          "bhītāḥ",
+          "afraid"
+        ],
+        [
+          "viśva-samplavaṃ menire",
+          "thought the universe was dissolving"
+        ],
+        [
+          "devāḥ tu brahma-vākyāt tattva-vidaḥ",
+          "but the gods, knowing the truth through Brahmā’s word"
+        ],
+        [
+          "abhītāḥ āsan",
+          "were fearless"
         ]
       ],
       "literal_english": "Except for Brahmā’s sons, Sanaka and the others, all the creatures born from Brahmā, not knowing the truth, were afraid and thought that the universe was about to dissolve. The gods, knowing the truth because of Brahmā’s word, were fearless and did not think the universe would dissolve.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "dṛṣṭveti । brahma-putrān sanakādīn ṛte brahma-sṛṣṭāḥ । sarvā eva prajā atat-tattva-vido bhītā viśva-samplavaṃ menire । devās tu brahma-vākyāt tattva-vido’bhītā āsan, na tu viśva-samplavaṃ menire ity arthaḥ ॥15॥"
+      ]
     },
     {
       "canto": 3,
@@ -272,13 +379,28 @@
       "sanskrit": "ताव् इति । अत्रानयोर् अणिमादि-शक्त्या गूढ-स्थितौ टीका-सम्मतिश् च ॥१६॥",
       "word_for_word": [
         [
-          "ताव् इति । अत्रानयोर् अणिमादि-शक्त्या गूढ-स्थितौ टीका-सम्मतिश् च ॥१६॥",
-          "The word “those two” is explained. The accepted gloss is that they remained hidden here through powers such as aṇimā."
+          "tau",
+          "those two"
+        ],
+        [
+          "aṇimādi-śaktyā",
+          "by powers beginning with aṇimā"
+        ],
+        [
+          "gūḍha-sthitau",
+          "in hidden presence"
+        ],
+        [
+          "ṭīkā-sammatiḥ",
+          "the accepted commentary view"
         ]
       ],
       "literal_english": "The word “those two” is explained. The accepted gloss is that they remained hidden here through powers such as aṇimā.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "tāv iti । atrānayor aṇimādi-śaktyā gūḍha-sthitau ṭīkā-sammatiś ca ॥16॥"
+      ]
     },
     {
       "canto": 3,
@@ -289,13 +411,24 @@
       "sanskrit": "सोमपा-शब्दवद् अङ्गदा-शब्दोऽपि भवेत् ॥१७॥",
       "word_for_word": [
         [
-          "सोमपा-शब्दवद् अङ्गदा-शब्दोऽपि भवेत् ॥१७॥",
-          "The word aṅgada may be formed just as the word somapā is formed."
+          "somapā-śabdavat",
+          "like the word somapā"
+        ],
+        [
+          "aṅgadā-śabdaḥ",
+          "the word aṅgada"
+        ],
+        [
+          "api bhavet",
+          "may also be formed"
         ]
       ],
       "literal_english": "The word aṅgada may be formed just as the word somapā is formed.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "somapā-śabdavad aṅgadā-śabdo’pi bhavet ॥17॥"
+      ]
     },
     {
       "canto": 3,
@@ -306,13 +439,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -323,13 +457,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -340,13 +475,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -357,13 +493,20 @@
       "sanskrit": "तम् इति युग्मकम् ॥२१-२२॥",
       "word_for_word": [
         [
-          "तम् इति युग्मकम् ॥२१-२२॥",
-          "This is a pair of verses."
+          "tam",
+          "him"
+        ],
+        [
+          "iti yugmakam",
+          "this is a pair of verses"
         ]
       ],
       "literal_english": "This is a pair of verses.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "tam iti yugmakam ॥21-22॥"
+      ]
     },
     {
       "canto": 3,
@@ -374,13 +517,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -391,13 +535,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -408,13 +553,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -425,13 +571,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -442,13 +589,32 @@
       "sanskrit": "असुर-लोकस्य पातालस्य पालकम् । प्रलब्धुम् उपहसितुं प्रणिपत्य ॥२७॥",
       "word_for_word": [
         [
-          "असुर-लोकस्य पातालस्य पालकम् । प्रलब्धुम् उपहसितुं प्रणिपत्य ॥२७॥",
-          "The guardian of the world of the demons, Pātāla. “To deceive” means to mock after bowing down."
+          "asura-lokasya",
+          "of the demons’ world"
+        ],
+        [
+          "pātālasya pālakam",
+          "the protector of Pātāla"
+        ],
+        [
+          "pralabdhum",
+          "to deceive or mock"
+        ],
+        [
+          "upahasitum",
+          "to ridicule"
+        ],
+        [
+          "praṇipatya",
+          "after bowing down"
         ]
       ],
       "literal_english": "The guardian of the world of the demons, Pātāla. “To deceive” means to mock after bowing down.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "asura-lokasya pātālasya pālakam । pralabdhum upahasituṃ praṇipatya ॥27॥"
+      ]
     },
     {
       "canto": 3,
@@ -459,13 +625,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     },
     {
       "canto": 3,
@@ -476,13 +643,40 @@
       "sanskrit": "उपशमं युद्धादि-कौतुकाद् उपरमम् ॥२९॥",
       "word_for_word": [
         [
-          "उपशमं युद्धादि-कौतुकाद् उपरमम् ॥२९॥",
-          "Upaśama means cessation, a stopping of the delight of battle and similar activities."
+          "tat-cikīrṣitatvam",
+          "that being his intention"
+        ],
+        [
+          "mā bhaiṣṭam",
+          "do not fear"
+        ],
+        [
+          "astu śam",
+          "let there be peace"
+        ],
+        [
+          "āsura-bhāvaḥ",
+          "the demonic nature"
+        ],
+        [
+          "jīvan-muktānām iva",
+          "like that of liberated beings"
+        ],
+        [
+          "naṭānām anukaraṇam iva",
+          "like an actor’s imitation"
+        ],
+        [
+          "ābhāsaḥ eva syāt",
+          "will be only an appearance"
         ]
       ],
       "literal_english": "Upaśama means cessation, a stopping of the delight of battle and similar activities.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "upaśamaṃ yuddhādi-kautukād uparamam ॥29॥"
+      ]
     },
     {
       "canto": 3,
@@ -493,13 +687,36 @@
       "sanskrit": "युद्ध-मार्ग-निपुणं त्वां यस् तोषयिष्यति तम् इहि गच्छ । गृणते स्तुवन्ति ॥३०॥",
       "word_for_word": [
         [
-          "युद्ध-मार्ग-निपुणं त्वां यस् तोषयिष्यति तम् इहि गच्छ । गृणते स्तुवन्ति ॥३०॥",
-          "“Go to him who will satisfy you, skilled in the path of battle.” “Gṛṇate” means they praise."
+          "yadā mayi upārate",
+          "when I had withdrawn"
+        ],
+        [
+          "yoga-nidrāṃ gatavati",
+          "when I had entered yoga-nidrā"
+        ],
+        [
+          "dvāri viśantīm",
+          "entering at the door"
+        ],
+        [
+          "yuvābhyām apavāritā",
+          "prevented by you two"
+        ],
+        [
+          "kruddhayā ramayā",
+          "by the angry Ramā"
+        ],
+        [
+          "puraiva nirdiṣṭam",
+          "was designated already before"
         ]
       ],
       "literal_english": "“Go to him who will satisfy you, skilled in the path of battle.” “Gṛṇate” means they praise.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated.",
+      "transliteration": [
+        "yuddha-mārga-nipuṇaṃ tvāṃ yas toṣayiṣyati tam ihi gaccha । gṛṇate stuvanti ॥30॥"
+      ]
     },
     {
       "canto": 3,
@@ -510,13 +727,14 @@
       "sanskrit": "न व्याख्यातम्।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
+          "na vyākhyātam",
           "No commentary"
         ]
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon.",
+      "transliteration": []
     }
   ]
 }
