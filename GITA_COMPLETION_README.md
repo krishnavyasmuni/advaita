@@ -47,7 +47,7 @@ The current cache-busted asset versions in the shells are:
 - site.js?v=20260918-gita-template-1
 - bhagavad-gita.css?v=20260918-gita-all-chapters-1
 - gita-bhavishya-exact.css?v=20260918-gita-all-chapters-1
-- bhagavad-gita.js?v=20260922-commentary-boundaries-1
+- bhagavad-gita.js?v=20260923-gita-all-verses-1
 - bhagavad-gita-sridhara-all.js?build=20260918-gita-all-chapters-1
 - gita-bhavishya-exact.js?v=20260918-ch1-nav-commentary-2
 
@@ -94,7 +94,7 @@ Do not replace these with an unpinned branch or a different commentary feed.
 
 | Layer | Pinned source | Runtime use |
 |---|---|---|
-| Sanskrit and transliteration | [vedicscriptures/bhagavad-gita-api](https://github.com/vedicscriptures/bhagavad-gita-api), companion data at commit [43dfc8db815d01e15a347ea294b089334cf2aa17](https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok) | One API record per visible verse |
+| Sanskrit and transliteration | [vedicscriptures/bhagavad-gita](https://github.com/vedicscriptures/bhagavad-gita), companion data at commit [43dfc8db815d01e15a347ea294b089334cf2aa17](https://github.com/vedicscriptures/bhagavad-gita/tree/43dfc8db815d01e15a347ea294b089334cf2aa17/slok) | One API record per visible verse |
 | Word meanings | [gita/gita-frontend-v2 common data](https://github.com/gita/gita-frontend-v2/tree/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/common) at commit 27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb | Holy Bhagavad Gita word-meaning fields |
 | Mukundananda English | [author_22_en.json](https://github.com/gita/gita-frontend-v2/blob/27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb/data/authors/author_22_en.json) at the same commit | Visible English verse translation |
 | Śrīdhara Sanskrit | [Vasuki Śrīdhara source](https://github.com/vishvAsa/mahAbhAratam/tree/3405cca553363ae77edf0c7e58ff1908b5d27d29/vyAsaH/shlokashaH/bhagavad-gItA-parva/TIkA/shrIdhara-vishvanAtha-baladevAH) at commit 3405cca553363ae77edf0c7e58ff1908b5d27d29 | Sanskrit commentary, mapped through the local manifest |
@@ -116,7 +116,7 @@ It must:
 - extract the Sanskrit for the requested verse from the API record;
 - keep the verse heading and card id at one verse only;
 - render the three controls in the same order on every card;
-- render the exact Mukundananda translation on the first card of a grouped translation record and do not repeat it on later cards;
+- render the exact Mukundananda translation on the first card of a grouped translation record; use the pinned per-verse Gambirananda record on later cards in that range so every verse card has an English translation without duplicating a multi-verse paragraph;
 - render a mapped Vasuki section or the intentional text No commentary.;
 - leave the panel in the DOM even when a source field is empty.
 
@@ -148,7 +148,7 @@ The explicit grouped word-meaning slices currently used by pickWordMeaning are:
 
 The fourth line in the pinned 16.13–16.15 record must not be attached to verse 16.15. It is the next verse’s source material and must not be fabricated into the 16.15 card. If the upstream record is re-pinned, re-audit this boundary rather than guessing.
 
-For Mukundananda’s grouped English records, the exact grouped source remains intact and appears on the first verse card only. Later cards still have their own card and controls, but do not repeat or invent a translation.
+For Mukundananda’s grouped English records, the exact grouped source remains intact and appears on the first verse card. Later cards use the pinned Vedic Scriptures per-verse Gambirananda translation; this keeps every visible verse populated without repeating a multi-verse paragraph.
 
 ## 7. Śrīdhara panels
 
@@ -259,6 +259,7 @@ The Gītā rollout is complete only when:
 - all 701 cards render one verse at a time;
 - every card has Word-for-word, Transliteration, and Śrīdhara Sanskrit controls;
 - no grouped verse heading or fabricated per-verse translation appears;
+- every card has an English translation: exact Mukundananda where available, otherwise the pinned per-verse fallback;
 - traditional names agree across the renderer, contents page, shells, and README;
 - the eight grouped word-meaning exceptions remain explicit;
 - Śrīdhara styling is readable and distinct from the Sanskrit verse;
@@ -271,7 +272,7 @@ The Gītā rollout is complete only when:
 
 The shared reader was audited against the pinned Holy Bhagavad Gita word-meaning/translation dataset, the pinned VedicScriptures verse records, and the pinned VishvAsa/Vasuki Śrīdhara mapping. The audit covers all 701 visible verses. Two corrections were applied: Mukundananda’s pinned translation now takes precedence over the fallback API translation, and the stray fourth upstream word-meaning line attached to 16.13–16.15 is excluded because it belongs to 16.16. The eight explicit grouped word-meaning slices remain covered by `pickWordMeaning`; all 18 chapters expand to their expected verse counts with no missing word-meaning record.
 
-The locked source URLs and commits remain unchanged. `No commentary.` is retained only for verses that the Vasuki manifest explicitly maps to no Śrīdhara section.
+The locked source commits remain unchanged. The Vedic Scriptures URL points to the repository that contains the pinned commit. `No commentary.` is retained only for verses that the Vasuki manifest explicitly maps to no Śrīdhara section.
 
 ## 14. Śrīdhara boundary audit — 2026-09-22
 
@@ -283,7 +284,7 @@ The source-backed no-commentary verses are BG 1.11, 1.47, 12.6, and 13.35. All o
 
 - Do not merge separate verse cards.
 - Do not make a grouped source look like a fabricated new source record.
-- Do not duplicate a grouped Mukundananda translation on every verse.
+- Do not duplicate a grouped Mukundananda translation on every verse; use the pinned per-verse fallback for later cards.
 - Do not remove the Word-for-word control from a verse because its source field is blank.
 - Do not replace exact Sanskrit/API records with generated Sanskrit.
 - Do not use a different commentary source without a new audit.
