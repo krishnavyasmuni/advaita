@@ -884,6 +884,7 @@
         if (marks[one]) { out += marks[one]; i += 1; continue; }
         const consonant = consonants[two] ? two : (consonants[one] ? one : '');
         if (consonant) {
+          if (afterConsonant) out += '्';
           out += consonants[consonant];
           i += consonant.length;
           afterConsonant = true;
