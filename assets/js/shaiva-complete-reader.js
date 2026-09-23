@@ -128,7 +128,7 @@ function mixedSanskrit(value,mode='paragraph'){
   const fragment=document.createDocumentFragment();
   let cursor=0;
   const appendEnglish=part=>{
-    const text=part.replace(/[“"]\s*$/u,'').replace(/^\s*[“"]/u,'').trim();
+    const text=part.replace(/[“"(\[]\s*$/u,'').replace(/^\s*[“"()\]]\s*/u,'').trim();
     if(!text)return;
     fragment.append(mode==='translation'?translation(text):make('p',null,text));
   };
