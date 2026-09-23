@@ -355,22 +355,29 @@ function href(section){
 
 function tocInto(node,sections,selected){
   node.replaceChildren();
-  let group='';
-  let children=null;
+  const groups=new Map();
   for(const section of sections){
-    if(section.parent!==group){
-      group=section.parent;
-      const wrapper=make('div','toc-group');
-      wrapper.append(make('div','toc-parent',group));
-      children=make('div','toc-children');
-      wrapper.append(children);
+    let group=groups.get(section.parent);
+    if(!group){
+      const wrapper=make('details','toc-group');
+      const summary=make('summary','toc-parent');
+      summary.append(make('span','toc-parent-title',section.parent));
+      const children=make('div','toc-children');
+      wrapper.append(summary,children);
       node.append(wrapper);
+      group={wrapper,summary,children,current:null};
+      groups.set(section.parent,group);
     }
     const link=make('a',section.id===selected.id?'is-active':'',section.title);
     link.href=href(section);
     link.dataset.section=section.id;
-    if(section.id===selected.id)link.setAttribute('aria-current','page');
-    children.append(link);
+    if(section.id===selected.id){
+      link.setAttribute('aria-current','page');
+      group.wrapper.classList.add('has-current');
+      group.current=make('span','toc-current',section.title);
+      group.summary.append(group.current);
+    }
+    group.children.append(link);
   }
 }
 
