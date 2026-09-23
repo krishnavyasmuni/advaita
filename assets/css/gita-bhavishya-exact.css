@@ -292,3 +292,21 @@
   .gita-page .gita-contents ul{columns:1!important}
   .gita-page .bp-reader{padding:0 14px 18px!important}
 }
+
+
+/* Word-for-word reader rows: Sanskrit, IAST, and gloss, matching the source-reader style. */
+.gita-page .gita-word-list{display:block;margin:0;padding:0}
+.gita-page .gita-word-row{display:block;margin:0 0 4px;color:#3c362e;font-family:Merriweather,Georgia,'Times New Roman',serif;font-size:15.5px!important;line-height:1.55!important}
+.gita-page .gita-word-dev{color:#84432f;font-family:"Noto Serif Devanagari","Noto Serif",serif;font-size:1.06em;font-weight:700}
+.gita-page .gita-word-iast{color:#3c362e;font-size:.96em;font-weight:700}
+.gita-page .gita-word-iast em{font-style:italic}
+.gita-page .gita-word-gloss{color:#514a43;font-weight:400}
+.gita-page .gita-dual-section+.gita-dual-section{margin-top:18px!important;padding-top:12px!important;border-top:1px solid #ded8d2!important}
+.gita-page .gita-dual-label{margin:0 0 7px!important;font-family:Vollkorn,Georgia,serif!important;font-size:19px!important;line-height:1.25!important;font-weight:500!important}
+.gita-page .gita-dual-gita .gita-dual-label{color:#2f7f82!important}
+.gita-page .gita-dual-sridhara .gita-dual-label{color:#9a3d34!important}
+.gita-page .gita-dual-empty{margin:0!important;color:#6e665c;font-size:14px!important;font-style:italic}
+@media(max-width:700px){
+  .gita-page .gita-word-row{font-size:13.5px!important;line-height:1.48!important}
+  .gita-page .gita-dual-label{font-size:17px!important}
+}
