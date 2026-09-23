@@ -177,7 +177,7 @@ function normaliseMajorHeading(value){
   };
   const title=titles[number]||sentenceTitle(raw);
   const prefix=number===6?'6.1 Lord Rama on the supremacy of Shiva':null;
-  return {id:number?'section-'+number:'section-'+title.toLowerCase().replace(/[^a-z0-9]+/g,'-'),title,number,prefix};
+  return {id:number?'section-'+number:title.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''),title,number,prefix};
 }
 
 function sectionGroup(number){
