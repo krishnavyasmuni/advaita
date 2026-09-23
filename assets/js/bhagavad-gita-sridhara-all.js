@@ -7,6 +7,19 @@
 
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const capitalizeLeadingLatin = (value) => String(value ?? '').replace(/^(\s*[““‘"'(\[]*)([A-Za-zÀ-ÖØ-öø-ÿĀ-ž])/u, (_, prefix, first) => prefix + first.toUpperCase());
+  const normalizeEnglishSentences = (value) => {
+    let text = String(value ?? '')
+      .replace(/\r\n?/g, '\n')
+      .replace(/[ \t]+/g, ' ')
+      .replace(/[ \t]*([,;:!?])/g, '$1')
+      .replace(/([,;:!?])(?=[A-Za-z])/g, '$1 ')
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+    text = text.replace(/(^|[.!?]\s+|\n+)([““‘"'(\[]*\s*)([a-z])/gu, (_, boundary, prefix, first) => boundary + prefix + first.toUpperCase());
+    if (text && !/[.!?…]["'”’)\]]*$/u.test(text)) text += '.';
+    return text;
+  };
+
   const independent = {'अ':'a','आ':'ā','इ':'i','ई':'ī','उ':'u','ऊ':'ū','ऋ':'ṛ','ॠ':'ṝ','ऌ':'ḷ','ॡ':'ḹ','ए':'e','ऐ':'ai','ओ':'o','औ':'au','ॐ':'oṃ'};
   const consonants = {'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'ṅ','च':'c','छ':'ch','ज':'j','झ':'jh','ञ':'ñ','ट':'ṭ','ठ':'ṭh','ड':'ḍ','ढ':'ḍh','ण':'ṇ','त':'t','थ':'th','द':'d','ध':'dh','न':'n','प':'p','फ':'ph','ब':'b','भ':'bh','म':'m','य':'y','र':'r','ल':'l','व':'v','श':'ś','ष':'ṣ','स':'s','ह':'h','ळ':'ḷ'};
   const matras = {'ा':'ā','ि':'i','ी':'ī','ु':'u','ू':'ū','ृ':'ṛ','ॄ':'ṝ','ॢ':'ḷ','ॣ':'ḹ','े':'e','ै':'ai','ो':'o','ौ':'au'};
@@ -93,7 +106,7 @@
       return '<div class="gita-word-row">' +
         '<span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> ' +
         '<span class="gita-word-iast">(<em>' + esc(iast) + '</em>)</span> ' +
-        '<span class="gita-word-gloss">— ' + esc(gloss) + punctuation + '</span>' +
+        '<span class="gita-word-gloss">— ' + esc(capitalizeLeadingLatin(gloss)) + punctuation + '</span>' +
       '</div>';
     }).join('') + '</div>';
   };
@@ -155,7 +168,7 @@
         englishNode.textContent = 'No commentary.';
         englishNode.classList.add('gita-no-source');
       } else {
-        const literalTranslation = capitalizeLeadingLatin(String(verseData && verseData.translation || '').trim() || joinedGloss(sridPairs));
+        const literalTranslation = normalizeEnglishSentences(String(verseData && verseData.translation || '').trim() || joinedGloss(sridPairs));
         if (literalTranslation) {
           englishNode.textContent = literalTranslation;
           englishNode.classList.remove('gita-no-source');
