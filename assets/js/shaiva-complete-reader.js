@@ -1,6 +1,6 @@
-/* Complete Śaiva article reader. The manuscript data is preserved separately;
+/* Complete Shaiva article reader. The manuscript data is preserved separately;
    this file only turns it into the same quiet, paged reading experience used
-   by the Varṇa-vicāra article. */
+   by the Varna-vicara article. */
 (()=>{
 'use strict';
 
@@ -19,83 +19,14 @@ const make=(tag,cls,text)=>{
 const empty=()=>document.createDocumentFragment();
 
 function normaliseSpelling(value){
-  let text=String(value??'');
-  const replacements=[
-    [/Sadashivam/gi,'Sadāśivam'],
-    [/Sadashiva/gi,'Sadāśiva'],
-    [/Shvestahsvara/gi,'Śvetāśvatara'],
-    [/Shvetashvara/gi,'Śvetāśvatara'],
-    [/Shvetashvatara/gi,'Śvetāśvatara'],
-    [/Sri[- ]Rudram/gi,'Śrī-Rudram'],
-    [/Shankaracharya/gi,'Śaṅkarācārya'],
-    [/Shankara/gi,'Śaṅkara'],
-    [/MahaNarayana/gi,'Mahānārāyaṇa'],
-    [/Narayana/gi,'Nārāyaṇa'],
-    [/Vaishnavism/gi,'Vaiṣṇavism'],
-    [/Vaishnava/gi,'Vaiṣṇava'],
-    [/Vaishnav/gi,'Vaiṣṇava'],
-    [/Shaivism/gi,'Śaivism'],
-    [/Shaiva/gi,'Śaiva'],
-    [/Shiva/gi,'Śiva'],
-    [/Vishnu/gi,'Viṣṇu'],
-    [/Krishna/gi,'Kṛṣṇa'],
-    [/Mahabharat/gi,'Mahābhārata'],
-    [/Bhagavat Gita/gi,'Bhagavad Gītā'],
-    [/Bhagavadgita/gi,'Bhagavad Gītā'],
-    [/Bhagavat Puran/gi,'Bhāgavata Purāṇa'],
-    [/Puranic/gi,'Purāṇic'],
-    [/Puranas/gi,'Purāṇas'],
-    [/Puran\b/gi,'Purāṇa'],
-    [/Purana/gi,'Purāṇa'],
-    [/Itihasas/gi,'Itihāsas'],
-    [/Itihasa/gi,'Itihāsa'],
-    [/Dharmashastras/gi,'Dharmaśāstras'],
-    [/Dharmashastra/gi,'Dharmaśāstra'],
-    [/Upanishads/gi,'Upaniṣads'],
-    [/Upanishad/gi,'Upaniṣad'],
-    [/Shruti/gi,'Śruti'],
-    [/Smriti/gi,'Smṛti'],
-    [/Mimamsa/gi,'Mīmāṃsā'],
-    [/Metholodogy/gi,'Methodology'],
-    [/Sattvika/gi,'sāttvika'],
-    [/Sattvic/gi,'sāttvic'],
-    [/Tamasika/gi,'tāmasika'],
-    [/Tamasic/gi,'tāmasic'],
-    [/Guna/gi,'guṇa'],
-    [/Ishvara/gi,'Īśvara'],
-    [/Devata/gi,'Devatā'],
-    [/Narad/gi,'Nārada'],
-    [/Garud\b/gi,'Garuḍa'],
-    [/Srimad/gi,'Śrīmad'],
-    [/Suta/gi,'Sūta'],
-    [/Purva[- ]Paksha/gi,'Pūrvapakṣa'],
-    [/Paratattva/gi,'Paratattva'],
-    [/\bsiva\b/gi,'Śiva'],
-    [/vishvottirnam/gi,'viśvottīrṇam'],
-    [/niranjanam/gi,'nirañjanam'],
-    [/Adi-rupam/gi,'Ādi-rūpam'],
-    [/maha-devam/gi,'mahā-devam'],
-    [/Karmakanda/gi,'Karmakāṇḍa'],
-    [/Jnana-kanda/gi,'jñāna-kāṇḍa'],
-    [/Kali Yuga/gi,'Kali Yuga'],
-    [/Prajapati/gi,'Prajāpati'],
-    [/Mahadeva/gi,'Mahādeva'],
-    [/Maheshvara/gi,'Maheśvara'],
-    [/Maheshvar/gi,'Maheśvara'],
-    [/Rama/gi,'Rāma'],
-    [/Ramayana/gi,'Rāmāyaṇa'],
-    [/Gita/gi,'Gītā'],
-    [/Garud Puran/gi,'Garuḍa Purāṇa'],
-    [/Padma Puran/gi,'Padma Purāṇa'],
-    [/Matsya Puran/gi,'Matsya Purāṇa'],
-    [/Kurma Puran/gi,'Kūrma Purāṇa'],
-    [/Skanda Puran/gi,'Skanda Purāṇa'],
-    [/Shiva Puran/gi,'Śiva Purāṇa'],
-    [/Bhagavat Puran/gi,'Bhāgavata Purāṇa']
-  ];
-  for(const [pattern,replacement] of replacements)text=text.replace(pattern,replacement);
-  text=text.replace(/Rāmayana/gu,'Rāmāyaṇa').replace(/Bhāgavat\s+Purāṇa/gu,'Bhāgavata Purāṇa');
-  return text;
+  /* The article uses plain English for all Roman text. Sanskrit source text
+     stays in Devanagari and is only rendered by the Sanskrit control. */
+  return String(value??'')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g,'')
+    .replace(/[ß]/g,'ss')
+    .replace(/[æ]/gi,'ae')
+    .replace(/[œ]/gi,'oe');
 }
 
 function articleText(value){
@@ -129,19 +60,17 @@ function sentenceTitle(value){
     .trim();
   if(!text)return '';
   text=text.toLocaleLowerCase();
-  const proper=[
-    ['śiva','Śiva'],['śaiva','Śaiva'],['viṣṇu','Viṣṇu'],['vaiṣṇava','Vaiṣṇava'],
-    ['rāma','Rāma'],['kṛṣṇa','Kṛṣṇa'],['mahādeva','Mahādeva'],['maheśvara','Maheśvara'],
-    ['nārayāṇa','Nārāyaṇa'],['mahānārāyaṇa','Mahānārāyaṇa'],['śvetāśvatara','Śvetāśvatara'],
-    ['upaniṣad','Upaniṣad'],['upaniṣads','Upaniṣads'],['purāṇa','Purāṇa'],['purāṇas','Purāṇas'],
-    ['padma','Padma'],['garuḍa','Garuḍa'],['bhāgavata','Bhāgavata'],['matsya','Matsya'],['kūrma','Kūrma'],
-    ['skanda','Skanda'],['śruti','Śruti'],['smṛti','Smṛti'],['gītā','Gītā'],['itihāsa','Itihāsa'],
-    ['itihāsas','Itihāsas'],['dharmaśāstra','Dharmaśāstra'],['dharmaśāstras','Dharmaśāstras'],
-    ['pūrvapakṣa','Pūrvapakṣa'],['mīmāṃsā','Mīmāṃsā'],['śaṅkara','Śaṅkara'],['śaṅkarācārya','Śaṅkarācārya'],
-    ['adi','Ādi'],['hara','Hara'],['yajurveda','Yajurveda'],['bhagavad','Bhagavad']
-  ];
-  for(const [from,to] of proper)text=text.replace(new RegExp('(?<!\\p{L})'+from+'(?!\\p{L})','gu'),to);
-  text=text.replace(/^(\s*["“‘'(]*)([\p{L}])/u,(_,prefix,letter)=>prefix+letter.toLocaleUpperCase());
+  const proper=['shiva','shaiva','vishnu','vaishnava','narayana','mahanarayana',
+    'rama','krishna','mahadeva','maheshvara','svetashvatara','upanishad','upanishads',
+    'purana','puranas','padma','garuda','bhagavata','matsya','kurma','skanda','shruti',
+    'smriti','gita','itihasa','itihasas','dharmashastra','dharmashastras','purvapaksha',
+    'mimamsa','shankara','shankaracharya','adi','hara','yajurveda','bhagavad','karmakanda',
+    'jnana','sattvic','sattvika','tamasic','tamasika'];
+  for(const word of proper){
+    const title=word.charAt(0).toUpperCase()+word.slice(1);
+    text=text.replace(new RegExp('(?<![a-z])'+word+'(?![a-z])','gi'),title);
+  }
+  text=text.replace(/^(\s*["“‘'(]*)([a-z])/u,(_,prefix,letter)=>prefix+letter.toUpperCase());
   return text;
 }
 
@@ -159,6 +88,13 @@ function cleanSanskrit(value){
   return text;
 }
 
+const devanagariRun=/(?:[॥।]\s*)?[\u0900-\u097F][\u0900-\u097F\s।॥०-९|,.;:!?()\-–—\u200c\u200d]*[\u0900-\u097F।॥]/gu;
+
+function invocationTransliteration(text){
+  if(!/शिवपरमत्वसाधनम्/u.test(text))return '';
+  return 'Sadashivam ajam nityam vishvottirnam niranjanam Adi rupam maha devam vande Shiva paratva siddhaye';
+}
+
 function sanskrit(value){
   const text=cleanSanskrit(value);
   if(!text)return empty();
@@ -167,8 +103,30 @@ function sanskrit(value){
   const source=make('div',null,text);
   source.lang='sa-Deva';
   details.append(summary,source);
+  const roman=invocationTransliteration(text);
+  if(roman)details.append(make('div','sanskrit-transliteration',roman));
   details.addEventListener('toggle',()=>{summary.textContent=details.open?'Hide Sanskrit':'Show Sanskrit';});
   return details;
+}
+
+function mixedSanskrit(value,mode='paragraph'){
+  const visible=articleText(value);
+  const matches=[...visible.matchAll(devanagariRun)];
+  if(!matches.length)return null;
+  const fragment=document.createDocumentFragment();
+  let cursor=0;
+  const appendEnglish=part=>{
+    const text=part.replace(/[“"]\s*$/u,'').replace(/^\s*[“"]/u,'').trim();
+    if(!text)return;
+    fragment.append(mode==='translation'?translation(text):make('p',null,text));
+  };
+  for(const match of matches){
+    appendEnglish(visible.slice(cursor,match.index));
+    fragment.append(sanskrit(match[0]));
+    cursor=match.index+match[0].length;
+  }
+  appendEnglish(visible.slice(cursor));
+  return fragment;
 }
 
 function translation(value){
@@ -196,25 +154,25 @@ function normaliseMajorHeading(value){
   if(/^\s*index\b/i.test(raw))return {id:'index',title:'Contents'};
   const titles={
     1:'Preface',
-    2:'On guṇa-based Purāṇa classification',
-    3:'Viṣṇu as tāmasic and Śiva as sāttvic',
+    2:'On guna based Purana classification',
+    3:'Vishnu as tamasic and Shiva as sattvic',
     4:'Double standards on absolute and relative supremacy',
-    5:'Evidence from Śruti on the supremacy of Śiva',
-    6:'Supremacy of Śiva in itihāsas',
-    7:'Pūrvapakṣa: Mahānārāyaṇa Upaniṣad on the supposed supremacy of Viṣṇu',
+    5:'Evidence from Shruti on the supremacy of Shiva',
+    6:'Supremacy of Shiva in itihasas',
+    7:'Purva paksha: Mahanarayana Upanishad on the supposed supremacy of Vishnu',
     8:'Addressing the scope-of-questions argument',
-    9:'Supremacy of Śiva in Dharmaśāstras'
+    9:'Supremacy of Shiva in Dharmashastras'
   };
   const title=titles[number]||sentenceTitle(raw);
-  const prefix=number===6?'6.1 Lord Rāma on the supremacy of Śiva':null;
+  const prefix=number===6?'6.1 Lord Rama on the supremacy of Shiva':null;
   return {id:number?'section-'+number:'section-'+title.toLowerCase().replace(/[^a-z0-9]+/g,'-'),title,number,prefix};
 }
 
 function sectionGroup(number){
   if(number===null)return 'Opening';
-  if(number<=3)return 'Introduction and Purāṇas';
+  if(number<=3)return 'Introduction and Puranas';
   if(number<=6)return 'Scriptural evidence';
-  return 'Objections and Dharmaśāstra';
+  return 'Objections and Dharmashastra';
 }
 
 function sectionsFrom(pages){
@@ -289,13 +247,14 @@ function renderQuote(value){
   if(!visible)return empty();
   const inlineQuote=visible.match(/^([\s\S]*?\|\|\s*)([“\"][\s\S]+)$/);
   if(inlineQuote){
-    const fragment=document.createDocumentFragment();
-    fragment.append(reference(inlineQuote[1].trim()));
-    fragment.append(translation(inlineQuote[2]));
-    return fragment;
+    /* The Roman line belongs with the Sanskrit reveal, never as a separate
+       teal citation in the article flow. */
+    return translation(inlineQuote[2]);
   }
+  const mixed=mixedSanskrit(value,'translation');
+  if(mixed)return mixed;
   if(/^(?:english(?:\s+translation)?|translation)\s*:?[.]?$/i.test(visible))return reference('English translation');
-  if(/^(?:Bhagavadgītā|Laugakṣī|Laugakshi)\b/i.test(visible))return reference(visible);
+  if(/^(?:Bhagavadgita|Laugaksi)\b/i.test(visible))return reference(visible);
   const withoutLabel=visible.replace(/^\s*(?:English\s+)?translation\s*:\s*/i,'').trim();
   if(!withoutLabel)return empty();
   const noteAt=withoutLabel.search(/\s+NOTE\s*:\s*/i);
@@ -351,7 +310,9 @@ function renderParagraph(value,section){
   if(/^\s*\d{1,2}\.\d{1,2}(?:\.\d+)?\s+/.test(visible)&&visible.length<220){
     return make('h3',null,sentenceTitle(visible));
   }
-  if(/^(?:bhagavadgītā|laugakṣī|laugakshi)\b/i.test(visible)&&visible.length<100)return reference(visible);
+  if(/^(?:bhagavadgita|laugaksi)\b/i.test(visible)&&visible.length<100)return reference(visible);
+  const mixed=mixedSanskrit(value,/^\s*\(?translation\s*:/i.test(String(value??''))?'translation':'paragraph');
+  if(mixed)return mixed;
   if(/^[“"]/.test(visible)&&visible.length>40)return translation(visible);
   return make('p',null,visible);
 }
@@ -363,7 +324,7 @@ function renderBlock(block,section){
   if(block.kind==='subheading')return make('h3',null,sentenceTitle(block.value));
   if(block.kind==='p'){
     const visible=articleText(block.value);
-    if(section==='opening'&&/^a scripture-based case for the supremacy of śiva$/i.test(visible))return empty();
+    if(section==='opening'&&/^a scripture-based case for the supremacy of shiva$/i.test(visible))return empty();
     return renderParagraph(block.value,section);
   }
   return make('p',null,articleText(block.value));
@@ -437,7 +398,7 @@ async function render(){
   document.getElementById('section-count').textContent='Section '+(index+1)+' of '+sections.length;
   navLink(document.getElementById('page-prev'),sections[index-1],'Previous');
   navLink(document.getElementById('page-next'),sections[index+1],'Next');
-  document.title=selected.title+' — A Scripture-Based Case for the Supremacy of Śiva — Viveka Dṛṣṭi';
+  document.title=selected.title+' — A Scripture-Based Case for the Supremacy of Shiva — Viveka Drsti';
   const content=document.createDocumentFragment();
   content.append(make('h3',null,selected.title));
   for(const block of selected.blocks)content.append(renderBlock(block,selected.id));
