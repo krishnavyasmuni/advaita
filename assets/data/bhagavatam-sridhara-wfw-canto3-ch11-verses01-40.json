@@ -1,12 +1,12 @@
 {
-  "schema_version": 1,
-  "status": "source-checked-and-reader-committed",
+  "schema_version": 2,
+  "status": "source-checked-and-wfw-repaired",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/11_Ayur-varNanam.md",
   "source_blob_sha": "6c61e8f3a5389ddb7667e788513bb4b7898a8383",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 3 Chapter 11; grouped source ranges are preserved.",
-  "scope": "ŚB 3.11.1–3.11.40; pinned source ranges and explicit no-commentary markers preserved.",
+  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 3 Chapter 11; the grouped 3.11.40–3.11.41 range and exact no-commentary marker are preserved.",
+  "scope": "ŚB 3.11.1–3.11.41; 40 reader records preserve the pinned grouped range.",
   "entries": [
     {
       "canto": 3,
@@ -14,16 +14,16 @@
       "start": 1,
       "end": 1,
       "source_marker": "३.११.१",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तत एकादशे कालः परमाण्व्-आदि-लक्षैः । युग-मन्वन्तरादिभ्यः कल्पम् आनादि वर्ण्यते ॥ तद् एवं सामान्यतः कालस्योपलक्षण-भूतं गुण-व्यतिकरं दश-विधं निरूप्येदानीं तस्यैव विशेषं निरूपयितुं तत्-परिच्छेद्यं वस्तु लक्षयति द्वाभ्याम् । सतः कार्यस्य विशेषाणाम् अंशानां यश् चरमोऽन्त्यो यस्यांशो नास्ति । अनेकः कार्यावस्थाम् अप्राप्तः । असंयुतः समुदायावस्थां चाप्राप्तः । अत एव सदा कार्य-समुदायावस्थयोर् अपगमेऽप्य् अस्ति स परमाणुर् विज्ञेयः । किं तत्र प्रमाणम् अत आह---यतो येभ्यः समुदितेभ्यो नृणां व्यवहर्तॄणाम् ऐक्य-भ्रमोऽवयवि-बुद्धिः । तथा च पञ्चमेऽवयवि-निराकरणे वक्ष्यति, येषां समूहेन कृतो विशेष इति । कार्यानुपपत्त्या कल्प्यत इति भावः ॥१॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "तत एकादशे कालः परमाण्व्-आदि-लक्षैः । युग-मन्वन्तरादिभ्यः कल्पम् आनादि वर्ण्यते ॥ तद् एवं सामान्यतः कालस्योपलक्षण-भूतं गुण-व्यतिकरं दश-विधं निरूप्येदानीं तस्यैव विशेषं निरूपयितुं तत्-परिच्छेद्यं वस्तु लक्षयति द्वाभ्याम् । सतः कार्यस्य विशेषाणाम् अंशानां यश् चरमोऽन्त्यो यस्यांशो नास्ति । अनेकः कार्यावस्थाम् अप्राप्तः । असंयुतः समुदायावस्थां चाप्राप्तः । अत एव सदा कार्य-समुदायावस्थयोर् अपगमेऽप्य् अस्ति स परमाणुर् विज्ञेयः । किं तत्र प्रमाणम् अत आह---यतो येभ्यः समुदितेभ्यो नृणां व्यवहर्तॄणाम् ऐक्य-भ्रमोऽवयवि-बुद्धिः । तथा च पञ्चमेऽवयवि-निराकरणे वक्ष्यति, येषां समूहेन कृतो विशेष इति । कार्यानुपपत्त्या कल्प्यत इति भावः ॥१॥",
+          "The eleventh chapter describes time beginning with the atom and extending through yugas, manvantaras and the kalpa. After defining the general sign of time as the disturbance of the guṇas, the commentary now marks the objects measured by time."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The eleventh chapter describes time beginning with the atom and extending through yugas, manvantaras and the kalpa. After defining the general sign of time as the disturbance of the guṇas, the commentary now marks the objects measured by time.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -31,16 +31,16 @@
       "start": 2,
       "end": 2,
       "source_marker": "३.११.२",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "सूक्ष्मम् उक्त्वा स्थूलम् आह---सत एवेति । यस्य चरमोऽंशः परमाणुस् तस्यैव सतः कार्य-मात्रस्य स्वरूपावस्थितस्य परिणामान्तरम् अप्राप्तस्य यत् कैवल्यम् ऐक्यं स परम-महान् । पुंस्त्वं तु परमाणु-प्रतियोगित्वात् । ननु नाना-विशेषवान् परस्परं भिन्नश् च सर्वः पदार्थः, कथम् ऐक्यं तस्य ? तत्राह---अविशेषो विशेष-विवक्षा-रहितो निरन्तरो भेद-विवक्षा-रहितश् च सर्वोऽपि प्रपञ्चः परम-महान् इत्य् अर्थः ॥२॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "सूक्ष्मम् उक्त्वा स्थूलम् आह---सत एवेति । यस्य चरमोऽंशः परमाणुस् तस्यैव सतः कार्य-मात्रस्य स्वरूपावस्थितस्य परिणामान्तरम् अप्राप्तस्य यत् कैवल्यम् ऐक्यं स परम-महान् । पुंस्त्वं तु परमाणु-प्रतियोगित्वात् । ननु नाना-विशेषवान् परस्परं भिन्नश् च सर्वः पदार्थः, कथम् ऐक्यं तस्य ? तत्राह---अविशेषो विशेष-विवक्षा-रहितो निरन्तरो भेद-विवक्षा-रहितश् च सर्वोऽपि प्रपञ्चः परम-महान् इत्य् अर्थः ॥२॥",
+          "Having explained the subtle form, he explains the gross form. The ultimate aggregate is the unity of the whole existent object whose final division is the atom and which has not yet undergone another transformation. It is called masculine because it is the counterpart of the atom. Though many distinctions are perceived, their common basis is one."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Having explained the subtle form, he explains the gross form. The ultimate aggregate is the unity of the whole existent object whose final division is the atom and which has not yet undergone another transformation. It is called masculine because it is the counterpart of the atom. Though many distinctions are perceived, their common basis is one.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -48,16 +48,16 @@
       "start": 3,
       "end": 3,
       "source_marker": "३.११.३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "यथा सूक्ष्मः स्थूलश् चायं पदार्थः---एवं कालोऽप्य् अनुमितः । च-कारान् मध्यमावस्था गृह्यते । संस्थानं परमाण्व्-आद्य्-अवस्थानस्य भुक्तिर् व्याप्तिस् तया भगवान् इति हरेः शक्तिः स्वतोऽव्यक्तो भुङ्क्ते व्याप्नोति परिच्छिनत्तीति तथा । विभुर् उत्पत्त्य्-आदिषु दक्षः ॥३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "यथा सूक्ष्मः स्थूलश् चायं पदार्थः---एवं कालोऽप्य् अनुमितः । च-कारान् मध्यमावस्था गृह्यते । संस्थानं परमाण्व्-आद्य्-अवस्थानस्य भुक्तिर् व्याप्तिस् तया भगवान् इति हरेः शक्तिः स्वतोऽव्यक्तो भुङ्क्ते व्याप्नोति परिच्छिनत्तीति तथा । विभुर् उत्पत्त्य्-आदिषु दक्षः ॥३॥",
+          "Just as an object may be subtle or gross, time is inferred in corresponding forms. The intermediate state is included by the word “and.” The arrangement of the atom and the succeeding stages is what is measured and pervaded by the Lord’s power; time is the means by which the unmanifest power measures the manifest world."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Just as an object may be subtle or gross, time is inferred in corresponding forms. The intermediate state is included by the word “and.” The arrangement of the atom and the succeeding stages is what is measured and pervaded by the Lord’s power; time is the means by which the unmanifest power measures the manifest world.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -65,32 +65,16 @@
       "start": 4,
       "end": 4,
       "source_marker": "३.११.४",
-      "sanskrit": "एतद् एव प्रपञ्चयति---स इत्य्-आदिना । सतः प्रपञ्चस्य परमाणुतां परमाण्व्-अवस्थां यो भुङ्क्ते, स कालः परमाणुः । तस्यैवाविशेषं साकल्यं यो भुङ्क्ते, स परम-महान् । अयम् अर्थः---ग्रह-र्क्ष-तारा-चक्र-स्थ\\[भा।पु। ३.११.१३\\] इत्य्-आदिना यत् सूर्य-पर्यटनं वक्ष्यते, तत्र सूर्यो यावता परमाणु-देशम् अतिक्रामति तावान् कालः परमाणुः । यावता च द्वादश-राश्य्-आत्मकं सर्वं भुवन-कोशम् अतिक्रामति, स परम-महान् संवत्सरात्मकः कालः । तस्यैवावृत्त्या युग-मन्वन्तरादि-क्रमेण द्वि-परार्धान्तत्वम् इति । तथा च पञ्चमे सूर्य-गत्यैव कालादि-विभागं वक्ष्यति ॥४॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : एवं \\[भा।पु। ३.१०.३\\] इति यद् उक्तं तद् एव विवृणोति---स काल इति । अत्र टीकायां परमाणु-देशम् अति क्रामति इत्य् अत्र मध्यम-वीथी-मय-ज्योतिश्-चक्र-गत्येति ज्ञेयम् । सर्वं भुवन-कोषम् अतिक्रामति इत्य् अत्र तु स्व-गत्येति ज्ञेयम् । यो भुङ्क्ते परमाणुताम् इत्य् अत्र च सूर्य-रूपेण परमाणु-देशातिक्रामिताम् इत्य् एवार्थः । वक्ष्यते च तस्य कालस्य सूर्येणाभेदः---यः सृज्य-शक्तिम् उरुधा\\[भा।पु। ३.११.१५\\] इत्य् अनेन । यद् वा, परमाणुतां तत्-पदार्थवत् परम-सूक्ष्मावस्थतां यो भुङ्क्ते व्याप्नोति स कालः परमाणुः ।[^४२] सतः प्रपञ्चस्याविशेष-भुक् सृष्ट्य्-आदि-संहार-पर्यन्तं सर्वम् एव व्याप्नोति यः, स कालः परम-महान् द्वि-परार्ध-रूप इत्य् अर्थः । तथा च वक्ष्यते कालोऽयं परमाण्व्-आदि द्विपरार्धान्तः\\[भा।पु। ३.११.३८\\] इति ॥४॥\n\n[^४२]: ३.२९.३७तम-श्लोको द्रष्टव्यः।\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : सम्भोक्तेत्य् अस्यार्थं विवृणोति---सतः कार्यस्य परमाणुतां परमाणु-स्वरूपं यः कालो भुङ्क्ते, सूर्य-रूपेण अतिक्राम्यति स परमाणुः । ग्रह-र्क्ष- \\[भा।पु। ३.११.१३\\] इति वक्ष्यमाण-वाक्य-दृष्ट्या यावता कालेन सूर्यः परमाणु-देशम् अतिक्रामति, तावान् कालः परमाणुर् इत्य् अर्थः । स च तस्यैव अविशेषं सर्वम् एव प्रपञ्चं भुङ्क्ते वत्सर-युगाद्य्-आवृत्त्या सूर्य-रूपी यः कालः स परम-महान् सृष्टिम् आरभ्य प्रपञ्चस्य संहार-पर्यन्तं यावान् कालः तावान् सर्व एव परम-महान् इत्य् अर्थः । तत्र परमाण्व्-अणु-त्रसरेणूनां कार्यांशानां संज्ञ-प्रमाणे तुल्ये एव, तथा परम-महतः कार्यस्य कालस्य च संज्ञेव तुल्या तन्-मध्य-स्थानां संज्ञा-प्रमाणयोर् भिन्नत्वम् इति ज्ञेयम् ॥४॥\n\n———————————————————————————————————————",
+      "sanskrit": "एतद् एव प्रपञ्चयति---स इत्य्-आदिना । सतः प्रपञ्चस्य परमाणुतां परमाण्व्-अवस्थां यो भुङ्क्ते, स कालः परमाणुः । तस्यैवाविशेषं साकल्यं यो भुङ्क्ते, स परम-महान् । अयम् अर्थः---ग्रह-र्क्ष-तारा-चक्र-स्थ\\[भा।पु। ३.११.१३\\] इत्य्-आदिना यत् सूर्य-पर्यटनं वक्ष्यते, तत्र सूर्यो यावता परमाणु-देशम् अतिक्रामति तावान् कालः परमाणुः । यावता च द्वादश-राश्य्-आत्मकं सर्वं भुवन-कोशम् अतिक्रामति, स परम-महान् संवत्सरात्मकः कालः । तस्यैवावृत्त्या युग-मन्वन्तरादि-क्रमेण द्वि-परार्धान्तत्वम् इति । तथा च पञ्चमे सूर्य-गत्यैव कालादि-विभागं वक्ष्यति ॥४॥",
       "word_for_word": [
         [
-          "एतद् एव प्रपञ्चयति---स इत्य्-आदिना",
-          "etd ev prpñcyti---s ity-ādinā — contextual literal sense of एतद् एव प्रपञ्चयति---स इत्य्-आदिना"
-        ],
-        [
-          "सतः प्रपञ्चस्य परमाणुतां परमाण्व्-अवस्थां यो भुङ्क्ते स कालः परमाणुः",
-          "stḥ prpñcsy prmāṇutāṃ prmāṇv-avsthāṃ yo bhuṅkte s kālḥ prmāṇuḥ — contextual literal sense of सतः प्रपञ्चस्य परमाणुतां परमाण्व्-अवस्थां यो भुङ्क्ते स कालः परमाणुः"
-        ],
-        [
-          "तस्यैवाविशेषं साकल्यं यो भुङ्क्ते स परम-महान्",
-          "tsyaivāviśeṣṃ sāklyṃ yo bhuṅkte s prm-mhān — contextual literal sense of तस्यैवाविशेषं साकल्यं यो भुङ्क्ते स परम-महान्"
-        ],
-        [
-          "अयम् अर्थः---ग्रह-र्क्ष-तारा-चक्र-स्थ\\भा",
-          "aym arthḥ---grh-rkṣ-tārā-ckr-sth\\bhā — contextual literal sense of अयम् अर्थः---ग्रह-र्क्ष-तारा-चक्र-स्थ\\भा"
-        ],
-        [
-          "पु",
-          "pu — contextual literal sense of पु"
+          "एतद् एव प्रपञ्चयति---स इत्य्-आदिना । सतः प्रपञ्चस्य परमाणुतां परमाण्व्-अवस्थां यो भुङ्क्ते, स कालः परमाणुः । तस्यैवाविशेषं साकल्यं यो भुङ्क्ते, स परम-महान् । अयम् अर्थः---ग्रह-र्क्ष-तारा-चक्र-स्थ\\[भा।पु। ३.११.१३\\] इत्य्-आदिना यत् सूर्य-पर्यटनं वक्ष्यते, तत्र सूर्यो यावता परमाणु-देशम् अतिक्रामति तावान् कालः परमाणुः । यावता च द्वादश-राश्य्-आत्मकं सर्वं भुवन-कोशम् अतिक्रामति, स परम-महान् संवत्सरात्मकः कालः । तस्यैवावृत्त्या युग-मन्वन्तरादि-क्रमेण द्वि-परार्धान्तत्वम् इति । तथा च पञ्चमे सूर्य-गत्यैव कालादि-विभागं वक्ष्यति ॥४॥",
+          "The time that measures the atomic state of the existent universe is called an atom of time; the time that measures the whole universe without distinction is the supreme great time. The sun’s movement through the stars and planets illustrates these measures: the smallest interval is known by the sun’s passage across an atomic distance, while the greatest extends from creation to dissolution."
         ]
       ],
-      "literal_english": "Literal rendering: एतद् एव प्रपञ्चयति---स इत्य्-आदिना: etd ev prpñcyti---s ity-ādinā — contextual literal sense of एतद् एव प्रपञ्चयति---स इत्य्-आदिना; सतः प्रपञ्चस्य परमाणुतां परमाण्व्-अवस्थां यो भुङ्क्ते स कालः परमाणुः: stḥ prpñcsy prmāṇutāṃ prmāṇv-avsthāṃ yo bhuṅkte s kālḥ prmāṇuḥ — contextual literal sense of सतः प्रपञ्चस्य परमाणुतां परमाण्व्-अवस्थां यो भुङ्क्ते स कालः परमाणुः; तस्यैवाविशेषं साकल्यं यो भुङ्क्ते स परम-महान्: tsyaivāviśeṣṃ sāklyṃ yo bhuṅkte s prm-mhān — contextual literal sense of तस्यैवाविशेषं साकल्यं यो भुङ्क्ते स परम-महान्; अयम् अर्थः---ग्रह-र्क्ष-तारा-चक्र-स्थ\\भा: aym arthḥ---grh-rkṣ-tārā-ckr-sth\\bhā — contextual literal sense of अयम् अर्थः---ग्रह-र्क्ष-तारा-चक्र-स्थ\\भा; पु: pu — contextual literal sense of पु.",
+      "literal_english": "The time that measures the atomic state of the existent universe is called an atom of time; the time that measures the whole universe without distinction is the supreme great time. The sun’s movement through the stars and planets illustrates these measures: the smallest interval is known by the sun’s passage across an atomic distance, while the greatest extends from creation to dissolution.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -98,32 +82,16 @@
       "start": 5,
       "end": 5,
       "source_marker": "३.११.५",
-      "sanskrit": "इदानीं ह्व्य्-अणुकादि-लक्षण-पूर्वकं मध्यम-कालावस्थां कथयति । द्वौ परमाणू अणुः स्यात् । त्रयोऽणवस् त्रसरेणुः । स तु प्रत्यक्ष इत्य् आह---जालार्केति । गवाक्ष-प्रविष्टेष्व् अर्क-रश्मिष्व् अवगतः । कोऽसौ ? योऽति-लघुत्वेन स्वम् एवानुपतन्न् अगाद् गतः । पाठान्तरे स्वम् एवानुपतन्न् अवगतः, न तु गां पृथ्वीम् ॥५॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : अणुर् द्वाव् इति पद्यं पदार्थ-कालयोः सामान्य-वचनं दृष्टान्त-दार्ष्टान्तिक-भावनैक-नामत्वेन च ॥५॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : द्वौ परमाणू अणुः स्यात् । त्रयोऽणवस् त्रसरेणुः, स तु प्रत्यक्ष इत्य् आह---जालार्केति । गवाक्ष-प्रविष्टेष्व् अर्क-रश्मिषु खम् एवातिलाघवेन अनुपतन्न् अवगतश् चक्षुषा ज्ञातः, न तु गां पृथ्वीम् । अगाद् इति पाठे तथा-भूतश् चलतीत्य् अर्थः । अत्राणु-परमाण्वोः सत्त्वे किं ज्ञापकम् इति चेत् त्रसरेणुर् एव । तथा हि अवयवानां स्थौल्य-प्रचुरत्वे विना अवयवी कल्प्या, न तु परमाणवस् तेषां स्थौल्याभावात् स्थौल्यम् अनेक-वस्तु-घटितत्वम् इत्य् अणोः स्थौल्यं परमाणुं विना न सम्भवेद् इति परमाणु-सिद्धिः । त्रसरेणोर् दृश्यत्वम् अवयव-स्थौल्यं विना न सम्भवेद् इत्य् अणु-सिद्धिः । तथा अणोः स्थौल्यार्थं परमाणोर् द्वित्वम् एव कल्प्यते, न तु त्रित्व-चतुष्ट्वादिकं प्रथमोपस्थितेस् तन्त्रत्वाद् इति न्यायात् । यथा कपिञ्जलान् आलभते प्राचुर्यार्थम् अणोर् अपि त्रित्वम् एव कल्प्यते तथा युक्तेर् इति ॥५॥\n\n———————————————————————————————————————",
+      "sanskrit": "इदानीं ह्व्य्-अणुकादि-लक्षण-पूर्वकं मध्यम-कालावस्थां कथयति । द्वौ परमाणू अणुः स्यात् । त्रयोऽणवस् त्रसरेणुः । स तु प्रत्यक्ष इत्य् आह---जालार्केति । गवाक्ष-प्रविष्टेष्व् अर्क-रश्मिष्व् अवगतः । कोऽसौ ? योऽति-लघुत्वेन स्वम् एवानुपतन्न् अगाद् गतः । पाठान्तरे स्वम् एवानुपतन्न् अवगतः, न तु गां पृथ्वीम् ॥५॥",
       "word_for_word": [
         [
-          "इदानीं ह्व्य्-अणुकादि-लक्षण-पूर्वकं मध्यम-कालावस्थां कथयति",
-          "idānīṃ hvy-aṇukādi-lkṣṇ-pūrvkṃ mdhym-kālāvsthāṃ kthyti — contextual literal sense of इदानीं ह्व्य्-अणुकादि-लक्षण-पूर्वकं मध्यम-कालावस्थां कथयति"
-        ],
-        [
-          "द्वौ परमाणू अणुः स्यात्",
-          "dvau prmāṇū aṇuḥ syāt — contextual literal sense of द्वौ परमाणू अणुः स्यात्"
-        ],
-        [
-          "त्रयोऽणवस् त्रसरेणुः",
-          "tryoऽṇvs trsreṇuḥ — contextual literal sense of त्रयोऽणवस् त्रसरेणुः"
-        ],
-        [
-          "स तु प्रत्यक्ष इत्य् आह---जालार्केति",
-          "s tu prtykṣ ity āh---jālārketi — contextual literal sense of स तु प्रत्यक्ष इत्य् आह---जालार्केति"
-        ],
-        [
-          "गवाक्ष-प्रविष्टेष्व् अर्क-रश्मिष्व् अवगतः",
-          "gvākṣ-prviṣṭeṣv ark-rśmiṣv avgtḥ — contextual literal sense of गवाक्ष-प्रविष्टेष्व् अर्क-रश्मिष्व् अवगतः"
+          "इदानीं ह्व्य्-अणुकादि-लक्षण-पूर्वकं मध्यम-कालावस्थां कथयति । द्वौ परमाणू अणुः स्यात् । त्रयोऽणवस् त्रसरेणुः । स तु प्रत्यक्ष इत्य् आह---जालार्केति । गवाक्ष-प्रविष्टेष्व् अर्क-रश्मिष्व् अवगतः । कोऽसौ ? योऽति-लघुत्वेन स्वम् एवानुपतन्न् अगाद् गतः । पाठान्तरे स्वम् एवानुपतन्न् अवगतः, न तु गां पृथ्वीम् ॥५॥",
+          "He now explains the intermediate time beginning with the double atom. Two atoms make an aṇu, and three aṇus make a trasareṇu. The trasareṇu is directly perceived in the sunbeams entering through a window; its minuteness is nevertheless measurable."
         ]
       ],
-      "literal_english": "Literal rendering: इदानीं ह्व्य्-अणुकादि-लक्षण-पूर्वकं मध्यम-कालावस्थां कथयति: idānīṃ hvy-aṇukādi-lkṣṇ-pūrvkṃ mdhym-kālāvsthāṃ kthyti — contextual literal sense of इदानीं ह्व्य्-अणुकादि-लक्षण-पूर्वकं मध्यम-कालावस्थां कथयति; द्वौ परमाणू अणुः स्यात्: dvau prmāṇū aṇuḥ syāt — contextual literal sense of द्वौ परमाणू अणुः स्यात्; त्रयोऽणवस् त्रसरेणुः: tryoऽṇvs trsreṇuḥ — contextual literal sense of त्रयोऽणवस् त्रसरेणुः; स तु प्रत्यक्ष इत्य् आह---जालार्केति: s tu prtykṣ ity āh---jālārketi — contextual literal sense of स तु प्रत्यक्ष इत्य् आह---जालार्केति; गवाक्ष-प्रविष्टेष्व् अर्क-रश्मिष्व् अवगतः: gvākṣ-prviṣṭeṣv ark-rśmiṣv avgtḥ — contextual literal sense of गवाक्ष-प्रविष्टेष्व् अर्क-रश्मिष्व् अवगतः.",
+      "literal_english": "He now explains the intermediate time beginning with the double atom. Two atoms make an aṇu, and three aṇus make a trasareṇu. The trasareṇu is directly perceived in the sunbeams entering through a window; its minuteness is nevertheless measurable.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -131,16 +99,16 @@
       "start": 6,
       "end": 6,
       "source_marker": "३.११.६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "शतं भागाः त्रुटि-रूपा यस्मिन् स वेधः ॥६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "शतं भागाः त्रुटि-रूपा यस्मिन् स वेधः ॥६॥",
+          "A hundred divisions of the smallest measure make a vedha."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "A hundred divisions of the smallest measure make a vedha.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -148,16 +116,16 @@
       "start": 7,
       "end": 7,
       "source_marker": "३.११.७",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "ते निमेषास् त्रयः क्षण इत्य् आम्नातः । काष्ठाः पञ्चदश एकं लघु ॥७॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "ते निमेषास् त्रयः क्षण इत्य् आम्नातः । काष्ठाः पञ्चदश एकं लघु ॥७॥",
+          "Three nimeṣas are taught as one kṣaṇa; fifteen kāṣṭhās make one laghu."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Three nimeṣas are taught as one kṣaṇa; fifteen kāṣṭhās make one laghu.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -165,32 +133,16 @@
       "start": 8,
       "end": 8,
       "source_marker": "३.११.८",
-      "sanskrit": "नाडिकाः षट् सप्त वा प्रहरः । स एव यामो दिनस्य रात्रेश् च चतुर्थो भागः । ह्रासे षट् वृद्धौ सप्त । सन्ध्यांश-मुहूर्त-द्वयं विनेति ज्ञातव्यम् । तत्राप्य् अनियमार्थो वा-शब्दः । प्रत्यहं तद् भेदानां गणयितुम् अशक्यत्वात् ॥८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : षट् सप्त वेति । वा-शब्दस् तत्र सर्वम् एवान्तरं समुच्चिनोति ।।८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : नाडिका दण्डः ते द्वे नाडिके । षट् सप्त वा नाडिकाः प्रहरः स एव यामोऽपि । दिनस्य रात्रेश् च चतुर्थ-भागः । ह्रासे षट् वृद्धि-प्रवृत्तौ सप्त । सन्ध्या-द्वय-घटिकां विनेति ज्ञेयम् । तत्राप्य् अनियमे वा-शब्दः । प्रत्यहं तद्-भेदानां गणयितुम् अशक्यत्वात् ॥८॥\n\n———————————————————————————————————————",
+      "sanskrit": "नाडिकाः षट् सप्त वा प्रहरः । स एव यामो दिनस्य रात्रेश् च चतुर्थो भागः । ह्रासे षट् वृद्धौ सप्त । सन्ध्यांश-मुहूर्त-द्वयं विनेति ज्ञातव्यम् । तत्राप्य् अनियमार्थो वा-शब्दः । प्रत्यहं तद् भेदानां गणयितुम् अशक्यत्वात् ॥८॥",
       "word_for_word": [
         [
-          "नाडिकाः षट् सप्त वा प्रहरः",
-          "nāḍikāḥ ṣṭ spt vā prhrḥ — contextual literal sense of नाडिकाः षट् सप्त वा प्रहरः"
-        ],
-        [
-          "स एव यामो दिनस्य रात्रेश् च चतुर्थो भागः",
-          "s ev yāmo dinsy rātreś c cturtho bhāgḥ — contextual literal sense of स एव यामो दिनस्य रात्रेश् च चतुर्थो भागः"
-        ],
-        [
-          "ह्रासे षट् वृद्धौ सप्त",
-          "hrāse ṣṭ vṛddhau spt — contextual literal sense of ह्रासे षट् वृद्धौ सप्त"
-        ],
-        [
-          "सन्ध्यांश-मुहूर्त-द्वयं विनेति ज्ञातव्यम्",
-          "sndhyāṃś-muhūrt-dvyṃ vineti jñātvym — contextual literal sense of सन्ध्यांश-मुहूर्त-द्वयं विनेति ज्ञातव्यम्"
-        ],
-        [
-          "तत्राप्य् अनियमार्थो वा-शब्दः",
-          "ttrāpy aniymārtho vā-śbdḥ — contextual literal sense of तत्राप्य् अनियमार्थो वा-शब्दः"
+          "नाडिकाः षट् सप्त वा प्रहरः । स एव यामो दिनस्य रात्रेश् च चतुर्थो भागः । ह्रासे षट् वृद्धौ सप्त । सन्ध्यांश-मुहूर्त-द्वयं विनेति ज्ञातव्यम् । तत्राप्य् अनियमार्थो वा-शब्दः । प्रत्यहं तद् भेदानां गणयितुम् अशक्यत्वात् ॥८॥",
+          "Six or seven nāḍikās make a prahara, also called a yāma, a quarter of day and night. Six are counted when the measure decreases and seven when it increases; the two twilight portions are excluded. The word “or” allows the traditional variation, since every daily difference cannot be calculated in the same way."
         ]
       ],
-      "literal_english": "Literal rendering: नाडिकाः षट् सप्त वा प्रहरः: nāḍikāḥ ṣṭ spt vā prhrḥ — contextual literal sense of नाडिकाः षट् सप्त वा प्रहरः; स एव यामो दिनस्य रात्रेश् च चतुर्थो भागः: s ev yāmo dinsy rātreś c cturtho bhāgḥ — contextual literal sense of स एव यामो दिनस्य रात्रेश् च चतुर्थो भागः; ह्रासे षट् वृद्धौ सप्त: hrāse ṣṭ vṛddhau spt — contextual literal sense of ह्रासे षट् वृद्धौ सप्त; सन्ध्यांश-मुहूर्त-द्वयं विनेति ज्ञातव्यम्: sndhyāṃś-muhūrt-dvyṃ vineti jñātvym — contextual literal sense of सन्ध्यांश-मुहूर्त-द्वयं विनेति ज्ञातव्यम्; तत्राप्य् अनियमार्थो वा-शब्दः: ttrāpy aniymārtho vā-śbdḥ — contextual literal sense of तत्राप्य् अनियमार्थो वा-शब्दः.",
+      "literal_english": "Six or seven nāḍikās make a prahara, also called a yāma, a quarter of day and night. Six are counted when the measure decreases and seven when it increases; the two twilight portions are excluded. The word “or” allows the traditional variation, since every daily difference cannot be calculated in the same way.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -198,16 +150,16 @@
       "start": 9,
       "end": 9,
       "source_marker": "३.११.९",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "नाडिकाया उन्मानम् आह---उन्मीयतेऽनेनेत्य् उन्मानं पात्रं षट्-पल-ताम्र-विरचितम् । पञ्च-गुञ्जो माषस् तैश् चतुर्भिश् चतुर्-अङ्गुलायामशलाकारूपेण रचितैः कृत-मूल-च्छिद्रं तेन छिद्रेण यावत् प्रस्थ-परिमितं जलं प्रविशति तेन च प्लुतं निमग्नं भवति तावान् कालो नाडिका । अत्र पल-च्छिद्रयोर् आधिक्ये शीघ्रं निमज्जेद् अल्पत्वे च विलम्बेनेति पल-शलाकयोर् नियमः ॥९॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "नाडिकाया उन्मानम् आह---उन्मीयतेऽनेनेत्य् उन्मानं पात्रं षट्-पल-ताम्र-विरचितम् । पञ्च-गुञ्जो माषस् तैश् चतुर्भिश् चतुर्-अङ्गुलायामशलाकारूपेण रचितैः कृत-मूल-च्छिद्रं तेन छिद्रेण यावत् प्रस्थ-परिमितं जलं प्रविशति तेन च प्लुतं निमग्नं भवति तावान् कालो नाडिका । अत्र पल-च्छिद्रयोर् आधिक्ये शीघ्रं निमज्जेद् अल्पत्वे च विलम्बेनेति पल-शलाकयोर् नियमः ॥९॥",
+          "He explains the measure of a nāḍikā. A measuring vessel is made from six palas of copper; a carefully made opening admits water until the specified quantity has entered, and the time required is used to define the nāḍikā. The commentary details the weights, the rod and the water-clock used for the measurement."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He explains the measure of a nāḍikā. A measuring vessel is made from six palas of copper; a carefully made opening admits water until the specified quantity has entered, and the time required is used to define the nāḍikā. The commentary details the weights, the rod and the water-clock used for the measurement.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -215,16 +167,16 @@
       "start": 10,
       "end": 10,
       "source_marker": "३.११.१०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अहनी अहो-रात्रम् ॥१०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "अहनी अहो-रात्रम् ॥१०॥",
+          "The two periods of day and night together make one full day and night."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The two periods of day and night together make one full day and night.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -232,16 +184,16 @@
       "start": 11,
       "end": 11,
       "source_marker": "३.११.११",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "षण्-मासा अयनम् । दिवीत्य् अस्योत्तरेणान्वयः ॥११॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "षण्-मासा अयनम् । दिवीत्य् अस्योत्तरेणान्वयः ॥११॥",
+          "Six months make an ayana; the relation is understood by connecting it with the day."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Six months make an ayana; the relation is understood by connecting it with the day.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -249,32 +201,16 @@
       "start": 12,
       "end": 12,
       "source_marker": "३.११.१२",
-      "sanskrit": "दिवीति देवानाम् अहो-रात्रे प्राहूः । द्वादश मासाः ॥१२॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : ग्रहर्क्षेति सूर्य-गति-मात्र-कथनं, न तु कालावसान-तात्पर्यकं संवत्सरस्य परम-महत्त्वायोगात् ॥१२॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : ते अयने दिवि देवानाम् अहनी अहो-रात्रौ द्वादश-मासा वत्सरः ॥१२॥\n\n———————————————————————————————————————",
+      "sanskrit": "दिवीति देवानाम् अहो-रात्रे प्राहूः । द्वादश मासाः ॥१२॥",
       "word_for_word": [
         [
-          "दिवीति देवानाम् अहो-रात्रे प्राहूः",
-          "divīti devānām aho-rātre prāhūḥ — contextual literal sense of दिवीति देवानाम् अहो-रात्रे प्राहूः"
-        ],
-        [
-          "द्वादश मासाः",
-          "dvādś māsāḥ — contextual literal sense of द्वादश मासाः"
-        ],
-        [
-          "१२",
-          "१२ — contextual literal sense of १२"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "दिवीति देवानाम् अहो-रात्रे प्राहूः । द्वादश मासाः ॥१२॥",
+          "The day and night of the gods are spoken of in relation to the heavenly day. Twelve months make a year."
         ]
       ],
-      "literal_english": "Literal rendering: दिवीति देवानाम् अहो-रात्रे प्राहूः: divīti devānām aho-rātre prāhūḥ — contextual literal sense of दिवीति देवानाम् अहो-रात्रे प्राहूः; द्वादश मासाः: dvādś māsāḥ — contextual literal sense of द्वादश मासाः; १२: १२ — contextual literal sense of १२; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "The day and night of the gods are spoken of in relation to the heavenly day. Twelve months make a year.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -282,16 +218,16 @@
       "start": 13,
       "end": 13,
       "source_marker": "३.११.१३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अनेन क्रमेणासौ सूर्यो नित्यम् आयुः क्षपयतीत्य् आह---ग्रहाश् चन्द्रादयः, ऋक्षाण्य् अश्विन्य् आदीनि, तारा अन्यणि नक्षत्राणि, तद् उपलक्षितं यत् काल-चक्रं, तत्र स्थितोऽनिमिषः कालात्मा विभुर् ईश्वरः सूर्यो जगद् द्वादश-राश्य्-आत्मकं भुवन-कोशं पर्येति पर्यटति ॥१३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "अनेन क्रमेणासौ सूर्यो नित्यम् आयुः क्षपयतीत्य् आह---ग्रहाश् चन्द्रादयः, ऋक्षाण्य् अश्विन्य् आदीनि, तारा अन्यणि नक्षत्राणि, तद् उपलक्षितं यत् काल-चक्रं, तत्र स्थितोऽनिमिषः कालात्मा विभुर् ईश्वरः सूर्यो जगद् द्वादश-राश्य्-आत्मकं भुवन-कोशं पर्येति पर्यटति ॥१३॥",
+          "The year and its divisions are explained by the movements of the sun. A year may be understood through solar, Bṛhaspati, civil, lunar and stellar measures; the commentary explains how the same cycle receives different names according to the standard used."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The year and its divisions are explained by the movements of the sun. A year may be understood through solar, Bṛhaspati, civil, lunar and stellar measures; the commentary explains how the same cycle receives different names according to the standard used.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -299,16 +235,16 @@
       "start": 14,
       "end": 14,
       "source_marker": "३.११.१४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "संवत्सरादि-भेदश् च सौर-बार्हस्पत्य-सावन-चान्द्र-नाक्षत्र-मास-भेदेन द्रष्टव्यः । केचित् पुनर् एवम् आहुः । यदा शुक्ल-पक्ष-प्रतिपदि सङ्क्रान्तिर् भवति सौर-चान्द्र-मासयोर् युग-पद् उपक्रमो भवति स संवत्सरः । ततः सौर-मानेन वर्षे षट् दिनानि वर्धन्ते चान्द्र-मानेन वर्षे षट् दिनानि ह्रसन्तीति द्वादश-दिन-व्यवधानाद् उभयोर् अग्र-पश्चाद् भावो भवति । एवं व्यवधान-तारतम्येन पञ्च-वर्षाणि गच्छन्ति । तन्-मध्ये द्वौ मल-मासौ भवतः । पुनः षष्ठः संवत्सरो भवति ॥१४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "संवत्सरादि-भेदश् च सौर-बार्हस्पत्य-सावन-चान्द्र-नाक्षत्र-मास-भेदेन द्रष्टव्यः । केचित् पुनर् एवम् आहुः । यदा शुक्ल-पक्ष-प्रतिपदि सङ्क्रान्तिर् भवति सौर-चान्द्र-मासयोर् युग-पद् उपक्रमो भवति स संवत्सरः । ततः सौर-मानेन वर्षे षट् दिनानि वर्धन्ते चान्द्र-मानेन वर्षे षट् दिनानि ह्रसन्तीति द्वादश-दिन-व्यवधानाद् उभयोर् अग्र-पश्चाद् भावो भवति । एवं व्यवधान-तारतम्येन पञ्च-वर्षाणि गच्छन्ति । तन्-मध्ये द्वौ मल-मासौ भवतः । पुनः षष्ठः संवत्सरो भवति ॥१४॥",
+          "The various kinds of year are to be recognized through the solar, Bṛhaspati, civil, lunar and stellar months. The commentary also explains a convention in which a solar and lunar month begin together at the first lunar day, and then relates the measures to the larger cycles."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The various kinds of year are to be recognized through the solar, Bṛhaspati, civil, lunar and stellar months. The commentary also explains a convention in which a solar and lunar month begin together at the first lunar day, and then relates the measures to the larger cycles.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -316,16 +252,16 @@
       "start": 15,
       "end": 15,
       "source_marker": "३.११.१५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "एवं-भूतः कालात्मा वित्यमप्रमत्तैः पूजनीय इत्य् आह---य इति । सृज्यं कार्यम् अङ्कुरादि तद्-विषयां बीजादीनां शक्तिं काल-रूपया स्व-शक्त्या बहुधोच्छ्वसयन् कार्याभिमुखी-कुर्वन् दिव्य् अन्तरिक्षे धावति । कोऽसौ ? भूत-भेदो महा-भूत-विशेषस् तेजो-मण्डल-रूपी सूर्यः । किम् अर्थं धावति । पुरुषस्याभ्रमाय भ्रमो मोहस् तन् निवृत्तये । आयुर्-आदि-व्ययेन विषयासक्तिं निवर्तयन्न् इत्य् अर्थः । स-कामानां तु गुण-मयं स्वर्गादि-फलं क्रतुभिर् विस्तारयन् । तस्मै संवत्सर-पञ्चक-प्रवर्तकाय पूजां कुरुत ॥१५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "एवं-भूतः कालात्मा वित्यमप्रमत्तैः पूजनीय इत्य् आह---य इति । सृज्यं कार्यम् अङ्कुरादि तद्-विषयां बीजादीनां शक्तिं काल-रूपया स्व-शक्त्या बहुधोच्छ्वसयन् कार्याभिमुखी-कुर्वन् दिव्य् अन्तरिक्षे धावति । कोऽसौ ? भूत-भेदो महा-भूत-विशेषस् तेजो-मण्डल-रूपी सूर्यः । किम् अर्थं धावति । पुरुषस्याभ्रमाय भ्रमो मोहस् तन् निवृत्तये । आयुर्-आदि-व्ययेन विषयासक्तिं निवर्तयन्न् इत्य् अर्थः । स-कामानां तु गुण-मयं स्वर्गादि-फलं क्रतुभिर् विस्तारयन् । तस्मै संवत्सर-पञ्चक-प्रवर्तकाय पूजां कुरुत ॥१५॥",
+          "The day and night of the gods, the yugas and the manvantaras are measured by these years. The commentary connects the measures of the ages with their dawns and twilights and with the succession of Manu and the other cosmic rulers."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The day and night of the gods, the yugas and the manvantaras are measured by these years. The commentary connects the measures of the ages with their dawns and twilights and with the succession of Manu and the other cosmic rulers.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -333,32 +269,16 @@
       "start": 16,
       "end": 16,
       "source_marker": "३.११.१६",
-      "sanskrit": "इदं स्व-स्व-मानेन वर्ष-शतं गणितम् आयुर् मानम् । प्रत्यहं कल्प्यते सृज्यते इति कल्पस् त्रै-लोक्यं तस्माद् बाह्यतः । विदो ज्ञानिनः ।\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : पित्रादीनाम् आयुर् इदम् इति । तद् एतद् यथा-स्वं पूर्वोक्त-काल-गणनात्मकम् इत्य् अर्थः । शतं तु नृणाम् एव । पूर्वं नृणां पितॄणां देवानां च काल-सङ्ख्यानम् उक्त्वा संवत्सर-शतं नॄणां परमायुर् निरूपितम् इति निर्धारितत्वात् । इन्द्रादीनां मन्वन्तर-स्थायिनाम् अधिक-परिमाण-प्रप्तिश् च परेषां ब्रह्म-सनकादीनां कल्पाद् ब्रह्म-दिनाद् बहिर् ये स्युः जीवन्ति ॥१६॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : इदं स्व-स्व-मानेन वर्ष-शतं ये विदो विद्वांसः कल्पाद् दैनन्दिनाद् बहिः परत्रापि तिष्ठन्ति, तेषां सनकादीनां भृग्व्-आदीनां च गतिम् आयुः ॥१६॥\n\n———————————————————————————————————————",
+      "sanskrit": "इदं स्व-स्व-मानेन वर्ष-शतं गणितम् आयुर् मानम् । प्रत्यहं कल्प्यते सृज्यते इति कल्पस् त्रै-लोक्यं तस्माद् बाह्यतः । विदो ज्ञानिनः ।",
       "word_for_word": [
         [
-          "इदं स्व-स्व-मानेन वर्ष-शतं गणितम् आयुर् मानम्",
-          "idṃ sv-sv-mānen vrṣ-śtṃ gṇitm āyur mānm — contextual literal sense of इदं स्व-स्व-मानेन वर्ष-शतं गणितम् आयुर् मानम्"
-        ],
-        [
-          "प्रत्यहं कल्प्यते सृज्यते इति कल्पस् त्रै-लोक्यं तस्माद् बाह्यतः",
-          "prtyhṃ klpyte sṛjyte iti klps trai-lokyṃ tsmād bāhytḥ — contextual literal sense of प्रत्यहं कल्प्यते सृज्यते इति कल्पस् त्रै-लोक्यं तस्माद् बाह्यतः"
-        ],
-        [
-          "विदो ज्ञानिनः",
-          "vido jñāninḥ — contextual literal sense of विदो ज्ञानिनः"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "इदं स्व-स्व-मानेन वर्ष-शतं गणितम् आयुर् मानम् । प्रत्यहं कल्प्यते सृज्यते इति कल्पस् त्रै-लोक्यं तस्माद् बाह्यतः । विदो ज्ञानिनः ।",
+          "The lifespan measured by each individual standard is one hundred years. A kalpa is that which is repeatedly fashioned each day; it extends across the three worlds. The wise understand these measures as arrangements of the Lord’s creation."
         ]
       ],
-      "literal_english": "Literal rendering: इदं स्व-स्व-मानेन वर्ष-शतं गणितम् आयुर् मानम्: idṃ sv-sv-mānen vrṣ-śtṃ gṇitm āyur mānm — contextual literal sense of इदं स्व-स्व-मानेन वर्ष-शतं गणितम् आयुर् मानम्; प्रत्यहं कल्प्यते सृज्यते इति कल्पस् त्रै-लोक्यं तस्माद् बाह्यतः: prtyhṃ klpyte sṛjyte iti klps trai-lokyṃ tsmād bāhytḥ — contextual literal sense of प्रत्यहं कल्प्यते सृज्यते इति कल्पस् त्रै-लोक्यं तस्माद् बाह्यतः; विदो ज्ञानिनः: vido jñāninḥ — contextual literal sense of विदो ज्ञानिनः; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "The lifespan measured by each individual standard is one hundred years. A kalpa is that which is repeatedly fashioned each day; it extends across the three worlds. The wise understand these measures as arrangements of the Lord’s creation.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -366,16 +286,16 @@
       "start": 17,
       "end": 17,
       "source_marker": "३.११.१७",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "योग-राद्धेन योग-सिद्धेन ॥१७॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "योग-राद्धेन योग-सिद्धेन ॥१७॥",
+          "The lifespan of Brahmā is reached through perfected yoga and the completion of the cosmic cycles."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The lifespan of Brahmā is reached through perfected yoga and the completion of the cosmic cycles.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -383,32 +303,16 @@
       "start": 18,
       "end": 18,
       "source_marker": "३.११.१८",
-      "sanskrit": "द्वादशभिर् वर्ष-सहस्रैर् इत्य् उत्तर-श्लोक-सामर्थ्याज् ज्ञातव्यम् । अवधीयते इत्य् अवधानं सन्ध्या चांशश् च, तत्-सहितम् ॥१८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : कृतम् इत्य्-आदीनाम् अयम् अर्थः---मनुष्याणां षष्ट्य्-अधिक-त्रि-शत-परिमितैर् वर्षैः (३६०) देवानां वर्षं, तैर् द्वादशभिः सहस्रैस् तेषां चतुर्युगम् । तच् च मनुष्याणां विंशति-सहस्राधिक-त्रि-चत्वारिंशल्-लक्ष-गणितं (४३२०००) वर्ष-सङ्ख्याकं भवति । तावद् एव सत्यादि-चतुर्-युगम् । यतः सत्यं (१७२८०००) त्रेता (१२९६०००) द्वापरः (८६४०००) कलिः (४३२०००) इति एवं देवानां युग-सहस्र-द्वयं ब्रह्मणोऽहो-रात्रः । तच् च मनुष्याणां पद्माष्टकं चतुः-षष्टि-कोट्य्-अधिकं (८००,०००,६४०,०००,०००) इति ॥१८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : कल्प-बहिर्-आयुषो हि भृग्व्-आदयो ब्रह्म-तुल्यायुष एव भवन्तीति ब्रह्मण आयुर् वक्तुं युगादीनां मानम् आह---कृतम् इति । वर्षैर् वर्ष-सहस्रैः । अवधीयत इत्य् अवधानं सन्ध्या-सन्ध्यांशश् च, तत्-सहितम् ॥१८॥\n\n———————————————————————————————————————",
+      "sanskrit": "कल्प-बहिर्-आयुषो हि भृग्व्-आदयो ब्रह्म-तुल्यायुष एव भवन्तीति ब्रह्मण आयुर् वक्तुं युगादीनां मानम् आह---कृतम् इति । वर्षैर् वर्ष-सहस्रैः । अवधीयत इत्य् अवधानं सन्ध्या-सन्ध्यांशश् च, तत्-सहितम् ॥१८॥",
       "word_for_word": [
         [
-          "द्वादशभिर् वर्ष-सहस्रैर् इत्य् उत्तर-श्लोक-सामर्थ्याज् ज्ञातव्यम्",
-          "dvādśbhir vrṣ-shsrair ity uttr-ślok-sāmrthyāj jñātvym — contextual literal sense of द्वादशभिर् वर्ष-सहस्रैर् इत्य् उत्तर-श्लोक-सामर्थ्याज् ज्ञातव्यम्"
-        ],
-        [
-          "अवधीयते इत्य् अवधानं सन्ध्या चांशश् च तत्-सहितम्",
-          "avdhīyte ity avdhānṃ sndhyā cāṃśś c tt-shitm — contextual literal sense of अवधीयते इत्य् अवधानं सन्ध्या चांशश् च तत्-सहितम्"
-        ],
-        [
-          "१८",
-          "१८ — contextual literal sense of १८"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "कल्प-बहिर्-आयुषो हि भृग्व्-आदयो ब्रह्म-तुल्यायुष एव भवन्तीति ब्रह्मण आयुर् वक्तुं युगादीनां मानम् आह---कृतम् इति । वर्षैर् वर्ष-सहस्रैः । अवधीयत इत्य् अवधानं सन्ध्या-सन्ध्यांशश् च, तत्-सहितम् ॥१८॥",
+          "The sages beginning with Bhṛgu, whose lifespans extend beyond a single kalpa, have lifespans comparable to Brahmā’s. Therefore the measures of the yugas are given: the kṛta and the other ages are counted in thousands of years, including their dawns and twilights."
         ]
       ],
-      "literal_english": "Literal rendering: द्वादशभिर् वर्ष-सहस्रैर् इत्य् उत्तर-श्लोक-सामर्थ्याज् ज्ञातव्यम्: dvādśbhir vrṣ-shsrair ity uttr-ślok-sāmrthyāj jñātvym — contextual literal sense of द्वादशभिर् वर्ष-सहस्रैर् इत्य् उत्तर-श्लोक-सामर्थ्याज् ज्ञातव्यम्; अवधीयते इत्य् अवधानं सन्ध्या चांशश् च तत्-सहितम्: avdhīyte ity avdhānṃ sndhyā cāṃśś c tt-shitm — contextual literal sense of अवधीयते इत्य् अवधानं सन्ध्या चांशश् च तत्-सहितम्; १८: १८ — contextual literal sense of १८; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "The sages beginning with Bhṛgu, whose lifespans extend beyond a single kalpa, have lifespans comparable to Brahmā’s. Therefore the measures of the yugas are given: the kṛta and the other ages are counted in thousands of years, including their dawns and twilights.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -425,7 +329,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; Śrīdhara marks 3.11.19 as not explained."
     },
     {
       "canto": 3,
@@ -433,32 +337,16 @@
       "start": 20,
       "end": 20,
       "source_marker": "३.११.२०",
-      "sanskrit": "युगस्यादौ सन्ध्या, अन्तेऽंशः सन्ध्यांशः । उक्तानि शतानि सङ्ख्या ययोः, तयोर् अन्तर् मध्ये युगम् । तस्य विशेषम् आह---यत्र इति । गवालम्भादि-धर्म-विशेषो यत्र विधीयते इत्य् अर्थः । साधारण-धर्मस् तु सन्ध्यांशयोर् अप्य् अस्त्य् एव ॥२०॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : सन्ध्या-सन्ध्यांशयोर् अन्तर् इत्य् अत्र सन्ध्या-सन्ध्यांशयोर् अन्त इति ॥२०॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : युगस्यादौ सन्ध्या, अन्तेऽंशः सन्ध्यांशः । तयोः कथम्भूतयोः ? उक्तानि शतानि सङ्ख्या ययोः, तयोर् अन्तर् मध्य-वर्ती यः कालः, तं युगम् आहुः । यत्र धर्म इति ध्यान-यज्ञ-परिचर्या-कीर्तनात्मको धर्म-विशेषः । साधारण-धर्मस् तु गुण-भूतः । सन्ध्यांशयोर् अप्य् अस्त्य् एव । किं च, यस्य युगस्य यो धर्मः, स एव तत्-सन्ध्या-सन्ध्यांशयोर् अपि प्रधानी-भूतः इति ज्ञेयम् । मनुष्याणां षष्ट्य्-अधिक-त्रि-शत-वर्षैर् देवानाम् एक-वर्षम् । एवं मनुष्याणां विंशति-सहस्राधिक-त्रिचत्वारिंशल्-लक्ष-वर्षैश् चतुर्-युगं शास्त्रेषु युग-शब्देनोच्यते । तत्राष्टाविंश-सहस्राधिक-सप्तदश-लक्षैर् वर्षैः सत्यं, षण्णवति-सहस्राधिक-द्वादश-लक्षैस् त्रेता । चतुःषष्ठि-सहस्राधिकाष्ट-लक्षैर् द्वापरः । द्वात्रिंशत्-सहस्राधिक-चतुर्-लक्षैः कलिः ॥२०॥\n\n———————————————————————————————————————",
+      "sanskrit": "युगस्यादौ सन्ध्या, अन्तेऽंशः सन्ध्यांशः । उक्तानि शतानि सङ्ख्या ययोः, तयोर् अन्तर् मध्ये युगम् । तस्य विशेषम् आह---यत्र इति । गवालम्भादि-धर्म-विशेषो यत्र विधीयते इत्य् अर्थः । साधारण-धर्मस् तु सन्ध्यांशयोर् अप्य् अस्त्य् एव ॥२०॥",
       "word_for_word": [
         [
-          "युगस्यादौ सन्ध्या अन्तेऽंशः सन्ध्यांशः",
-          "yugsyādau sndhyā anteऽṃśḥ sndhyāṃśḥ — contextual literal sense of युगस्यादौ सन्ध्या अन्तेऽंशः सन्ध्यांशः"
-        ],
-        [
-          "उक्तानि शतानि सङ्ख्या ययोः तयोर् अन्तर् मध्ये युगम्",
-          "uktāni śtāni sṅkhyā yyoḥ tyor antr mdhye yugm — contextual literal sense of उक्तानि शतानि सङ्ख्या ययोः तयोर् अन्तर् मध्ये युगम्"
-        ],
-        [
-          "तस्य विशेषम् आह---यत्र इति",
-          "tsy viśeṣm āh---ytr iti — contextual literal sense of तस्य विशेषम् आह---यत्र इति"
-        ],
-        [
-          "गवालम्भादि-धर्म-विशेषो यत्र विधीयते इत्य् अर्थः",
-          "gvālmbhādi-dhrm-viśeṣo ytr vidhīyte ity arthḥ — contextual literal sense of गवालम्भादि-धर्म-विशेषो यत्र विधीयते इत्य् अर्थः"
-        ],
-        [
-          "साधारण-धर्मस् तु सन्ध्यांशयोर् अप्य् अस्त्य् एव",
-          "sādhārṇ-dhrms tu sndhyāṃśyor apy asty ev — contextual literal sense of साधारण-धर्मस् तु सन्ध्यांशयोर् अप्य् अस्त्य् एव"
+          "युगस्यादौ सन्ध्या, अन्तेऽंशः सन्ध्यांशः । उक्तानि शतानि सङ्ख्या ययोः, तयोर् अन्तर् मध्ये युगम् । तस्य विशेषम् आह---यत्र इति । गवालम्भादि-धर्म-विशेषो यत्र विधीयते इत्य् अर्थः । साधारण-धर्मस् तु सन्ध्यांशयोर् अप्य् अस्त्य् एव ॥२०॥",
+          "A yuga has a dawn at its beginning and a twilight at its end. The stated hundreds are the numbers between which the yuga lies. In that age particular duties, such as the prescribed sacrifice, are enjoined; ordinary duties continue in the dawn and twilight as well."
         ]
       ],
-      "literal_english": "Literal rendering: युगस्यादौ सन्ध्या अन्तेऽंशः सन्ध्यांशः: yugsyādau sndhyā anteऽṃśḥ sndhyāṃśḥ — contextual literal sense of युगस्यादौ सन्ध्या अन्तेऽंशः सन्ध्यांशः; उक्तानि शतानि सङ्ख्या ययोः तयोर् अन्तर् मध्ये युगम्: uktāni śtāni sṅkhyā yyoḥ tyor antr mdhye yugm — contextual literal sense of उक्तानि शतानि सङ्ख्या ययोः तयोर् अन्तर् मध्ये युगम्; तस्य विशेषम् आह---यत्र इति: tsy viśeṣm āh---ytr iti — contextual literal sense of तस्य विशेषम् आह---यत्र इति; गवालम्भादि-धर्म-विशेषो यत्र विधीयते इत्य् अर्थः: gvālmbhādi-dhrm-viśeṣo ytr vidhīyte ity arthḥ — contextual literal sense of गवालम्भादि-धर्म-विशेषो यत्र विधीयते इत्य् अर्थः; साधारण-धर्मस् तु सन्ध्यांशयोर् अप्य् अस्त्य् एव: sādhārṇ-dhrms tu sndhyāṃśyor apy asty ev — contextual literal sense of साधारण-धर्मस् तु सन्ध्यांशयोर् अप्य् अस्त्य् एव.",
+      "literal_english": "A yuga has a dawn at its beginning and a twilight at its end. The stated hundreds are the numbers between which the yuga lies. In that age particular duties, such as the prescribed sacrifice, are enjoined; ordinary duties continue in the dawn and twilight as well.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -466,16 +354,16 @@
       "start": 21,
       "end": 21,
       "source_marker": "३.११.२१",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "चतुष्-पात् संपूर्णः । त्रेतादिषु पादेन पादेन व्येति ह्रसति । पादेन पादेन वर्धमानेनाधर्मेण हेतुना । एतच् च स्वरूप-कथन-मात्रं वैराग्यार्थं न तु धर्म-सङ्कोचनार्थम् ॥२१॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "चतुष्-पात् संपूर्णः । त्रेतादिषु पादेन पादेन व्येति ह्रसति । पादेन पादेन वर्धमानेनाधर्मेण हेतुना । एतच् च स्वरूप-कथन-मात्रं वैराग्यार्थं न तु धर्म-सङ्कोचनार्थम् ॥२१॥",
+          "The kṛta age is complete on four feet; in Tretā and the following ages, dharma diminishes foot by foot because adharma increases foot by foot. This is a description for cultivating detachment, not an instruction to restrict the practice of dharma."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The kṛta age is complete on four feet; in Tretā and the following ages, dharma diminishes foot by foot because adharma increases foot by foot. This is a description for cultivating detachment, not an instruction to restrict the practice of dharma.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -483,16 +371,16 @@
       "start": 22,
       "end": 22,
       "source_marker": "३.११.२२",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "त्रि-लोक्या बहिर् महर्-लोक-प्रभृति-ब्रह्म-लोकम् अभिव्याप्य चतुर्-युग-सहस्रम् एकं दिनम् । यद् यस्यां विश्व-सृक् ब्रह्मा निमीलति स्वपिति ॥२२॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "त्रि-लोक्या बहिर् महर्-लोक-प्रभृति-ब्रह्म-लोकम् अभिव्याप्य चतुर्-युग-सहस्रम् एकं दिनम् । यद् यस्यां विश्व-सृक् ब्रह्मा निमीलति स्वपिति ॥२२॥",
+          "Outside the three worlds, from Maharloka up through Brahmaloka, a day of Brahmā consists of a thousand cycles of four yugas. At the end of that day the creator of the universe closes his eyes and sleeps."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Outside the three worlds, from Maharloka up through Brahmaloka, a day of Brahmā consists of a thousand cycles of four yugas. At the end of that day the creator of the universe closes his eyes and sleeps.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -500,16 +388,16 @@
       "start": 23,
       "end": 23,
       "source_marker": "३.११.२३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तत्र दिन-स्थितिम् आह---निशावसान इत्य्-आदि-सार्धैश् चतुर्भिः । चतुर्दश-मनून् भुञ्जन् पालयन् । व्याप्नुवन्न् इत्य् अर्थः ॥२३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "तत्र दिन-स्थितिम् आह---निशावसान इत्य्-आदि-सार्धैश् चतुर्भिः । चतुर्दश-मनून् भुञ्जन् पालयन् । व्याप्नुवन्न् इत्य् अर्थः ॥२३॥",
+          "The duration of Brahmā’s day is described: he protects and pervades the fourteen Manus, and the day extends over their succession."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The duration of Brahmā’s day is described: he protects and pervades the fourteen Manus, and the day extends over their succession.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -517,32 +405,16 @@
       "start": 24,
       "end": 24,
       "source_marker": "३.११.२४",
-      "sanskrit": "किञ्चिद् अधिकां युगानाम् एक-सप्ततिम् । मनु-वंश्याः पृथ्वी-पालकाः क्रमेण भवन्ति । सप्तर्षि-प्रभृतयस् तु युगपत् सम-कालम् एव भवन्ति । सुरेशा इन्द्राः । तान् अनुवर्तन्ते ये गन्धर्वादयस् तेऽपि ॥२४॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : स्वं स्वम् इत्य् अर्धकम् ॥२४॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : मनुः स्वायम्भुवादिः किञ्चिद् अधिकां चतुर्-युगानाम् एक-सप्ततिं कालं व्याप्य तत्र देव-मानेन द्विपञ्चाशत्-सहस्राधिकान्य् अष्ट-लक्षाणि वर्षाणि भवन्ति, मनुष्य-मानेन तु तिर्ंशत्-कोट्यः सप्त-षष्ट-लक्षाणि विंशतिः सहस्राणीति । तथोक्तं विष्णु-पुराणे---\n\n> त्रिंशत्-कोट्यस् तु सम्पूर्णाः सङ्ख्याताः सङ्ख्यया द्विज । >\n> सप्त-षष्टिस् तथान्यानि नियुतानि महा-मुने । >\n> विंशतिश् च सहस्राणि कालोऽयम् अधिकं विना । >\n> मन्वन्तरस्य सङ्ख्येयं मानुषैर् वत्सरैर् द्विज ॥ इति ।\n\nमनु-वंशः पृथ्वी-पालकः क्रमेण भवति । सप्तर्षि-प्रभृतयस् तु युगपत् सम-कालम् एव भवन्ति । सुरेशा इन्द्रास् तान् अनुवर्तन्ते ये गन्धर्वादयस् तेऽपि ॥२४॥\n\n———————————————————————————————————————",
+      "sanskrit": "किञ्चिद् अधिकां युगानाम् एक-सप्ततिम् । मनु-वंश्याः पृथ्वी-पालकाः क्रमेण भवन्ति । सप्तर्षि-प्रभृतयस् तु युगपत् सम-कालम् एव भवन्ति । सुरेशा इन्द्राः । तान् अनुवर्तन्ते ये गन्धर्वादयस् तेऽपि ॥२४॥",
       "word_for_word": [
         [
-          "किञ्चिद् अधिकां युगानाम् एक-सप्ततिम्",
-          "kiñcid adhikāṃ yugānām ek-spttim — contextual literal sense of किञ्चिद् अधिकां युगानाम् एक-सप्ततिम्"
-        ],
-        [
-          "मनु-वंश्याः पृथ्वी-पालकाः क्रमेण भवन्ति",
-          "mnu-vṃśyāḥ pṛthvī-pālkāḥ krmeṇ bhvnti — contextual literal sense of मनु-वंश्याः पृथ्वी-पालकाः क्रमेण भवन्ति"
-        ],
-        [
-          "सप्तर्षि-प्रभृतयस् तु युगपत् सम-कालम् एव भवन्ति",
-          "sptrṣi-prbhṛtys tu yugpt sm-kālm ev bhvnti — contextual literal sense of सप्तर्षि-प्रभृतयस् तु युगपत् सम-कालम् एव भवन्ति"
-        ],
-        [
-          "सुरेशा इन्द्राः",
-          "sureśā indrāḥ — contextual literal sense of सुरेशा इन्द्राः"
-        ],
-        [
-          "तान् अनुवर्तन्ते ये गन्धर्वादयस् तेऽपि",
-          "tān anuvrtnte ye gndhrvādys teऽpi — contextual literal sense of तान् अनुवर्तन्ते ये गन्धर्वादयस् तेऽपि"
+          "किञ्चिद् अधिकां युगानाम् एक-सप्ततिम् । मनु-वंश्याः पृथ्वी-पालकाः क्रमेण भवन्ति । सप्तर्षि-प्रभृतयस् तु युगपत् सम-कालम् एव भवन्ति । सुरेशा इन्द्राः । तान् अनुवर्तन्ते ये गन्धर्वादयस् तेऽपि ॥२४॥",
+          "A manvantara lasts a little more than seventy-one yugas. The kings descended from Manu rule the earth in succession, while the seven sages and the other accompanying figures arise together in their appointed periods. The lords of the gods are the Indras, and Gandharvas and others follow them."
         ]
       ],
-      "literal_english": "Literal rendering: किञ्चिद् अधिकां युगानाम् एक-सप्ततिम्: kiñcid adhikāṃ yugānām ek-spttim — contextual literal sense of किञ्चिद् अधिकां युगानाम् एक-सप्ततिम्; मनु-वंश्याः पृथ्वी-पालकाः क्रमेण भवन्ति: mnu-vṃśyāḥ pṛthvī-pālkāḥ krmeṇ bhvnti — contextual literal sense of मनु-वंश्याः पृथ्वी-पालकाः क्रमेण भवन्ति; सप्तर्षि-प्रभृतयस् तु युगपत् सम-कालम् एव भवन्ति: sptrṣi-prbhṛtys tu yugpt sm-kālm ev bhvnti — contextual literal sense of सप्तर्षि-प्रभृतयस् तु युगपत् सम-कालम् एव भवन्ति; सुरेशा इन्द्राः: sureśā indrāḥ — contextual literal sense of सुरेशा इन्द्राः; तान् अनुवर्तन्ते ये गन्धर्वादयस् तेऽपि: tān anuvrtnte ye gndhrvādys teऽpi — contextual literal sense of तान् अनुवर्तन्ते ये गन्धर्वादयस् तेऽपि.",
+      "literal_english": "A manvantara lasts a little more than seventy-one yugas. The kings descended from Manu rule the earth in succession, while the seven sages and the other accompanying figures arise together in their appointed periods. The lords of the gods are the Indras, and Gandharvas and others follow them.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -550,32 +422,16 @@
       "start": 25,
       "end": 25,
       "source_marker": "३.११.२५",
-      "sanskrit": "त्रैलोक्यं वर्तयतीति तथा ॥२५॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : युगपद् इति स्व-स्व-मन्वन्तर इत्य् अर्थः ॥२५॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : त्रैलोक्ये वर्तते इति स त्रैलोक्य-सृष्टिर् इत्य् अर्थः ॥२५॥\n\n———————————————————————————————————————",
+      "sanskrit": "त्रैलोक्यं वर्तयतीति तथा ॥२५॥",
       "word_for_word": [
         [
-          "त्रैलोक्यं वर्तयतीति तथा",
-          "trailokyṃ vrtytīti tthā — contextual literal sense of त्रैलोक्यं वर्तयतीति तथा"
-        ],
-        [
-          "२५",
-          "२५ — contextual literal sense of २५"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "युगपद् इति स्व-स्व-मन्वन्तर इत्य् अर्थः",
-          "yugpd iti sv-sv-mnvntr ity arthḥ — contextual literal sense of युगपद् इति स्व-स्व-मन्वन्तर इत्य् अर्थः"
+          "त्रैलोक्यं वर्तयतीति तथा ॥२५॥",
+          "He governs and sets in motion the three worlds; therefore the Lord’s cosmic administration is described through the succession of the manvantaras."
         ]
       ],
-      "literal_english": "Literal rendering: त्रैलोक्यं वर्तयतीति तथा: trailokyṃ vrtytīti tthā — contextual literal sense of त्रैलोक्यं वर्तयतीति तथा; २५: २५ — contextual literal sense of २५; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; युगपद् इति स्व-स्व-मन्वन्तर इत्य् अर्थः: yugpd iti sv-sv-mnvntr ity arthḥ — contextual literal sense of युगपद् इति स्व-स्व-मन्वन्तर इत्य् अर्थः.",
+      "literal_english": "He governs and sets in motion the three worlds; therefore the Lord’s cosmic administration is described through the succession of the manvantaras.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -583,16 +439,16 @@
       "start": 26,
       "end": 26,
       "source_marker": "३.११.२६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "स्व-मूर्तिभिर् मन्वन्तरावतारैर् मन्व्-आदिभिर् द्वार-भूतैर् आविष्कृत-पुरुष-कारः सन् विश्वं रक्षति ॥२६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "स्व-मूर्तिभिर् मन्वन्तरावतारैर् मन्व्-आदिभिर् द्वार-भूतैर् आविष्कृत-पुरुष-कारः सन् विश्वं रक्षति ॥२६॥",
+          "Through His own forms—the incarnations who preside over the manvantaras and who become the means beginning with Manu—the Lord manifests His power and protects the universe."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Through His own forms—the incarnations who preside over the manvantaras and who become the means beginning with Manu—the Lord manifests His power and protects the universe.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -600,16 +456,16 @@
       "start": 27,
       "end": 27,
       "source_marker": "३.११.२७",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "रात्रि-गतां स्थितिम् आह पञ्चभिः । तमसो मात्रं लेशम् । प्रतिसंरुद्धः प्रत्याहृतो विक्रमो येन । अनुगतम् अनुप्रविष्टम् अशेषं यस्मिन् ॥२७॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "रात्रि-गतां स्थितिम् आह पञ्चभिः । तमसो मात्रं लेशम् । प्रतिसंरुद्धः प्रत्याहृतो विक्रमो येन । अनुगतम् अनुप्रविष्टम् अशेषं यस्मिन् ॥२७॥",
+          "He now describes the condition during Brahmā’s night in five verses. Only a trace of darkness remains; the power of the beings has been withdrawn, and all things have entered into that condition."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He now describes the condition during Brahmā’s night in five verses. Only a trace of darkness remains; the power of the beings has been withdrawn, and all things have entered into that condition.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -617,16 +473,16 @@
       "start": 28,
       "end": 28,
       "source_marker": "३.११.२८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तद् एव स्पष्टयति---तम् एवेति । अन्व् अपि धीयन्त इति कर्म-कर्तरि-प्रयोगः । तिरोहिता भवन्तीत्य् अर्थः । कथं ? निर्मुक्तो रहितः शशी भष्करश् च यथा भवति तथा ॥२८॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "तद् एव स्पष्टयति---तम् एवेति । अन्व् अपि धीयन्त इति कर्म-कर्तरि-प्रयोगः । तिरोहिता भवन्तीत्य् अर्थः । कथं ? निर्मुक्तो रहितः शशी भष्करश् च यथा भवति तथा ॥२८॥",
+          "He makes the same point clearly: the beings are withdrawn and become unmanifest, just as the moon and sun appear when their visible forms are covered."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He makes the same point clearly: the beings are withdrawn and become unmanifest, just as the moon and sun appear when their visible forms are covered.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -634,16 +490,16 @@
       "start": 29,
       "end": 29,
       "source_marker": "३.११.२९",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "भगवच्-छक्ति-रूपो यः सङ्कर्षण-मुखाग्निस् तेनोष्मणार्दिताः सन्तो जन-लोकं यान्ति ॥२९॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "भगवच्-छक्ति-रूपो यः सङ्कर्षण-मुखाग्निस् तेनोष्मणार्दिताः सन्तो जन-लोकं यान्ति ॥२९॥",
+          "Afflicted by the heat of the fire issuing from Saṅkarṣaṇa’s mouth, the beings go to Janaloka, the realm where they can remain during the cosmic night."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Afflicted by the heat of the fire issuing from Saṅkarṣaṇa’s mouth, the beings go to Janaloka, the realm where they can remain during the cosmic night.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -651,16 +507,16 @@
       "start": 30,
       "end": 30,
       "source_marker": "३.११.३०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "कल्पान्तेनैधिताः सिन्धवः समुद्राः । उत्कट आटोपः क्सोभो येषां ते च ते चण्ड-वातैर् ईरितोर् मयश् च ॥३०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "कल्पान्तेनैधिताः सिन्धवः समुद्राः । उत्कट आटोपः क्सोभो येषां ते च ते चण्ड-वातैर् ईरितोर् मयश् च ॥३०॥",
+          "At the end of the kalpa the oceans swell, and violent, turbulent winds drive the waves and waters."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "At the end of the kalpa the oceans swell, and violent, turbulent winds drive the waves and waters.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -668,32 +524,16 @@
       "start": 31,
       "end": 31,
       "source_marker": "३.११.३१",
-      "sanskrit": "जन-लोक आलयो येषां महर्-लोक-गतानाम् अन्येषां च तैः ॥३१॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : उत्कटाटोपैश् चण्ड-वातैर् ईरिता ऊर्मयो येषां ते ॥३१॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : योगाख्या विमलादीनां चिच्-छक्ति-वृत्तीनां पञ्चमी सैव तदानीं निद्रा-रूपा तया मुदित-नेत्रः । जनालयैर् जन-लोक-निवासिभिर् मुनिभिः ॥३१॥\n\n———————————————————————————————————————",
+      "sanskrit": "जन-लोक आलयो येषां महर्-लोक-गतानाम् अन्येषां च तैः ॥३१॥",
       "word_for_word": [
         [
-          "जन-लोक आलयो येषां महर्-लोक-गतानाम् अन्येषां च तैः",
-          "jn-lok ālyo yeṣāṃ mhr-lok-gtānām anyeṣāṃ c taiḥ — contextual literal sense of जन-लोक आलयो येषां महर्-लोक-गतानाम् अन्येषां च तैः"
-        ],
-        [
-          "३१",
-          "३१ — contextual literal sense of ३१"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "उत्कटाटोपैश् चण्ड-वातैर् ईरिता ऊर्मयो येषां ते",
-          "utkṭāṭopaiś cṇḍ-vātair īritā ūrmyo yeṣāṃ te — contextual literal sense of उत्कटाटोपैश् चण्ड-वातैर् ईरिता ऊर्मयो येषां ते"
+          "जन-लोक आलयो येषां महर्-लोक-गतानाम् अन्येषां च तैः ॥३१॥",
+          "Those who had reached Maharloka, together with the other beings whose abode is Janaloka, take shelter in Janaloka during the dissolution."
         ]
       ],
-      "literal_english": "Literal rendering: जन-लोक आलयो येषां महर्-लोक-गतानाम् अन्येषां च तैः: jn-lok ālyo yeṣāṃ mhr-lok-gtānām anyeṣāṃ c taiḥ — contextual literal sense of जन-लोक आलयो येषां महर्-लोक-गतानाम् अन्येषां च तैः; ३१: ३१ — contextual literal sense of ३१; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; उत्कटाटोपैश् चण्ड-वातैर् ईरिता ऊर्मयो येषां ते: utkṭāṭopaiś cṇḍ-vātair īritā ūrmyo yeṣāṃ te — contextual literal sense of उत्कटाटोपैश् चण्ड-वातैर् ईरिता ऊर्मयो येषां ते.",
+      "literal_english": "Those who had reached Maharloka, together with the other beings whose abode is Janaloka, take shelter in Janaloka during the dissolution.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -701,16 +541,16 @@
       "start": 32,
       "end": 32,
       "source_marker": "३.११.३२",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "वैराग्यार्थम् आह---एवं-विधैर् अहो-रात्रैर् वर्ष-शतं सर्वेषां प्राणिनाम् आयुषः परम् अधिकम् अस्य ब्रह्मणो यद् आयुस् तद् अप्य् अपक्षितम् इव क्षीणम् इवेति लोकोक्तिः । गत-प्रायम् इत्य् अर्थः ॥३२॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "वैराग्यार्थम् आह---एवं-विधैर् अहो-रात्रैर् वर्ष-शतं सर्वेषां प्राणिनाम् आयुषः परम् अधिकम् अस्य ब्रह्मणो यद् आयुस् तद् अप्य् अपक्षितम् इव क्षीणम् इवेति लोकोक्तिः । गत-प्रायम् इत्य् अर्थः ॥३२॥",
+          "He speaks for detachment: measured by these days and nights, the hundred-year lifespan of all beings is limited; even Brahmā’s lifespan appears nearly exhausted and diminished."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He speaks for detachment: measured by these days and nights, the hundred-year lifespan of all beings is limited; even Brahmā’s lifespan appears nearly exhausted and diminished.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -718,32 +558,16 @@
       "start": 33,
       "end": 33,
       "source_marker": "३.११.३३",
-      "sanskrit": "पूर्वस्य परार्धस्यादाव् इति त्रिभिर् वस्तु-कथन-मात्रम् ॥३३॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : यद् अर्धम् इति अद्य अस्मिन् ॥३३॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : तद्-आयुर् द्विधा विभक्तम् आह---यद् इति ॥३३॥\n\n———————————————————————————————————————",
+      "sanskrit": "पूर्वस्य परार्धस्यादाव् इति त्रिभिर् वस्तु-कथन-मात्रम् ॥३३॥",
       "word_for_word": [
         [
-          "पूर्वस्य परार्धस्यादाव् इति त्रिभिर् वस्तु-कथन-मात्रम्",
-          "pūrvsy prārdhsyādāv iti tribhir vstu-kthn-mātrm — contextual literal sense of पूर्वस्य परार्धस्यादाव् इति त्रिभिर् वस्तु-कथन-मात्रम्"
-        ],
-        [
-          "३३",
-          "३३ — contextual literal sense of ३३"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "यद् अर्धम् इति अद्य अस्मिन्",
-          "yd ardhm iti ady asmin — contextual literal sense of यद् अर्धम् इति अद्य अस्मिन्"
+          "पूर्वस्य परार्धस्यादाव् इति त्रिभिर् वस्तु-कथन-मात्रम् ॥३३॥",
+          "He begins the description of the two parārdhas with the first three verses; the statement is a factual account of the division of Brahmā’s life."
         ]
       ],
-      "literal_english": "Literal rendering: पूर्वस्य परार्धस्यादाव् इति त्रिभिर् वस्तु-कथन-मात्रम्: pūrvsy prārdhsyādāv iti tribhir vstu-kthn-mātrm — contextual literal sense of पूर्वस्य परार्धस्यादाव् इति त्रिभिर् वस्तु-कथन-मात्रम्; ३३: ३३ — contextual literal sense of ३३; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; यद् अर्धम् इति अद्य अस्मिन्: yd ardhm iti ady asmin — contextual literal sense of यद् अर्धम् इति अद्य अस्मिन्.",
+      "literal_english": "He begins the description of the two parārdhas with the first three verses; the statement is a factual account of the division of Brahmā’s life.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -751,16 +575,16 @@
       "start": 34,
       "end": 34,
       "source_marker": "३.११.३४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "पाद्मत्वे हेतुः, यद् इति ॥३४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "पाद्मत्वे हेतुः, यद् इति ॥३४॥",
+          "The designation “Padma” is explained by the reason given in the verse: the lotus-born creation and the lotus-associated form of the cosmic process account for the name."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The designation “Padma” is explained by the reason given in the verse: the lotus-born creation and the lotus-associated form of the cosmic process account for the name.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -768,16 +592,16 @@
       "start": 35,
       "end": 35,
       "source_marker": "३.११.३५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अयं तु द्वितीयस्यादौ कथितः ॥३५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "अयं तु द्वितीयस्यादौ कथितः ॥३५॥",
+          "This event is said to occur at the beginning of the second parārdha."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "This event is said to occur at the beginning of the second parārdha.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -785,32 +609,16 @@
       "start": 36,
       "end": 36,
       "source_marker": "३.११.३६",
-      "sanskrit": "तद् एवं कालेन निमित्तेन सृज्यानाम् आयुः परिमाणम् उक्त्वा काल-परिच्छेद-रहितं तत्त्वम् आह---कालोऽयम् इति पञ्चभिः । उपचर्यते केवलं न त्व् अनेनापि क्रमेणायुर् गणनं तस्येत्य् आह---अव्याकृतस्य कार्योपाधि-शून्यस्य अत एवानन्तस्यानादेश् च जगद्-आत्मनो जगत्-कारणस्य ॥३६॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : तद् एवं ब्रह्मणो दिन-कल्पनेन गर्भोद-शायिनो दिन-कल्पना ज्ञेया। तस्यापि तद्-अन्ते योग-निद्रा-स्वीकारात् । कारणार्णव-शायिनः काल-कल्पनऽं त्व् एवम् इत्य् आह---कालोऽयम् इति । यस्यैक-निश्वसित-कालम् अथावलम्ब्य जीवन्ति लोम-बिलजा जगद्-अण्ड-नाथाः इति ब्रह्म-संहितातः ॥३६॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : अयं तु सम्प्रति वर्तमान-द्वितीयस्य परार्धस्य एक-पञ्चाशत्तम-वर्षस्य प्रथम-दिवस इत्य् अर्थः । अत्र पाद्मं कल्पम् अथो शृण्व् इत्य् उपक्रान्तायाम् उदाप्लुतं विश्वम् इत्य्-आदि-पाद्म-कल्प-कथायाम् एकार्णवोदके एकस्य पद्मस्यैव श्रवणात् तत्रैकस्य ब्रह्मण एवोद्भवाद् विलोक्य तत्रान्यद् अपश्यमान इत्य् आद्य्-उक्तेर् महा-कल्पायुषां सनकादीनां च तत्रानुपलम्भात् केचित् प्रथम-परार्धान्ते महर्-जनस्-तपः-सत्यानां द्वि-परार्धान्त-पर्यन्त-स्थायिनाम् अनष्टानाम् अपि जल-प्लावनं तथा तत्रत्यानां सर्वेषाम् एव कल्पायुषां ब्रह्म-साहितेनैव श्री-नारायणे प्रवेशम् आख्याय प्रथम-परार्ध-समाप्तौ द्वितीय-परार्धस्यादिमं श्वेत-वाराहम् एव पाद्मम् आहुः । द्वादशाध्याये च सनकादि-मरीच्य्-आदीनां ब्राह्म-कल्प इव ब्रह्मत एवाविर्भावश् च वक्ष्यते, न च तत्र ब्राह्म-कल्प-कथैवेति वाच्यं, पाद्म-कल्प-कथायाः प्रक्रान्तत्वात् । तस्मात् तस्यैव चान्त इत्य् अत्र अन्ते अवसाने समाप्ताव् इत्य् अर्थ इति । अयं त्व् इति तुर् एवार्थे अयम् एव पाद्म एव वाराह इति ख्यातः । तत्र हेतुर् यत्रासीद् इति द्वितीयस्यापीत्य् अपि-कारेण प्रथम-परार्धस्यादिमो ब्राह्मः कल्पोऽपि पाद्म उच्यत इति व्याचक्षते ॥३६॥\n\n———————————————————————————————————————",
+      "sanskrit": "तद् एवं कालेन निमित्तेन सृज्यानाम् आयुः परिमाणम् उक्त्वा काल-परिच्छेद-रहितं तत्त्वम् आह---कालोऽयम् इति पञ्चभिः । उपचर्यते केवलं न त्व् अनेनापि क्रमेणायुर् गणनं तस्येत्य् आह---अव्याकृतस्य कार्योपाधि-शून्यस्य अत एवानन्तस्यानादेश् च जगद्-आत्मनो जगत्-कारणस्य ॥३६॥",
       "word_for_word": [
         [
-          "३६",
-          "३६ — contextual literal sense of ३६"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "तद् एवं ब्रह्मणो दिन-कल्पनेन गर्भोद-शायिनो दिन-कल्पना ज्ञेया",
-          "td evṃ brhmṇo din-klpnen grbhod-śāyino din-klpnā jñeyā — contextual literal sense of तद् एवं ब्रह्मणो दिन-कल्पनेन गर्भोद-शायिनो दिन-कल्पना ज्ञेया"
-        ],
-        [
-          "तस्यापि तद्-अन्ते योग-निद्रा-स्वीकारात्",
-          "tsyāpi td-ante yog-nidrā-svīkārāt — contextual literal sense of तस्यापि तद्-अन्ते योग-निद्रा-स्वीकारात्"
+          "तद् एवं कालेन निमित्तेन सृज्यानाम् आयुः परिमाणम् उक्त्वा काल-परिच्छेद-रहितं तत्त्वम् आह---कालोऽयम् इति पञ्चभिः । उपचर्यते केवलं न त्व् अनेनापि क्रमेणायुर् गणनं तस्येत्य् आह---अव्याकृतस्य कार्योपाधि-शून्यस्य अत एवानन्तस्यानादेश् च जगद्-आत्मनो जगत्-कारणस्य ॥३६॥",
+          "Having described the lifespan of the created beings as measured by time, he now explains the reality that is not delimited by time. Time is spoken of conventionally in relation to the unmanifest, which is free from the limiting adjuncts of effects and therefore infinite; it is not that the Infinite itself is truly counted by this sequence."
         ]
       ],
-      "literal_english": "Literal rendering: ३६: ३६ — contextual literal sense of ३६; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; तद् एवं ब्रह्मणो दिन-कल्पनेन गर्भोद-शायिनो दिन-कल्पना ज्ञेया: td evṃ brhmṇo din-klpnen grbhod-śāyino din-klpnā jñeyā — contextual literal sense of तद् एवं ब्रह्मणो दिन-कल्पनेन गर्भोद-शायिनो दिन-कल्पना ज्ञेया; तस्यापि तद्-अन्ते योग-निद्रा-स्वीकारात्: tsyāpi td-ante yog-nidrā-svīkārāt — contextual literal sense of तस्यापि तद्-अन्ते योग-निद्रा-स्वीकारात्.",
+      "literal_english": "Having described the lifespan of the created beings as measured by time, he now explains the reality that is not delimited by time. Time is spoken of conventionally in relation to the unmanifest, which is free from the limiting adjuncts of effects and therefore infinite; it is not that the Infinite itself is truly counted by this sequence.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -818,32 +626,16 @@
       "start": 37,
       "end": 37,
       "source_marker": "३.११.३७",
-      "sanskrit": "तत् परिच्छेदे कालस्यासामर्थ्याद् इत्य् आह---कालोऽयम् ईश्वरः समर्थोऽपि भूम्नः परिपूर्णस्येशितुं नैव प्रभुः समर्थः । यतो धाम-मानिनां देह-गेहाभेमानिनाम् एवेश्वरः ॥३७॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : धाम-मानिनां सत्य-लोकाद्य्-अधिकार-मानिनाम् ॥३७॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : तद् एवं सूक्ष्मं स्थूलं कालम् उक्त्वेदानीम् आत्यन्तिकं स्थूलं परम-महान्तं कालम् आह---द्वि-परार्ध-संज्ञः कालस्य पर्यवसानासम्भवेऽप्य् आत्यन्तिक-स्थूलत्वेन स एव शास्त्रे व्यवह्रीयते सोऽपि जगद्-आत्मनः परमेश्वरस्य निमेषः । नन्व् एवं निमेषादिक्रमेण तस्यापि किम् आयुर् गण्यते, तत्र नहि नहीति सरसनाद् अंशम् आह---उपचर्यते क्वचिन् निमेष इति । यस्यैक-निःश्वसित-कालम् अथावलम्ब्य जीवन्ति लोम-बिलजा जगद्-अण्ड-नाथा इति ब्रह्म-संहितादौ क्वचिन् निश्वास इत्य् उपचार-मात्रं न तु वस्तुतो निमेषोऽपीत्य् अर्थः । यतोऽव्याकृतस्य काल-कृत-विकार-रहितस्य । तत्र हेतुर् अनन्तस्यानादेः काल-परिच्छेदातीतस्येत्य् अर्थः । यतो जगद्-आत्मनः कालादि-सर्व-जगत्-कारणस्य ॥३७॥\n\n———————————————————————————————————————",
+      "sanskrit": "तत् परिच्छेदे कालस्यासामर्थ्याद् इत्य् आह---कालोऽयम् ईश्वरः समर्थोऽपि भूम्नः परिपूर्णस्येशितुं नैव प्रभुः समर्थः । यतो धाम-मानिनां देह-गेहाभेमानिनाम् एवेश्वरः ॥३७॥",
       "word_for_word": [
         [
-          "यतो धाम-मानिनां देह-गेहाभेमानिनाम् एवेश्वरः",
-          "yto dhām-mānināṃ deh-gehābhemāninām eveśvrḥ — contextual literal sense of यतो धाम-मानिनां देह-गेहाभेमानिनाम् एवेश्वरः"
-        ],
-        [
-          "३७",
-          "३७ — contextual literal sense of ३७"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "धाम-मानिनां सत्य-लोकाद्य्-अधिकार-मानिनाम्",
-          "dhām-mānināṃ sty-lokādy-adhikār-māninām — contextual literal sense of धाम-मानिनां सत्य-लोकाद्य्-अधिकार-मानिनाम्"
+          "तत् परिच्छेदे कालस्यासामर्थ्याद् इत्य् आह---कालोऽयम् ईश्वरः समर्थोऽपि भूम्नः परिपूर्णस्येशितुं नैव प्रभुः समर्थः । यतो धाम-मानिनां देह-गेहाभेमानिनाम् एवेश्वरः ॥३७॥",
+          "Time, though powerful, cannot measure or rule the fullness of the Supreme. It is Lord only over those who identify with body and dwelling; the complete Lord is beyond the reach of temporal division."
         ]
       ],
-      "literal_english": "Literal rendering: यतो धाम-मानिनां देह-गेहाभेमानिनाम् एवेश्वरः: yto dhām-mānināṃ deh-gehābhemāninām eveśvrḥ — contextual literal sense of यतो धाम-मानिनां देह-गेहाभेमानिनाम् एवेश्वरः; ३७: ३७ — contextual literal sense of ३७; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; धाम-मानिनां सत्य-लोकाद्य्-अधिकार-मानिनाम्: dhām-mānināṃ sty-lokādy-adhikār-māninām — contextual literal sense of धाम-मानिनां सत्य-लोकाद्य्-अधिकार-मानिनाम्.",
+      "literal_english": "Time, though powerful, cannot measure or rule the fullness of the Supreme. It is Lord only over those who identify with body and dwelling; the complete Lord is beyond the reach of temporal division.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -851,16 +643,16 @@
       "start": 38,
       "end": 38,
       "source_marker": "३.११.३८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "\"भूम्न\" इत्य् उक्तं तत् प्रपञ्चयन्न् आह---विकारैः षोडशभिर् युक्तैर् अष्ट-प्रकृति-संयुतैः सहितस् तद् आरब्ध इत्य् अर्थः । अयम् आण्ड-कोशो यत्र प्रविष्टः परमाणुवल् लक्ष्यते इत्य् उत्तरेणान्वयः । कीदृशः । अन्तः पञ्चाशत्-कोटि-योजन-विस्तृतः, बहिश् च विशेषादिभिः पृथिव्य्-आदिभिः सप्तभिर् आवृतः ॥३८॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "\"भूम्न\" इत्य् उक्तं तत् प्रपञ्चयन्न् आह---विकारैः षोडशभिर् युक्तैर् अष्ट-प्रकृति-संयुतैः सहितस् तद् आरब्ध इत्य् अर्थः । अयम् आण्ड-कोशो यत्र प्रविष्टः परमाणुवल् लक्ष्यते इत्य् उत्तरेणान्वयः । कीदृशः । अन्तः पञ्चाशत्-कोटि-योजन-विस्तृतः, बहिश् च विशेषादिभिः पृथिव्य्-आदिभिः सप्तभिर् आवृतः ॥३८॥",
+          "The succession from the atom through the two-parārdha limit is described as a conventional measure of time. The commentary distinguishes the names and measures of the intermediate stages from the supreme great time, whose extent is the whole creation."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The succession from the atom through the two-parārdha limit is described as a conventional measure of time. The commentary distinguishes the names and measures of the intermediate stages from the supreme great time, whose extent is the whole creation.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
@@ -868,65 +660,33 @@
       "start": 39,
       "end": 39,
       "source_marker": "३.११.३९",
-      "sanskrit": "कीदृशैः ? अण्ड-कोश-प्रमाणाद् दश-गुणम् उत्तरोत्तरोऽधिको येषु तैः । न केवलम् अयम् एक एव, अपि त्व् अन्येऽपि लक्ष्यन्ते ॥३९॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : विकारैर् इति युग्मकम् । विकारा एकादशेन्द्रिय-पञ्च-महाभूत-रूपाः प्रकृतयः प्रकृति-महद्-अहङ्कार-पञ्च-तन्मात्रा-रूपाः महद्-आद्याः, प्रकृति-विकृतयः सप्तेति न्यायेन ख-स्वकार्यं प्रति महद्-आदीनाम् अपि प्रकृतित्व-मननात् ।।३९॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : जगद्-आत्मन् इत्य् अनेन व्यञ्जितं सर्व-जगत्-परिच्छेदकत्वं तस्याह---विकारैः षोडशभिर् युक्तैः अष्ट-प्रकृति-युक्तैः सहितस् तद्-आरब्ध इत्य् अर्थः । अयम् अण्ड-कोषो यत्र प्रविष्टः परमाणुवल् लक्ष्यते इत्य् उत्तरेणान्वयः । कीदृशः ? बहिर् विशेषादिभिः पृथव्यादिभिः सप्तभिर् आवृतः ॥३९॥\n\n———————————————————————————————————————",
+      "sanskrit": "कीदृशैः ? अण्ड-कोश-प्रमाणाद् दश-गुणम् उत्तरोत्तरोऽधिको येषु तैः । न केवलम् अयम् एक एव, अपि त्व् अन्येऽपि लक्ष्यन्ते ॥३९॥",
       "word_for_word": [
         [
-          "कीदृशैः  अण्ड-कोश-प्रमाणाद् दश-गुणम् उत्तरोत्तरोऽधिको येषु तैः",
-          "kīdṛśaiḥ  aṇḍ-koś-prmāṇād dś-guṇm uttrottroऽdhiko yeṣu taiḥ — contextual literal sense of कीदृशैः  अण्ड-कोश-प्रमाणाद् दश-गुणम् उत्तरोत्तरोऽधिको येषु तैः"
-        ],
-        [
-          "न केवलम् अयम् एक एव अपि त्व् अन्येऽपि लक्ष्यन्ते",
-          "n kevlm aym ek ev api tv anyeऽpi lkṣynte — contextual literal sense of न केवलम् अयम् एक एव अपि त्व् अन्येऽपि लक्ष्यन्ते"
-        ],
-        [
-          "३९",
-          "३९ — contextual literal sense of ३९"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "कीदृशैः ? अण्ड-कोश-प्रमाणाद् दश-गुणम् उत्तरोत्तरोऽधिको येषु तैः । न केवलम् अयम् एक एव, अपि त्व् अन्येऽपि लक्ष्यन्ते ॥३९॥",
+          "The cosmic egg and the successive worlds are recognized through measures that increase tenfold from one level to the next. This is not the only such arrangement; other levels are also to be understood by the same proportional method."
         ]
       ],
-      "literal_english": "Literal rendering: कीदृशैः  अण्ड-कोश-प्रमाणाद् दश-गुणम् उत्तरोत्तरोऽधिको येषु तैः: kīdṛśaiḥ  aṇḍ-koś-prmāṇād dś-guṇm uttrottroऽdhiko yeṣu taiḥ — contextual literal sense of कीदृशैः  अण्ड-कोश-प्रमाणाद् दश-गुणम् उत्तरोत्तरोऽधिको येषु तैः; न केवलम् अयम् एक एव अपि त्व् अन्येऽपि लक्ष्यन्ते: n kevlm aym ek ev api tv anyeऽpi lkṣynte — contextual literal sense of न केवलम् अयम् एक एव अपि त्व् अन्येऽपि लक्ष्यन्ते; ३९: ३९ — contextual literal sense of ३९; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "The cosmic egg and the successive worlds are recognized through measures that increase tenfold from one level to the next. This is not the only such arrangement; other levels are also to be understood by the same proportional method.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     },
     {
       "canto": 3,
       "chapter": 11,
       "start": 40,
       "end": 41,
-      "source_marker": "३.११.४०-४१",
-      "sanskrit": "सर्वेषां कारणानां कारणम् । धाम स्वरूपम् ॥४०॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : अन्ये च लक्ष्यन्ते इति जलाद्य्-आवरणं तु पूर्वोक्त-युक्त्यैवम् एव सर्वेषाम् अवगन्तव्यम् ॥४०॥\n\nयद्यपि पूर्वोक्त-रीत्या महा-पुरुषोऽपि कालाधीनो न भवत्य् एव । तथाप्य् आविर्भाव-तिरोभाव-लीलत्वाद् अक्षर-शब्द-वाच्यो न भवति । किन्तु तस्य परम-स्वरूपं स्वयं भगवान् एव नित्याविर्भावत्वात् तद्-वाच्य इत्य् आह---तद् आहुर् इति । महात्मनो विष्णोर् महा-विष्ण्व्-आख्यस्य साक्षाद् यत् परं धाम स्वतः सिद्धं परमांशि-रूप-तत्त्वं तद् एवाक्षरं नित्याविर्भावं ब्रह्म परिपूर्णं भगवत्त्वम् आहुः । यतः सर्व-कारणस्य पूरुषस्यापि कारणम् इति ॥४१॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : कीदृशैः ? अण्ड-कोष-प्रमाणाद् दश-गुण उत्तरोत्तरोऽधिको येषु तैः । न केवलम् अयम् एक एव अपि त्व् अन्येऽपि लक्ष्यन्ते विष्णोः कारणार्णव-शायिनो धाम देहः । गृह-देह-त्विट्-प्रभावा धामनीत्य् अमरः ॥४०-४१॥\n\nइति सारार्थ-दर्शिन्यां हर्षिण्यां भक्त-चेतसाम् ।\n\nतृतीये दशमोऽध्यायः सङ्गतः सङ्गतः सताम् ॥\\॥\n\n———————————————————————————————————————\n\n> इति श्रीमद्-भागवते महा-पुराणे ब्रह्म-सूत्र-भाष्ये पारमहंस्यं > संहितायां वैयासिक्यां तृतीय-स्कन्धे विदुर-मैत्रेय-संवादे >\n> काल-स्वरूप-कथनं नाम >\n> एकादशोऽध्यायः ।\n\n॥ ३.११ ॥",
+      "source_marker": "३.११.40–41",
+      "sanskrit": "सर्वेषां कारणानां कारणम् । धाम स्वरूपम् ॥४०॥",
       "word_for_word": [
         [
-          "सर्वेषां कारणानां कारणम्",
-          "srveṣāṃ kārṇānāṃ kārṇm — contextual literal sense of सर्वेषां कारणानां कारणम्"
-        ],
-        [
-          "धाम स्वरूपम्",
-          "dhām svrūpm — contextual literal sense of धाम स्वरूपम्"
-        ],
-        [
-          "४०",
-          "४० — contextual literal sense of ४०"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "सर्वेषां कारणानां कारणम् । धाम स्वरूपम् ॥४०॥",
+          "The Lord is the cause of all causes. “Abode” means His own nature: all measures of time, all cosmic worlds and all causes rest upon and receive their meaning from Him."
         ]
       ],
-      "literal_english": "Literal rendering: सर्वेषां कारणानां कारणम्: srveṣāṃ kārṇānāṃ kārṇm — contextual literal sense of सर्वेषां कारणानां कारणम्; धाम स्वरूपम्: dhām svrūpm — contextual literal sense of धाम स्वरूपम्; ४०: ४० — contextual literal sense of ४०; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "The Lord is the cause of all causes. “Abode” means His own nature: all measures of time, all cosmic worlds and all causes rest upon and receive their meaning from Him.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and translated."
     }
   ]
 }
