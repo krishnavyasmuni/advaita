@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "status": "source-checked-and-reader-committed",
+  "status": "source-checked-and-wfw-repaired",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md",
   "source_blob_sha": "aac12d62868bb8d6b6c0dfd875fd5746028090d5",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 3 Chapter 20; grouped source ranges are preserved.",
-  "scope": "ŚB 3.20.1–3.20.51; pinned source ranges and explicit no-commentary markers preserved.",
+  "editorial_note": "Exact Śrīdhara-attributed Sanskrit blocks are isolated from the pinned source and aligned phrase-by-phrase with IAST and independent English glosses. The source has 51 commentary blocks covering verses 1–53, including the merged 2–4 block; verse 37 is jointly attributed to Śrīdhara and Viśvanātha in the source.",
+  "scope": "ŚB 3.20.1–3.20.53; 51 source commentary blocks with 3.20.2–4 preserved as a grouped range.",
   "entries": [
     {
       "canto": 3,
@@ -14,32 +14,52 @@
       "start": 1,
       "end": 1,
       "source_marker": "३.२०.१",
-      "sanskrit": "विंशे वराह-जन्मादि- व्यवधानाद् अथादितः ।\n\nसर्गोऽनुस्मार्यते वक्तुम् अन्वयं प्रस्तुतां मनोः ॥\n\nप्रतिष्ठां स्थानम् । अध्यस्य प्राप्य । सौते सूतस्य रोमहर्षणस्य पुत्र । अवरम् अर्वाचीनं जन्म येषां तेषाम् ईश्वरे लीनानां मार्गाय निर्गमाय कानि द्वाराणि कृतवान् ? अर्वाचीनान् प्राणिनः कैर् उपायैः सृष्टवान् ? इत्य् अर्थः ॥१॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : वराह-लीलां प्रासङ्गिकीं श्रुत्वा प्रस्तुतं पृच्छति---महीम् इति ॥१॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) :\n\nविसर्गो यः समासेन पूर्वम् उक्तः स एव हि ।\n\nविंशे व्यासोच्यते स्वायम्भुव-वंश-विवक्षया ॥\n\nप्रतिष्ठाम् आश्रयम् । सौते ! रोमहर्षण-सूनो ! अवर-जन्मनां सनकादिभ्य उत्तर-काल-जन्मवतां जीवानाम् ईश्वरे लीनानां मार्गाय निर्गमाय कानि द्वाराणि कृतवान् ? अर्वाचीनान् प्राणिनः कैर् उपायैः सृष्टवान् ? इत्य् अर्थः ॥१॥\n\n———————————————————————————————————————",
+      "sanskrit": "विंशे वराह-जन्मादि- व्यवधानाद् अथादितः ।\n\nसर्गोऽनुस्मार्यते वक्तुम् अन्वयं प्रस्तुतां मनोः ॥\n\nप्रतिष्ठां स्थानम् । अध्यस्य प्राप्य । सौते सूतस्य रोमहर्षणस्य पुत्र । अवरम् अर्वाचीनं जन्म येषां तेषाम् ईश्वरे लीनानां मार्गाय निर्गमाय कानि द्वाराणि कृतवान् ? अर्वाचीनान् प्राणिनः कैर् उपायैः सृष्टवान् ? इत्य् अर्थः ॥१॥",
       "word_for_word": [
         [
-          "विंशे वराह-जन्मादि- व्यवधानाद् अथादितः",
-          "viṃśe vrāh-jnmādi- vyvdhānād athāditḥ — contextual literal sense of विंशे वराह-जन्मादि- व्यवधानाद् अथादितः"
+          "viṃśe",
+          "in the twentieth [chapter]"
         ],
         [
-          "सर्गोऽनुस्मार्यते वक्तुम् अन्वयं प्रस्तुतां मनोः",
-          "srgoऽnusmāryte vktum anvyṃ prstutāṃ mnoḥ — contextual literal sense of सर्गोऽनुस्मार्यते वक्तुम् अन्वयं प्रस्तुतां मनोः"
+          "varāha-janmādi- vyavadhānād athāditaḥ",
+          "then, from the beginning, after the interruption caused by the account beginning with Varāha’s birth"
         ],
         [
-          "प्रतिष्ठां स्थानम्",
-          "prtiṣṭhāṃ sthānm — contextual literal sense of प्रतिष्ठां स्थानम्"
+          "sargo’nusmāryate vaktum",
+          "creation is recalled in order to tell"
         ],
         [
-          "अध्यस्य प्राप्य",
-          "adhysy prāpy — contextual literal sense of अध्यस्य प्राप्य"
+          "anvayaṃ prastutāṃ manoḥ",
+          "the lineage of Manu now being introduced"
         ],
         [
-          "सौते सूतस्य रोमहर्षणस्य पुत्र",
-          "saute sūtsy romhrṣṇsy putr — contextual literal sense of सौते सूतस्य रोमहर्षणस्य पुत्र"
+          "pratiṣṭhāṃ sthānam",
+          "“pratiṣṭhā” means a place or abode"
+        ],
+        [
+          "adhyasya prāpya",
+          "“adhyasya” means having reached or obtained"
+        ],
+        [
+          "saute sūtasya romaharṣaṇasya putra",
+          "“O Sūta” means son of Sūta Romaharṣaṇa"
+        ],
+        [
+          "avaram arvācīnaṃ janma yeṣāṃ teṣām",
+          "“later” means those whose births are subsequent"
+        ],
+        [
+          "īśvare līnānāṃ mārgāya nirgamāya kāni dvārāṇi kṛtavān",
+          "for the passage out of those absorbed in the Lord, what doors did he make?"
+        ],
+        [
+          "arvācīnān prāṇinaḥ kair upāyaiḥ sṛṣṭavān ity arthaḥ",
+          "By what means did he create later creatures? This is the meaning."
         ]
       ],
-      "literal_english": "Literal rendering: विंशे वराह-जन्मादि- व्यवधानाद् अथादितः: viṃśe vrāh-jnmādi- vyvdhānād athāditḥ — contextual literal sense of विंशे वराह-जन्मादि- व्यवधानाद् अथादितः; सर्गोऽनुस्मार्यते वक्तुम् अन्वयं प्रस्तुतां मनोः: srgoऽnusmāryte vktum anvyṃ prstutāṃ mnoḥ — contextual literal sense of सर्गोऽनुस्मार्यते वक्तुम् अन्वयं प्रस्तुतां मनोः; प्रतिष्ठां स्थानम्: prtiṣṭhāṃ sthānm — contextual literal sense of प्रतिष्ठां स्थानम्; अध्यस्य प्राप्य: adhysy prāpy — contextual literal sense of अध्यस्य प्राप्य; सौते सूतस्य रोमहर्षणस्य पुत्र: saute sūtsy romhrṣṇsy putr — contextual literal sense of सौते सूतस्य रोमहर्षणस्य पुत्र.",
+      "literal_english": "In the twentieth chapter, after the interruption caused by the account beginning with Varāha’s birth, creation is recalled from the beginning so that Manu’s genealogy, now being introduced, may be told. “Pratiṣṭhā” means a place or abode; “adhyasya” means having reached or obtained it. “O Sūta” means the son of Romaharṣaṇa. “Later-born” means those whose births are subsequent. For the passage out of their absorption in the Lord, what doors did Manu make? By what means did he create later creatures? That is the meaning.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १ preserved."
     },
     {
       "canto": 3,
@@ -47,32 +67,48 @@
       "start": 2,
       "end": 4,
       "source_marker": "३.२०.२-४",
-      "sanskrit": "विदुर-मैत्रेय-संवादेनैवैतज् ज्ञास्यत इति तम् एव संवादं प्रष्टुम् आह---क्षत्तेति पञ्चभिः । श्री-कृष्ण-सुहृत्त्वे हेतुः---य इति । दुर्योधनादिभिर् अपत्यैः सहितम् अग्रजं धृतराष्ट्रम् अघवान् कृतापराध इति हेतोः श्री-कृष्णोक्त-मन्त्रानादरात् यस् तत्याज ॥२॥ अनवरोऽन्यूनः । महित्वे महिम्नि ॥३॥ कुशावर्ते गङ्गा-द्वारे ॥४॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : तद् एवं स्वातन्त्र्येण प्रश्नं विदुर-प्रश्नमय-कथा-शुश्रूषायाम् अनुचितं मत्व तत्-प्रश्नम् एव पृच्छति---क्षत्तेति पञ्चभिः ॥२-३॥ तत्र च यदि क्वचित् तद्-द्वाराविच्छिन्नास्ति तर्ह्य् अप्य् आवृत्त्य ताम् एवादितः प्रवर्तयेत्य् आह विरजास् तीर्थ-सेवयेत्य्-आदिना पादोन-पद्य-त्रयेण । प्रथमं तावत् तीर्थ-सेवया विरजाः दुःसङ्ग-दुःख-रहितः पश्चाद् उपगम्य ॥४॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : एतत्-प्रश्नोत्तरस् तु विदुर-मैत्रेय-संवादेनैव ब्रूहीत्य् आशयेनाह---क्षत्तेति। सापत्यं दुर्योधनाद्यैः पुत्रैः सहितम् अनवरः अन्यूनः विरजाः विगतं रजो यस्मात् सः । तीर्थ-सेवयेति हेतूक्तेः । प्रत्यासत्त्या च तीर्थानाम् एव रजो मालिन्यं विगतम् इत्य् अर्थः । कुशावर्ते गङ्गा-द्वारे ॥२-४॥\n\n———————————————————————————————————————",
+      "sanskrit": "विदुर-मैत्रेय-संवादेनैवैतज् ज्ञास्यत इति तम् एव संवादं प्रष्टुम् आह---क्षत्तेति पञ्चभिः । श्री-कृष्ण-सुहृत्त्वे हेतुः---य इति । दुर्योधनादिभिर् अपत्यैः सहितम् अग्रजं धृतराष्ट्रम् अघवान् कृतापराध इति हेतोः श्री-कृष्णोक्त-मन्त्रानादरात् यस् तत्याज ॥२॥ अनवरोऽन्यूनः । महित्वे महिम्नि ॥३॥ कुशावर्ते गङ्गा-द्वारे ॥४॥",
       "word_for_word": [
         [
-          "श्री-कृष्ण-सुहृत्त्वे हेतुः---य इति",
-          "śrī-kṛṣṇ-suhṛttve hetuḥ---y iti — contextual literal sense of श्री-कृष्ण-सुहृत्त्वे हेतुः---य इति"
+          "vidura-maitreya-saṃvādenaivaitaj jñāsyata iti",
+          "because this will indeed be known through the dialogue between Vidura and Maitreya"
         ],
         [
-          "२",
-          "२ — contextual literal sense of २"
+          "tam eva saṃvādaṃ praṣṭum āha kṣatteti pañcabhiḥ",
+          "to ask about that very dialogue, he says “kṣattā” in five verses"
         ],
         [
-          "अनवरोऽन्यूनः",
-          "anvroऽnyūnḥ — contextual literal sense of अनवरोऽन्यूनः"
+          "śrī-kṛṣṇa-suhṛttve hetuḥ ya iti",
+          "“yaḥ” states the reason for friendship with Śrī Kṛṣṇa"
         ],
         [
-          "महित्वे महिम्नि",
-          "mhitve mhimni — contextual literal sense of महित्वे महिम्नि"
+          "duryodhanādibhir apatyaiḥ sahitam agrajaṃ dhṛtarāṣṭram",
+          "his elder brother Dhṛtarāṣṭra, together with sons such as Duryodhana"
         ],
         [
-          "३",
-          "३ — contextual literal sense of ३"
+          "aghavān kṛtāparādha iti hetoḥ",
+          "because he was sinful, having committed an offense"
+        ],
+        [
+          "śrī-kṛṣṇokta-mantrānādarāt yas tatyāja",
+          "he abandoned him because of disregard for Śrī Kṛṣṇa’s counsel"
+        ],
+        [
+          "anavaro’nyūnaḥ",
+          "“anavara” means not inferior, undiminished"
+        ],
+        [
+          "mahitve mahimni",
+          "“mahitve” means in greatness"
+        ],
+        [
+          "kuśāvarte gaṅgā-dvāre",
+          "Kuśāvarta is at Gaṅgā-dvāra"
         ]
       ],
-      "literal_english": "Literal rendering: श्री-कृष्ण-सुहृत्त्वे हेतुः---य इति: śrī-kṛṣṇ-suhṛttve hetuḥ---y iti — contextual literal sense of श्री-कृष्ण-सुहृत्त्वे हेतुः---य इति; २: २ — contextual literal sense of २; अनवरोऽन्यूनः: anvroऽnyūnḥ — contextual literal sense of अनवरोऽन्यूनः; महित्वे महिम्नि: mhitve mhimni — contextual literal sense of महित्वे महिम्नि; ३: ३ — contextual literal sense of ३.",
+      "literal_english": "Because this will be known through the dialogue between Vidura and Maitreya, he asks to hear that very dialogue, saying “kṣattā” in five verses. “Yaḥ” gives the reason for Vidura’s friendship with Śrī Kṛṣṇa. Vidura abandoned his elder brother Dhṛtarāṣṭra, together with sons such as Duryodhana, because Dhṛtarāṣṭra was sinful and had committed an offense by disregarding Śrī Kṛṣṇa’s counsel. “Anavara” means not inferior or undiminished; “mahitve” means in greatness; Kuśāvarta is at Gaṅgā-dvāra.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २-४ preserved."
     },
     {
       "canto": 3,
@@ -80,32 +116,24 @@
       "start": 5,
       "end": 5,
       "source_marker": "३.२०.५",
-      "sanskrit": "यत् किम् अपि पृच्छतु किं तवेति चेत् तत्राह---तयोर् इति । अघ-घ्नीर् अघघ्न्यो नूनं कथाः प्रवृत्ताः ॥५॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : प्रवृत्ता इत्य्-आदिना पुनर् आदित एव श्रवणेच्छा स्पष्टीकृता ॥५॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : अमलाः कथा इति तयोर् भक्तत्वात् भक्तानां च कृष्णान्य-कथा-राहित्यात् गङ्गायाम् आपः गाङ्ग्यः अघघ्नीर् अघघ्न्यः ॥५॥\n\n———————————————————————————————————————",
+      "sanskrit": "यत् किम् अपि पृच्छतु किं तवेति चेत् तत्राह---तयोर् इति । अघ-घ्नीर् अघघ्न्यो नूनं कथाः प्रवृत्ताः ॥५॥",
       "word_for_word": [
         [
-          "यत् किम् अपि पृच्छतु किं तवेति चेत् तत्राह---तयोर् इति",
-          "yt kim api pṛcchtu kiṃ tveti cet ttrāh---tyor iti — contextual literal sense of यत् किम् अपि पृच्छतु किं तवेति चेत् तत्राह---तयोर् इति"
+          "yat kim api pṛcchatu kiṃ taveti cet",
+          "if one says, “Let him ask whatever he wishes; what is that to you?”"
         ],
         [
-          "अघ-घ्नीर् अघघ्न्यो नूनं कथाः प्रवृत्ताः",
-          "agh-ghnīr aghghnyo nūnṃ kthāḥ prvṛttāḥ — contextual literal sense of अघ-घ्नीर् अघघ्न्यो नूनं कथाः प्रवृत्ताः"
+          "tatrāha tayor iti",
+          "then he says “tayor”"
         ],
         [
-          "५",
-          "५ — contextual literal sense of ५"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "agha-ghnīr aghaghnyo nūnaṃ kathāḥ pravṛttāḥ",
+          "the sin-destroying stories have indeed begun"
         ]
       ],
-      "literal_english": "Literal rendering: यत् किम् अपि पृच्छतु किं तवेति चेत् तत्राह---तयोर् इति: yt kim api pṛcchtu kiṃ tveti cet ttrāh---tyor iti — contextual literal sense of यत् किम् अपि पृच्छतु किं तवेति चेत् तत्राह---तयोर् इति; अघ-घ्नीर् अघघ्न्यो नूनं कथाः प्रवृत्ताः: agh-ghnīr aghghnyo nūnṃ kthāḥ prvṛttāḥ — contextual literal sense of अघ-घ्नीर् अघघ्न्यो नूनं कथाः प्रवृत्ताः; ५: ५ — contextual literal sense of ५; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "If one objects, “Let him ask whatever he wishes; what is that to you?”, the reply is given with “tayor.” The sin-destroying stories of Hari have indeed begun.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ५ preserved."
     },
     {
       "canto": 3,
@@ -113,16 +141,24 @@
       "start": 6,
       "end": 6,
       "source_marker": "३.२०.६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "कीर्तन्यानि कीर्तनार्हाण्य् उदाराणि कर्मणि यस्य हरेः ॥६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "kīrtanyāni",
+          "worthy of being sung"
+        ],
+        [
+          "kīrtanārhāṇy udārāṇi karmaṇi",
+          "worthy of praise are the noble deeds"
+        ],
+        [
+          "yasya hareḥ",
+          "of Hari, whose deeds these are"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Kīrtanyāni” means worthy of being praised; “udārāṇi” means noble; “karmāṇi” means deeds—these belong to Hari.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ६ preserved."
     },
     {
       "canto": 3,
@@ -130,32 +166,28 @@
       "start": 7,
       "end": 7,
       "source_marker": "३.२०.७",
-      "sanskrit": "एवम् इति व्यास-वाक्यम् । उग्रश्रवा रोमहर्षण-पुत्रः । नैमिषम् अयनम् आश्रयो येषाम् । अर्पितम् अध्यात्मं मनो येन ॥७॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : ऋषिभिर् इति । श्री-शौनक-प्रश्नम् अनुमोदमानैः सर्वैर् एव तद्-अनुवादात्॥७॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : अध्यात्मं मनः ॥७॥\n\n———————————————————————————————————————",
+      "sanskrit": "एवम् इति व्यास-वाक्यम् । उग्रश्रवा रोमहर्षण-पुत्रः । नैमिषम् अयनम् आश्रयो येषाम् । अर्पितम् अध्यात्मं मनो येन ॥७॥",
       "word_for_word": [
         [
-          "एवम् इति व्यास-वाक्यम्",
-          "evm iti vyās-vākym — contextual literal sense of एवम् इति व्यास-वाक्यम्"
+          "evam iti vyāsa-vākyam",
+          "“evam” is Vyāsa’s statement"
         ],
         [
-          "उग्रश्रवा रोमहर्षण-पुत्रः",
-          "ugrśrvā romhrṣṇ-putrḥ — contextual literal sense of उग्रश्रवा रोमहर्षण-पुत्रः"
+          "ugraśravā romaharṣaṇa-putraḥ",
+          "Ugraśravā is the son of Romaharṣaṇa"
         ],
         [
-          "नैमिषम् अयनम् आश्रयो येषाम्",
-          "naimiṣm aynm āśryo yeṣām — contextual literal sense of नैमिषम् अयनम् आश्रयो येषाम्"
+          "naimiṣam ayanam āśrayo yeṣām",
+          "Naimiṣa is the refuge or dwelling of those sages"
         ],
         [
-          "अर्पितम् अध्यात्मं मनो येन",
-          "arpitm adhyātmṃ mno yen — contextual literal sense of अर्पितम् अध्यात्मं मनो येन"
-        ],
-        [
-          "७",
-          "७ — contextual literal sense of ७"
+          "arpitam adhyātmaṃ mano yena",
+          "by whom the mind, the inner self, was offered to Bhagavān"
         ]
       ],
-      "literal_english": "Literal rendering: एवम् इति व्यास-वाक्यम्: evm iti vyās-vākym — contextual literal sense of एवम् इति व्यास-वाक्यम्; उग्रश्रवा रोमहर्षण-पुत्रः: ugrśrvā romhrṣṇ-putrḥ — contextual literal sense of उग्रश्रवा रोमहर्षण-पुत्रः; नैमिषम् अयनम् आश्रयो येषाम्: naimiṣm aynm āśryo yeṣām — contextual literal sense of नैमिषम् अयनम् आश्रयो येषाम्; अर्पितम् अध्यात्मं मनो येन: arpitm adhyātmṃ mno yen — contextual literal sense of अर्पितम् अध्यात्मं मनो येन; ७: ७ — contextual literal sense of ७.",
+      "literal_english": "“Evam” is Vyāsa’s statement. Ugraśravā is the son of Romaharṣaṇa. “Naimiṣa” is the refuge or dwelling of those sages. His mind, the inner self, was offered to Bhagavān.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ७ preserved."
     },
     {
       "canto": 3,
@@ -163,32 +195,24 @@
       "start": 8,
       "end": 8,
       "source_marker": "३.२०.८",
-      "sanskrit": "गोर् उद्धरणं लीलां हिरण्याक्षं चावज्ञ्या हतं निशम्य । भारतो विदुरः ॥८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : श्री-सूतस् तु भगवत्-क्रमवत् श्री-विदुरस्य क्रम इति कस्माद् धारा-विच्छिद्येतेत्य् एवं तत्-प्रशंसा-गर्भम् उत्तरम् आह---हरेर् इति । तद् इदम् अपि श्री-शुकोक्तम् एव सूतोऽयम् अनुकृतवान् इति गम्यते । तद् एवानुसृत्यासौ सर्वं कथयति गोर् उद्धरण-रूपां लीलां निशम्य तस्याम् एव हिरण्याक्षम् अवज्ञया हतं निशम्येत्य् अर्थः ॥८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : सुष्ठु अमायया धृता नित्य-स्थिता क्रोड-तनुर् यस्य तस्य हरेः तौदादिकस्य धृङ् स्थिताव् इत्य् अस्य रूपम् । गोः पृथिव्याः । भारतो विदुरः ॥८॥\n\n———————————————————————————————————————",
+      "sanskrit": "गोर् उद्धरणं लीलां हिरण्याक्षं चावज्ञ्या हतं निशम्य । भारतो विदुरः ॥८॥",
       "word_for_word": [
         [
-          "गोर् उद्धरणं लीलां हिरण्याक्षं चावज्ञ्या हतं निशम्य",
-          "gor uddhrṇṃ līlāṃ hirṇyākṣṃ cāvjñyā htṃ niśmy — contextual literal sense of गोर् उद्धरणं लीलां हिरण्याक्षं चावज्ञ्या हतं निशम्य"
+          "gor uddharaṇaṃ",
+          "the raising of the earth"
         ],
         [
-          "भारतो विदुरः",
-          "bhārto vidurḥ — contextual literal sense of भारतो विदुरः"
+          "līlāṃ hiraṇyākṣaṃ cāvajñyā hataṃ niśamya",
+          "having heard of the divine play and of Hiraṇyākṣa slain through disregard"
         ],
         [
-          "८",
-          "८ — contextual literal sense of ८"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "bhārato viduraḥ",
+          "“Bhārata” means Vidura"
         ]
       ],
-      "literal_english": "Literal rendering: गोर् उद्धरणं लीलां हिरण्याक्षं चावज्ञ्या हतं निशम्य: gor uddhrṇṃ līlāṃ hirṇyākṣṃ cāvjñyā htṃ niśmy — contextual literal sense of गोर् उद्धरणं लीलां हिरण्याक्षं चावज्ञ्या हतं निशम्य; भारतो विदुरः: bhārto vidurḥ — contextual literal sense of भारतो विदुरः; ८: ८ — contextual literal sense of ८; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "Having heard of the raising of the earth from Rasātala, the divine play, and Hiraṇyākṣa being slain through disregard, Bhārata means Vidura.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ८ preserved."
     },
     {
       "canto": 3,
@@ -196,16 +220,20 @@
       "start": 9,
       "end": 9,
       "source_marker": "३.२०.९",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "यस्मात् त्वम् अव्यक्त-मार्ग-वित् । ब्रह्मणो वा विशेषणम् ॥९॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "yasmāt tvam avyakta-mārga-vit",
+          "because you know the hidden path"
+        ],
+        [
+          "brahmaṇo vā viśeṣaṇam",
+          "or, this qualifies Brahmā"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Because you know the hidden path.” Or, this is an adjective qualifying Brahmā.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ९ preserved."
     },
     {
       "canto": 3,
@@ -213,16 +241,20 @@
       "start": 10,
       "end": 10,
       "source_marker": "३.२०.१०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "एतज् जगत् । अभावयन्न् उत्पादयामासुः ॥१०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "etaj jagat",
+          "“etaj jagat” means this universe"
+        ],
+        [
+          "abhāvayann utpādayāmāsuḥ",
+          "“abhāvayan” means they brought it into being"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Etaj jagat” means this universe. “Abhāvayan” means they brought it into being.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १० preserved."
     },
     {
       "canto": 3,
@@ -230,16 +262,32 @@
       "start": 11,
       "end": 11,
       "source_marker": "३.२०.११",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "स-द्वितीयाः स-भार्याः । स्वतन्त्रा भार्यानपेक्षाः । कर्मसु प्रजा-सर्गादिषु । संहताः परस्परापेक्षाः । इदं जगत् ॥११॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "sa-dvitīyāḥ sa-bhāryāḥ",
+          "“sa-dvitīyāḥ” means accompanied by a second, that is, together with wives"
+        ],
+        [
+          "svatantrā bhāryānapekṣāḥ",
+          "“svatantrāḥ” means independent, not dependent on wives"
+        ],
+        [
+          "karmasu prajā-sargādiṣu",
+          "“karmasu” means in activities such as creating progeny"
+        ],
+        [
+          "saṃhatāḥ parasparāpekṣāḥ",
+          "“saṃhatāḥ” means joined together, each depending on the others"
+        ],
+        [
+          "idaṃ jagat",
+          "“idam jagat” means this universe"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Sa-dvitīyāḥ” means accompanied by a second, that is, together with wives. “Svatantrāḥ” means independent, not dependent on wives. “Karmasu” means in activities such as the creation of progeny. “Saṃhatāḥ” means joined together, each dependent on the others. “Idam jagat” means this universe.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ११ preserved."
     },
     {
       "canto": 3,
@@ -247,32 +295,32 @@
       "start": 12,
       "end": 12,
       "source_marker": "३.२०.१२",
-      "sanskrit": "ब्रह्मा किम् आरभतेति प्रश्नस्य यक्षादीन् सृष्टवान् इत्य् उत्तरं वक्तुं पूर्वोक्तां सृष्टिम् अनुस्मारयति, दैवेनेति सप्तभिः । मन्व्-आदि-प्रश्नानां तूत्तराध्यायम् आरभोत्तरं भविष्यति । दुर्वितर्क्येण दैवेन जीवादृष्टेन, परेण प्रकृत्य्-अधिष्ठात्रा महा-पुरुषेणानिमिषेण कालेन च हेतुना भगवतो निविङ्काराज् जात-क्षोभं यद् गुण-त्रयं प्रधानं तस्मान् महान् आसीत् । तद् उक्तं तन्त्रे---\n\n> विष्णोस् तु त्रीणि रूपाणि पुरुषाख्यान्य् अथो विदुः । >\n> प्रथमं महतः स्रष्टृ द्वितीयं त्व् अण्ड-संस्थितम् । >\n> तृतीयं सर्व-भूत-स्थं तानि ज्ञात्वा विमुच्यते ॥ इति ॥१२॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : पाद्मीय-विसर्गं कथयितुं सङ्गतये पूर्व-वृत्तं ब्राह्मीय-सर्गम् अपि स्मारयति । दैवेनेत्य् आदिना । भगवतः परम-कारणान् महान् आसीत् । तच् च तत एव न साक्षात्, किन्तु तच्-छक्तेः प्रधानाख्याद् गुण-साम्याद् एव । कीदृशात् दैवादि-हेतुना जात-क्षोभात् तत्रानिमिषेण कालेन दैवाद् अप्य् उत्तमेन ॥१२॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : किम् आरभतेति प्रश्नस्योत्तरं विसर्ग-विस्तारं वक्ष्यन् तत्-पूर्व-भागं सर्वम् उक्तम् अपि कथा-सौष्ठवार्थं सङ्क्षेपेणानुवदति । दैवेन । जीवादृष्टेन कीदृशेन दुर्वितर्क्येण दुर्ज्ञेय-मूलकेन परेण कालेन जात-क्षोभात् गुण-त्रयात् प्रधानान् महान् आसीत् । भगवतः सकाशात् भगवद्-ईक्षिताद् इत्य् अर्थः ॥१२॥\n\n———————————————————————————————————————",
+      "sanskrit": "ब्रह्मा किम् आरभतेति प्रश्नस्य यक्षादीन् सृष्टवान् इत्य् उत्तरं वक्तुं पूर्वोक्तां सृष्टिम् अनुस्मारयति, दैवेनेति सप्तभिः । मन्व्-आदि-प्रश्नानां तूत्तराध्यायम् आरभोत्तरं भविष्यति । दुर्वितर्क्येण दैवेन जीवादृष्टेन, परेण प्रकृत्य्-अधिष्ठात्रा महा-पुरुषेणानिमिषेण कालेन च हेतुना भगवतो निविङ्काराज् जात-क्षोभं यद् गुण-त्रयं प्रधानं तस्मान् महान् आसीत् । तद् उक्तं तन्त्रे---\nविष्णोस् तु त्रीणि रूपाणि पुरुषाख्यान्य् अथो विदुः । >\nप्रथमं महतः स्रष्टृ द्वितीयं त्व् अण्ड-संस्थितम् । >\nतृतीयं सर्व-भूत-स्थं तानि ज्ञात्वा विमुच्यते ॥ इति ॥१२॥",
       "word_for_word": [
         [
-          "मन्व्-आदि-प्रश्नानां तूत्तराध्यायम् आरभोत्तरं भविष्यति",
-          "mnv-ādi-prśnānāṃ tūttrādhyāym ārbhottrṃ bhviṣyti — contextual literal sense of मन्व्-आदि-प्रश्नानां तूत्तराध्यायम् आरभोत्तरं भविष्यति"
+          "brahmā kim ārabhateti praśnasya yakṣādīn sṛṣṭavān ity uttaraṃ vaktuṃ pūrvoktāṃ sṛṣṭim anusmārayati daiveneti saptabhiḥ",
+          "to answer the question “What did Brahmā undertake?”—that he created Yakṣas and others—he recalls the preceding creation in seven verses beginning “daivena”"
         ],
         [
-          "तद् उक्तं तन्त्रे---",
-          "td uktṃ tntre--- — contextual literal sense of तद् उक्तं तन्त्रे---"
+          "manv-ādi-praśnānāṃ tūttarādhyāyam ārabhottaraṃ bhaviṣyati",
+          "the questions concerning Manu and the rest will be answered beginning in the next chapter"
         ],
         [
-          "> विष्णोस् तु त्रीणि रूपाणि पुरुषाख्यान्य् अथो विदुः",
-          "> viṣṇos tu trīṇi rūpāṇi puruṣākhyāny atho viduḥ — contextual literal sense of > विष्णोस् तु त्रीणि रूपाणि पुरुषाख्यान्य् अथो विदुः"
+          "durvitarkyeṇa daivena jīvādṛṣṭena pareṇa prakṛty-adhiṣṭhātrā mahā-puruṣeṇānimiṣeṇa kālena ca hetunā bhagavato niviṅkārāj jāta-kṣobhaṃ yad guṇa-trayaṃ pradhānaṃ tasmān mahān āsīt",
+          "from the Lord’s unmodified nature, agitated by inscrutable providence (the living being’s unseen karma), the Supreme Person presiding over primordial nature, and time, arose the three qualities called pradhāna; from them arose Mahat"
         ],
         [
-          ">",
-          "> — contextual literal sense of >"
+          "tad uktaṃ tantre",
+          "this is stated in the Tantra"
         ],
         [
-          "> प्रथमं महतः स्रष्टृ द्वितीयं त्व् अण्ड-संस्थितम्",
-          "> prthmṃ mhtḥ srṣṭṛ dvitīyṃ tv aṇḍ-sṃsthitm — contextual literal sense of > प्रथमं महतः स्रष्टृ द्वितीयं त्व् अण्ड-संस्थितम्"
+          "viṣṇos tu trīṇi rūpāṇi puruṣākhyāny atho viduḥ prathamaṃ mahataḥ sraṣṭṛ dvitīyaṃ tv aṇḍa-saṃsthitam tṛtīyaṃ sarva-bhūta-sthaṃ tāni jñātvā vimucyate iti",
+          "“They know Viṣṇu’s three forms, called Puruṣas: the first creates Mahat, the second is situated in the cosmic egg, and the third is present in all beings; knowing these, one is liberated.”"
         ]
       ],
-      "literal_english": "Literal rendering: मन्व्-आदि-प्रश्नानां तूत्तराध्यायम् आरभोत्तरं भविष्यति: mnv-ādi-prśnānāṃ tūttrādhyāym ārbhottrṃ bhviṣyti — contextual literal sense of मन्व्-आदि-प्रश्नानां तूत्तराध्यायम् आरभोत्तरं भविष्यति; तद् उक्तं तन्त्रे---: td uktṃ tntre--- — contextual literal sense of तद् उक्तं तन्त्रे---; > विष्णोस् तु त्रीणि रूपाणि पुरुषाख्यान्य् अथो विदुः: > viṣṇos tu trīṇi rūpāṇi puruṣākhyāny atho viduḥ — contextual literal sense of > विष्णोस् तु त्रीणि रूपाणि पुरुषाख्यान्य् अथो विदुः; >: > — contextual literal sense of >; > प्रथमं महतः स्रष्टृ द्वितीयं त्व् अण्ड-संस्थितम्: > prthmṃ mhtḥ srṣṭṛ dvitīyṃ tv aṇḍ-sṃsthitm — contextual literal sense of > प्रथमं महतः स्रष्टृ द्वितीयं त्व् अण्ड-संस्थितम्.",
+      "literal_english": "To answer the question “What did Brahmā undertake?”—that he created the Yakṣas and others—the preceding creation is recalled with “daivena” in seven verses. The questions concerning Manu and the rest will be answered in the next chapter. From the Lord’s unmodified nature, agitated by inscrutable providence (the unseen karma of the living being), by the Supreme Person who presides over primordial nature, and by time (the Unblinking Lord), there arose the three qualities, called pradhāna, and from them Mahat. This is stated in the Tantra: “They know the three forms of Viṣṇu, called Puruṣas: first, the creator of Mahat; second, situated within the cosmic egg; third, present in all beings. Knowing these, one is liberated.”",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १२ preserved."
     },
     {
       "canto": 3,
@@ -280,16 +328,28 @@
       "start": 13,
       "end": 13,
       "source_marker": "३.२०.१३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "महतो जातो भूतादिर् अहङ्कारस् त्रि-लिङ्गस् त्रि-गुणः । रजः प्रधानाद् इति स्वतः सत्त्व-प्रधानस्यापि महतोऽहङ्कारोत्पत्ति-काले कार्यानुरूपं रजः-प्रधानत्वं भवतीति भावः । पञ्चशः तन् मात्राणि मह-भूतानि ज्ञानेन्द्रियाणि कर्मेन्द्रियाणि तत् तद् देवताश् चेति पञ्च ससर्जेत्य् अर्थः ॥१३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "mahato jāto bhūtādir ahaṅkāras tri-liṅgas tri-guṇaḥ",
+          "from Mahat arose bhūtādi, ahaṅkāra, marked by three characteristics and constituted of the three qualities"
+        ],
+        [
+          "rajaḥ pradhānād iti",
+          "“predominant in rajas” means"
+        ],
+        [
+          "svataḥ sattva-pradhānasyāpi mahato’haṅkārotpatti-kāle kāryānurūpaṃ rajaḥ-pradhānatvaṃ bhavatīti bhāvaḥ",
+          "although Mahat naturally predominates in sattva, at the arising of ahaṅkāra it becomes predominantly rajasic in accordance with the effect; this is the meaning"
+        ],
+        [
+          "pañcaśaḥ tan mātrāṇi maha-bhūtāni jñānendriyāṇi karmendriyāṇi tat tad devatāś ceti pañca sasarjety arthaḥ",
+          "“fivefold” means the subtle elements, great elements, cognitive senses, active senses, and their respective deities: five classes were created"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "From Mahat arose bhūtādi, ahaṅkāra, marked by three characteristics and constituted of the three qualities. “Predominant in rajas” means that, although sattva naturally predominates in Mahat, at the time ahaṅkāra arises rajas predominates in accordance with the effect. “Fivefold” means that he created five classes: the subtle elements, the great elements, the cognitive senses, the active senses, and their respective presiding deities.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १३ preserved."
     },
     {
       "canto": 3,
@@ -297,16 +357,24 @@
       "start": 14,
       "end": 14,
       "source_marker": "३.२०.१४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "भौतिकं हैमम् अण्डम् एकैकशः प्रत्य् एकं स्रष्टुम् असमर्थानि सन्ति संहत्य ससृजुः ॥१४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "bhautikaṃ haimam aṇḍam",
+          "the material, golden cosmic egg"
+        ],
+        [
+          "ekaikaśaḥ praty ekaṃ sraṣṭum asamarthāni santi",
+          "being unable, each separately, to create individually"
+        ],
+        [
+          "saṃhatya sasṛjuḥ",
+          "they combined and created [it]"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The material, golden cosmic egg: since the [elements], each separately, were unable to create, they combined and created it.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १४ preserved."
     },
     {
       "canto": 3,
@@ -314,32 +382,16 @@
       "start": 15,
       "end": 15,
       "source_marker": "३.२०.१५",
-      "sanskrit": "अन्ववात्सीद् अधिष्ठितवान् ॥१५॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : अण्ड-कोष एवान्ड-कोषः तद्-अन्तर्-वर्ती विराड् वा । तस्य निरात्मकत्वं तदानीम् अपि जीवानाम् अप्य् अनुद्बोधात् । ईश्वरो महत् स्रष्टा द्वितीय-पुरुष-रूपेण ॥१५॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : निरात्मकः न व्यक्तस् तत्रात्मा ॥१५॥\n\n———————————————————————————————————————",
+      "sanskrit": "अन्ववात्सीद् अधिष्ठितवान् ॥१५॥",
       "word_for_word": [
         [
-          "अन्ववात्सीद् अधिष्ठितवान्",
-          "anvvātsīd adhiṣṭhitvān — contextual literal sense of अन्ववात्सीद् अधिष्ठितवान्"
-        ],
-        [
-          "१५",
-          "१५ — contextual literal sense of १५"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "अण्ड-कोष एवान्ड-कोषः तद्-अन्तर्-वर्ती विराड् वा",
-          "aṇḍ-koṣ evānḍ-koṣḥ td-antr-vrtī virāḍ vā — contextual literal sense of अण्ड-कोष एवान्ड-कोषः तद्-अन्तर्-वर्ती विराड् वा"
+          "anvavātsīd adhiṣṭhitavān",
+          "“anvavātsīt” means “he presided over [it]”"
         ]
       ],
-      "literal_english": "Literal rendering: अन्ववात्सीद् अधिष्ठितवान्: anvvātsīd adhiṣṭhitvān — contextual literal sense of अन्ववात्सीद् अधिष्ठितवान्; १५: १५ — contextual literal sense of १५; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; अण्ड-कोष एवान्ड-कोषः तद्-अन्तर्-वर्ती विराड् वा: aṇḍ-koṣ evānḍ-koṣḥ td-antr-vrtī virāḍ vā — contextual literal sense of अण्ड-कोष एवान्ड-कोषः तद्-अन्तर्-वर्ती विराड् वा.",
+      "literal_english": "“Anvavātsīt” means “he presided over [it].”",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १५ preserved."
     },
     {
       "canto": 3,
@@ -347,32 +399,24 @@
       "start": 16,
       "end": 16,
       "source_marker": "३.२०.१६",
-      "sanskrit": "सहस्रार्काणाम् इवोरुर् दीधितिर् यस्य तत् । सर्व-जीवनिकायानाम् ओकः स्थानं पद्मम् । स्वराट् ब्रह्मा ॥१६॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : य एवं ब्राह्मे कल्पे सृष्टवान् तस्य प्रविष्टस्य सतः पाद्मे कल्पे नभेः सकाशात् पद्ममभूत् ॥१६॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : नाभेः सकाशात् यत्र पद्मे स्वराट् ब्रह्मा ॥१६॥\n\n———————————————————————————————————————",
+      "sanskrit": "सहस्रार्काणाम् इवोरुर् दीधितिर् यस्य तत् । सर्व-जीवनिकायानाम् ओकः स्थानं पद्मम् । स्वराट् ब्रह्मा ॥१६॥",
       "word_for_word": [
         [
-          "सहस्रार्काणाम् इवोरुर् दीधितिर् यस्य तत्",
-          "shsrārkāṇām ivorur dīdhitir ysy tt — contextual literal sense of सहस्रार्काणाम् इवोरुर् दीधितिर् यस्य तत्"
+          "sahasrārkāṇām ivorur dīdhitir yasya tat",
+          "that which has immense radiance like a thousand suns"
         ],
         [
-          "सर्व-जीवनिकायानाम् ओकः स्थानं पद्मम्",
-          "srv-jīvnikāyānām okḥ sthānṃ pdmm — contextual literal sense of सर्व-जीवनिकायानाम् ओकः स्थानं पद्मम्"
+          "sarva-jīvanikāyānām okaḥ sthānaṃ padmam",
+          "the lotus is the abode, the dwelling place, of all groups of living beings"
         ],
         [
-          "स्वराट् ब्रह्मा",
-          "svrāṭ brhmā — contextual literal sense of स्वराट् ब्रह्मा"
-        ],
-        [
-          "१६",
-          "१६ — contextual literal sense of १६"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
+          "svarāṭ brahmā",
+          "“svarāṭ” means Brahmā"
         ]
       ],
-      "literal_english": "Literal rendering: सहस्रार्काणाम् इवोरुर् दीधितिर् यस्य तत्: shsrārkāṇām ivorur dīdhitir ysy tt — contextual literal sense of सहस्रार्काणाम् इवोरुर् दीधितिर् यस्य तत्; सर्व-जीवनिकायानाम् ओकः स्थानं पद्मम्: srv-jīvnikāyānām okḥ sthānṃ pdmm — contextual literal sense of सर्व-जीवनिकायानाम् ओकः स्थानं पद्मम्; स्वराट् ब्रह्मा: svrāṭ brhmā — contextual literal sense of स्वराट् ब्रह्मा; १६: १६ — contextual literal sense of १६; :  — contextual literal sense of .",
+      "literal_english": "“That which has immense radiance like a thousand suns.” The lotus is the abode, the dwelling place, of all groups of living beings. “Svarāṭ” means Brahmā.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १६ preserved."
     },
     {
       "canto": 3,
@@ -380,32 +424,24 @@
       "start": 17,
       "end": 17,
       "source_marker": "३.२०.१७",
-      "sanskrit": "यः सलिलाशये गर्भोदकस्यान्तः शेते, तेन भगवतानुविष्टोऽधिष्ठितः सन्, स स्वराट् । स्वया संस्थया नाम-रूपादि-क्रमेण ॥१७॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : स्वया संस्थया स्वस्मिंस् तत्-तन्-नाम-रूपाद्य्-आविर्भाव-क्रमेण ॥१७॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : स ब्रह्मा भगवताअनुविष्टः अधिष्ठितः । भगवान् एव कः ? तत्राह---य इति । ततश् च स ब्रह्मा भगवत्-प्रेरितः सन् लोक-संस्थां लोक-रचनां स्वया संस्थया परिपाट्या नाम-रूपादि-क्रमया ॥१७॥\n\n———————————————————————————————————————",
+      "sanskrit": "यः सलिलाशये गर्भोदकस्यान्तः शेते, तेन भगवतानुविष्टोऽधिष्ठितः सन्, स स्वराट् । स्वया संस्थया नाम-रूपादि-क्रमेण ॥१७॥",
       "word_for_word": [
         [
-          "स्वया संस्थया नाम-रूपादि-क्रमेण",
-          "svyā sṃsthyā nām-rūpādi-krmeṇ — contextual literal sense of स्वया संस्थया नाम-रूपादि-क्रमेण"
+          "yaḥ salilāśaye garbhodakasyāntaḥ śete",
+          "he who lies within the body of water, within the Garbhodaka"
         ],
         [
-          "१७",
-          "१७ — contextual literal sense of १७"
+          "tena bhagavatānuviṣṭo’dhiṣṭhitaḥ san sa svarāṭ",
+          "being entered and presided over by that Bhagavān, he is “svarāṭ”"
         ],
         [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "स्वया संस्थया स्वस्मिंस् तत्-तन्-नाम-रूपाद्य्-आविर्भाव-क्रमेण",
-          "svyā sṃsthyā svsmiṃs tt-tn-nām-rūpādy-āvirbhāv-krmeṇ — contextual literal sense of स्वया संस्थया स्वस्मिंस् तत्-तन्-नाम-रूपाद्य्-आविर्भाव-क्रमेण"
+          "svayā saṃsthayā nāma-rūpādi-krameṇa",
+          "“by his own constitution” means according to the sequence of name, form, and so forth"
         ]
       ],
-      "literal_english": "Literal rendering: स्वया संस्थया नाम-रूपादि-क्रमेण: svyā sṃsthyā nām-rūpādi-krmeṇ — contextual literal sense of स्वया संस्थया नाम-रूपादि-क्रमेण; १७: १७ — contextual literal sense of १७; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; स्वया संस्थया स्वस्मिंस् तत्-तन्-नाम-रूपाद्य्-आविर्भाव-क्रमेण: svyā sṃsthyā svsmiṃs tt-tn-nām-rūpādy-āvirbhāv-krmeṇ — contextual literal sense of स्वया संस्थया स्वस्मिंस् तत्-तन्-नाम-रूपाद्य्-आविर्भाव-क्रमेण.",
+      "literal_english": "He who lies within the body of water, within the Garbhodaka, is entered and presided over by that Bhagavān. “Svarāṭ” [means Brahmā]. “By his own constitution” means according to the sequence of name, form, and so forth.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १७ preserved."
     },
     {
       "canto": 3,
@@ -413,32 +449,28 @@
       "start": 18,
       "end": 18,
       "source_marker": "३.२०.१८",
-      "sanskrit": "छाया प्रभा-प्रतियोगिनी तया । अबुध्येत्य् अर्थः, यस् त्व् अबुद्धि-कृतः प्रभोः\\[भा।पु। ३.१०.१७\\] इत्य् उक्तत्वात् । महा-तम इति महा-मोहः । स्वरूप-निर्देश-मात्र-विवक्षया मोह इति प्रथमा-प्रयोगः ॥१८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : तथा दर्शयति---ससर्जेति ॥१८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : यक्ष-राक्षस-देव-मनुष्यादि-देहेषु ब्रह्मणा स्रष्टव्येषु जीवानाम् अहङ्कारोऽविद्यया विना न सम्भवेत्, अतः प्रथमम् अविद्या-वृत्तीः स्वयम् एव ब्रह्म-द्वारा आविर्भवतीस् तम-आदि-रूपेण ब्रह्मा ताः ससर्जेत्य् आह---ससर्जेति । च्छायया छाय-रूपया तन्वा तमसेत्य् अर्थः । अत्र तमो-मोह-महा-मोह-तामिस्रान्ध-तामिस्राः क्रमेणाज्ञानास्मिता-राग-द्वेषाभिनिवेशा ज्ञेयाः ॥१८॥\n\n———————————————————————————————————————",
+      "sanskrit": "छाया प्रभा-प्रतियोगिनी तया । अबुध्येत्य् अर्थः, यस् त्व् अबुद्धि-कृतः प्रभोः[भा।पु। ३.१०.१७] इत्य् उक्तत्वात् । महा-तम इति महा-मोहः । स्वरूप-निर्देश-मात्र-विवक्षया मोह इति प्रथमा-प्रयोगः ॥१८॥",
       "word_for_word": [
         [
-          "छाया प्रभा-प्रतियोगिनी तया",
-          "chāyā prbhā-prtiyoginī tyā — contextual literal sense of छाया प्रभा-प्रतियोगिनी तया"
+          "chāyā prabhā-pratiyoginī tayā",
+          "“chāyā” is the counterpart of radiance; by that [shadow]"
         ],
         [
-          "अबुध्येत्य् अर्थः यस् त्व् अबुद्धि-कृतः प्रभोः\\भा",
-          "abudhyety arthḥ ys tv abuddhi-kṛtḥ prbhoḥ\\bhā — contextual literal sense of अबुध्येत्य् अर्थः यस् त्व् अबुद्धि-कृतः प्रभोः\\भा"
+          "abudhyety arthaḥ yas tv abuddhi-kṛtaḥ prabhoḥ ity uktatvāt",
+          "“he became bewildered”—this is the meaning, since it is said, “that which was produced from the Lord’s ignorance” (Bhāgavata 3.10.17)"
         ],
         [
-          "पु",
-          "pu — contextual literal sense of पु"
+          "mahā-tama iti mahā-mohaḥ",
+          "“great darkness” means great delusion"
         ],
         [
-          "३.१०.१७\\ इत्य् उक्तत्वात्",
-          "३.१०.१७\\ ity ukttvāt — contextual literal sense of ३.१०.१७\\ इत्य् उक्तत्वात्"
-        ],
-        [
-          "महा-तम इति महा-मोहः",
-          "mhā-tm iti mhā-mohḥ — contextual literal sense of महा-तम इति महा-मोहः"
+          "svarūpa-nirdeśa-mātra-vivakṣayā moha iti prathamā-prayogaḥ",
+          "the nominative “moha” is used merely to designate the nature [of the state]"
         ]
       ],
-      "literal_english": "Literal rendering: छाया प्रभा-प्रतियोगिनी तया: chāyā prbhā-prtiyoginī tyā — contextual literal sense of छाया प्रभा-प्रतियोगिनी तया; अबुध्येत्य् अर्थः यस् त्व् अबुद्धि-कृतः प्रभोः\\भा: abudhyety arthḥ ys tv abuddhi-kṛtḥ prbhoḥ\\bhā — contextual literal sense of अबुध्येत्य् अर्थः यस् त्व् अबुद्धि-कृतः प्रभोः\\भा; पु: pu — contextual literal sense of पु; ३.१०.१७\\ इत्य् उक्तत्वात्: ३.१०.१७\\ ity ukttvāt — contextual literal sense of ३.१०.१७\\ इत्य् उक्तत्वात्; महा-तम इति महा-मोहः: mhā-tm iti mhā-mohḥ — contextual literal sense of महा-तम इति महा-मोहः.",
+      "literal_english": "“Chāyā” is the counterpart or opposite of radiance (prabhā); by that [shadow] he became bewildered—this is the meaning, since it is said, “that which was produced from the Lord’s ignorance.” “Great darkness” means great delusion. The nominative form “moha” is used merely to designate the nature [of the state].",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १८ preserved."
     },
     {
       "canto": 3,
@@ -446,16 +478,32 @@
       "start": 19,
       "end": 19,
       "source_marker": "३.२०.१९",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तद् एवं प्रथमोक्तां साधारणां सृष्टिम् अनूद्य केनचिद् विशेषेणासाधारणां सृष्टिम् आह---विससर्जेत्य्-आदिना यावत् समाप्ति । तद् विसृष्टं कायं रात्रि-रूपं तत एव जातानि यक्ष-रक्षांसि जगृहुः । क्षुत्-तृषोः समुद्भवो यस्यां ताम् । अत्र च, यास्य सा तनूर् आसीत् ताम् अपाहत सा तमिस्राभवत् इत्य्-आदि-श्रुतिर् अनुसन्धेया ॥१९॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "tad evaṃ prathamoktāṃ sādhāraṇāṃ sṛṣṭim anūdya",
+          "having restated the general creation described first"
+        ],
+        [
+          "kenacid viśeṣeṇāsādhāraṇāṃ sṛṣṭim āha visasarjety-ādinā yāvat samāpti",
+          "he describes a particular, exceptional creation, beginning with “visasarja” and continuing to the end"
+        ],
+        [
+          "tad visṛṣṭaṃ kāyaṃ rātri-rūpaṃ tata eva jātāni yakṣa-rakṣāṃsi jagṛhuḥ",
+          "the body thus emitted in the form of night was seized by the Yakṣas and Rākṣasas born from it"
+        ],
+        [
+          "kṣut-tṛṣoḥ samudbhavo yasyāṃ tām",
+          "that [body] in which hunger and thirst arose"
+        ],
+        [
+          "atra ca yāsya sā tanūr āsīt tām apāhata sā tamisrābhavat ity-ādi-śrutir anusandheyā",
+          "here one should recall the Śruti beginning, “That body which was to be cast off, she cast away; it became darkness,” and so forth"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Having restated the general creation described first, he now describes a particular, exceptional creation, beginning with “visasarja” and continuing to the end. The body thus emitted, in the form of night, was seized by the Yakṣas and Rākṣasas born from it. It was a body in which hunger and thirst arose. Here one should recall the Śruti beginning, “That body which was to be cast off, she cast away; it became darkness,” and so forth.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block १९ preserved."
     },
     {
       "canto": 3,
@@ -463,16 +511,32 @@
       "start": 20,
       "end": 20,
       "source_marker": "३.२०.२०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "उपसृष्टा अभिभूताः । जग्धुम् अत्तुं भक्षयितुम् । यतो वयं क्षुत्-तृड्भ्याम् अर्दिता अत एनं पितेति कृपया मा रक्षतेत्य् एके । अन्ये तु जक्षध्वं भक्षयतेति ब्रुवन्तः । जक्ष भक्ष-हसनयोर् इति धातुः ॥२०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "upasṛṣṭā abhibhūtāḥ",
+          "“upasṛṣṭāḥ” means afflicted or overwhelmed"
+        ],
+        [
+          "jagdhum attuṃ bhakṣayitum",
+          "“jagdhum” means to eat, consume, or devour"
+        ],
+        [
+          "yato vayaṃ kṣut-tṛḍbhyām arditā ata enaṃ piteti kṛpayā mā rakṣatety eke",
+          "some said, “Since we are afflicted by hunger and thirst, therefore, out of compassion, protect us, Father”"
+        ],
+        [
+          "anye tu jakṣadhvaṃ bhakṣayateti bruvantaḥ",
+          "others said, “Eat! Devour!”"
+        ],
+        [
+          "jakṣa bhakṣa-hasanayor iti dhātuḥ",
+          "the root jakṣ means eating or laughing"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Upasṛṣṭāḥ” means afflicted or overwhelmed; “jagdhum” means to eat, consume, or devour. Some said, “Since we are afflicted by hunger and thirst, therefore, out of compassion, protect us, Father.” Others said, “Eat! Devour!” The verbal root jakṣ means eating or laughing.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २० preserved."
     },
     {
       "canto": 3,
@@ -480,16 +544,36 @@
       "start": 21,
       "end": 21,
       "source_marker": "३.२०.२१",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "देवो ब्रह्मा संविग्नो भीतः सन् मां मा जक्षत मा भक्षयत, किन्तु रक्षत । अहो हे यक्ष-रक्षांसि, यूयं मे प्रजाः सुता बभूविथ जाताः स्थ । एवम् उग्र-स्वभावा यक्ष-राक्षसा जाता इत्य् अर्थः । तत्र ये जक्षध्वम् इत्य् ऊचुस् ते यक्षाः, ये तु मा रक्षतेति ते राक्षसा इति ज्ञेयम् । एतच् च तिर्यग्-आदि-तामस-सर्गस्याप्य् उपलक्षणम् ॥२१॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "devo brahmā saṃvigno bhītaḥ san",
+          "the lord Brahmā, distressed and afraid"
+        ],
+        [
+          "māṃ mā jakṣata mā bhakṣayata kintu rakṣata",
+          "“Do not eat me, do not devour me, but protect me”"
+        ],
+        [
+          "aho he yakṣa-rakṣāṃsi yūyaṃ me prajāḥ sutā babhūvitha jātāḥ stha",
+          "“Ah, O Yakṣas and Rākṣasas, you have become my offspring”"
+        ],
+        [
+          "evam ugra-svabhāvā yakṣa-rākṣasā jātā ity arthaḥ",
+          "thus the Yakṣas and Rākṣasas were born with fierce natures; this is the meaning"
+        ],
+        [
+          "tatra ye jakṣadhvam ity ūcus te yakṣāḥ ye tu mā rakṣateti te rākṣasā iti jñeyam",
+          "those who said “Eat!” are known as Yakṣas, and those who said “Protect us!” as Rākṣasas"
+        ],
+        [
+          "etac ca tiryag-ādi-tāmasa-sargasyāpy upalakṣaṇam",
+          "this also indicates the tamasic creation of animals and the like"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Frightened, the lord Brahmā said, “Do not eat me; do not devour me, but protect me. Ah, O Yakṣas and Rākṣasas, you have become my offspring.” Thus the Yakṣas and Rākṣasas were born with fierce natures. Those who said “Eat!” are known as Yakṣas; those who said “Protect us!” are known as Rākṣasas. This also indicates the tamasic creation of animals and the like.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २१ preserved."
     },
     {
       "canto": 3,
@@ -497,32 +581,36 @@
       "start": 22,
       "end": 22,
       "source_marker": "३.२०.२२",
-      "sanskrit": "प्रभया दीव्यन् द्योतमानः । या या देवता द्युतिमत्यः सात्त्विक्यस् तास् ताः प्रमुखतः प्राधान्येनासृजत् । ते देवाः । देवता इति स्त्रीत्वेन निर्दिष्टानाम् अप्य् अर्थ-मात्र-विवक्षया त इति पुंस्त्वेन प्रतिनिर्देशः । एवं यक्ष-रक्षांसीत्य् अत्रापि ज्ञेयम् । तेन विसृष्टां त्यक्तां प्रभाम् अहः दिवस-रूपां सतीं देवयन्तः क्रीडयन्तोऽहार्षुर् जगृहुः॥२२॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : देवयन्त इति । दिवु अर्दने इत्य् अस्मात् चौरादिकात् याचमान इत्य् अर्थः ॥२२॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : प्रभया प्रभाव-रूपया सत्त्व-मय्या तन्वा दीव्यन् द्योतमानः । या या देवताः प्रमुखतः प्राधान्येनासृजत् । अत्र या इत्य् अस्यापि ते इत्य् अनेन प्रतिनिर्देशोऽर्थ-मात्र-दृष्ट्यैव ज्ञेयः । विसृष्टां तेन त्यक्तां तां प्रभाम् अहः दिवस-रूपां तत् तनूम् अहार्षुर् जगृहुः ।\n\nकिम्-अर्थं ? ताः देवयन्तः क्रीडयन्तः क्रीडयितुं यथा रात्रिर् यक्ष-रक्षोभिः सह तिष्ठति तथा अहोऽपि देवैर् दीव्यतीत्य् अर्थः । इति सन्दर्भः । अत्र ब्रह्मणो मनसि प्रसादः सात्त्विक-भाव आविर्बभूव । तस्मा देवा बभूवुः स च प्रसादो दिनं बभूव । तच् च ते एव जगृहुर् इत्य् एतावान् एवार्थः ॥२२॥\n\n———————————————————————————————————————",
+      "sanskrit": "प्रभया दीव्यन् द्योतमानः । या या देवता द्युतिमत्यः सात्त्विक्यस् तास् ताः प्रमुखतः प्राधान्येनासृजत् । ते देवाः । देवता इति स्त्रीत्वेन निर्दिष्टानाम् अप्य् अर्थ-मात्र-विवक्षया त इति पुंस्त्वेन प्रतिनिर्देशः । एवं यक्ष-रक्षांसीत्य् अत्रापि ज्ञेयम् । तेन विसृष्टां त्यक्तां प्रभाम् अहः दिवस-रूपां सतीं देवयन्तः क्रीडयन्तोऽहार्षुर् जगृहुः॥२२॥",
       "word_for_word": [
         [
-          "प्रभया दीव्यन् द्योतमानः",
-          "prbhyā dīvyn dyotmānḥ — contextual literal sense of प्रभया दीव्यन् द्योतमानः"
+          "prabhayā dīvyan dyotamānaḥ",
+          "“shining with radiance” means resplendent"
         ],
         [
-          "ते देवाः",
-          "te devāḥ — contextual literal sense of ते देवाः"
+          "yā yā devatā dyutimatyaḥ sāttvikyas tās tāḥ pramukhataḥ prādhānyenāsṛjat",
+          "he created chiefly and prominently each of the luminous, sattvic deities"
         ],
         [
-          "एवं यक्ष-रक्षांसीत्य् अत्रापि ज्ञेयम्",
-          "evṃ ykṣ-rkṣāṃsīty atrāpi jñeym — contextual literal sense of एवं यक्ष-रक्षांसीत्य् अत्रापि ज्ञेयम्"
+          "te devāḥ",
+          "“those are the gods”"
         ],
         [
-          "२२",
-          "२२ — contextual literal sense of २२"
+          "devatā iti strītvena nirdiṣṭānām apy artha-mātra-vivakṣayā ta iti puṃstvena pratinirdeśaḥ",
+          "although “devatā” is feminine, they are referred to by the masculine “they” because only the meaning is intended"
         ],
         [
-          "",
-          " — contextual literal sense of "
+          "evaṃ yakṣa-rakṣāṃsīty atrāpi jñeyam",
+          "the same is to be understood for “Yakṣas and Rākṣasas”"
+        ],
+        [
+          "tena visṛṣṭāṃ tyaktāṃ prabhām ahaḥ divasa-rūpāṃ satīṃ devayantaḥ krīḍayanto’hārṣur jagṛhuḥ",
+          "sporting, they took the radiance he had cast off, which had become the form of day"
         ]
       ],
-      "literal_english": "Literal rendering: प्रभया दीव्यन् द्योतमानः: prbhyā dīvyn dyotmānḥ — contextual literal sense of प्रभया दीव्यन् द्योतमानः; ते देवाः: te devāḥ — contextual literal sense of ते देवाः; एवं यक्ष-रक्षांसीत्य् अत्रापि ज्ञेयम्: evṃ ykṣ-rkṣāṃsīty atrāpi jñeym — contextual literal sense of एवं यक्ष-रक्षांसीत्य् अत्रापि ज्ञेयम्; २२: २२ — contextual literal sense of २२; :  — contextual literal sense of .",
+      "literal_english": "“Shining with radiance” means resplendent. He created, chiefly and prominently, each of the luminous, sattvic deities. “Those are the gods.” Although the word devatā is grammatically feminine, they are referred to in the masculine as “they” because only the meaning is intended; the same is to be understood for “Yakṣas and Rākṣasas.” They sportively took the radiance that he had cast off, which had become the form of day.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २२ preserved."
     },
     {
       "canto": 3,
@@ -530,16 +618,28 @@
       "start": 23,
       "end": 23,
       "source_marker": "३.२०.२३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अदेवान् इति च्छेदः । स जघनाद् असुरान् असृजत इति श्रुतेः । अति-लोलुपान् स्त्री-लम्पटान् । अभिपेदिरे प्राप्ताः ॥२३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "adevān iti cchedaḥ",
+          "the division is “a-devān,” “non-gods”"
+        ],
+        [
+          "sa jaghanād asurān asṛjata iti śruteḥ",
+          "because the Śruti says, “He created the Asuras from his loins”"
+        ],
+        [
+          "ati-lolupān strī-lampaṭān",
+          "“ati-lolupān” means exceedingly greedy and lustful toward women"
+        ],
+        [
+          "abhipedire prāptāḥ",
+          "“abhipedire” means they approached"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Adevān” should be divided as “a-devān,” “non-gods,” because the Śruti says, “He created the Asuras from his loins.” “Ati-lolupān” means exceedingly greedy and lustful toward women. “Abhipedire” means they approached.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २३ preserved."
     },
     {
       "canto": 3,
@@ -547,16 +647,16 @@
       "start": 24,
       "end": 24,
       "source_marker": "३.२०.२४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "परापतद् अपलायत ॥२४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "parāpatad apalāyata",
+          "“parāpatat” means “she fled”"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Parāpatat” means “she fled.”",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २४ preserved."
     },
     {
       "canto": 3,
@@ -564,16 +664,16 @@
       "start": 25,
       "end": 25,
       "source_marker": "३.२०.२५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "भक्तेच्छानुरूपम् आत्मानं दर्शयतीति तथा तम् उपव्रज्य ॥२५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "bhaktecchānurūpam ātmānaṃ darśayatīti tathā tam upavrajya",
+          "he manifests himself in a form corresponding to the devotee’s desire; having approached him in that way"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He manifests himself in a form corresponding to the devotee’s desire; having approached him in that way…",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २५ preserved."
     },
     {
       "canto": 3,
@@ -581,16 +681,20 @@
       "start": 26,
       "end": 26,
       "source_marker": "३.२०.२६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "पहीति द्वाभ्यां प्रार्थितवान् । यभितुं मैथुनेन धर्षयितुम् ॥२६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "pahīti dvābhyāṃ prārthitavān",
+          "with “pahi” and the following two verses, they prayed"
+        ],
+        [
+          "yabhituṃ maithunena dharṣayitum",
+          "“yabhitum” means to unite sexually, to assault through intercourse"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "With the words “pahi” (“protect us”) and the following two verses, they prayed. “Yabhitum” means to unite sexually, to assault through intercourse.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २६ preserved."
     },
     {
       "canto": 3,
@@ -598,32 +702,20 @@
       "start": 27,
       "end": 27,
       "source_marker": "३.२०.२७",
-      "sanskrit": "लोकानां जनानाम् । तव अनासन्नाव् अनाश्रितौ पादौ यैस् तेषाम् ॥२७॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : क्लेशद इति स्वं प्रत्युन्मुखीकर्तुम् इति ज्ञेयम् ॥२७॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : तव अनासन्न-पदां त्वत्-पादावनाश्रितवताम् अभक्तानां त्वं क्लेशदः तेन क्लिष्टानाम् अपि त्वत्-पादाव् आश्रितवतां भक्तानां त्वं क्लेश-नाशन इति गम्यते । एक इत्य् एवं-विधो भक्त-वत्सलः कोऽपि नास्तीति भावः । त्वच्-चरणम् अनाश्रितवतां काल-कर्म-ग्रहादि-रूपेण त्वम् एवैकः क्लेशदः । तेषाम् एवाकस्माच् चरणाश्रितत्वे सति साक्षात् त्वम् एव तत्-तत्-क्लेश-नाशनः, त्वद्-भक्तेषु काल-कर्मादीनाम् अनधिकाराद् इत्य् आशयः । त्वयि वैषम्याभावस् तु कल्प-तरु-दृष्टान्तेन ॥२७॥\n\n———————————————————————————————————————",
+      "sanskrit": "लोकानां जनानाम् । तव अनासन्नाव् अनाश्रितौ पादौ यैस् तेषाम् ॥२७॥",
       "word_for_word": [
         [
-          "लोकानां जनानाम्",
-          "lokānāṃ jnānām — contextual literal sense of लोकानां जनानाम्"
+          "lokānāṃ janānām",
+          "“lokānām” means “of the people”"
         ],
         [
-          "तव अनासन्नाव् अनाश्रितौ पादौ यैस् तेषाम्",
-          "tv anāsnnāv anāśritau pādau yais teṣām — contextual literal sense of तव अनासन्नाव् अनाश्रितौ पादौ यैस् तेषाम्"
-        ],
-        [
-          "२७",
-          "२७ — contextual literal sense of २७"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "tava anāsannāv anāśritau pādau yais teṣām",
+          "those whose feet are not near you, that is, those who have not taken shelter at your feet"
         ]
       ],
-      "literal_english": "Literal rendering: लोकानां जनानाम्: lokānāṃ jnānām — contextual literal sense of लोकानां जनानाम्; तव अनासन्नाव् अनाश्रितौ पादौ यैस् तेषाम्: tv anāsnnāv anāśritau pādau yais teṣām — contextual literal sense of तव अनासन्नाव् अनाश्रितौ पादौ यैस् तेषाम्; २७: २७ — contextual literal sense of २७; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "“Lokānām” means “of the people.” It refers to those whose feet are not near you, that is, those who have not taken shelter at your feet.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २७ preserved."
     },
     {
       "canto": 3,
@@ -631,32 +723,32 @@
       "start": 28,
       "end": 28,
       "source_marker": "३.२०.२८",
-      "sanskrit": "विविक्तम् असन्दिग्धम् अध्यात्म-दर्शनं पर-चित्त-ज्ञानं यस्य हरेः । घोरां काम-कश्मलां स्व-तनुं विमुञ्चेति उक्तवान् इति शेषः । इत्य् उक्तश् च ब्रह्मा तं तनुं विमुमोच । सर्वत्र तनु-त्यागो नाम तत् तन् मनो-भाव-त्यागो विवक्षितः । ग्रहणं च तत् तद् भावापत्तिर् इति द्रष्टव्यम् ॥२८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : सोऽवधार्येत्य् अस्य टीकायां भावो नाम सृज्यावेशो ज्ञेयः । भावत्व् अमननं च तद्-आयुषो द्विपरार्धमितत्वात् ॥२८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : विविक्तम् असन्दिग्धम् अध्यात्म-दर्शनं पर-चित्त-ज्ञानं यस्य सः । विमुञ्चेत्य् उक्तवान् इति शेषः । इत्य् उक्तेश् च ब्रह्मा तनुं विमुमोच ॥२८॥\n\n———————————————————————————————————————",
+      "sanskrit": "विविक्तम् असन्दिग्धम् अध्यात्म-दर्शनं पर-चित्त-ज्ञानं यस्य हरेः । घोरां काम-कश्मलां स्व-तनुं विमुञ्चेति उक्तवान् इति शेषः । इत्य् उक्तश् च ब्रह्मा तं तनुं विमुमोच । सर्वत्र तनु-त्यागो नाम तत् तन् मनो-भाव-त्यागो विवक्षितः । ग्रहणं च तत् तद् भावापत्तिर् इति द्रष्टव्यम् ॥२८॥",
       "word_for_word": [
         [
-          "विविक्तम् असन्दिग्धम् अध्यात्म-दर्शनं पर-चित्त-ज्ञानं यस्य हरेः",
-          "viviktm asndigdhm adhyātm-drśnṃ pr-citt-jñānṃ ysy hreḥ — contextual literal sense of विविक्तम् असन्दिग्धम् अध्यात्म-दर्शनं पर-चित्त-ज्ञानं यस्य हरेः"
+          "viviktam asandigdham adhyātma-darśanaṃ para-citta-jñānaṃ yasya hareḥ",
+          "Hari is one whose inner vision is clear and free from doubt, whose knowledge of the self includes knowledge of others’ minds"
         ],
         [
-          "घोरां काम-कश्मलां स्व-तनुं विमुञ्चेति उक्तवान् इति शेषः",
-          "ghorāṃ kām-kśmlāṃ sv-tnuṃ vimuñceti uktvān iti śeṣḥ — contextual literal sense of घोरां काम-कश्मलां स्व-तनुं विमुञ्चेति उक्तवान् इति शेषः"
+          "ghorāṃ kāma-kaśmalāṃ sva-tanuṃ vimuñceti uktavān iti śeṣaḥ",
+          "“Give up your dreadful body, polluted by desire”—this is understood as what he told [Brahmā]"
         ],
         [
-          "इत्य् उक्तश् च ब्रह्मा तं तनुं विमुमोच",
-          "ity uktś c brhmā tṃ tnuṃ vimumoc — contextual literal sense of इत्य् उक्तश् च ब्रह्मा तं तनुं विमुमोच"
+          "ity uktaś ca brahmā taṃ tanuṃ vimumoca",
+          "having been told this, Brahmā gave up that body"
         ],
         [
-          "सर्वत्र तनु-त्यागो नाम तत् तन् मनो-भाव-त्यागो विवक्षितः",
-          "srvtr tnu-tyāgo nām tt tn mno-bhāv-tyāgo vivkṣitḥ — contextual literal sense of सर्वत्र तनु-त्यागो नाम तत् तन् मनो-भाव-त्यागो विवक्षितः"
+          "sarvatra tanu-tyāgo nāma tat tan-mano-bhāva-tyāgo vivakṣitaḥ",
+          "in every case, giving up a body means giving up the corresponding mental disposition"
         ],
         [
-          "ग्रहणं च तत् तद् भावापत्तिर् इति द्रष्टव्यम्",
-          "grhṇṃ c tt td bhāvāpttir iti drṣṭvym — contextual literal sense of ग्रहणं च तत् तद् भावापत्तिर् इति द्रष्टव्यम्"
+          "grahaṇaṃ ca tat tad bhāvāpattir iti draṣṭavyam",
+          "taking one on is to be understood as entering that corresponding state"
         ]
       ],
-      "literal_english": "Literal rendering: विविक्तम् असन्दिग्धम् अध्यात्म-दर्शनं पर-चित्त-ज्ञानं यस्य हरेः: viviktm asndigdhm adhyātm-drśnṃ pr-citt-jñānṃ ysy hreḥ — contextual literal sense of विविक्तम् असन्दिग्धम् अध्यात्म-दर्शनं पर-चित्त-ज्ञानं यस्य हरेः; घोरां काम-कश्मलां स्व-तनुं विमुञ्चेति उक्तवान् इति शेषः: ghorāṃ kām-kśmlāṃ sv-tnuṃ vimuñceti uktvān iti śeṣḥ — contextual literal sense of घोरां काम-कश्मलां स्व-तनुं विमुञ्चेति उक्तवान् इति शेषः; इत्य् उक्तश् च ब्रह्मा तं तनुं विमुमोच: ity uktś c brhmā tṃ tnuṃ vimumoc — contextual literal sense of इत्य् उक्तश् च ब्रह्मा तं तनुं विमुमोच; सर्वत्र तनु-त्यागो नाम तत् तन् मनो-भाव-त्यागो विवक्षितः: srvtr tnu-tyāgo nām tt tn mno-bhāv-tyāgo vivkṣitḥ — contextual literal sense of सर्वत्र तनु-त्यागो नाम तत् तन् मनो-भाव-त्यागो विवक्षितः; ग्रहणं च तत् तद् भावापत्तिर् इति द्रष्टव्यम्: grhṇṃ c tt td bhāvāpttir iti drṣṭvym — contextual literal sense of ग्रहणं च तत् तद् भावापत्तिर् इति द्रष्टव्यम्.",
+      "literal_english": "Hari is one whose inner vision is clear and free from doubt, whose knowledge of the self includes knowledge of others’ minds. “Give up your dreadful body, polluted by desire”—this is understood as what he told Brahmā. Having been told this, Brahmā gave up that body. In every such case, giving up a body means giving up the corresponding mental disposition; taking on a body means entering that corresponding state.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २८ preserved."
     },
     {
       "canto": 3,
@@ -664,32 +756,44 @@
       "start": 29,
       "end": 29,
       "source_marker": "३.२०.२९",
-      "sanskrit": "साहो-रात्रयोः सन्धिर् अभवत् इति श्रुतेः । सा तेन विसृष्टा तनुः सायन्तनी सन्ध्या बभूव । सा च कामोद्रेक-वेला । असुराश् च राजसत्वात् स्त्री-लम्पटाः । अतस् तां सन्ध्याम् एव स्त्रियं कल्पयित्वा ते संमोहं प्राप्ता इत्य् आह---ताम् इति त्रिभिः । नूपुराभ्यां क्वणती चरणाम्भोजे यस्याः । मदेन विह्वले लोचने यस्याः । काञ्ची-कलापेन विलसद्-दुकूलं तेन छन्नं रोधः कटितटं यस्यास् ताम् ॥२९॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : ताम् इति त्रिकम् । अन्योऽन्येति लेखादिवत् श्लेषाप्य् अङ्गीकृता । यद् वा, सुपां सुलुग् इत्य्-आदिना यादेशः ॥२९॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : मत्वा मूढ-धियः स्त्रियम् इत्य् अग्रिमोक्तेस् तां सन्ध्याम् एव स्त्रियं कल्पयित्वा स्त्री-लम्पटा असुरा मुमुहुर् इत्य् आह---तां क्वणद् इति । अत्र स्व-स्व-नीडं प्रति गन्तुं नभसि स्व-शब्दम् उड्डीनान् चटक-सारसादीन् एव नूपुर-काञ्च्य्-आदीन् कल्पयन्ति स्म । तत्-तद्-आकारान् मेघ-खण्डान् एव चरण-नयन-नितम्ब-स्तनादीन् । अत एवैकुत्र श्लेषेण पयोधर-शब्दः उपन्यस्तः । सन्ध्याया आरुण्यम् एवारुण-दुकूलम् । रोधः कटि-तटं, श्लेषयेति भिदाद्य् आङ्-अन्ताट्टाप्-प्रत्ययः । ङित्य् अपि गुण आर्षः ॥२९॥\n\n———————————————————————————————————————",
+      "sanskrit": "साहो-रात्रयोः सन्धिर् अभवत् इति श्रुतेः । सा तेन विसृष्टा तनुः सायन्तनी सन्ध्या बभूव । सा च कामोद्रेक-वेला । असुराश् च राजसत्वात् स्त्री-लम्पटाः । अतस् तां सन्ध्याम् एव स्त्रियं कल्पयित्वा ते संमोहं प्राप्ता इत्य् आह---ताम् इति त्रिभिः । नूपुराभ्यां क्वणती चरणाम्भोजे यस्याः । मदेन विह्वले लोचने यस्याः । काञ्ची-कलापेन विलसद्-दुकूलं तेन छन्नं रोधः कटितटं यस्यास् ताम् ॥२९॥",
       "word_for_word": [
         [
-          "साहो-रात्रयोः सन्धिर् अभवत् इति श्रुतेः",
-          "sāho-rātryoḥ sndhir abhvt iti śruteḥ — contextual literal sense of साहो-रात्रयोः सन्धिर् अभवत् इति श्रुतेः"
+          "sāho-rātrayoḥ sandhir abhavat iti śruteḥ",
+          "according to the Śruti, “the junction of day and night came to be”"
         ],
         [
-          "सा तेन विसृष्टा तनुः सायन्तनी सन्ध्या बभूव",
-          "sā ten visṛṣṭā tnuḥ sāyntnī sndhyā bbhūv — contextual literal sense of सा तेन विसृष्टा तनुः सायन्तनी सन्ध्या बभूव"
+          "sā tena visṛṣṭā tanuḥ sāyantanī sandhyā babhūva",
+          "the body he cast off became the evening twilight"
         ],
         [
-          "सा च कामोद्रेक-वेला",
-          "sā c kāmodrek-velā — contextual literal sense of सा च कामोद्रेक-वेला"
+          "sā ca kāmodreka-velā",
+          "and that is the time when desire intensifies"
         ],
         [
-          "असुराश् च राजसत्वात् स्त्री-लम्पटाः",
-          "asurāś c rājstvāt strī-lmpṭāḥ — contextual literal sense of असुराश् च राजसत्वात् स्त्री-लम्पटाः"
+          "asurāś ca rājasatvāt strī-lampaṭāḥ",
+          "the Asuras are rajasic and lustful toward women"
         ],
         [
-          "नूपुराभ्यां क्वणती चरणाम्भोजे यस्याः",
-          "nūpurābhyāṃ kvṇtī crṇāmbhoje ysyāḥ — contextual literal sense of नूपुराभ्यां क्वणती चरणाम्भोजे यस्याः"
+          "atas tāṃ sandhyām eva striyaṃ kalpayitvā te saṃmohaṃ prāptā ity āha tām iti tribhiḥ",
+          "therefore, imagining twilight itself to be a woman, they became bewildered; this is stated in three verses beginning “tām”"
+        ],
+        [
+          "nūpurābhyāṃ kvaṇatī caraṇāmbhoje yasyāḥ",
+          "her lotus feet rang with her anklets"
+        ],
+        [
+          "madena vihvale locane yasyāḥ",
+          "her eyes were bewildered by intoxication"
+        ],
+        [
+          "kāñcī-kalāpena vilasad-dukūlaṃ tena channaṃ rodhaḥ kaṭitaṭaṃ yasyās tām",
+          "her hips were covered by shining silk, adorned with a girdle"
         ]
       ],
-      "literal_english": "Literal rendering: साहो-रात्रयोः सन्धिर् अभवत् इति श्रुतेः: sāho-rātryoḥ sndhir abhvt iti śruteḥ — contextual literal sense of साहो-रात्रयोः सन्धिर् अभवत् इति श्रुतेः; सा तेन विसृष्टा तनुः सायन्तनी सन्ध्या बभूव: sā ten visṛṣṭā tnuḥ sāyntnī sndhyā bbhūv — contextual literal sense of सा तेन विसृष्टा तनुः सायन्तनी सन्ध्या बभूव; सा च कामोद्रेक-वेला: sā c kāmodrek-velā — contextual literal sense of सा च कामोद्रेक-वेला; असुराश् च राजसत्वात् स्त्री-लम्पटाः: asurāś c rājstvāt strī-lmpṭāḥ — contextual literal sense of असुराश् च राजसत्वात् स्त्री-लम्पटाः; नूपुराभ्यां क्वणती चरणाम्भोजे यस्याः: nūpurābhyāṃ kvṇtī crṇāmbhoje ysyāḥ — contextual literal sense of नूपुराभ्यां क्वणती चरणाम्भोजे यस्याः.",
+      "literal_english": "According to the Śruti, “the junction of day and night came to be.” The body he cast off became the evening twilight, the time when desire intensifies. Since the Asuras are rajasic and lustful toward women, they imagined that twilight itself was a woman and became bewildered; this is stated in three verses beginning “tām.” Her lotus feet rang with her anklets; her eyes were bewildered by intoxication; her hips, adorned with a girdle and shining silk, were covered.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block २९ preserved."
     },
     {
       "canto": 3,
@@ -697,16 +801,24 @@
       "start": 30,
       "end": 30,
       "source_marker": "३.२०.३०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अन्योन्यं श्लेषयोपमर्देन हेतुनोत्तुङ्गौ निरन्तरौ पयोधरौ यस्याः । सु-द्विजां सु-दतीम् । स्निग्धो हासो लीलावलोकनं च यस्याः ॥३०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "anyonyaṃ śleṣayopamardena hetunottuṅgau nirantarau payodharau yasyāḥ",
+          "her breasts were lofty and close together, pressed against each other in an embrace"
+        ],
+        [
+          "su-dvijāṃ su-datīm",
+          "“su-dvijām” means beautiful of teeth"
+        ],
+        [
+          "snigdho hāso līlāvalokanaṃ ca yasyāḥ",
+          "she whose smile was gentle and whose glance was playful"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Her breasts were lofty and close together, pressed against each other in an embrace. She was beautiful of teeth; her smile was gentle, and her glance playful and sidelong.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३० preserved."
     },
     {
       "canto": 3,
@@ -714,16 +826,24 @@
       "start": 31,
       "end": 31,
       "source_marker": "३.२०.३१",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "गूहन्तीं वस्त्राञ् चलेनावृण्वानाम् । नीलानाम् अलकानां वरूथः स्तोमो विद्यते यस्याः । हे धर्म विदुर, तां स्त्रियम् उपलभ्य मत्वा ॥३१।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "gūhantīṃ vastrāñ calenāvṛṇvānām",
+          "“gūhantīm” means concealing, covering with the movement of her garment"
+        ],
+        [
+          "nīlānām alakānāṃ varūthaḥ stomo vidyate yasyāḥ",
+          "she had a mass, a cluster, of dark curls"
+        ],
+        [
+          "he dharma vidura tāṃ striyam upalabhya matvā",
+          "O Vidura, O upholder of dharma, seeing her, they supposed her to be a woman"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Gūhantīm” means concealing, covering with the movement of her garment. She had a mass, a cluster, of dark curls. O Vidura, O upholder of dharma, they saw and supposed her to be a woman.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३१ preserved."
     },
     {
       "canto": 3,
@@ -731,16 +851,20 @@
       "start": 32,
       "end": 32,
       "source_marker": "३.२०.३२",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "संमूढानां विभावना-क्रमम् आह---अहो इति ॥३२॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "saṃmūḍhānāṃ vibhāvanā-kramam āha",
+          "he explains the sequence of thought of those who were bewildered"
+        ],
+        [
+          "aho iti",
+          "beginning with “aho”"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "He explains the sequence of thought of those who were bewildered, beginning with “aho.”",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३२ preserved."
     },
     {
       "canto": 3,
@@ -748,16 +872,24 @@
       "start": 33,
       "end": 33,
       "source_marker": "३.२०.३३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अभिसम्भाव्य सत्कृत्य । विश्रम्भात् प्रणयात् । कुबुद्धयस् ते तां पप्रच्छुः॥३३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "abhisambhāvya satkṛtya",
+          "“abhisambhāvya” means honoring and showing respect"
+        ],
+        [
+          "viśrambhāt praṇayāt",
+          "“viśrambhāt” means from confidence and intimacy"
+        ],
+        [
+          "kubuddhayas te tāṃ papracchuḥ",
+          "those foolish men then questioned her"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Abhisambhāvya” means honoring and showing respect. “Viśrambhāt” means from confidence and intimacy. Those foolish men then questioned her.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३३ preserved."
     },
     {
       "canto": 3,
@@ -765,32 +897,36 @@
       "start": 34,
       "end": 34,
       "source_marker": "३.२०.३४",
-      "sanskrit": "कासीति त्रिभिः । कासि जात्या । कस्य वा कन्या ? हे भामिनि कोपने । रूपम् एव द्रविणम् अनर्घ्यं वस्तु । तद् एव पण्यं क्रयार्हम् । तेन तद्-असमर्पणेन नो विबाधसे ॥३४॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : विबाधने हेतुः । दुर्भगान् एतन्-मूल्य-द्रव्य-हीनान् ॥३४॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : रूपम् एव द्रविणम् अनर्घ्यं वस्तु, तद् एव पण्यं क्रयार्हं तेनास्मान् दुर्भगान् त्वद्-दास्यानर्हान् अपि विबाधसे वध्वा स्व-सङ्ग एव जिघृक्षसि । यद् वा, विबाधसे न क्रीणासि धिग् अस्मान् दुर्भगान् इति भावः ॥३४॥\n\n———————————————————————————————————————",
+      "sanskrit": "कासीति त्रिभिः । कासि जात्या । कस्य वा कन्या ? हे भामिनि कोपने । रूपम् एव द्रविणम् अनर्घ्यं वस्तु । तद् एव पण्यं क्रयार्हम् । तेन तद्-असमर्पणेन नो विबाधसे ॥३४॥",
       "word_for_word": [
         [
-          "कासीति त्रिभिः",
-          "kāsīti tribhiḥ — contextual literal sense of कासीति त्रिभिः"
+          "kāsīti tribhiḥ",
+          "the explanation beginning with “kāsi” spans three verses"
         ],
         [
-          "कासि जात्या",
-          "kāsi jātyā — contextual literal sense of कासि जात्या"
+          "kāsi jātyā kasya vā kanyā",
+          "“kāsi” means “of what birth are you?” or “whose daughter?”"
         ],
         [
-          "कस्य वा कन्या  हे भामिनि कोपने",
-          "ksy vā knyā  he bhāmini kopne — contextual literal sense of कस्य वा कन्या  हे भामिनि कोपने"
+          "he bhāmini kopane",
+          "“bhāmini” means an angry or passionate woman"
         ],
         [
-          "रूपम् एव द्रविणम् अनर्घ्यं वस्तु",
-          "rūpm ev drviṇm anrghyṃ vstu — contextual literal sense of रूपम् एव द्रविणम् अनर्घ्यं वस्तु"
+          "rūpam eva draviṇam anarghyaṃ vastu",
+          "her beauty itself is priceless wealth, an incomparable thing"
         ],
         [
-          "तद् एव पण्यं क्रयार्हम्",
-          "td ev pṇyṃ kryārhm — contextual literal sense of तद् एव पण्यं क्रयार्हम्"
+          "tad eva paṇyaṃ krayārham",
+          "it alone is merchandise fit to be bought"
+        ],
+        [
+          "tena tad-asamarpaṇena no vibādhase",
+          "by withholding it, you distress us"
         ]
       ],
-      "literal_english": "Literal rendering: कासीति त्रिभिः: kāsīti tribhiḥ — contextual literal sense of कासीति त्रिभिः; कासि जात्या: kāsi jātyā — contextual literal sense of कासि जात्या; कस्य वा कन्या  हे भामिनि कोपने: ksy vā knyā  he bhāmini kopne — contextual literal sense of कस्य वा कन्या  हे भामिनि कोपने; रूपम् एव द्रविणम् अनर्घ्यं वस्तु: rūpm ev drviṇm anrghyṃ vstu — contextual literal sense of रूपम् एव द्रविणम् अनर्घ्यं वस्तु; तद् एव पण्यं क्रयार्हम्: td ev pṇyṃ kryārhm — contextual literal sense of तद् एव पण्यं क्रयार्हम्.",
+      "literal_english": "The explanation beginning with “kāsi” spans three verses. “Kāsi” means “of what birth are you?” or “whose daughter?” “Bhāmini” means an angry or passionate woman. Her beauty itself is priceless wealth, an incomparable thing; it alone is the merchandise fit to be bought. By withholding it, you distress us.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३४ preserved."
     },
     {
       "canto": 3,
@@ -798,16 +934,24 @@
       "start": 35,
       "end": 35,
       "source_marker": "३.२०.३५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "किं जाति-कुलादि-प्रश्नेन या वा काचिद् भव । दिष्ट्या इदं तावद् भद्रं जातं यत् तव दर्शनम् । किन्तु केवलं नो मन उत्सुनोषि विमथ्नासि ॥३५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "kiṃ jāti-kulādi-praśnena yā vā kācid bhava",
+          "what is the use of asking about birth, family, and the like? Whoever you may be"
+        ],
+        [
+          "diṣṭyā idaṃ tāvad bhadraṃ jātaṃ yat tava darśanam",
+          "fortunately, at least this good has happened: we have seen you"
+        ],
+        [
+          "kintu kevalaṃ no mana utsunoṣi vimathnāsi",
+          "yet you alone agitate and churn our minds"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“What is the use of asking about birth, family, and the like? Whoever you may be, fortunately at least this has happened: we have seen you. Yet you alone agitate and churn our minds.”",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३५ preserved."
     },
     {
       "canto": 3,
@@ -815,16 +959,56 @@
       "start": 36,
       "end": 36,
       "source_marker": "३.२०.३६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "क्षुभित-चित्तानां वाक्यं नैकत्रेति । हे शालिनि श्लाध्ये । एकत्र न जयति न स्थिरी-भवति । यद् वा, नैकत्रानेक-गति-विलासेषु जयति सर्वोत्कर्षेण वर्तते । पतत्-पतङ्गम् उच्छलन्तं कन्दुकम् । बृहतोः स्तनयोर् भाराद् भीतं तव कृशं मध्यं विषीदति श्राम्यति । शान्ता मन्थरेव प्रसरति । सु-शिखा-समूहः शोभनः केश-कलापस् ते । पाठान्तरे सुशिखाः शोभनान् केशान् अवकीर्यमाणान् समूहः बधानेति । अत्र चास्तं गच्छन् सूर्य एव पतत्-पतङ्गः, मेघ-विच्छेदो मध्य-विषादः तारका-रूपा दृष्टिः, तम एव केशा इत्य्-आद्य्-ऊह्यम् ॥३६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "kṣubhita-cittānāṃ vākyaṃ naikatreti",
+          "because the words of their agitated minds do not stay on one subject"
+        ],
+        [
+          "he śālini ślādhye",
+          "“O graceful woman, O praiseworthy one”"
+        ],
+        [
+          "ekatra na jayati na sthirī-bhavati",
+          "“it does not stay in one place; it does not become steady”"
+        ],
+        [
+          "yad vā naikatrāneka-gati-vilāseṣu jayati sarvotkarṣeṇa vartate",
+          "or, amid many varied graceful motions, it excels everywhere"
+        ],
+        [
+          "patat-pataṅgam ucchalantaṃ kandukam",
+          "“a falling ball” means a ball bouncing upward"
+        ],
+        [
+          "bṛhatoḥ stanayor bhārād bhītaṃ tava kṛśaṃ madhyaṃ viṣīdati śrāmyati",
+          "your slender waist, burdened by your large breasts, droops and grows weary"
+        ],
+        [
+          "śāntā manthareva prasarati",
+          "your calm, slow gait spreads like a churning motion"
+        ],
+        [
+          "su-śikhā-samūhaḥ śobhanaḥ keśa-kalāpas te",
+          "your hair is a beautiful mass of locks"
+        ],
+        [
+          "pāṭhāntare suśikhāḥ śobhanān keśān avakīryamāṇān samūhaḥ badhāneti",
+          "in another reading, “suśikhāḥ” means beautiful locks, and “samūha” is taken with “badhāna,” “bind them as they are being loosened”"
+        ],
+        [
+          "atra cāstaṃ gacchan sūrya eva patat-pataṅgaḥ",
+          "here the setting sun itself is the bouncing ball"
+        ],
+        [
+          "megha-vicchedo madhya-viṣādaḥ tārakā-rūpā dṛṣṭiḥ tama eva keśā ity-ādy-ūhyam",
+          "the break in the clouds is the drooping waist, the star-like gaze is the eyes, and darkness is the hair; the rest should be inferred"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Because the words of their agitated minds do not stay on one subject: “O graceful woman, O praiseworthy one, your [playful movement] does not remain in one place”—or, in its many varied graceful motions, it excels everywhere. “A falling ball” means a ball bouncing upward. Your slender waist, burdened by your large breasts, droops and grows weary. Your calm, slow gait spreads like a churning motion. Your hair is a beautiful mass of locks. In another reading, “suśikhāḥ” means beautiful locks; “samūha” is taken with “badhāna,” “bind them as they are being loosened.” Here one should infer the imagery: the setting sun is the bouncing ball; the break in the clouds is the waist drooping; the star-like gaze is the eyes; and darkness is the hair, and so on.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३६ preserved."
     },
     {
       "canto": 3,
@@ -832,32 +1016,16 @@
       "start": 37,
       "end": 37,
       "source_marker": "३.२०.३७",
-      "sanskrit": "प्रमदेवाचरन्तीं स्त्रियं मत्वा जगृहुः ॥३७॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : इतीति । सन्ध्य हि कामिनां स्त्री-स्फूर्तिं करोति । ततश् च तेषां स्फुरन्ती स्त्री तद्-अभेदेन तैर् अवगता तद्-अनुसारेण मुनीन्द्रेणापि वर्णितेति ज्ञेयम् ॥३७॥\n\n———————————————————————————————————————",
+      "sanskrit": "प्रमदेवाचरन्तीं स्त्रियं मत्वा जगृहुः ॥३७॥",
       "word_for_word": [
         [
-          "प्रमदेवाचरन्तीं स्त्रियं मत्वा जगृहुः",
-          "prmdevācrntīṃ striyṃ mtvā jgṛhuḥ — contextual literal sense of प्रमदेवाचरन्तीं स्त्रियं मत्वा जगृहुः"
-        ],
-        [
-          "३७",
-          "३७ — contextual literal sense of ३७"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "इतीति",
-          "itīti — contextual literal sense of इतीति"
+          "pramadevācarantīṃ striyaṃ matvā jagṛhuḥ",
+          "thinking her to be a woman acting like a lover, they seized her"
         ]
       ],
-      "literal_english": "Literal rendering: प्रमदेवाचरन्तीं स्त्रियं मत्वा जगृहुः: prmdevācrntīṃ striyṃ mtvā jgṛhuḥ — contextual literal sense of प्रमदेवाचरन्तीं स्त्रियं मत्वा जगृहुः; ३७: ३७ — contextual literal sense of ३७; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; इतीति: itīti — contextual literal sense of इतीति.",
+      "literal_english": "Thinking her to be a woman acting like a lover, they seized her.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३७ preserved."
     },
     {
       "canto": 3,
@@ -865,32 +1033,24 @@
       "start": 38,
       "end": 38,
       "source_marker": "३.२०.३८",
-      "sanskrit": "प्रहस्यात्मानम् आत्मना जिघ्रन्त्या । कान्त्या सौन्दर्येण । प्रहसनम् आत्मावघ्राणं च सौन्दर्यानुभाव-चातुर्य-विकारः ॥३८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : भावः सौन्दर्य-गर्वः तेन गम्भीरम् अन्यत्रादत्त-दृष्टित्वादिकं यथा स्यात् तथा प्रहस्य स्वस्मिन्न् एव प्रेमातिशयेन सौरभ्यातिशयानुभवेन च स्वयम् आत्मानं जिघ्रन्त्या कान्त्या कान्तिमत्या तन्वा ॥३८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : यदा ब्रह्मणः सौन्दर्यं स्मृत्य्-आरूढं बभूव, तदा तस्माद् गन्धर्वादयो बभूवुस् तच् च सौन्दर्यं ज्योत्स्नाभूत्, तां च एवं जगृहुर् इत्य् आह---प्रहस्येति । कान्त्या कीदृश्या भाव-गम्भीरं व्यञ्जित-स्वाभियोगं यथा स्यात् तथा प्रहस्य आत्मनैवात्मानं जिघ्रन्त्येति कान्ति-कान्तिमतोर् ऐक्येनोपचारात् प्रहसनावघ्राणादीनि स्व-सौन्दर्यास्वादन-चिह्नानि ॥३८॥\n\n———————————————————————————————————————",
+      "sanskrit": "प्रहस्यात्मानम् आत्मना जिघ्रन्त्या । कान्त्या सौन्दर्येण । प्रहसनम् आत्मावघ्राणं च सौन्दर्यानुभाव-चातुर्य-विकारः ॥३८॥",
       "word_for_word": [
         [
-          "प्रहस्यात्मानम् आत्मना जिघ्रन्त्या",
-          "prhsyātmānm ātmnā jighrntyā — contextual literal sense of प्रहस्यात्मानम् आत्मना जिघ्रन्त्या"
+          "prahasyātmānam ātmanā jighrantyā",
+          "laughing, smelling herself with herself"
         ],
         [
-          "कान्त्या सौन्दर्येण",
-          "kāntyā saundryeṇ — contextual literal sense of कान्त्या सौन्दर्येण"
+          "kāntyā saundaryeṇa",
+          "“kāntyā” means by beauty"
         ],
         [
-          "प्रहसनम् आत्मावघ्राणं च सौन्दर्यानुभाव-चातुर्य-विकारः",
-          "prhsnm ātmāvghrāṇṃ c saundryānubhāv-cātury-vikārḥ — contextual literal sense of प्रहसनम् आत्मावघ्राणं च सौन्दर्यानुभाव-चातुर्य-विकारः"
-        ],
-        [
-          "३८",
-          "३८ — contextual literal sense of ३८"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
+          "prahasanam ātmāvaghrāṇaṃ ca saundaryānubhāva-cāturya-vikāraḥ",
+          "laughter and smelling herself are transformations arising from the skill of experiencing her own beauty"
         ]
       ],
-      "literal_english": "Literal rendering: प्रहस्यात्मानम् आत्मना जिघ्रन्त्या: prhsyātmānm ātmnā jighrntyā — contextual literal sense of प्रहस्यात्मानम् आत्मना जिघ्रन्त्या; कान्त्या सौन्दर्येण: kāntyā saundryeṇ — contextual literal sense of कान्त्या सौन्दर्येण; प्रहसनम् आत्मावघ्राणं च सौन्दर्यानुभाव-चातुर्य-विकारः: prhsnm ātmāvghrāṇṃ c saundryānubhāv-cātury-vikārḥ — contextual literal sense of प्रहसनम् आत्मावघ्राणं च सौन्दर्यानुभाव-चातुर्य-विकारः; ३८: ३८ — contextual literal sense of ३८; :  — contextual literal sense of .",
+      "literal_english": "“Laughing, smelling herself with herself.” “Kāntyā” means by beauty. Laughter and smelling herself are transformations arising from the skill of experiencing her own beauty.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३८ preserved."
     },
     {
       "canto": 3,
@@ -898,16 +1058,24 @@
       "start": 39,
       "end": 39,
       "source_marker": "३.२०.३९",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "ज्योत्स्नां चन्द्रिका-रूपाम् । त एव गन्धर्वादि-गणाः । विश्वावसुः पुरोगमो मुख्यो येषु ॥३९॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "jyotsnāṃ candrikā-rūpām",
+          "“jyotsnām” means moonlight"
+        ],
+        [
+          "ta eva gandharvādi-gaṇāḥ",
+          "they were those very groups of Gandharvas and others"
+        ],
+        [
+          "viśvāvasuḥ purogamo mukhyo yeṣu",
+          "Viśvāvasu was their foremost leader"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Jyotsnām” means moonlight. They were those very groups of Gandharvas and others. Viśvāvasu was the foremost, the leader among them.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ३९ preserved."
     },
     {
       "canto": 3,
@@ -915,32 +1083,24 @@
       "start": 40,
       "end": 40,
       "source_marker": "३.२०.४०",
-      "sanskrit": "आत्मनस् तन्द्रिणा आलस्येन । तांश् च मुक्त-केशान् वीक्ष्य नेत्रे निमीलितवान् ॥४०॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : आत्म-तन्द्रिणा आत्मनस् तन्द्रा-युक्तेन देहेन उपलक्षणं चैतत् जृम्भा निद्रोन्मानवत्त्वस्य तस्य एव कार्य-क्रम-रूपत्वात् तेषाम् ॥४०॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : कदाचिद् ब्रह्मण आलस्यम् अभूत् तस्माच् च भूत-पिशाद्या बभूवुस् तच्-चालस्यं जृम्भा-निद्रादि-रूपाभूत् तां च त एव जगृहुर् इत्याह---सृष्ट्वेति । तन्द्रा यस्य कार्यत्वेनास्ति तत्-तन्द्रि आलस्यं तेन ॥४०॥\n\n———————————————————————————————————————",
+      "sanskrit": "आत्मनस् तन्द्रिणा आलस्येन । तांश् च मुक्त-केशान् वीक्ष्य नेत्रे निमीलितवान् ॥४०॥",
       "word_for_word": [
         [
-          "आत्मनस् तन्द्रिणा आलस्येन",
-          "ātmns tndriṇā ālsyen — contextual literal sense of आत्मनस् तन्द्रिणा आलस्येन"
+          "ātmanas tandriṇā ālasyena",
+          "“by his own drowsiness” means through his own languor"
         ],
         [
-          "तांश् च मुक्त-केशान् वीक्ष्य नेत्रे निमीलितवान्",
-          "tāṃś c mukt-keśān vīkṣy netre nimīlitvān — contextual literal sense of तांश् च मुक्त-केशान् वीक्ष्य नेत्रे निमीलितवान्"
+          "tāṃś ca mukta-keśān vīkṣya",
+          "seeing them with their hair loosened"
         ],
         [
-          "४०",
-          "४० — contextual literal sense of ४०"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "netre nimīlitavān",
+          "he closed his eyes"
         ]
       ],
-      "literal_english": "Literal rendering: आत्मनस् तन्द्रिणा आलस्येन: ātmns tndriṇā ālsyen — contextual literal sense of आत्मनस् तन्द्रिणा आलस्येन; तांश् च मुक्त-केशान् वीक्ष्य नेत्रे निमीलितवान्: tāṃś c mukt-keśān vīkṣy netre nimīlitvān — contextual literal sense of तांश् च मुक्त-केशान् वीक्ष्य नेत्रे निमीलितवान्; ४०: ४० — contextual literal sense of ४०; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "“By his own drowsiness” means through his own languor. Seeing them with their hair loosened, he closed his eyes.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४० preserved."
     },
     {
       "canto": 3,
@@ -948,32 +1108,28 @@
       "start": 41,
       "end": 41,
       "source_marker": "३.२०.४१",
-      "sanskrit": "इन्द्रियाणां विक्लेदः स्रावो यया तां निद्रां प्रचक्षते । येनेन्द्रिय-विक्लेदेन हेतुनोच्छिष्टांश् च सतो धर्षयन्ति भ्रान्तान् कुर्वन्ति । तं भूतादि-गणम् उन्मादं प्रचक्षते । तन्द्रा-जृम्भिकानिक्रोन्माद-हेतुत्वेन भूतादीनां तनूनां च चातुर्विध्यम् उक्तम् ॥४१॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : जगृहुर् इति सार्धकम् । अत एवाभेदेनाह---जृम्भणाख्यां निद्राम् इति च । धर्मस्यैव प्राधान्य-विवक्षया मत्व्-अर्थीयश् च नात्र कृतः । तम् इन्द्रिय-विक्लेदं यम् उन्मादं प्रचक्सते तत्रोन्मादोऽपि भवतीति तद्-अभेदेन तम् अपि निर्दिशन्तीत्य् अर्थः ॥४१॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : यया निद्रया भूतेषु मनुष्यादिषु इन्द्रियाणां मुखादीनां विक्लेदः । येन च विक्लेदेन हेतुना उच्छिष्टान् सतो धर्षयन्ति, तं धर्षम् उन्मादं प्रचक्षते । अत एव भूत-प्रेतादि-धर्षिता जना उन्मत्ता उच्यन्ते ॥४१॥\n\n———————————————————————————————————————",
+      "sanskrit": "इन्द्रियाणां विक्लेदः स्रावो यया तां निद्रां प्रचक्षते । येनेन्द्रिय-विक्लेदेन हेतुनोच्छिष्टांश् च सतो धर्षयन्ति भ्रान्तान् कुर्वन्ति । तं भूतादि-गणम् उन्मादं प्रचक्षते । तन्द्रा-जृम्भिकानिक्रोन्माद-हेतुत्वेन भूतादीनां तनूनां च चातुर्विध्यम् उक्तम् ॥४१॥",
       "word_for_word": [
         [
-          "इन्द्रियाणां विक्लेदः स्रावो यया तां निद्रां प्रचक्षते",
-          "indriyāṇāṃ vikledḥ srāvo yyā tāṃ nidrāṃ prckṣte — contextual literal sense of इन्द्रियाणां विक्लेदः स्रावो यया तां निद्रां प्रचक्षते"
+          "indriyāṇāṃ vikledaḥ srāvo yayā tāṃ nidrāṃ pracakṣate",
+          "that condition in which there is a discharge from the senses is called sleep"
         ],
         [
-          "तं भूतादि-गणम् उन्मादं प्रचक्षते",
-          "tṃ bhūtādi-gṇm unmādṃ prckṣte — contextual literal sense of तं भूतादि-गणम् उन्मादं प्रचक्षते"
+          "yenendriya-vikledena hetunocchiṣṭāṃś ca sato dharṣayanti bhrāntān kurvanti",
+          "through that discharge of the senses, as its cause, they assail those who are impure and make them deluded"
         ],
         [
-          "४१",
-          "४१ — contextual literal sense of ४१"
+          "taṃ bhūtādi-gaṇam unmādaṃ pracakṣate",
+          "that group of Bhūtas and related beings is called madness"
         ],
         [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "tandrā-jṛmbhikānikronmāda-hetutvena bhūtādīnāṃ tanūnāṃ ca cātur-vidhyam uktam",
+          "the fourfold character of their forms is stated because they cause drowsiness, yawning, [the source’s unclear term] and madness"
         ]
       ],
-      "literal_english": "Literal rendering: इन्द्रियाणां विक्लेदः स्रावो यया तां निद्रां प्रचक्षते: indriyāṇāṃ vikledḥ srāvo yyā tāṃ nidrāṃ prckṣte — contextual literal sense of इन्द्रियाणां विक्लेदः स्रावो यया तां निद्रां प्रचक्षते; तं भूतादि-गणम् उन्मादं प्रचक्षते: tṃ bhūtādi-gṇm unmādṃ prckṣte — contextual literal sense of तं भूतादि-गणम् उन्मादं प्रचक्षते; ४१: ४१ — contextual literal sense of ४१; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "That condition in which there is a discharge from the senses is called sleep. Through that discharge of the senses, as its cause, they assail those who are impure and make them deluded. That group of Bhūtas and related beings is called madness. The fourfold character of their forms is stated because they cause drowsiness, yawning, hiccuping, and madness.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४१ preserved."
     },
     {
       "canto": 3,
@@ -981,32 +1137,20 @@
       "start": 42,
       "end": 42,
       "source_marker": "३.२०.४२",
-      "sanskrit": "ऊर्जस्वन्तं बलवन्तम् । परोक्षेणादृश्य-रूपेण ॥४२॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : ऊर्जस्वन्तं वर-दानेनोत्साहादि-लक्षण-सत्त्व-युक्तम् ॥४२॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : कदाचिद् आत्मनो बलिष्ठत्वं पारोक्ष्यं च भावयामास । ताभ्यां च साध्याः पितरश् च बभूवुस् ते च हव्य-कव्ये बभूवतुर् इत्य् आह---द्वाभ्याम् । ऊर्जस्वन्तं सत्त्ववन्तं तेन सत्त्वेन साध्यान् गणान् परोक्षेण पारोक्ष्येण च पितृ-गणान् ॥४२॥\n\n———————————————————————————————————————",
+      "sanskrit": "ऊर्जस्वन्तं बलवन्तम् । परोक्षेणादृश्य-रूपेण ॥४२॥",
       "word_for_word": [
         [
-          "ऊर्जस्वन्तं बलवन्तम्",
-          "ūrjsvntṃ blvntm — contextual literal sense of ऊर्जस्वन्तं बलवन्तम्"
+          "ūrjasvantaṃ balavantam",
+          "“ūrjasvantam” means powerful"
         ],
         [
-          "परोक्षेणादृश्य-रूपेण",
-          "prokṣeṇādṛśy-rūpeṇ — contextual literal sense of परोक्षेणादृश्य-रूपेण"
-        ],
-        [
-          "४२",
-          "४२ — contextual literal sense of ४२"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "parokṣeṇādṛśya-rūpeṇa",
+          "“parokṣeṇa” means in an unseen, invisible form"
         ]
       ],
-      "literal_english": "Literal rendering: ऊर्जस्वन्तं बलवन्तम्: ūrjsvntṃ blvntm — contextual literal sense of ऊर्जस्वन्तं बलवन्तम्; परोक्षेणादृश्य-रूपेण: prokṣeṇādṛśy-rūpeṇ — contextual literal sense of परोक्षेणादृश्य-रूपेण; ४२: ४२ — contextual literal sense of ४२; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "“Ūrjasvantam” means powerful. “Parokṣeṇa” means in an unseen, invisible form.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४२ preserved."
     },
     {
       "canto": 3,
@@ -1014,32 +1158,32 @@
       "start": 43,
       "end": 43,
       "source_marker": "३.२०.४३",
-      "sanskrit": "आत्मनः सर्गो यस्मातम् । यद् येन कार्येण संप्रदानत्व-निमित्तेन । कवयः कर्म-कोविदाः । साध्येभ्यः पितृभ्यश् च स्व-पितृ-रूपेभ्यः । वितन्वते श्राद्धादिना हव्यं कव्यं च ददति ॥४३॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : त इति । तद्-युक्तम् एव ज्ञात्वा तेभ्यो ददतीति यत् येन स्व-लक्षणेन कायेनैव हेतुना ॥४३॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : ते साध्याः पितरश् च तं कायम् अनुरूपम् इत्य् अर्थः । यद् यतो हेतोर् वितन्वते साध्येभ्यो हव्यम् अन्नं पितृभ्यः कव्यम् अन्नं श्राद्धादिना समर्पयन्तीत्य् अर्थः ॥४३॥\n\n———————————————————————————————————————",
+      "sanskrit": "आत्मनः सर्गो यस्मातम् । यद् येन कार्येण संप्रदानत्व-निमित्तेन । कवयः कर्म-कोविदाः । साध्येभ्यः पितृभ्यश् च स्व-पितृ-रूपेभ्यः । वितन्वते श्राद्धादिना हव्यं कव्यं च ददति ॥४३॥",
       "word_for_word": [
         [
-          "आत्मनः सर्गो यस्मातम्",
-          "ātmnḥ srgo ysmātm — contextual literal sense of आत्मनः सर्गो यस्मातम्"
+          "ātmanaḥ sargo yasmātam",
+          "“from whom the creation of the self [arose]”—this is the reading of the text"
         ],
         [
-          "यद् येन कार्येण संप्रदानत्व-निमित्तेन",
-          "yd yen kāryeṇ sṃprdāntv-nimitten — contextual literal sense of यद् येन कार्येण संप्रदानत्व-निमित्तेन"
+          "yad yena kāryeṇa saṃpradānatva-nimittena",
+          "“yat” means “for which purpose,” with the recipient relation as its cause"
         ],
         [
-          "कवयः कर्म-कोविदाः",
-          "kvyḥ krm-kovidāḥ — contextual literal sense of कवयः कर्म-कोविदाः"
+          "kavayaḥ karma-kovidāḥ",
+          "“kavayaḥ” means the wise, those skilled in ritual action"
         ],
         [
-          "साध्येभ्यः पितृभ्यश् च स्व-पितृ-रूपेभ्यः",
-          "sādhyebhyḥ pitṛbhyś c sv-pitṛ-rūpebhyḥ — contextual literal sense of साध्येभ्यः पितृभ्यश् च स्व-पितृ-रूपेभ्यः"
+          "sādhyebhyaḥ pitṛbhyaś ca sva-pitṛ-rūpebhyaḥ",
+          "to the Sādhyas and to the Fathers, who are forms of their own fathers"
         ],
         [
-          "वितन्वते श्राद्धादिना हव्यं कव्यं च ददति",
-          "vitnvte śrāddhādinā hvyṃ kvyṃ c ddti — contextual literal sense of वितन्वते श्राद्धादिना हव्यं कव्यं च ददति"
+          "vitanvate śrāddhādinā havyaṃ kavyaṃ ca dadati",
+          "they extend and give oblation and ancestral offering through rites such as śrāddha"
         ]
       ],
-      "literal_english": "Literal rendering: आत्मनः सर्गो यस्मातम्: ātmnḥ srgo ysmātm — contextual literal sense of आत्मनः सर्गो यस्मातम्; यद् येन कार्येण संप्रदानत्व-निमित्तेन: yd yen kāryeṇ sṃprdāntv-nimitten — contextual literal sense of यद् येन कार्येण संप्रदानत्व-निमित्तेन; कवयः कर्म-कोविदाः: kvyḥ krm-kovidāḥ — contextual literal sense of कवयः कर्म-कोविदाः; साध्येभ्यः पितृभ्यश् च स्व-पितृ-रूपेभ्यः: sādhyebhyḥ pitṛbhyś c sv-pitṛ-rūpebhyḥ — contextual literal sense of साध्येभ्यः पितृभ्यश् च स्व-पितृ-रूपेभ्यः; वितन्वते श्राद्धादिना हव्यं कव्यं च ददति: vitnvte śrāddhādinā hvyṃ kvyṃ c ddti — contextual literal sense of वितन्वते श्राद्धादिना हव्यं कव्यं च ददति.",
+      "literal_english": "“From whom the creation of the self [arose]”—this is the reading of the text. “Yat” means “for which purpose,” with the recipient relation as its cause. “Kavayaḥ” means the wise, those skilled in ritual action. To the Sādhyas and to the Fathers, who are forms of their own fathers, they extend and give the oblation and ancestral offering through rites such as śrāddha.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४३ preserved."
     },
     {
       "canto": 3,
@@ -1047,16 +1191,16 @@
       "start": 44,
       "end": 44,
       "source_marker": "३.२०.४४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तिरोधानेन दृश्यत्वे सत्य् अप्य् अन्तर्धान-शक्त्या ॥४४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "tirodhānena dṛśyatve saty apy antardhāna-śaktyā",
+          "“by concealment” means through the power of becoming invisible, even though otherwise visible"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“By concealment” means by the power of becoming invisible, even though one may otherwise be visible.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४४ preserved."
     },
     {
       "canto": 3,
@@ -1064,16 +1208,28 @@
       "start": 45,
       "end": 45,
       "source_marker": "३.२०.४५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "प्रत्यात्म्येन प्रतिबिम्बेन । आत्माभासं प्रतिबिम्बम् आत्मनात्मनो मानः प्रतिबिम्ब-दर्शिनः सुन्दरस्य शिरः-कम्पादि-चेष्टा । अत एव तत्-सृष्टानां मिथः संमाननेन नित्यं मिथुनी-भवः ॥४५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "pratyātmyena pratibimbena",
+          "“pratyātmyena” means by reflection"
+        ],
+        [
+          "ātmābhāsaṃ pratibimbam",
+          "“ātmābhāsam” means a reflection"
+        ],
+        [
+          "ātmanātmano mānaḥ pratibimba-darśinaḥ sundarasya śiraḥ-kampādi-ceṣṭā",
+          "“mānayann ātmanā ātmānam” describes the reflected one’s self-admiration: seeing his reflection, the handsome one makes gestures such as nodding his head"
+        ],
+        [
+          "ata eva tat-sṛṣṭānāṃ mithaḥ saṃmānanena nityaṃ mithunī-bhavaḥ",
+          "therefore those created by him, mutually admiring one another, are continually paired as couples"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Pratyātmyena” means by reflection. “Ātmābhāsam” means a reflection. “Mānayann ātmanā ātmānam” describes the reflected one’s self-admiration: seeing his reflection, the handsome one makes gestures such as nodding his head. Therefore those created by him, mutually admiring one another, are continually paired as couples.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४५ preserved."
     },
     {
       "canto": 3,
@@ -1081,16 +1237,20 @@
       "start": 46,
       "end": 46,
       "source_marker": "३.२०.४६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तत् प्रतिबिम्ब-रूपम् । कर्मभिस् तत् पराक्रमानुवर्णनैः ॥४६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "tat pratibimba-rūpam",
+          "“that” means that reflected form"
+        ],
+        [
+          "karmabhis tat parākramānuvarṇanaiḥ",
+          "“by their deeds” means by describing his prowess"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“That” means that reflected form. “By their deeds” means by describing his prowess.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४६ preserved."
     },
     {
       "canto": 3,
@@ -1098,16 +1258,24 @@
       "start": 47,
       "end": 47,
       "source_marker": "३.२०.४७",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "भोग आभोगो विस्तारः पादादि-प्रसरणं तद्वता देहेन । अनुपचिते वृद्धिम् अप्राप्ते । तत् भोग-क्रोधादि-युक्तम् ॥४७॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "bhoga ābhogo vistāraḥ pādādi-prasaraṇaṃ tadvatā dehena",
+          "“bhoga” means a coil or expansion, the extension of the feet and so forth; “bhogavat” means possessing such a body"
+        ],
+        [
+          "anupacite vṛddhim aprāpte",
+          "“anupacite” means not yet grown or increased"
+        ],
+        [
+          "tat bhoga-krodhādi-yuktam",
+          "that body was endowed with a coil, anger, and the like"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Bhoga” means a coil or expansion, the extension of the feet and so forth; “bhogavat” means possessing such a body. “Anupacite” means not yet grown or increased. That body was endowed with a coil, anger, and the like.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४७ preserved."
     },
     {
       "canto": 3,
@@ -1115,32 +1283,36 @@
       "start": 48,
       "end": 48,
       "source_marker": "३.२०.४८",
-      "sanskrit": "अमुतोऽमुष्माद् देहाद्ये केशा अहीयन्त प्रच्युतास् तेऽहयो जाताः । प्रसर्पतः पादाद्य्-आकुञ्चनैः प्रचलतोऽमुष्मात् सर्पाः । अत एव अगा न भवन्तीति नागाः, अतिवेगवन्त इत्य् अर्थः । भोगवतो जातत्वाद् भोगेन फणेनोरुर् विस्तीर्णा कन्धरा येषाम् । सर्वे चैते तत्-क्रोध-योगात् क्रूराः । तेषाम् अवान्तर-जाति-भेदः सर्प-सिद्धान्ते प्रसिद्धः ॥४८॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : ये इति । केश-स्खलनम् अप्य् अस्य भाव-मयम् एव ज्ञेयम् ॥४८॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : अमुतः अमुष्माद् देहात् ये केशा अहीयन्त विच्युतास् ते अहयो जाताः । प्रसर्पतः पादाद्य्-आकुञ्चनैः प्रचलतोऽमुष्माद् ये हस्त-पादाद्यो विच्युतास् ते सर्पाः । ये च मुण्ड-कन्धराद्यास् ते नागाः । कीदृशाः ? भोगवतो जातत्वाद् भोगेन फणेन उरु विस्तीर्णा कन्धरा येषां ते । सर्वे च क्रोध-योगात् क्रूराः । तेषाम् अवान्तर-जाति-भेदः सर्प-सिद्धान्ते प्रसिद्धः ॥४८॥\n\n———————————————————————————————————————",
+      "sanskrit": "अमुतोऽमुष्माद् देहाद्ये केशा अहीयन्त प्रच्युतास् तेऽहयो जाताः । प्रसर्पतः पादाद्य्-आकुञ्चनैः प्रचलतोऽमुष्मात् सर्पाः । अत एव अगा न भवन्तीति नागाः, अतिवेगवन्त इत्य् अर्थः । भोगवतो जातत्वाद् भोगेन फणेनोरुर् विस्तीर्णा कन्धरा येषाम् । सर्वे चैते तत्-क्रोध-योगात् क्रूराः । तेषाम् अवान्तर-जाति-भेदः सर्प-सिद्धान्ते प्रसिद्धः ॥४८॥",
       "word_for_word": [
         [
-          "अमुतोऽमुष्माद् देहाद्ये केशा अहीयन्त प्रच्युतास् तेऽहयो जाताः",
-          "amutoऽmuṣmād dehādye keśā ahīynt prcyutās teऽhyo jātāḥ — contextual literal sense of अमुतोऽमुष्माद् देहाद्ये केशा अहीयन्त प्रच्युतास् तेऽहयो जाताः"
+          "amuto’muṣmād dehādye keśā ahīyanta pracyutās te’hayo jātāḥ",
+          "“from this body” means from that body: the hairs that fell away became snakes"
         ],
         [
-          "प्रसर्पतः पादाद्य्-आकुञ्चनैः प्रचलतोऽमुष्मात् सर्पाः",
-          "prsrptḥ pādādy-ākuñcnaiḥ prcltoऽmuṣmāt srpāḥ — contextual literal sense of प्रसर्पतः पादाद्य्-आकुञ्चनैः प्रचलतोऽमुष्मात् सर्पाः"
+          "prasarpataḥ pādādy-ākuñcanaiḥ pracalato’muṣmāt sarpāḥ",
+          "“crawling” means moving by contracting the feet and the like; serpents [came] from that moving body"
         ],
         [
-          "अत एव अगा न भवन्तीति नागाः अतिवेगवन्त इत्य् अर्थः",
-          "at ev agā n bhvntīti nāgāḥ ativegvnt ity arthḥ — contextual literal sense of अत एव अगा न भवन्तीति नागाः अतिवेगवन्त इत्य् अर्थः"
+          "ata eva agā na bhavantīti nāgāḥ ativegavanta ity arthaḥ",
+          "because they do not walk they are called nāgas; that is, they are exceedingly swift"
         ],
         [
-          "भोगवतो जातत्वाद् भोगेन फणेनोरुर् विस्तीर्णा कन्धरा येषाम्",
-          "bhogvto jāttvād bhogen phṇenorur vistīrṇā kndhrā yeṣām — contextual literal sense of भोगवतो जातत्वाद् भोगेन फणेनोरुर् विस्तीर्णा कन्धरा येषाम्"
+          "bhogavato jātatvād bhogena phaṇenorur vistīrṇā kandharā yeṣām",
+          "since they arose from the coiled body, they have broad necks with coils in the form of hoods"
         ],
         [
-          "सर्वे चैते तत्-क्रोध-योगात् क्रूराः",
-          "srve caite tt-krodh-yogāt krūrāḥ — contextual literal sense of सर्वे चैते तत्-क्रोध-योगात् क्रूराः"
+          "sarve caite tat-krodha-yogāt krūrāḥ",
+          "all of them are fierce because of their connection with his anger"
+        ],
+        [
+          "teṣām avāntara-jāti-bhedaḥ sarpa-siddhānte prasiddhaḥ",
+          "the subdivisions of their species are well known in the treatise on snakes"
         ]
       ],
-      "literal_english": "Literal rendering: अमुतोऽमुष्माद् देहाद्ये केशा अहीयन्त प्रच्युतास् तेऽहयो जाताः: amutoऽmuṣmād dehādye keśā ahīynt prcyutās teऽhyo jātāḥ — contextual literal sense of अमुतोऽमुष्माद् देहाद्ये केशा अहीयन्त प्रच्युतास् तेऽहयो जाताः; प्रसर्पतः पादाद्य्-आकुञ्चनैः प्रचलतोऽमुष्मात् सर्पाः: prsrptḥ pādādy-ākuñcnaiḥ prcltoऽmuṣmāt srpāḥ — contextual literal sense of प्रसर्पतः पादाद्य्-आकुञ्चनैः प्रचलतोऽमुष्मात् सर्पाः; अत एव अगा न भवन्तीति नागाः अतिवेगवन्त इत्य् अर्थः: at ev agā n bhvntīti nāgāḥ ativegvnt ity arthḥ — contextual literal sense of अत एव अगा न भवन्तीति नागाः अतिवेगवन्त इत्य् अर्थः; भोगवतो जातत्वाद् भोगेन फणेनोरुर् विस्तीर्णा कन्धरा येषाम्: bhogvto jāttvād bhogen phṇenorur vistīrṇā kndhrā yeṣām — contextual literal sense of भोगवतो जातत्वाद् भोगेन फणेनोरुर् विस्तीर्णा कन्धरा येषाम्; सर्वे चैते तत्-क्रोध-योगात् क्रूराः: srve caite tt-krodh-yogāt krūrāḥ — contextual literal sense of सर्वे चैते तत्-क्रोध-योगात् क्रूराः.",
+      "literal_english": "“From this body” means from that body: the hairs that fell away became snakes. “Crawling” means moving by contracting the feet and the like; the snakes came from that moving body. Because they do not walk, they are called nāgas; that is, they are exceedingly swift. Since they arose from the body possessing coils, they have broad necks, with coils in the form of hoods. All of them are fierce because of their connection with his anger. The subdivisions of their species are well known in the treatise on snakes.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४८ preserved."
     },
     {
       "canto": 3,
@@ -1148,32 +1320,20 @@
       "start": 49,
       "end": 49,
       "source_marker": "३.२०.४९",
-      "sanskrit": "यदा मन्यमानोऽभूत् तदा मनून् ससर्ज ॥४९॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : कृत-कृत्यम् इवेति इव-शब्दात् कृतं पूर्व-कृत्यम् इत्य् अर्थः । मनून् मनुष्यान् लोक-भावनान् कर्मणा सर्व-लोकोद्भव-हेतून् अत एव श्री-मनोः प्रजा भविष्यन्ति॥४९॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : चिन्तानन्तरं सृष्टिर् मे पूर्णैव सम्पद्यतेति मनसि यदा मिथुनं सिसृक्षतस् तस्य आनन्दो बभूव । तदा तस्मात् मनवो अभवंस् ते च सृष्टि-पूर्ति-मयीं पुरुषाकारतां जगृहुर् इत्य् आह---स आत्मानम् इति द्वाभ्याम् । मनून् इति तेषु तदानीं स्वायम्भुवो मनुः प्रकटः सर्वैर् अदृश्यत । अन्ये च यथा-समयं दृश्या इति ज्ञेयम् । अत्रास्ते इति पदोपन्यासान् मनु-सर्गोऽयं सर्वान्तिमो ज्ञेयः । अत एव तद्-अनन्तरं वक्ष्यमाणोऽपि ऋषि-सर्ग एतत् पूर्वत्रैव ज्ञेयः । अत्र दशम-द्वादश-विंशाध्यायेषु क्वचित् क्रमेण क्वचिन् मण्डूक-प्लुति-सिंहावलोकादि-न्यायात् क्रमातिक्रमेणाप्य् उक्तानां सर्गाणाम् अयं क्रमो ज्ञेयः । प्रथमं पञ्च-पर्वाविद्या-सर्गः । ततो वनस्पति-वृक्षादि-सर्गः, ततः सर्पादि-सर्गः, (ततो गो-महिष्य्-आदि-सर्गः, ततो यक्ष-राक्षसासुर-किन्नर-किंपुरुषादि-सर्गः,) ततश् च सनकादि-मरीच्य्-आदि-सर्गः, ततो मनुष्य-सर्गः, सर्वान्ते मनु-सर्गस्, ततः पूर्व-सृष्टा अपि स्त्री-पुं-स्वरूपेण वर्धन्ते स्मेति ॥४९॥\n\n———————————————————————————————————————",
+      "sanskrit": "यदा मन्यमानोऽभूत् तदा मनून् ससर्ज ॥४९॥",
       "word_for_word": [
         [
-          "यदा मन्यमानोऽभूत् तदा मनून् ससर्ज",
-          "ydā mnymānoऽbhūt tdā mnūn ssrj — contextual literal sense of यदा मन्यमानोऽभूत् तदा मनून् ससर्ज"
+          "yadā manyamāno’bhūt",
+          "when he came to regard himself [as accomplished]"
         ],
         [
-          "४९",
-          "४९ — contextual literal sense of ४९"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "कृत-कृत्यम् इवेति इव-शब्दात् कृतं पूर्व-कृत्यम् इत्य् अर्थः",
-          "kṛt-kṛtym iveti iv-śbdāt kṛtṃ pūrv-kṛtym ity arthḥ — contextual literal sense of कृत-कृत्यम् इवेति इव-शब्दात् कृतं पूर्व-कृत्यम् इत्य् अर्थः"
+          "tadā manūn sasarja",
+          "then he created the Manus"
         ]
       ],
-      "literal_english": "Literal rendering: यदा मन्यमानोऽभूत् तदा मनून् ससर्ज: ydā mnymānoऽbhūt tdā mnūn ssrj — contextual literal sense of यदा मन्यमानोऽभूत् तदा मनून् ससर्ज; ४९: ४९ — contextual literal sense of ४९; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; कृत-कृत्यम् इवेति इव-शब्दात् कृतं पूर्व-कृत्यम् इत्य् अर्थः: kṛt-kṛtym iveti iv-śbdāt kṛtṃ pūrv-kṛtym ity arthḥ — contextual literal sense of कृत-कृत्यम् इवेति इव-शब्दात् कृतं पूर्व-कृत्यम् इत्य् अर्थः.",
+      "literal_english": "When he came to regard himself as having accomplished his task, then he created the Manus.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ४९ preserved."
     },
     {
       "canto": 3,
@@ -1181,32 +1341,20 @@
       "start": 50,
       "end": 50,
       "source_marker": "३.२०.५०",
-      "sanskrit": "तेभ्यः स्वीयं पुरुषं पुरुषाकारं पुरं देहम् अत्यसृजद् ददौ । तान् मनून् ॥५०॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : तेभ्य इति आत्मवान् परमाश्रयः सन्न् इत्य् अर्थः । आत्मनः इति पाठस् तु प्रायो दृश्यते । तत्र परमट्मनः पुरं प्रकाश-स्थानम् इत्य् अर्थः ॥५०॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : स्वीयं पुरं पुरुषाकारं देहम् अत्यसृजत् ददौ ॥५०॥\n\n———————————————————————————————————————",
+      "sanskrit": "तेभ्यः स्वीयं पुरुषं पुरुषाकारं पुरं देहम् अत्यसृजद् ददौ । तान् मनून् ॥५०॥",
       "word_for_word": [
         [
-          "तेभ्यः स्वीयं पुरुषं पुरुषाकारं पुरं देहम् अत्यसृजद् ददौ",
-          "tebhyḥ svīyṃ puruṣṃ puruṣākārṃ purṃ dehm atysṛjd ddau — contextual literal sense of तेभ्यः स्वीयं पुरुषं पुरुषाकारं पुरं देहम् अत्यसृजद् ददौ"
+          "tebhyaḥ svīyaṃ puruṣaṃ puruṣākāraṃ puraṃ deham",
+          "unto them, his own “puruṣa,” a body shaped like a city and like a man"
         ],
         [
-          "तान् मनून्",
-          "tān mnūn — contextual literal sense of तान् मनून्"
-        ],
-        [
-          "५०",
-          "५० — contextual literal sense of ५०"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "atyasṛjad dadau tān manūn",
+          "he created and gave [it] to them—the Manus"
         ]
       ],
-      "literal_english": "Literal rendering: तेभ्यः स्वीयं पुरुषं पुरुषाकारं पुरं देहम् अत्यसृजद् ददौ: tebhyḥ svīyṃ puruṣṃ puruṣākārṃ purṃ dehm atysṛjd ddau — contextual literal sense of तेभ्यः स्वीयं पुरुषं पुरुषाकारं पुरं देहम् अत्यसृजद् ददौ; तान् मनून्: tān mnūn — contextual literal sense of तान् मनून्; ५०: ५० — contextual literal sense of ५०; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "“Unto them”—that is, unto the Manus—he created and gave his own “puruṣa,” a body shaped like a city and like a man.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ५० preserved."
     },
     {
       "canto": 3,
@@ -1214,16 +1362,36 @@
       "start": 51,
       "end": 51,
       "source_marker": "३.२०.५१",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "ते त्वया यत् कृतं तत् सुकृतम् । सुकृतत्वम् आहुः । यस्मिन् मनु-सर्गे । क्रिया अग्निहोत्राद्याः । अतोऽस्मिन् सर्वे वयं साकं सहान्नं हविर्भागाद्य् अदाम भक्षयाम । हे ब्रह्मन् ॥५१॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "te tvayā yat kṛtaṃ tat sukṛtam",
+          "what you did is meritorious"
+        ],
+        [
+          "sukṛtatvam āhuḥ",
+          "they call it meritorious"
+        ],
+        [
+          "yasmin manu-sarge",
+          "“in which” means in that creation of Manu"
+        ],
+        [
+          "kriyā agnihotrādyāḥ",
+          "“kriyā” means rites such as the Agnihotra"
+        ],
+        [
+          "ato’smin sarve vayaṃ sākaṃ sahānnaṃ havirbhāgādy adāma bhakṣayāma",
+          "therefore we all partake together of food, including the shares of oblation and the like"
+        ],
+        [
+          "he brahman",
+          "“O Brahmā”—this is the address"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“What you did is meritorious”; they call it meritorious. “In which” means in that creation of Manu. “Kriyā” means rites such as the Agnihotra. Therefore in that creation we all partake together of food, including the shares of oblation. “O Brahmā”—this is the address.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ५१ preserved."
     },
     {
       "canto": 3,
@@ -1231,16 +1399,36 @@
       "start": 52,
       "end": 52,
       "source_marker": "३.२०.५२",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "काय-सृष्टिम् उक्त्वा ऋषीणां सृष्टिम् आह---तपसेति । विद्या उपासना । योगोऽत्रासनादिः । सु-समाधिर् वैराग्यैश्वर्यादि-युक्तः समाधिः तेन च युक्तः । हृषीकेशः स्व-वशेन्द्रियः सन् । ऋषीर् ब्रह्मा ऋषीन् प्रजाः ससर्ज ॥५२॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "kāya-sṛṣṭim uktvā ṛṣīṇāṃ sṛṣṭim āha tapaseti",
+          "having spoken of bodily creation, he describes the creation of the sages with “tapasā”"
+        ],
+        [
+          "vidyā upāsanā",
+          "“vidyā” means worship"
+        ],
+        [
+          "yogo’trāsanādiḥ",
+          "here “yoga” means postures and the like"
+        ],
+        [
+          "su-samādhir vairāgyaiśvaryādi-yuktaḥ samādhiḥ tena ca yuktaḥ",
+          "“well-concentrated” means concentration joined with renunciation, powers, and so forth, and [Brahmā] was also endowed with that"
+        ],
+        [
+          "hṛṣīkeśaḥ sva-vaśendriyaḥ san",
+          "“Hṛṣīkeśa” means master of his own senses; being thus"
+        ],
+        [
+          "ṛṣīr brahmā ṛṣīn prajāḥ sasarja",
+          "the seer Brahmā created the sages as his offspring"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Having spoken of bodily creation, he now describes the creation of the sages: “tapasā” and the following words. “Vidyā” means worship. Here “yoga” means postures and the like. “Well-concentrated” means concentration joined with renunciation, powers, and so forth, and [Brahmā] was also endowed with that. “Hṛṣīkeśa” means master of his own senses. Being thus, the seer Brahmā created the sages as his offspring.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ५२ preserved."
     },
     {
       "canto": 3,
@@ -1248,16 +1436,24 @@
       "start": 53,
       "end": 53,
       "source_marker": "३.२०.५३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "किं तद् देहं यस्यांशम् अदाद् इत्य् अत आह---यद् इति । समाधिश् च योगश् च ऋद्धिश् च ऐश्वर्यं तपश् च विद्या च विरक्तिश् च विद्यन्ते यस्मिंस् तत् ॥५३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "kiṃ tad dehaṃ yasyāṃśam adād ity ata āha yad iti",
+          "“What is that body of which he gave a portion?” To this he answers with “yat”"
+        ],
+        [
+          "samādhiś ca yogaś ca ṛddhiś ca aiśvaryaṃ",
+          "concentration, yoga, and prosperity—that is, supernatural power"
+        ],
+        [
+          "tapaś ca vidyā ca viraktiś ca vidyante yasmiṃs tat",
+          "austerity, knowledge, and detachment are present in that body"
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“What is that body of which he gave a portion?” To this he answers with “yat.” That is the body in which concentration, yoga, prosperity—that is, supernatural power—austerity, knowledge, and detachment are present.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; bhAgavatam/gauDIya-prastutiH/03/20_sRShTi-varNanam.md; exact Śrīdhara block ५३ preserved."
     }
   ]
 }
