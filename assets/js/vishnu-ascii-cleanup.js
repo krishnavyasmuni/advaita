@@ -29,7 +29,7 @@ const toAscii=value=>String(value??'')
 
 const isSanskritNode=node=>{
   const element=node.nodeType===Node.ELEMENT_NODE?node:node.parentElement;
-  return !!element?.closest('details.sanskrit-reveal,[lang^="sa"],.shaiva-parallel__sanskrit');
+  return !!element?.closest('[lang^="sa"],.shaiva-parallel__sanskrit');
 };
 
 const makeDetails=text=>{
