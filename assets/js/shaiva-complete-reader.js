@@ -34,7 +34,11 @@ function normaliseSpelling(value){
     .replace(/[\u0300-\u036f]/g,'')
     .replace(/[ß]/g,'ss')
     .replace(/[æ]/gi,'ae')
-    .replace(/[œ]/gi,'oe');
+    .replace(/[œ]/gi,'oe')
+    .replace(/\bKrshna\b/gi,'Krishna')
+    .replace(/\bRgveda\b/gi,'Rigveda')
+    .replace(/\bPurusha\b/gi,'Purusha')
+    .replace(/\bDrshti\b/gi,'Drishti');
 }
 
 function articleText(value){
