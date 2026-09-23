@@ -484,11 +484,11 @@
     }
     controls.appendChild(makeDetails('Transliteration', transliterationSections));
 
-    controls.appendChild(makeDetails('Śrīdhara Sanskrit', [
-      sridharaSanskrit
-        ? makeParagraph(sridharaSanskrit, { lang: 'sa-Deva' })
-        : makeParagraph('No commentary', { className: 'gita-no-source' })
-    ]));
+    if (sridharaSanskrit) {
+      controls.appendChild(makeDetails('Śrīdhara Sanskrit', [
+        makeParagraph(sridharaSanskrit, { lang: 'sa-Deva' })
+      ]));
+    }
 
     section.append(heading, rule, devanagari, translation, controls);
 
