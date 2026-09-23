@@ -912,12 +912,12 @@
   };
 
   const parseWordMeaning = (value) => String(value || '')
-    .replace(/<br\s*\/?>(?=.)/gi, '\\n')
-    .split(/[;\\n]+/)
+    .replace(/<br\s*\/?>(?=.)/gi, '\n')
+    .split(/[;\n]+/)
     .map((entry) => entry.trim())
     .filter(Boolean)
     .map((entry) => {
-      const separator = entry.match(/\\s*[—–]\\s*|\\s+-\\s+/u);
+      const separator = entry.match(/\s*[—–]\s*|\s+-\s+/u);
       if (!separator) return [entry, ''];
       const index = separator.index;
       return [entry.slice(0, index).trim(), entry.slice(index + separator[0].length).trim()];
@@ -929,8 +929,8 @@
     if (!pairs.length) return '<p class="gita-dual-empty">' + esc(emptyText || 'Word-for-word meaning unavailable in the pinned source record.') + '</p>';
     return '<div class="gita-word-list">' + pairs.map((pair, index) => {
       const term = pair[0];
-      const devanagari = /[\\u0900-\\u097F]/u.test(term) ? term : iastToDevanagari(term);
-      const iast = /[\\u0900-\\u097F]/u.test(term) ? devanagariToIast(term) : term;
+      const devanagari = /[\u0900-\u097F]/u.test(term) ? term : iastToDevanagari(term);
+      const iast = /[\u0900-\u097F]/u.test(term) ? devanagariToIast(term) : term;
       const punctuation = index === pairs.length - 1 ? '.' : ';';
       return '<div class="gita-word-row"><span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> <span class="gita-word-iast">(<em>' + esc(iast) + '</em>)</span> <span class="gita-word-gloss">— ' + esc(pair[1]) + punctuation + '</span></div>';
     }).join('') + '</div>';
