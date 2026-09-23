@@ -3,7 +3,7 @@
 > **Canto 11 status correction (2026-09-20):** The previous COMPLETE/LIVE_VERIFIED labels were not supported by a full verse-by-verse comparison. See [the deterministic mapping audit](audit/canto11/automated-summary.md) and [the evidentiary review](BHAGAVATAM_CANTO11_AUDIT_2026-09-20.md). All 31 chapters remain under verification. In particular, the pinned 11.23 numbering differs from the displayed VedaBase mirror from the mid-chapter onward. Do not reassert completion from file counts or this historical snapshot.
 
 
-> **Project-wide audit correction (2026-09-22):** A fresh audit of every reader-linked data file found that the prior completion labels were too broad. Canto 3 initially contained 3,542 generated filler gloss rows (“contextual literal sense of …”) across 1,321 records; Canto 3.1–3.4 and 3.7–3.15 are repaired with zero such rows; Canto 3.5 and 3.6 also have zero filler rows, with explicit pinned-source gaps at 3.5.51 and 3.6.22; 2,330 filler rows remain to repair in Canto 3; the un-wired Canto 4 cache contains 3,216 such rows across 1,104 records; Canto 11 still requires full verse alignment verification; and Canto 10 has now been rechecked: six intact missing ranges were repaired, while four corrupt pinned-source rows remain explicitly tracked as source gaps (10.64.13, 10.68.30, 10.68.32, 10.77.34). Canto 12 passes the structural/source audit. These cantos must not be called complete or released until their real Sanskrit-first glosses are supplied and re-verified.
+> **Project-wide audit correction (2026-09-22):** A fresh audit of every reader-linked data file found that the prior completion labels were too broad. Canto 3 initially contained 3,542 generated filler gloss rows (“contextual literal sense of …”) across 1,321 records; Canto 3.1–3.4 and 3.7–3.16 are repaired with zero such rows; Canto 3.5 and 3.6 also have zero filler rows, with explicit pinned-source gaps at 3.5.51 and 3.6.22; 2,330 filler rows remain to repair in Canto 3; the un-wired Canto 4 cache contains 3,216 such rows across 1,104 records; Canto 11 still requires full verse alignment verification; and Canto 10 has now been rechecked: six intact missing ranges were repaired, while four corrupt pinned-source rows remain explicitly tracked as source gaps (10.64.13, 10.68.30, 10.68.32, 10.77.34). Canto 12 passes the structural/source audit. These cantos must not be called complete or released until their real Sanskrit-first glosses are supplied and re-verified.
 
 ## Mission
 
@@ -125,10 +125,10 @@ canto_3_verified_chapters: 3.1-3.33
 canto_3_source_ranges: 1288
 canto_3_source_blocks: 860
 canto_3_no_commentary_records: 420
-canto_3_repaired_chapters: 3.1, 3.2, 3.3, 3.4, 3.7, 3.8, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, 3.15
+canto_3_repaired_chapters: 3.1, 3.2, 3.3, 3.4, 3.7, 3.8, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, 3.15, 3.16
 canto_3_source_checked_with_gap: 3.5 (pinned Śrīdhara source gap at 3.5.51; supplementary block used for 3.5.37); 3.6 (pinned Śrīdhara source gap at 3.6.22)
-canto_3_placeholder_wfw_rows_remaining: 1892
-canto_3_literal_placeholder_records_remaining: 984
+canto_3_placeholder_wfw_rows_remaining: 1763
+canto_3_literal_placeholder_records_remaining: 957
 canto_4_audit_status: FAILED_PLACEHOLDER_GLOSSES
 canto_4_cached_records: 1104
 canto_4_placeholder_wfw_rows: 3216
@@ -156,7 +156,7 @@ canto_12_source_ranges: 507
 canto_12_sridhara_blocks: 441
 canto_12_no_commentary_ranges: 66
 next_resume_target: CANTO_3_PLACEHOLDER_REPAIR
-resume_note: The aggregate audit now leaves 1,892 filler rows in Canto 3 after repairing 3.1–3.4 and 3.7–3.15 and source-checking 3.5–3.6; 3.5.51 and 3.6.22 remain explicit pinned-source gaps. Continue repairing Canto 3 in canonical order before releasing Canto 4, 5, or 6.
+resume_note: The aggregate audit now leaves 1,763 filler rows in Canto 3 after repairing 3.1–3.4 and 3.7–3.16 and source-checking 3.5–3.6; 3.5.51 and 3.6.22 remain explicit pinned-source gaps. Continue repairing Canto 3 in canonical order before releasing Canto 4, 5, or 6.
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
