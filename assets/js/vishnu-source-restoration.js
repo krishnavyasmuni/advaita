@@ -15,9 +15,9 @@ if(sridhara&&!root.querySelector('[data-vishnu-sridhara-source]')){const d=make(
 // The interpretations below are attributed to the original paper, not independently established facts.
 const tables=[
 ['Table 1: Karma-kanda',[
-['Rgveda 10.113.2','Vishnu worshipped for his intrinsic nature; Indra circumstantially.'],
-['Rgveda 1.156.2','Vishnu is most ancient, creator and self-born.'],
-['Rgveda 1.22.20','Vishnu’s supreme station is contemplated by the wise.'],
+['Rigveda 10.113.2','Vishnu worshipped for his intrinsic nature; Indra circumstantially.'],
+['Rigveda 1.156.2','Vishnu is most ancient, creator and self-born.'],
+['Rigveda 1.22.20','Vishnu’s supreme station is contemplated by the wise.'],
 ['Taittiriya Samhita 5.5.1','Vishnu is highest among the deities.'],
 ['Shatapatha Brahmana 14.1.1.5','Vishnu is supreme among the deities.'],
 ['Aitareya Brahmana 1.1.1','Vishnu highest among the deities; Sayana explains “highest” as superiority.'],
@@ -28,8 +28,8 @@ const tables=[
 ['Narayana Upanishad','Narayana creates Shiva, Brahma, Indra and all beings.'],
 ['Mahopanishad 1.1','Narayana alone was in the beginning, not Shiva or Brahma.'],
 ['Purusha Sukta (Taittiriya Aranyaka)','Primordial Purusha, creator of everything, is the husband of Lakshmi, i.e. Vishnu.'],
-['Chandogya Upanishad 12.8.3','The supreme person (“uttama purusha”) is identified as Krshna by Shankara and reinforced by Anandagiri, as cited in the paper.'],
-['Brhadaranyaka Upanishad 3.7.3','Shankara identifies the supreme God, creator of the earth, as Narayana.'],
+['Chandogya Upanishad 12.8.3','The supreme person (“uttama purusha”) is identified as Krishna by Shankara and reinforced by Anandagiri, as cited in the paper.'],
+['Brihadaranyaka Upanishad 3.7.3','Shankara identifies the supreme God, creator of the earth, as Narayana.'],
 ['Katha Upanishad 1.2.15','Shankara identifies the being praised by all the Vedas as Vishnu.']]],
 ['Table 3: Vedangas, Dharmashastras and Ramayana',[
 ['Manusmrti 1.10–11','Narayana as creator.'],
@@ -43,11 +43,11 @@ const tables=[
 ['Mahabharata 12.338','Shiva, subordinate to Brahma and called his son, asks him about the supreme Lord.'],
 ['Mahabharata 12.339','Brahma narrates the greatness of the supreme Lord and identifies him as Narayana.'],
 ['Mahabharata 12.350','Shiva and Brahma arise from supreme Vishnu as his instruments.'],
-['Mahabharata 14.118.37','Krshna says Shiva, Brahma and other gods seek refuge in him.'],
-['Bhagavad Gita 7.7','Nothing is superior to Krshna; everything depends on him.'],
+['Mahabharata 14.118.37','Krishna says Shiva, Brahma and other gods seek refuge in him.'],
+['Bhagavad Gita 7.7','Nothing is superior to Krishna; everything depends on him.'],
 ['Bhagavad Gita 10.2','Deities and rshis do not know his origin because he created them.'],
 ['Bhagavad Gita 9.23','Worship of other deities reaches him but through an improper method, as glossed by Shankara.'],
-['Bhagavad Gita 9.25','Worshippers of other deities reach their respective abodes; Krshna’s reach him.'],
+['Bhagavad Gita 9.25','Worshippers of other deities reach their respective abodes; Krishna’s reach him.'],
 ['Bhagavad Gita 6.47','Shankara’s gloss identifies the supreme yogin as a worshipper of Vasudeva.']]],
 ['Table 5: Puranas',[
 ['Agni Purana 379','“Bhagavan” and “Brahman” are principally used for Vishnu; others secondarily.'],
@@ -61,7 +61,7 @@ const tables=[
 ['Bhagavata Purana 12.13.16','Vishnu supreme among deities; Shiva foremost among Vaishnavas.'],
 ['Bhagavata Purana 2.5.15','Narayana supreme in the Vedas and among deities.'],
 ['Bhagavata Purana 3.8 and 3.12','Vishnu creates Brahma; Brahma creates Shiva.'],
-['Bhagavata Purana 10.63','Shiva’s defeat in the Bana narrative is explained by Shridhara as revealing Krshna’s greatness.'],
+['Bhagavata Purana 10.63','Shiva’s defeat in the Bana narrative is explained by Shridhara as revealing Krishna’s greatness.'],
 ['Varaha Purana 70.16–18','Shiva describes Vishnu as supreme and creator of himself and Brahma.'],
 ['Padma Purana 6.236.2, 9','Its Shiva passage condemns regarding another deity as superior or equal to Vishnu.'],
 ['Padma Purana 5.97.27','Its samanvaya passage concludes Vishnu supreme.']]]
@@ -72,8 +72,8 @@ const purana=find('h3',/^Table 5:/);
 if(purana&&!root.querySelector('[data-vishnu-recap]')){const rec=make('div');rec.dataset.vishnuRecap='65-67';rec.innerHTML='<h4>Purana meta-analysis — summary in the source</h4><ul><li>The opening questions of Vaishnava Puranas ask generally which deity is supreme; the Shaiva Puranas cited begin with questions specifically about Shiva.</li><li>The paper compares Padma Purana 6.236, Skanda Purana 7.1.2.87 and Matsya Purana 56.68 on the sattvika, rajasa and tamasa classification of Puranas.</li><li>It cites Varaha Purana 70.20–24 on sattva, rajas and tamas.</li></ul>';purana.before(rec)}
 // The PDF (pp. 70–71) has 30 separately numbered scriptures and 18 works.
 const scriptures=[
-['Vedas',['Rgveda Samhita','Taittiriya Samhita','Aitareya Brahmana','Shatapatha Brahmana','Paingi Rahasya Brahmana','Purusha Suktam (Taittiriya Aranyaka)','Mahopanishat','Narayanopanishat','Chandogyopanishat','Brhadaranyakopanishat','Kathopanishat','Shvetashvataropanishat']],
-['Smrti',['Manusmrti','Brhat Parashara Hora Shastra','Ramayana','Mahabharata (BORI CE)','Bhagavad Gita (Mahabharata)','Vishnu Sahasranama (Mahabharata)']],
+['Vedas',['Rigveda Samhita','Taittiriya Samhita','Aitareya Brahmana','Shatapatha Brahmana','Paingi Rahasya Brahmana','Purusha Suktam (Taittiriya Aranyaka)','Mahopanishat','Narayanopanishat','Chandogyopanishat','Brhadaranyakopanishat','Kathopanishat','Shvetashvataropanishat']],
+['Smriti',['Manusmrti','Brhat Parashara Hora Shastra','Ramayana','Mahabharata (BORI CE)','Bhagavad Gita (Mahabharata)','Vishnu Sahasranama (Mahabharata)']],
 ['Darshana',['Mimamsa Sutras','Brahma Sutras']],
 ['Puranas',['Agni','Linga','Skanda','Kurma','Shiva','Vishnu','Bhagavata','Varaha','Padma','Narada']]
 ];
