@@ -96,7 +96,7 @@ The current release ledger has been cleaned to retain only the verified public C
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: d0bd0f1689da060814dc143d55c93c73fb18e211
+last_audited_data_commit: 678b4f0e58df61bd1204e289c01c50deebe5f568
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -158,8 +158,8 @@ canto_12_verified_chapters: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, 12.7, 12.8, 12.9
 canto_12_source_ranges: 507
 canto_12_sridhara_blocks: 441
 canto_12_no_commentary_ranges: 66
-next_resume_target: CANTO_3_CHAPTER_20_WFW_REPAIR
-resume_note: Canto 3.19 is now source-checked and live-verified: 38 numbered verses, 34 exact Śrīdhara commentary blocks, four explicit no-commentary markers, 251 complete word-for-word pairs, and zero placeholders. Canto 3.20 is the next canonical incomplete chapter; its existing partial work must be audited and finished before proceeding. Preserve all existing content and links. The aggregate Canto 3/Canto 4 filler counts have not been recalculated.
+next_resume_target: CANTO_3_CHAPTER_22_WFW_REPAIR
+resume_note: Canto 3.20 is now source-checked and live-verified: 53 numbered verses, 51 exact Śrīdhara blocks, 196 complete word-for-word phrase pairs, preserved grouped range 3.20.2–3.20.4, and zero placeholders. Canto 3.21 is already live; Canto 3.22 is the next canonical incomplete chapter. Preserve all existing content and links; aggregate Canto 3/Canto 4 filler counts have not been recalculated.
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
