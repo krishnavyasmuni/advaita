@@ -33,6 +33,50 @@
     return out.replace(/\s+([|])/g, ' $1').replace(/\s{2,}/g, ' ').trim();
   };
 
+  const iastToDeva = (value) => {
+    const vowels = {'a':'अ','ā':'आ','i':'इ','ī':'ई','u':'उ','ū':'ऊ','ṛ':'ऋ','ṝ':'ॠ','ḷ':'ऌ','ḹ':'ॡ','e':'ए','ai':'ऐ','o':'ओ','au':'औ'};
+    const consonants = {'kh':'ख','gh':'घ','ṅ':'ङ','ch':'छ','jh':'झ','ñ':'ञ','ṭh':'ठ','ṭ':'ट','ḍh':'ढ','ḍ':'ड','ṇ':'ण','th':'थ','dh':'ध','ph':'फ','bh':'भ','ś':'श','ṣ':'ष','k':'क','g':'ग','c':'च','j':'ज','t':'त','d':'द','n':'न','p':'प','b':'ब','m':'म','y':'य','r':'र','l':'ल','v':'व','s':'स','h':'ह'};
+    const vowelMarks = {'a':'','ā':'ा','i':'ि','ī':'ी','u':'ु','ū':'ू','ṛ':'ृ','ṝ':'ॄ','ḷ':'ॢ','ḹ':'ॣ','e':'े','ai':'ै','o':'ो','au':'ौ'};
+    const marks = {'ṃ':'ं','ḥ':'ः','m̐':'ँ','’':'ऽ'};
+    const convertWord = (word) => {
+      let out = '';
+      let i = 0;
+      let afterConsonant = false;
+      while (i < word.length) {
+        const two = word.slice(i, i + 2);
+        const one = word[i];
+        if (marks[two]) { out += marks[two]; i += 2; continue; }
+        if (marks[one]) { out += marks[one]; i += 1; continue; }
+        const consonant = consonants[two] ? two : (consonants[one] ? one : '');
+        if (consonant) {
+          if (afterConsonant) out += '्';
+          out += consonants[consonant];
+          i += consonant.length;
+          afterConsonant = true;
+          if (word.slice(i, i + 1) === '̇') i += 1;
+          continue;
+        }
+        const vowel = vowels[two] ? two : (vowels[one] ? one : '');
+        if (vowel) {
+          if (afterConsonant) out += vowelMarks[vowel];
+          else out += vowels[vowel];
+          i += vowel.length;
+          afterConsonant = false;
+          continue;
+        }
+        if (one === '्') { out += '्'; i += 1; afterConsonant = false; continue; }
+        out += one;
+        i += 1;
+        afterConsonant = false;
+      }
+      return out;
+    };
+    return String(value || '').split(/(\s+|[-–—/|.,;:!?()[\]“”‘’'"])/u).map((part) => {
+      if (!part || /^\s+$/.test(part) || /^[\-–—/|.,;:!?()[\]“”‘’'"]$/u.test(part)) return part;
+      return convertWord(part);
+    }).join('');
+  };
+
   const cleanSrid = (text) => String(text || '').replace(/^\s*[।॥]+\s*\d+(?:\.\d+)?\s*[।॥]*\s*/, '').trim();
 
   const renderPairs = (pairs, emptyText) => {
@@ -43,11 +87,11 @@
       const term = Array.isArray(pair) ? String(pair[0] || '').trim() : '';
       const gloss = Array.isArray(pair) ? String(pair[1] || '').trim() : '';
       const termIsDevanagari = /[\u0900-\u097F]/u.test(term);
-      const devanagari = termIsDevanagari ? term : '';
+      const devanagari = termIsDevanagari ? term : iastToDeva(term);
       const iast = termIsDevanagari ? devaToIast(term) : term;
       const punctuation = index === pairs.length - 1 ? '.' : ';';
       return '<div class="gita-word-row">' +
-        (devanagari ? '<span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> ' : '') +
+        '<span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> ' +
         '<span class="gita-word-iast">(<em>' + esc(iast) + '</em>)</span> ' +
         '<span class="gita-word-gloss">— ' + esc(gloss) + punctuation + '</span>' +
       '</div>';
