@@ -312,6 +312,15 @@ function renderParagraph(value,section){
   const visible=articleText(value);
   if(!visible||/popcultking/i.test(visible))return empty();
   if(section==='index')return indexList(visible);
+  const mixed=mixedSanskrit(value,/^\s*\(?translation\s*:/i.test(String(value??''))?'translation':'paragraph');
+  if(mixed){
+    const first=mixed.firstElementChild;
+    if(first?.matches('p')&&/^\s*[●•]/u.test(first.textContent||'')){
+      first.className='article-bullet';
+      first.textContent=first.textContent.replace(/^\s*[●•]\s*/u,'');
+    }
+    return mixed;
+  }
   if(/^\s*(?:english\s+)?translation\s*:?\s*$/i.test(visible))return reference('English translation');
   if(/^\s*sanskrit\s+text(?:\s+and\s+english\s+translation)?\s*:?\s*$/i.test(visible))return reference(sentenceTitle(visible));
   if(/^\s*shankara[’']s commentary\b/i.test(visible)||/^\s*shankara[’']s commentary\s*\(sanskrit bhashya\)\s*$/i.test(visible))return reference(visible);
@@ -323,8 +332,6 @@ function renderParagraph(value,section){
     return make('h3',null,sentenceTitle(visible));
   }
   if(/^(?:bhagavadgita|laugaksi)\b/i.test(visible)&&visible.length<100)return reference(visible);
-  const mixed=mixedSanskrit(value,/^\s*\(?translation\s*:/i.test(String(value??''))?'translation':'paragraph');
-  if(mixed)return mixed;
   if(/^[“"]/.test(visible)&&visible.length>40)return translation(visible);
   return make('p',null,visible);
 }
