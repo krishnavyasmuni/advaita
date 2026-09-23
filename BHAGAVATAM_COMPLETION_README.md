@@ -96,7 +96,7 @@ The current release ledger has been cleaned to retain only the verified public C
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 220bd3ce0e299de6588d7a4f1f33b958eb5da7ac
+last_audited_data_commit: 505e2f28a318acb7f7a06cd7701e60ed814a9c8d
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -108,13 +108,13 @@ current_contents_link_groups: 1.1–1.8, 2.1–2.10, 3.1–3.33, 10.1–10.90, 1
   - 11.1-11.31
 visible_contents_link_count: 196
 manifest_chapter_count: 335
-latest_verified_release: 12.7
-latest_release_status: SOURCE_CHECKED_AND_RELEASED
+latest_verified_release: "3.19"
+latest_release_status: SOURCE_CHECKED_AND_COMMITTED
 latest_release_source_blob_sha: 53ad115a6e994eb60c70970d521d8d6dd0cc11cc
-latest_release_expected_verses: 23
-latest_release_sridhara_blocks: 10
-latest_release_wfw_entries: 12
-latest_release_no_commentary: 2
+latest_release_expected_verses: 38
+latest_release_sridhara_blocks: 34
+latest_release_wfw_entries: 38
+latest_release_no_commentary: 4
 canto_1_audit_status: COMPLETE
 canto_1_gap_cleanup: 1.2.1, 1.2.3-1.2.5
 canto_2_audit_status: COMPLETE
@@ -158,8 +158,8 @@ canto_12_verified_chapters: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, 12.7, 12.8, 12.9
 canto_12_source_ranges: 507
 canto_12_sridhara_blocks: 441
 canto_12_no_commentary_ranges: 66
-next_resume_target: CANTO_3_PLACEHOLDER_REPAIR
-resume_note: The aggregate audit now leaves 1,658 generated filler rows across 340 records in Canto 3.19–3.33. Canto 3.1–3.18 pass the lexical-pair audit; 3.5.51, 3.6.22 and 3.18.16 remain explicit pinned-source gaps. Continue repairing Canto 3.19–3.33 before releasing Canto 4, 5, or 6.
+next_resume_target: CANTO_3_CHAPTER_20_WFW_REPAIR
+resume_note: Canto 3.19 is source-checked and committed with 38 verse records, 34 exact Śrīdhara blocks, and four explicit no-commentary markers. Continue at Canto 3.20; finish Canto 3.19–3.33 before moving on to Cantos 4, 5, and 6. The remaining aggregate filler count has not been recalculated.
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 
