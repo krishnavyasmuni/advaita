@@ -72,12 +72,12 @@ for(const node of candidates){
   const fragment=document.createDocumentFragment();
   let cursor=0;
   for(const match of matches){
-    const before=text.slice(cursor,match.index).replace(/[“"]\s*$/u,'').trim();
+    const before=text.slice(cursor,match.index).replace(/[“"(\[]\s*$/u,'').trim();
     if(before){const p=document.createElement(node.tagName.toLowerCase());p.className=node.className;p.textContent=before;fragment.append(p)}
     fragment.append(makeDetails(match[0]));
     cursor=match.index+match[0].length;
   }
-  const after=text.slice(cursor).replace(/^\s*[”"]\s*/u,'').trim();
+  const after=text.slice(cursor).replace(/^\s*[”"\)\]]\s*/u,'').trim();
   if(after){const p=document.createElement(node.tagName.toLowerCase());p.className=node.className;p.textContent=after;fragment.append(p)}
   node.replaceWith(fragment);
 }
