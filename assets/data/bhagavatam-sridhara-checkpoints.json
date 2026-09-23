@@ -11292,7 +11292,7 @@
     {
       "id": "canto-3-chapter-21-release",
       "range": "ŚB 3.21.1–3.21.56",
-      "status": "source-checked-and-wfw-repaired",
+      "status": "source-checked-and-live",
       "english_source": "https://vedabase.io/en/library/sb/3/21/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/21_kardama-manU.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -11307,7 +11307,15 @@
         "3.21.49"
       ],
       "source_gap_ranges": [],
-      "live_render": null,
+      "live_render": {
+        "url": "https://krishnavyasmuni.github.io/vivekadrishti/articles/srimad-bhagavatam-canto-03-sridhara-svami/#chapter-21",
+        "displayed_records": 52,
+        "sridhara_records_with_text": 51,
+        "verified_range": "3.21.1–3.21.56",
+        "word_for_word_sample": "3.21.1",
+        "verified_commit": "e41466254b4cb2835145b3e5efd360f63b22420b",
+        "deployment_run": 35900808521
+      },
       "generated_at": "2026-09-23",
       "notes": "The pinned source has 52 Śrīdhara blocks covering verses 3.21.1–56, preserving the grouped ranges 36–37, 38–39, and 52–54. Verse 49 is the sole explicit no-commentary marker; no source gaps remain. This checkpoint audits the Śrīdhara data file; live-render verification remains separate.",
       "repaired_at": "2026-09-23",
@@ -11395,7 +11403,100 @@
       "generated_at": "2026-09-23",
       "notes": "All 39 verses are covered in 38 source ranges (including grouped 3.22.2–3.22.3); 37 Śrīdhara commentary blocks have IAST and independent word-for-word glosses, and only the pinned source’s explicit 3.22.26 no-commentary marker is retained. Live rendering was not independently confirmed.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Replaced false no-commentary/source-gap labels, corrected the pinned source path and verse range, and published the complete source-bound Śrīdhara transliteration, word-for-word pairs, and English renderings."
+      "repair_note": "Compared all 38 verse ranges with the pinned Śrīdhara source, including grouped 3.22.2–3 and explicit no-commentary 3.22.26. Replaced IAST keys with exact source-derived Devanāgarī spans, added complete IAST transliterations, restored 37 English checkpoint entries, consolidated the overlapping duplicate at 3.22.16, added missing phrase glosses at 3.22.16 and 3.22.31, and corrected the tṛn-affix gloss.",
+      "numbered_verses": 39,
+      "sanskrit_source_blocks": [
+        "3.22.1",
+        "3.22.2-3",
+        "3.22.4",
+        "3.22.5",
+        "3.22.6",
+        "3.22.7",
+        "3.22.8",
+        "3.22.9",
+        "3.22.10",
+        "3.22.11",
+        "3.22.12",
+        "3.22.13",
+        "3.22.14",
+        "3.22.15",
+        "3.22.16",
+        "3.22.17",
+        "3.22.18",
+        "3.22.19",
+        "3.22.20",
+        "3.22.21",
+        "3.22.22",
+        "3.22.23",
+        "3.22.24",
+        "3.22.25",
+        "3.22.26",
+        "3.22.27",
+        "3.22.28",
+        "3.22.29",
+        "3.22.30",
+        "3.22.31",
+        "3.22.32",
+        "3.22.33",
+        "3.22.34",
+        "3.22.35",
+        "3.22.36",
+        "3.22.37",
+        "3.22.38",
+        "3.22.39"
+      ],
+      "word_for_word_status": "lexical-pairs-reviewed",
+      "word_for_word_pair_count": 110,
+      "pseudo_word_for_word_pairs_remaining": 0,
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "english_checkpoint_entries_restored": 37,
+      "sandhi_alignment_exceptions": [
+        {
+          "v": 2,
+          "distance": 3,
+          "source": "छन्दो-मयस्य्आत्मनः पर्याप्तिः पालनं वेद-प्रवर्तनं तस्येच्छया"
+        },
+        {
+          "v": 9,
+          "distance": 2,
+          "source": "प्रियव्रतोत्तानपदोः स्वसेति पुत्रिका-करण-शङ्का निरस्ता"
+        },
+        {
+          "v": 19,
+          "distance": 2,
+          "source": "यावद् अपत्योत्पत्तिस् तावद् गार्हस्थ्यं, ततः परं सन्न्यासः\" इति भाषा-बन्धः समयः"
+        },
+        {
+          "v": 19,
+          "distance": 1,
+          "source": "यद् वा, ममात्मनो देहाच् च्युतं तेजो वीर्यं बिभृयाद् इति"
+        },
+        {
+          "v": 19,
+          "distance": 3,
+          "source": "अतः परं पारमहंस्यं ज्ञानं तस्मिन् मुख्यान् शुक्लेन विष्णुना साक्षात् प्रकर्षेणोक्तान् अविहिंस्रान् हिंसा-रहितान् शमादीन्"
+        },
+        {
+          "v": 19,
+          "distance": 1,
+          "source": "बहु यथा भवत्य् एवम् अनुष्ठेयान् मन्ये"
+        },
+        {
+          "v": 20,
+          "distance": 1,
+          "source": "ननु तव पितुः प्रजा-पतेर् आज्ञा सृष्टाव् एव न सन्न्यासे तत्राह---यत इति"
+        },
+        {
+          "v": 20,
+          "distance": 1,
+          "source": "ऋण-त्रयापाकरणानन्तरं सन्न्यास एव मादृशानां भगवतोक्त इत्य् अर्थः"
+        },
+        {
+          "v": 39,
+          "distance": 3,
+          "source": "तस्य यद् अपत्य देवहूतिस् तस्योदयं प्रभावम्"
+        }
+      ]
     },
     {
       "id": "canto-3-chapter-23-release",
