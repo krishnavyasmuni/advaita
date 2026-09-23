@@ -10608,7 +10608,8 @@
       "generated_at": "2026-09-22",
       "notes": "Canto 3.1 source blocks were re-audited against the pinned file. All 43 supplied Śrīdhara blocks now have source-bound phrase glosses and close English translations; 3.1.4 and 3.1.5 are explicit no-commentary records.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Replaced all generated filler in 3.1; restored missing source blocks at 3.1.6–3.1.15, 3.1.22–3.1.24, 3.1.34, 3.1.38 and 3.1.43; preserved exact no-commentary sentinels at 3.1.4 and 3.1.5."
+      "repair_note": "Replaced all generated filler in 3.1; restored missing source blocks at 3.1.6–3.1.15, 3.1.22–3.1.24, 3.1.34, 3.1.38 and 3.1.43; preserved exact no-commentary sentinels at 3.1.4 and 3.1.5.",
+      "word_for_word_status": "lexical-pairs-present"
     },
     {
       "id": "canto-3-chapter-2-release",
@@ -10630,7 +10631,8 @@
       "generated_at": "2026-09-22",
       "notes": "Canto 3.2 was re-audited against the pinned file. All 34 numbered verses have supplied Śrīdhara blocks; generated filler and false no-commentary records were removed.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Restored source blocks previously mislabeled as no commentary at 3.2.5, 3.2.7, 3.2.17, 3.2.22, 3.2.25, 3.2.27, and 3.2.29–3.2.34; all 34 blocks now have source-bound glosses."
+      "repair_note": "Restored source blocks previously mislabeled as no commentary at 3.2.5, 3.2.7, 3.2.17, 3.2.22, 3.2.25, 3.2.27, and 3.2.29–3.2.34; all 34 blocks now have source-bound glosses.",
+      "word_for_word_status": "lexical-pairs-present"
     },
     {
       "id": "canto-3-chapter-3-release",
@@ -10657,7 +10659,8 @@
       "notes": "Canto 3.3 was re-audited against the pinned file. The reader preserves grouped source range 3.3.20–3.3.21; 3.3.25 is the only explicit no-commentary range.",
       "repaired_at": "2026-09-22",
       "repair_note": "Restored missing source blocks at 3.3.6–3.3.7, 3.3.13, 3.3.15, 3.3.17–3.3.18 and 3.3.28; removed all generated filler; preserved grouped 3.3.20–3.3.21.",
-      "numbered_verses": 28
+      "numbered_verses": 28,
+      "word_for_word_status": "lexical-pairs-present"
     },
     {
       "id": "canto-3-chapter-4-release",
@@ -10683,12 +10686,13 @@
       "generated_at": "2026-09-22",
       "notes": "Chapter source and commentary alignment checked against the pinned source; 34 reader records cover 36 numbered verses because 3.4.33–3.4.35 is one grouped commentary record.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Removed 125 filler gloss pairs; restored source-bound Śrīdhara blocks for 3.4.2, 3.4.5, 3.4.7, 3.4.8, 3.4.22, 3.4.23, 3.4.26, and 3.4.36; preserved grouped 3.4.33–3.4.35; kept only the pinned no-commentary marker at 3.4.27."
+      "repair_note": "Removed 125 filler gloss pairs; restored source-bound Śrīdhara blocks for 3.4.2, 3.4.5, 3.4.7, 3.4.8, 3.4.22, 3.4.23, 3.4.26, and 3.4.36; preserved grouped 3.4.33–3.4.35; kept only the pinned no-commentary marker at 3.4.27.",
+      "word_for_word_status": "lexical-pairs-present"
     },
     {
       "id": "canto-3-chapter-5-release",
       "range": "ŚB 3.5.1–3.5.51",
-      "status": "source-checked-with-source-gap",
+      "status": "source-checked-lexical-reaudit-required-with-source-gap",
       "english_source": "https://vedabase.io/en/library/sb/3/5/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/05_sRShTi-krama-varNanam.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10710,16 +10714,18 @@
       "generated_at": "2026-09-22",
       "notes": "The pinned source contains 49 numbered blocks (3.5.1–3.5.36 and 3.5.38–3.5.50); 3.5.37 was restored from a supplementary Śrīdhara witness, and 3.5.51 remains an explicit source gap. This chapter is not marked LIVE_VERIFIED until that gap is resolved.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Replaced all 163 filler gloss pairs; restored false no-commentary labels for 3.5.7–11, 3.5.15, 3.5.18–20, 3.5.22, 3.5.30, 3.5.33, and 3.5.38–39; preserved the two exact no-commentary markers at 3.5.34–35.",
+      "repair_note": "Replaced all 163 filler gloss pairs; restored false no-commentary labels for 3.5.7–11, 3.5.15, 3.5.18–20, 3.5.22, 3.5.30, 3.5.33, and 3.5.38–39; preserved the two exact no-commentary markers at 3.5.34–35. Lexical audit found 3 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 51,
       "supplementary_source_blocks": [
         "3.5.37"
-      ]
+      ],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 3
     },
     {
       "id": "canto-3-chapter-6-release",
       "range": "ŚB 3.6.1–3.6.40",
-      "status": "source-checked-with-source-gap",
+      "status": "source-checked-lexical-reaudit-required-with-source-gap",
       "english_source": "https://vedabase.io/en/library/sb/3/6/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/06_virAD-vigrahotpatti-kathanam.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10742,14 +10748,16 @@
       "generated_at": "2026-09-22",
       "notes": "Source-bound chapter data is structurally complete and filler-free, but not LIVE_VERIFIED: the pinned witness records no Śrīdhara commentary block for 3.6.22.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Replaced the prior 101 filler pairs and false no-commentary labels with 36 exact pinned Śrīdhara blocks, 3 exact no-commentary markers, and one explicit pinned-source gap at 3.6.22.",
+      "repair_note": "Replaced the prior 101 filler pairs and false no-commentary labels with 36 exact pinned Śrīdhara blocks, 3 exact no-commentary markers, and one explicit pinned-source gap at 3.6.22. Lexical audit found 8 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 40,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 8
     },
     {
       "id": "canto-3-chapter-7-release",
       "range": "ŚB 3.7.1–3.7.42",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-lexical-reaudit-required",
       "english_source": "https://vedabase.io/en/library/sb/3/7/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/07_nirguNa-saguNatve.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10768,14 +10776,16 @@
       "generated_at": "2026-09-22",
       "notes": "All 42 numbered records are source-bound and filler-free; 3.7.34 is the only exact no-commentary marker in the pinned witness.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Replaced 131 filler pairs and 15 false no-commentary labels with exact pinned Śrīdhara text and independent literal translations; preserved the true no-commentary record at 3.7.34.",
+      "repair_note": "Replaced 131 filler pairs and 15 false no-commentary labels with exact pinned Śrīdhara text and independent literal translations; preserved the true no-commentary record at 3.7.34. Lexical audit found 41 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 42,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 41
     },
     {
       "id": "canto-3-chapter-8-release",
       "range": "ŚB 3.8.1–3.8.33",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-lexical-reaudit-required",
       "english_source": "https://vedabase.io/en/library/sb/3/8/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/08_brahmotpatti-varNanam.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10792,14 +10802,16 @@
       "generated_at": "2026-09-22",
       "notes": "All 33 numbered records are source-bound and filler-free; the pinned witness supplies Śrīdhara commentary for every verse.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Replaced 79 filler rows and 17 false no-commentary labels with exact pinned Śrīdhara text and independent literal translations.",
+      "repair_note": "Replaced 79 filler rows and 17 false no-commentary labels with exact pinned Śrīdhara text and independent literal translations. Lexical audit found 33 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 33,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 33
     },
     {
       "id": "canto-3-chapter-9-release",
       "range": "ŚB 3.9.1–3.9.44",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-lexical-reaudit-required",
       "english_source": "https://vedabase.io/en/library/sb/3/9/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/09_brahmaNe_vara-pradAnam.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10816,14 +10828,16 @@
       "generated_at": "2026-09-22",
       "notes": "All 44 numbered verses are covered by 43 source-bound records; the pinned grouped source range 3.9.27–3.9.28 is preserved, and 3.9.44 has been restored.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Replaced 134 filler rows and the prior false no-commentary labels, restored the missing 3.9.44 source block, and preserved the source’s grouped 3.9.27–3.9.28 range.",
+      "repair_note": "Replaced 134 filler rows and the prior false no-commentary labels, restored the missing 3.9.44 source block, and preserved the source’s grouped 3.9.27–3.9.28 range. Lexical audit found 43 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 44,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 43
     },
     {
       "id": "canto-3-chapter-10-release",
       "range": "ŚB 3.10.1–3.10.32",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-lexical-reaudit-required",
       "english_source": "https://vedabase.io/en/library/sb/3/10/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/10_dasha-vidha-sRShTi-varNanam.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10842,14 +10856,16 @@
       "generated_at": "2026-09-22",
       "notes": "All 32 numbered verses are covered by 26 source-bound records; grouped ranges 3.10.5–3.10.6, 3.10.22–3.10.25, 3.10.28–3.10.29 and 3.10.31–3.10.32 are preserved. 3.10.30 is the exact no-commentary marker.",
       "repaired_at": "2026-09-22",
-      "repair_note": "Replaced 60 filler rows and false no-commentary labels, restored source ranges 3.10.26–3.10.32, and preserved all pinned grouped ranges.",
+      "repair_note": "Replaced 60 filler rows and false no-commentary labels, restored source ranges 3.10.26–3.10.32, and preserved all pinned grouped ranges. Lexical audit found 25 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 32,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 25
     },
     {
       "id": "canto-3-chapter-11-release",
       "range": "ŚB 3.11.1–3.11.41",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-lexical-reaudit-required",
       "english_source": "https://vedabase.io/en/library/sb/3/11/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/11_Ayur-varNanam.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10868,14 +10884,16 @@
       "generated_at": "2026-09-23",
       "notes": "All 41 numbered verses are covered by 40 source-bound records; the pinned grouped range 3.11.40–3.11.41 is preserved, and 3.11.19 is the exact no-commentary marker.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Replaced 75 filler rows and 15 false no-commentary labels, restored the missing 3.11.40–3.11.41 range, and preserved the source’s grouped range.",
+      "repair_note": "Replaced 75 filler rows and 15 false no-commentary labels, restored the missing 3.11.40–3.11.41 range, and preserved the source’s grouped range. Lexical audit found 39 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 41,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 39
     },
     {
       "id": "canto-3-chapter-12-release",
       "range": "ŚB 3.12.1–3.12.56",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-lexical-reaudit-required",
       "english_source": "https://vedabase.io/en/library/sb/3/12/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/12_vedAdy-utpattiH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10910,14 +10928,16 @@
       "generated_at": "2026-09-23",
       "notes": "All 56 numbered verses are covered by 53 source-bound records; grouped source ranges 3.12.20–3.12.21, 3.12.23–3.12.24, and 3.12.46–3.12.47 are preserved. Explicit no-commentary markers are kept separate from source gaps.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Replaced the incomplete 42-record file, removed all filler glosses and false no-commentary labels, restored source ranges through 3.12.56, and translated every supplied Śrīdhara block.",
+      "repair_note": "Replaced the incomplete 42-record file, removed all filler glosses and false no-commentary labels, restored source ranges through 3.12.56, and translated every supplied Śrīdhara block. Lexical audit found 36 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 56,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 36
     },
     {
       "id": "canto-3-chapter-13-release",
       "range": "ŚB 3.13.1–3.13.50",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-lexical-reaudit-required",
       "english_source": "https://vedabase.io/en/library/sb/3/13/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/13_varAhaH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10937,14 +10957,16 @@
       "generated_at": "2026-09-23",
       "notes": "All 50 numbered verses are covered by 49 source-bound records; the pinned grouped range 3.13.31–3.13.32 is preserved. Explicit no-commentary markers are kept separate from source gaps.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Replaced 110 filler rows across 23 records, corrected the no-commentary ranges, restored the exact source mapping through 3.13.50, and translated every supplied Śrīdhara block.",
+      "repair_note": "Replaced 110 filler rows across 23 records, corrected the no-commentary ranges, restored the exact source mapping through 3.13.50, and translated every supplied Śrīdhara block. Lexical audit found 47 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 50,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 47
     },
     {
       "id": "canto-3-chapter-14-release",
       "range": "ŚB 3.14.1–3.14.51",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-lexical-reaudit-required",
       "english_source": "https://vedabase.io/en/library/sb/3/14/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/14_diti-kashyapa-saMvAdaH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10964,14 +10986,16 @@
       "generated_at": "2026-09-23",
       "notes": "All 51 numbered verses are covered by 50 source-bound records; the pinned grouped range 3.14.8–3.14.9 is preserved. Explicit no-commentary markers are kept separate from source gaps.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Replaced 96 filler rows across 20 records, corrected the no-commentary ranges, preserved the grouped 3.14.8–3.14.9 source range, and translated every supplied Śrīdhara block.",
+      "repair_note": "Replaced 96 filler rows across 20 records, corrected the no-commentary ranges, preserved the grouped 3.14.8–3.14.9 source range, and translated every supplied Śrīdhara block. Lexical audit found 48 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 51,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 48
     },
     {
       "id": "canto-3-chapter-15-release",
       "range": "ŚB 3.15.1–3.15.50",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-lexical-reaudit-required",
       "english_source": "https://vedabase.io/en/library/sb/3/15/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/15_vaikuNTha-dhAma.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10991,9 +11015,11 @@
       "generated_at": "2026-09-23",
       "notes": "All 50 numbered verses are covered by 49 source-bound records; the pinned grouped range 3.15.6–3.15.7 is preserved. Explicit no-commentary markers are kept separate from source gaps.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Replaced 215 filler rows across 43 records, corrected the no-commentary ranges, preserved the grouped 3.15.6–3.15.7 source range, and translated every supplied Śrīdhara block.",
+      "repair_note": "Replaced 215 filler rows across 43 records, corrected the no-commentary ranges, preserved the grouped 3.15.6–3.15.7 source range, and translated every supplied Śrīdhara block. Lexical audit found 47 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
       "numbered_verses": 50,
-      "supplementary_source_blocks": []
+      "supplementary_source_blocks": [],
+      "word_for_word_status": "pseudo-pairs-present",
+      "pseudo_word_for_word_pairs_remaining": 47
     },
     {
       "id": "canto-3-chapter-16-release",
@@ -11024,7 +11050,7 @@
       "repair_note": "Replaced 129 filler rows across 27 records, corrected the no-commentary ranges, preserved both grouped source ranges, and replaced every supplied commentary-wide pseudo-pair with reviewed IAST lexical pairs.",
       "numbered_verses": 37,
       "supplementary_source_blocks": [],
-      "word_for_word_status": "lexical-pairs-reviewed"
+      "word_for_word_status": "lexical-pairs-present"
     },
     {
       "id": "canto-3-chapter-17-release",
@@ -11070,7 +11096,7 @@
       "repair_note": "Replaced 34 filler rows across 7 records, corrected the no-commentary ranges, restored the exact source mapping, and replaced every supplied commentary-wide pseudo-pair with reviewed IAST lexical pairs.",
       "numbered_verses": 31,
       "supplementary_source_blocks": [],
-      "word_for_word_status": "lexical-pairs-reviewed"
+      "word_for_word_status": "lexical-pairs-present"
     },
     {
       "id": "canto-3-chapter-18-release",
