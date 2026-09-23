@@ -96,7 +96,7 @@ The current release ledger has been cleaned to retain only the verified public C
 ~~~yaml
 repository: krishnavyasmuni/vivekadrishti
 branch: main
-last_audited_data_commit: 678b4f0e58df61bd1204e289c01c50deebe5f568
+last_audited_data_commit: 6bb885cd3ef288ff00c20829ad3d1f62b4176802
 contents_file: pages/bhagavatam-with-sridhara-bhasya/index.html
 reader_manifest: assets/data/bhagavatam-sridhara-reader-manifest.json
 manifest_blob_sha: ea31b3c412df39343653569463f48adfb8ed2db0
@@ -127,11 +127,11 @@ canto_3_source_blocks: 860
 canto_3_no_commentary_records: 420
 canto_3_repaired_chapters: 3.1–3.18 (3.5, 3.6 and 3.18 retain explicit pinned-source gaps)
 canto_3_source_checked_with_gap: 3.5 (pinned Śrīdhara source gap at 3.5.51; supplementary block used for 3.5.37); 3.6 (pinned Śrīdhara source gap at 3.6.22); 3.18 (empty pinned Śrīdhara block at 3.18.16)
-canto_3_placeholder_wfw_rows_remaining: 1658
-canto_3_literal_placeholder_records_remaining: 340
+canto_3_placeholder_wfw_rows_remaining: 905
+canto_3_literal_placeholder_records_remaining: 187
 canto_3_pseudo_word_for_word_pairs_remaining: 0
-canto_3_lexical_reaudit_chapters: none for 3.1–3.17
-canto_3_lexical_audit_status: PASSED_FOR_3.1–3.18; FILLER_REPAIR_REMAINS
+canto_3_lexical_reaudit_chapters: required for source-to-phrase QA across existing chapters
+canto_3_lexical_audit_status: FAILED — 905 filler WFW rows and 187 missing commentary translations remain in 3.26–3.33; earlier phrase/source QA still required
 canto_4_audit_status: FAILED_PLACEHOLDER_GLOSSES
 canto_4_cached_records: 1104
 canto_4_placeholder_wfw_rows: 3216
@@ -158,8 +158,8 @@ canto_12_verified_chapters: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, 12.7, 12.8, 12.9
 canto_12_source_ranges: 507
 canto_12_sridhara_blocks: 441
 canto_12_no_commentary_ranges: 66
-next_resume_target: CANTO_3_CHAPTER_22_WFW_REPAIR
-resume_note: Canto 3.20 is now source-checked and live-verified: 53 numbered verses, 51 exact Śrīdhara blocks, 196 complete word-for-word phrase pairs, preserved grouped range 3.20.2–3.20.4, and zero placeholders. Canto 3.21 is already live; Canto 3.22 is the next canonical incomplete chapter. Preserve all existing content and links; aggregate Canto 3/Canto 4 filler counts have not been recalculated.
+next_resume_target: CANTO_3_CHAPTER_22_LIVE_VERIFY_AND_RELEASE
+resume_note: Whole-Canto-3 audit is underway. Mechanical IAST and no-commentary sentinel normalization was applied across all 33 chapter data files. Canto 3.22 is source/WFW complete but awaits live verification; 3.26–3.33 still contain 905 filler pairs and 187 missing full commentary translations. Next action: verify and release 3.22, then finish 3.26 in canonical order. No source Sanskrit or existing chapter content was deleted.
 release_rule: "A visible link is not proof that the chapter is complete."
 ~~~
 

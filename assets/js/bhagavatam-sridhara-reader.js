@@ -581,7 +581,7 @@
       const englishUrl = chapterEnglishUrl(manifest, config, chapter);
       const sridharaUrl = chapterSridharaUrl(manifest, config, chapter);
       const commentaryUrlValue = commentaryUrl(manifest);
-      const checkpointUrl = '/vivekadrishti/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260923-c322-2';
+      const checkpointUrl = '/vivekadrishti/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260923-c3-audit-1';
       const requests = [fetchText(englishUrl)];
       if (sridharaUrl) {
         requests.push(config.sridhara_mode === 'local-cached' ? fetchJson(sridharaUrl) : fetchText(sridharaUrl));
