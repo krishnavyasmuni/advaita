@@ -282,7 +282,7 @@
         start: Number(entry.start),
         end: Number(entry.end),
         pairs: entry.word_for_word
-          .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1])
+          .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1] && !/contextual literal sense of|generic filler|translation pending/i.test(String(pair[1])))
           .map((pair) => [String(pair[0]), String(pair[1])])
       }));
   }
