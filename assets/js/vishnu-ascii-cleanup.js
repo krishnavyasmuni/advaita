@@ -25,7 +25,14 @@ const toAscii=value=>String(value??'')
   .replace(/[œ]/gi,'oe')
   .replace(/\bKrshna\b/gi,'Krishna')
   .replace(/\bRgveda\b/gi,'Rigveda')
-  .replace(/\bDrshti\b/gi,'Drishti');
+  .replace(/\bDrshti\b/gi,'Drishti')
+  .replace(/\bcontinued\s+on\s+(?:the\s+)?source\s+PDF\s+page\s+\d+\b/gi,'')
+  .replace(/\bsource\s+PDF\s+page\s+\d+\b/gi,'')
+  .replace(/\bPDF\s+page\s+\d+\b/gi,'')
+  .replace(/\bsource\s+PDF\b/gi,'')
+  .replace(/\bsource\s+document\b/gi,'article')
+  .replace(/\b([A-Z]{2,})\b/g,match=>match.toLowerCase())
+  .replace(/\s{2,}/g,' ');
 
 const isSanskritNode=node=>{
   const element=node.nodeType===Node.ELEMENT_NODE?node:node.parentElement;
