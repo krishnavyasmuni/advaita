@@ -10997,43 +10997,33 @@
     },
     {
       "id": "canto-3-chapter-16-release",
-      "range": "ŚB 3.16.1–3.16.35",
+      "range": "ŚB 3.16.1–3.16.37",
       "status": "source-checked-and-repaired",
       "english_source": "https://vedabase.io/en/library/sb/3/16/advanced-view/",
-      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/16.md",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/16_jaya-vijayayoH_patanam.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "4f03604900936a17d2800fc159373eb86f7e2c75",
-      "source_path": "bhAgavatam/gauDIya-prastutiH/03/16.md",
+      "source_path": "bhAgavatam/gauDIya-prastutiH/03/16_jaya-vijayayoH_patanam.md",
       "reader_data_files": [
         "assets/data/bhagavatam-sridhara-wfw-canto3-ch16-verses01-35.json"
       ],
       "records_checked": 35,
-      "exact_sridhara_source_blocks": 27,
+      "exact_sridhara_source_blocks": 30,
       "no_commentary_ranges": [
-        "3.16.1",
-        "3.16.2",
+        "3.16.2–3.16.3",
         "3.16.4",
-        "3.16.5",
-        "3.16.18",
-        "3.16.30",
-        "3.16.34",
-        "3.16.36"
+        "3.16.12",
+        "3.16.32",
+        "3.16.34"
       ],
-      "source_gap_ranges": [
-        "3.16.1",
-        "3.16.2",
-        "3.16.4",
-        "3.16.5",
-        "3.16.18",
-        "3.16.30",
-        "3.16.34",
-        "3.16.36"
-      ],
+      "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Added source-specific Śrīdhara word-for-word pairs for commentary-bearing source blocks; exact no-commentary markers preserved."
+      "generated_at": "2026-09-23",
+      "notes": "All 37 numbered verses are covered by 35 source-bound records; grouped ranges 3.16.2–3.16.3 and 3.16.27–3.16.28 are preserved. Explicit no-commentary markers are kept separate from source gaps.",
+      "repaired_at": "2026-09-23",
+      "repair_note": "Replaced 129 filler rows across 27 records, corrected the no-commentary ranges, preserved both grouped source ranges, and translated every supplied Śrīdhara block.",
+      "numbered_verses": 37,
+      "supplementary_source_blocks": []
     },
     {
       "id": "canto-3-chapter-17-release",
