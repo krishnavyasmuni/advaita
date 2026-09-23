@@ -952,7 +952,7 @@
       // Remove translator/editor bracket notes so the visible English stays
       // limited to the verse translation itself.
       .replace(/\[[^\]]*\]/g, '')
-      .replace(/\\([^)]*\\)/g, '')
+      .replace(/\([^)]*\)/g, '')
       .replace(/\s+/g, ' ')
       .replace(/\s+([,.;!?])/g, '$1')
       .replace(/,\s*,/g, ',')
