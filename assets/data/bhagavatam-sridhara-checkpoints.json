@@ -10966,7 +10966,7 @@
     {
       "id": "canto-3-chapter-14-release",
       "range": "ŚB 3.14.1–3.14.51",
-      "status": "source-checked-lexical-reaudit-required",
+      "status": "source-checked-and-wfw-repaired",
       "english_source": "https://vedabase.io/en/library/sb/3/14/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/14_diti-kashyapa-saMvAdaH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
@@ -10986,11 +10986,11 @@
       "generated_at": "2026-09-23",
       "notes": "All 51 numbered verses are covered by 50 source-bound records; the pinned grouped range 3.14.8–3.14.9 is preserved. Explicit no-commentary markers are kept separate from source gaps.",
       "repaired_at": "2026-09-23",
-      "repair_note": "Replaced 96 filler rows across 20 records, corrected the no-commentary ranges, preserved the grouped 3.14.8–3.14.9 source range, and translated every supplied Śrīdhara block. Lexical audit found 48 commentary-wide pseudo-pairs: the source mapping is retained, but the chapter is not complete until these are replaced by IAST lexical pairs.",
+      "repair_note": "Replaced all 48 commentary-wide pseudo-pairs with independent IAST phrase-level word-for-word glosses; retained exact pinned Sanskrit, 50 source-bound records, grouped 3.14.8–3.14.9, and explicit no-commentary 3.14.4 and 3.14.14.",
       "numbered_verses": 51,
       "supplementary_source_blocks": [],
-      "word_for_word_status": "pseudo-pairs-present",
-      "pseudo_word_for_word_pairs_remaining": 48
+      "word_for_word_status": "lexical-pairs-reviewed",
+      "pseudo_word_for_word_pairs_remaining": 0
     },
     {
       "id": "canto-3-chapter-15-release",
