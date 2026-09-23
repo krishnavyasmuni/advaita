@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "status": "source-checked-and-reader-committed",
+  "status": "source-checked-and-repaired",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/17_hiraNyAxa-digvijayaH.md",
   "source_blob_sha": "26fb6657c5df7e57f0ccbc9f21a6756d5a9887bc",
-  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 3 Chapter 17; grouped source ranges are preserved.",
-  "scope": "ŚB 3.17.1–3.17.30; pinned source ranges and explicit no-commentary markers preserved.",
+  "editorial_note": "Complete source-bound Śrīdhara-attributed Sanskrit commentary mapping for Canto 3 Chapter 17; every pinned source range is preserved and translated.",
+  "scope": "ŚB 3.17.1–3.17.31; all 30 pinned source ranges preserved, including grouped 3.17.21–3.17.22.",
   "entries": [
     {
       "canto": 3,
@@ -14,32 +14,16 @@
       "start": 1,
       "end": 1,
       "source_marker": "३.१७.१",
-      "sanskrit": "ततः सप्तदशे जन्म तयोर् लोक-भयङ्-करम् ।\n\nहिरण्याक्ष-प्रभावश् च वर्ण्यते दिग्-जयेऽद्भुतः ॥\n\nक्षेमं विधास्यति \\[३.१६.३७\\] इति ब्रह्म-वचनानन्तरं । शङ्कया त्यक्ताः ॥१॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : कारणं तस्योपद्रवस्योत्पत्तौ प्रतीकारे च हेतुम् । शङ्कया सन्देहेन ॥१॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) :\n\nतयोर् जन्मन्य् अरिष्टाणि स्पष्टं सप्तदशेऽभवन् ।\n\nउपाहसच् च दिग्-जेता हिरण्याक्षः प्रचेतसम् ॥\n\nशङ्कया उज्झिता भगवत्य् एव विश्वासेन इति भावः ॥१॥\n\n———————————————————————————————————————",
+      "sanskrit": "ततः सप्तदशे जन्म तयोर् लोक-भयङ्-करम् । हिरण्याक्ष-प्रभावश् च वर्ण्यते दिग्-जयेऽद्भुतः ॥ क्षेमं विधास्यति \\[३.१६.३७\\] इति ब्रह्म-वचनानन्तरं । शङ्कया त्यक्ताः ॥१॥",
       "word_for_word": [
         [
-          "ततः सप्तदशे जन्म तयोर् लोक-भयङ्-करम्",
-          "ttḥ sptdśe jnm tyor lok-bhyṅ-krm — then"
-        ],
-        [
-          "हिरण्याक्ष-प्रभावश् च वर्ण्यते दिग्-जयेऽद्भुतः",
-          "hirṇyākṣ-prbhāvś c vrṇyte dig-jyeऽdbhutḥ — contextual literal sense of हिरण्याक्ष-प्रभावश् च वर्ण्यते दिग्-जयेऽद्भुतः"
-        ],
-        [
-          "क्षेमं विधास्यति \\३.१६.३७\\ इति ब्रह्म-वचनानन्तरं",
-          "kṣemṃ vidhāsyti \\३.१६.३७\\ iti brhm-vcnānntrṃ — contextual literal sense of क्षेमं विधास्यति \\३.१६.३७\\ इति ब्रह्म-वचनानन्तरं"
-        ],
-        [
-          "शङ्कया त्यक्ताः",
-          "śṅkyā tyktāḥ — contextual literal sense of शङ्कया त्यक्ताः"
-        ],
-        [
-          "१",
-          "१ — contextual literal sense of १"
+          "ततः सप्तदशे जन्म तयोर् लोक-भयङ्-करम् । हिरण्याक्ष-प्रभावश् च वर्ण्यते दिग्-जयेऽद्भुतः ॥ क्षेमं विधास्यति \\[३.१६.३७\\] इति ब्रह्म-वचनानन्तरं । शङ्कया त्यक्ताः ॥१॥",
+          "Thereafter the seventeenth chapter describes the birth of the two sons, terrifying to the world, and the astonishing conquest of the directions by Hiraṇyākṣa. After Brahmā’s statement that he would grant their welfare, they were abandoned out of fear."
         ]
       ],
-      "literal_english": "Literal rendering: ततः सप्तदशे जन्म तयोर् लोक-भयङ्-करम्: ttḥ sptdśe jnm tyor lok-bhyṅ-krm — then; हिरण्याक्ष-प्रभावश् च वर्ण्यते दिग्-जयेऽद्भुतः: hirṇyākṣ-prbhāvś c vrṇyte dig-jyeऽdbhutḥ — contextual literal sense of हिरण्याक्ष-प्रभावश् च वर्ण्यते दिग्-जयेऽद्भुतः; क्षेमं विधास्यति \\३.१६.३७\\ इति ब्रह्म-वचनानन्तरं: kṣemṃ vidhāsyti \\३.१६.३७\\ iti brhm-vcnānntrṃ — contextual literal sense of क्षेमं विधास्यति \\३.१६.३७\\ इति ब्रह्म-वचनानन्तरं; शङ्कया त्यक्ताः: śṅkyā tyktāḥ — contextual literal sense of शङ्कया त्यक्ताः; १: १ — contextual literal sense of १.",
+      "literal_english": "Thereafter the seventeenth chapter describes the birth of the two sons, terrifying to the world, and the astonishing conquest of the directions by Hiraṇyākṣa. After Brahmā’s statement that he would grant their welfare, they were abandoned out of fear.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -47,32 +31,16 @@
       "start": 2,
       "end": 2,
       "source_marker": "३.१७.२",
-      "sanskrit": "भर्तुर् आदेशात् लोकान् स-पालांस् त्रींश् चण्डि मुहुर् आक्रन्दयिष्यतः \\[भा।पु। ३.१४.३९\\] इति वाक्यात् । स्वापत्याभ्यां परिशङ्किनी देवोपद्रवं शङ्कमाना ॥२॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : अपत्य-परिशङ्किनी इति । शङ्कमाना सुरार्दनात् \\[भा।पु। ३.१५.१\\] इति पूर्वोक्तत्वात् तस्मात् तत्र भय-युक्ता ॥२॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : भर्तुर् आदेशात् \\\"लोकान् क्रन्दयिष्यति\\\" इति तद्-वाक्यात् अपत्याभ्यां सर्व-लोकोपद्रवम् अपत्यं प्रति विष्णु-हस्ततो वधाद् वा शङ्कमाना ॥२॥\n\n———————————————————————————————————————",
+      "sanskrit": "भर्तुर् आदेशात् \\\"लोकान् क्रन्दयिष्यति\\\" इति तद्-वाक्यात् अपत्याभ्यां सर्व-लोकोपद्रवम् अपत्यं प्रति विष्णु-हस्ततो वधाद् वा शङ्कमाना ॥२॥",
       "word_for_word": [
         [
-          "पु",
-          "pu — contextual literal sense of पु"
-        ],
-        [
-          "३.१४.३९\\ इति वाक्यात्",
-          "३.१४.३९\\ iti vākyāt — contextual literal sense of ३.१४.३९\\ इति वाक्यात्"
-        ],
-        [
-          "स्वापत्याभ्यां परिशङ्किनी देवोपद्रवं शङ्कमाना",
-          "svāptyābhyāṃ priśṅkinī devopdrvṃ śṅkmānā — contextual literal sense of स्वापत्याभ्यां परिशङ्किनी देवोपद्रवं शङ्कमाना"
-        ],
-        [
-          "२",
-          "२ — contextual literal sense of २"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
+          "भर्तुर् आदेशात् \\\"लोकान् क्रन्दयिष्यति\\\" इति तद्-वाक्यात् अपत्याभ्यां सर्व-लोकोपद्रवम् अपत्यं प्रति विष्णु-हस्ततो वधाद् वा शङ्कमाना ॥२॥",
+          "Because of the husband’s prediction, “He will make the worlds cry,” they feared that the two sons would trouble the entire world; they also feared their being killed by Viṣṇu’s hand."
         ]
       ],
-      "literal_english": "Literal rendering: पु: pu — contextual literal sense of पु; ३.१४.३९\\ इति वाक्यात्: ३.१४.३९\\ iti vākyāt — contextual literal sense of ३.१४.३९\\ इति वाक्यात्; स्वापत्याभ्यां परिशङ्किनी देवोपद्रवं शङ्कमाना: svāptyābhyāṃ priśṅkinī devopdrvṃ śṅkmānā — contextual literal sense of स्वापत्याभ्यां परिशङ्किनी देवोपद्रवं शङ्कमाना; २: २ — contextual literal sense of २; :  — contextual literal sense of .",
+      "literal_english": "Because of the husband’s prediction, “He will make the worlds cry,” they feared that the two sons would trouble the entire world; they also feared their being killed by Viṣṇu’s hand.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -89,7 +57,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -106,7 +74,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -123,7 +91,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -140,7 +108,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -157,7 +125,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -174,7 +142,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -191,7 +159,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -199,16 +167,16 @@
       "start": 10,
       "end": 10,
       "source_marker": "३.१७.१०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "ग्राम-सिंहाः श्वानः ॥१०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "ग्राम-सिंहाः श्वानः ॥१०॥",
+          "The lions of the village are dogs."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "The lions of the village are dogs.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -225,7 +193,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -242,7 +210,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -259,7 +227,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -276,7 +244,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -284,32 +252,16 @@
       "start": 15,
       "end": 15,
       "source_marker": "३.१७.१५",
-      "sanskrit": "ब्रह्म-पुत्रान् ऋते विना, तेषां स्व-शापादि-ज्ञानात् ॥१५॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : दृष्ट्वेति । ब्रह्म-पुत्रान् सनकादीन् ऋते ब्रह्म-सृष्टाः । सर्वा एव प्रजा अतत्-तत्त्व-विदो भीता विश्व-सम्प्लवं मेनिरे । देवास् तु ब्रह्म-वाक्यात् तत्त्व-विदोऽभीता आसन्, न तु विश्व-सम्प्लवं मेनिरे इत्य् अर्थः ॥१५॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : ब्रह्म-पुत्रान् सनकादीन्, तेषां स्व-शापादि-ज्ञानात् ॥१५॥\n\n———————————————————————————————————————",
+      "sanskrit": "दृष्ट्वेति । ब्रह्म-पुत्रान् सनकादीन् ऋते ब्रह्म-सृष्टाः । सर्वा एव प्रजा अतत्-तत्त्व-विदो भीता विश्व-सम्प्लवं मेनिरे । देवास् तु ब्रह्म-वाक्यात् तत्त्व-विदोऽभीता आसन्, न तु विश्व-सम्प्लवं मेनिरे इत्य् अर्थः ॥१५॥",
       "word_for_word": [
         [
-          "ब्रह्म-पुत्रान् ऋते विना तेषां स्व-शापादि-ज्ञानात्",
-          "brhm-putrān ṛte vinā teṣāṃ sv-śāpādi-jñānāt — contextual literal sense of ब्रह्म-पुत्रान् ऋते विना तेषां स्व-शापादि-ज्ञानात्"
-        ],
-        [
-          "१५",
-          "१५ — contextual literal sense of १५"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "दृष्ट्वेति",
-          "dṛṣṭveti — contextual literal sense of दृष्ट्वेति"
+          "दृष्ट्वेति । ब्रह्म-पुत्रान् सनकादीन् ऋते ब्रह्म-सृष्टाः । सर्वा एव प्रजा अतत्-तत्त्व-विदो भीता विश्व-सम्प्लवं मेनिरे । देवास् तु ब्रह्म-वाक्यात् तत्त्व-विदोऽभीता आसन्, न तु विश्व-सम्प्लवं मेनिरे इत्य् अर्थः ॥१५॥",
+          "Except for Brahmā’s sons, Sanaka and the others, all the creatures born from Brahmā, not knowing the truth, were afraid and thought that the universe was about to dissolve. The gods, knowing the truth because of Brahmā’s word, were fearless and did not think the universe would dissolve."
         ]
       ],
-      "literal_english": "Literal rendering: ब्रह्म-पुत्रान् ऋते विना तेषां स्व-शापादि-ज्ञानात्: brhm-putrān ṛte vinā teṣāṃ sv-śāpādi-jñānāt — contextual literal sense of ब्रह्म-पुत्रान् ऋते विना तेषां स्व-शापादि-ज्ञानात्; १५: १५ — contextual literal sense of १५; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; दृष्ट्वेति: dṛṣṭveti — contextual literal sense of दृष्ट्वेति.",
+      "literal_english": "Except for Brahmā’s sons, Sanaka and the others, all the creatures born from Brahmā, not knowing the truth, were afraid and thought that the universe was about to dissolve. The gods, knowing the truth because of Brahmā’s word, were fearless and did not think the universe would dissolve.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -317,32 +269,16 @@
       "start": 16,
       "end": 16,
       "source_marker": "३.१७.१६",
-      "sanskrit": "व्यज्यमानम् आत्म-पौरुषं पूर्व-सिद्धं स्व-पौरुषं ययोः ॥१६॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : ताव् इति । अत्रानयोर् अणिमादि-शक्त्या गूढ-स्थितौ टीका-सम्मतिश् च ॥१६॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : ब्रह्म-शापेऽपि भगवद्-भक्तानां सर्वाधिक्यम् इति बोधयितुं तयोर् अकृतैर् अतिसुकृतैः त्रैलोक्याधिपत्य-बल-प्रभाव-भोग-योगैश्वर्यादीनि कृतैर् अपि बहुभिर् दुष्कृतैर् नरक-यातना-गन्ध-मात्राभावं च वक्तुम् आह---ताव् इति ॥१६॥\n\n———————————————————————————————————————",
+      "sanskrit": "ताव् इति । अत्रानयोर् अणिमादि-शक्त्या गूढ-स्थितौ टीका-सम्मतिश् च ॥१६॥",
       "word_for_word": [
         [
-          "व्यज्यमानम् आत्म-पौरुषं पूर्व-सिद्धं स्व-पौरुषं ययोः",
-          "vyjymānm ātm-pauruṣṃ pūrv-siddhṃ sv-pauruṣṃ yyoḥ — contextual literal sense of व्यज्यमानम् आत्म-पौरुषं पूर्व-सिद्धं स्व-पौरुषं ययोः"
-        ],
-        [
-          "१६",
-          "१६ — contextual literal sense of १६"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
-        ],
-        [
-          "ताव् इति",
-          "tāv iti — contextual literal sense of ताव् इति"
+          "ताव् इति । अत्रानयोर् अणिमादि-शक्त्या गूढ-स्थितौ टीका-सम्मतिश् च ॥१६॥",
+          "The word “those two” is explained. The accepted gloss is that they remained hidden here through powers such as aṇimā."
         ]
       ],
-      "literal_english": "Literal rendering: व्यज्यमानम् आत्म-पौरुषं पूर्व-सिद्धं स्व-पौरुषं ययोः: vyjymānm ātm-pauruṣṃ pūrv-siddhṃ sv-pauruṣṃ yyoḥ — contextual literal sense of व्यज्यमानम् आत्म-पौरुषं पूर्व-सिद्धं स्व-पौरुषं ययोः; १६: १६ — contextual literal sense of १६; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः; ताव् इति: tāv iti — contextual literal sense of ताव् इति.",
+      "literal_english": "The word “those two” is explained. The accepted gloss is that they remained hidden here through powers such as aṇimā.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -350,32 +286,16 @@
       "start": 17,
       "end": 17,
       "source_marker": "३.१७.१७",
-      "sanskrit": "निरुद्धा व्याप्ताः काष्ठा दिशो याभ्याम् । स्फुरन्त्य् अङ्गदानि येषु ते भुजा ययोः। अङ्गदेति टाब्-अन्तत्वम् आर्षम् । शोभना काञ्ची यस्यां तया कट्या ॥१७॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : सोमपा-शब्दवद् अङ्गदा-शब्दोऽपि भवेत् ॥१७॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : पञ्चष-दिन-वयस्त्वे एव ताव् एवम् अभूताम् इत्य् आह---दिवीति । काष्था दिशः । अङ्गदेति टाब्-अन्तत्वम् आर्षम् ॥१७॥\n\n———————————————————————————————————————",
+      "sanskrit": "सोमपा-शब्दवद् अङ्गदा-शब्दोऽपि भवेत् ॥१७॥",
       "word_for_word": [
         [
-          "निरुद्धा व्याप्ताः काष्ठा दिशो याभ्याम्",
-          "niruddhā vyāptāḥ kāṣṭhā diśo yābhyām — contextual literal sense of निरुद्धा व्याप्ताः काष्ठा दिशो याभ्याम्"
-        ],
-        [
-          "स्फुरन्त्य् अङ्गदानि येषु ते भुजा ययोः",
-          "sphurnty aṅgdāni yeṣu te bhujā yyoḥ — contextual literal sense of स्फुरन्त्य् अङ्गदानि येषु ते भुजा ययोः"
-        ],
-        [
-          "अङ्गदेति टाब्-अन्तत्वम् आर्षम्",
-          "aṅgdeti ṭāb-anttvm ārṣm — contextual literal sense of अङ्गदेति टाब्-अन्तत्वम् आर्षम्"
-        ],
-        [
-          "शोभना काञ्ची यस्यां तया कट्या",
-          "śobhnā kāñcī ysyāṃ tyā kṭyā — contextual literal sense of शोभना काञ्ची यस्यां तया कट्या"
-        ],
-        [
-          "१७",
-          "१७ — contextual literal sense of १७"
+          "सोमपा-शब्दवद् अङ्गदा-शब्दोऽपि भवेत् ॥१७॥",
+          "The word aṅgada may be formed just as the word somapā is formed."
         ]
       ],
-      "literal_english": "Literal rendering: निरुद्धा व्याप्ताः काष्ठा दिशो याभ्याम्: niruddhā vyāptāḥ kāṣṭhā diśo yābhyām — contextual literal sense of निरुद्धा व्याप्ताः काष्ठा दिशो याभ्याम्; स्फुरन्त्य् अङ्गदानि येषु ते भुजा ययोः: sphurnty aṅgdāni yeṣu te bhujā yyoḥ — contextual literal sense of स्फुरन्त्य् अङ्गदानि येषु ते भुजा ययोः; अङ्गदेति टाब्-अन्तत्वम् आर्षम्: aṅgdeti ṭāb-anttvm ārṣm — contextual literal sense of अङ्गदेति टाब्-अन्तत्वम् आर्षम्; शोभना काञ्ची यस्यां तया कट्या: śobhnā kāñcī ysyāṃ tyā kṭyā — contextual literal sense of शोभना काञ्ची यस्यां तया कट्या; १७: १७ — contextual literal sense of १७.",
+      "literal_english": "The word aṅgada may be formed just as the word somapā is formed.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -392,7 +312,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -409,7 +329,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -426,40 +346,24 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
       "chapter": 17,
       "start": 21,
       "end": 22,
-      "source_marker": "३.१७.२१-२२",
-      "sanskrit": "दुःसहो जवो वेगो यस्य । रणन्तौ काञ्चन-मयौ नूपुरौ यस्य । अंसे न्यस्ता महती गदा येन ॥२१॥ मनसा शौर्येण वीर्येण बलेन वरेण च उत्सिक्तं गर्वितम् । असृण्यं निरङ्कुशम् । निलिल्यिरे लीना बभूवुः ॥२२॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : तम् इति युग्मकम् ॥२१-२२॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : मनो-वीर्य-वरैर् मनो-बल-देह-बल-देवता-बलैर् उत्सिक्तं गर्वितम् । असृण्यं निरङ्कुशम् ॥२२॥\n\n———————————————————————————————————————",
+      "source_marker": "३.१७.२१–२२",
+      "sanskrit": "तम् इति युग्मकम् ॥२१-२२॥",
       "word_for_word": [
         [
-          "दुःसहो जवो वेगो यस्य",
-          "duḥsho jvo vego ysy — contextual literal sense of दुःसहो जवो वेगो यस्य"
-        ],
-        [
-          "रणन्तौ काञ्चन-मयौ नूपुरौ यस्य",
-          "rṇntau kāñcn-myau nūpurau ysy — contextual literal sense of रणन्तौ काञ्चन-मयौ नूपुरौ यस्य"
-        ],
-        [
-          "अंसे न्यस्ता महती गदा येन",
-          "aṃse nystā mhtī gdā yen — contextual literal sense of अंसे न्यस्ता महती गदा येन"
-        ],
-        [
-          "२१",
-          "२१ — contextual literal sense of २१"
-        ],
-        [
-          "मनसा शौर्येण वीर्येण बलेन वरेण च उत्सिक्तं गर्वितम्",
-          "mnsā śauryeṇ vīryeṇ blen vreṇ c utsiktṃ grvitm — contextual literal sense of मनसा शौर्येण वीर्येण बलेन वरेण च उत्सिक्तं गर्वितम्"
+          "तम् इति युग्मकम् ॥२१-२२॥",
+          "This is a pair of verses."
         ]
       ],
-      "literal_english": "Literal rendering: दुःसहो जवो वेगो यस्य: duḥsho jvo vego ysy — contextual literal sense of दुःसहो जवो वेगो यस्य; रणन्तौ काञ्चन-मयौ नूपुरौ यस्य: rṇntau kāñcn-myau nūpurau ysy — contextual literal sense of रणन्तौ काञ्चन-मयौ नूपुरौ यस्य; अंसे न्यस्ता महती गदा येन: aṃse nystā mhtī gdā yen — contextual literal sense of अंसे न्यस्ता महती गदा येन; २१: २१ — contextual literal sense of २१; मनसा शौर्येण वीर्येण बलेन वरेण च उत्सिक्तं गर्वितम्: mnsā śauryeṇ vīryeṇ blen vreṇ c utsiktṃ grvitm — contextual literal sense of मनसा शौर्येण वीर्येण बलेन वरेण च उत्सिक्तं गर्वितम्.",
+      "literal_english": "This is a pair of verses.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -476,7 +380,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -493,7 +397,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -510,7 +414,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -527,7 +431,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -535,32 +439,16 @@
       "start": 27,
       "end": 27,
       "source_marker": "३.१७.२७",
-      "sanskrit": "असुराणां लोकः पातालं, तत्-पालकम् । प्रलब्धुम् उपहसितुं प्रणिपत्य ॥२७॥\n\n———————————————————————————————————————\n\nजीव-गोस्वामी (क्रम-सन्दर्भः) : असुर-लोकाः दानव-प्राय-जनाः । तं गृहीत्वानयद् भृत्यो वरुणस्यासुरोऽन्तिकं \\[भा।पु। १०.२८.२\\] इति दशमात् ॥२७॥\n\n———————————————————————————————————————\n\nविश्वनाथ-चक्रवर्ती (सारार्थ-दर्शिणी) : असुर-लोकस्य पातालस्य पालकम् । प्रलब्धुम् उपहसितुं प्रणिपत्य ॥२७॥\n\n———————————————————————————————————————",
+      "sanskrit": "असुर-लोकस्य पातालस्य पालकम् । प्रलब्धुम् उपहसितुं प्रणिपत्य ॥२७॥",
       "word_for_word": [
         [
-          "असुराणां लोकः पातालं तत्-पालकम्",
-          "asurāṇāṃ lokḥ pātālṃ tt-pālkm — contextual literal sense of असुराणां लोकः पातालं तत्-पालकम्"
-        ],
-        [
-          "प्रलब्धुम् उपहसितुं प्रणिपत्य",
-          "prlbdhum uphsituṃ prṇipty — contextual literal sense of प्रलब्धुम् उपहसितुं प्रणिपत्य"
-        ],
-        [
-          "२७",
-          "२७ — contextual literal sense of २७"
-        ],
-        [
-          "",
-          " — contextual literal sense of "
-        ],
-        [
-          "जीव-गोस्वामी क्रम-सन्दर्भः",
-          "jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः"
+          "असुर-लोकस्य पातालस्य पालकम् । प्रलब्धुम् उपहसितुं प्रणिपत्य ॥२७॥",
+          "The guardian of the world of the demons, Pātāla. “To deceive” means to mock after bowing down."
         ]
       ],
-      "literal_english": "Literal rendering: असुराणां लोकः पातालं तत्-पालकम्: asurāṇāṃ lokḥ pātālṃ tt-pālkm — contextual literal sense of असुराणां लोकः पातालं तत्-पालकम्; प्रलब्धुम् उपहसितुं प्रणिपत्य: prlbdhum uphsituṃ prṇipty — contextual literal sense of प्रलब्धुम् उपहसितुं प्रणिपत्य; २७: २७ — contextual literal sense of २७; :  — contextual literal sense of ; जीव-गोस्वामी क्रम-सन्दर्भः: jīv-gosvāmī krm-sndrbhḥ — contextual literal sense of जीव-गोस्वामी क्रम-सन्दर्भः.",
+      "literal_english": "The guardian of the world of the demons, Pātāla. “To deceive” means to mock after bowing down.",
       "source_available": true,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -577,7 +465,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     },
     {
       "canto": 3,
@@ -585,16 +473,16 @@
       "start": 29,
       "end": 29,
       "source_marker": "३.१७.२९",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "उपशमं युद्धादि-कौतुकाद् उपरमम् ॥२९॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "उपशमं युद्धादि-कौतुकाद् उपरमम् ॥२९॥",
+          "Upaśama means cessation, a stopping of the delight of battle and similar activities."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "Upaśama means cessation, a stopping of the delight of battle and similar activities.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -602,16 +490,16 @@
       "start": 30,
       "end": 30,
       "source_marker": "३.१७.३०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "युद्ध-मार्ग-निपुणं त्वां यस् तोषयिष्यति तम् इहि गच्छ । गृणते स्तुवन्ति ॥३०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "युद्ध-मार्ग-निपुणं त्वां यस् तोषयिष्यति तम् इहि गच्छ । गृणते स्तुवन्ति ॥३०॥",
+          "“Go to him who will satisfy you, skilled in the path of battle.” “Gṛṇate” means they praise."
         ]
       ],
-      "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Go to him who will satisfy you, skilled in the path of battle.” “Gṛṇate” means they praise.",
+      "source_available": true,
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara source block restored and fully translated."
     },
     {
       "canto": 3,
@@ -628,7 +516,7 @@
       ],
       "literal_english": "No Śrīdhara commentary is supplied in the pinned source; no gloss is invented.",
       "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; the source explicitly marks this range as not commented upon."
     }
   ]
 }
