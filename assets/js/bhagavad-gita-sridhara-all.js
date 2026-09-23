@@ -42,7 +42,7 @@
     return '<div class="gita-word-list">' + pairs.map((pair, index) => {
       const term = Array.isArray(pair) ? String(pair[0] || '').trim() : '';
       const gloss = Array.isArray(pair) ? String(pair[1] || '').trim() : '';
-      const termIsDevanagari = /[\\u0900-\\u097F]/u.test(term);
+      const termIsDevanagari = /[\u0900-\u097F]/u.test(term);
       const devanagari = termIsDevanagari ? term : '';
       const iast = termIsDevanagari ? devaToIast(term) : term;
       const punctuation = index === pairs.length - 1 ? '.' : ';';
@@ -77,7 +77,7 @@
 
   const enhanceVerse = (article) => {
     if (!chapterData || !article || article.dataset.sridharaToolsAll === '1') return;
-    const match = article.id && article.id.match(new RegExp('^gita-' + chapter + '-(\\\\d+)$'));
+    const match = article.id && article.id.match(new RegExp('^gita-' + chapter + '-(\\d+)$'));
     if (!match) return;
     const verse = Number(match[1]);
     const verseData = chapterData.verses && chapterData.verses[String(verse)];
@@ -105,7 +105,7 @@
     if (englishNode && capitalizedCommentary !== existingCommentary) englishNode.textContent = capitalizedCommentary;
 
     const sridRaw = sridTextNode ? cleanSrid(sridTextNode.textContent) : '';
-    const noCommentary = !sridRaw || /^no commentary\\.?$/i.test(sridRaw);
+    const noCommentary = !sridRaw || /^no commentary\.?$/i.test(sridRaw);
     if (englishNode) {
       if (noCommentary) {
         englishNode.textContent = 'No commentary.';
