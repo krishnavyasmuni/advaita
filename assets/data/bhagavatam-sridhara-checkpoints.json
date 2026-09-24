@@ -13224,6 +13224,28 @@
       "word_for_word_records": 41,
       "word_for_word_verse_coverage": 42,
       "word_for_word_pairs": 291
+    },
+    {
+      "id": "canto-2-chapter-6-release",
+      "range": "ŚB 2.6.1–2.6.46",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/6/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/6/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/06_virATsvarUpam.md",
+      "source_blob_sha": "8a7846b129aa7510cbf69679b413568e238af1ab",
+      "records_checked": 46,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/06_virATsvarUpam.md; each WFW row cites blob 8a7846b129aa7510cbf69679b413568e238af1ab.",
+      "findings": [
+        "The 43 word-for-word records cover all 46 numbered verses; the source-grouped passage 2.6.13–16 is preserved.",
+        "Source spellings that appear damaged are identified in row notes and not silently reconstructed."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch06-reviewed.json?v=20260924-c2-ch06-wfw-1"
+      ],
+      "word_for_word_records": 43,
+      "word_for_word_verse_coverage": 46,
+      "word_for_word_pairs": 322
     }
   ],
   "generated_at": "2026-09-23"
