@@ -12657,6 +12657,26 @@
       "word_for_word_records": 20,
       "word_for_word_verse_coverage": 23,
       "word_for_word_pairs": 255
+    },
+    {
+      "id": "canto-1-chapter-2-release",
+      "range": "ŚB 1.2.1–1.2.34",
+      "status": "source-checked-and-wfw-repaired",
+      "reference_url": "https://vedabase.io/en/library/sb/1/2/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/02_mAhAtmyam.md",
+      "source_blob_sha": "af17b058cc2a5c8444d81b2e457c44ea76e0a2a7",
+      "records_checked": 34,
+      "findings": [
+        "The reviewed Śrīdhara word-for-word ranges cover all 34 displayed verses with no overlap or empty gloss records.",
+        "The reader filters the shared reviewed dataset to Canto 1, Chapter 2 before rendering."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-reviewed.json?v=20260924-c1-ch01-wfw-1"
+      ],
+      "word_for_word_records": 33,
+      "word_for_word_verse_coverage": 34,
+      "word_for_word_pairs": 292
     }
   ],
   "generated_at": "2026-09-23"
