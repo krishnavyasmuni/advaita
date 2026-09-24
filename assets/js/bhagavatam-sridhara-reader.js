@@ -275,16 +275,25 @@
       }));
   }
 
-  function parseLocalWordForWord(data) {
-    return Object.values(data && data.entries ? data.entries : {})
-      .filter((entry) => entry && Array.isArray(entry.word_for_word))
-      .map((entry) => ({
-        start: Number(entry.start),
-        end: Number(entry.end),
-        pairs: entry.word_for_word
-          .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1] && !/contextual literal sense of|generic filler|translation pending/i.test(String(pair[1])))
-          .map((pair) => [String(pair[0]), String(pair[1])])
-      }));
+  function parseLocalWordForWord(data, targetCanto, targetChapter) {
+    const sourceEntries = Array.isArray(data && data.entries)
+      ? data.entries
+      : Object.values(data && data.entries ? data.entries : {});
+    return sourceEntries
+      .filter((entry) => entry &&
+        (entry.canto == null || Number(entry.canto) === targetCanto) &&
+        (entry.chapter == null || Number(entry.chapter) === targetChapter) &&
+        (Array.isArray(entry.word_for_word) || Array.isArray(entry.pairs)))
+      .map((entry) => {
+        const sourcePairs = Array.isArray(entry.word_for_word) ? entry.word_for_word : entry.pairs;
+        return {
+          start: Number(entry.start),
+          end: Number(entry.end),
+          pairs: sourcePairs
+            .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1] && !/contextual literal sense of|generic filler|translation pending/i.test(String(pair[1])))
+            .map((pair) => [String(pair[0]), String(pair[1])])
+        };
+      });
   }
 
   function wordForWordForRange(entries, start, end) {
@@ -581,7 +590,7 @@
       const englishUrl = chapterEnglishUrl(manifest, config, chapter);
       const sridharaUrl = chapterSridharaUrl(manifest, config, chapter);
       const commentaryUrlValue = commentaryUrl(manifest);
-      const checkpointUrl = '/advaita/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260923-c3-audit-1';
+      const checkpointUrl = '/advaita/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260924-c1-ch01-wfw-1';
       const requests = [fetchText(englishUrl)];
       if (sridharaUrl) {
         requests.push(config.sridhara_mode === 'local-cached' ? fetchJson(sridharaUrl) : fetchText(sridharaUrl));
@@ -603,7 +612,7 @@
       const wfwResults = await Promise.all(wfwPaths.map((path) =>
         fetchJson(path.charAt(0) === '/' ? path : '/advaita/' + path)
       ));
-      const wordForWordEntries = wfwResults.flatMap(parseLocalWordForWord);
+      const wordForWordEntries = wfwResults.flatMap((data) => parseLocalWordForWord(data, canto, chapter));
       const sridharaEntries = sridharaUrl
         ? (config.sridhara_mode === 'local-cached'
           ? parseLocalSridhara(sridharaResult)
