@@ -88,3 +88,5 @@ Book 1, Chapter 18 is now complete: 43/43 contiguous verse articles have a main-
 ## Completion rule
 
 A chapter is complete only after source reconciliation, full verse-by-verse semantic review, functional controls, an atomic remote commit, and successful post-commit read-back. Keep the full-corpus goal open until all 6,400 verses and every supplied Śrīdhara passage meet that standard.
+
+Chapter 18 wording refinement: the 1.18.33 lexical rows now separate `hṛdi āste` (“abides in the heart”) from `hariḥ īśvaraḥ` (“Hari, the Lord”), and 1.18.38 reads `na pāvakam cintayāmi` as “I do not regard them as evil.”

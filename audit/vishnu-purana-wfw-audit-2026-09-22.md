@@ -68,3 +68,6 @@ A direct current-branch audit finds 761/1,407 Book 1 verses with an explicit mai
 - Corrected 1.18.3 from `प्रविज्ञातम् (pravijñātam)` to source-backed `अविज्ञातम् (avijñātam)`; the pinned mūla and numbered witness agree.
 - Source witness: `vishvAsa/purANam_vaiShNavam` content commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`; mūla `viShNu-purANam/viShNu-chitta-TIkA/mUlam_me/01/18.md`, blob `4247989218affbd077c77bf960a0b09e3295da1d`; numbered witness `viShNu-purANam/goraxapura-pAThaH/hindy-anuvAdaH/01/18.md`, blob `8777450e4dba39b5e270b7d3d32cdef8de92f5bd`.
 - Book 1 status after this release: 804/1,407 main-text maps complete; 603 remain.
+
+
+Chapter 18 lexical refinement after read-back: 1.18.33 now separates `hṛdi āste` from `hariḥ īśvaraḥ`; 1.18.38's contextual phrase gloss is clarified as `I do not regard them as evil`.
