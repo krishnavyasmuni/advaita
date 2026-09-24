@@ -96,16 +96,16 @@ Chapter 18 wording refinement: the 1.18.33 lexical rows now separate `hṛdi ās
 
 The owner requested completion of the word-for-word layer in Viṣṇu Purāṇa Books 1 and 2 and a reader-style pass based on Bhagavad Gītā Chapter 9. The Chapter 9 fonts and exact 12px pill controls (4px × 10px padding) are linked from all 22 Book 1 and 16 Book 2 chapter pages.
 
-A fresh structural audit of the focused branch finds a main-text WFW panel marker on 818/1,407 Book 1 verses and 710/787 Book 2 verses. The Chapter 21, Chapter 20, and Chapter 19 releases added 14, 39, and 86 main-text panels, respectively. A visible marker alone does not certify a correct lexical map; semantic coverage remains open for the other chapters.
+After the Chapter 16 release, Book 1 has a main-text WFW panel marker on 959/1,407 verses; Book 2 remains at 710/787. Chapters 21, 20, 19, and 16 added 14, 39, 86, and 16 completed panels, respectively. A visible marker alone does not certify a correct lexical map; semantic coverage remains open for the other chapters.
 
 | Book | Verse articles | Main-text panel markers | No marker |
 |---|---:|---:|---:|
-| 1 | 1,407 | 943 | 464 |
+| 1 | 1,407 | 959 | 448 |
 | 2 | 787 | 710 | 77 |
 
 Outstanding panel gaps by chapter:
 
-- Book 1: Chapters 11 (57), 12 (95), 13 (94), 14 (48), 15 (154), and 16 (16); total 464.
+- Book 1: Chapters 11 (57), 12 (95), 13 (94), 14 (48), and 15 (154); total 448.
 - Book 2: Chapters 1 (8), 4 (5), 7 (2), 8 (32), and 13 (30); total 77.
 
 ### Book 1, Chapter 21 release
@@ -132,3 +132,12 @@ Outstanding panel gaps by chapter:
 - Book 1 panel status after this release: 943/1,407; 464 remain. The outstanding Book 1 marker gaps are Chapters 11–16 listed above; Book 2 remains at 710/787 with 77 gaps.
 
 Books 1 and 2 remain in progress. Panel counts for the other chapters are structural only and do not certify lexical completeness.
+
+
+### Book 1, Chapter 16 release
+
+- All 16 verse articles now have reviewed, paired Devanāgarī/IAST lexical rows, for 201 word-for-word mappings; all translations and main transliteration panels were checked against the displayed Sanskrit.
+- Replaced the four Śrīdhara-only/contextual controls with a main-text lexical layer while retaining their Śrīdhara content; added main lexical panels to the other 12 verses.
+- Corrected source-backed Sanskrit readings and cleaned incomplete translations, including the mūla/witness readings at 1.16.1–.4, .6–.8, .10, .12–.16. The source note records variants at .8, .10, .12, and .15 with exact source blobs.
+- Book 1 panel status is now 959/1,407, with 448 marker gaps remaining in Chapters 11–15. Book 2 remains at 710/787 with 77 marker gaps.
+- No placeholder or empty word-for-word panel remains in Chapter 16; existing Śrīdhara material is preserved.

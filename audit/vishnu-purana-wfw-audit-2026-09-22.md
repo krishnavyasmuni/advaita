@@ -125,3 +125,12 @@ These counts identify panel presence only. Other chapters still require verse-by
 - Book 1 focused panel markers now total 943/1,407; 464 remain. Book 2 remains 710/787 with 77 remaining. These are panel-presence counts and do not certify chapters whose existing panels have not been semantically reviewed.
 
 Book 1–2 semantic completion remains open. The panel gaps above and the other present-but-unreviewed panels must still be checked chapter by chapter.
+
+
+## User-directed Books 1–2 focus — Chapter 16 release — 2026-09-24
+
+Book 1 Chapter 16 is complete and read back on `main`. The 16 contiguous verse articles now each contain a source-checked Sanskrit text, full English translation, Chapter 9-style paired Devanāgarī/IAST word-for-word rows, and a matching IAST control. The chapter has 201 lexical rows and no placeholder panels. Existing Śrīdhara contextual material was retained.
+
+The Sanskrit note pins the mūla text, numbered witness, Śrīdhara Sanskrit and commentary, and English cross-check at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`. Material choices include mūla `dantabhāgaiḥ ... nipīḍitaḥ` at 1.16.8 against the numbered/Śrīdhara `dantabhūmim ... nirūpitaḥ`; mūla `ghoraṃ` at .10 against witness `aho`; witness-supported `kaḥ samarthaḥ` at .12; and mūla `vipakṣe cāpi` at .15 against witness `vipakṣā api`. The page records the remaining source-supported corrections.
+
+Current focused structural panel status: Book 1 959/1,407 (448 without a panel marker); Book 2 710/787 (77 without a marker). Book 1’s remaining marker gaps are Chapters 11–15: 57, 95, 94, 48, and 154 verses, respectively. Book 2’s remaining gaps are Chapters 1, 4, 7, 8, and 13: 8, 5, 2, 32, and 30 verses. Existing panels outside the reviewed chapters still need semantic audit.
