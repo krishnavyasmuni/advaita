@@ -13022,6 +13022,29 @@
       "word_for_word_records": 49,
       "word_for_word_verse_coverage": 51,
       "word_for_word_pairs": 311
+    },
+    {
+      "id": "canto-1-chapter-16-release",
+      "range": "ŚB 1.16.1–1.16.36",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/1/16/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/1/16/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/16_parIxito_rAjya-lAbhaH.md",
+      "source_blob_sha": "056b4053b63a8a308287502fc0d1637ff7aa09c4",
+      "records_checked": 36,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/01/16_parIxito_rAjya-lAbhaH.md; every reviewed word-for-word record cites that exact source blob.",
+      "findings": [
+        "The 32 reviewed Śrīdhara word-for-word records cover all 36 displayed verses with 198 non-empty phrase glosses.",
+        "All records use the pinned Sanskrit source file and blob 056b4053b63a8a308287502fc0d1637ff7aa09c4.",
+        "The reader filters the shared reviewed dataset to Canto 1, Chapter 16 before rendering."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-reviewed.json?v=20260924-c1-ch01-wfw-1"
+      ],
+      "word_for_word_records": 32,
+      "word_for_word_verse_coverage": 36,
+      "word_for_word_pairs": 198
     }
   ],
   "generated_at": "2026-09-23"
