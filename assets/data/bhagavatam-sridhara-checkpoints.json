@@ -13136,6 +13136,28 @@
       "word_for_word_records": 37,
       "word_for_word_verse_coverage": 39,
       "word_for_word_pairs": 313
+    },
+    {
+      "id": "canto-2-chapter-2-release",
+      "range": "ŚB 2.2.1–2.2.37",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/2/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/2/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/02_yogimuktiH.md",
+      "source_blob_sha": "fd26bdfee024a853fe97c747e02611e4e0e345d7",
+      "records_checked": 37,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/02_yogimuktiH.md; each WFW row cites blob fd26bdfee024a853fe97c747e02611e4e0e345d7.",
+      "findings": [
+        "All 37 word-for-word records cover the 37 numbered verses and were checked against the pinned Śrīdhara sections.",
+        "Visible source typos and spacing defects are documented in the affected rows; damaged readings are not silently guessed."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch02-reviewed.json?v=20260924-c2-ch02-wfw-1"
+      ],
+      "word_for_word_records": 37,
+      "word_for_word_verse_coverage": 37,
+      "word_for_word_pairs": 322
     }
   ],
   "generated_at": "2026-09-23"
