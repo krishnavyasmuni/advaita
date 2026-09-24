@@ -77,6 +77,14 @@ These are the 2026-09-22 full-corpus audit totals with the verified 6.8 release 
 
 Chapter 6.8's disputed readings were checked against the Vasuki mūla and numbered Vishvas witness, Śrīdhara text, fixed Wikisource revision, and GRETIL. Verse 6.8.15 now reads **पुंसां (puṃsām)** in agreement with the numbered and Śrīdhara witnesses; the mūla file's differing **पुंसा (puṃsā)** is disclosed in its source note. Its 832 main and 113 Śrīdhara phrase-gloss rows were checked for Sanskrit/IAST pairing. The main and Śrīdhara transliteration panels were cross-checked against their displayed Devanāgarī. The word-for-word layer is a lexical map, not copied running prose.
 
+
+
+## User-directed Book 1 completion pass — 2026-09-24
+
+A direct verse-level re-audit separates a main-text lexical map from a visible control, a pending message, or a Śrīdhara-only panel. Before this pass, 761 of Book 1's 1,407 verses had an explicit main-text lexical section; 646 still needed one. This corrects the earlier control-presence count of 1,198, which included 182 pending panels and other controls without a main-text lexical section.
+
+Book 1, Chapter 18 is now complete: 43/43 contiguous verse articles have a main-text word-for-word section in the Chapter 9 reader layout, with existing Śrīdhara material retained. The Devanāgarī and IAST for 1.18.3 were corrected to **अविज्ञातम् (avijñātam)** after the pinned Vasuki mūla text and numbered witness agreed on that reading. Chapter 18's 43 maps raise the Book 1 count to 804/1,407; 603 remain. The 1.18.3 witness check used upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`, mūla blob `4247989218affbd077c77bf960a0b09e3295da1d`, and numbered-witness blob `8777450e4dba39b5e270b7d3d32cdef8de92f5bd`.
+
 ## Completion rule
 
 A chapter is complete only after source reconciliation, full verse-by-verse semantic review, functional controls, an atomic remote commit, and successful post-commit read-back. Keep the full-corpus goal open until all 6,400 verses and every supplied Śrīdhara passage meet that standard.
