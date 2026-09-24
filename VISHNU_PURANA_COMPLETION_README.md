@@ -94,13 +94,26 @@ Chapter 18 wording refinement: the 1.18.33 lexical rows now separate `hṛdi ās
 
 ## User-directed Books 1–2 focus — 2026-09-24
 
-The owner requested completion of the word-for-word layer in Viṣṇu Purāṇa Books 1 and 2 and a reader-style pass based on Bhagavad Gītā Chapter 9. The Chapter 9 font set and exact 12px pill controls (4px × 10px padding) are linked from all 22 Book 1 and 16 Book 2 chapter pages.
+The owner requested completion of the word-for-word layer in Viṣṇu Purāṇa Books 1 and 2 and a reader-style pass based on Bhagavad Gītā Chapter 9. The Chapter 9 fonts and exact 12px pill controls (4px × 10px padding) are linked from all 22 Book 1 and 16 Book 2 chapter pages.
 
-A fresh structural re-audit of the live branch found a main-text panel marker on 804/1,407 Book 1 verses and 710/787 Book 2 verses. That is a panel-presence count only: some existing panels contain Śrīdhara prose, running translation, or other material instead of a correct lexical map. Do not treat these counts as semantically complete. The chapter pages must be checked verse by verse before a chapter is marked complete.
+A fresh structural audit of the focused branch finds a main-text WFW panel marker on 818/1,407 Book 1 verses and 710/787 Book 2 verses. The Chapter 21 release below added 14 markers. A visible marker alone does not certify a correct lexical map; semantic coverage remains open for the other chapters.
+
+| Book | Verse articles | Main-text panel markers | No marker |
+|---|---:|---:|---:|
+| 1 | 1,407 | 818 | 589 |
+| 2 | 787 | 710 | 77 |
 
 Outstanding panel gaps by chapter:
 
-- Book 1: Chapters 11 (57), 12 (95), 13 (94), 14 (48), 15 (154), 16 (16), 19 (86), 20 (39), and 21 (14); total 603.
+- Book 1: Chapters 11 (57), 12 (95), 13 (94), 14 (48), 15 (154), 16 (16), 19 (86), and 20 (39); total 589.
 - Book 2: Chapters 1 (8), 4 (5), 7 (2), 8 (32), and 13 (30); total 77.
 
-The Book 1–2 pages already have the Chapter 9 reader styles; content completion and semantic validation remain open.
+### Book 1, Chapter 21 release
+
+- 41/41 contiguous articles have a reviewed main-text lexical map, with 476 paired Devanāgarī/IAST mapping rows.
+- Main transliteration panels were checked against displayed Sanskrit; every lexical row has a matching Devanāgarī form, IAST, and concise gloss.
+- All Word-for-word controls use the Chapter 9 paired-row layout. No pending messages or empty maps remain in the chapter.
+- The source note pins the Vasuki mūla, numbered witness, Śrīdhara source, and English cross-check to their blob SHAs and upstream commit. It records the reading choices at 1.21.1–.40, including witness-supported corrections and retained mūla readings.
+- The release adds the 14 previously missing main-text panels in verses 1–14; the 27 existing maps in verses 15–41 were checked and rebuilt as paired lexical rows.
+
+Books 1 and 2 remain in progress. Panel counts for the other chapters are structural only and do not certify lexical completeness.

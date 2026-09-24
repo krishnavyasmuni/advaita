@@ -73,18 +73,18 @@ A direct current-branch audit finds 761/1,407 Book 1 verses with an explicit mai
 Chapter 18 lexical refinement after read-back: 1.18.33 now separates `hṛdi āste` from `hariḥ īśvaraḥ`; 1.18.38's contextual phrase gloss is clarified as `I do not regard them as evil`.
 
 
-## User-directed Books 1–2 re-audit — 2026-09-24
+## User-directed Books 1–2 re-audit and Chapter 21 release — 2026-09-24
 
-Live branch audited: `bc818b0a9e597588ec1e34cc72472cf4aac47d5a`.
+Pre-release branch audited: `e53270cb5ef7bb4eafc65a3898fdb49683b7ec54`.
 
-The Chapter 9 font set and exact pill-control stylesheet are linked from all 38 Book 1–2 pages. Structural panel-presence counts:
+The Chapter 9 fonts and exact pill-control stylesheet are linked from all 38 Book 1–2 pages. Current focused panel-presence counts after the Chapter 21 release:
 
 | Book | Verse articles | Main-text panel marker | No main-text panel marker |
 |---|---:|---:|---:|
-| 1 | 1,407 | 804 | 603 |
+| 1 | 1,407 | 818 | 589 |
 | 2 | 787 | 710 | 77 |
 
-These counts do not certify lexical accuracy. Some panels marked as main-text WFW contain commentary prose or running translation; semantic verification is still required.
+These counts identify panel presence only. Other chapters still require verse-by-verse semantic review; some existing panels may contain commentary or running translation instead of lexical mappings.
 
 | Book | Chapter | Verses without a main-text panel |
 |---|---:|---:|
@@ -96,11 +96,18 @@ These counts do not certify lexical accuracy. Some panels marked as main-text WF
 | 1 | 16 | 16 |
 | 1 | 19 | 86 |
 | 1 | 20 | 39 |
-| 1 | 21 | 14 |
 | 2 | 1 | 8 |
 | 2 | 4 | 5 |
 | 2 | 7 | 2 |
 | 2 | 8 | 32 |
 | 2 | 13 | 30 |
 
-The prior 2026-09-22 totals above remain historical control-presence audit data and are not replaced. The focused Book 1–2 pass uses the stricter main-text panel count and still requires verse-by-verse semantic review.
+### Book 1, Chapter 21
+
+- 41/41 contiguous verse articles have a main-text lexical map in paired Devanāgarī/IAST rows: 476 mappings, each with a concise gloss.
+- Main-text IAST was checked against the displayed Sanskrit; all word-row pairs were checked for script/transliteration agreement. All 41 Word-for-word controls are present, with no pending messages or empty lists.
+- The previously missing panels for 1.21.1–14 are complete. Existing main-text maps for 1.21.15–41 were reviewed and rebuilt in Sanskrit order. Commentary and no-commentary controls were retained.
+- Sources pinned at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`: mūla `viShNu-purANam/viShNu-chitta-TIkA/mUlam_me/01/21.md` (blob `18c1791300db9d2cdcd2b542fb99e997f723a168`); numbered witness `viShNu-purANam/goraxapura-pAThaH/hindy-anuvAdaH/01/21.md` (blob `dea16ef42693026bc6c28a96a4271c7aa4f13caa`); Śrīdhara `viShNu-purANam/shrIdhara-viShNu-chittau/1/21_prahlAda-vaMsha-kathanam.md` (blob `f3306d685d30f0223e97f5e1e03e751e4600e6ae`); English cross-check `viShNu-purANam/viShNu-chitta-TIkA/en/01/21.md` (blob `5dc0209c0e5cb46981bd50e4542800a49ad4ddf4`).
+- The page note records these textual decisions: 1.21.1 uses witness `saṃhlāda-putra` against mūla `prahlāda-putra`; 1.21.2, .3, .5, .7, and .11 retain selected mūla readings; 1.21.9 and .12 correct apparent mūla transcription errors with witness support; 1.21.13 retains mūla `vivardhana`; 1.21.15 adopts witness `sattva`; 1.21.24 adopts witness `vallī/tṛṇa`; 1.21.29 retains `putratve` against `pitṛtve`; 1.21.35 adopts `taṃ`; and 1.21.40 adopts `cakre` while retaining mūla `adri`.
+
+Book 1–2 semantic completion remains open. The panel gaps above and the other present-but-unreviewed panels must still be checked chapter by chapter.
