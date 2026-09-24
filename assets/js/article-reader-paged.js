@@ -105,7 +105,7 @@ const el=(tag,cls,value)=>{
   return n;
 };
 const bar=el('header','sitebar'),brand=el('a',null,'Viveka Dṛṣṭi');
-brand.href='/vivekadrishti/';bar.append(brand);
+brand.href='/advaita/';bar.append(brand);
 const main=el('main','page'),header=el('header','article-head');
 header.append(el('h1',null,title));
 const grid=el('div','reader-grid'),side=el('aside','side-toc'),sideNav=el('nav','toc');

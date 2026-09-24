@@ -20,14 +20,14 @@ const ensureNavigation=()=>{
     const nav=document.createElement('nav');
     nav.className='purana-page-nav';
     nav.setAttribute('aria-label','Scripture navigation');
-    nav.innerHTML='<a class="purana-back-button" href="/vivekadrishti/articles/scripture/">← Back to Scripture Index</a><a class="purana-home-link" href="/vivekadrishti/">Home</a>';
+    nav.innerHTML='<a class="purana-back-button" href="/advaita/articles/scripture/">← Back to Scripture Index</a><a class="purana-home-link" href="/advaita/">Home</a>';
     document.body.insertBefore(nav,document.body.firstElementChild);
   }
   if(!document.querySelector('body > .purana-return-nav')){
     const nav=document.createElement('nav');
     nav.className='purana-return-nav';
     nav.setAttribute('aria-label','Return to Scripture Index');
-    nav.innerHTML='<a href="/vivekadrishti/articles/scripture/">← Back to Scripture Index</a>';
+    nav.innerHTML='<a href="/advaita/articles/scripture/">← Back to Scripture Index</a>';
     document.body.appendChild(nav);
   }
 };
@@ -35,7 +35,7 @@ ensureNavigation();
 const data=window.UPAPURANA_RESEARCH_39||{};
 const slug=String(location.pathname).replace(/\/$/,'').split('/').pop();
 const d=Object.values(data).find(x=>x.slug===slug);
-if(!d){host.innerHTML='<p class="article-error">No Upapurāṇa research dossier was found for this route. <a href="/vivekadrishti/articles/scripture/">Return to the Scripture Index</a>.</p>';return;}
+if(!d){host.innerHTML='<p class="article-error">No Upapurāṇa research dossier was found for this route. <a href="/advaita/articles/scripture/">Return to the Scripture Index</a>.</p>';return;}
 document.title=String(d.name)+' — Upapurāṇa Research | Viveka Dṛṣṭi';
 
 const references=arr(d.references).filter(r=>itemText(r).trim());

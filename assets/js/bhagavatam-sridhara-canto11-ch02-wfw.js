@@ -9,7 +9,7 @@
     'bhagavatam-sridhara-wfw-canto11-ch02-verses22-31.json',
     'bhagavatam-sridhara-wfw-canto11-ch02-verses32-34.json'
   ];
-  const data = Promise.all(names.map(name => fetch('/vivekadrishti/assets/data/' + name + '?v=20260916-4', {cache: 'no-cache'})
+  const data = Promise.all(names.map(name => fetch('/advaita/assets/data/' + name + '?v=20260916-4', {cache: 'no-cache'})
     .then(response => {if (!response.ok) throw Error('Śrīdhara 11.2 source HTTP ' + response.status); return response.json();})
     .then(doc => doc.source_commit === '100560de6c9f68c2875097d40a2012a84c784179' && Array.isArray(doc.entries) ? doc.entries : [])
     .catch(error => {console.warn('Śrīdhara 11.2 commentary checkpoint unavailable: ' + name, error); return [];})))

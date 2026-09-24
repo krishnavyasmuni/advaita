@@ -754,7 +754,7 @@
 
   const GITA_DATA_COMMIT = '27d92fe5e3decde8bda747a1bfbb3ff4d6f67aeb';
   const GITA_DATA_BASE = 'https://raw.githubusercontent.com/gita/gita-frontend-v2/' + GITA_DATA_COMMIT + '/data/';
-  const VASUKI_MANIFEST_URL = '/vivekadrishti/assets/data/bhagavad-gita-vasuki-manifest.json?v=20260922-content-audit-1';
+  const VASUKI_MANIFEST_URL = '/advaita/assets/data/bhagavad-gita-vasuki-manifest.json?v=20260922-content-audit-1';
 
   const fetchJson = (url) => fetch(url).then((response) => {
     if (!response.ok) throw new Error('Could not load ' + url);
@@ -1099,7 +1099,7 @@
 
   const renderChapter = (data, meanings, sourceMode) => {
     root.innerHTML = '<header class="gita-hero"><p class="eyebrow">Śrīmad Bhagavad Gītā</p><h1>Chapter ' + chapter + '</h1><p class="subtitle">' + names[chapter - 1] + '</p><div class="gita-rule" aria-hidden="true"></div></header>' +
-      '<nav class="gita-chapter-nav" aria-label="Chapter navigation"><a class="gita-nav-all" href="/vivekadrishti/pages/bhagavad-gita/">All chapters</a>' + (chapter > 1 ? '<a class="gita-nav-prev" href="/vivekadrishti/articles/bhagavad-gita-chapter-' + (chapter - 1) + '/">← Previous</a>' : '') + (chapter < 18 ? '<a class="gita-nav-next" href="/vivekadrishti/articles/bhagavad-gita-chapter-' + (chapter + 1) + '/">Next chapter →</a>' : '') + '</nav>' +
+      '<nav class="gita-chapter-nav" aria-label="Chapter navigation"><a class="gita-nav-all" href="/advaita/pages/bhagavad-gita/">All chapters</a>' + (chapter > 1 ? '<a class="gita-nav-prev" href="/advaita/articles/bhagavad-gita-chapter-' + (chapter - 1) + '/">← Previous</a>' : '') + (chapter < 18 ? '<a class="gita-nav-next" href="/advaita/articles/bhagavad-gita-chapter-' + (chapter + 1) + '/">Next chapter →</a>' : '') + '</nav>' +
       '<div class="gita-contents"><h2>Contents</h2><ol>' + data.map((d) => '<li><a href="#gita-' + chapter + '-' + d.verse + '">Verse ' + d.verse + '</a></li>').join('') + '</ol></div>' +
       data.map((d) => makeVerse(d, meanings, sourceMode)).join('');
   };

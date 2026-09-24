@@ -2,7 +2,7 @@
   if(!window.__UPANISHAD_MAHAPURANA_TEMPLATE_REQUESTED__){
     window.__UPANISHAD_MAHAPURANA_TEMPLATE_REQUESTED__=true;
     const finalReader=document.createElement('script');
-    finalReader.src='/vivekadrishti/assets/js/upanishads/current/mahapurana-template-live.js?build=20260827-1045';
+    finalReader.src='/advaita/assets/js/upanishads/current/mahapurana-template-live.js?build=20260827-1045';
     finalReader.async=false;
     document.head.appendChild(finalReader);
   }

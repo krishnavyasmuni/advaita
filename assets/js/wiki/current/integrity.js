@@ -193,7 +193,7 @@
     const link=document.createElement('link');
     link.id='vishnu-purana-varna-skin';
     link.rel='stylesheet';
-    link.href='/vivekadrishti/assets/css/puranas/current/vishnu-purana.css?build=20260826-1030';
+    link.href='/advaita/assets/css/puranas/current/vishnu-purana.css?build=20260826-1030';
     document.head.append(link);
   }
 

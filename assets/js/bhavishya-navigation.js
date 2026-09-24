@@ -1,5 +1,5 @@
 (()=>{
-  const root='/vivekadrishti/';
+  const root='/advaita/';
   const path=location.pathname;
   const isPratisarga=/pages\/bhavishya-purana-pratisargaparvan|articles\/bhavishya-purana-pratisargaparvan-part-/.test(path);
   const isBrahma=/pages\/bhavishya-purana-brahmaparvan|articles\/bhavishya-purana-brahmaparvan-chapter-/.test(path);

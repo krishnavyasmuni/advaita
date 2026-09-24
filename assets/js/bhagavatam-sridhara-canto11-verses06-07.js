@@ -2,7 +2,7 @@
  'use strict';
  const root=document.querySelector('[data-bhagavatam-reader][data-canto="11"]');
  const host=root&&root.querySelector('[data-bhagavatam-host]');if(!host)return;
- const data=fetch('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-verses06-07.json?v=20260916-1',{cache:'no-cache'})
+ const data=fetch('/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-verses06-07.json?v=20260916-1',{cache:'no-cache'})
  .then(r=>{if(!r.ok)throw Error('Śrīdhara 11.1.6–7 HTTP '+r.status);return r.json()})
  .then(d=>d.source_commit==='100560de6c9f68c2875097d40a2012a84c784179'&&Array.isArray(d.entries)?d.entries:[])
  .catch(e=>{console.warn('Śrīdhara 11.1.6–7 source unavailable',e);return[]});

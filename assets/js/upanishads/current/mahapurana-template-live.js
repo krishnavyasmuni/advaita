@@ -265,7 +265,7 @@
   function ensureResearch(done){
     if(window.UPANISHAD_RESEARCH_108){done();return;}
     if(researchLoader){researchLoader.addEventListener('load',done,{once:true});return;}
-    researchLoader=document.createElement('script');researchLoader.src='/vivekadrishti/assets/js/upanishads/current/research-108-complete.js?build=20260828-upanishad-unified-v1';researchLoader.async=false;
+    researchLoader=document.createElement('script');researchLoader.src='/advaita/assets/js/upanishads/current/research-108-complete.js?build=20260828-upanishad-unified-v1';researchLoader.async=false;
     researchLoader.addEventListener('load',done,{once:true});researchLoader.addEventListener('error',done,{once:true});document.head.append(researchLoader);
   }
 

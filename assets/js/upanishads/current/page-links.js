@@ -67,7 +67,7 @@
       const veda=button.dataset.veda||button.querySelector('small')?.textContent?.trim()||'';
       const a=document.createElement('a');
       a.className='up-wiki-link';
-      a.href=`/vivekadrishti/articles/scripture/upanishads/${slug(name)}/`;
+      a.href=`/advaita/articles/scripture/upanishads/${slug(name)}/`;
       a.innerHTML=`<span class="up-wiki-link-title">${esc(name)}</span><span class="up-wiki-link-meta">${veda?esc(veda):'Upaniṣad'}</span>`;
       list.append(a);
     });

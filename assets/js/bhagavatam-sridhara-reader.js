@@ -521,7 +521,7 @@
       link.textContent = label;
       chapterNav.appendChild(link);
     };
-    add('All chapters', '/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/');
+    add('All chapters', '/advaita/pages/bhagavatam-with-sridhara-bhasya/');
     if (selectedChapter(config) > 1) add('Previous', '#chapter-' + (selectedChapter(config) - 1));
     if (selectedChapter(config) < config.chapter_count) add('Next', '#chapter-' + (selectedChapter(config) + 1));
   }
@@ -535,7 +535,7 @@
   function chapterSridharaUrl(manifest, config, chapter) {
     if (config.sridhara_mode === 'local-cached') {
       const path = config.sridhara_path_template.replace('{chapter2}', pad(chapter));
-      return path.charAt(0) === '/' ? path : '/vivekadrishti/' + path;
+      return path.charAt(0) === '/' ? path : '/advaita/' + path;
     }
     const relativePath = config.sridhara_paths[String(chapter)];
     if (!relativePath) return '';
@@ -554,7 +554,7 @@
     const path = (manifest.english_commentary && manifest.english_commentary.path) ||
       'assets/data/bhagavatam-sridhara-english-checkpoints.json';
     const versionedPath = path + (path.includes('?') ? '&' : '?') + 'v=live-' + Date.now();
-    return versionedPath.charAt(0) === '/' ? versionedPath : '/vivekadrishti/' + versionedPath;
+    return versionedPath.charAt(0) === '/' ? versionedPath : '/advaita/' + versionedPath;
   }
 
   async function loadChapter(manifest, config, chapter) {
@@ -581,7 +581,7 @@
       const englishUrl = chapterEnglishUrl(manifest, config, chapter);
       const sridharaUrl = chapterSridharaUrl(manifest, config, chapter);
       const commentaryUrlValue = commentaryUrl(manifest);
-      const checkpointUrl = '/vivekadrishti/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260923-c3-audit-1';
+      const checkpointUrl = '/advaita/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260923-c3-audit-1';
       const requests = [fetchText(englishUrl)];
       if (sridharaUrl) {
         requests.push(config.sridhara_mode === 'local-cached' ? fetchJson(sridharaUrl) : fetchText(sridharaUrl));
@@ -601,7 +601,7 @@
         ? checkpoint.reader_data_files
         : [];
       const wfwResults = await Promise.all(wfwPaths.map((path) =>
-        fetchJson(path.charAt(0) === '/' ? path : '/vivekadrishti/' + path)
+        fetchJson(path.charAt(0) === '/' ? path : '/advaita/' + path)
       ));
       const wordForWordEntries = wfwResults.flatMap(parseLocalWordForWord);
       const sridharaEntries = sridharaUrl
@@ -633,7 +633,7 @@
 
   async function start() {
     try {
-      const response = await fetch(root.dataset.manifest || '/vivekadrishti/assets/data/bhagavatam-sridhara-reader-manifest.json', { cache: 'force-cache' });
+      const response = await fetch(root.dataset.manifest || '/advaita/assets/data/bhagavatam-sridhara-reader-manifest.json', { cache: 'force-cache' });
       if (!response.ok) throw new Error(response.status + ' ' + response.statusText);
       const manifest = await response.json();
       const config = manifest.cantos[String(canto)];

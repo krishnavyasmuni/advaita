@@ -5,7 +5,7 @@
   const host = root.querySelector('[data-bhagavatam-host]');
   if (!host) return;
   const canto = Number(root.dataset.canto);
-  const url = '/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-cantos01-02-additions-20260916.json?v=2';
+  const url = '/advaita/assets/data/bhagavatam-sridhara-wfw-cantos01-02-additions-20260916.json?v=2';
   const data = fetch(url, {cache:'no-cache'})
     .then(response => {if (!response.ok) throw Error('Śrīdhara gloss HTTP ' + response.status); return response.json();})
     .then(doc => doc.source_commit === '100560de6c9f68c2875097d40a2012a84c784179' && Array.isArray(doc.entries) ? doc.entries.filter(entry => entry.canto === canto) : [])

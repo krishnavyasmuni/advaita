@@ -6,7 +6,7 @@ if(!wanted)return;
 const root=document.getElementById('source-content');
 if(!root)return;
 
-const sourceUrl='/vivekadrishti/articles/bhavisya-purana-addresses-varna-system/?v=20260914-audit';
+const sourceUrl='/advaita/articles/bhavisya-purana-addresses-varna-system/?v=20260914-audit';
 
 /* Close translations only where the older source-page English either needs
    correction or where the omitted tarka is dense enough that a loose

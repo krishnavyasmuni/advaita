@@ -232,10 +232,10 @@
   const literalParts = literalPartsByChapter[chapter];
   const cacheKey = '20260917-vasuki';
   const reviewPromise = literalParts
-    ? Promise.all(literalParts.map((part) => loadJson('/vivekadrishti/assets/data/bhagavad-gita-sridhara-reviewed/chapter-' + chapter + '-literal-' + part + '.json?v=' + cacheKey))).then(mergeParts)
-    : loadJson('/vivekadrishti/assets/data/bhagavad-gita-sridhara-reviewed/chapter-' + chapter + '.json?v=' + cacheKey);
+    ? Promise.all(literalParts.map((part) => loadJson('/advaita/assets/data/bhagavad-gita-sridhara-reviewed/chapter-' + chapter + '-literal-' + part + '.json?v=' + cacheKey))).then(mergeParts)
+    : loadJson('/advaita/assets/data/bhagavad-gita-sridhara-reviewed/chapter-' + chapter + '.json?v=' + cacheKey);
 
-  const vasukiOverridesPromise = loadJson('/vivekadrishti/assets/data/bhagavad-gita-sridhara-vasuki-overrides.json?v=' + cacheKey)
+  const vasukiOverridesPromise = loadJson('/advaita/assets/data/bhagavad-gita-sridhara-vasuki-overrides.json?v=' + cacheKey)
     .catch(() => ({verses:{}}));
 
   const dataPromise = Promise.all([reviewPromise, vasukiOverridesPromise]).then(([data, overrides]) => {

@@ -193,8 +193,8 @@
     if (window.__PURANA_PROFESSIONAL_RESEARCH_LOADING__) return;
     window.__PURANA_PROFESSIONAL_RESEARCH_LOADING__ = true;
     try {
-      await loadScript('/vivekadrishti/assets/js/puranas/current/purana-research-20260906.js?build=20260907-final-v1');
-      await loadScript('/vivekadrishti/assets/js/puranas/current/purana-final-corpus-20260907.js?build=20260907-final-v1');
+      await loadScript('/advaita/assets/js/puranas/current/purana-research-20260906.js?build=20260907-final-v1');
+      await loadScript('/advaita/assets/js/puranas/current/purana-final-corpus-20260907.js?build=20260907-final-v1');
       applyResearch();
     } catch (err) {
       console.warn('Professional Purana research apparatus could not be fully loaded.',err);

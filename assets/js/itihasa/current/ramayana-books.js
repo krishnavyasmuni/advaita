@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   const D=window.ITIHASA_BOOKS=window.ITIHASA_BOOKS||{};
-  const base='/vivekadrishti/articles/scripture/ramayana/';
+  const base='/advaita/articles/scripture/ramayana/';
   const common=[
     {title:'Valmiki Rāmāyaṇa e-texts and critical-edition resources',url:'https://sanskritdocuments.org/mirrors/ramayana/valmiki.htm',detail:'SanskritDocuments gateway to the Baroda critical text and other electronic resources.'},
     {title:'The Rāmāyaṇa of Vālmīki: An Epic of Ancient India',url:'https://www.jstor.org/stable/j.ctt1gsmwgz',detail:'Critical-edition-based annotated translation project directed by Robert P. Goldman.'},

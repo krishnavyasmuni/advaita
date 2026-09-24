@@ -21,14 +21,14 @@
       const nav=document.createElement('nav');
       nav.className='purana-page-nav';
       nav.setAttribute('aria-label','Scripture navigation');
-      nav.innerHTML='<a class="purana-back-button" href="/vivekadrishti/articles/scripture/">← Back to Scripture Index</a><a class="purana-home-link" href="/vivekadrishti/">Home</a>';
+      nav.innerHTML='<a class="purana-back-button" href="/advaita/articles/scripture/">← Back to Scripture Index</a><a class="purana-home-link" href="/advaita/">Home</a>';
       document.body.insertBefore(nav,document.body.firstElementChild);
     }
     if(!document.querySelector('body > .purana-return-nav')){
       const nav=document.createElement('nav');
       nav.className='purana-return-nav';
       nav.setAttribute('aria-label','Return to Scripture Index');
-      nav.innerHTML='<a href="/vivekadrishti/articles/scripture/">← Back to Scripture Index</a>';
+      nav.innerHTML='<a href="/advaita/articles/scripture/">← Back to Scripture Index</a>';
       document.body.appendChild(nav);
     }
   };
@@ -41,7 +41,7 @@
     const sources=window.UPAPURANA_SOURCES||{};
     const profile=data[slug];
     if(!profile){
-      mount.innerHTML='<p class="article-error">This Upapurāṇa research route could not be resolved. <a href="/vivekadrishti/articles/scripture/">Return to the Scripture Index</a>.</p>';
+      mount.innerHTML='<p class="article-error">This Upapurāṇa research route could not be resolved. <a href="/advaita/articles/scripture/">Return to the Scripture Index</a>.</p>';
       return;
     }
 
@@ -117,5 +117,5 @@
     }
     mount.classList.add('is-loaded');
   }
-  run().catch(err=>{console.error(err);mount.innerHTML='<p class="article-error">The Upapurāṇa research article could not be loaded. <a href="/vivekadrishti/articles/scripture/">Return to the Scripture Index</a>.</p>'});
+  run().catch(err=>{console.error(err);mount.innerHTML='<p class="article-error">The Upapurāṇa research article could not be loaded. <a href="/advaita/articles/scripture/">Return to the Scripture Index</a>.</p>'});
 })();

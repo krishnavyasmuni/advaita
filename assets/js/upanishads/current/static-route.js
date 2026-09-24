@@ -15,14 +15,14 @@
   };
   const slug=location.pathname.split('/').filter(Boolean).pop()||'';
   const meta=MAP[slug];
-  if(!meta){document.getElementById('route-status').innerHTML='Unknown Upaniṣad route. <a href="/vivekadrishti/articles/scripture/">Return to Scripture Index</a>.';return;}
+  if(!meta){document.getElementById('route-status').innerHTML='Unknown Upaniṣad route. <a href="/advaita/articles/scripture/">Return to Scripture Index</a>.';return;}
   document.body.classList.add('mahapurana-static-page','mahapurana-unified-page');
   document.querySelectorAll('.site-header,.site-footer').forEach(node=>node.remove());
   if(!document.querySelector('body > .purana-page-nav')){
     const nav=document.createElement('nav');
     nav.className='purana-page-nav';
     nav.setAttribute('aria-label','Scripture navigation');
-    nav.innerHTML='<a class="purana-back-button" href="/vivekadrishti/articles/scripture/">← Back to Scripture Index</a><a class="purana-home-link" href="/vivekadrishti/">Home</a>';
+    nav.innerHTML='<a class="purana-back-button" href="/advaita/articles/scripture/">← Back to Scripture Index</a><a class="purana-home-link" href="/advaita/">Home</a>';
     document.body.insertBefore(nav,document.body.firstElementChild);
   }
   const [name,group,veda]=meta;
@@ -36,7 +36,7 @@
     reader.classList.add('upanishad-static-reader');
     const close=reader.querySelector('.kena-article-close');if(close)close.remove();
     document.querySelector('.upanishad-loading')?.remove();
-    if(!document.querySelector('body > .purana-return-nav')){const nav=document.createElement('nav');nav.className='purana-return-nav';nav.setAttribute('aria-label','Return to Scripture Index');nav.innerHTML='<a href="/vivekadrishti/articles/scripture/">← Back to Scripture Index</a>';document.body.appendChild(nav);}
+    if(!document.querySelector('body > .purana-return-nav')){const nav=document.createElement('nav');nav.className='purana-return-nav';nav.setAttribute('aria-label','Return to Scripture Index');nav.innerHTML='<a href="/advaita/articles/scripture/">← Back to Scripture Index</a>';document.body.appendChild(nav);}
     observer.disconnect();
   });
   observer.observe(document.body,{childList:true,subtree:true});

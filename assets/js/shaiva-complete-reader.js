@@ -4,7 +4,7 @@
 (()=>{
 'use strict';
 
-const site='/vivekadrishti/';
+const site='/advaita/';
 const base=site+'articles/a-shaiva-lens-on-shiva-as-the-supreme-deity/';
 const root=document.getElementById('source-content');
 if(!root)return;

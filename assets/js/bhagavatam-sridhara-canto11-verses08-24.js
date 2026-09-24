@@ -11,7 +11,7 @@
   ];
   const records = Promise.all(files.map(async name => {
     try {
-      const response = await fetch('/vivekadrishti/assets/data/' + name + '?v=20260916-3', {cache: 'no-cache'});
+      const response = await fetch('/advaita/assets/data/' + name + '?v=20260916-3', {cache: 'no-cache'});
       if (!response.ok) throw new Error('HTTP ' + response.status);
       const data = await response.json();
       if (data.source_commit !== commit || !Array.isArray(data.entries)) throw new Error('source/checkpoint mismatch');

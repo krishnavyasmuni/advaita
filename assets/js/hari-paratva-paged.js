@@ -1,6 +1,6 @@
 (()=>{
 'use strict';
-const base='/vivekadrishti/articles/a-vaishnava-lens-on-vishnu-as-the-supreme-deity/';
+const base='/advaita/articles/a-vaishnava-lens-on-vishnu-as-the-supreme-deity/';
 const pages=[
 {id:'introduction',parent:'1. Preface',title:'Introduction',stop:'methodology',pdf:'2–3'},
 {id:'methodology',parent:'1. Preface',title:'Methodology',stop:'vedas',pdf:'4–8'},

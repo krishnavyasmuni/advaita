@@ -4,7 +4,7 @@
   const BUILD='20260827-upapurana39-v5';
   const loadScript=src=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=()=>reject(new Error('Failed to load '+src));document.head.appendChild(s)});
   window.UPAPURANA_READY=(async()=>{
-    const base='/vivekadrishti/assets/data/upapuranas/';
+    const base='/advaita/assets/data/upapuranas/';
     const parts=[];
     for(let i=0;i<6;i++){
       const r=await fetch(`${base}raw-${i}.b64?build=${BUILD}`,{cache:'force-cache'});
@@ -18,7 +18,7 @@
     const payload=JSON.parse(await new Response(stream).text());
     window.UPAPURANA_RAW=payload.research||payload;
     if(payload.sources)window.UPAPURANA_SOURCE_PAYLOAD=payload.sources;
-    await loadScript(`/vivekadrishti/assets/js/puranas/current/upapurana-research-core.js?build=${BUILD}`);
+    await loadScript(`/advaita/assets/js/puranas/current/upapurana-research-core.js?build=${BUILD}`);
     return window.UPAPURANA_RESEARCH||{};
   })();
 })();
