@@ -96,16 +96,16 @@ Chapter 18 wording refinement: the 1.18.33 lexical rows now separate `hṛdi ās
 
 The owner requested completion of the word-for-word layer in Viṣṇu Purāṇa Books 1 and 2 and a reader-style pass based on Bhagavad Gītā Chapter 9. The Chapter 9 fonts and exact 12px pill controls (4px × 10px padding) are linked from all 22 Book 1 and 16 Book 2 chapter pages.
 
-A fresh structural audit of the focused branch finds a main-text WFW panel marker on 818/1,407 Book 1 verses and 710/787 Book 2 verses. The Chapter 21 release below added 14 markers. A visible marker alone does not certify a correct lexical map; semantic coverage remains open for the other chapters.
+A fresh structural audit of the focused branch finds a main-text WFW panel marker on 818/1,407 Book 1 verses and 710/787 Book 2 verses. The Chapter 21 release added 14 main-text panels and the Chapter 20 release added 39. A visible marker alone does not certify a correct lexical map; semantic coverage remains open for the other chapters.
 
 | Book | Verse articles | Main-text panel markers | No marker |
 |---|---:|---:|---:|
-| 1 | 1,407 | 818 | 589 |
+| 1 | 1,407 | 857 | 550 |
 | 2 | 787 | 710 | 77 |
 
 Outstanding panel gaps by chapter:
 
-- Book 1: Chapters 11 (57), 12 (95), 13 (94), 14 (48), 15 (154), 16 (16), 19 (86), and 20 (39); total 589.
+- Book 1: Chapters 11 (57), 12 (95), 13 (94), 14 (48), 15 (154), 16 (16), and 19 (86); total 550.
 - Book 2: Chapters 1 (8), 4 (5), 7 (2), 8 (32), and 13 (30); total 77.
 
 ### Book 1, Chapter 21 release
@@ -115,5 +115,13 @@ Outstanding panel gaps by chapter:
 - All Word-for-word controls use the Chapter 9 paired-row layout. No pending messages or empty maps remain in the chapter.
 - The source note pins the Vasuki mūla, numbered witness, Śrīdhara source, and English cross-check to their blob SHAs and upstream commit. It records the reading choices at 1.21.1–.40, including witness-supported corrections and retained mūla readings.
 - The release adds the 14 previously missing main-text panels in verses 1–14; the 27 existing maps in verses 15–41 were checked and rebuilt as paired lexical rows.
+
+### Book 1, Chapter 20 release
+
+- 39/39 contiguous articles now contain source-complete Sanskrit, full translations, main-text word-for-word maps, and Transliteration controls. The previously truncated Sanskrit in verses 18–20, 23–24, 28, and 34 was restored.
+- Added 464 paired Devanāgarī/IAST lexical rows across all 39 verses. Each map was reviewed for Sanskrit form, transliteration, and a concise gloss; all pending messages were removed.
+- Main IAST panels were regenerated from the displayed Sanskrit. Existing Śrīdhara material, English translations outside the reviewed correction at 1.20.24, and commentary/no-commentary states were retained.
+- The textual note pins the mūla, numbered witness, Śrīdhara commentary, and English cross-check. It records the decisions at 1.20.1–.39, including witness corrections and readings retained from the mūla.
+- Book 1 panel status after this release: 857/1,407; 550 remain. The outstanding marker gaps are Book 1 Chapters 11–16 and 19 listed above, plus the Book 2 chapters listed above.
 
 Books 1 and 2 remain in progress. Panel counts for the other chapters are structural only and do not certify lexical completeness.

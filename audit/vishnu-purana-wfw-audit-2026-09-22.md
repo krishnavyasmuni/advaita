@@ -81,10 +81,10 @@ The Chapter 9 fonts and exact pill-control stylesheet are linked from all 38 Boo
 
 | Book | Verse articles | Main-text panel marker | No main-text panel marker |
 |---|---:|---:|---:|
-| 1 | 1,407 | 818 | 589 |
+| 1 | 1,407 | 857 | 550 |
 | 2 | 787 | 710 | 77 |
 
-These counts identify panel presence only. Other chapters still require verse-by-verse semantic review; some existing panels may contain commentary or running translation instead of lexical mappings.
+These counts identify panel presence only. Other chapters still require verse-by-verse semantic review; some existing panels may contain commentary or running translation instead of lexical mappings. Book 1, Chapter 20 adds 39 completed panels to the pre-release total.
 
 | Book | Chapter | Verses without a main-text panel |
 |---|---:|---:|
@@ -95,7 +95,6 @@ These counts identify panel presence only. Other chapters still require verse-by
 | 1 | 15 | 154 |
 | 1 | 16 | 16 |
 | 1 | 19 | 86 |
-| 1 | 20 | 39 |
 | 2 | 1 | 8 |
 | 2 | 4 | 5 |
 | 2 | 7 | 2 |
@@ -109,5 +108,14 @@ These counts identify panel presence only. Other chapters still require verse-by
 - The previously missing panels for 1.21.1–14 are complete. Existing main-text maps for 1.21.15–41 were reviewed and rebuilt in Sanskrit order. Commentary and no-commentary controls were retained.
 - Sources pinned at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`: mūla `viShNu-purANam/viShNu-chitta-TIkA/mUlam_me/01/21.md` (blob `18c1791300db9d2cdcd2b542fb99e997f723a168`); numbered witness `viShNu-purANam/goraxapura-pAThaH/hindy-anuvAdaH/01/21.md` (blob `dea16ef42693026bc6c28a96a4271c7aa4f13caa`); Śrīdhara `viShNu-purANam/shrIdhara-viShNu-chittau/1/21_prahlAda-vaMsha-kathanam.md` (blob `f3306d685d30f0223e97f5e1e03e751e4600e6ae`); English cross-check `viShNu-purANam/viShNu-chitta-TIkA/en/01/21.md` (blob `5dc0209c0e5cb46981bd50e4542800a49ad4ddf4`).
 - The page note records these textual decisions: 1.21.1 uses witness `saṃhlāda-putra` against mūla `prahlāda-putra`; 1.21.2, .3, .5, .7, and .11 retain selected mūla readings; 1.21.9 and .12 correct apparent mūla transcription errors with witness support; 1.21.13 retains mūla `vivardhana`; 1.21.15 adopts witness `sattva`; 1.21.24 adopts witness `vallī/tṛṇa`; 1.21.29 retains `putratve` against `pitṛtve`; 1.21.35 adopts `taṃ`; and 1.21.40 adopts `cakre` while retaining mūla `adri`.
+
+### Book 1, Chapter 20
+
+- 39/39 contiguous verse articles now have full source-backed Sanskrit, English translations, word-for-word maps, and main transliteration.
+- The Chapter 9 reader layout is used for every WFW panel: 464 rows pair a Devanāgarī form, its IAST transliteration, and a concise gloss.
+- Restored incomplete main text in 1.20.18–20, .23–24, .28, and .34; corrected other source-level mismatches including 1.20.1, .4, .6–7, .9–16, .20, .22–24, .30, .32, .38–39.
+- 1.20.24's English was corrected to say that Prahlāda asks for his father to be freed from the sin of hating him as a devotee of Viṣṇu.
+- Mūla blob 933bca3c6c89434e5c6da197bfec80440b2ac9b8, numbered witness 3190a2277be02951fad524c96c7a1982e4db70ca, Śrīdhara commentary ac332a7076db4d0ebb1d965a209a7b9802ba0f80, and English cross-check 75120bef826851429fff57461d6f912139b2fde9 are pinned at upstream commit fc117aa4514dfd4e4840037aeb3ca825ba030b05.
+- The page note records witness-supported readings including 1.20.4 calaty uragabandhais taiḥ, .7 ātmani, .16 pāvaya, .24 mucyeta, and .30 jīvasi; mūla readings retained include .9 paramārthāya, .13 prakaṭo’prakāśaḥ, and .23 baddhvā.
 
 Book 1–2 semantic completion remains open. The panel gaps above and the other present-but-unreviewed panels must still be checked chapter by chapter.
