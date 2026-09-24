@@ -13246,6 +13246,28 @@
       "word_for_word_records": 43,
       "word_for_word_verse_coverage": 46,
       "word_for_word_pairs": 322
+    },
+    {
+      "id": "canto-2-chapter-7-release",
+      "range": "ŚB 2.7.1–2.7.53",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/7/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/7/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/07_avatAra-sanxepaH.md",
+      "source_blob_sha": "a4e1624a10fc588b6384c7031b2221865f4249ce",
+      "records_checked": 53,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/07_avatAra-sanxepaH.md; each WFW row cites blob a4e1624a10fc588b6384c7031b2221865f4249ce.",
+      "findings": [
+        "The 49 word-for-word records cover all 53 verses; source-grouped ranges 2.7.34–35, 2.7.43–45 and 2.7.47–48 are preserved.",
+        "The entries were checked against the pinned Śrīdhara text; damaged spellings and interpretive uncertainties are flagged in the affected rows."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch07-reviewed.json?v=20260924-c2-ch07-wfw-1"
+      ],
+      "word_for_word_records": 49,
+      "word_for_word_verse_coverage": 53,
+      "word_for_word_pairs": 414
     }
   ],
   "generated_at": "2026-09-23"
