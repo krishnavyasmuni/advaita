@@ -13158,6 +13158,28 @@
       "word_for_word_records": 37,
       "word_for_word_verse_coverage": 37,
       "word_for_word_pairs": 322
+    },
+    {
+      "id": "canto-2-chapter-3-release",
+      "range": "ŚB 2.3.1–2.3.25",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/3/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/3/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/03_devopAsanam.md",
+      "source_blob_sha": "f1c36df7573988b5b723cbb9aac6ff2359092bb8",
+      "records_checked": 25,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/03_devopAsanam.md; each WFW row cites blob f1c36df7573988b5b723cbb9aac6ff2359092bb8.",
+      "findings": [
+        "All 25 word-for-word records cover the 25 numbered verses and were checked against the pinned Śrīdhara sections.",
+        "Corrupted source tokens are called out in the affected rows and are not silently restored."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch03-reviewed.json?v=20260924-c2-ch03-wfw-1"
+      ],
+      "word_for_word_records": 25,
+      "word_for_word_verse_coverage": 25,
+      "word_for_word_pairs": 172
     }
   ],
   "generated_at": "2026-09-23"
