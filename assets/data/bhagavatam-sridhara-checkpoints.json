@@ -13290,6 +13290,50 @@
       "word_for_word_records": 28,
       "word_for_word_verse_coverage": 29,
       "word_for_word_pairs": 166
+    },
+    {
+      "id": "canto-2-chapter-9-release",
+      "range": "ŚB 2.9.1–2.9.45",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/9/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/9/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/09_chatuHshloka-bhAgavatam.md",
+      "source_blob_sha": "459193f61f8dd35f9827285c2d0c9119a467fc20",
+      "records_checked": 45,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/09_chatuHshloka-bhAgavatam.md; each WFW row cites blob 459193f61f8dd35f9827285c2d0c9119a467fc20.",
+      "findings": [
+        "The 44 word-for-word records cover all 45 numbered verses; the Śrīdhara block for 2.9.26–27 remains grouped.",
+        "The malformed source joins “अखिल्…आनां” and “धेह् इति” are recorded and normalized where clear; the doubtful “विमोऽहं” reading is flagged in its WFW note."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch09-reviewed.json?v=20260924-c2-ch09-wfw-1"
+      ],
+      "word_for_word_records": 44,
+      "word_for_word_verse_coverage": 45,
+      "word_for_word_pairs": 215
+    },
+    {
+      "id": "canto-2-chapter-10-release",
+      "range": "ŚB 2.10.1–2.10.51",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/10/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/10/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/10_indriyAdy-utpattiH.md",
+      "source_blob_sha": "78979d596cb7e429e2c2200c40a4ba0e22b0a4a3",
+      "records_checked": 51,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/10_indriyAdy-utpattiH.md; each WFW row cites blob 78979d596cb7e429e2c2200c40a4ba0e22b0a4a3.",
+      "findings": [
+        "The 45 word-for-word records cover all 51 numbered verses; Śrīdhara’s grouped blocks 2.10.19–20, 37–39, 40–41, and 48–50 retain their ranges.",
+        "The source’s blank opening fragment and damaged spellings/joins are documented in the affected WFW notes; clear Sanskrit spellings are normalized in the gloss."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch10-reviewed.json?v=20260924-c2-ch10-wfw-1"
+      ],
+      "word_for_word_records": 45,
+      "word_for_word_verse_coverage": 51,
+      "word_for_word_pairs": 237
     }
   ],
   "generated_at": "2026-09-23"
