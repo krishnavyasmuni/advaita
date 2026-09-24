@@ -306,7 +306,7 @@
     scope.querySelectorAll('h3[id^="sb-2-"]').forEach(normalizeCanto2Verse);
   }
 
-  const continuationPath = '/vivekadrishti/articles/srimad-bhagavatam-second-canto-sridhara-svami-rebuild/fragments/';
+  const continuationPath = '/advaita/articles/srimad-bhagavatam-second-canto-sridhara-svami-rebuild/fragments/';
   const continuationBatchCount = 32;
 
   async function loadCanto2Continuation() {

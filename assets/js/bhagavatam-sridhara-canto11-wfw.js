@@ -3,7 +3,7 @@
   const root=document.querySelector('[data-bhagavatam-reader][data-canto="11"]');
   const host=root&&root.querySelector('[data-bhagavatam-host]');
   if(!host)return;
-  const data=fetch('/vivekadrishti/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-reviewed.json?v=20260916-1',{cache:'no-cache'})
+  const data=fetch('/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch01-reviewed.json?v=20260916-1',{cache:'no-cache'})
     .then(r=>{if(!r.ok)throw Error('Reviewed Śrīdhara entry HTTP '+r.status);return r.json()})
     .then(d=>d.source_commit==='100560de6c9f68c2875097d40a2012a84c784179'&&Array.isArray(d.entries)?d.entries:[])
     .catch(e=>{console.warn('Canto 11 reviewed Śrīdhara entry unavailable:',e);return[]});

@@ -5,7 +5,7 @@
   if (!root || !host) return;
 
   const PRABHUPADA_BASE = 'https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/content/bhAgavatam/gauDIyo_abhaya-charaNaH/10/';
-  const SRIDHARA_BASE = '/vivekadrishti/assets/data/canto10-sridhara-source/';
+  const SRIDHARA_BASE = '/advaita/assets/data/canto10-sridhara-source/';
   const textCache = new Map();
   const chapterFile = (chapter) => String(chapter).padStart(2, '0');
   const prabhupadaUrl = (chapter) => `${PRABHUPADA_BASE}${chapterFile(chapter)}.md`;

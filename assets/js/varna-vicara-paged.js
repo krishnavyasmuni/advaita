@@ -1,5 +1,5 @@
 (()=>{
-const base='/vivekadrishti/articles/varna-vicara/';
+const base='/advaita/articles/varna-vicara/';
 const pages=[
 {id:'introduction',file:'preface.html',parent:'Preface',title:'Introduction',stop:'remark-1'},
 {id:'remark-1',file:'preface.html',parent:'Preface',title:'Remark on Ācārya Consensus',kind:'remark'},
@@ -250,7 +250,7 @@ const mountJatiArguments=async()=>{
   const loading=document.createElement('p');loading.className='reference';loading.textContent='Loading Bhaviṣya Purāṇa passages…';
   root.replaceChildren(heading,intro(),loading);
   try{
-    const r=await fetch('/vivekadrishti/articles/bhavisya-purana-addresses-varna-system/?v=20260914-jati3',{cache:'no-store'});
+    const r=await fetch('/advaita/articles/bhavisya-purana-addresses-varna-system/?v=20260914-jati3',{cache:'no-store'});
     if(!r.ok)throw Error('Bhaviṣya Purāṇa source article');
     const doc=new DOMParser().parseFromString(await r.text(),'text/html');
     const frag=document.createDocumentFragment();

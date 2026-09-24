@@ -1,6 +1,6 @@
 (()=>{
-const p=location.pathname,dirs=[/^\/vivekadrishti\/articles\/?$/, /\/articles\/scripture\/?$/, /\/articles\/(?:scripture-index-version-3|an-index-of-hindu-scripture)\/?$/];
-const article=/^\/vivekadrishti\/articles\//.test(p)&&!dirs.some(r=>r.test(p));
+const p=location.pathname,dirs=[/^\/advaita\/articles\/?$/, /\/articles\/scripture\/?$/, /\/articles\/(?:scripture-index-version-3|an-index-of-hindu-scripture)\/?$/];
+const article=/^\/advaita\/articles\//.test(p)&&!dirs.some(r=>r.test(p));
 const vishnuSupremacy=/\/articles\/a-vaishnava-lens-on-vishnu-as-the-supreme-deity\/?$/.test(p);
 const combinedBhavishya=/\/articles\/bhavisya-purana-addresses-varna-system\/?$/.test(p);
 const scripture=/\/articles\/(?:vishnu-purana-book-\d+-chapter-\d+|bhagavad-gita-chapter-\d+|bhavishya-purana-pratisargaparvan-part-\d+-chapter-\d+|bhavishya-purana-brahmaparvan-chapter-\d+|bhavisya-purana-addresses-varna-system|srimad-bhagavatam-(?:second|tenth)-canto-sridhara-svami-rebuild|srimad-bhagavatam-canto-\d{2}-sridhara-svami|mimamsa-sutras-sabara-bhasya-chapter-1)\/?$/.test(p);
@@ -51,36 +51,36 @@ const js=(key,src)=>{if(document.querySelector(`script[data-${key}]`))return;con
 if(article){
  document.querySelectorAll('link[href*="/assets/css/hindupedia-site.css"]').forEach(n=>n.remove());
  if(vishnuSupremacy){
-  css('vishnuVicaraBase','/vivekadrishti/assets/css/varna-vicara-paged.css?v=20260914-2');
-  css('vishnuVicaraFix','/vivekadrishti/assets/css/vishnu-supremacy-vicara.css?v=20260918-1');
-  js('vishnuPdfPassages','/vivekadrishti/assets/js/vishnu-pdf-passages.js?v=20260918-3');
-  js('vishnuSourceRestoration','/vivekadrishti/assets/js/vishnu-source-restoration.js?v=20260918-2');
-  js('vishnuVarnaReader','/vivekadrishti/assets/js/vishnu-varna-reader.js?v=20260918-5');
+  css('vishnuVicaraBase','/advaita/assets/css/varna-vicara-paged.css?v=20260914-2');
+  css('vishnuVicaraFix','/advaita/assets/css/vishnu-supremacy-vicara.css?v=20260918-1');
+  js('vishnuPdfPassages','/advaita/assets/js/vishnu-pdf-passages.js?v=20260918-3');
+  js('vishnuSourceRestoration','/advaita/assets/js/vishnu-source-restoration.js?v=20260918-2');
+  js('vishnuVarnaReader','/advaita/assets/js/vishnu-varna-reader.js?v=20260918-5');
  }else{
   document.body.classList.add('vicara-reader-page');if(citation)document.body.classList.add('citation-reader-page');if(meat)document.body.classList.add('meat-reader-page');if(scripture)document.body.classList.add('scripture-reader-page');
-  css('articleReader','/vivekadrishti/assets/css/article-reader.css?v=20260916-6');
-  if(!scripture)css('articlePager','/vivekadrishti/assets/css/article-pager.css?v=20260914-2');
-  if(citation||scripture)css('articlePolish','/vivekadrishti/assets/css/article-polish.css?v=20260916-6');
-  if(!combinedBhavishya)js('articleReader','/vivekadrishti/assets/js/article-reader.js?v=20260916-1');
+  css('articleReader','/advaita/assets/css/article-reader.css?v=20260916-6');
+  if(!scripture)css('articlePager','/advaita/assets/css/article-pager.css?v=20260914-2');
+  if(citation||scripture)css('articlePolish','/advaita/assets/css/article-polish.css?v=20260916-6');
+  if(!combinedBhavishya)js('articleReader','/advaita/assets/js/article-reader.js?v=20260916-1');
  }
-}else css('hindupediaSite','/vivekadrishti/assets/css/hindupedia-site.css?build=20260826-2145');
+}else css('hindupediaSite','/advaita/assets/css/hindupedia-site.css?build=20260826-2145');
 
 const paths=new Map([
-['/vivekadrishti/introduction-to-hinduism/','/vivekadrishti/pages/introduction-to-hinduism/'],['/vivekadrishti/indology/','/vivekadrishti/pages/indology/'],['/vivekadrishti/purana-library/','/vivekadrishti/pages/purana-library/'],['/vivekadrishti/bhagavatam-with-sridhara-bhasya/','/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/'],['/vivekadrishti/bhavishya-purana/','/vivekadrishti/pages/bhavishya-purana/'],['/vivekadrishti/bhavishya-purana-brahmaparvan/','/vivekadrishti/pages/bhavishya-purana-brahmaparvan/'],['/vivekadrishti/bhagavad-gita/','/vivekadrishti/pages/bhagavad-gita/']]);
+['/advaita/introduction-to-hinduism/','/advaita/pages/introduction-to-hinduism/'],['/advaita/indology/','/advaita/pages/indology/'],['/advaita/purana-library/','/advaita/pages/purana-library/'],['/advaita/bhagavatam-with-sridhara-bhasya/','/advaita/pages/bhagavatam-with-sridhara-bhasya/'],['/advaita/bhavishya-purana/','/advaita/pages/bhavishya-purana/'],['/advaita/bhavishya-purana-brahmaparvan/','/advaita/pages/bhavishya-purana-brahmaparvan/'],['/advaita/bhagavad-gita/','/advaita/pages/bhagavad-gita/']]);
 document.querySelectorAll('a[href]').forEach(a=>{const x=paths.get(a.getAttribute('href'));if(x)a.href=x});
-document.querySelectorAll('.site-nav').forEach(nav=>{if(nav.querySelector('a[href*="/pages/bhagavad-gita/"],a[href="/vivekadrishti/bhagavad-gita/"]'))return;const a=document.createElement('a');a.href='/vivekadrishti/pages/bhagavad-gita/';a.textContent='Bhagavad Gītā — Śrīdhara Bhāṣya';nav.append(a)});
+document.querySelectorAll('.site-nav').forEach(nav=>{if(nav.querySelector('a[href*="/pages/bhagavad-gita/"],a[href="/advaita/bhagavad-gita/"]'))return;const a=document.createElement('a');a.href='/advaita/pages/bhagavad-gita/';a.textContent='Bhagavad Gītā — Śrīdhara Bhāṣya';nav.append(a)});
 const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#site-nav');if(menu&&nav){menu.addEventListener('click',()=>menu.setAttribute('aria-expanded',String(nav.classList.toggle('open'))));nav.addEventListener('click',e=>{if(e.target.matches('a')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}})}
 
-if(/\/articles\/an-index-of-hindu-scripture\/?$/.test(p))css('scriptureIndexClean','/vivekadrishti/assets/css/scripture-index-clean.css?v=1');
+if(/\/articles\/an-index-of-hindu-scripture\/?$/.test(p))css('scriptureIndexClean','/advaita/assets/css/scripture-index-clean.css?v=1');
 
 const bhavishya=/\/(?:pages\/bhavishya-purana(?:\/|-)|articles\/(?:bhavishya-purana-|bhavisya-purana-addresses-varna-system))/.test(p);
-if(bhavishya){css('bhavishyaNavigation','/vivekadrishti/assets/css/bhavishya-navigation.css?v=20260915-2');js('bhavishyaNavigation','/vivekadrishti/assets/js/bhavishya-navigation.js?v=20260915-3')}
+if(bhavishya){css('bhavishyaNavigation','/advaita/assets/css/bhavishya-navigation.css?v=20260915-2');js('bhavishyaNavigation','/advaita/assets/js/bhavishya-navigation.js?v=20260915-3')}
 const rebuild=document.querySelector('.empyrean-bhagavatam-rebuild,.empyrean-bhagavatam-rebuild-part');if(!rebuild)return;
 document.body.classList.add('bhagavatam-rebuild-page');
 if(/srimad-bhagavatam-second-canto-sridhara-svami-rebuild/.test(p)){
  document.body.classList.add('canto-2-verse-layout');
  document.querySelectorAll('section[aria-labelledby^="sb-2-"]').forEach(s=>{if(s.querySelector(':scope>.sb-translation,:scope>.sb-translation-content'))return;const d=s.querySelector(':scope>[lang="sa-Deva"],:scope>.sb-devanagari,:scope>.sb-dev'),n=d?.nextElementSibling;if(n&&!n.matches('details,hr,h1,h2,h3')&&!/Śrīdhara['’]s Commentary/i.test(n.textContent||''))n.classList.add('sb-translation')});
- css('canto2Layout','/vivekadrishti/assets/css/bhagavatam-canto2-verse-layout-v7.css?v=11');js('canto2Renderer','/vivekadrishti/assets/js/bhagavatam-canto2.js?v=3');return;
+ css('canto2Layout','/advaita/assets/css/bhagavatam-canto2-verse-layout-v7.css?v=11');js('canto2Renderer','/advaita/assets/js/bhagavatam-canto2.js?v=3');return;
 }
-css('bhagavatamRebuildStyles','/vivekadrishti/assets/css/bhagavatam-rebuild-all-verses.css?v=6');
+css('bhagavatamRebuildStyles','/advaita/assets/css/bhagavatam-rebuild-all-verses.css?v=6');
 })();

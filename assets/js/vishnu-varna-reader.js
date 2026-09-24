@@ -11,7 +11,7 @@ function boot(){
   const original=[...source.children];
   const contents=original.find(n=>n.matches('ol,ul')&&n.querySelector('a[href="#preface"]'));
   if(!contents)return;
-  const base='/vivekadrishti/articles/a-vaishnava-lens-on-vishnu-as-the-supreme-deity/';
+  const base='/advaita/articles/a-vaishnava-lens-on-vishnu-as-the-supreme-deity/';
   const el=(tag,cls,txt)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(txt!==undefined)n.textContent=txt;return n};
   const label=n=>(n?.textContent||'').replace(/\s+/g,' ').trim().replace(/^\d+(?:\.\d+)*\.?\s*/, '');
   const cleanId=id=>decodeURIComponent((id||'').replace(/^#/,''));
@@ -77,7 +77,7 @@ function boot(){
 
   // Exact structural classes and element order of articles/varna-vicara/index.html.
   const sitebar=el('header','sitebar'),home=el('a',null,'Viveka Dṛṣṭi');
-  home.href='/vivekadrishti/';sitebar.append(home);
+  home.href='/advaita/';sitebar.append(home);
   const main=el('main','page'),head=el('header','article-head');
   head.append(el('h1',null,'A Vaiṣṇava Lens on Viṣṇu as the Supreme Deity'));
   const grid=el('div','reader-grid'),side=el('aside','side-toc'),toc=el('nav','toc');
@@ -102,7 +102,7 @@ function boot(){
   mobileNav.innerHTML=toc.innerHTML;
   const figure=(name,alt)=>{
     const f=el('figure','source-figure'),img=el('img');
-    img.src='/vivekadrishti/assets/images/source-documents/'+name;
+    img.src='/advaita/assets/images/source-documents/'+name;
     img.alt=alt;img.loading='lazy';f.append(img);return f;
   };
   const clean=node=>{
@@ -149,7 +149,7 @@ function boot(){
   }));
   document.body.replaceChildren(sitebar,main);
   document.body.className='vishnu-vicara-page';
-  document.querySelector('link[href="/vivekadrishti/assets/css/site.css"]')?.remove();
+  document.querySelector('link[href="/advaita/assets/css/site.css"]')?.remove();
   document.title=`${page.title} — A Vaiṣṇava Lens on Viṣṇu — Viveka Dṛṣṭi`;
   // Older section links, including those from the original in-article contents.
   if((requested&&requested!==page.id)||(hash&&targetPage.has(hash)&&hash===page.id)){

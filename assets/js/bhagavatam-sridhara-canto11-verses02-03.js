@@ -5,7 +5,7 @@
  if(!host)return;
  const pinned='100560de6c9f68c2875097d40a2012a84c784179';
  const files=['bhagavatam-sridhara-wfw-canto11-ch01-verses02-03.json','bhagavatam-sridhara-wfw-canto11-ch01-verses04-05.json'];
- const data=Promise.all(files.map(name=>fetch('/vivekadrishti/assets/data/'+name+'?v=20260916-2',{cache:'no-cache'})
+ const data=Promise.all(files.map(name=>fetch('/advaita/assets/data/'+name+'?v=20260916-2',{cache:'no-cache'})
    .then(r=>{if(!r.ok)throw Error('Śrīdhara commentary checkpoint HTTP '+r.status);return r.json()})
    .then(d=>d.source_commit===pinned&&Array.isArray(d.entries)?d.entries:[])
    .catch(e=>{console.warn('Śrīdhara commentary checkpoint unavailable:',name,e);return[]})))

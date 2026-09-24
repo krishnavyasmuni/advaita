@@ -29,7 +29,7 @@
   const routeSlug = location.pathname.split('/').filter(Boolean).pop() || '';
   const name = root.dataset.purana || ROUTES[routeSlug] || '';
   if (!name) {
-    root.innerHTML = '<div class="mahapurana-static-error"><h2>Purana not found</h2><p><a href="/vivekadrishti/articles/scripture/">Return to the Scripture Index</a>.</p></div>';
+    root.innerHTML = '<div class="mahapurana-static-error"><h2>Purana not found</h2><p><a href="/advaita/articles/scripture/">Return to the Scripture Index</a>.</p></div>';
     return;
   }
 
@@ -397,14 +397,14 @@
       const nav = document.createElement('nav');
       nav.className = 'purana-page-nav';
       nav.setAttribute('aria-label','Purana navigation');
-      nav.innerHTML = '<a class="purana-back-button" href="/vivekadrishti/articles/scripture/">← Back to Scripture Index</a><a class="purana-home-link" href="/vivekadrishti/">Home</a>';
+      nav.innerHTML = '<a class="purana-back-button" href="/advaita/articles/scripture/">← Back to Scripture Index</a><a class="purana-home-link" href="/advaita/">Home</a>';
       document.body.insertBefore(nav, document.body.firstChild);
     }
     if (!document.querySelector('.purana-return-nav')) {
       const nav = document.createElement('nav');
       nav.className = 'purana-return-nav';
       nav.setAttribute('aria-label','Return to Scripture Index');
-      nav.innerHTML = '<a href="/vivekadrishti/articles/scripture/">← Back to Scripture Index</a>';
+      nav.innerHTML = '<a href="/advaita/articles/scripture/">← Back to Scripture Index</a>';
       document.body.appendChild(nav);
     }
   };
@@ -476,7 +476,7 @@
     addNavigation();
 
     try {
-      const response = await fetch('/vivekadrishti/articles/scripture/?manifest=mahapurana-unified-v1',{cache:'no-store'});
+      const response = await fetch('/advaita/articles/scripture/?manifest=mahapurana-unified-v1',{cache:'no-store'});
       if (!response.ok) throw new Error('Could not read Scripture Index loader manifest');
 
       const doc = new DOMParser().parseFromString(await response.text(),'text/html');
@@ -586,7 +586,7 @@
       }
     } catch (err) {
       console.error(err);
-      root.innerHTML = `<div class="mahapurana-static-error"><h2>Article data could not be loaded</h2><p>${esc(err.message || err)}</p><p><a href="/vivekadrishti/articles/scripture/">Return to the Scripture Index</a>.</p></div>`;
+      root.innerHTML = `<div class="mahapurana-static-error"><h2>Article data could not be loaded</h2><p>${esc(err.message || err)}</p><p><a href="/advaita/articles/scripture/">Return to the Scripture Index</a>.</p></div>`;
     }
   }
 

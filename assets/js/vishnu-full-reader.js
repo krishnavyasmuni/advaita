@@ -12,7 +12,7 @@
   const content=[...opening,...original.slice(start)].map(n=>n.cloneNode(true));
   const el=(tag,cls,txt)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(txt)n.textContent=txt;return n};
   const header=el('header','sitebar'),home=el('a',null,'Viveka Dṛṣṭi');
-  home.href='/vivekadrishti/';header.append(home);
+  home.href='/advaita/';header.append(home);
   const main=el('main','page'),head=el('header','article-head');
   head.append(el('h1',null,'A Vaiṣṇava Lens on Viṣṇu as the Supreme Deity'));
   const grid=el('div','reader-grid'),side=el('aside','side-toc'),toc=el('nav','toc');
@@ -24,7 +24,7 @@
   const status=el('p','vishnu-reader-status','Full article · continuous reading');
   const body=el('div','vishnu-full-content');
   const cover=el('figure','source-figure'),image=el('img');
-  image.src='/vivekadrishti/assets/images/source-documents/vishnu-cover-art.webp';
+  image.src='/advaita/assets/images/source-documents/vishnu-cover-art.webp';
   image.alt='Viṣṇu and Lakṣmī illustration from the original paper';
   image.loading='lazy';cover.append(image);body.append(cover);
   body.append(...content);article.append(mobile,status,body);
@@ -61,14 +61,14 @@
     d.addEventListener('toggle',sync);sync();
   });
   const closing=el('figure','source-figure'),closingImage=el('img');
-  closingImage.src='/vivekadrishti/assets/images/source-documents/vishnu-closing-emblem.webp';
+  closingImage.src='/advaita/assets/images/source-documents/vishnu-closing-emblem.webp';
   closingImage.alt='Closing emblem from the original paper';closingImage.loading='lazy';
   closing.append(closingImage);body.append(closing);
   grid.append(side,article);main.append(head,grid);
   // Only replace the old page once the whole replacement exists.
   document.body.replaceChildren(header,main);
   document.body.className='vishnu-vicara-page vishnu-full-reader-page';
-  document.querySelector('link[href="/vivekadrishti/assets/css/site.css"]')?.remove();
+  document.querySelector('link[href="/advaita/assets/css/site.css"]')?.remove();
   document.title='A Vaiṣṇava Lens on Viṣṇu — Viveka Dṛṣṭi';
   if(location.hash){const id=decodeURIComponent(location.hash.slice(1));document.getElementById(id)?.scrollIntoView()}
   console.info('Viṣṇu full reader: rendered',body.textContent.length,'characters and',headings.length,'headings; no sections hidden.');

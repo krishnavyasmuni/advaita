@@ -15,8 +15,8 @@ window.renderBhavishyaChapter=function(config,verses){
     const nav=document.querySelector('.chapter-nav');
     if(nav){
       const links=nav.querySelectorAll('a');
-      if(config.chapter>180&&links[0]){links[0].href=`/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-${config.chapter-1}/`;links[0].textContent=`← Chapter ${config.chapter-1}`;}
-      if(config.chapter<190&&links[1]){links[1].href=`/vivekadrishti/articles/bhavishya-purana-brahmaparvan-chapter-${config.chapter+1}/`;links[1].textContent=`Chapter ${config.chapter+1} →`;}
+      if(config.chapter>180&&links[0]){links[0].href=`/advaita/articles/bhavishya-purana-brahmaparvan-chapter-${config.chapter-1}/`;links[0].textContent=`← Chapter ${config.chapter-1}`;}
+      if(config.chapter<190&&links[1]){links[1].href=`/advaita/articles/bhavishya-purana-brahmaparvan-chapter-${config.chapter+1}/`;links[1].textContent=`Chapter ${config.chapter+1} →`;}
     }
   }
 };

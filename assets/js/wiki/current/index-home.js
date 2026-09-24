@@ -13,7 +13,7 @@
     ['Skanda Purāṇa','skanda-purana'],['Vāmana Purāṇa','vamana-purana'],['Kūrma Purāṇa','kurma-purana'],['Matsya Purāṇa','matsya-purana'],
     ['Garuḍa Purāṇa','garuda-purana'],['Brahmāṇḍa Purāṇa','brahmanda-purana']
   ];
-  const mahaLinks = maha.map(([name,slug]) => `<li><a href="/vivekadrishti/articles/scripture/${slug}/">${name}</a></li>`).join('');
+  const mahaLinks = maha.map(([name,slug]) => `<li><a href="/advaita/articles/scripture/${slug}/">${name}</a></li>`).join('');
 
   const directory = document.createElement('div');
   directory.className = 'wiki-index-directory';

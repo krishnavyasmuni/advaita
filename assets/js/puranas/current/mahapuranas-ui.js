@@ -5,7 +5,7 @@
   if(!window.__MAHAPURANA_BENCHMARK_REQUESTED__){
     window.__MAHAPURANA_BENCHMARK_REQUESTED__=true;
     const s=document.createElement('script');
-    s.src='/vivekadrishti/assets/js/puranas/current/mahapuranas-benchmark.js?build=ad7e2c3e';
+    s.src='/advaita/assets/js/puranas/current/mahapuranas-benchmark.js?build=ad7e2c3e';
     s.async=false;
     document.head.appendChild(s);
   }

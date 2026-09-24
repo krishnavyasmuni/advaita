@@ -9,16 +9,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Vollkorn:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/vivekadrishti/assets/css/site.css">
+  <link rel="stylesheet" href="/advaita/assets/css/site.css">
   <script>
     (() => {
       const sections = new Map([
-        ['/vivekadrishti/introduction-to-hinduism/', '/vivekadrishti/pages/introduction-to-hinduism/'],
-        ['/vivekadrishti/indology/', '/vivekadrishti/pages/indology/'],
-        ['/vivekadrishti/purana-library/', '/vivekadrishti/pages/purana-library/'],
-        ['/vivekadrishti/bhagavatam-with-sridhara-bhasya/', '/vivekadrishti/pages/bhagavatam-with-sridhara-bhasya/'],
-        ['/vivekadrishti/bhavishya-purana-brahmaparvan/', '/vivekadrishti/pages/bhavishya-purana-brahmaparvan/'],
-        ['/vivekadrishti/bhagavad-gita/', '/vivekadrishti/pages/bhagavad-gita/']
+        ['/advaita/introduction-to-hinduism/', '/advaita/pages/introduction-to-hinduism/'],
+        ['/advaita/indology/', '/advaita/pages/indology/'],
+        ['/advaita/purana-library/', '/advaita/pages/purana-library/'],
+        ['/advaita/bhagavatam-with-sridhara-bhasya/', '/advaita/pages/bhagavatam-with-sridhara-bhasya/'],
+        ['/advaita/bhavishya-purana-brahmaparvan/', '/advaita/pages/bhavishya-purana-brahmaparvan/'],
+        ['/advaita/bhagavad-gita/', '/advaita/pages/bhagavad-gita/']
       ]);
 
       if (sections.has(location.pathname)) {
@@ -26,7 +26,7 @@
         return;
       }
 
-      const match = location.pathname.match(/^\/vivekadrishti\/\d{4}\/\d{2}\/\d{2}\/([^/]+)\/?$/);
+      const match = location.pathname.match(/^\/advaita\/\d{4}\/\d{2}\/\d{2}\/([^/]+)\/?$/);
       if (!match) return;
 
       const oldSlug = decodeURIComponent(match[1]);
@@ -37,31 +37,31 @@
       ]);
 
       if (removed.has(oldSlug)) {
-        location.replace('/vivekadrishti/articles/');
+        location.replace('/advaita/articles/');
         return;
       }
 
       const cleanSlug = oldSlug.replaceAll('│', '-');
-      location.replace('/vivekadrishti/articles/' + encodeURIComponent(cleanSlug) + '/');
+      location.replace('/advaita/articles/' + encodeURIComponent(cleanSlug) + '/');
     })();
   </script>
 </head>
 <body class="not-found-page">
   <header class="site-header">
     <div class="nav-wrap">
-      <a class="brand" href="/vivekadrishti/">Viveka Dṛṣṭi</a>
+      <a class="brand" href="/advaita/">Viveka Dṛṣṭi</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-        <a href="/vivekadrishti/">Home</a>
-        <a href="/vivekadrishti/pages/introduction-to-hinduism/">Introduction to Hinduism</a>
-        <a href="/vivekadrishti/pages/indology/">Indology</a>
-        <a href="/vivekadrishti/pages/purana-library/">Purāṇa Library</a>
-        <a href="/vivekadrishti/pages/bhagavad-gita/">Bhagavad Gītā</a>
+        <a href="/advaita/">Home</a>
+        <a href="/advaita/pages/introduction-to-hinduism/">Introduction to Hinduism</a>
+        <a href="/advaita/pages/indology/">Indology</a>
+        <a href="/advaita/pages/purana-library/">Purāṇa Library</a>
+        <a href="/advaita/pages/bhagavad-gita/">Bhagavad Gītā</a>
       </nav>
     </div>
   </header>
-  <main class="site-main"><section class="not-found"><h1>Page not found</h1><p>The address does not match a page in Viveka Dṛṣṭi.</p><p><a href="/vivekadrishti/articles/">Browse all writings</a></p></section></main>
+  <main class="site-main"><section class="not-found"><h1>Page not found</h1><p>The address does not match a page in Viveka Dṛṣṭi.</p><p><a href="/advaita/articles/">Browse all writings</a></p></section></main>
   <footer class="site-footer"><p>Viveka Dṛṣṭi</p></footer>
-  <script src="/vivekadrishti/assets/js/site.js"></script>
+  <script src="/advaita/assets/js/site.js"></script>
 </body>
 </html>

@@ -6,8 +6,8 @@ const path=location.pathname;
 if(!/\/articles\/a-vaishnava-lens-on-vishnu-as-the-supreme-deity\/?$/.test(path))return;
 const source=document.getElementById('preface')?.parentElement;
 if(!source){console.warn('Viṣṇu reader: original article not found; leaving fallback intact.');return;}
-const base='/vivekadrishti/articles/a-vaishnava-lens-on-vishnu-as-the-supreme-deity/';
-const imageBase='/vivekadrishti/assets/images/source-documents/';
+const base='/advaita/articles/a-vaishnava-lens-on-vishnu-as-the-supreme-deity/';
+const imageBase='/advaita/assets/images/source-documents/';
 const label=n=>(n?.textContent||'').replace(/\s+/g,' ').trim().replace(/^\d+(?:\.\d+)*\.?\s*/, '');
 const slug=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'section';
 const existingIds=new Set();
@@ -62,7 +62,7 @@ const firstTable=pages.flatMap(p=>p.nodes).find(n=>n.matches?.('table'));
 if(firstTable){const idx=pages.findIndex(p=>p.nodes.includes(firstTable));const at=pages[idx].nodes.indexOf(firstTable);pages[idx].nodes.splice(at+1,0,makeFigure('vishnu-veda-diagram.webp','Vedic divisions diagram reproduced from page 5 of the source PDF.'))}
 pages.at(-1).nodes.push(makeFigure('vishnu-closing-emblem.webp','Closing emblem reproduced from the source paper.'));
 const q=(s,cls)=>{const e=document.createElement(s);if(cls)e.className=cls;return e};
-const sitebar=q('header','sitebar'),home=q('a');home.href='/vivekadrishti/';home.textContent='Viveka Dṛṣṭi';sitebar.append(home);
+const sitebar=q('header','sitebar'),home=q('a');home.href='/advaita/';home.textContent='Viveka Dṛṣṭi';sitebar.append(home);
 const main=q('main','page'),header=q('header','article-head'),h1=q('h1');h1.textContent='A Vaiṣṇava Lens on Viṣṇu as the Supreme Deity';header.append(h1);
 const grid=q('div','reader-grid'),aside=q('aside','side-toc'),sideTitle=q('h2','side-toc-title');sideTitle.textContent='Contents';aside.setAttribute('aria-label','Table of contents');
 const content=q('article','article'),mobile=q('details','mobile-toc'),sum=q('summary');sum.textContent='Contents';const toc=q('nav','toc'),tocMobile=q('nav','toc');toc.setAttribute('aria-label','Sections');tocMobile.setAttribute('aria-label','Mobile sections');
@@ -77,7 +77,7 @@ const context=q('div','page-context'),ctParent=q('strong'),ctCount=q('span');ctP
 const reader=q('div');reader.id='source-content';const nav=q('nav','page-nav'),prev=q('a','prev'),next=q('a','next');prev.id='page-prev';next.id='page-next';nav.setAttribute('aria-label','Document sections');nav.append(prev,next);content.append(mobile,context,reader,nav);grid.append(aside,content);main.append(header,grid);
 // Only replace the original DOM after every section is safely prepared.
 document.body.replaceChildren(sitebar,main);document.body.className='vishnu-vicara-page';
-document.querySelector('link[href="/vivekadrishti/assets/css/site.css"]')?.remove();
+document.querySelector('link[href="/advaita/assets/css/site.css"]')?.remove();
 const byId=new Map(pages.map((page,i)=>[page.id,i]));
 const requested=()=>new URLSearchParams(location.search).get('section')||location.hash.slice(1)||pages[0].id;
 const pager=(anchor,page,direction)=>{if(!page){anchor.removeAttribute('href');anchor.classList.add('disabled');anchor.innerHTML=`<small>${direction}</small>`;return}anchor.classList.remove('disabled');anchor.href=href(page.id);anchor.replaceChildren();const small=q('small');small.textContent=direction;anchor.append(small,document.createTextNode(page.title))};

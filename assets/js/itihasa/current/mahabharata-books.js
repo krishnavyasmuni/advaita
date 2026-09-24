@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   const D=window.ITIHASA_BOOKS=window.ITIHASA_BOOKS||{};
-  const base='/vivekadrishti/articles/scripture/mahabharata/';
+  const base='/advaita/articles/scripture/mahabharata/';
   const bori={title:'Bhandarkar Oriental Research Institute — Mahābhārata critical edition project',url:'https://bori.ac.in/department/mahabharata/',detail:'Institutional account of the critical-edition project and its manuscript basis.'};
   const common=[
     bori,

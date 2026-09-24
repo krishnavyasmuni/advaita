@@ -386,7 +386,7 @@
   if (!document.querySelector('link[data-purana-professional-wiki]')) {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = '/vivekadrishti/assets/css/puranas/current/purana-professional-20260906.css?build=20260906-v1';
+    link.href = '/advaita/assets/css/puranas/current/purana-professional-20260906.css?build=20260906-v1';
     link.dataset.puranaProfessionalWiki = 'true';
     document.head.appendChild(link);
   }
