@@ -13180,6 +13180,28 @@
       "word_for_word_records": 25,
       "word_for_word_verse_coverage": 25,
       "word_for_word_pairs": 172
+    },
+    {
+      "id": "canto-2-chapter-4-release",
+      "range": "ŚB 2.4.1–2.4.25",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/4/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/4/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/04_kathArambhaH.md",
+      "source_blob_sha": "9c72ceb65636bb64d541ac48caaff76b93b6f53f",
+      "records_checked": 25,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/04_kathArambhaH.md; each WFW row cites blob 9c72ceb65636bb64d541ac48caaff76b93b6f53f.",
+      "findings": [
+        "The 24 word-for-word records cover all 25 numbered verses; source-grouped verses 2.4.7–8 are preserved as a single range.",
+        "All WFW phrases were checked against the pinned Śrīdhara sections."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch04-reviewed.json?v=20260924-c2-ch04-wfw-1"
+      ],
+      "word_for_word_records": 24,
+      "word_for_word_verse_coverage": 25,
+      "word_for_word_pairs": 164
     }
   ],
   "generated_at": "2026-09-23"
