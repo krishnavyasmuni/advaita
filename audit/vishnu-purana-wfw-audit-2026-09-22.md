@@ -81,10 +81,10 @@ The Chapter 9 fonts and exact pill-control stylesheet are linked from all 38 Boo
 
 | Book | Verse articles | Main-text panel marker | No main-text panel marker |
 |---|---:|---:|---:|
-| 1 | 1,407 | 857 | 550 |
+| 1 | 1,407 | 943 | 464 |
 | 2 | 787 | 710 | 77 |
 
-These counts identify panel presence only. Other chapters still require verse-by-verse semantic review; some existing panels may contain commentary or running translation instead of lexical mappings. Book 1, Chapter 20 adds 39 completed panels to the pre-release total.
+These counts identify panel presence only. Other chapters still require verse-by-verse semantic review; some existing panels may contain commentary or running translation instead of lexical mappings. Book 1, Chapters 20 and 19 add 39 and 86 completed panels, respectively, to the pre-release total.
 
 | Book | Chapter | Verses without a main-text panel |
 |---|---:|---:|
@@ -94,7 +94,6 @@ These counts identify panel presence only. Other chapters still require verse-by
 | 1 | 14 | 48 |
 | 1 | 15 | 154 |
 | 1 | 16 | 16 |
-| 1 | 19 | 86 |
 | 2 | 1 | 8 |
 | 2 | 4 | 5 |
 | 2 | 7 | 2 |
@@ -117,5 +116,12 @@ These counts identify panel presence only. Other chapters still require verse-by
 - 1.20.24's English was corrected to say that Prahlāda asks for his father to be freed from the sin of hating him as a devotee of Viṣṇu.
 - Mūla blob 933bca3c6c89434e5c6da197bfec80440b2ac9b8, numbered witness 3190a2277be02951fad524c96c7a1982e4db70ca, Śrīdhara commentary ac332a7076db4d0ebb1d965a209a7b9802ba0f80, and English cross-check 75120bef826851429fff57461d6f912139b2fde9 are pinned at upstream commit fc117aa4514dfd4e4840037aeb3ca825ba030b05.
 - The page note records witness-supported readings including 1.20.4 calaty uragabandhais taiḥ, .7 ātmani, .16 pāvaya, .24 mucyeta, and .30 jīvasi; mūla readings retained include .9 paramārthāya, .13 prakaṭo’prakāśaḥ, and .23 baddhvā.
+
+### Book 1, Chapter 19
+
+- 86/86 contiguous articles have a reviewed word-for-word panel, with 1,022 paired Sanskrit/IAST/gloss rows.
+- Main Sanskrit and IAST were corrected for clear source transcription errors, including the missing fire element in 1.19.68; all 86 translations remain present.
+- The source note pins mūla bc63e2448277dcc0790db2f445b7b3d18eb4404f, numbered witness 51c727faa692da6cc6764c87eb299085e506f7c0, Śrīdhara commentary 8799fe7c8745d6b135b25db5924bb2a845fd4ad1, and English cross-check 96fc014cd636f8f28591cb50334e9cfd05cdab76 at upstream commit fc117aa4514dfd4e4840037aeb3ca825ba030b05.
+- Book 1 focused panel markers now total 943/1,407; 464 remain. Book 2 remains 710/787 with 77 remaining. These are panel-presence counts and do not certify chapters whose existing panels have not been semantically reviewed.
 
 Book 1–2 semantic completion remains open. The panel gaps above and the other present-but-unreviewed panels must still be checked chapter by chapter.
