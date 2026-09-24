@@ -13114,6 +13114,28 @@
       "word_for_word_records": 37,
       "word_for_word_verse_coverage": 40,
       "word_for_word_pairs": 137
+    },
+    {
+      "id": "canto-2-chapter-1-release",
+      "range": "ŚB 2.1.1–2.1.39",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/1/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/1/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/01_dhyAnavidhiH.md",
+      "source_blob_sha": "14edc4de01f9e540a6c72dbdd4e4cfa009224c3c",
+      "records_checked": 39,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/01_dhyAnavidhiH.md; every reviewed word-for-word record cites blob 14edc4de01f9e540a6c72dbdd4e4cfa009224c3c.",
+      "findings": [
+        "The 37 reviewed Śrīdhara word-for-word records cover all 39 numbered verses; source-grouped ranges 2.1.9–10 and 2.1.16–17 are preserved.",
+        "Phrase spellings and sandhi were checked against the pinned Sanskrit file. Three damaged readings in the pinned source are called out and are not silently reconstructed."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch01-reviewed.json?v=20260924-c2-ch01-wfw-1"
+      ],
+      "word_for_word_records": 37,
+      "word_for_word_verse_coverage": 39,
+      "word_for_word_pairs": 313
     }
   ],
   "generated_at": "2026-09-23"
