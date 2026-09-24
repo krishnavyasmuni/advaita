@@ -1,0 +1,35 @@
+name: Verify compacted JSON with JavaScript parser
+
+on:
+  push:
+    branches:
+      - codex/compact-site-json-20260924
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/codex/compact-site-json-20260924'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out candidate branch
+        uses: actions/checkout@v4
+        with:
+          ref: codex/compact-site-json-20260924
+          fetch-depth: 0
+      - name: Compare JavaScript parsed values with main
+        run: |
+          git fetch origin main
+          node tools/verify_json_values_candidate.cjs
+      - name: Remove one-time verifier
+        env:
+          BRANCH_NAME: codex/compact-site-json-20260924
+        run: |
+          rm .github/workflows/verify-json-values-candidate.yml
+          rm tools/verify_json_values_candidate.cjs
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A .github/workflows/verify-json-values-candidate.yml tools/verify_json_values_candidate.cjs
+          git commit -m "Remove temporary JavaScript verifier"
+          git push origin "HEAD:${BRANCH_NAME}"
