@@ -34,7 +34,7 @@ jobs:
           from playwright.sync_api import sync_playwright
 
           out=Path('/tmp/shaiva-qa')
-          root='https://krishnavyasmuni.github.io/vivekadrishti/articles/'
+          root='https://krishnavyasmuni.github.io/advaita/articles/'
           revision=os.environ.get('PAGE_REVISION','')
 
           def revision_url(url):
