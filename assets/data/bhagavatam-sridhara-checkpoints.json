@@ -13202,6 +13202,28 @@
       "word_for_word_records": 24,
       "word_for_word_verse_coverage": 25,
       "word_for_word_pairs": 164
+    },
+    {
+      "id": "canto-2-chapter-5-release",
+      "range": "ŚB 2.5.1–2.5.42",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/5/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/5/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/05_brahmANDanirmANavarNanam.md",
+      "source_blob_sha": "e93bbe709b6d47397953566b303f3b6ef04360de",
+      "records_checked": 42,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/05_brahmANDanirmANavarNanam.md; each WFW row cites blob e93bbe709b6d47397953566b303f3b6ef04360de.",
+      "findings": [
+        "The 41 word-for-word records cover all 42 numbered verses; source-grouped ranges 2.5.7–8 and 2.5.40–41 are preserved.",
+        "Sanskrit compounds and phrase boundaries were checked against the pinned source; source defects are noted where they affect reading."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch05-reviewed.json?v=20260924-c2-ch05-wfw-1"
+      ],
+      "word_for_word_records": 41,
+      "word_for_word_verse_coverage": 42,
+      "word_for_word_pairs": 291
     }
   ],
   "generated_at": "2026-09-23"
