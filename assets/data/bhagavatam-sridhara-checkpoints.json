@@ -13268,6 +13268,28 @@
       "word_for_word_records": 49,
       "word_for_word_verse_coverage": 53,
       "word_for_word_pairs": 414
+    },
+    {
+      "id": "canto-2-chapter-8-release",
+      "range": "ŚB 2.8.1–2.8.29",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/2/8/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/2/8/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/02/08_parIxit-prashnaH.md",
+      "source_blob_sha": "b1545a87855e3040c49c9052aa7183073a2576e0",
+      "records_checked": 29,
+      "source_note": "Pinned Śrīdhara source checked at bhAgavatam/gauDIya-prastutiH/02/08_parIxit-prashnaH.md; each WFW row cites blob b1545a87855e3040c49c9052aa7183073a2576e0.",
+      "findings": [
+        "The 28 word-for-word records cover all 29 numbered verses; the commentary on 2.8.1–2 remains grouped.",
+        "Typographic joins and the source's doubtful spelling are documented in the affected WFW rows."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto2-ch08-reviewed.json?v=20260924-c2-ch08-wfw-1"
+      ],
+      "word_for_word_records": 28,
+      "word_for_word_verse_coverage": 29,
+      "word_for_word_pairs": 166
     }
   ],
   "generated_at": "2026-09-23"
