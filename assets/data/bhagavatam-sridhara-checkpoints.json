@@ -13091,6 +13091,29 @@
       "word_for_word_records": 50,
       "word_for_word_verse_coverage": 50,
       "word_for_word_pairs": 209
+    },
+    {
+      "id": "canto-1-chapter-19-release",
+      "range": "ŚB 1.19.1–1.19.40",
+      "status": "source-checked-and-wfw-repaired",
+      "english_source": "https://vedabase.io/en/library/sb/1/19/advanced-view/",
+      "reference_url": "https://vedabase.io/en/library/sb/1/19/advanced-view/",
+      "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
+      "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/01/19_athonaviMshatitamo-dhyAyaH.md",
+      "source_blob_sha": "21534e75d202245e679e1651fe46fae09e2b6db8",
+      "records_checked": 40,
+      "source_note": "Pinned Sanskrit source and reviewed Śrīdhara word-for-word data are checked verse-by-verse.",
+      "findings": [
+        "The 37 reviewed Śrīdhara records cover all 40 verses with 137 non-empty phrase glosses.",
+        "Every record cites the pinned Sanskrit source blob 21534e75d202245e679e1651fe46fae09e2b6db8.",
+        "The reader filters the shared reviewed dataset to Canto 1, Chapter 19 before rendering."
+      ],
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-reviewed.json?v=20260924-c1-wfw-reviewed-2"
+      ],
+      "word_for_word_records": 37,
+      "word_for_word_verse_coverage": 40,
+      "word_for_word_pairs": 137
     }
   ],
   "generated_at": "2026-09-23"
