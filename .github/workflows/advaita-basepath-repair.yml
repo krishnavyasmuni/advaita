@@ -1,0 +1,37 @@
+name: Repair GitHub Pages path after repository rename
+
+on:
+  push:
+    branches:
+      - hotfix/advaita-basepath-20260924
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    if: github.ref == 'refs/heads/hotfix/advaita-basepath-20260924'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out hotfix branch
+        uses: actions/checkout@v4
+        with:
+          ref: hotfix/advaita-basepath-20260924
+          fetch-depth: 0
+      - name: Update site base paths and validate
+        run: python3 tools/update_advaita_pages_basepath.py
+      - name: Remove one-time tooling and commit the repair
+        env:
+          BRANCH_NAME: hotfix/advaita-basepath-20260924
+        run: |
+          rm .github/workflows/advaita-basepath-repair.yml
+          rm tools/update_advaita_pages_basepath.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No base path repair was produced."
+            exit 1
+          fi
+          git commit -m "Fix site paths after repository rename to advaita"
+          git push origin "HEAD:${BRANCH_NAME}"
