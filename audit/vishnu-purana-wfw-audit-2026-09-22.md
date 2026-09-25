@@ -205,3 +205,13 @@ This release completes Book 2 Chapter 4 only; the rest of Books 1–2 remains in
 - Book 1 markers remain 1,407/1,407, with older panels under semantic audit. Book 2 markers now total 725/787; the remaining gaps are in Chapters 8 and 13 (32 and 30).
 
 This release completes Book 2 Chapter 7 only; the rest of Books 1–2 remains in progress.
+
+
+## User-directed Books 1–2 focus — Book 2, Chapter 8 release — 2026-09-25
+
+- Chapter 8 is complete on `main`: 122/122 articles have main-text Word-for-word lists and 1,378 paired Devanāgarī/IAST/contextual-gloss rows. All 122 translation paragraphs and commentary-state panels remain; 21 panels say “No commentary.” All 122 main transliterations match the displayed Sanskrit.
+- Thirty-two Word-for-word controls were added and 90 existing controls expanded. All 116 legacy `.wfw-map` blocks were preserved byte-for-byte. The Chapter 9 shared stylesheets, details/list/row layout, and 12px, 4px × 10px pill-button rule are used.
+- The route pins mūla `b58f841534fe5f077ecdb6b5a069742b9240b59b`, numbered witness `4def34374ab0393d59503da8796c3c582cba5ba6`, Śrīdhara source `7e3e596f06bc5f94b0a2d3846095d9442b13c5f6`, and English reference `ca699cb4933e6f760308267b54090606dd234f94`, all from upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`. Corrections restore the Maitreya readings in 2.8.10/.12 and 2.8.13–.14, plus .21, .25, .33–.34, .39, .62, .70, .72–.73, .80, and .102. Main-text verses .93–.99 were restored to the numbered sequence; .98 records the `bhāsvaram/bhāsuram` witness difference. Stray verse-number/footnote artifacts were removed.
+- Book 1 focused markers remain 1,407/1,407, with older panels still under semantic audit. Book 2 markers now total 757/787; the remaining gap is Chapter 13 (30).
+
+This release completes Book 2 Chapter 8 only; the rest of Books 1–2 remains in progress.
