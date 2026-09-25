@@ -21,14 +21,18 @@ jobs:
           import base64,json,zlib
           root=Path('.')
           html=(root/'articles/a-shaiva-lens-on-shiva-as-the-supreme-deity/index.html').read_text()
-          css=(root/'assets/css/shaiva-complete.css').read_text()
+          css=(root/'assets/css/document-paged.css').read_text()
           js=(root/'assets/js/shaiva-complete-reader.js').read_text()
           assert 'assets/css/varna-vicara-paged.css' in html
-          assert html.count('id="shaiva-sanskrit-toggle"')==1
-          assert '20260921-tidy-1' in html and '20260921-tidy-1' in js
+          for element_id in ('shaiva-desktop-toc','shaiva-mobile-toc','section-parent','section-count','source-content','page-prev','page-next'):
+              assert f'id="{element_id}"' in html, element_id
+          assert 'shaiva-complete-reader.js?v=20260923-collapsible-chapters-2' in html
+          assert '20260923-shaiva-parity-1' in js
+          assert "make('summary',null,'Show Sanskrit')" in js
+          assert "details.open?'Hide Sanskrit':'Show Sanskrit'" in js
           assert 'details.sanskrit-reveal' not in js
           assert 'shaiva-source-page' not in js
-          assert '.shaiva-sanskrit-toggle' in css and '.shaiva-verse-pair' in css
+          assert '.document-content' in css and '.sanskrit-reveal' in css and '.shaiva-parallel' in css
           packed=(root/'assets/data/shaiva-manuscript.b64').read_text().strip()
           pages=json.loads(zlib.decompress(base64.b64decode(packed,validate=True)))
           assert len(pages)==52 and sum(bool(p) for p in pages)==50
@@ -49,7 +53,7 @@ jobs:
           assert anchor in text
           if note not in text:text=text.replace(anchor,anchor+'\n\n'+note,1)
           guide.write_text(text,encoding='utf-8')
-          print('PASS: 52 source pages, 50 populated, 20 bilingual tables, 67 paired rows; one section-level button; Varna CSS linked; design guide checked')
+          print('PASS: 52 source pages, 50 populated, 20 bilingual tables, 67 paired rows; active section navigation and Sanskrit labels checked')
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
