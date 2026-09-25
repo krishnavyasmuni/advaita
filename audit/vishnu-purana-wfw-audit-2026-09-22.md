@@ -186,3 +186,12 @@ This release completes Chapter 11 only; it does not mark the rest of Books 1–2
 - Book 1 focused markers remain 1,407/1,407, with older panels still under semantic review. Book 2 focused markers now total 718/787 (69 gaps in Chapters 4, 7, 8, and 13).
 
 This release completes Book 2 Chapter 1 only; it does not mark the rest of Books 1–2 complete.
+
+## User-directed Books 1–2 focus — Book 2, Chapter 4 release — 2026-09-25
+
+- Book 2 Chapter 4 is complete on `main`: 97/97 articles have main-text Word-for-word lists and 1,040 paired Devanāgarī/IAST/contextual-gloss rows. All 97 English translation paragraphs and all 97 transliteration controls remain present; main IAST was regenerated from the displayed Sanskrit, including the Parāśara speaker cue in verse 1.
+- Five Word-for-word controls were added and 92 existing controls were expanded. The page retains all 132 existing `.wfw-map` blocks byte-for-byte and all 97 commentary-state panels, including 16 “No commentary” notices. It uses the Chapter 9 shared details/list/row layout and shared 12px, 4px × 10px pill-button rule.
+- The route pins mūla `78aa74027224a72061184086acdbbee0d59e4480`, numbered witness `59e0595ab053e03c66ebf85c88591b877f2c3055`, Śrīdhara commentary `98c5ac6f61bd168e25a38057f315f701a16d9a54`, and English reference `45aba963269c4adf9ab4d79f4c46771bd9b3f211`, all from upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`. Page transcription corrections restore 2.4.31 `viṣṇum`, 2.4.33 `samudreṇa` and `vistārācchālmalasyaiva`, 2.4.37 `manujāḥ`, 2.4.56 `puṣkarādyaiḥ` and `yāgai`, and 2.4.68 `dharma-hāni`. Verses 2.4.73, .80, and .84 follow mūla/English `Mahāpīta` against the numbered-witness `Mahāvīra`; at .73 the page retains numbered-witness `Dhātaki` against mūla `Dhātuki`. Verse 2.4.33 uses numbered-witness `samantataḥ` where mūla reads `samatantaḥ`.
+- Book 1 markers remain 1,407/1,407; older panels remain under semantic audit. Book 2 markers now total 723/787, with 64 gaps in Chapters 7, 8, and 13 (2, 32, and 30).
+
+This release completes Book 2 Chapter 4 only; the rest of Books 1–2 remains in progress.
