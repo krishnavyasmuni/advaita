@@ -195,3 +195,13 @@ This release completes Book 2 Chapter 1 only; it does not mark the rest of Books
 - Book 1 markers remain 1,407/1,407; older panels remain under semantic audit. Book 2 markers now total 723/787, with 64 gaps in Chapters 7, 8, and 13 (2, 32, and 30).
 
 This release completes Book 2 Chapter 4 only; the rest of Books 1–2 remains in progress.
+
+
+## User-directed Books 1–2 focus — Book 2, Chapter 7 release — 2026-09-25
+
+- Book 2 Chapter 7 is complete on `main`: 43/43 articles have main-text Word-for-word lists and 490 paired Devanāgarī/IAST/contextual-gloss rows. The verse-1 speaker cue is included; all 43 translation paragraphs and transliteration controls remain present, and main IAST was regenerated from displayed Sanskrit.
+- Two controls were added and 41 existing controls were expanded. All 56 legacy `.wfw-map` blocks and 43 commentary-state panels were preserved, including four “No commentary” notices. The Chapter 9 shared layout and 12px, 4px × 10px pill-button rule are used.
+- The route pins mūla `a7bbc6caa7ee28d3d75d6f9456d992db6332ec55`, numbered witness `2841ccbfc130847647e3d5ee79fb0ad1a35c44c8`, Śrīdhara commentary `e6b9f9ef491aa3499298ba96d5db798fe9daff52`, and English reference `2820b451c83faff48d6494a1ee86c1979051f5c1`, all from upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`. Corrections restore 2.7.1 `śrīmaitreya uvāca`, .9 `saptarṣi`, .12 `kalpavāsinaḥ`, .16 `bhūrlokaḥ`, .28 `cetanātmātma-vedanaḥ`, .29 `sarvabhūtātmabhūtayā`, .34 `putrāṇām`, .35 `naivāsti`, .37 `patrāṅkurau`, and .41 `caitac`, alongside the restored Maitreya vocatives and removal of duplicated verse-number suffixes. The route note records .5 `śaśinaḥ/śaśinā`, .31 `jale/chale`, .32 `pādapaḥ/pādayoḥ`, and .34 `surādayaḥ/asurādayaḥ` variants.
+- Book 1 markers remain 1,407/1,407, with older panels under semantic audit. Book 2 markers now total 725/787; the remaining gaps are in Chapters 8 and 13 (32 and 30).
+
+This release completes Book 2 Chapter 7 only; the rest of Books 1–2 remains in progress.
