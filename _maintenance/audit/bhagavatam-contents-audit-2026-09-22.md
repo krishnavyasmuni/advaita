@@ -19,7 +19,7 @@ Every public chapter listed above has a corresponding chapter-level checkpoint o
 - Canto 1 phrase-level word-for-word gaps identified in the audit were repaired; remaining one-word entries are legitimate single-source terms or explicit source gaps.
 - Canto 2’s existing checkpoint ranges were rechecked; no under-specified non-commentary word-for-word defect was found in the currently published data.
 - Canto 10 chapters 1–38 were structurally rechecked: 1491 rows, 0 placeholders, 645 explicit source-gap rows, and one legitimate single-source-word entry (10.2.4). The previously under-specified multiword rows in 10.1, 10.4, and 10.38 were repaired.
-- Canto 11’s full 1267-row repair audit is closed in `audit/canto11/batched-audit-2026-09-22.md`; copied generic gloss arrays were replaced with source-specific pairs, and explicit source gaps were preserved.
+- Canto 11’s full 1267-row repair audit is closed in `canto11/batched-audit-2026-09-22.md`; copied generic gloss arrays were replaced with source-specific pairs, and explicit source gaps were preserved.
 
 ## Chapter 38 validation
 

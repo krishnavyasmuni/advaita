@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 import re
 from urllib.request import Request, urlopen
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 DATA=ROOT/'assets/data'
 PIN='100560de6c9f68c2875097d40a2012a84c784179'
 
@@ -46,7 +46,7 @@ def run():
     d['editorial_note']=(d.get('editorial_note','')+' Corrected the previously unrelated 11.31.2 glosses; other verses remain unaudited for complete word coverage.').strip()
     save(p,d)
 
-    readme=ROOT/'BHAGAVATAM_COMPLETION_README.md'
+    readme=ROOT/'.github/docs/BHAGAVATAM_COMPLETION.md'
     body=readme.read_text()
     if 'canto_11_audit_status: COMPLETE' in body:
         body=body.replace('canto_11_audit_status: COMPLETE','canto_11_audit_status: FAILED_FULL_VERIFICATION',1)
@@ -55,7 +55,7 @@ def run():
     if 'latest_release_status: LIVE_VERIFIED' in body:
         body=body.replace('latest_release_status: LIVE_VERIFIED','latest_release_status: RETRACTED_PENDING_FULL_VERIFICATION',1)
     title='# Vivekadrishti Śrīmad-Bhāgavatam with Śrīdhara Bhāṣya — Completion Workflow'
-    note=('\n\n> **Canto 11 status correction (2026-09-20):** The previous COMPLETE/LIVE_VERIFIED labels were not supported by a full verse-by-verse comparison. See [the deterministic mapping audit](audit/canto11/automated-summary.md) and [the evidentiary review](BHAGAVATAM_CANTO11_AUDIT_2026-09-20.md). All 31 chapters remain under verification. In particular, the pinned 11.23 numbering differs from the displayed VedaBase mirror from the mid-chapter onward. Do not reassert completion from file counts or this historical snapshot.\n')
+    note=('\n\n> **Canto 11 status correction (2026-09-20):** The previous COMPLETE/LIVE_VERIFIED labels were not supported by a full verse-by-verse comparison. See [the deterministic mapping audit](../../_maintenance/audit/canto11/automated-summary.md) and [the evidentiary review](BHAGAVATAM_CANTO11_AUDIT_2026-09-20.md). All 31 chapters remain under verification. In particular, the pinned 11.23 numbering differs from the displayed VedaBase mirror from the mid-chapter onward. Do not reassert completion from file counts or this historical snapshot.\n')
     assert title in body
     if 'Canto 11 status correction (2026-09-20)' not in body:body=body.replace(title,title+note,1)
     readme.write_text(body)
@@ -66,6 +66,6 @@ def run():
     new='Chapter 2 files include gloss records through verse 55, but their exhaustive word-for-word accuracy remains under review; verse 3 has no separate Śrīdhara explanation in the pinned source.'
     assert old in page
     html.write_text(page.replace(old,new,1))
-    print('Corrected 11.11.1, 11.12.1–2 attribution, 11.31.2, README status, and the stale Canto 11 source note.')
+    print('Corrected 11.11.1, 11.12.1–2 attribution, 11.31.2, completion guide status, and the stale Canto 11 source note.')
 
 if __name__=='__main__':run()

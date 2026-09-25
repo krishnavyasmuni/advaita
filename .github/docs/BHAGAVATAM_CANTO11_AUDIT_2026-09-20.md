@@ -3,7 +3,7 @@
 **Date:** 2026-09-20  
 **Repository:** `krishnavyasmuni/vivekadrishti`, `main`  
 **Pinned Sanskrit witness:** [`vishvAsa/purANam_vaiShNavam`, commit `100560de6c9f68c2875097d40a2012a84c784179`](https://github.com/vishvAsa/purANam_vaiShNavam/tree/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11)  
-**Requirement:** [`BHAGAVATAM_COMPLETION_README.md`](BHAGAVATAM_COMPLETION_README.md)
+**Requirement:** [`BHAGAVATAM_COMPLETION.md`](BHAGAVATAM_COMPLETION.md)
 
 ## Scope and conclusion
 
@@ -13,9 +13,9 @@ This is a **chapter-by-chapter first-record and architecture audit**, supplement
 
 ## Actual rendering path
 
-1. [`assets/js/bhagavatam-sridhara-reader.js`](assets/js/bhagavatam-sridhara-reader.js) obtains the main verse Devanāgarī, transliteration, English and synonyms from the VedaBase English mirror; it separately parses Śrīdhara Sanskrit from the pinned ViśvAsa Markdown. It retrieves [`assets/data/bhagavatam-sridhara-english-checkpoints.json`](assets/data/bhagavatam-sridhara-english-checkpoints.json) for English commentary.
-2. **Correction to an initial inspection:** [`assets/js/bhagavatam-sridhara-clarity.js`](assets/js/bhagavatam-sridhara-clarity.js) DOES load the Canto 11 local WFW JSON files and inserts a separate Śrīdhara section into the word-for-word panel. Its `ensureCommentary` adds local `literal_english` only if there is not already a commentary panel; an existing checkpoint translation therefore takes precedence. The poor local WFW entries are not merely unused artifacts.
-3. [`articles/srimad-bhagavatam-canto-11-sridhara-svami/index.html`](articles/srimad-bhagavatam-canto-11-sridhara-svami/index.html) includes both scripts. Its visible source note still says Chapter 2 commentary glosses only cover 1–34, although the clarity script now lists a 35–55 data file: the note is stale.
+1. [`assets/js/bhagavatam-sridhara-reader.js`]../../assets/js/bhagavatam-sridhara-reader.js) obtains the main verse Devanāgarī, transliteration, English and synonyms from the VedaBase English mirror; it separately parses Śrīdhara Sanskrit from the pinned ViśvAsa Markdown. It retrieves [`assets/data/bhagavatam-sridhara-english-checkpoints.json`]../../assets/data/bhagavatam-sridhara-english-checkpoints.json) for English commentary.
+2. **Correction to an initial inspection:** [`assets/js/bhagavatam-sridhara-clarity.js`]../../assets/js/bhagavatam-sridhara-clarity.js) DOES load the Canto 11 local WFW JSON files and inserts a separate Śrīdhara section into the word-for-word panel. Its `ensureCommentary` adds local `literal_english` only if there is not already a commentary panel; an existing checkpoint translation therefore takes precedence. The poor local WFW entries are not merely unused artifacts.
+3. [`articles/srimad-bhagavatam-canto-11-sridhara-svami/index.html`]../../articles/srimad-bhagavatam-canto-11-sridhara-svami/index.html) includes both scripts. Its visible source note still says Chapter 2 commentary glosses only cover 1–34, although the clarity script now lists a 35–55 data file: the note is stale.
 4. The displayed **main verse** Devanāgarī is taken from the English mirror, not extracted from the pinned ViśvAsa main verse. A comparison with the pinned witness is therefore still necessary; this statement is about provenance, **not** a finding of textual divergence in every verse.
 
 ## Chapter-by-chapter first-record audit

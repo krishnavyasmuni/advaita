@@ -11,7 +11,7 @@ Complete and semantically audit all 126 Viṣṇu Purāṇa chapter routes (6,40
 - Never publish a partial chapter or overwrite a newer branch state.
 - Work quickly by batching remote source reads and validation; accuracy has no artificial time limit.
 - Do not alter unrelated pages, scripts, styling, or the Bhagavatam project files.
-- Update the README and audit ledger in the same chapter release. Publish the chapter immediately after all checks pass.
+- Update the guide and audit ledger in the same chapter release. Publish the chapter immediately after all checks pass.
 
 ## Reverse release order
 
@@ -46,13 +46,13 @@ A visible control does not prove that its content is complete. Check the semanti
 
 ## Fast, safe chapter release
 
-1. Read current branch head and current target-file SHA; fetch chapter Sanskrit, Śrīdhara, English cross-checks, README, audit ledger, and Contents page in parallel.
+1. Read current branch head and current target-file SHA; fetch chapter Sanskrit, Śrīdhara, English cross-checks, guide, audit ledger, and Contents page in parallel.
 2. Establish source verse count, verse boundaries, textual variants, and Śrīdhara-to-verse alignment once in memory.
 3. Complete every verse from the final verse backwards. Use one stable page template; preserve existing typography and controls.
 4. Validate verse IDs/count, Sanskrit and translation coverage, every WFW lexical row, IAST-to-Devanāgarī correspondence, Śrīdhara coverage, exact no-commentary states, working native `details/summary` controls, source note, and balanced HTML.
 5. Confirm the chapter route already appears in the dynamic Contents list. Change the Contents file only if its actual link is missing or broken.
-6. Create one atomic chapter-specific commit containing the chapter, this README, and audit ledger. Update `main` only as a fast-forward from the freshest observed head.
-7. Fetch the committed chapter, README, audit ledger, and commit metadata again. Confirm exact content and checksums; then immediately begin the next chapter in the reverse sequence.
+6. Create one atomic chapter-specific commit containing the chapter, this guide, and audit ledger. Update `main` only as a fast-forward from the freshest observed head.
+7. Fetch the committed chapter, guide, audit ledger, and commit metadata again. Confirm exact content and checksums; then immediately begin the next chapter in the reverse sequence.
 
 Batch checks and report only meaningful findings to keep the loop fast. If a witness conflict is unresolved, state the exact verse and do not mark that chapter complete.
 
@@ -68,7 +68,7 @@ Batch checks and report only meaningful findings to keep the loop fast. If a wit
 | 6 | 498 | 64 | 434 |
 | **Total** | **6,400** | **3,565** | **2,835** |
 
-These are the 2026-09-22 full-corpus audit totals with the verified 6.8 release added: 64 main WFW articles. They do not certify the remaining verses or imply that the whole Purāṇa is finished. The chapter-level audit in `audit/vishnu-purana-wfw-audit-2026-09-22.md` records the baseline and this incremental update.
+These are the 2026-09-22 full-corpus audit totals with the verified 6.8 release added: 64 main WFW articles. They do not certify the remaining verses or imply that the whole Purāṇa is finished. The chapter-level audit in `_maintenance/audit/vishnu-purana-wfw-audit-2026-09-22.md` records the baseline and this incremental update.
 
 | Current release | Verified chapter state |
 |---|---|

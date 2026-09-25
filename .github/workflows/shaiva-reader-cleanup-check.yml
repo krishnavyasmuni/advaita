@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Check real manuscript data, reader, and update README
+      - name: Check real manuscript data, reader, and update design guide
         run: |
           node --check assets/js/shaiva-complete-reader.js
           python3 - <<'PY'
@@ -34,8 +34,8 @@ jobs:
           assert len(pages)==52 and sum(bool(p) for p in pages)==50
           assert sum(b[0]=='table' for p in pages for b in p)==20
           assert sum(len(b[1]) for p in pages for b in p if b[0]=='table')==67
-          readme=root/'README.md'
-          text=readme.read_text(encoding='utf-8')
+          guide=root/'.github/docs/SITE_GUIDE.md'
+          text=guide.read_text(encoding='utf-8')
           old='and displays source-derived bilingual rows as paired Sanskrit toggles followed immediately by their English translations.'
           new='and displays source-derived bilingual rows as paired Sanskrit passages followed immediately by their English translations, with **one compact Show Sanskrit / Hide Sanskrit control per section** rather than a button for every row. The choice persists between sections.'
           assert old in text or new in text
@@ -48,10 +48,10 @@ jobs:
           note='**Reader UI correction (2026-09-21):** The original button-per-passage layout was crowded. Keep only the single section-level Sanskrit control; no repeated visible PDF-page banners between paragraphs. Keep source-page anchors and the unobtrusive source-page range at the end of each section. Use the actual Varṇa-vicāra stylesheet and review visual appearance rather than treating a no-overflow test as proof of good design.\n\n'
           assert anchor in text
           if note not in text:text=text.replace(anchor,anchor+'\n\n'+note,1)
-          readme.write_text(text,encoding='utf-8')
-          print('PASS: 52 source pages, 50 populated, 20 bilingual tables, 67 paired rows; one section-level button; Varna CSS linked; README corrected')
+          guide.write_text(text,encoding='utf-8')
+          print('PASS: 52 source pages, 50 populated, 20 bilingual tables, 67 paired rows; one section-level button; Varna CSS linked; design guide checked')
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md
+          git add .github/docs/SITE_GUIDE.md
           git diff --cached --quiet || { git commit -m 'Document single-control Shaiva reader design and source checks'; git push; }

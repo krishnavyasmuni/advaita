@@ -182,7 +182,7 @@ It follows the Bhāgavatam contents layout:
 - all 18 chapter links;
 - no fabricated chapters or source records.
 
-The chapter names in the contents page must match the names array in assets/js/bhagavad-gita.js and the table in this README.
+The chapter names in the contents page must match the names array in assets/js/bhagavad-gita.js and the table in this guide.
 
 ## 9. Bhāgavatam contents page
 
@@ -202,7 +202,7 @@ The title strings are embedded in the contents page from the pinned Bhāgavatam 
 
 Use this workflow for any future Gītā repair:
 
-1. Read this README and the current Chapter 1 shell.
+1. Read this guide and the current Chapter 1 shell.
 2. Check the expected chapter number and verse count in the table.
 3. Fetch the current shell and current shared asset blobs before editing.
 4. Copy the Chapter 1 shell structure; change only the chapter number and subtitle.
@@ -212,7 +212,7 @@ Use this workflow for any future Gītā repair:
 8. Verify that every verse has exactly three control labels and one verse heading.
 9. Update all 18 shells’ cache-busting query when a shared asset changes.
 10. Commit the chapter/template change, wait for Pages, and browser-check a representative desktop and narrow viewport before calling it done.
-11. Update this README immediately if a source rule, exception, asset version, or validation invariant changes.
+11. Update this guide immediately if a source rule, exception, asset version, or validation invariant changes.
 
 For a shared renderer change, do not update only Chapter 1. The shared asset is used by all 18 shells, so all 18 cache-busted script references must move together.
 
@@ -260,11 +260,11 @@ The Gītā rollout is complete only when:
 - every card has Word-for-word, Transliteration, and Śrīdhara Sanskrit controls;
 - no grouped verse heading or fabricated per-verse translation appears;
 - every card has an English translation: exact Mukundananda where available, otherwise the pinned per-verse fallback;
-- traditional names agree across the renderer, contents page, shells, and README;
+- traditional names agree across the renderer, contents page, shells, and guide;
 - the eight grouped word-meaning exceptions remain explicit;
 - Śrīdhara styling is readable and distinct from the Sanskrit verse;
 - the Bhāgavatam contents page has only the currently published Cantos 1, 2, and 11, with named chapters inside closed accordions;
-- the README is updated in the same rollout;
+- the guide is updated in the same rollout;
 - Pages has rebuilt and representative desktop/narrow browser checks pass.
 
 

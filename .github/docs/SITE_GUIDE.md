@@ -2,9 +2,9 @@
 
 **Current Śaiva article design:** The owner explicitly requires the complete Śaiva article to use the design of [`Varṇa-vicāra`](https://krishnavyasmuni.github.io/vivekadrishti/articles/varna-vicara/). Follow the specific contract below; it supersedes the older provisional Śaiva styling notes in §8. The content-fidelity rules in this handbook still apply.
 
-**Purpose:** This is the repository-wide handoff contract for any document the owner supplies for publication or repair, including PDF, DOCX, ODT, Markdown, HTML, text, scans, manuscripts, Sanskrit/English editions, and existing web articles. **Read this entire README before working on an uploaded document.** It is a procedure, not a claim that every existing article has already passed inspection.
+**Purpose:** This is the repository-wide handoff contract for any document the owner supplies for publication or repair, including PDF, DOCX, ODT, Markdown, HTML, text, scans, manuscripts, Sanskrit/English editions, and existing web articles. **Read this entire guide before working on an uploaded document.** It is a procedure, not a claim that every existing article has already passed inspection.
 
-**Priority:** Explicit instructions for the particular document take precedence over defaults here. This handbook governs document/article ingestion, recovery, formatting, and quality assurance. Existing corpus-specific rules remain in `GITA_COMPLETION_README.md`, `BHAGAVATAM_COMPLETION_README.md`, and `VISHNU_PURANA_COMPLETION_README.md`; consult them when working in those corpora. Never transplant a Gītā verse renderer or a commentary policy onto an independent essay without checking its structure.
+**Priority:** Explicit instructions for the particular document take precedence over defaults here. This handbook governs document/article ingestion, recovery, formatting, and quality assurance. Existing corpus-specific rules remain in `.github/docs/GITA_COMPLETION.md`, `.github/docs/BHAGAVATAM_COMPLETION.md`, and `.github/docs/VISHNU_PURANA_COMPLETION.md`; consult them when working in those corpora. Never transplant a Gītā verse renderer or a commentary policy onto an independent essay without checking its structure.
 
 **Core rule:** Preserve the actual source and make its *content and structure* readable. Making a broken paragraph smaller, splitting text by script, or passing a deployment check is **not** the same as repairing a document. No claim of “fully fixed,” “exact,” or “word-for-word verified” is permitted until the checks in §13 have passed for the whole source.
 
@@ -20,7 +20,7 @@
 ## 2. Start each job with discovery and a source inventory
 
 1. Identify the user-supplied file(s), links, current live URL, target repository, desired destination, and any exemplar. Do not substitute a similarly named online text for the actual upload. If the source is missing or cannot be opened, request that file; do not reconstruct a 50-page document from one screenshot.
-2. Determine whether this is **new publication**, **repair of an existing article**, or **revision to a previously published source**. Locate the actual article `index.html`, assets, build scripts, and applicable specialist README before editing. Use GitHub repository search and directory listing if the location is unknown; do not guess a path.
+2. Determine whether this is **new publication**, **repair of an existing article**, or **revision to a previously published source**. Locate the actual article `index.html`, assets, build scripts, and applicable specialist guide before editing. Use GitHub repository search and directory listing if the location is unknown; do not guess a path.
 3. Establish source authority and revision: exact file name, file format, page count (if paged), source/version/date if known, SHA-256 when local bytes are available, and any user-supplied errata. Preserve the original bytes in a safe source location when permission/storage allow; never overwrite the only copy.
 4. Inventory all pages and features **before** conversion. Note page ranges for front matter, sections, tables, verse blocks, footnotes, images, bibliography, appendices, and any pages that are scans or have poor extraction.
 5. Record the existing live URL and its current behavior, including `?section=` links, navigation, images, mobile view, and an example of the failure. Keep a baseline screenshot or a clear written record of what was broken; protect other published articles from regressions.
@@ -28,7 +28,7 @@
 
 ### Intake record (create one per document)
 
-Create `audit/documents/<slug>.md` or an equivalent clearly located record, and update it while working. Do not label a source verified merely because it has been uploaded.
+Create `_maintenance/audit/documents/<slug>.md` or an equivalent clearly located record, and update it while working. Do not label a source verified merely because it has been uploaded.
 
 ```yaml
 slug: example-slug
@@ -167,7 +167,7 @@ When integrating a new document, first see whether it is compatible with this ex
 
 ## 9. Repair workflow for an existing broken article
 
-1. Open the actual uploaded original and the current repository article. Read the applicable README, runtime, and stylesheet; document the defects across the **whole** article.
+1. Open the actual uploaded original and the current repository article. Read the applicable guide, runtime, and stylesheet; document the defects across the **whole** article.
 2. Build an exhaustive page/section map from the original, including every true table, pair of verse and translation, notes, figures, and trailing material. Compare against published DOM, not merely screenshots.
 3. Produce a list of damaged units and classify: **extraction error**, **wrong reading order**, **missing source**, **duplicated content**, **typographic problem**, **responsive problem**, **navigation/rendering regression**, or **uncertain source**.
 4. Repair from the *original source*, one unit at a time. For a damaged table, restore all its rows and source associations; for corrupted Sanskrit, inspect page image and verify glyphs; for prose, retain the author's actual text and paragraph boundaries. Never relabel guessed reconstruction as an exact transcription.
@@ -256,7 +256,7 @@ Status: COMPLETE / PARTIAL / BLOCKED
 
 ## 15. Instructions for the next AI assistant or maintainer
 
-When the owner provides a new document and says “fix this,” “publish this,” “make it like the doc,” or “use the README,” **start here**. Read the actual upload, its page images where relevant, the current repository article, and any relevant corpus README. Do not rely on a chat summary, a previous assistant's “done” claim, a search snippet, or a webpage screenshot as a substitute for the full source. Make the repair, test it, and report only what you have verified. Keep the owner's source and decisions authoritative; ask only for genuinely missing essential material. A later assistant should be able to repeat your comparison from the source inventory, structured content, audit ledger, and specific commit without having to guess how the article was reconstructed.
+When the owner provides a new document and says “fix this,” “publish this,” “make it like the doc,” or “use the guide,” **start here**. Read the actual upload, its page images where relevant, the current repository article, and any relevant corpus guide. Do not rely on a chat summary, a previous assistant's “done” claim, a search snippet, or a webpage screenshot as a substitute for the full source. Make the repair, test it, and report only what you have verified. Keep the owner's source and decisions authoritative; ask only for genuinely missing essential material. A later assistant should be able to repeat your comparison from the source inventory, structured content, audit ledger, and specific commit without having to guess how the article was reconstructed.
 
 
 ## Śaiva article: Varṇa-vicāra design contract (2026-09-21)

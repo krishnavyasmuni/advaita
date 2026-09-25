@@ -1,6 +1,6 @@
 # Vivekadrishti Śrīmad-Bhāgavatam with Śrīdhara Bhāṣya — Completion Workflow
 
-> **Canto 11 status correction (2026-09-20):** The previous COMPLETE/LIVE_VERIFIED labels were not supported by a full verse-by-verse comparison. See [the deterministic mapping audit](audit/canto11/automated-summary.md) and [the evidentiary review](BHAGAVATAM_CANTO11_AUDIT_2026-09-20.md). All 31 chapters remain under verification. In particular, the pinned 11.23 numbering differs from the displayed VedaBase mirror from the mid-chapter onward. Do not reassert completion from file counts or this historical snapshot.
+> **Canto 11 status correction (2026-09-20):** The previous COMPLETE/LIVE_VERIFIED labels were not supported by a full verse-by-verse comparison. See [the deterministic mapping audit](../../_maintenance/audit/canto11/automated-summary.md) and [the evidentiary review](BHAGAVATAM_CANTO11_AUDIT_2026-09-20.md). All 31 chapters remain under verification. In particular, the pinned 11.23 numbering differs from the displayed VedaBase mirror from the mid-chapter onward. Do not reassert completion from file counts or this historical snapshot.
 
 
 > **Project-wide audit correction (2026-09-22):** A fresh audit of every reader-linked data file found that the prior completion labels were too broad. Canto 3 initially contained 3,542 generated filler gloss rows (“contextual literal sense of …”) across 1,321 records; Canto 3.1–3.18 now have real IAST phrase-level word-for-word pairs; Canto 3.5, 3.6 and 3.18 retain explicit pinned-source gaps; 1,729 generated filler rows remain to repair in Canto 3; the un-wired Canto 4 cache contains 3,216 such rows across 1,104 records; Canto 11 still requires full verse alignment verification; and Canto 10 has now been rechecked: six intact missing ranges were repaired, while four corrupt pinned-source rows remain explicitly tracked as source gaps (10.64.13, 10.68.30, 10.68.32, 10.77.34). Canto 12 passes the structural/source audit. These cantos must not be called complete or released until their real Sanskrit-first glosses are supplied and re-verified.
@@ -46,7 +46,7 @@ Before editing:
 The exact continuation instruction is:
 
 ~~~text
-Read BHAGAVATAM_COMPLETION_README.md first. Inspect the current GitHub tip,
+Read BHAGAVATAM_COMPLETION.md first. Inspect the current GitHub tip,
 Contents page, reader manifest, source paths, and progress data. Find the first
 chapter that is not fully source-checked, schema-valid, committed, and
 post-commit verified. Finish that one chapter only. Use Wisdomlib as a
