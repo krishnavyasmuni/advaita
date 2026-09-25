@@ -221,4 +221,13 @@ This release completes Book 2 Chapter 8 only; the rest of Books 1–2 remains in
 - Chapter 13 is complete on `main`: 104/104 verses have a full main-text Word-for-word list and 1,180 paired Devanāgarī/IAST/contextual-gloss rows. Thirty controls were added, 74 expanded, and all 95 legacy `.wfw-map` blocks were preserved byte-for-byte.
 - All 104 translations and commentary-state sections remain unchanged, including 16 “No commentary” notices. All 104 main transliterations match the displayed Sanskrit, including speaker cues.
 - The Chapter 9 shared stylesheets and 12px, 4px × 10px pill-button rule are used. The source note pins the mūla, numbered witness, Śrīdhara, and English references at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05` (mūla blob `3e329eddcc6a5434b6c18a570defaf1f66ad8262`; numbered witness `aa6bd83e979204fefe5f009fd44152ba0db6f637`; Śrīdhara `c9e67fabf4c668dda27c7adc9aee8023f86eb041`; English `055a9219c51cf27ac8154b3025b85dff43898bb9`). Corrections follow the numbered witness at 2.13.9, .11, .20, .23–.24, .29, .35, .44, .47–.50, .58, .61, .64, .70, .73–.77, .85, and .89–.104. The .92–.96 sequence was restored and .89 corrected to singular `piṇḍaḥ`; duplicate verse-number/footnote artifacts were removed.
-- Book 2 marker coverage is now 787/787. Book 1 remains at 1,407/1,407 markers; older panels outside reviewed releases still need semantic audit, so the marker totals do not establish completion.
+- Word-for-word display coverage is now complete across Books 1 and 2: Book 1 has 1,407/1,407 verse panels, and Book 2 has 787/787. These counts establish panel coverage, not full semantic review of inherited glosses.
+
+
+## User-directed Books 1–2 Word-for-word layout completion — 2026-09-25
+
+- Book 1: 1,407/1,407 verse panels; 5,615 rows added across 12 migrated pages.
+- Book 2: 787/787 verse panels; this release adds 2,407 rows to 378 verses across Chapters 2, 3, 5, 6, 9, 10, 11, 12, 14, 15, and 16. Chapters 10 and 11 have per-token rows from corrected displayed Sanskrit; remaining migrated chapters carry forward source-map phrase groupings.
+- All migrated pages use the Chapter 9 shared stylesheet and its 12px, 4px × 10px pill-button rule. English translations, Śrīdhara sections, and “No commentary” notices remain unchanged; the Śrīdhara maps were preserved.
+- Numbered-witness source corrections in Chapters 10–11 are recorded in the completion README at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05` (Chapter 10 blob `99f8bf9ee439a9c9dd954ab575db1feb819a8ff6`; Chapter 11 blob `fb0af6e5edb8cf611ee4dc4da090421d24fec88e`).
+- Layout coverage is complete for Books 1–2; inherited phrase-level glosses outside the per-token-reviewed pages remain candidates for a separate semantic audit.

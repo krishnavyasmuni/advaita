@@ -227,4 +227,13 @@ Book 2 Chapter 13 is complete on `main`: all 104 verses now have Chapter 9-style
 
 The page uses the Chapter 9 shared stylesheets and `gita-details`, `gita-word-list`, and `gita-word-row` layout, including the 12px, 4px × 10px pill-button rule. Its source note pins the mūla text blob `3e329eddcc6a5434b6c18a570defaf1f66ad8262`, chapter mūla `39d8e72df251267d3f7699ac39a6c0318d28f182`, numbered witness `aa6bd83e979204fefe5f009fd44152ba0db6f637`, Śrīdhara source `c9e67fabf4c668dda27c7adc9aee8023f86eb041`, and English reference `055a9219c51cf27ac8154b3025b85dff43898bb9`, all at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`. Source-backed display corrections include 2.13.9, .11, .20, .23–.24, .29, .35, .44, .47–.50, .58, .61, .64, .70, .73–.77, .85, and .89–.104; the restored .92–.96 sequence and the singular .89 `piṇḍaḥ` follow the numbered witness. Stray verse-number/footnote artifacts were removed from the Sanskrit display.
 
-Book 2 Word-for-word marker coverage is now 787/787. Book 1 remains 1,407/1,407 markers. Older panels outside the reviewed releases still require verse-level semantic audit; these presence totals are not completion counts.
+Word-for-word display coverage is now complete across Books 1 and 2: Book 1 has 1,407/1,407 verse panels, and Book 2 has 787/787. Panel coverage records the presence of the layout; it does not by itself certify every inherited gloss.
+
+
+## User-directed Books 1–2 Word-for-word layout completion — 2026-09-25
+
+- Book 1 is complete at 1,407/1,407 verse panels. The Book 1 migration added 5,615 Devanāgarī/IAST/gloss rows across its 12 updated pages.
+- Book 2 is complete at 787/787 verse panels. This release migrated 378 verses from Chapters 2, 3, 5, 6, 9, 10, 11, 12, 14, 15, and 16 into 2,407 rows. Chapters 10 and 11 use one aligned row per corrected displayed Sanskrit token; the other chapters retain the legacy source-map phrase groupings in the new row layout.
+- The Chapter 9 shared styles remain in use, including 12px button text and 4px × 10px pill padding. English translations, Śrīdhara sections, and “No commentary” notices were checked unchanged; Śrīdhara map blocks were preserved.
+- Chapter 10/11 Sanskrit corrections follow the numbered witness at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05` (Chapter 10 blob `99f8bf9ee439a9c9dd954ab575db1feb819a8ff6`; Chapter 11 blob `fb0af6e5edb8cf611ee4dc4da090421d24fec88e`). Corrections are 2.10.11–.12, .20–.21, .23 and 2.11.1, .4, .6, .15, .18.
+- This completes the requested Word-for-word layout coverage. Inherited phrase-level source mappings outside the per-token-reviewed pages still need a separate verse-by-verse semantic audit.
