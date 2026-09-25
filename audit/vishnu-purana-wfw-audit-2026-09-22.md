@@ -158,3 +158,13 @@ Structural panel status at the Chapter 16 release: Book 1 had 959/1,407 markers 
 - Book 1 focused panel markers after this release: 1,255/1,407 (152 gaps); Chapters 11 and 12 account for the remaining 57 and 95 markers. Book 2 remains at 710/787 (77 gaps in Chapters 1, 4, 7, 8, and 13). Existing panels outside the reviewed chapters still need semantic audit.
 
 This release completes Chapter 13 only; it does not mark the rest of Books 1–2 complete.
+
+
+## User-directed Books 1–2 focus — Chapter 12 release — 2026-09-25
+
+- Book 1 Chapter 12 is complete on `main`: 103/103 verse articles, 1,127 paired Devanāgarī/IAST/contextual-gloss rows, 103 Word-for-word controls, 103 translation paragraphs, and 103 transliteration controls. Main IAST matches the displayed Sanskrit, including speaker labels. The Chapter 9 `gita-details`, `gita-word-list`, and `gita-word-row` layout and shared 12px/4px × 10px button rule are used.
+- Ninety-five main-text panels were added; all eight pre-existing partial main maps were rebuilt. All 51 existing Śrīdhara Word-for-word panels were preserved, including nine Śrīdhara legacy maps. All 59 commentary panels and 44 no-commentary states remain accounted for.
+- The page pins mūla `1dd25be195442a479c767095ef6f633dad78a193`, numbered witness `bf008fc3238907d9f08f6ab96f4725cc35c5e63d`, Śrīdhara text `eb3062a4dfb9f98ebd822f334fcb7a6ee8c7a475`, commentary `a3662e00f307c22a82ece6dc30d1f71602876704`, and English reference `0855626556bb082b4005e43e0d2b4af0b32566b4`, all at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`. The page restores mūla/numbered 1.12.19 omitted by Śrīdhara, renumbers matprīti and the maternal warning to .20 and .21, and records the .21 `api/iha` variant, .13/.15 variants, the .20 `mā mohaṃ nivartyāsmāt` normalization, and corrections at .43/.102.
+- Book 1 focused markers after this release: 1,350/1,407 (57 gaps, all at 1.11). Book 2 remains 710/787 (77 gaps in Chapters 1, 4, 7, 8, and 13). Panels on other chapters still need semantic review.
+
+This release completes Chapter 12 only; it does not mark the rest of Books 1–2 complete.
