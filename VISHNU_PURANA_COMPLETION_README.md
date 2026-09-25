@@ -96,16 +96,16 @@ Chapter 18 wording refinement: the 1.18.33 lexical rows now separate `hṛdi ās
 
 The owner requested completion of the word-for-word layer in Viṣṇu Purāṇa Books 1 and 2 and a reader-style pass based on Bhagavad Gītā Chapter 9. The Chapter 9 fonts and exact 12px pill controls (4px × 10px padding) are linked from all 22 Book 1 and 16 Book 2 chapter pages.
 
-After the Chapter 15 release, Book 1 has a main-text WFW panel marker on 1,113/1,407 verses; Book 2 remains at 710/787. Chapters 21, 20, 19, 16, and 15 added 14, 39, 86, 16, and 154 panel markers, respectively; Chapter 15 now has a reviewed lexical map on all 156 verses. A visible marker alone does not certify a correct lexical map; semantic coverage remains open for the other chapters.
+After the Chapter 14 release, Book 1 has a main-text WFW panel marker on 1,161/1,407 verses; Book 2 remains at 710/787. Chapters 21, 20, 19, 16, 15, and 14 added 14, 39, 86, 16, 154, and 48 panel markers, respectively; Chapters 15 and 14 now have reviewed lexical maps on all 156 and 49 verses. A visible marker alone does not certify a correct lexical map; semantic coverage remains open for the other chapters.
 
 | Book | Verse articles | Main-text panel markers | No marker |
 |---|---:|---:|---:|
-| 1 | 1,407 | 1,113 | 294 |
+| 1 | 1,407 | 1,161 | 246 |
 | 2 | 787 | 710 | 77 |
 
 Outstanding panel gaps by chapter:
 
-- Book 1: Chapters 11 (57), 12 (95), 13 (94), and 14 (48); total 294.
+- Book 1: Chapters 11 (57), 12 (95), and 13 (94); total 246.
 - Book 2: Chapters 1 (8), 4 (5), 7 (2), 8 (32), and 13 (30); total 77.
 
 ### Book 1, Chapter 21 release
@@ -151,4 +151,13 @@ The page uses the Chapter 9 control classes and linked stylesheet, preserving th
 
 The source note pins the mūla text `39f12c475cf82e3363bcfaec28726f99a714e1fb`, numbered witness `a067d93fe25621fadffd7b3426e051c9b3b34746`, Śrīdhara text `e6eaf7dd0be0805a1294aa58041e7be83b3746be`, commentary `aa4555e1360e35a41a728ed89a8291938407fa27`, and English cross-check `23c8812f1479e5a043713c0c609835c884b8603d`, all at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`. Corrections against these witnesses include local 1.15.1 `āvavruḥ`, .2 `vātuṃ`/`ceṣṭituṃ`, .3 `tān dṛṣṭvā`, .7 `vārkṣeyī`, .71 `nṛṇām`, .72 `patnī`, .73 `Mārīṣām`, .98 `bhrātṛṇām`, .112 `varcasvī`, .123 `rudrās`, .131 `savitā`, .132 `āsan ye`, .140 `dityāḥ`, and .154 `matimān amatsarī`. Chapter 1.15.123’s translation now matches the 11 and 101 Rudra counts in the Sanskrit.
 
-Current focused panel-marker status: Book 1 1,113/1,407 (294 without markers); Book 2 710/787 (77 without markers). Book 1’s remaining marker gaps are Chapters 11–14: 57, 95, 94, and 48 verses. Book 2’s remaining gaps are Chapters 1, 4, 7, 8, and 13: 8, 5, 2, 32, and 30 verses. Existing panels outside the reviewed chapters still need semantic audit.
+Marker status at the Chapter 15 release: Book 1 was 1,113/1,407 (294 without markers); Book 2 was 710/787 (77 without markers). Book 1’s gaps then were Chapters 11–14: 57, 95, 94, and 48 verses. Book 2’s gaps were Chapters 1, 4, 7, 8, and 13: 8, 5, 2, 32, and 30. Existing panels outside the reviewed chapters still need semantic audit.
+
+
+## User-directed Books 1–2 focus — Chapter 14 release — 2026-09-25
+
+Book 1 Chapter 14 is complete and read back on `main`. All 49 verse articles now have Chapter 9-style word-for-word controls and 524 paired Devanāgarī/IAST/gloss rows, along with all 49 translation paragraphs and transliteration controls. Forty-eight main-text panel markers were added, and the pre-existing partial main map at 1.14.26 was rebuilt. The 30 existing Śrīdhara word-for-word panels were retained.
+
+The page uses the same `gita-details`, `gita-word-list`, and `gita-word-row` controls and Chapter 9 stylesheet as the other completed pages. The source note pins the mūla text `b70ca85ceaf9772668984598bc271f6ddb6dd36b`, numbered witness `a8545db2876fd82a27eeec2a3b143f4476f89952`, Śrīdhara text `d27c4b41afa15ee48cdb2994d0a89edb073cd1c2`, commentary `3beda04bc7be41e7675d8e4290e197c426f3249c`, and English cross-check `5bbe3aea66167c13420b817c79061fe4d515c697`, all at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`. Text corrections follow the mūla at local 1.14.4 `vistṛtā`, .5 `tamasaḥ`, .10 `tat`, and .47 `vriyatām īpsito`; clear transcription fixes include .26 `bhujyate`, .30 `mukhaṃ`, and .32 `anantamūrtimān ca śuddhaḥ`. At .26, the page retains the numbered-witness reading `jīvabhūtaḥ` against the mūla’s bracketed variant `jīva-bījabhūtaḥ`.
+
+Current focused marker status: Book 1 1,161/1,407 (246 without markers); Book 2 remains at 710/787 (77 without markers). Book 1’s remaining marker gaps are Chapters 11–13: 57, 95, and 94 verses. Book 2’s gaps are Chapters 1, 4, 7, 8, and 13: 8, 5, 2, 32, and 30 verses. Present panels outside the reviewed chapters still need semantic audit.
