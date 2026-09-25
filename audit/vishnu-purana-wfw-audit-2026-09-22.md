@@ -177,3 +177,12 @@ This release completes Chapter 12 only; it does not mark the rest of Books 1–2
 - Book 1 focused marker count after this release: 1,407/1,407. Book 2 remains 710/787, with 77 gaps in Chapters 1, 4, 7, 8, and 13. Existing panels in other Book 1 chapters still need semantic review.
 
 This release completes Chapter 11 only; it does not mark the rest of Books 1–2 complete.
+
+## User-directed Books 1–2 focus — Book 2, Chapter 1 release — 2026-09-25
+
+- Book 2 Chapter 1 is complete on `main`: 43/43 verse articles now have main-text Word-for-word panels, 480 paired Devanāgarī/IAST/contextual-gloss rows, 43 Word-for-word controls, 43 translation paragraphs, and 43 transliteration controls. Main IAST matches the displayed Sanskrit. The Chapter 9 layout and shared 12px/4px × 10px button rule are used.
+- Eight controls were added and 35 existing controls were augmented with complete rows. All 49 legacy maps and Śrīdhara notes were retained. All 43 commentary sections remain accounted for, including eight “No commentary” notices.
+- The page pins mūla `35e04e5d71462f8e5449e4a734c638bfb95ba174`, numbered witness `8d338951fb5c5c80c5d50d277875a43e544f2ac0`, Śrīdhara source `444145de015c5746d9bf8bc31f88fbe191ce0be1`, and English reference `3da244428968d26b15dfc92ec323176cfd810b73`, all at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`. Corrections and the .10/.37 variants are recorded in the route source note.
+- Book 1 focused markers remain 1,407/1,407, with older panels still under semantic review. Book 2 focused markers now total 718/787 (69 gaps in Chapters 4, 7, 8, and 13).
+
+This release completes Book 2 Chapter 1 only; it does not mark the rest of Books 1–2 complete.
