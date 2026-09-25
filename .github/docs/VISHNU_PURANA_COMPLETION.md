@@ -68,7 +68,7 @@ Batch checks and report only meaningful findings to keep the loop fast. If a wit
 | 6 | 498 | 64 | 434 |
 | **Total** | **6,400** | **3,565** | **2,835** |
 
-These are the 2026-09-22 full-corpus audit totals with the verified 6.8 release added: 64 main WFW articles. They do not certify the remaining verses or imply that the whole Purāṇa is finished. The chapter-level audit in `_maintenance/audit/vishnu-purana-wfw-audit-2026-09-22.md` records the baseline and this incremental update.
+These are the 2026-09-22 full-corpus audit totals with the verified 6.8 release added: 64 main WFW articles. They do not certify the remaining verses or imply that the whole Purāṇa is finished. The chapter-level audit in `.github/maintenance/audit/vishnu-purana-wfw-audit-2026-09-22.md` records the baseline and this incremental update.
 
 | Current release | Verified chapter state |
 |---|---|

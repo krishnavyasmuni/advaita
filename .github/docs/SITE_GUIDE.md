@@ -28,7 +28,7 @@
 
 ### Intake record (create one per document)
 
-Create `_maintenance/audit/documents/<slug>.md` or an equivalent clearly located record, and update it while working. Do not label a source verified merely because it has been uploaded.
+Create `.github/maintenance/audit/documents/<slug>.md` or an equivalent clearly located record, and update it while working. Do not label a source verified merely because it has been uploaded.
 
 ```yaml
 slug: example-slug

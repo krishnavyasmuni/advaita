@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 import re
 from urllib.request import Request, urlopen
-ROOT=Path(__file__).resolve().parents[3]
+ROOT=Path(__file__).resolve().parents[2]
 DATA=ROOT/'assets/data'
 PIN='100560de6c9f68c2875097d40a2012a84c784179'
 
@@ -55,7 +55,7 @@ def run():
     if 'latest_release_status: LIVE_VERIFIED' in body:
         body=body.replace('latest_release_status: LIVE_VERIFIED','latest_release_status: RETRACTED_PENDING_FULL_VERIFICATION',1)
     title='# Vivekadrishti Śrīmad-Bhāgavatam with Śrīdhara Bhāṣya — Completion Workflow'
-    note=('\n\n> **Canto 11 status correction (2026-09-20):** The previous COMPLETE/LIVE_VERIFIED labels were not supported by a full verse-by-verse comparison. See [the deterministic mapping audit](../maintenance/audit/canto11/automated-summary.md) and [the evidentiary review](BHAGAVATAM_CANTO11_AUDIT_2026-09-20.md). All 31 chapters remain under verification. In particular, the pinned 11.23 numbering differs from the displayed VedaBase mirror from the mid-chapter onward. Do not reassert completion from file counts or this historical snapshot.\n')
+    note=('\n\n> **Canto 11 status correction (2026-09-20):** The previous COMPLETE/LIVE_VERIFIED labels were not supported by a full verse-by-verse comparison. See [the deterministic mapping audit](../../_maintenance/audit/canto11/automated-summary.md) and [the evidentiary review](BHAGAVATAM_CANTO11_AUDIT_2026-09-20.md). All 31 chapters remain under verification. In particular, the pinned 11.23 numbering differs from the displayed VedaBase mirror from the mid-chapter onward. Do not reassert completion from file counts or this historical snapshot.\n')
     assert title in body
     if 'Canto 11 status correction (2026-09-20)' not in body:body=body.replace(title,title+note,1)
     readme.write_text(body)

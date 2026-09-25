@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Conservative Canto 11 mapping audit. Flags are NOT linguistic certification.
-Run from the repository root: python .github/maintenance/scripts/audit_bhagavatam_canto11.py
+Run from the repository root: python _maintenance/scripts/audit_bhagavatam_canto11.py
 Requires Python 3 stdlib and network access to GitHub's pinned public raw files.
 """
 from collections import Counter, defaultdict
@@ -12,7 +12,7 @@ import re
 import unicodedata
 from urllib.request import Request, urlopen
 
-ROOT = Path(__file__).resolve().parents[3]
+ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / '_maintenance' / 'audit' / 'canto11'
 PIN = '100560de6c9f68c2875097d40a2012a84c784179'
 M = json.loads((ROOT / 'assets/data/bhagavatam-sridhara-reader-manifest.json').read_text())
