@@ -215,3 +215,10 @@ This release completes Book 2 Chapter 7 only; the rest of Books 1–2 remains in
 - Book 1 focused markers remain 1,407/1,407, with older panels still under semantic audit. Book 2 markers now total 757/787; the remaining gap is Chapter 13 (30).
 
 This release completes Book 2 Chapter 8 only; the rest of Books 1–2 remains in progress.
+
+## User-directed Books 1–2 focus — Book 2, Chapter 13 release — 2026-09-25
+
+- Chapter 13 is complete on `main`: 104/104 verses have a full main-text Word-for-word list and 1,180 paired Devanāgarī/IAST/contextual-gloss rows. Thirty controls were added, 74 expanded, and all 95 legacy `.wfw-map` blocks were preserved byte-for-byte.
+- All 104 translations and commentary-state sections remain unchanged, including 16 “No commentary” notices. All 104 main transliterations match the displayed Sanskrit, including speaker cues.
+- The Chapter 9 shared stylesheets and 12px, 4px × 10px pill-button rule are used. The source note pins the mūla, numbered witness, Śrīdhara, and English references at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05` (mūla blob `3e329eddcc6a5434b6c18a570defaf1f66ad8262`; numbered witness `aa6bd83e979204fefe5f009fd44152ba0db6f637`; Śrīdhara `c9e67fabf4c668dda27c7adc9aee8023f86eb041`; English `055a9219c51cf27ac8154b3025b85dff43898bb9`). Corrections follow the numbered witness at 2.13.9, .11, .20, .23–.24, .29, .35, .44, .47–.50, .58, .61, .64, .70, .73–.77, .85, and .89–.104. The .92–.96 sequence was restored and .89 corrected to singular `piṇḍaḥ`; duplicate verse-number/footnote artifacts were removed.
+- Book 2 marker coverage is now 787/787. Book 1 remains at 1,407/1,407 markers; older panels outside reviewed releases still need semantic audit, so the marker totals do not establish completion.
