@@ -11671,7 +11671,7 @@
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch26-verses01-63.json?v=20260926-c3-ch26-source-restore-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch26-verses01-63.json?v=20260926-c3-ch26-source-restore-2"
       ],
       "records_checked": 72,
       "exact_sridhara_source_blocks": 57,
@@ -11686,24 +11686,19 @@
       "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-26",
-      "notes": "The pinned source contains 57 Śrīdhara commentary blocks and six explicit no-commentary entries. Restored source-exact Śrīdhara-only Sanskrit for all blocks, removed other commentators from this reader field, corrected grouped ranges 3.26.23–25 and 3.26.62–69, and completed the first independent translation/word-gloss batch for 3.26.1–10. Live rendering remains unverified.",
+      "notes": "The pinned source contains 57 Śrīdhara commentary blocks and six explicit no-commentary entries. Restored source-exact Śrīdhara-only Sanskrit for all blocks, removed other commentators from this reader field, corrected grouped ranges 3.26.23–25 and 3.26.62–69, and independently translated/glossed 19 source blocks through 3.26.43. Live rendering remains unverified.",
       "repaired_at": "2026-09-26",
-      "repair_note": "Compared every stored range with pinned source blob ebbe2b3712054ab23c8f419e6845fe2cf4941e2f. Replaced 27 false no-commentary placeholders with exact Śrīdhara passages, retained the six source no-commentary ranges, removed fabricated gloss rows, and translated/glossed 3.26.1–10. Forty-seven source commentary blocks still need independent English translations and word glosses.",
-      "translated_commentary_blocks": 10,
-      "untranslated_commentary_blocks": 47,
+      "repair_note": "Compared every stored range with pinned source blob ebbe2b3712054ab23c8f419e6845fe2cf4941e2f. Replaced 27 false no-commentary placeholders with exact Śrīdhara passages, retained six actual no-commentary ranges, removed fabricated gloss rows, and added independent English and word-glosses for 3.26.1–10, 3.26.23–26, 3.26.28–32, 3.26.34, and 3.26.43. Thirty-eight source commentary blocks still need translation and word glosses.",
+      "translated_commentary_blocks": 19,
+      "untranslated_commentary_blocks": 38,
       "translated_commentary_ranges": [
-        "3.26.1",
-        "3.26.2",
-        "3.26.3",
-        "3.26.4",
-        "3.26.5",
-        "3.26.6",
-        "3.26.7",
-        "3.26.8",
-        "3.26.9",
-        "3.26.10"
+        "3.26.1-10",
+        "3.26.23-26",
+        "3.26.28-32",
+        "3.26.34",
+        "3.26.43"
       ],
-      "word_for_word_pair_count": 54,
+      "word_for_word_pair_count": 92,
       "pseudo_word_for_word_pairs_remaining": 0
     },
     {
