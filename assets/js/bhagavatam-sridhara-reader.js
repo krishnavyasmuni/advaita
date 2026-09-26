@@ -646,7 +646,13 @@
       setStatus('Canto ' + canto + ', Chapter ' + chapter + ' loaded · ' + sourceMessage);
       requestAnimationFrame(() => shell.scrollIntoView({ block: 'start' }));
     } catch (error) {
-      loading.textContent = 'This chapter could not load: ' + error.message;
+      loading.replaceChildren(document.createTextNode('This chapter could not load: ' + error.message + ' '));
+      const fallback = document.createElement('a');
+      fallback.href = 'https://vedabase.io/en/library/sb/' + canto + '/' + chapter + '/advanced-view/';
+      fallback.target = '_blank';
+      fallback.rel = 'noopener noreferrer';
+      fallback.textContent = 'Open this chapter in Vedabase.';
+      loading.appendChild(fallback);
       loading.classList.add('sb-load-error');
       setStatus('Canto ' + canto + ', Chapter ' + chapter + ' could not be loaded.', true);
     }
