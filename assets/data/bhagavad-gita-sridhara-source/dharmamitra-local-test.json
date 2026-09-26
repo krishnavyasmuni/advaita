@@ -1,0 +1,16 @@
+{
+  "model": "chronbmm/sanskrit5-multitask",
+  "revision": "c0d2ada54f3d19903149425aa888a203601423f8",
+  "inputs": [
+    "eteṣāmeva sarvakarmahetutvamāha śarīreti",
+    "yathoktaiḥ pañcabhiḥ prārabhyamāṇaṃ karma triṣvevāntarbhāvyaśarīravāṅmanobhirityuktaṃ",
+    "śarīrādibhiryadyatkarma dharmya vā'dharmyaṃ vā karoti narastasya sarvasya karmaṇa ete pañca hetavaḥ",
+    "tatra sarvasminkarmaṇi ete pañca hetava ityevaṃ sati kevalaṃ nirupādhikamasaṅgamātmānaṃ tu yaḥ kartāraṃ paśyati"
+  ],
+  "outputs": [
+    "eteṣām_etad_PGM eva_eva_ sarva_sarva_Cp karma_karman_Cp hetu_hetu_Cp tvam_tva_SANe āha_ah_SPs3In śarīra_śarīra_Cp iti_iti_",
+    "yathā_yathā_ uktaiḥ_vac_PIPaNe pañcabhiḥ_pañcan_PINe prārabhyamāṇam_prārabh_SNPaPrNePv karma_karman_SNNe triṣu_tri_PLM eva_eva_ antar_antar_ bhāvya_bhāvay_GdCp śarīra_śarīra_Cp vāc_vāc_Cp manobhiḥ_manas_PINe iti_iti_ uktam_vac_SNPaNe",
+    "śarīra_śarīra_Cp ādibhiḥ_ādi_PINe yat_yad_SANe yat_yad_SANe karma_karman_SANe vā_vā_ adharmyam_adharmya_SANe vā_vā_ karoti_kṛ_SPr3In naraḥ_nara_SNM tasya_tad_SGNe sarvasya_sarva_SGNe karmaṇaḥ_karman_SGNe ete_etad_PNM pañca_pañcan_PNM hetavaḥ_hetu_PNM",
+    "tatra_tatra_ sarvasmin_sarva_SLNe karmaṇi_karman_SLNe ete_etad_PNM pañca_pañcan_PNM hetavaḥ_hetu_PNM iti_iti_ evam_evam_ sati_as_SLPaPrNe kevalam_kevala_SAM nirupādhikam_nirupādhika_SAM asaṅgam_asaṅga_SAM ātmānam_ātman_SAM tu_tu_ yaḥ_yad_SNM kartāram_kartṛ_SAM paśyati_dṛś_SPr3In"
+  ]
+}

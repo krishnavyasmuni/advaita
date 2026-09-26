@@ -1,0 +1,189 @@
+name: Review Shaiva and Varna rendered layouts
+on:
+  push:
+    paths:
+      - .github/workflows/shaiva-visual-review.yml
+      - articles/a-shaiva-lens-on-shiva-as-the-supreme-deity/index.html
+      - articles/a-shashtric-lens-of-varna-part-one/index.html
+      - assets/js/article-reader-paged.js
+      - assets/css/document-paged.css
+      - assets/css/varna-vicara-paged.css
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - name: Install browser QA dependencies
+        run: |
+          python3 -m pip install --user --quiet playwright
+          if ! command -v google-chrome >/dev/null && ! command -v chromium >/dev/null; then python3 -m playwright install chromium; fi
+      - name: Compare deployed Śaiva and Varṇa designs and every section
+        env:
+          PAGE_REVISION: ${{ github.event.workflow_run.head_sha || github.sha }}
+        run: |
+          mkdir -p /tmp/shaiva-qa
+          python3 - <<'PY'
+          import json,os,shutil,time
+          from pathlib import Path
+          from urllib.parse import quote
+          from playwright.sync_api import sync_playwright
+
+          out=Path('/tmp/shaiva-qa')
+          root='https://krishnavyasmuni.github.io/advaita/articles/'
+          revision=os.environ.get('PAGE_REVISION','')
+
+          def revision_url(url):
+            if not revision:
+              return url
+            return url+('&' if '?' in url else '?')+'rev='+quote(revision)
+
+          def wait_for_reader(page,url):
+            deadline=time.monotonic()+120
+            response=None
+            while time.monotonic()<deadline:
+              response=page.goto(url,wait_until='domcontentloaded',timeout=45000)
+              page.wait_for_timeout(1000)
+              ready=page.evaluate("document.body.classList.contains('document-paged-page') && !!document.querySelector('.page-context span')")
+              if response and response.status==200 and ready:
+                return response
+              time.sleep(5)
+            raise AssertionError('The published article reader did not finish deploying.')
+          
+          def style_of(page):
+            return page.evaluate("""() => {
+              const article=document.querySelector('.article');
+              const title=document.querySelector('.article-head h1');
+              return {
+                articleFont:getComputedStyle(article).fontFamily,
+                titleFont:getComputedStyle(title).fontFamily,
+                titleSize:getComputedStyle(title).fontSize,
+                titleColor:getComputedStyle(title).color
+              };
+            }""")
+
+          def check_page(browser,label,base,section,width,expected_title=None,expected_status=None,screenshot=None):
+            page=browser.new_page(viewport={'width':width,'height':900},device_scale_factor=1)
+            errors=[]
+            page.on('pageerror',lambda error,bucket=errors:bucket.append(str(error)))
+            url=base if section is None else base+'?section='+quote(section)
+            response=page.goto(revision_url(url),wait_until='domcontentloaded',timeout=45000)
+            page.wait_for_function("document.querySelector('.page-context span')?.textContent.includes('of ')")
+            page.wait_for_function("document.querySelector('#source-content h3')?.textContent.trim().length > 0")
+            data=page.evaluate("""() => ({
+              scrollWidth:document.documentElement.scrollWidth,
+              viewport:innerWidth,
+              section:document.querySelector('.page-context span')?.textContent.trim(),
+              heading:document.querySelector('#source-content h3')?.textContent.trim(),
+              articleFont:getComputedStyle(document.querySelector('.article')).fontFamily
+            })""")
+            data.update(site=label,requested=section,width=width,http=response.status if response else None,errors=errors,style=style_of(page))
+            article_text=page.locator('#source-content').inner_text().lower()
+            data['articleTextChars']=len(article_text)
+            if label=='shaiva':
+              for term in ['pdf','source document','popcultking','page 1','manuscript','loading manuscript']:
+                assert term not in article_text, f'Unexpected presentation label {term!r} in {section!r}'
+            assert data['http']==200
+            assert data['scrollWidth']<=width, f'Horizontal overflow: {data}'
+            assert not errors, f'Browser errors: {errors}'
+            assert data['articleTextChars']>0
+            if expected_title is not None:
+              assert data['heading']==expected_title, f'Wrong section: expected {expected_title!r}, got {data["heading"]!r}'
+            if expected_status is not None:
+              assert data['section']==expected_status, f'Wrong section status: {data["section"]!r}'
+            if screenshot:
+              page.screenshot(path=str(out/screenshot),full_page=False)
+            page.close()
+            return data
+
+          with sync_playwright() as playwright:
+            chrome=shutil.which('google-chrome') or shutil.which('chromium')
+            browser=playwright.chromium.launch(headless=True,executable_path=chrome) if chrome else playwright.chromium.launch(headless=True)
+            records=[]
+            varna_base=root+'varna-vicara/'
+            shaiva_base=root+'a-shaiva-lens-on-shiva-as-the-supreme-deity/'
+
+            homepage=browser.new_page(viewport={'width':1365,'height':900},device_scale_factor=1)
+            home_errors=[]
+            homepage.on('pageerror',lambda error,bucket=home_errors:bucket.append(str(error)))
+            home_response=homepage.goto(revision_url('https://krishnavyasmuni.github.io/advaita/'),wait_until='domcontentloaded',timeout=45000)
+            homepage.wait_for_load_state('networkidle',timeout=15000)
+            home=homepage.evaluate("""() => {
+              const title=document.querySelector('.hp-home h1');
+              const panel=document.querySelector('.hp-section-title');
+              return {
+                title:title?.textContent.trim(),
+                bodyFont:getComputedStyle(document.body).fontFamily,
+                bodyMargin:getComputedStyle(document.body).margin,
+                titleFont:title ? getComputedStyle(title).fontFamily : null,
+                titleSize:title ? getComputedStyle(title).fontSize : null,
+                panelBackground:panel ? getComputedStyle(panel).backgroundColor : null,
+                stylesheets:[...document.querySelectorAll('link[rel="stylesheet"]')].map(link=>link.href)
+              };
+            }""")
+            home['http']=home_response.status if home_response else None
+            home['errors']=home_errors
+            home['cssResponses']=homepage.evaluate("""async () => Promise.all(
+              [...document.querySelectorAll('link[rel="stylesheet"]')].map(async link => {
+                const response=await fetch(link.href,{cache:'no-store'});
+                return {url:link.href,status:response.status};
+              })
+            )""")
+            print(json.dumps({'site':'homepage',**home},ensure_ascii=False),flush=True)
+            assert home['http']==200, f'Homepage HTTP error: {home}'
+            assert 'Arial' in (home['bodyFont'] or ''), f'Homepage stylesheet did not set the site font: {home}'
+            assert home['bodyMargin']=='0px', f'Homepage stylesheet did not reset the body margin: {home}'
+            assert home['titleFont'] and 'Arial' in home['titleFont'], f'Homepage heading is unstyled: {home}'
+            assert home['panelBackground']=='rgb(207, 238, 226)', f'Homepage category panels are unstyled: {home}'
+            assert all(item['status']==200 for item in home['cssResponses']), f'Homepage stylesheet request failed: {home}'
+            assert not home_errors, f'Homepage browser errors: {home_errors}'
+            homepage.screenshot(path=str(out/'homepage-1365.png'),full_page=True)
+            homepage.close()
+
+            reference_styles={}
+            for width in [320,390,1365]:
+              shot=f'varna-introduction-{width}.png' if width in [390,1365] else None
+              record=check_page(browser,'varna',varna_base,None,width,'Introduction',screenshot=shot)
+              reference_styles[width]=record['style']
+              records.append(record)
+
+            discovery=browser.new_page(viewport={'width':390,'height':900},device_scale_factor=1)
+            initial=wait_for_reader(discovery,revision_url(shaiva_base))
+            items=discovery.locator('.side-toc .toc a[data-section]').evaluate_all("(links)=>links.map(a=>({id:a.dataset.section,title:a.textContent.trim()}))")
+            assert initial and initial.status==200
+            assert len(items)==19, f'Expected all 19 article sections, got {len(items)}'
+            ids=[item['id'] for item in items]
+            assert len(set(ids))==len(ids), 'Duplicate article section links'
+            samples={'opening-salutation','introduction','padma-pur-a-s-contradiction','the-vai-ava-claim-relative-superiority-and-courtesy','smriti-testimony'}
+            assert samples.issubset(set(ids)), f'Missing sample sections: {samples-set(ids)}'
+            discovery.close()
+
+            for index,item in enumerate(items):
+              section=item['id']
+              widths=[390]
+              if section in samples:
+                widths=[320,390,1365]
+              for width in widths:
+                shot=None
+                if width==390 and section in {'opening-salutation','padma-pur-a-s-contradiction','smriti-testimony'}:
+                  shot=f'shaiva-{section}-{width}.png'
+                status=f'Section {index+1} of {len(items)}'
+                record=check_page(browser,'shaiva',shaiva_base,section,width,item['title'],status,shot)
+                assert record['style']==reference_styles[width], f'Style differs from Varṇa at width {width}: {record["style"]!r}'
+                records.append(record)
+                print(json.dumps(record,ensure_ascii=False),flush=True)
+
+            (out/'results.json').write_text(json.dumps(records,ensure_ascii=False,indent=2))
+            browser.close()
+          assert all(x['http']==200 and x['scrollWidth']<=x['width'] and not x['errors'] for x in records)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shaiva-actual-page-visual-review
+          path: /tmp/shaiva-qa
+          retention-days: 7

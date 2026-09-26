@@ -1,0 +1,394 @@
+/* Small semantic additions for the Other essays.
+   The reader itself uses the exact Varṇa-vicāra stylesheet. These rules only
+   give its preserved tables and long-form notes a quiet, academic treatment. */
+
+.document-paged-page .document-content{
+  min-width:0;
+  overflow-wrap:break-word;
+}
+
+.document-paged-page .document-content .source-citation,
+.document-paged-page .document-content .reference{
+  margin:34px 0 10px!important;
+  color:#006f71;
+  font-size:16px;
+  line-height:1.45;
+  font-weight:700;
+}
+
+.document-paged-page .document-content .sanskrit-text{
+  margin:16px 0 24px;
+  padding-left:17px;
+  border-left:2px solid #c5a48f;
+  color:var(--sanskrit);
+  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;
+  font-size:20px;
+  line-height:1.8;
+}
+
+.document-paged-page .document-content .aside-note,
+.document-paged-page .document-content .closing-postscript{
+  margin:32px 0;
+  padding:0 0 0 17px;
+  border-left:2px solid var(--quote-rule);
+  color:var(--quote);
+}
+
+.document-paged-page .document-content .aside-note p,
+.document-paged-page .document-content .closing-postscript p{
+  margin-bottom:24px;
+}
+
+.document-paged-page .document-content table.evidence-table,
+.document-paged-page .document-content table.acharya-table,
+.document-paged-page .document-content table.source-evidence-table{
+  width:100%;
+  margin:30px 0 42px;
+  border-collapse:collapse;
+  font-size:15px;
+  line-height:1.55;
+}
+
+.document-paged-page .document-content table caption{
+  margin:0 0 12px;
+  color:#5d554e;
+  font-family:Vollkorn,Georgia,serif;
+  font-size:22px;
+  line-height:1.25;
+  text-align:left;
+}
+
+.document-paged-page .document-content table th,
+.document-paged-page .document-content table td{
+  padding:10px 11px;
+  border:1px solid #d8d2ca;
+  text-align:left;
+  vertical-align:top;
+  overflow-wrap:anywhere;
+}
+
+.document-paged-page .document-content table th{
+  background:#eee9e2;
+  color:#514941;
+  font-weight:700;
+}
+
+.document-paged-page .document-content table tbody tr:nth-child(even) td{
+  background:#f7f4f0;
+}
+
+.document-paged-page .document-content table a{
+  color:var(--teal);
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+/* The index is part of the article, but reads as a quiet list rather than a
+   pasted page of a manuscript. */
+.document-paged-page .document-content .article-index{
+  margin:0 0 12px;
+}
+
+.document-paged-page .document-content .index-entry{
+  margin:0;
+  padding:15px 0 16px;
+  border-bottom:1px solid #ddd8d2;
+}
+
+.document-paged-page .document-content .index-entry:first-child{
+  padding-top:0;
+}
+
+.document-paged-page .document-content .index-heading{
+  display:block;
+  color:var(--teal);
+  font-size:19px;
+  line-height:1.42;
+  text-decoration:none;
+}
+
+.document-paged-page .document-content .index-subitem{
+  display:block;
+  margin:7px 0 0 22px;
+  color:#625b54;
+  font-size:15px;
+  line-height:1.55;
+  text-decoration:none;
+}
+
+.document-paged-page .document-content .index-heading:hover,
+.document-paged-page .document-content .index-subitem:hover{
+  color:var(--purple);
+  text-decoration:underline;
+}
+
+.document-paged-page .document-content .article-bullet{
+  margin-left:18px;
+  padding-left:2px;
+  text-indent:-18px;
+}
+
+.document-paged-page .document-content .article-bullet::first-letter{
+  color:#817970;
+}
+
+.document-paged-page .document-content .shaiva-parallel{
+  width:100%;
+  margin:30px 0 42px;
+  border-collapse:collapse;
+  table-layout:fixed;
+  font-size:15px;
+  line-height:1.58;
+}
+
+.document-paged-page .document-content .shaiva-parallel th,
+.document-paged-page .document-content .shaiva-parallel td{
+  padding:11px 12px;
+  border:1px solid #d8d2ca;
+  text-align:left;
+  vertical-align:top;
+  overflow-wrap:anywhere;
+}
+
+.document-paged-page .document-content .shaiva-parallel th{
+  background:#eee9e2;
+  color:#514941;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.01em;
+}
+
+.document-paged-page .document-content .shaiva-parallel th:first-child,
+.document-paged-page .document-content .shaiva-parallel td:first-child{
+  width:47%;
+}
+
+.document-paged-page .document-content .shaiva-parallel td.shaiva-parallel__sanskrit{
+  color:var(--sanskrit);
+  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;
+  font-size:19px;
+  line-height:1.7;
+  white-space:pre-line;
+}
+
+.document-paged-page .document-content .shaiva-parallel td.shaiva-parallel__english{
+  font-family:Merriweather,Georgia,serif;
+  font-size:15px;
+  line-height:1.58;
+}
+
+.document-paged-page .document-content .shaiva-parallel tbody tr:nth-child(even) td{
+  background:#f7f4f0;
+}
+
+.document-paged-page .document-content .shaiva-note{
+  display:block;
+  margin-top:10px;
+  color:#817970;
+  font-size:12px;
+  line-height:1.5;
+}
+
+/* Body text uses Merriweather; structural headings inherit the shared
+   Vollkorn styling from the Varna reader. Devanagari uses Noto Serif. */
+.shastric-article .article,
+.shastric-article .document-content,
+.shastric-article .document-content details.sanskrit-reveal>summary,
+.shastric-article .document-content table caption{
+  font-family:Merriweather,Georgia,serif;
+}
+
+.shastric-article .document-content details.sanskrit-reveal>summary{
+  font-size:13px;
+  font-weight:400;
+  letter-spacing:0;
+}
+
+.shastric-article .document-content details.sanskrit-reveal [lang^="sa"],
+.shastric-article .document-content .sanskrit-text{
+  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;
+  font-size:20px;
+  line-height:1.58;
+  font-weight:400;
+  letter-spacing:0;
+}
+
+.shastric-article .document-content .sanskrit-transliteration{
+  margin:12px 0 16px;
+  color:var(--sanskrit);
+  font-family:Merriweather,Georgia,serif;
+  font-size:15px;
+  line-height:1.55;
+  font-style:italic;
+}
+
+@media(max-width:620px){
+  .document-paged-page .document-content .source-citation,
+  .document-paged-page .document-content .reference{
+    font-size:14px;
+  }
+
+  .document-paged-page .document-content .sanskrit-text{
+    padding-left:12px;
+    font-size:18px;
+    line-height:1.78;
+  }
+
+  .document-paged-page .document-content .aside-note,
+  .document-paged-page .document-content .closing-postscript{
+    padding-left:13px;
+  }
+
+  .document-paged-page .document-content table.evidence-table,
+  .document-paged-page .document-content table.acharya-table,
+  .document-paged-page .document-content table.source-evidence-table{
+    display:block;
+    overflow-x:auto;
+    font-size:13px;
+  }
+
+  .document-paged-page .document-content table caption{
+    font-size:20px;
+  }
+
+  .document-paged-page .document-content table th,
+  .document-paged-page .document-content table td{
+    padding:8px 9px;
+    min-width:82px;
+  }
+
+  .document-paged-page .document-content .index-subitem{
+    margin-left:16px;
+    font-size:13px;
+  }
+
+  .document-paged-page .document-content .shaiva-parallel,
+  .document-paged-page .document-content .shaiva-parallel thead,
+  .document-paged-page .document-content .shaiva-parallel tbody,
+  .document-paged-page .document-content .shaiva-parallel tr,
+  .document-paged-page .document-content .shaiva-parallel th,
+  .document-paged-page .document-content .shaiva-parallel td{
+    display:block;
+    width:100%!important;
+  }
+
+  .document-paged-page .document-content .shaiva-parallel thead{
+    position:absolute;
+    width:1px!important;
+    height:1px;
+    overflow:hidden;
+    clip:rect(0 0 0 0);
+    clip-path:inset(50%);
+    white-space:nowrap;
+  }
+
+  .document-paged-page .document-content .shaiva-parallel tr{
+    padding:13px 0;
+    border-top:1px solid #d8d2ca;
+  }
+
+  .document-paged-page .document-content .shaiva-parallel tr:first-child{
+    border-top:0;
+  }
+
+  .document-paged-page .document-content .shaiva-parallel td{
+    padding:5px 9px 8px;
+    border:0;
+    background:transparent!important;
+  }
+
+  .document-paged-page .document-content .shaiva-parallel td::before{
+    display:block;
+    margin:0 0 4px;
+    color:#817970;
+    font-family:Merriweather,Georgia,serif;
+    font-size:10px;
+    font-weight:700;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    content:attr(data-label);
+  }
+
+  .document-paged-page .document-content .shaiva-parallel td.shaiva-parallel__sanskrit{
+    font-size:18px;
+    line-height:1.65;
+  }
+
+  .shastric-article .document-content details.sanskrit-reveal [lang^="sa"],
+  .shastric-article .document-content .sanskrit-text{
+    font-size:18px;
+    line-height:1.62;
+  }
+
+  .shastric-article .document-content .sanskrit-transliteration{
+    margin:10px 0 14px;
+    font-size:14px;
+  }
+}
+
+/* Keep every reading section addressable while showing only chapter names
+   until a reader opens a group. The current section remains visible in its
+   collapsed chapter label. */
+.document-paged-page details.toc-group{margin:0 0 13px}
+.document-paged-page details.toc-group>summary.toc-parent{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 14px;
+  gap:2px 7px;
+  margin:0;
+  padding:0;
+  color:var(--ink);
+  font-family:Merriweather,Georgia,serif;
+  font-size:15px;
+  line-height:1.4;
+  cursor:pointer;
+  list-style:none;
+  user-select:none;
+}
+.document-paged-page details.toc-group>summary.toc-parent::-webkit-details-marker{display:none}
+.document-paged-page details.toc-group>summary.toc-parent::marker{content:""}
+.document-paged-page .toc-parent-title{grid-column:1;grid-row:1}
+.document-paged-page .toc-current{
+  grid-column:1 / -1;
+  grid-row:2;
+  min-width:0;
+  overflow:hidden;
+  color:#817970;
+  font-size:11px;
+  font-weight:400;
+  line-height:1.4;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.document-paged-page details.toc-group>.toc-parent::after{
+  grid-column:2;
+  grid-row:1;
+  justify-self:end;
+  color:#8c837b;
+  content:"+";
+  font-family:Merriweather,Georgia,serif;
+  font-size:15px;
+  font-weight:400;
+  line-height:1.2;
+}
+.document-paged-page details.toc-group[open]>.toc-parent::after{content:"−"}
+.document-paged-page details.toc-group.has-current>.toc-parent{color:var(--teal)}
+.document-paged-page details.toc-group>.toc-children{margin-top:8px}
+.document-paged-page details.toc-group>.toc-children a{font-size:13.5px}
+.document-paged-page .meat-cover-art{
+  width:min(100%,150px);
+  margin:0 auto 28px;
+  text-align:center;
+}
+.document-paged-page .meat-cover-art img{display:block;width:100%;height:auto}
+.document-paged-page .meat-cover-art figcaption{
+  margin-top:8px;
+  color:#817970;
+  font-size:11px;
+  line-height:1.4;
+}
+@media(max-width:620px){
+  .document-paged-page details.toc-group{margin-bottom:12px}
+  .document-paged-page details.toc-group>summary.toc-parent{font-size:15px}
+  .document-paged-page details.toc-group>.toc-children a{font-size:13.5px}
+  .document-paged-page .meat-cover-art{width:min(100%,132px);margin-bottom:23px}
+}
