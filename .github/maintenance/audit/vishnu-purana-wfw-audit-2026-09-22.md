@@ -278,3 +278,17 @@ This release applies the Book 1, Chapter 1 reader standard across all 126 chapte
 - Static validation passed across all 126 routes: 6,400 contiguous verse articles; nonempty Sanskrit and English fields; one Transliteration control per verse; every Contents target resolves; all 13,718 native details/summary controls and div nesting are balanced; all routes match the reference shell and stylesheet/font links; no generated `lang="sa-Deva"` field contains Latin-script characters.
 
 This is a reader and markup correction, not semantic completion. The current coverage scan still finds 3,823 nonempty main-text WFW panels, 2,573 verses without a panel, and four explicit placeholder panels. Existing translations and lexical glosses still need source-based, verse-by-verse review. Continue in reverse sequence at Book 6, Chapter 7, verse 106, then proceed through Books 6 to 1.
+
+
+## Whole-corpus route and text anomaly audit — 2026-09-26
+
+The latest scan at parent commit `e93d5f89e30b63eabbe87973c94f58eea6a79d88` covers 126 routes and 6,400 verse cards. Complete per-route ID lists and transliteration comparisons are in `.github/maintenance/audit/vishnu-purana-route-audit-2026-09-26.json`.
+
+- 3,827 cards have a nonempty main-text WFW control; 2,573 controls are missing (Book 4: 1,293; Book 5: 846; Book 6: 434). No empty WFW controls were found.
+- 2,909 cards lack Śrīdhara Sanskrit. 516 have no commentary section, while 2,899 carry an explicit “No commentary.” state.
+- All route stylesheet/font links match Book 1 Chapter 1, all 13,718 details/summary controls are balanced, and all 6,394 Contents targets resolve.
+- This batch reclassified 40 Book 2 commentary maps and reformatted 127 Book 3 phrase maps. Generated Devanāgarī still needs source review.
+- Eight English paragraphs and two commentary filler fields were corrected. The non-English contamination at 4.9.18 remains open.
+- The IAST screen flags 1,260 cards against displayed Sanskrit; 151 have tri-gram similarity below 0.4. Numeric artifacts are flagged on 52 cards. These are audit flags, not a source-certified error total.
+
+This batch does not mark any chapter semantically complete. Continue in reverse order from Book 6, Chapter 7, verse 106.
