@@ -201,7 +201,7 @@ def main():
         summaries.append({'chapter': ch, 'verse_count': expected, 'source_ranges': len(source), 'mirror_ranges': len(mirror), 'local_entries': len(records[ch]), 'source_sha': sha, 'issues': dict(sorted(by_kind.items()))})
         print(f'11.{ch:02d}: verses={expected} source_ranges={len(source)} local_entries={len(records[ch])} flags={sum(by_kind.values())}', flush=True)
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / 'automated-summary.json').write_text(json.dumps({'source_commit': PIN, 'checks': summaries, 'issues': issues}, indent=2, ensure_ascii=False) + '\n')
+    (OUT / 'automated-summary.json').write_text(json.dumps({'source_commit': PIN, 'checks': summaries, 'issues': issues}, ensure_ascii=False, separators=(',', ':')) + '\n')
     with (OUT / 'automated-verse-map.csv').open('w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=['chapter', 'verse', 'source_ranges', 'mirror_ranges', 'local_records', 'source_sha'])
         w.writeheader(); w.writerows(detailed)
