@@ -265,3 +265,16 @@ The current-branch scan covered all 126 routes and 6,400 verse articles. Every a
 - Fixed the 41 surplus div closings and restored the outer page wrappers. All 41 verse IDs, translations, WFW controls, Transliteration controls, and Contents anchors are present. Markup validation found 790 balanced div pairs and 109 balanced details controls, with no nesting errors. Stylesheet/font links match Book 1, Chapter 1.
 - Added the pinned numbered Sanskrit witness to the chapter source note: upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`, blob `ad105b21f40a2c5adfac988fedef6733fb65953f`. Translation and gloss semantics remain under the broader verse-by-verse audit.
 - After the Book 3.4 and 3.8 fixes, the structural scan leaves 1,568 article nodes with div-count imbalance (Book 1: 8; Book 2: 682; Book 3: 639; Book 4: 61; Book 5: 178; Book 6: 0). Whole-corpus main-WFW panel presence remains 3,823/6,400; 2,573 missing panels and four placeholders remain. These are structural counts, not semantic completion totals.
+
+
+## Owner-directed whole-corpus reader correction — 2026-09-26
+
+This release applies the Book 1, Chapter 1 reader standard across all 126 chapter routes and 6,400 verse articles. Book 1, Chapter 1 itself remains unchanged as the reference.
+
+- All routes use the same page shell, hero, Contents rail, and stylesheet/font links as Book 1, Chapter 1. Incorrect copied titles were fixed, and Book 5, Chapter 36 received the missing shell and Contents rail.
+- Converted 1,731 existing main-text lexical maps into paired `gita-word-list` / `gita-word-row` rows, preserving their IAST and gloss wording. The 167 remaining irregular or prose-shaped main-text maps stay in their source layout for verse-level review. All 1,891 Śrīdhara phrase maps retain the Chapter 1 reference's phrase-map layout.
+- Corrected generated Devanāgarī in 14 rows that had retained Latin characters. The fields now contain Devanāgarī script; these display pairings still require source-witness review.
+- Repaired the nested reader markup across the affected routes: removed 1,567 extra div closings inside controls and restored their matching wrappers; balanced 43 controls that were missing a closure; removed 43 surplus article-level div closings; removed 156 duplicate article endings; restored 122 outer page wrappers; repaired the malformed article fragment in 3.12.25; and closed the missing paragraph tag in 4.19.17.
+- Static validation passed across all 126 routes: 6,400 contiguous verse articles; nonempty Sanskrit and English fields; one Transliteration control per verse; every Contents target resolves; all 13,718 native details/summary controls and div nesting are balanced; all routes match the reference shell and stylesheet/font links; no generated `lang="sa-Deva"` field contains Latin-script characters.
+
+This is a reader and markup correction, not semantic completion. The current coverage scan still finds 3,823 nonempty main-text WFW panels, 2,573 verses without a panel, and four explicit placeholder panels. Existing translations and lexical glosses still need source-based, verse-by-verse review. Continue in reverse sequence at Book 6, Chapter 7, verse 106, then proceed through Books 6 to 1.
