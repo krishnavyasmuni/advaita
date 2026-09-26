@@ -5738,18 +5738,26 @@
       ],
       "no_commentary_ranges": [
         "10.1.7",
-        "10.1.14–10.1.16",
-        "10.1.19–10.1.20",
-        "10.1.23–10.1.24",
+        "10.1.14–15",
+        "10.1.16",
+        "10.1.19",
+        "10.1.20",
+        "10.1.23",
+        "10.1.24",
         "10.1.26",
         "10.1.28",
-        "10.1.32–10.1.33",
+        "10.1.32",
+        "10.1.33",
         "10.1.46",
         "10.1.55",
         "10.1.57",
-        "10.1.59–10.1.61",
+        "10.1.59",
+        "10.1.60",
+        "10.1.61",
         "10.1.65",
-        "10.1.67–10.1.69"
+        "10.1.67",
+        "10.1.68",
+        "10.1.69"
       ],
       "source_note": "The pinned source has 62 Śrīdhara blocks covering 69 verses; grouped ranges and source gaps are preserved, and no-commentary records use the current reader sentinel.",
       "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
@@ -5764,8 +5772,7 @@
         "no_commentary_records": 21
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-2-release",
@@ -5824,8 +5831,11 @@
         "10.2.3",
         "10.2.6",
         "10.2.11–10.2.12",
-        "10.2.18–10.2.20",
-        "10.2.23–10.2.24"
+        "10.2.18",
+        "10.2.19",
+        "10.2.20",
+        "10.2.23",
+        "10.2.24"
       ],
       "source_note": "The pinned cache preserves the grouped 10.2.1–2 source block and the explicit 10.2.11–12 no-commentary range; its Sanskrit is retained verbatim, including the source’s closing verse markers.",
       "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
@@ -5840,8 +5850,7 @@
         "no_commentary_records": 8
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-3-release",
@@ -5885,7 +5894,11 @@
         "10.3.3–10.3.7",
         "10.3.9–10.3.14",
         "10.3.17–10.3.19",
-        "10.3.29–10.3.46"
+        "10.3.29",
+        "10.3.30",
+        "10.3.31–10.3.40",
+        "10.3.41",
+        "10.3.42–10.3.46"
       ],
       "source_note": "The pinned cache preserves the grouped 10.3.15–16 block and explicit source gaps at 10.3.30 and 10.3.46; all absent canonical ranges remain explicit no-source records.",
       "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
@@ -5900,8 +5913,7 @@
         "no_commentary_records": 32
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-4-release",
@@ -5965,7 +5977,8 @@
         "10.4.46"
       ],
       "no_commentary_ranges": [
-        "10.4.4–10.4.5",
+        "10.4.4",
+        "10.4.5",
         "10.4.11",
         "10.4.16–10.4.17",
         "10.4.25–10.4.26",
@@ -5987,8 +6000,7 @@
         "no_commentary_records": 14
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-5-release",
@@ -6038,7 +6050,9 @@
       "no_commentary_ranges": [
         "10.5.2",
         "10.5.8",
-        "10.5.11–10.5.17",
+        "10.5.11–10.5.14",
+        "10.5.15–10.5.16",
+        "10.5.17",
         "10.5.21–10.5.23",
         "10.5.27",
         "10.5.32"
@@ -6056,8 +6070,7 @@
         "no_commentary_records": 14
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-6-release",
@@ -6126,8 +6139,7 @@
         "no_commentary_records": 17
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-7-release",
@@ -6199,8 +6211,7 @@
         "no_commentary_records": 11
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-8-release",
@@ -6261,9 +6272,11 @@
         "10.8.2–10.8.3",
         "10.8.11",
         "10.8.14",
-        "10.8.16–10.8.19",
+        "10.8.16–10.8.17",
+        "10.8.18–10.8.19",
         "10.8.22",
-        "10.8.24–10.8.28",
+        "10.8.24–10.8.25",
+        "10.8.26–10.8.28",
         "10.8.31",
         "10.8.33–10.8.38",
         "10.8.44",
@@ -6282,8 +6295,7 @@
         "no_commentary_records": 23
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-9-release",
@@ -6333,8 +6345,7 @@
         "no_commentary_records": 13
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-10-release",
@@ -6415,8 +6426,7 @@
         "no_commentary_records": 7
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-11-release",
@@ -6462,12 +6472,16 @@
       ],
       "no_commentary_ranges": [
         "10.11.2–10.11.4",
-        "10.11.7–10.11.20",
+        "10.11.7–10.11.10",
+        "10.11.11–10.11.20",
         "10.11.22–10.11.24",
-        "10.11.26–10.11.37",
+        "10.11.26–10.11.29",
+        "10.11.30–10.11.36",
+        "10.11.37",
         "10.11.39–10.11.41",
         "10.11.43–10.11.44",
-        "10.11.46–10.11.52",
+        "10.11.46–10.11.51",
+        "10.11.52",
         "10.11.54–10.11.55",
         "10.11.58"
       ],
@@ -6484,8 +6498,7 @@
         "no_commentary_records": 47
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-12-release",
@@ -6548,8 +6561,7 @@
         "no_commentary_records": 26
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-13-release",
@@ -6639,8 +6651,7 @@
         "no_commentary_records": 28
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-14-release",
@@ -6732,8 +6743,7 @@
         "no_commentary_records": 13
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-15-release",
@@ -6799,8 +6809,7 @@
         "no_commentary_records": 48
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-16-release",
@@ -6888,8 +6897,7 @@
         "no_commentary_records": 36
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-17-release",
@@ -6935,8 +6943,7 @@
         "no_commentary_records": 21
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-18-release",
@@ -6993,8 +7000,7 @@
         "no_commentary_records": 26
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-19-release",
@@ -7044,8 +7050,7 @@
         "no_commentary_records": 11
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-20-release",
@@ -7105,8 +7110,7 @@
         "no_commentary_records": 38
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-21-release",
@@ -7160,8 +7164,7 @@
         "no_commentary_records": 4
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-22-release",
@@ -7235,8 +7238,7 @@
         "no_commentary_records": 9
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-23-release",
@@ -7323,8 +7325,7 @@
         "no_commentary_records": 26
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-24-release",
@@ -7398,8 +7399,7 @@
         "no_commentary_records": 6
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-25-release",
@@ -7465,8 +7465,7 @@
         "no_commentary_records": 14
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-26-release",
@@ -7505,7 +7504,8 @@
         "10.26.25"
       ],
       "no_commentary_ranges": [
-        "10.26.9–10.26.11",
+        "10.26.9",
+        "10.26.10–10.26.11",
         "10.26.16–10.26.21",
         "10.26.24"
       ],
@@ -7522,8 +7522,7 @@
         "no_commentary_records": 10
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-27-release",
@@ -7568,8 +7567,10 @@
         "10.27.28"
       ],
       "no_commentary_ranges": [
-        "10.27.22–10.27.24",
-        "10.27.27–10.27.28"
+        "10.27.22–10.27.23",
+        "10.27.24",
+        "10.27.27",
+        "10.27.28"
       ],
       "source_note": "The pinned cache preserves 25 supplied source entries, including exact no-commentary sentinels at 10.27.24, 10.27.27 and 10.27.28; explicit source gaps at 10.27.22–10.27.23 are retained as no-commentary records. The supplied source block 10.27.15–10.27.16 is split into verse-level reader records without altering its exact Sanskrit.",
       "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
@@ -7584,8 +7585,7 @@
         "no_commentary_records": 5
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-28-release",
@@ -7618,7 +7618,8 @@
         "10.28.17"
       ],
       "no_commentary_ranges": [
-        "10.28.9–10.28.11",
+        "10.28.9",
+        "10.28.10–10.28.11",
         "10.28.13–10.28.14",
         "10.28.17"
       ],
@@ -7635,8 +7636,7 @@
         "no_commentary_records": 6
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-29-release",
@@ -7695,7 +7695,9 @@
         "10.29.9",
         "10.29.26",
         "10.29.31",
-        "10.29.41–10.29.47"
+        "10.29.41–10.29.43",
+        "10.29.44–10.29.45",
+        "10.29.46–10.29.47"
       ],
       "source_note": "The pinned cache preserves 36 supplied source entries, including exact no-commentary sentinels at 10.29.25, 10.29.28 and 10.29.44–10.29.45; explicit source gaps at 10.29.9, 10.29.26, 10.29.31, 10.29.41–10.29.43 and 10.29.46–10.29.47 are retained as no-commentary records. The supplied source blocks 10.29.5–10.29.7, 10.29.10–10.29.11 and 10.29.21–10.29.22 are split into verse-level reader records without altering their exact Sanskrit.",
       "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; reference sources are cross-checks, not copied prose.",
@@ -7710,8 +7712,7 @@
         "no_commentary_records": 12
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-30-release",
@@ -7760,11 +7761,17 @@
       ],
       "no_commentary_ranges": [
         "10.30.2",
-        "10.30.15–10.30.23",
-        "10.30.25–10.30.26",
+        "10.30.15–10.30.18",
+        "10.30.19",
+        "10.30.20",
+        "10.30.21",
+        "10.30.22–10.30.23",
+        "10.30.25",
+        "10.30.26",
         "10.30.28",
         "10.30.32–10.30.33",
-        "10.30.35–10.30.36",
+        "10.30.35",
+        "10.30.36",
         "10.30.38",
         "10.30.41–10.30.43"
       ],
@@ -7781,8 +7788,7 @@
         "no_commentary_records": 21
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-31-release",
@@ -7835,8 +7841,7 @@
         "no_commentary_records": 1
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-32-release",
@@ -7883,8 +7888,7 @@
         "no_commentary_records": 14
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-33-release",
@@ -7957,8 +7961,7 @@
         "no_commentary_records": 3
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-34-release",
@@ -8006,8 +8009,7 @@
         "no_commentary_records": 23
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-35-release",
@@ -8054,8 +8056,7 @@
         "no_commentary_records": 4
       },
       "repaired_at": "2026-09-22",
-      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved.",
-      "source_gap_ranges": []
+      "repair_note": "Full Canto 10 chapter audit completed; source-backed glosses preserved or corrected, internal markers removed, and exact no-commentary markers preserved."
     },
     {
       "id": "canto-10-chapter-36-release",
@@ -8109,16 +8110,22 @@
         "10.36.40"
       ],
       "no_commentary_ranges": [
-        "10.36.2–10.36.3",
-        "10.36.6–10.36.7",
+        "10.36.7",
         "10.36.18",
-        "10.36.20–10.36.22",
+        "10.36.20",
         "10.36.30",
-        "10.36.33–10.36.34",
-        "10.36.36",
+        "10.36.33",
+        "10.36.34",
         "10.36.40"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.36.2",
+        "10.36.3",
+        "10.36.6",
+        "10.36.21",
+        "10.36.22",
+        "10.36.36"
+      ],
       "source_note": "The local source cache preserves 34 supplied Śrīdhara entries. Seven are the exact no-commentary sentinel; six canonical verses have no source block and are retained as explicit no-commentary records. Printed Śrīdhara markers such as 10.36.17–10.36.18, 10.36.19–10.36.22, 10.36.32–10.36.34 and 10.36.35–10.36.36 are preserved verbatim in the supplied Sanskrit; the local cache attaches each block to the Śrīdhara section where it occurs, while separately marked no-commentary sections remain no-commentary.",
       "method": "Sanskrit-first independent clause-level translation from the pinned Śrīdhara blocks; Vedabase and the English mirror are cross-checks, not copied prose.",
       "reader_path": "articles/srimad-bhagavatam-canto-10-sridhara-svami/",
@@ -8147,7 +8154,9 @@
         "10.37.27",
         "10.37.31"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.37.7"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available.",
@@ -8171,12 +8180,29 @@
       "no_commentary_ranges": [
         "10.38.3",
         "10.38.17",
-        "10.38.25–10.38.26",
-        "10.38.29–10.38.32",
-        "10.38.34–10.38.36",
-        "10.38.39–10.38.40"
+        "10.38.25",
+        "10.38.26",
+        "10.38.29",
+        "10.38.30",
+        "10.38.31",
+        "10.38.32",
+        "10.38.34",
+        "10.38.35",
+        "10.38.36",
+        "10.38.39",
+        "10.38.40"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.38.3",
+        "10.38.17",
+        "10.38.25",
+        "10.38.26",
+        "10.38.30",
+        "10.38.31",
+        "10.38.32",
+        "10.38.35",
+        "10.38.36"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after structural/source checks. Browser visual verification is recorded separately when available.",
@@ -8200,12 +8226,23 @@
       "no_commentary_ranges": [
         "10.39.3",
         "10.39.17",
-        "10.39.37–10.39.38",
-        "10.39.42–10.39.43",
+        "10.39.37",
+        "10.39.38",
+        "10.39.42",
+        "10.39.43",
         "10.39.54",
         "10.39.57"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.39.3",
+        "10.39.17",
+        "10.39.37",
+        "10.39.38",
+        "10.39.42",
+        "10.39.43",
+        "10.39.54",
+        "10.39.57"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after source-lock, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8233,7 +8270,10 @@
         "10.40.19",
         "10.40.22"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.40.19",
+        "10.40.22"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8255,18 +8295,37 @@
       "records_checked": 52,
       "exact_sridhara_source_blocks": 38,
       "no_commentary_ranges": [
-        "10.41.2–10.41.3",
+        "10.41.2",
+        "10.41.3",
         "10.41.11",
         "10.41.22",
         "10.41.30",
         "10.41.33",
         "10.41.37",
         "10.41.39",
-        "10.41.43–10.41.45",
+        "10.41.43",
+        "10.41.44",
+        "10.41.45",
         "10.41.48",
-        "10.41.50–10.41.51"
+        "10.41.50",
+        "10.41.51"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.41.2",
+        "10.41.3",
+        "10.41.11",
+        "10.41.22",
+        "10.41.30",
+        "10.41.33",
+        "10.41.37",
+        "10.41.39",
+        "10.41.43",
+        "10.41.44",
+        "10.41.45",
+        "10.41.48",
+        "10.41.50",
+        "10.41.51"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8288,13 +8347,23 @@
       "records_checked": 38,
       "exact_sridhara_source_blocks": 31,
       "no_commentary_ranges": [
-        "10.42.9–10.42.11",
+        "10.42.9",
+        "10.42.10",
+        "10.42.11",
         "10.42.18",
         "10.42.31",
         "10.42.33",
         "10.42.35"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.42.9",
+        "10.42.10",
+        "10.42.11",
+        "10.42.18",
+        "10.42.31",
+        "10.42.33",
+        "10.42.35"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8317,12 +8386,30 @@
       "exact_sridhara_source_blocks": 29,
       "no_commentary_ranges": [
         "10.43.4",
-        "10.43.12–10.43.14",
-        "10.43.26–10.43.27",
-        "10.43.32–10.43.34",
-        "10.43.36–10.43.37"
+        "10.43.12",
+        "10.43.13",
+        "10.43.14",
+        "10.43.26",
+        "10.43.27",
+        "10.43.32",
+        "10.43.33",
+        "10.43.34",
+        "10.43.36",
+        "10.43.37"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.43.4",
+        "10.43.12",
+        "10.43.13",
+        "10.43.14",
+        "10.43.26",
+        "10.43.27",
+        "10.43.32",
+        "10.43.33",
+        "10.43.34",
+        "10.43.36",
+        "10.43.37"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8347,15 +8434,38 @@
         "10.44.2",
         "10.44.19",
         "10.44.22",
-        "10.44.25–10.44.28",
-        "10.44.31–10.44.33",
+        "10.44.25",
+        "10.44.26",
+        "10.44.27",
+        "10.44.28",
+        "10.44.31",
+        "10.44.32",
+        "10.44.33",
         "10.44.35",
-        "10.44.38–10.44.39",
+        "10.44.38",
+        "10.44.39",
         "10.44.42",
         "10.44.45",
         "10.44.49"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.44.2",
+        "10.44.19",
+        "10.44.22",
+        "10.44.25",
+        "10.44.26",
+        "10.44.27",
+        "10.44.28",
+        "10.44.31",
+        "10.44.32",
+        "10.44.33",
+        "10.44.35",
+        "10.44.38",
+        "10.44.39",
+        "10.44.42",
+        "10.44.45",
+        "10.44.49"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8377,16 +8487,31 @@
       "records_checked": 49,
       "exact_sridhara_source_blocks": 38,
       "no_commentary_ranges": [
-        "10.45.10–10.45.11",
+        "10.45.10",
+        "10.45.11",
         "10.45.16",
         "10.45.20",
         "10.45.23",
         "10.45.25",
         "10.45.39",
-        "10.45.42–10.45.44",
+        "10.45.42",
+        "10.45.43",
+        "10.45.44",
         "10.45.46"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.45.10",
+        "10.45.11",
+        "10.45.16",
+        "10.45.20",
+        "10.45.23",
+        "10.45.25",
+        "10.45.39",
+        "10.45.42",
+        "10.45.43",
+        "10.45.44",
+        "10.45.46"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8408,12 +8533,27 @@
       "records_checked": 47,
       "exact_sridhara_source_blocks": 38,
       "no_commentary_ranges": [
-        "10.46.2–10.46.3",
+        "10.46.2",
+        "10.46.3",
         "10.46.16",
-        "10.46.26–10.46.30",
+        "10.46.26",
+        "10.46.27",
+        "10.46.28",
+        "10.46.29",
+        "10.46.30",
         "10.46.46"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.46.2",
+        "10.46.3",
+        "10.46.16",
+        "10.46.26",
+        "10.46.27",
+        "10.46.28",
+        "10.46.29",
+        "10.46.30",
+        "10.46.46"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8443,7 +8583,15 @@
         "10.47.65",
         "10.47.68"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.47.3",
+        "10.47.36",
+        "10.47.50",
+        "10.47.52",
+        "10.47.55",
+        "10.47.65",
+        "10.47.68"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8469,9 +8617,17 @@
         "10.48.9",
         "10.48.14",
         "10.48.28",
-        "10.48.35–10.48.36"
+        "10.48.35",
+        "10.48.36"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.48.4",
+        "10.48.9",
+        "10.48.14",
+        "10.48.28",
+        "10.48.35",
+        "10.48.36"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8495,7 +8651,9 @@
       "no_commentary_ranges": [
         "10.49.31"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.49.31"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8524,7 +8682,14 @@
         "10.50.33",
         "10.50.49"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.50.2",
+        "10.50.12",
+        "10.50.14",
+        "10.50.22",
+        "10.50.33",
+        "10.50.49"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8554,11 +8719,35 @@
         "10.51.21",
         "10.51.24",
         "10.51.26",
-        "10.51.33–10.51.37",
-        "10.51.39–10.51.41",
+        "10.51.33",
+        "10.51.34",
+        "10.51.35",
+        "10.51.36",
+        "10.51.37",
+        "10.51.39",
+        "10.51.40",
+        "10.51.41",
         "10.51.43"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.51.2",
+        "10.51.6",
+        "10.51.8",
+        "10.51.11",
+        "10.51.15",
+        "10.51.21",
+        "10.51.24",
+        "10.51.26",
+        "10.51.33",
+        "10.51.34",
+        "10.51.35",
+        "10.51.36",
+        "10.51.37",
+        "10.51.39",
+        "10.51.40",
+        "10.51.41",
+        "10.51.43"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8580,10 +8769,10 @@
       "records_checked": 31,
       "exact_sridhara_source_blocks": 30,
       "no_commentary_ranges": [
-        "10.52.23–10.52.24"
+        "10.52.23"
       ],
       "source_gap_ranges": [
-        "10.52.12–10.52.14"
+        "10.52.12–14"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
@@ -8609,7 +8798,10 @@
         "10.53.6",
         "10.53.17"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.53.6",
+        "10.53.17"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8631,13 +8823,31 @@
       "records_checked": 51,
       "exact_sridhara_source_blocks": 40,
       "no_commentary_ranges": [
-        "10.54.17–10.54.21",
-        "10.54.26–10.54.33",
+        "10.54.17",
+        "10.54.19",
+        "10.54.20",
+        "10.54.26",
+        "10.54.27",
+        "10.54.32",
+        "10.54.33",
         "10.54.37",
         "10.54.54",
-        "10.54.59–10.54.60"
+        "10.54.59",
+        "10.54.60"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.54.17",
+        "10.54.19",
+        "10.54.20",
+        "10.54.26",
+        "10.54.27",
+        "10.54.32",
+        "10.54.33",
+        "10.54.37",
+        "10.54.54",
+        "10.54.59",
+        "10.54.60"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8661,15 +8871,20 @@
       "no_commentary_ranges": [
         "10.55.11",
         "10.55.13",
-        "10.55.16–10.55.18",
+        "10.55.16",
+        "10.55.17",
+        "10.55.18",
         "10.55.20",
         "10.55.25",
         "10.55.27",
         "10.55.30",
-        "10.55.36–10.55.39"
+        "10.55.36",
+        "10.55.37",
+        "10.55.38",
+        "10.55.39"
       ],
       "source_gap_ranges": [
-        "10.55.19"
+        "10.55.19–20"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
@@ -8694,12 +8909,31 @@
       "no_commentary_ranges": [
         "10.56.2",
         "10.56.15",
-        "10.56.17–10.56.22",
-        "10.56.33–10.56.34",
+        "10.56.17",
+        "10.56.18",
+        "10.56.19",
+        "10.56.20",
+        "10.56.21",
+        "10.56.22",
+        "10.56.33",
+        "10.56.34",
         "10.56.38",
         "10.56.43"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.56.2",
+        "10.56.15",
+        "10.56.17",
+        "10.56.18",
+        "10.56.19",
+        "10.56.20",
+        "10.56.21",
+        "10.56.22",
+        "10.56.33",
+        "10.56.34",
+        "10.56.38",
+        "10.56.43"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8722,11 +8956,22 @@
       "exact_sridhara_source_blocks": 23,
       "no_commentary_ranges": [
         "10.57.3",
-        "10.57.8–10.57.12",
+        "10.57.8",
+        "10.57.9",
+        "10.57.10",
+        "10.57.12",
         "10.57.14",
         "10.57.36"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.57.3",
+        "10.57.8",
+        "10.57.9",
+        "10.57.10",
+        "10.57.12",
+        "10.57.14",
+        "10.57.36"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8755,13 +9000,38 @@
         "10.58.22",
         "10.58.28",
         "10.58.31",
-        "10.58.36–10.58.39",
+        "10.58.36",
+        "10.58.37",
+        "10.58.38",
+        "10.58.39",
         "10.58.42",
-        "10.58.46–10.58.49",
+        "10.58.46",
+        "10.58.47",
+        "10.58.48",
+        "10.58.49",
         "10.58.52",
         "10.58.55"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.58.3",
+        "10.58.6",
+        "10.58.15",
+        "10.58.20",
+        "10.58.22",
+        "10.58.28",
+        "10.58.31",
+        "10.58.36",
+        "10.58.37",
+        "10.58.38",
+        "10.58.39",
+        "10.58.42",
+        "10.58.46",
+        "10.58.47",
+        "10.58.48",
+        "10.58.49",
+        "10.58.52",
+        "10.58.55"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8788,9 +9058,16 @@
         "10.59.13",
         "10.59.22",
         "10.59.24",
-        "10.59.34–10.59.35"
+        "10.59.34"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.59.7",
+        "10.59.10",
+        "10.59.13",
+        "10.59.22",
+        "10.59.24",
+        "10.59.34"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8839,13 +9116,33 @@
       "records_checked": 39,
       "exact_sridhara_source_blocks": 27,
       "no_commentary_ranges": [
-        "10.61.9–10.61.12",
+        "10.61.9",
+        "10.61.10",
+        "10.61.11",
+        "10.61.12",
         "10.61.26",
         "10.61.29",
-        "10.61.33–10.61.35",
-        "10.61.37–10.61.39"
+        "10.61.33",
+        "10.61.34",
+        "10.61.35",
+        "10.61.37",
+        "10.61.38",
+        "10.61.39"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.61.9",
+        "10.61.10",
+        "10.61.11",
+        "10.61.12",
+        "10.61.26",
+        "10.61.29",
+        "10.61.33",
+        "10.61.34",
+        "10.61.35",
+        "10.61.37",
+        "10.61.38",
+        "10.61.39"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8867,17 +9164,35 @@
       "records_checked": 35,
       "exact_sridhara_source_blocks": 22,
       "no_commentary_ranges": [
-        "10.62.2–10.62.4",
+        "10.62.2",
+        "10.62.3",
+        "10.62.4",
         "10.62.6",
         "10.62.8",
         "10.62.10",
         "10.62.15",
-        "10.62.17–10.62.18",
-        "10.62.21–10.62.22",
+        "10.62.17",
+        "10.62.18",
+        "10.62.21",
+        "10.62.22",
         "10.62.30",
         "10.62.34"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.62.2",
+        "10.62.3",
+        "10.62.4",
+        "10.62.6",
+        "10.62.8",
+        "10.62.10",
+        "10.62.15",
+        "10.62.17",
+        "10.62.18",
+        "10.62.21",
+        "10.62.22",
+        "10.62.30",
+        "10.62.34"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8899,14 +9214,41 @@
       "records_checked": 53,
       "exact_sridhara_source_blocks": 37,
       "no_commentary_ranges": [
-        "10.63.7–10.63.12",
+        "10.63.7",
+        "10.63.8",
+        "10.63.9",
+        "10.63.10",
+        "10.63.11",
+        "10.63.12",
         "10.63.14",
-        "10.63.17–10.63.20",
-        "10.63.30–10.63.32",
+        "10.63.17",
+        "10.63.18",
+        "10.63.19",
+        "10.63.20",
+        "10.63.30",
+        "10.63.31",
+        "10.63.32",
         "10.63.46",
         "10.63.53"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.63.7",
+        "10.63.8",
+        "10.63.9",
+        "10.63.10",
+        "10.63.11",
+        "10.63.12",
+        "10.63.14",
+        "10.63.17",
+        "10.63.18",
+        "10.63.19",
+        "10.63.20",
+        "10.63.30",
+        "10.63.31",
+        "10.63.32",
+        "10.63.46",
+        "10.63.53"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8935,9 +9277,11 @@
         "10.64.17",
         "10.64.20",
         "10.64.25",
-        "10.64.30–10.64.31",
+        "10.64.30",
+        "10.64.31",
         "10.64.33",
-        "10.64.38–10.64.39",
+        "10.64.38",
+        "10.64.39",
         "10.64.41",
         "10.64.44"
       ],
@@ -8965,12 +9309,21 @@
       "records_checked": 24,
       "exact_sridhara_source_blocks": 18,
       "no_commentary_ranges": [
-        "10.65.7–10.65.8",
-        "10.65.10–10.65.11",
+        "10.65.7",
+        "10.65.8",
+        "10.65.10",
+        "10.65.11",
         "10.65.15",
         "10.65.31"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.65.7",
+        "10.65.8",
+        "10.65.10",
+        "10.65.11",
+        "10.65.15",
+        "10.65.31"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -8992,18 +9345,45 @@
       "records_checked": 43,
       "exact_sridhara_source_blocks": 25,
       "no_commentary_ranges": [
-        "10.66.4–10.66.7",
+        "10.66.4",
+        "10.66.5",
+        "10.66.6",
+        "10.66.7",
         "10.66.11",
         "10.66.13",
-        "10.66.15–10.66.16",
-        "10.66.19–10.66.20",
-        "10.66.22–10.66.24",
+        "10.66.15",
+        "10.66.16",
+        "10.66.19",
+        "10.66.20",
+        "10.66.22",
+        "10.66.23",
+        "10.66.24",
         "10.66.26",
         "10.66.35",
         "10.66.38",
-        "10.66.42–10.66.43"
+        "10.66.42",
+        "10.66.43"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.66.4",
+        "10.66.5",
+        "10.66.6",
+        "10.66.7",
+        "10.66.11",
+        "10.66.13",
+        "10.66.15",
+        "10.66.16",
+        "10.66.19",
+        "10.66.20",
+        "10.66.22",
+        "10.66.23",
+        "10.66.24",
+        "10.66.26",
+        "10.66.35",
+        "10.66.38",
+        "10.66.42",
+        "10.66.43"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9025,14 +9405,27 @@
       "records_checked": 28,
       "exact_sridhara_source_blocks": 19,
       "no_commentary_ranges": [
-        "10.67.8–10.67.9",
+        "10.67.8",
+        "10.67.9",
         "10.67.11",
         "10.67.14",
         "10.67.18",
-        "10.67.21–10.67.23",
+        "10.67.21",
+        "10.67.22",
+        "10.67.23",
         "10.67.27"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.67.8",
+        "10.67.9",
+        "10.67.11",
+        "10.67.14",
+        "10.67.18",
+        "10.67.21",
+        "10.67.22",
+        "10.67.23",
+        "10.67.27"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9056,10 +9449,12 @@
       "no_commentary_ranges": [
         "10.68.2",
         "10.68.6",
-        "10.68.10–10.68.11",
+        "10.68.10",
+        "10.68.11",
         "10.68.13",
         "10.68.15",
-        "10.68.20–10.68.21",
+        "10.68.20",
+        "10.68.21",
         "10.68.36",
         "10.68.42",
         "10.68.45",
@@ -9093,9 +9488,17 @@
       "no_commentary_ranges": [
         "10.69.11",
         "10.69.19",
-        "10.69.21–10.69.23",
-        "10.69.25–10.69.31",
-        "10.69.34–10.69.35",
+        "10.69.21",
+        "10.69.23",
+        "10.69.25",
+        "10.69.26",
+        "10.69.27",
+        "10.69.28",
+        "10.69.29",
+        "10.69.30",
+        "10.69.31",
+        "10.69.34",
+        "10.69.35",
         "10.69.37"
       ],
       "source_gap_ranges": [
@@ -9124,12 +9527,27 @@
       "no_commentary_ranges": [
         "10.70.4",
         "10.70.14",
-        "10.70.22–10.70.23",
-        "10.70.31–10.70.34",
+        "10.70.22",
+        "10.70.23",
+        "10.70.31",
+        "10.70.32",
+        "10.70.33",
+        "10.70.34",
         "10.70.41",
         "10.70.47"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.70.4",
+        "10.70.14",
+        "10.70.22",
+        "10.70.23",
+        "10.70.31",
+        "10.70.32",
+        "10.70.33",
+        "10.70.34",
+        "10.70.41",
+        "10.70.47"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9155,10 +9573,19 @@
         "10.71.21",
         "10.71.23",
         "10.71.27",
-        "10.71.30–10.71.31",
+        "10.71.30",
+        "10.71.31",
         "10.71.46"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.71.4",
+        "10.71.21",
+        "10.71.23",
+        "10.71.27",
+        "10.71.30",
+        "10.71.31",
+        "10.71.46"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9183,10 +9610,18 @@
         "10.72.23",
         "10.72.28",
         "10.72.30",
-        "10.72.44–10.72.45",
+        "10.72.44",
+        "10.72.45",
         "10.72.47"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.72.23",
+        "10.72.28",
+        "10.72.30",
+        "10.72.44",
+        "10.72.45",
+        "10.72.47"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9215,7 +9650,14 @@
         "10.73.31",
         "10.73.34"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.73.4",
+        "10.73.16",
+        "10.73.25",
+        "10.73.29",
+        "10.73.31",
+        "10.73.34"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9242,14 +9684,26 @@
         "10.74.14",
         "10.74.23",
         "10.74.25",
-        "10.74.27–10.74.31",
+        "10.74.27",
+        "10.74.28",
+        "10.74.29",
+        "10.74.30",
+        "10.74.31",
         "10.74.33",
-        "10.74.39–10.74.42",
-        "10.74.44–10.74.45",
-        "10.74.47–10.74.51"
+        "10.74.39",
+        "10.74.40",
+        "10.74.41",
+        "10.74.42",
+        "10.74.44",
+        "10.74.45",
+        "10.74.47",
+        "10.74.48",
+        "10.74.49",
+        "10.74.50",
+        "10.74.51"
       ],
       "source_gap_ranges": [
-        "10.74.43"
+        "10.74.43–45"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
@@ -9274,14 +9728,35 @@
       "no_commentary_ranges": [
         "10.75.2",
         "10.75.6",
-        "10.75.9–10.75.10",
-        "10.75.20–10.75.21",
+        "10.75.9",
+        "10.75.10",
+        "10.75.20",
+        "10.75.21",
         "10.75.23",
-        "10.75.25–10.75.29",
+        "10.75.25",
+        "10.75.26",
+        "10.75.27",
+        "10.75.28",
+        "10.75.29",
         "10.75.35",
         "10.75.38"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.75.2",
+        "10.75.6",
+        "10.75.9",
+        "10.75.10",
+        "10.75.20",
+        "10.75.21",
+        "10.75.23",
+        "10.75.25",
+        "10.75.26",
+        "10.75.27",
+        "10.75.28",
+        "10.75.29",
+        "10.75.35",
+        "10.75.38"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9303,14 +9778,25 @@
       "records_checked": 30,
       "exact_sridhara_source_blocks": 22,
       "no_commentary_ranges": [
-        "10.76.2–10.76.3",
+        "10.76.2",
+        "10.76.3",
         "10.76.6",
         "10.76.9",
-        "10.76.13–10.76.15",
+        "10.76.13",
+        "10.76.14",
         "10.76.23",
         "10.76.28"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.76.2",
+        "10.76.3",
+        "10.76.6",
+        "10.76.9",
+        "10.76.13",
+        "10.76.14",
+        "10.76.23",
+        "10.76.28"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9333,8 +9819,11 @@
       "exact_sridhara_source_blocks": 25,
       "no_commentary_ranges": [
         "10.77.13",
-        "10.77.19–10.77.21",
-        "10.77.24–10.77.25",
+        "10.77.19",
+        "10.77.20",
+        "10.77.21",
+        "10.77.24",
+        "10.77.25",
         "10.77.27",
         "10.77.36"
       ],
@@ -9362,10 +9851,23 @@
       "records_checked": 32,
       "exact_sridhara_source_blocks": 25,
       "no_commentary_ranges": [
-        "10.78.8–10.78.15",
+        "10.78.8",
+        "10.78.9",
+        "10.78.10",
+        "10.78.11",
+        "10.78.12",
+        "10.78.13",
         "10.78.39"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.78.8",
+        "10.78.9",
+        "10.78.10",
+        "10.78.11",
+        "10.78.12",
+        "10.78.13",
+        "10.78.39"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9387,15 +9889,35 @@
       "records_checked": 34,
       "exact_sridhara_source_blocks": 21,
       "no_commentary_ranges": [
-        "10.79.3–10.79.5",
+        "10.79.3",
+        "10.79.4",
+        "10.79.5",
         "10.79.7",
         "10.79.12",
-        "10.79.15–10.79.16",
-        "10.79.21–10.79.22",
-        "10.79.25–10.79.26",
-        "10.79.32–10.79.33"
+        "10.79.15",
+        "10.79.16",
+        "10.79.21",
+        "10.79.22",
+        "10.79.25",
+        "10.79.26",
+        "10.79.32",
+        "10.79.33"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.79.3",
+        "10.79.4",
+        "10.79.5",
+        "10.79.7",
+        "10.79.12",
+        "10.79.15",
+        "10.79.16",
+        "10.79.21",
+        "10.79.22",
+        "10.79.25",
+        "10.79.26",
+        "10.79.32",
+        "10.79.33"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9417,19 +9939,30 @@
       "records_checked": 43,
       "exact_sridhara_source_blocks": 31,
       "no_commentary_ranges": [
-        "10.80.2–10.80.3",
-        "10.80.5–10.80.14",
-        "10.80.16",
-        "10.80.19",
-        "10.80.21–10.80.22",
-        "10.80.24",
-        "10.80.39"
-      ],
-      "source_gap_ranges": [
+        "10.80.2",
         "10.80.3",
+        "10.80.5",
+        "10.80.6",
         "10.80.7",
+        "10.80.8",
+        "10.80.9",
         "10.80.11",
         "10.80.13",
+        "10.80.14",
+        "10.80.16",
+        "10.80.21"
+      ],
+      "source_gap_ranges": [
+        "10.80.2",
+        "10.80.3",
+        "10.80.5",
+        "10.80.6",
+        "10.80.7",
+        "10.80.8",
+        "10.80.9",
+        "10.80.11",
+        "10.80.13",
+        "10.80.14",
         "10.80.16",
         "10.80.21"
       ],
@@ -9454,9 +9987,50 @@
       "records_checked": 40,
       "exact_sridhara_source_blocks": 0,
       "no_commentary_ranges": [
+        "10.81.1",
+        "10.81.2",
+        "10.81.3",
+        "10.81.4",
+        "10.81.5",
+        "10.81.6",
+        "10.81.7",
+        "10.81.8",
+        "10.81.9",
+        "10.81.10",
+        "10.81.11",
+        "10.81.12",
+        "10.81.13",
+        "10.81.14",
+        "10.81.15",
+        "10.81.16",
+        "10.81.17",
+        "10.81.18",
+        "10.81.19",
+        "10.81.20",
+        "10.81.21",
+        "10.81.22",
+        "10.81.23",
+        "10.81.24",
+        "10.81.25",
+        "10.81.26",
+        "10.81.27",
+        "10.81.28",
+        "10.81.29",
+        "10.81.30",
+        "10.81.31",
+        "10.81.32",
+        "10.81.33",
+        "10.81.34",
+        "10.81.35",
+        "10.81.36",
+        "10.81.37",
+        "10.81.38",
+        "10.81.39",
+        "10.81.40"
+      ],
+      "source_gap_ranges": [
         "10.81.1–10.81.40"
       ],
-      "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9478,9 +10052,57 @@
       "records_checked": 47,
       "exact_sridhara_source_blocks": 0,
       "no_commentary_ranges": [
+        "10.82.1",
+        "10.82.2",
+        "10.82.3",
+        "10.82.4",
+        "10.82.5",
+        "10.82.6",
+        "10.82.7",
+        "10.82.8",
+        "10.82.9",
+        "10.82.10",
+        "10.82.11",
+        "10.82.12",
+        "10.82.13",
+        "10.82.14",
+        "10.82.15",
+        "10.82.16",
+        "10.82.17",
+        "10.82.18",
+        "10.82.19",
+        "10.82.20",
+        "10.82.21",
+        "10.82.22",
+        "10.82.23",
+        "10.82.24",
+        "10.82.25",
+        "10.82.26",
+        "10.82.27",
+        "10.82.28",
+        "10.82.29",
+        "10.82.30",
+        "10.82.31",
+        "10.82.32",
+        "10.82.33",
+        "10.82.34",
+        "10.82.35",
+        "10.82.36",
+        "10.82.37",
+        "10.82.38",
+        "10.82.39",
+        "10.82.40",
+        "10.82.41",
+        "10.82.42",
+        "10.82.43",
+        "10.82.44",
+        "10.82.45",
+        "10.82.46",
+        "10.82.47"
+      ],
+      "source_gap_ranges": [
         "10.82.1–10.82.47"
       ],
-      "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9502,9 +10124,52 @@
       "records_checked": 42,
       "exact_sridhara_source_blocks": 0,
       "no_commentary_ranges": [
+        "10.83.1",
+        "10.83.2",
+        "10.83.3",
+        "10.83.4",
+        "10.83.5",
+        "10.83.6",
+        "10.83.7",
+        "10.83.8",
+        "10.83.9",
+        "10.83.10",
+        "10.83.11",
+        "10.83.12",
+        "10.83.13",
+        "10.83.14",
+        "10.83.15",
+        "10.83.16",
+        "10.83.17",
+        "10.83.18",
+        "10.83.19",
+        "10.83.20",
+        "10.83.21",
+        "10.83.22",
+        "10.83.23",
+        "10.83.24",
+        "10.83.25",
+        "10.83.26",
+        "10.83.27",
+        "10.83.28",
+        "10.83.29",
+        "10.83.30",
+        "10.83.31",
+        "10.83.32",
+        "10.83.33",
+        "10.83.34",
+        "10.83.35",
+        "10.83.36",
+        "10.83.37",
+        "10.83.38",
+        "10.83.39",
+        "10.83.40",
+        "10.83.41",
+        "10.83.42"
+      ],
+      "source_gap_ranges": [
         "10.83.1–10.83.42"
       ],
-      "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9526,9 +10191,78 @@
       "records_checked": 68,
       "exact_sridhara_source_blocks": 0,
       "no_commentary_ranges": [
+        "10.84.1",
+        "10.84.2",
+        "10.84.3",
+        "10.84.4",
+        "10.84.5",
+        "10.84.6",
+        "10.84.7",
+        "10.84.8",
+        "10.84.9",
+        "10.84.10",
+        "10.84.11",
+        "10.84.12",
+        "10.84.13",
+        "10.84.14",
+        "10.84.15",
+        "10.84.16",
+        "10.84.17",
+        "10.84.18",
+        "10.84.19",
+        "10.84.20",
+        "10.84.21",
+        "10.84.22",
+        "10.84.23",
+        "10.84.24",
+        "10.84.25",
+        "10.84.26",
+        "10.84.27",
+        "10.84.28",
+        "10.84.29",
+        "10.84.30",
+        "10.84.31",
+        "10.84.32",
+        "10.84.33",
+        "10.84.34",
+        "10.84.35",
+        "10.84.36",
+        "10.84.37",
+        "10.84.38",
+        "10.84.39",
+        "10.84.40",
+        "10.84.41",
+        "10.84.42",
+        "10.84.43",
+        "10.84.44",
+        "10.84.45",
+        "10.84.46",
+        "10.84.47",
+        "10.84.48",
+        "10.84.49",
+        "10.84.50",
+        "10.84.51",
+        "10.84.52",
+        "10.84.53",
+        "10.84.54",
+        "10.84.55",
+        "10.84.56",
+        "10.84.57",
+        "10.84.58",
+        "10.84.59",
+        "10.84.60",
+        "10.84.61",
+        "10.84.62",
+        "10.84.63",
+        "10.84.64",
+        "10.84.65",
+        "10.84.66",
+        "10.84.67",
+        "10.84.68"
+      ],
+      "source_gap_ranges": [
         "10.84.1–10.84.68"
       ],
-      "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9550,27 +10284,27 @@
       "records_checked": 57,
       "exact_sridhara_source_blocks": 46,
       "no_commentary_ranges": [
-        "10.85.2–10.85.3",
-        "10.85.5",
-        "10.85.7",
-        "10.85.9–10.85.11",
-        "10.85.13–10.85.14",
-        "10.85.17",
-        "10.85.20–10.85.21",
-        "10.85.25–10.85.26",
-        "10.85.29",
-        "10.85.34",
-        "10.85.37",
-        "10.85.42",
-        "10.85.53–10.85.54",
-        "10.85.58"
-      ],
-      "source_gap_ranges": [
-        "10.85.2–10.85.3",
+        "10.85.2",
+        "10.85.3",
         "10.85.5",
         "10.85.7",
         "10.85.9",
-        "10.85.13–10.85.14",
+        "10.85.11",
+        "10.85.13",
+        "10.85.14",
+        "10.85.17",
+        "10.85.20",
+        "10.85.25"
+      ],
+      "source_gap_ranges": [
+        "10.85.2",
+        "10.85.3",
+        "10.85.5",
+        "10.85.7",
+        "10.85.9",
+        "10.85.11",
+        "10.85.13",
+        "10.85.14",
         "10.85.17",
         "10.85.20",
         "10.85.25"
@@ -9596,32 +10330,33 @@
       "records_checked": 52,
       "exact_sridhara_source_blocks": 39,
       "no_commentary_ranges": [
-        "10.86.2–10.86.4",
-        "10.86.6",
-        "10.86.8–10.86.10",
-        "10.86.12–10.86.14",
-        "10.86.16",
-        "10.86.18",
-        "10.86.20",
-        "10.86.22",
-        "10.86.24–10.86.26",
-        "10.86.33",
-        "10.86.35",
-        "10.86.37",
-        "10.86.40",
-        "10.86.50",
-        "10.86.57–10.86.58"
-      ],
-      "source_gap_ranges": [
-        "10.86.3–10.86.4",
+        "10.86.3",
+        "10.86.4",
         "10.86.6",
         "10.86.8",
+        "10.86.10",
         "10.86.12",
         "10.86.14",
         "10.86.16",
         "10.86.18",
         "10.86.20",
         "10.86.22",
+        "10.86.24",
+        "10.86.26"
+      ],
+      "source_gap_ranges": [
+        "10.86.3",
+        "10.86.4",
+        "10.86.6",
+        "10.86.8",
+        "10.86.10",
+        "10.86.12",
+        "10.86.14",
+        "10.86.16",
+        "10.86.18",
+        "10.86.20",
+        "10.86.22",
+        "10.86.24",
         "10.86.26"
       ],
       "live_render": null,
@@ -9645,11 +10380,15 @@
       "records_checked": 49,
       "exact_sridhara_source_blocks": 43,
       "no_commentary_ranges": [
-        "10.87.5–10.87.8",
-        "10.87.47–10.87.48"
+        "10.87.5",
+        "10.87.6",
+        "10.87.7",
+        "10.87.8",
+        "10.87.47",
+        "10.87.48"
       ],
       "source_gap_ranges": [
-        "10.87.42–10.87.43"
+        "10.87.42–43"
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
@@ -9672,7 +10411,8 @@
       "records_checked": 37,
       "exact_sridhara_source_blocks": 24,
       "no_commentary_ranges": [
-        "10.88.6–10.88.7",
+        "10.88.6",
+        "10.88.7",
         "10.88.11",
         "10.88.13",
         "10.88.15",
@@ -9681,10 +10421,25 @@
         "10.88.28",
         "10.88.31",
         "10.88.33",
-        "10.88.36–10.88.37",
+        "10.88.36",
+        "10.88.37",
         "10.88.39"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.88.6",
+        "10.88.7",
+        "10.88.11",
+        "10.88.13",
+        "10.88.15",
+        "10.88.21",
+        "10.88.23",
+        "10.88.28",
+        "10.88.31",
+        "10.88.33",
+        "10.88.36",
+        "10.88.37",
+        "10.88.39"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9706,23 +10461,69 @@
       "records_checked": 64,
       "exact_sridhara_source_blocks": 34,
       "no_commentary_ranges": [
-        "10.89.2–10.89.3",
-        "10.89.5–10.89.10",
+        "10.89.2",
+        "10.89.5",
+        "10.89.7",
+        "10.89.8",
+        "10.89.9",
+        "10.89.10",
         "10.89.12",
         "10.89.14",
-        "10.89.17–10.89.18",
-        "10.89.23–10.89.25",
+        "10.89.17",
+        "10.89.18",
+        "10.89.23",
+        "10.89.24",
+        "10.89.25",
         "10.89.27",
         "10.89.31",
-        "10.89.33–10.89.34",
+        "10.89.33",
+        "10.89.34",
         "10.89.36",
         "10.89.40",
-        "10.89.43–10.89.44",
+        "10.89.43",
+        "10.89.44",
         "10.89.47",
-        "10.89.49–10.89.50",
-        "10.89.61–10.89.66"
+        "10.89.49",
+        "10.89.50",
+        "10.89.61",
+        "10.89.62",
+        "10.89.63",
+        "10.89.64",
+        "10.89.65",
+        "10.89.66"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.89.2",
+        "10.89.5",
+        "10.89.7",
+        "10.89.8",
+        "10.89.9",
+        "10.89.10",
+        "10.89.12",
+        "10.89.14",
+        "10.89.17",
+        "10.89.18",
+        "10.89.23",
+        "10.89.24",
+        "10.89.25",
+        "10.89.27",
+        "10.89.31",
+        "10.89.33",
+        "10.89.34",
+        "10.89.36",
+        "10.89.40",
+        "10.89.43",
+        "10.89.44",
+        "10.89.47",
+        "10.89.49",
+        "10.89.50",
+        "10.89.61",
+        "10.89.62",
+        "10.89.63",
+        "10.89.64",
+        "10.89.65",
+        "10.89.66"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9744,15 +10545,37 @@
       "records_checked": 42,
       "exact_sridhara_source_blocks": 28,
       "no_commentary_ranges": [
-        "10.90.12–10.90.13",
+        "10.90.12",
+        "10.90.13",
         "10.90.25",
         "10.90.27",
         "10.90.29",
         "10.90.32",
-        "10.90.35–10.90.40",
-        "10.90.45–10.90.46"
+        "10.90.35",
+        "10.90.36",
+        "10.90.37",
+        "10.90.38",
+        "10.90.39",
+        "10.90.40",
+        "10.90.45",
+        "10.90.46"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "10.90.12",
+        "10.90.13",
+        "10.90.25",
+        "10.90.27",
+        "10.90.29",
+        "10.90.32",
+        "10.90.35",
+        "10.90.36",
+        "10.90.37",
+        "10.90.38",
+        "10.90.39",
+        "10.90.40",
+        "10.90.45",
+        "10.90.46"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published in Contents after pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Browser visual verification is recorded separately when available.",
@@ -9774,9 +10597,11 @@
       "records_checked": 45,
       "exact_sridhara_source_blocks": 43,
       "no_commentary_ranges": [
-        "3.1.4–3.1.5"
+        "3.1.4",
+        "3.1.5"
       ],
       "source_gap_ranges": [
+        "3.1.4",
         "3.1.5"
       ],
       "live_render": null,
@@ -9826,7 +10651,9 @@
       "no_commentary_ranges": [
         "3.3.25"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "3.3.25"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Canto 3.3 was re-audited against the pinned file. The reader preserves grouped source range 3.3.20–3.3.21; 3.3.25 is the only explicit no-commentary range.",
@@ -9852,7 +10679,9 @@
       "no_commentary_ranges": [
         "3.4.27"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "3.4.27"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter source and commentary alignment checked against the pinned source; 34 reader records cover 36 numbered verses because 3.4.33–3.4.35 is one grouped commentary record.",
@@ -9875,7 +10704,8 @@
       "records_checked": 51,
       "exact_sridhara_source_blocks": 47,
       "no_commentary_ranges": [
-        "3.5.34–3.5.35"
+        "3.5.34",
+        "3.5.35"
       ],
       "source_gap_ranges": [
         "3.5.51"
@@ -9909,7 +10739,8 @@
       "no_commentary_ranges": [
         "3.6.14",
         "3.6.20",
-        "3.6.22–3.6.23"
+        "3.6.22",
+        "3.6.23"
       ],
       "source_gap_ranges": [],
       "live_render": null,
@@ -10073,12 +10904,21 @@
       "records_checked": 53,
       "exact_sridhara_source_blocks": 36,
       "no_commentary_ranges": [
-        "3.12.8–3.12.9",
-        "3.12.12–3.12.13",
+        "3.12.8",
+        "3.12.9",
+        "3.12.12",
+        "3.12.13",
         "3.12.17",
-        "3.12.19–3.12.25",
+        "3.12.19",
+        "3.12.20–3.12.21",
+        "3.12.22",
+        "3.12.23–3.12.24",
+        "3.12.25",
         "3.12.27",
-        "3.12.29–3.12.32",
+        "3.12.29",
+        "3.12.30",
+        "3.12.31",
+        "3.12.32",
         "3.12.39",
         "3.12.55"
       ],
@@ -10196,7 +11036,8 @@
       "records_checked": 35,
       "exact_sridhara_source_blocks": 30,
       "no_commentary_ranges": [
-        "3.16.2–3.16.4",
+        "3.16.2–3.16.3",
+        "3.16.4",
         "3.16.12",
         "3.16.32",
         "3.16.34"
@@ -10226,10 +11067,24 @@
       "records_checked": 30,
       "exact_sridhara_source_blocks": 10,
       "no_commentary_ranges": [
-        "3.17.3–3.17.9",
-        "3.17.11–3.17.14",
-        "3.17.18–3.17.20",
-        "3.17.23–3.17.26",
+        "3.17.3",
+        "3.17.4",
+        "3.17.5",
+        "3.17.6",
+        "3.17.7",
+        "3.17.8",
+        "3.17.9",
+        "3.17.11",
+        "3.17.12",
+        "3.17.13",
+        "3.17.14",
+        "3.17.18",
+        "3.17.19",
+        "3.17.20",
+        "3.17.23",
+        "3.17.24",
+        "3.17.25",
+        "3.17.26",
         "3.17.28",
         "3.17.31"
       ],
@@ -10260,9 +11115,16 @@
       "no_commentary_ranges": [
         "3.18.5",
         "3.18.8",
-        "3.18.11–3.18.19",
-        "3.18.22–3.18.23",
-        "3.18.28"
+        "3.18.11",
+        "3.18.12",
+        "3.18.13",
+        "3.18.14",
+        "3.18.15",
+        "3.18.16",
+        "3.18.17",
+        "3.18.18",
+        "3.18.19",
+        "3.18.22"
       ],
       "source_gap_ranges": [],
       "live_render": null,
@@ -10852,10 +11714,15 @@
       "records_checked": 29,
       "exact_sridhara_source_blocks": 14,
       "no_commentary_ranges": [
-        "3.27.2–3.27.4",
-        "3.27.7–3.27.9",
+        "3.27.2",
+        "3.27.3",
+        "3.27.4",
+        "3.27.7",
+        "3.27.8",
+        "3.27.9",
         "3.27.18",
-        "3.27.24–3.27.25",
+        "3.27.24",
+        "3.27.25",
         "3.27.27",
         "3.27.29"
       ],
@@ -10882,14 +11749,21 @@
       "exact_sridhara_source_blocks": 22,
       "no_commentary_ranges": [
         "3.28.2–3.28.7",
-        "3.28.9–3.28.11",
-        "3.28.14–3.28.17",
+        "3.28.9",
+        "3.28.10",
+        "3.28.11",
+        "3.28.14",
+        "3.28.15",
+        "3.28.16",
+        "3.28.17",
         "3.28.19",
         "3.28.22",
         "3.28.24",
         "3.28.36",
         "3.28.38",
-        "3.28.42–3.28.44"
+        "3.28.42",
+        "3.28.43",
+        "3.28.44"
       ],
       "source_gap_ranges": [],
       "live_render": null,
@@ -10917,8 +11791,12 @@
         "3.29.17",
         "3.29.23",
         "3.29.31",
-        "3.29.38–3.29.41",
-        "3.29.44–3.29.45"
+        "3.29.38",
+        "3.29.39",
+        "3.29.40",
+        "3.29.41",
+        "3.29.44",
+        "3.29.45"
       ],
       "source_gap_ranges": [],
       "live_render": null,
@@ -10942,13 +11820,27 @@
       "records_checked": 34,
       "exact_sridhara_source_blocks": 10,
       "no_commentary_ranges": [
-        "3.30.2–3.30.6",
-        "3.30.10–3.30.13",
-        "3.30.16–3.30.19",
+        "3.30.2",
+        "3.30.3",
+        "3.30.4",
+        "3.30.5",
+        "3.30.6",
+        "3.30.10",
+        "3.30.11",
+        "3.30.12",
+        "3.30.13",
+        "3.30.16",
+        "3.30.17",
+        "3.30.18",
+        "3.30.19",
         "3.30.23",
         "3.30.25",
-        "3.30.28–3.30.31",
-        "3.30.33–3.30.34"
+        "3.30.28",
+        "3.30.29",
+        "3.30.30",
+        "3.30.31",
+        "3.30.33",
+        "3.30.34"
       ],
       "source_gap_ranges": [],
       "live_render": null,
@@ -10974,11 +11866,16 @@
       "no_commentary_ranges": [
         "3.31.1",
         "3.31.3",
-        "3.31.5–3.31.8",
+        "3.31.5",
+        "3.31.6",
+        "3.31.7–3.31.8",
         "3.31.17",
         "3.31.20",
-        "3.31.25–3.31.27",
-        "3.31.30–3.31.31",
+        "3.31.25",
+        "3.31.26",
+        "3.31.27",
+        "3.31.30",
+        "3.31.31",
         "3.31.36",
         "3.31.48"
       ],
@@ -11006,10 +11903,12 @@
       "no_commentary_ranges": [
         "3.32.3",
         "3.32.10",
-        "3.32.13–3.32.14",
+        "3.32.13",
+        "3.32.14",
         "3.32.21",
         "3.32.25",
-        "3.32.35–3.32.36",
+        "3.32.35",
+        "3.32.36",
         "3.32.38",
         "3.32.43"
       ],
@@ -11035,12 +11934,17 @@
       "records_checked": 36,
       "exact_sridhara_source_blocks": 23,
       "no_commentary_ranges": [
-        "3.33.8–3.33.9",
+        "3.33.8",
+        "3.33.9",
         "3.33.11",
         "3.33.16",
-        "3.33.18–3.33.20",
+        "3.33.18",
+        "3.33.19",
+        "3.33.20",
         "3.33.31",
-        "3.33.34–3.33.36"
+        "3.33.34",
+        "3.33.35",
+        "3.33.36"
       ],
       "source_gap_ranges": [],
       "live_render": null,
@@ -11070,7 +11974,13 @@
         "12.1.28–12.1.29",
         "12.1.31"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.1.5–12.1.8",
+        "12.1.14",
+        "12.1.24–12.1.26",
+        "12.1.28–12.1.29",
+        "12.1.31"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, grouped 12.1.17–12.1.19 restoration, transliteration, word-for-word, and no-commentary checks.",
@@ -11095,7 +12005,10 @@
         "12.2.7–12.2.8",
         "12.2.38"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.2.7–12.2.8",
+        "12.2.38"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
@@ -11125,7 +12038,15 @@
         "12.3.46",
         "12.3.49"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.3.10",
+        "12.3.12",
+        "12.3.37–12.3.39",
+        "12.3.42",
+        "12.3.44",
+        "12.3.46",
+        "12.3.49"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, word-for-word, no-commentary, and source-heading-normalization checks.",
@@ -11150,7 +12071,10 @@
         "12.4.12",
         "12.4.15–12.4.16"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.4.12",
+        "12.4.15–12.4.16"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
@@ -11199,7 +12123,12 @@
         "12.6.17–12.6.18",
         "12.6.27"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.6.2",
+        "12.6.8",
+        "12.6.17–12.6.18",
+        "12.6.27"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
@@ -11225,7 +12154,11 @@
         "12.7.18",
         "12.7.23–12.7.24"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.7.5",
+        "12.7.18",
+        "12.7.23–12.7.24"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, word-for-word, and no-commentary checks.",
@@ -11254,7 +12187,14 @@
         "12.8.24",
         "12.8.26"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.8.5",
+        "12.8.11",
+        "12.8.14",
+        "12.8.17",
+        "12.8.24",
+        "12.8.26"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, transliteration, word-for-word, full Śrīdhara translation, and no-commentary checks.",
@@ -11281,7 +12221,12 @@
         "12.9.18",
         "12.9.30"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.9.5",
+        "12.9.9",
+        "12.9.18",
+        "12.9.30"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, transliteration, lexical word-for-word, and no-commentary checks.",
@@ -11305,13 +12250,25 @@
       "no_commentary_ranges": [
         "12.10.2",
         "12.10.4",
-        "12.10.10–12.10.14",
+        "12.10.10",
+        "12.10.11–12.10.13",
+        "12.10.14",
         "12.10.18",
         "12.10.23",
         "12.10.34",
         "12.10.37"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.10.2",
+        "12.10.4",
+        "12.10.10",
+        "12.10.11–12.10.13",
+        "12.10.14",
+        "12.10.18",
+        "12.10.23",
+        "12.10.34",
+        "12.10.37"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, transliteration, lexical word-for-word, and no-commentary checks.",
@@ -11338,7 +12295,12 @@
         "12.11.15",
         "12.11.45"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.11.4",
+        "12.11.8",
+        "12.11.15",
+        "12.11.45"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, transliteration, lexical word-for-word, and no-commentary checks.",
@@ -11365,14 +12327,34 @@
         "12.12.22–12.12.24",
         "12.12.27",
         "12.12.29",
-        "12.12.31–12.12.36",
+        "12.12.31",
+        "12.12.32–12.12.33",
+        "12.12.34–12.12.36",
         "12.12.41",
-        "12.12.47–12.12.48",
+        "12.12.47",
+        "12.12.48",
         "12.12.52",
-        "12.12.60–12.12.62",
+        "12.12.60",
+        "12.12.61–12.12.62",
         "12.12.68"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.12.13",
+        "12.12.20",
+        "12.12.22–12.12.24",
+        "12.12.27",
+        "12.12.29",
+        "12.12.31",
+        "12.12.32–12.12.33",
+        "12.12.34–12.12.36",
+        "12.12.41",
+        "12.12.47",
+        "12.12.48",
+        "12.12.52",
+        "12.12.60",
+        "12.12.61–12.12.62",
+        "12.12.68"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, transliteration, lexical word-for-word, and no-commentary checks.",
@@ -11397,7 +12379,10 @@
         "12.13.10–12.13.12",
         "12.13.21"
       ],
-      "source_gap_ranges": [],
+      "source_gap_ranges": [
+        "12.13.10–12.13.12",
+        "12.13.21"
+      ],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter published after pinned-source, exact-range, transliteration, lexical word-for-word, and no-commentary checks; VedaBase supplied the English and lexical cross-check because the pinned corpus has no separate English mirror.",
