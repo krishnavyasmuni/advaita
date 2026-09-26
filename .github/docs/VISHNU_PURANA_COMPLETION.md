@@ -296,3 +296,24 @@ This release applies the Book 1, Chapter 1 reader standard across all 126 chapte
 - Static validation passed across all 126 routes: 6,400 contiguous verse articles; nonempty Sanskrit and English fields; one Transliteration control per verse; every Contents target resolves; all 13,718 native details/summary controls and div nesting are balanced; all routes match the reference shell and stylesheet/font links; no generated `lang="sa-Deva"` field contains Latin-script characters.
 
 This is a reader and markup correction, not semantic completion. The current coverage scan still finds 3,823 nonempty main-text WFW panels, 2,573 verses without a panel, and four explicit placeholder panels. Existing translations and lexical glosses still need source-based, verse-by-verse review. Continue in reverse sequence at Book 6, Chapter 7, verse 106, then proceed through Books 6 to 1.
+
+
+## Whole-corpus case audit and correction batch — 2026-09-26
+
+The scan covers all 126 chapter pages at parent commit `e93d5f89e30b63eabbe87973c94f58eea6a79d88`. Every flagged verse ID and transliteration comparison is in `.github/maintenance/audit/vishnu-purana-route-audit-2026-09-26.json`. This section supersedes earlier whole-site totals where they differ.
+
+| Book | Verses | WFW controls | Missing WFW | Missing Śrīdhara Sanskrit | IAST alignment flags | Routes matching Chapter 1 styles |
+|---|---:|---:|---:|---:|---:|---:|
+| 1 | 1407 | 1407 | 0 | 473 | 0 | 22/22 |
+| 2 | 787 | 787 | 0 | 109 | 209 | 16/16 |
+| 3 | 837 | 837 | 0 | 318 | 537 | 18/18 |
+| 4 | 1354 | 61 | 1293 | 961 | 57 | 24/24 |
+| 5 | 1517 | 671 | 846 | 861 | 354 | 38/38 |
+| 6 | 498 | 64 | 434 | 187 | 103 | 8/8 |
+| **Total** | **6,400** | **3,827** | **2,573** | **2,909** | **1,260** | **126/126** |
+
+This batch moved 40 Book 2 commentary maps into the Śrīdhara side of the panel and reformatted 127 Book 3 phrase maps as paired Devanāgarī/IAST/gloss rows. Their IAST and gloss text were retained; the new Devanāgarī was generated from the IAST and still needs source-witness review. Eight English paragraphs were corrected, and two commentary fields that repeated the translation filler were changed to the existing “No commentary.” state.
+
+All routes match the reference stylesheet/font links; all 13,718 native details/summary controls and 6,394 Contents targets resolve; verse div counts are balanced. Live browser clicks and rendered pixel dimensions were not tested. There are 1,260 IAST alignment flags, including 151 high-divergence cases, 52 cards with numeric Sanskrit artifacts, and one remaining Kannada-script contamination at 4.9.18. The route audit lists every case.
+
+This does not complete the 2,573 missing WFW panels or semantically certify translations, transliterations, or generated Devanāgarī. Continue the source pass from Book 6, Chapter 7, verse 106.
