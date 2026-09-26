@@ -271,3 +271,15 @@ The owner reported visibly wrong sizing and incomplete verse content on this cha
 - Sources are pinned in the page note to upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`: mūla `9140193c63be14daf9616d617a436616021b2880`, numbered witness `59f12fc67520cf05689f452f5e9147c0f12a28d3`, Śrīdhara `add296b89589d37e9a249ebcb5c67b3f342d456b`, and English cross-check `9b6296cb41622e4d0500de8547251e5cd189abcb`.
 
 The all-route div-count scan found 1,635 verse articles with an imbalance before this repair; 26 are corrected here and 1,609 remain. Remaining counts are Book 1: 8; Book 2: 682; Book 3: 680; Book 4: 61; Book 5: 178; Book 6: 0. This scan measures markup only. It does not certify translations or lexical coverage in the remaining verses. The separate panel-presence totals above remain 3,823/6,400 and also do not certify semantic completeness.
+
+
+## User-directed Book 3, Chapter 8 Chapter 1-layout repair — 2026-09-26
+
+The owner pointed out that Chapter 3.8 still looked unlike the Book 1, Chapter 1 reference. The page had the shared stylesheet links, but every verse's main lexical map used the legacy prose block, each of the 41 verse articles had one surplus closing `div`, and the outer reader wrappers were not closed.
+
+- Converted all 266 existing main-text lexical entries into the Chapter 1 `gita-word-list` / `gita-word-row` format, with paired Devanāgarī, retained IAST, and retained gloss. Śrīdhara phrase maps remain in the same format used by the Chapter 1 reference.
+- Removed one surplus closing tag from each of the 41 Word-for-word panels and restored the outer `div`, `article`, and `main` closures. All 41 verse IDs, translations, Word-for-word controls, Transliteration controls, and Contents links are present; 14 verses retain their explicit “No commentary.” state.
+- Source markup check: 790 balanced `div` elements, 109 balanced native `details` controls, no tag-nesting errors, and stylesheet/font links identical to Book 1, Chapter 1. Added the pinned numbered witness to the page note (upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`, blob `ad105b21f40a2c5adfac988fedef6733fb65953f`).
+- This release fixes Chapter 3.8's layout and structure. Existing English translations and lexical gloss meanings were retained; this layout repair is not a fresh semantic retranslation of every verse.
+
+The all-route structural scan now leaves 1,568 imbalanced verse articles: Book 1: 8; Book 2: 682; Book 3: 639; Book 4: 61; Book 5: 178; Book 6: 0. The whole-corpus panel-presence count remains 3,823/6,400, with 2,573 verses lacking a main-text panel and four explicit placeholders. These totals are coverage/markup checks; the full semantic audit remains open.
