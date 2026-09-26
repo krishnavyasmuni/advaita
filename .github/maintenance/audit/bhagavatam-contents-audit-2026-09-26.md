@@ -2,25 +2,28 @@
 
 ## Scope
 
-This pass covers only chapter links shown on the Bhagavatam Contents page. It does not certify the entire 12-canto corpus.
+This audit covers only the chapter groups and links shown on the public Bhagavatam Contents page.
 
-## Publication and design fixes
+## Contents restoration
 
-The Contents page previously linked 196 chapters, including Canto 3 and Canto 12 despite their reader shells describing those releases as withheld, plus all 90 Canto 10 chapters while the existing release audit covered chapters 1–38. The Contents list now contains 98 links:
+A previous update incorrectly reduced the public Contents from 196 to 98 links, removing Canto 3, Canto 12, and Canto 10 chapters 39–90. This correction restores all six existing groups and adds the missing Canto 3 and Canto 12 shortcuts to the Contents navigation.
 
-| Canto | Listed chapters | Count | Status |
-|---|---:|---:|---|
-| 1 | 1–19 | 19 | Existing project ledger marks the Canto audit complete. |
-| 2 | 1–10 | 10 | Existing project ledger marks the Canto audit complete. |
-| 10 | 1–38 | 38 | Existing audit rechecked these chapters structurally and found no generic placeholder glosses. Explicit source gaps are retained where the source has no commentary text. |
-| 11 | 1–31 | 31 | Kept available with an on-page verification notice. Full source alignment and semantic word-for-word review remain open. |
+| Canto | Chapters listed | Count |
+|---|---:|---:|
+| 1 | 1–19 | 19 |
+| 2 | 1–10 | 10 |
+| 3 | 1–33 | 33 |
+| 10 | 1–90 | 90 |
+| 11 | 1–31 | 31 |
+| 12 | 1–13 | 13 |
+| **Total** |  | **196** |
 
-Canto 3, Canto 10 chapters 39–90, and Canto 12 are not linked while their chapter checks remain incomplete. This is a Contents publication boundary; it does not remove their files or assert that their direct URLs are inaccessible.
+## Reader template and Śrīdhara Sanskrit
 
-The Canto 10 and Canto 11 reader shells now load the same Google font families and exact-style script as the Canto 1 template. Their shared Bhagavad-gītā stylesheets and reader/clarity scripts already used matching versions. Canto 11's existing verification notice explains the unresolved 11.23 source/numbering mismatch.
+Canto 3 and Canto 12 now load the same font families and exact-style script as the Canto 1 template. Canto 10 and Canto 11 already use those shared resources.
 
-## Translation status and limits
+For the screenshot's Canto 10, Chapter 7, Verse 6, the pinned source cache contains Śrīdhara's Sanskrit gloss and the reader's Śrīdhara Sanskrit disclosure renders it. The control is collapsed by default to match the Canto 1 reader. The source text for 10.7.6 is: उद्क्षिपद् ऊर्ध्वं चालितवान् ॥६॥
 
-The Canto 1 and 2 completion labels come from existing chapter ledgers. The Canto 10 chapters 1–38 audit was a structural and source-bound check, not a fresh independent semantic rereading of every English word. Canto 11 is explicitly still under review. No claim is made here that every displayed translation is perfect.
+## Translation review status
 
-This pass verified the chapter-link counts, release boundary, source-level shell assets, and review notices. It did not include a live browser visual comparison or a verse-by-verse rereading of all linked translation text.
+Restoring links does not mark every linked chapter complete. The repository's existing audits still identify unfinished translation/source review, including placeholder glosses in Canto 3 chapters 26–33 and a Canto 11.23 verse-number alignment issue. The Canto 11 article retains its verification notice. This pass did not independently reread every translation in all 196 linked chapters.

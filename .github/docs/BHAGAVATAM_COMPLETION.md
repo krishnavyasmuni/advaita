@@ -5,7 +5,7 @@
 
 > **Project-wide audit correction (2026-09-22):** A fresh audit of every reader-linked data file found that the prior completion labels were too broad. Canto 3 initially contained 3,542 generated filler gloss rows (“contextual literal sense of …”) across 1,321 records; Canto 3.1–3.18 now have real IAST phrase-level word-for-word pairs; Canto 3.5, 3.6 and 3.18 retain explicit pinned-source gaps; 1,729 generated filler rows remain to repair in Canto 3; the un-wired Canto 4 cache contains 3,216 such rows across 1,104 records; Canto 11 still requires full verse alignment verification; and Canto 10 has now been rechecked: six intact missing ranges were repaired, while four corrupt pinned-source rows remain explicitly tracked as source gaps (10.64.13, 10.68.30, 10.68.32, 10.77.34). Canto 12 passes the structural/source audit. These cantos must not be called complete or released until their real Sanskrit-first glosses are supplied and re-verified.
 
-> **Current Contents publication audit (2026-09-26):** [Read the Contents-only audit](../maintenance/audit/bhagavatam-contents-audit-2026-09-26.md). The Contents currently lists 98 chapters: Cantos 1 (1–19), 2 (1–10), 10 (1–38), and 11 (1–31). Canto 11 remains visibly under review.
+> **Current Contents audit correction (2026-09-26):** [Read the Contents audit](../maintenance/audit/bhagavatam-contents-audit-2026-09-26.md). The public Contents has 196 links across Cantos 1, 2, 3, 10, 11, and 12. Translation checks remain open in chapters recorded in the audit.
 
 ## Mission
 
