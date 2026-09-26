@@ -17,7 +17,7 @@ Complete and semantically audit all 126 Viṣṇu Purāṇa chapter routes (6,40
 
 Start at Book 6, Chapter 8, verse 64, then work backwards to 6.8.1. After publishing that complete chapter, start Book 6, Chapter 7 at its final source verse and work down to verse 1. Continue chapter-by-chapter in descending order through Book 6, then Books 5, 4, 3, 2, and 1. Verify each chapter's actual verse count from its source; never assume a count.
 
-Current resume point in the full-corpus sequence: Book 6, Chapter 7, verse 106. The owner has since directed this session to prioritize Viṣṇu Purāṇa Books 1–2; that focused status is recorded below. The full-corpus sequence remains open.
+Current resume point in the full-corpus sequence: Book 6, Chapter 7, verse 106. On 2026-09-26, the owner restated the full-corpus priority in descending book order (6→1). The sample repair below was an out-of-sequence diagnostic; resume remains Book 6, Chapter 7, verse 106.
 
 ## Source hierarchy
 
@@ -258,3 +258,16 @@ The fresh panel scan finds 2,573 verses without a main-text word-for-word panel 
 | **Total** | **6,400** | **3,823** | **2,573** | **4** |
 
 The table records panel presence, not semantic completion. Chapter 1–3 panels still need verse-level comparison to the Sanskrit witnesses; Books 4–6 have the listed unmapped verses. Existing English paragraphs in 4.1.1 and 6.7.1 also need editorial review before those translations can be described as complete.
+
+
+## User-sampled Book 3, Chapter 4 repair — 2026-09-26
+
+The owner reported visibly wrong sizing and incomplete verse content on this chapter. All 26 verses were rechecked against the pinned Sanskrit witnesses and the supplied Śrīdhara material. This diagnostic release does not change the reverse-order resume point: Book 6, Chapter 7, verse 106.
+
+- All 26 articles have a source-checked English translation, a main-text Word-for-word control, and a Transliteration control. The 26 main maps contain 238 paired Devanāgarī/IAST/gloss rows. The page has 22 supplied-commentary states and four exact “No commentary.” states; the commentary passage for 3.4.25 is repeated under 3.4.26 where it also applies.
+- The review restores the missing third pāda in the 3.4.25 English and word-for-word material, revises the 3.4.1 translation/commentary translation, removes an OCR footnote artifact at 3.4.2, and records source-supported readings and spelling corrections in the chapter’s source note.
+- Markup repair removes the surplus closing tags in the chapter’s 26 Word-for-word panels, closes the 3.4.21 Transliteration reveal correctly, and closes the outer `main` element. The resulting page has 609 opening/closing div pairs, 74 balanced details controls, 26 contiguous verse IDs, and resolved Contents targets.
+- The Chapter 1 and repaired Chapter 3 page have identical stylesheet/font links and matching reader-control classes. The source structure was verified; browser-rendered visual comparison is not available in this environment.
+- Sources are pinned in the page note to upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`: mūla `9140193c63be14daf9616d617a436616021b2880`, numbered witness `59f12fc67520cf05689f452f5e9147c0f12a28d3`, Śrīdhara `add296b89589d37e9a249ebcb5c67b3f342d456b`, and English cross-check `9b6296cb41622e4d0500de8547251e5cd189abcb`.
+
+The all-route div-count scan found 1,635 verse articles with an imbalance before this repair; 26 are corrected here and 1,609 remain. Remaining counts are Book 1: 8; Book 2: 682; Book 3: 680; Book 4: 61; Book 5: 178; Book 6: 0. This scan measures markup only. It does not certify translations or lexical coverage in the remaining verses. The separate panel-presence totals above remain 3,823/6,400 and also do not certify semantic completeness.

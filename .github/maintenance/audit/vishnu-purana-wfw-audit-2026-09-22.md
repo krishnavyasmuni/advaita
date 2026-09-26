@@ -248,3 +248,12 @@ The current-branch scan covered all 126 routes and 6,400 verse articles. Every a
 | **Total** | **6,400** | **3,823** | **2,573** | **4** |
 
 “Nonempty WFW panel” is a DOM-presence count only; it does not assert that each lexical map accounts for every Sanskrit word. The Book 2 placeholders are 2.4.96, 2.6.40–41, and 2.8.34. Book 4–6 gaps are the next source-based completion targets in descending book order, beginning at 6.7.106. The reader update applies the Chapter 1 theme to all routes. The 3.8.7 map now includes the omitted vocative `rājendra` (“O king”).
+
+
+## User-sampled Book 3, Chapter 4 markup and content repair — 2026-09-26
+
+- Rechecked all 26 verses against the pinned mūla, numbered witness, Śrīdhara, and English cross-check. Restored missing third-pāda translation and lexical material at 3.4.25; corrected 3.4.1 English/commentary wording and other source-backed readings recorded in the page note.
+- Chapter coverage: 26/26 English translations, 26 main-text Word-for-word controls, 238 paired lexical rows, 26 Transliteration controls, 22 supplied Śrīdhara states, and four exact “No commentary.” states.
+- Removed the extra closing divs in all 26 Word-for-word panels; fixed the 3.4.21 Transliteration reveal and outer `main` closure. Chapter 1 and 3.4 share identical stylesheet/font links and reader classes. Source validation passed; live visual rendering was not verified in a browser.
+- Structural scan before this repair: 1,635/6,400 article nodes had div-count imbalance. This release fixes 26; 1,609 remain (Book 1: 8; Book 2: 682; Book 3: 680; Book 4: 61; Book 5: 178; Book 6: 0). This is markup-only; the semantic audit across the other chapters remains open. Whole-corpus WFW panel presence is 3,823/6,400, with 2,573 missing panels and four explicit placeholders, as recorded above.
+- Source blobs are pinned in the chapter note at upstream commit `fc117aa4514dfd4e4840037aeb3ca825ba030b05`: mūla `9140193c63be14daf9616d617a436616021b2880`, numbered witness `59f12fc67520cf05689f452f5e9147c0f12a28d3`, Śrīdhara `add296b89589d37e9a249ebcb5c67b3f342d456b`, English `9b6296cb41622e4d0500de8547251e5cd189abcb`.
