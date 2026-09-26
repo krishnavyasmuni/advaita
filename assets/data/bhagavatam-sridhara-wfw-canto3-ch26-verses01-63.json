@@ -361,8 +361,17 @@
       "end": 11,
       "source_marker": "३.२६.११",
       "sanskrit": "अन्येषां तत्त्वानां लक्षणं वक्तुं तानि गणयति---पञ्चभिर् इत्य्-आदि । सङ्ख्याभेदेनैतच् चतुर्-विंशतिकम् एतानि चतुर्-विंशतिर् यस्मिन् गणे तं गणं प्राधानिकं प्रधान-कार्यात्मकं ब्रहम विदुः ॥११॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "अन्येषां तत्त्वानां लक्षणं वक्तुं तानि गणयति---पञ्चभिर् इत्य्-आदि ।",
+          "To state the characteristics of the other principles, he enumerates them, beginning with “in five”."
+        ],
+        [
+          "सङ्ख्याभेदेनैतच् चतुर्-विंशतिकम् एतानि चतुर्-विंशतिर् यस्मिन् गणे तं गणं प्राधानिकं प्रधान-कार्यात्मकं ब्रहम विदुः ॥११॥",
+          "By their numerical distinction this group has twenty-four; know that group, consisting of Pradhāna and its effects, as Brahman in its primary form."
+        ]
+      ],
+      "literal_english": "Literal rendering: To state the characteristics of the other principles, he enumerates them, beginning with “in five”. By their numerical distinction this group has twenty-four; know that group, consisting of Pradhāna and its effects, as Brahman in its primary form.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -373,8 +382,17 @@
       "end": 12,
       "source_marker": "३.२६.१२",
       "sanskrit": "एतद् विवृणोति---महा-भूतानीति त्रिभिः । तावन्ति पञ्चैव ॥१२॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "एतद् विवृणोति---महा-भूतानीति त्रिभिः ।",
+          "He explains this in three verses beginning “the great elements.”"
+        ],
+        [
+          "तावन्ति पञ्चैव ॥१२॥",
+          "They are indeed five."
+        ]
+      ],
+      "literal_english": "Literal rendering: He explains this in three verses beginning “the great elements.” They are indeed five.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -402,8 +420,17 @@
       "end": 14,
       "source_marker": "३.२६.१४",
       "sanskrit": "अन्तर्-आत्मकम् अन्तः-करणम् । लक्षण-रूपया व्यवच्छेदिकया ॥१४॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "अन्तर्-आत्मकम् अन्तः-करणम् ।",
+          "“Constituted within” means the inner instrument."
+        ],
+        [
+          "लक्षण-रूपया व्यवच्छेदिकया ॥१४॥",
+          "“By its defining form” means by a distinguishing characteristic."
+        ]
+      ],
+      "literal_english": "Literal rendering: “Constituted within” means the inner instrument. “By its defining form” means by a distinguishing characteristic.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -414,8 +441,25 @@
       "end": 15,
       "source_marker": "३.२६.१५",
       "sanskrit": "यावान् मया प्रोक्त एतावान् एव सङ्ख्यातो गणितस् तत्त्व-ज्ञैः । काले तु मत-द्वयम् आह---यः कालः स पञ्च-विंशकः । अल्पार्थे क-प्रत्ययः । प्रकृतेर् एवावस्था-विशेष इत्य् अर्थः ॥१५॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "यावान् मया प्रोक्त एतावान् एव सङ्ख्यातो गणितस् तत्त्व-ज्ञैः ।",
+          "Whatever I have described is exactly that much, counted by knowers of the principles."
+        ],
+        [
+          "काले तु मत-द्वयम् आह---यः कालः स पञ्च-विंशकः ।",
+          "With regard to Time, he states two views: Time is the twenty-fifth principle."
+        ],
+        [
+          "अल्पार्थे क-प्रत्ययः ।",
+          "The suffix ka has a diminutive sense."
+        ],
+        [
+          "प्रकृतेर् एवावस्था-विशेष इत्य् अर्थः ॥१५॥",
+          "The meaning is that [Time] is only a particular state of Prakṛti."
+        ]
+      ],
+      "literal_english": "Literal rendering: Whatever I have described is exactly that much, counted by knowers of the principles. With regard to Time, he states two views: Time is the twenty-fifth principle. The suffix ka has a diminutive sense. The meaning is that [Time] is only a particular state of Prakṛti.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -426,8 +470,29 @@
       "end": 16,
       "source_marker": "३.२६.१६",
       "sanskrit": "तु पौरुषं पुरुषस्य ईश्वरस्य प्रभास्येश्वरस्य प्रभावं विक्रमं कालम् आहुः । तम् एव कालं द्वेधा लक्षयति, यतो भयं भवति । कस्य ? प्रकृतिम् ईयुषः प्राप्तस्य । अत एव देहेऽहङ्कारेण विमूढस्य कर्तुर् जीवस्य । अनेन संहारकत्वेन लक्षितः ॥१६॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "तु पौरुषं पुरुषस्य ईश्वरस्य प्रभास्येश्वरस्य प्रभावं विक्रमं कालम् आहुः ।",
+          "But some call the power, might, or potency of Puruṣa—the Lord—Time."
+        ],
+        [
+          "तम् एव कालं द्वेधा लक्षयति, यतो भयं भवति ।",
+          "He defines that same Time in two ways as that from which fear arises."
+        ],
+        [
+          "कस्य ? प्रकृतिम् ईयुषः प्राप्तस्य ।",
+          "Fear for whom? For one who has entered, who has reached, Prakṛti."
+        ],
+        [
+          "अत एव देहेऽहङ्कारेण विमूढस्य कर्तुर् जीवस्य ।",
+          "And therefore for the embodied jīva, the agent deluded by ego."
+        ],
+        [
+          "अनेन संहारकत्वेन लक्षितः ॥१६॥",
+          "Here [Time] is characterized by its power of dissolution."
+        ]
+      ],
+      "literal_english": "Literal rendering: But some call the power, might, or potency of Puruṣa—the Lord—Time. He defines that same Time in two ways as that from which fear arises. Fear for whom? For one who has entered, who has reached, Prakṛti. And therefore for the embodied jīva, the agent deluded by ego. Here [Time] is characterized by its power of dissolution.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -438,8 +503,13 @@
       "end": 17,
       "source_marker": "३.२६.१७",
       "sanskrit": "सृष्टि-हेतुत्वेन लक्षयति---प्रकृतेर् इति ॥१७॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "सृष्टि-हेतुत्वेन लक्षयति---प्रकृतेर् इति ॥१७॥",
+          "He defines [Time] as the cause of creation with “from Prakṛti.”"
+        ]
+      ],
+      "literal_english": "Literal rendering: He defines [Time] as the cause of creation with “from Prakṛti.”",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -450,8 +520,45 @@
       "end": 18,
       "source_marker": "३.२६.१८",
       "sanskrit": "कोऽसौ भगवान् ? तम् आह---अन्तर् इति । अन्तः सर्व-प्राणिनां यः पुरुष-रूपेण वियन्तृत्वेन समत्वेति सम्यक् तद् विकार-रहित एवानुस्यूतो वर्तते बहिश् च काल-रूपेण एष भगवान् । यद्वा, यः पुरुष इति प्रसिद्धः कालः स पञ्च-विंशः । एके तु पुरुषस्य प्रभावं कालम् आहुः । प्रभावस्यैव लक्षणं यत इति । पुरुषस्यैव कालत्वे हेतुः, प्रकृतेर् इति । उभयथा विवक्षायां हेतुः---अन्तर् इति । शेषं समानम् । तद् एवं प्रकृतेश् चतुर्-विंशति-भेदाः । जीवेश्वरयोश् चैक्य-विवक्षातः पञ्च-विंशति-तत्त्वानि भवन्ति । तयोर् भेद-विवक्षया च षड्-विंशतिर् भवन्ति ॥१८॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "कोऽसौ भगवान् ? तम् आह---अन्तर् इति ।",
+          "Who is that Lord? He answers with “within.”"
+        ],
+        [
+          "अन्तः सर्व-प्राणिनां यः पुरुष-रूपेण वियन्तृत्वेन समत्वेति सम्यक् तद् विकार-रहित एवानुस्यूतो वर्तते",
+          "Within all living beings, He remains fully pervading as the Puruṣa, uniformly, free from change."
+        ],
+        [
+          "बहिश् च काल-रूपेण एष भगवान् ।",
+          "And outside, this Lord exists in the form of Time."
+        ],
+        [
+          "यद् वा, यः पुरुष इति प्रसिद्धः कालः स पञ्च-विंशः ।",
+          "Alternatively, the well-known “Puruṣa” is Time, the twenty-fifth principle."
+        ],
+        [
+          "एके तु पुरुषस्य प्रभावं कालम् आहुः ।",
+          "Some, however, call the power of Puruṣa Time."
+        ],
+        [
+          "प्रभावस्यैव लक्षणं यत इति ।",
+          "“From which” defines that very power."
+        ],
+        [
+          "पुरुषस्यैव कालत्वे हेतुः, प्रकृतेर् इति ।",
+          "“From Prakṛti” is the reason for Puruṣa himself being Time."
+        ],
+        [
+          "उभयथा विवक्षायां हेतुः---अन्तर् इति । शेषं समानम् ।",
+          "“Within” is the reason when both meanings are intended; the rest is the same."
+        ],
+        [
+          "तद् एवं प्रकृतेश् चतुर्-विंशति-भेदाः । जीवेश्वरयोश् चैक्य-विवक्षातः पञ्च-विंशति-तत्त्वानि भवन्ति । तयोर् भेद-विवक्षया च षड्-विंशतिर् भवन्ति ॥१८॥",
+          "Thus Prakṛti has twenty-four divisions. When the jīva and Lord are intended as one, there are twenty-five principles; when their distinction is intended, there are twenty-six."
+        ]
+      ],
+      "literal_english": "Literal rendering: Who is that Lord? He answers with “within.” Within all living beings, He remains fully pervading as the Puruṣa, uniformly, free from change. And outside, this Lord exists in the form of Time. Alternatively, the well-known “Puruṣa” is Time, the twenty-fifth principle. Some, however, call the power of Puruṣa Time. “From which” defines that very power. “From Prakṛti” is the reason for Puruṣa himself being Time. “Within” is the reason when both meanings are intended; the rest is the same. Thus Prakṛti has twenty-four divisions. When the jīva and Lord are intended as one, there are twenty-five principles; when their distinction is intended, there are twenty-six.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -462,8 +569,37 @@
       "end": 19,
       "source_marker": "३.२६.१९",
       "sanskrit": "इदानीं तत्त्वानाम् उत्पत्ति-पूर्वकं लक्षणान्य् आह---दैवाद् इत्य्-आदिना एतान्य् असंहत्येत्य् अतः प्राक्तनेन ग्रन्थेन । तत्र चित्तस्योत्पत्ति-पूर्वकं लक्षणम् आह चतुर्भिः । दैवाज् जीवादृष्टात् क्षुभिता धर्मा गुणा यस्याः । योनाव् अभिव्यक्ति-स्थाने प्रकृतौ। वीर्यं चिच्-छक्तिम् । सा प्रकृतिर् महत्-तत्त्वम् असूत । महतः स्वरूपम् आह---हिरण्मयं प्रकाश-बहुलम् ॥१९॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "इदानीं तत्त्वानाम् उत्पत्ति-पूर्वकं लक्षणान्य् आह---दैवाद् इत्य्-आदिना",
+          "Now he states the characteristics of the principles along with their origin, beginning with “by the divine.”"
+        ],
+        [
+          "एतान्य् असंहत्येत्य् अतः प्राक्तनेन ग्रन्थेन ।",
+          "This is by the preceding passage, before “these remaining uncombined.”"
+        ],
+        [
+          "तत्र चित्तस्योत्पत्ति-पूर्वकं लक्षणम् आह चतुर्भिः ।",
+          "There he states, in four verses, the characteristic of citta following its origin."
+        ],
+        [
+          "दैवाज् जीवादृष्टात् क्षुभिता धर्मा गुणा यस्याः ।",
+          "“Agitated by the divine” means that whose qualities are disturbed by the unseen karma of the jīva."
+        ],
+        [
+          "योनाव् अभिव्यक्ति-स्थाने प्रकृतौ । वीर्यं चिच्-छक्तिम् ।",
+          "“Womb” is Prakṛti, the place of manifestation; “potency” means the power of consciousness."
+        ],
+        [
+          "सा प्रकृतिर् महत्-तत्त्वम् असूत ।",
+          "That Prakṛti gave birth to the mahat-tattva."
+        ],
+        [
+          "महतः स्वरूपम् आह---हिरण्मयं प्रकाश-बहुलम् ॥१९॥",
+          "He states the nature of mahat with “golden”: abundant in luminosity."
+        ]
+      ],
+      "literal_english": "Literal rendering: Now he states the characteristics of the principles along with their origin, beginning with “by the divine.” This is by the preceding passage, before “these remaining uncombined.” There he states, in four verses, the characteristic of citta following its origin. “Agitated by the divine” means that whose qualities are disturbed by the unseen karma of the jīva. “Womb” is Prakṛti, the place of manifestation; “potency” means the power of consciousness. That Prakṛti gave birth to the mahat-tattva. He states the nature of mahat with “golden”: abundant in luminosity.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -474,8 +610,33 @@
       "end": 20,
       "source_marker": "३.२६.२०",
       "sanskrit": "विश्वम् अहङ्कारादि-प्रपञ्चम् । आत्म-गतं स्वस्मिन् सूक्ष्म-रूपेण स्थितं व्यञ्जन् प्रकटयन् महांस् तीव्रं प्रलय-कालीनं तमोऽपिबत् । कूट-स्थो लय-विक्षेप-शून्यः । कथं-भूतं तमः ? आत्मानं प्रस्वापयति प्रच्छादयतीति तथा । यत् पूर्वं प्रलय-समये महान्तं प्रकृतौ विलापयाम् आसेत्य् अर्थः ॥२०॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "विश्वम् अहङ्कारादि-प्रपञ्चम् ।",
+          "“The universe” means the manifested array beginning with ego."
+        ],
+        [
+          "आत्म-गतं स्वस्मिन् सूक्ष्म-रूपेण स्थितं व्यञ्जन् प्रकटयन्",
+          "Manifesting what was within itself, present there in subtle form."
+        ],
+        [
+          "महांस् तीव्रं प्रलय-कालीनं तमोऽपिबत् ।",
+          "The great principle drank the intense darkness belonging to the time of dissolution."
+        ],
+        [
+          "कूट-स्थो लय-विक्षेप-शून्यः ।",
+          "“Immovable” means free from dissolution and projection."
+        ],
+        [
+          "कथं-भूतं तमः ? आत्मानं प्रस्वापयति प्रच्छादयतीति तथा ।",
+          "What sort of darkness? That which puts the self to sleep and conceals it."
+        ],
+        [
+          "यत् पूर्वं प्रलय-समये महान्तं प्रकृतौ विलापयाम् आसेत्य् अर्थः ॥२०॥",
+          "The meaning is: earlier, at dissolution, [the Lord] had caused the great principle to merge into Prakṛti."
+        ]
+      ],
+      "literal_english": "Literal rendering: “The universe” means the manifested array beginning with ego. Manifesting what was within itself, present there in subtle form. The great principle drank the intense darkness belonging to the time of dissolution. “Immovable” means free from dissolution and projection. What sort of darkness? That which puts the self to sleep and conceals it. The meaning is: earlier, at dissolution, [the Lord] had caused the great principle to merge into Prakṛti.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -486,8 +647,33 @@
       "end": 21,
       "source_marker": "३.२६.२१",
       "sanskrit": "प्रसङ्गाच् चतुर्-व्यूहोपासनाम् आह---यत् तद् इति । सर्वागम-प्रसिद्धत्वम् आह---स्वच्छं विशदम् । शान्तं रागादि-रहितम् । भगवतः पदम् उपलब्धि-स्थानम् । अत एव वासुदेवाख्यं यद् आहुः । अयम् अर्थः---अधिभूत-रूपेण तस्यैव महान् इति संज्ञा, अध्यात्म-रूपेण चित्तम् इति, उपास्य-रूपेण वासुदेव इति, अधिष्ठाता तु तस्य क्षेत्र-ज्ञः, एवम् अहङ्कारे सङ्कर्षण उपास्यः, रुद्रोऽधिष्ठाता, मनस्य् अनिरुद्ध उपास्यः, चन्द्रोऽधिष्ठाता, बुद्धौ प्रद्युम्न उपास्यः, ब्रह्माधिष्ठातेति ज्ञातव्यम् ॥२१॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "प्रसङ्गाच् चतुर्-व्यूहोपासनाम् आह---यत् तद् इति ।",
+          "By way of incidental reference, he teaches worship of the fourfold emanation with “that which.”"
+        ],
+        [
+          "सर्वागम-प्रसिद्धत्वम् आह---स्वच्छं विशदम् ।",
+          "He states its fame in all scriptures with “clear,” meaning pure."
+        ],
+        [
+          "शान्तं रागादि-रहितम् ।",
+          "“Peaceful” means free from passion and the like."
+        ],
+        [
+          "भगवतः पदम् उपलब्धि-स्थानम् । अत एव वासुदेवाख्यं यद् आहुः ।",
+          "“The Lord’s abode” is the place of realization; therefore it is called Vāsudeva."
+        ],
+        [
+          "अधिभूत-रूपेण तस्यैव महान् इति संज्ञा, अध्यात्म-रूपेण चित्तम् इति, उपास्य-रूपेण वासुदेव इति, अधिष्ठाता तु तस्य क्षेत्र-ज्ञः",
+          "As the presiding principle over material objects He is called Mahat; as the inner principle, citta; as the object of worship, Vāsudeva; the presiding deity is the knower of the field."
+        ],
+        [
+          "एवम् अहङ्कारे सङ्कर्षण उपास्यः, रुद्रोऽधिष्ठाता, मनस्य् अनिरुद्ध उपास्यः, चन्द्रोऽधिष्ठाता, बुद्धौ प्रद्युम्न उपास्यः, ब्रह्माधिष्ठातेति ज्ञातव्यम् ॥२१॥",
+          "Likewise, Saṅkarṣaṇa is worshiped in ego and Rudra presides over it; Aniruddha is worshiped in mind and the Moon presides; Pradyumna is worshiped in intellect and Brahmā presides."
+        ]
+      ],
+      "literal_english": "Literal rendering: By way of incidental reference, he teaches worship of the fourfold emanation with “that which.” He states its fame in all scriptures with “clear,” meaning pure. “Peaceful” means free from passion and the like. “The Lord’s abode” is the place of realization; therefore it is called Vāsudeva. As the presiding principle over material objects He is called Mahat; as the inner principle, citta; as the object of worship, Vāsudeva; the presiding deity is the knower of the field. Likewise, Saṅkarṣaṇa is worshiped in ego and Rudra presides over it; Aniruddha is worshiped in mind and the Moon presides; Pradyumna is worshiped in intellect and Brahmā presides.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -498,8 +684,29 @@
       "end": 22,
       "source_marker": "३.२६.२२",
       "sanskrit": "स्वच्छत्वं भगवद्-बिम्ब-ग्राहित्वम् । अविकारित्वं लय-विक्षेप-राहित्यम् । अपां प्रकृतिः फेन-तरङ्गादि-रहितावस्था । परा भू-संसर्गात् प्राक्तनी सा यथा मधुरा स्वच्छा शान्ता च तद्वद् इत्य् अर्थः ॥२२॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "स्वच्छत्वं भगवद्-बिम्ब-ग्राहित्वम् ।",
+          "“Clarity” means the capacity to reflect the image of Bhagavān."
+        ],
+        [
+          "अविकारित्वं लय-विक्षेप-राहित्यम् ।",
+          "“Immutability” means freedom from dissolution and projection."
+        ],
+        [
+          "अपां प्रकृतिः फेन-तरङ्गादि-रहितावस्था ।",
+          "The natural state of water is its condition free from foam, waves, and the like."
+        ],
+        [
+          "परा भू-संसर्गात् प्राक्तनी सा यथा मधुरा स्वच्छा शान्ता च",
+          "Before contact with earth, it is sweet, clear, and peaceful."
+        ],
+        [
+          "तद्वद् इत्य् अर्थः ॥२२॥",
+          "That is the intended comparison."
+        ]
+      ],
+      "literal_english": "Literal rendering: “Clarity” means the capacity to reflect the image of Bhagavān. “Immutability” means freedom from dissolution and projection. The natural state of water is its condition free from foam, waves, and the like. Before contact with earth, it is sweet, clear, and peaceful. That is the intended comparison.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -588,8 +795,25 @@
       "end": 27,
       "source_marker": "३.२६.२७",
       "sanskrit": "मनस उत्पत्ति-पूर्वकं लक्षणम् आह---वैकारिकाद् इति द्वाभ्याम् । सङ्कल्पश् चिन्तनम्, विकल्पो विशेष-चिन्तनम् । यस्य मनसः सङ्कल्प-विकल्पाभ्यां काम-संभवो वर्तत इति काम-रूपा वृत्तिर् लक्षणत्वेनोक्ता, न तु प्रद्युम्न-व्यूहोत्पत्तिः, तस्य सङ्कल्पादि-कार्यत्वाभवात्, उपास्य-व्यूहस्य चानिरुद्धस्योक्तेः ॥२७॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "मनस उत्पत्ति-पूर्वकं लक्षणम् आह---वैकारिकाद् इति द्वाभ्याम् ।",
+          "In two verses beginning “from the vaikārika [ego],” he states the mind’s characteristic after its origin."
+        ],
+        [
+          "सङ्कल्पश् चिन्तनम्, विकल्पो विशेष-चिन्तनम् ।",
+          "Saṅkalpa is thought; vikalpa is particularized thought."
+        ],
+        [
+          "यस्य मनसः सङ्कल्प-विकल्पाभ्यां काम-संभवो वर्तत इति काम-रूपा वृत्तिर् लक्षणत्वेनोक्ता",
+          "Since desire arises from the mind’s saṅkalpa and vikalpa, its function in the form of desire is stated as its characteristic."
+        ],
+        [
+          "न तु प्रद्युम्न-व्यूहोत्पत्तिः, तस्य सङ्कल्पादि-कार्यत्वाभवात्, उपास्य-व्यूहस्य चानिरुद्धस्योक्तेः ॥२७॥",
+          "This is not the origin of the Pradyumna emanation, since that is not an effect of saṅkalpa and the like, and Aniruddha has already been stated as the emanation to be worshiped."
+        ]
+      ],
+      "literal_english": "Literal rendering: In two verses beginning “from the vaikārika [ego],” he states the mind’s characteristic after its origin. Saṅkalpa is thought; vikalpa is particularized thought. Since desire arises from the mind’s saṅkalpa and vikalpa, its function in the form of desire is stated as its characteristic. This is not the origin of the Pradyumna emanation, since that is not an effect of saṅkalpa and the like, and Aniruddha has already been stated as the emanation to be worshiped.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -729,8 +953,25 @@
       "end": 33,
       "source_marker": "३.२६.३३",
       "sanskrit": "शब्दस्य लक्षणम् आह---अर्थाश्रयत्वम् अर्थ-वाचकत्वम् । द्रष्टुर् लिङ्गत्वं कुड्यान्तरितस्य वक्तुर् ज्ञापकत्वम् । तद् उक्तम्, लिङ्गं यद् द्रष्टृ-दृश्ययोर् इति । नभसस् तन् मात्रत्वं सूक्ष्मत्वं शब्दस्य लक्षणम् इत्य् अन्वयः ॥३३॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "शब्दस्य लक्षणम् आह---अर्थाश्रयत्वम् अर्थ-वाचकत्वम् ।",
+          "He states sound’s characteristic: “support of an object” means expressing an object."
+        ],
+        [
+          "द्रष्टुर् लिङ्गत्वं कुड्यान्तरितस्य वक्तुर् ज्ञापकत्वम् ।",
+          "Being a sign of the seer means indicating a speaker concealed behind a wall."
+        ],
+        [
+          "तद् उक्तम्, लिङ्गं यद् द्रष्टृ-दृश्ययोर् इति ।",
+          "As it is said: “A sign is that which [connects] seer and seen.”"
+        ],
+        [
+          "नभसस् तन् मात्रत्वं सूक्ष्मत्वं शब्दस्य लक्षणम् इत्य् अन्वयः ॥३३॥",
+          "The construction is: the subtle-element nature of ether is the subtlety that is sound’s characteristic."
+        ]
+      ],
+      "literal_english": "Literal rendering: He states sound’s characteristic: “support of an object” means expressing an object. Being a sign of the seer means indicating a speaker concealed behind a wall. As it is said: “A sign is that which [connects] seer and seen.” The construction is: the subtle-element nature of ether is the subtlety that is sound’s characteristic.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -774,8 +1015,25 @@
       "end": 35,
       "source_marker": "३.२६.३५",
       "sanskrit": "का सा त्वक् । स्पर्शस्य सङ्ग्रहः सम्यग् ग्रहणं यया । पुंस्त्वं नियत-लिङ्गत्वात् । यद् वा, स्पर्शस्य सङ्ग्रहस् ततो भवतीति शेषः । शब्द-तन्-मात्राद् इत्य्-आदि-तन्-मात्राणाम् उत्तरोत्तरान्वयार्थम् उक्तम् ॥३५॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "का सा त्वक् ।",
+          "What is that skin?"
+        ],
+        [
+          "स्पर्शस्य सङ्ग्रहः सम्यग् ग्रहणं यया ।",
+          "That by which touch is fully apprehended."
+        ],
+        [
+          "पुंस्त्वं नियत-लिङ्गत्वात् ।",
+          "The word is masculine because its grammatical gender is fixed."
+        ],
+        [
+          "यद् वा, स्पर्शस्य सङ्ग्रहस् ततो भवतीति शेषः । शब्द-तन्-मात्राद् इत्य्-आदि-तन्-मात्राणाम् उत्तरोत्तरान्वयार्थम् उक्तम् ॥३५॥",
+          "Alternatively, supply: the apprehension of touch arises from it. The phrase “from sound and the subtle elements” is stated to show their successive relation."
+        ]
+      ],
+      "literal_english": "Literal rendering: What is that skin? That by which touch is fully apprehended. The word is masculine because its grammatical gender is fixed. Alternatively, supply: the apprehension of touch arises from it. The phrase “from sound and the subtle elements” is stated to show their successive relation.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -786,8 +1044,21 @@
       "end": 36,
       "source_marker": "३.२६.३६",
       "sanskrit": "स्पर्श-लक्षणम् आह---मृदुत्वम् इति । स्पर्शत्वं स्वरूप-लक्षणम् इत्य् अर्थः । नभस्वतो वायोस् तन्-मात्रत्वं च ॥३६॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "स्पर्श-लक्षणम् आह---मृदुत्वम् इति ।",
+          "He states the characteristic of touch with “softness.”"
+        ],
+        [
+          "स्पर्शत्वं स्वरूप-लक्षणम् इत्य् अर्थः ।",
+          "The meaning is that being touch is its essential characteristic."
+        ],
+        [
+          "नभस्वतो वायोस् तन्-मात्रत्वं च ॥३६॥",
+          "And air’s subtle-element nature [is touch]."
+        ]
+      ],
+      "literal_english": "Literal rendering: He states the characteristic of touch with “softness.” The meaning is that being touch is its essential characteristic. And air’s subtle-element nature [is touch].",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -798,8 +1069,41 @@
       "end": 37,
       "source_marker": "३.२६.३७",
       "sanskrit": "चालनं वृक्ष-शाखादेः । व्यूहनं मेलनं तृणादेः । प्राप्तिः संयोगो द्रव्यस्य गन्धवतो घ्राणं प्रति । तथा शैत्यादिमतः स्पर्शनं प्रति । शब्दस्य श्रोत्रं प्रति नेतृत्वम् । सर्वेन्द्रियाणाम् आत्मत्वम् उपोद्बलकत्वम् । कर्मणा कार्येणाभिलक्षणम् । भावे ल्युट् । कर्मैवाभिलक्षणम् इति विग्रहे तु करणे ॥३७॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "चालनं वृक्ष-शाखादेः ।",
+          "“Movement” is the motion of tree branches and the like."
+        ],
+        [
+          "व्यूहनं मेलनं तृणादेः ।",
+          "“Gathering” means the joining of grass and the like."
+        ],
+        [
+          "प्राप्तिः संयोगो द्रव्यस्य गन्धवतो घ्राणं प्रति ।",
+          "“Reaching” is the contact of a fragrant substance with the nose."
+        ],
+        [
+          "तथा शैत्यादिमतः स्पर्शनं प्रति ।",
+          "Likewise, the contact of something cold and the like with touch."
+        ],
+        [
+          "शब्दस्य श्रोत्रं प्रति नेतृत्वम् ।",
+          "Sound’s leading toward the ear."
+        ],
+        [
+          "सर्वेन्द्रियाणाम् आत्मत्वम् उपोद्बलकत्वम् ।",
+          "“Being the self of all the senses” means supporting them."
+        ],
+        [
+          "कर्मणा कार्येणाभिलक्षणम् । भावे ल्युट् ।",
+          "It is characterized by action, the effect; the suffix lyuṭ is used in the sense of a state."
+        ],
+        [
+          "कर्मैवाभिलक्षणम् इति विग्रहे तु करणे ॥३७॥",
+          "Alternatively, parse it as “action itself is the characteristic,” with the suffix in an instrumental sense."
+        ]
+      ],
+      "literal_english": "Literal rendering: “Movement” is the motion of tree branches and the like. “Gathering” means the joining of grass and the like. “Reaching” is the contact of a fragrant substance with the nose. Likewise, the contact of something cold and the like with touch. Sound’s leading toward the ear. “Being the self of all the senses” means supporting them. It is characterized by action, the effect; the suffix lyuṭ is used in the sense of a state. Alternatively, parse it as “action itself is the characteristic,” with the suffix in an instrumental sense.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -827,8 +1131,33 @@
       "end": 39,
       "source_marker": "३.२६.३९",
       "sanskrit": "द्रव्याकृतित्वं द्रव्यस्याकार-समर्पकत्वम् । गुणता द्रव्योपसर्जनतया प्रतीतिः । शब्दस्य तु स्वातन्त्र्येणैव प्रतीतिः । अप्रत्यक्ष-द्रव्यस्य स्पर्शादेर् अपि स्वातन्त्र्येणैव प्रतीतिः रूपस्य तु नैवम् इति तस्यायं विशेष उक्तः । व्यक्ति-संस्थात्वं व्यक्तेर् द्रव्यस्य या संस्था सन्निवेशः सैव संस्था यस्य तत् परिणामतया प्रतीतिर् इत्य् अर्थः । तेजसस् तेजस्त्वम् असाधारणत्वम् ॥३९॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "द्रव्याकृतित्वं द्रव्यस्याकार-समर्पकत्वम् ।",
+          "“Giving the form of a substance” means imparting shape to the substance."
+        ],
+        [
+          "गुणता द्रव्योपसर्जनतया प्रतीतिः ।",
+          "“Quality” means being perceived as subordinate to a substance."
+        ],
+        [
+          "शब्दस्य तु स्वातन्त्र्येणैव प्रतीतिः ।",
+          "Sound, however, is perceived independently."
+        ],
+        [
+          "अप्रत्यक्ष-द्रव्यस्य स्पर्शादेर् अपि स्वातन्त्र्येणैव प्रतीतिः रूपस्य तु नैवम् इति तस्यायं विशेष उक्तः ।",
+          "Even an imperceptible substance is independently perceived through touch and the like, but not through form; this is the distinction stated for form."
+        ],
+        [
+          "व्यक्ति-संस्थात्वं व्यक्तेर् द्रव्यस्य या संस्था सन्निवेशः सैव संस्था यस्य तत् परिणामतया प्रतीतिर् इत्य् अर्थः ।",
+          "“Having an arrangement of an individual” means that the arrangement or configuration of the manifested substance is itself perceived as its transformation."
+        ],
+        [
+          "तेजसस् तेजस्त्वम् असाधारणत्वम् ॥३९॥",
+          "Fire’s being fire means its distinctive, exclusive nature."
+        ]
+      ],
+      "literal_english": "Literal rendering: “Giving the form of a substance” means imparting shape to the substance. “Quality” means being perceived as subordinate to a substance. Sound, however, is perceived independently. Even an imperceptible substance is independently perceived through touch and the like, but not through form; this is the distinction stated for form. “Having an arrangement of an individual” means that the arrangement or configuration of the manifested substance is itself perceived as its transformation. Fire’s being fire means its distinctive, exclusive nature.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -839,8 +1168,21 @@
       "end": 40,
       "source_marker": "३.२६.४०",
       "sanskrit": "द्योतनं प्रकाशनं, पचनं तण्डुलादेः । क्षुत् तृड् अशना पिपासा च तद् द्वारेण पानम् अदनं च ॥४०॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "द्योतनं प्रकाशनं, पचनं तण्डुलादेः ।",
+          "“Illumining” means shining; “cooking” is the cooking of rice and the like."
+        ],
+        [
+          "क्षुत् तृड् अशना पिपासा च",
+          "Hunger, thirst, eating, and the desire to drink."
+        ],
+        [
+          "तद् द्वारेण पानम् अदनं च ॥४०॥",
+          "And through those [functions], drinking and eating."
+        ]
+      ],
+      "literal_english": "Literal rendering: “Illumining” means shining; “cooking” is the cooking of rice and the like. Hunger, thirst, eating, and the desire to drink. And through those [functions], drinking and eating.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -851,8 +1193,21 @@
       "end": 41,
       "source_marker": "३.२६.४१",
       "sanskrit": "जिह्वा रसनेन्द्रियम् । रसो गृह्यतेऽनयेति रस-ग्रहः । यद् वा, रस-ग्रहस् ततो भवतीति शेषः ॥४१॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "जिह्वा रसनेन्द्रियम् ।",
+          "The tongue is the organ of taste."
+        ],
+        [
+          "रसो गृह्यतेऽनयेति रस-ग्रहः ।",
+          "“Grasping taste” means that by which taste is apprehended."
+        ],
+        [
+          "यद् वा, रस-ग्रहस् ततो भवतीति शेषः ॥४१॥",
+          "Alternatively, supply: the apprehension of taste arises from it."
+        ]
+      ],
+      "literal_english": "Literal rendering: The tongue is the organ of taste. “Grasping taste” means that by which taste is apprehended. Alternatively, supply: the apprehension of taste arises from it.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -863,8 +1218,21 @@
       "end": 42,
       "source_marker": "३.२६.४२",
       "sanskrit": "कषायादिषु लवणोऽपि द्रष्टव्यः । भौतिकानां संसर्गि-द्रव्याणाम् । य एको मधुर एव सन्न् एवम् अनेकधा भिद्यते स रस इत्य् अर्थः ।",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "कषायादिषु लवणोऽपि द्रष्टव्यः ।",
+          "Salt too should be included among the astringent and other tastes."
+        ],
+        [
+          "भौतिकानां संसर्गि-द्रव्याणाम् ।",
+          "[These are] substances composed of elements and combined with one another."
+        ],
+        [
+          "य एको मधुर एव सन्न् एवम् अनेकधा भिद्यते स रस इत्य् अर्थः ।",
+          "The meaning is: that which is one, sweet taste, is differentiated in this way into many forms; that is taste."
+        ]
+      ],
+      "literal_english": "Literal rendering: Salt too should be included among the astringent and other tastes. [These are] substances composed of elements and combined with one another. The meaning is: that which is one, sweet taste, is differentiated in this way into many forms; that is taste.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -908,8 +1276,13 @@
       "end": 44,
       "source_marker": "३.२६.४४",
       "sanskrit": "गन्ध-गो गन्धं प्राप्नोति ॥४४॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "गन्ध-गो गन्धं प्राप्नोति ॥४४॥",
+          "“Going to smell” means reaching the odor."
+        ]
+      ],
+      "literal_english": "Literal rendering: “Going to smell” means reaching the odor.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -920,8 +1293,37 @@
       "end": 45,
       "source_marker": "३.२६.४५",
       "sanskrit": "करम्भो मिश्र-गन्धः, यथा व्यञ्जनादीनां हिङ्ग्व्-आदि-संस्कारेण । पूतिर् दुर्गन्धः । सौरभ्यं कर्पूरादेः । शान्तः शत-पत्रादेः । उग्रो लशुनादेः । अम्लस् तिन्तिण्य्-आदेः । संसर्गिणां द्रव्यावयवानां वैषम्याद्य एवं विभिद्यते, स गन्ध इत्य् अर्थः ॥४५॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "करम्भो मिश्र-गन्धः, यथा व्यञ्जनादीनां हिङ्ग्व्-आदि-संस्कारेण ।",
+          "Karambha is a mixed smell, as in condiments prepared with asafoetida and the like."
+        ],
+        [
+          "पूतिर् दुर्गन्धः ।",
+          "“Putrid” means foul-smelling."
+        ],
+        [
+          "सौरभ्यं कर्पूरादेः ।",
+          "Fragrance is that of camphor and the like."
+        ],
+        [
+          "शान्तः शत-पत्रादेः ।",
+          "“Mild” is the scent of the lotus and the like."
+        ],
+        [
+          "उग्रो लशुनादेः ।",
+          "“Pungent” is the scent of garlic and the like."
+        ],
+        [
+          "अम्लस् तिन्तिण्य्-आदेः ।",
+          "“Sour” is the scent of tamarind and the like."
+        ],
+        [
+          "संसर्गिणां द्रव्यावयवानां वैषम्याद्य एवं विभिद्यते, स गन्ध इत्य् अर्थः ॥४५॥",
+          "The meaning is that smell is differentiated in this way by differences in the combined constituents of substances."
+        ]
+      ],
+      "literal_english": "Literal rendering: Karambha is a mixed smell, as in condiments prepared with asafoetida and the like. “Putrid” means foul-smelling. Fragrance is that of camphor and the like. “Mild” is the scent of the lotus and the like. “Pungent” is the scent of garlic and the like. “Sour” is the scent of tamarind and the like. The meaning is that smell is differentiated in this way by differences in the combined constituents of substances.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -932,8 +1334,33 @@
       "end": 46,
       "source_marker": "३.२६.४६",
       "sanskrit": "ब्रह्मणो भावनं प्रतिमादि-रूपेण साकारतापादनम् । स्थानं जलादि-विलक्षणतयाश्रयान्तर-नैरपेक्ष्येण स्थितिः । धारणं जलाद्य्-आधारत्वम् । सताम् आकाशादीनां विशेषणम् अवच्छेदकत्वम् । सर्वेषां सत्त्वानां प्राणिनां तद्-गुणानां च पुंस्त्वादीनाम् उद्भेदः परिणाम् अविशेषैः प्रकटी-करणम् ॥४६॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "ब्रह्मणो भावनं प्रतिमादि-रूपेण साकारतापादनम् ।",
+          "“Making manifest” means giving Brahman a form, such as an image."
+        ],
+        [
+          "स्थानं जलादि-विलक्षणतयाश्रयान्तर-नैरपेक्ष्येण स्थितिः ।",
+          "“Being situated” means existing without dependence on another support, unlike water and the like."
+        ],
+        [
+          "धारणं जलाद्य्-आधारत्वम् ।",
+          "“Holding” means serving as a support for water and the rest."
+        ],
+        [
+          "सताम् आकाशादीनां विशेषणम् अवच्छेदकत्वम् ।",
+          "The differentiating characteristic of existing things such as ether is that which delimits them."
+        ],
+        [
+          "सर्वेषां सत्त्वानां प्राणिनां तद्-गुणानां च पुंस्त्वादीनाम्",
+          "Of all beings, living creatures, and their qualities such as masculinity."
+        ],
+        [
+          "उद्भेदः परिणाम् अविशेषैः प्रकटी-करणम् ॥४६॥",
+          "“Manifestation” means making them evident through undifferentiated transformations."
+        ]
+      ],
+      "literal_english": "Literal rendering: “Making manifest” means giving Brahman a form, such as an image. “Being situated” means existing without dependence on another support, unlike water and the like. “Holding” means serving as a support for water and the rest. The differentiating characteristic of existing things such as ether is that which delimits them. Of all beings, living creatures, and their qualities such as masculinity. “Manifestation” means making them evident through undifferentiated transformations.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -944,8 +1371,21 @@
       "end": 47,
       "source_marker": "३.२६.४७",
       "sanskrit": "श्रोत्रादीनां शब्दादि-ग्राहकत्वम् उक्तं तेषां च लक्षणं तद् एवेत्य् आह पञ्चभिः श्लोकार्धैः । नभसो गुण-विशेषः शब्दो यस्यार्थो विषयः ॥४७॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "श्रोत्रादीनां शब्दादि-ग्राहकत्वम् उक्तं",
+          "The capacity of hearing and the other senses to receive sound and the rest has been stated."
+        ],
+        [
+          "तेषां च लक्षणं तद् एवेत्य् आह पञ्चभिः श्लोकार्धैः ।",
+          "He says in five half-verses that their characteristics are those very [qualities]."
+        ],
+        [
+          "नभसो गुण-विशेषः शब्दो यस्यार्थो विषयः ॥४७॥",
+          "The special quality of ether is sound, which is its object."
+        ]
+      ],
+      "literal_english": "Literal rendering: The capacity of hearing and the other senses to receive sound and the rest has been stated. He says in five half-verses that their characteristics are those very [qualities]. The special quality of ether is sound, which is its object.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -973,8 +1413,33 @@
       "end": 49,
       "source_marker": "३.२६.४९",
       "sanskrit": "गुण-विशेष-शब्द-व्यावर्त्यं दर्शयति---परस्येति । परस्य कारणस्य धर्मः शब्दादिर् अपरस्मिन् कार्ये वाय्व्-आदौ कारणान्वयात् दृश्यते । अतो भावानाम् अकाशादीनां विशेषो गुणः सर्वोऽपि शब्दादिर् भूमाव् एवोपलभ्यते । चतुर्णां तत्रान्वयात् । जलादिषु यथान्वयम् एव न सर्वः । आकाशे त्व् अन्यान्वयाभावाद् एक एव ॥४९॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "गुण-विशेष-शब्द-व्यावर्त्यं दर्शयति---परस्येति ।",
+          "He shows what the term “special quality” excludes with “of the prior.”"
+        ],
+        [
+          "परस्य कारणस्य धर्मः शब्दादिर् अपरस्मिन् कार्ये वाय्व्-आदौ कारणान्वयात् दृश्यते ।",
+          "The property of a prior cause, such as sound, is seen in a later effect, such as air, because the cause continues in the effect."
+        ],
+        [
+          "अतो भावानाम् अकाशादीनां विशेषो गुणः सर्वोऽपि शब्दादिर् भूमाव् एवोपलभ्यते ।",
+          "Therefore every distinctive quality of entities such as ether—sound and the rest—is found in earth."
+        ],
+        [
+          "चतुर्णां तत्रान्वयात् ।",
+          "Because the four [elements] are present there."
+        ],
+        [
+          "जलादिषु यथान्वयम् एव न सर्वः ।",
+          "In water and the rest, only those qualities present there occur, not all."
+        ],
+        [
+          "आकाशे त्व् अन्यान्वयाभावाद् एक एव ॥४९॥",
+          "In ether, however, there is only one, since the others are not present."
+        ]
+      ],
+      "literal_english": "Literal rendering: He shows what the term “special quality” excludes with “of the prior.” The property of a prior cause, such as sound, is seen in a later effect, such as air, because the cause continues in the effect. Therefore every distinctive quality of entities such as ether—sound and the rest—is found in earth. Because the four [elements] are present there. In water and the rest, only those qualities present there occur, not all. In ether, however, there is only one, since the others are not present.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -1098,8 +1563,25 @@
       "end": 55,
       "source_marker": "३.२६.५५",
       "sanskrit": "घ्राणाद् अनन्तरं वायुश् च । प्राणोत इति विशेषणं सर्वेन्द्रियेष्व् अपि द्रष्टव्यम् । न्यभिद्येताम् अन्वभिद्येताम् इति पाठ-द्वयेऽप्य् एक एवार्थः । ततो दिशः प्राविशन् ॥५५॥",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "घ्राणाद् अनन्तरं वायुश् च ।",
+          "After the organ of smell comes air."
+        ],
+        [
+          "प्राणोत इति विशेषणं सर्वेन्द्रियेष्व् अपि द्रष्टव्यम् ।",
+          "The qualifier “pervaded by prāṇa” should be understood of all the senses."
+        ],
+        [
+          "न्यभिद्येताम् अन्वभिद्येताम् इति पाठ-द्वयेऽप्य् एक एवार्थः ।",
+          "The two readings “nyabhidyetām” and “anvabhidyetām” have the same meaning."
+        ],
+        [
+          "ततो दिशः प्राविशन् ॥५५॥",
+          "Then the directions entered."
+        ]
+      ],
+      "literal_english": "Literal rendering: After the organ of smell comes air. The qualifier “pervaded by prāṇa” should be understood of all the senses. The two readings “nyabhidyetām” and “anvabhidyetām” have the same meaning. Then the directions entered.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
@@ -1110,8 +1592,13 @@
       "end": 56,
       "source_marker": "३.२६.५६",
       "sanskrit": "आदि-शब्देन केशाः ॥५६।",
-      "word_for_word": [],
-      "literal_english": "",
+      "word_for_word": [
+        [
+          "आदि-शब्देन केशाः ॥५६॥",
+          "The word “and the rest” includes the hair."
+        ]
+      ],
+      "literal_english": "Literal rendering: The word “and the rest” includes the hair.",
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
     },
