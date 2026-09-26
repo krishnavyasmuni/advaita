@@ -11706,14 +11706,14 @@
     {
       "id": "canto-3-chapter-27-release",
       "range": "ŚB 3.27.1–3.27.29",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-word-for-word-incomplete",
       "english_source": "https://vedabase.io/en/library/sb/3/27/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch27-verses01-25.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch27-verses01-25.json?v=20260926-c3-ch27-gloss-cleanup-1"
       ],
       "records_checked": 29,
       "exact_sridhara_source_blocks": 14,
@@ -11745,21 +11745,21 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks.",
+      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Removed fabricated “contextual literal sense” word-gloss rows. Existing source Sanskrit is preserved; genuine English word-for-word glosses remain, with unresolved rows no longer populated by pseudo-translations.",
       "repaired_at": "2026-09-22",
       "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
     },
     {
       "id": "canto-3-chapter-28-release",
       "range": "ŚB 3.28.1–3.28.44",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-word-for-word-incomplete",
       "english_source": "https://vedabase.io/en/library/sb/3/28/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch28-verses01-38.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch28-verses01-38.json?v=20260926-c3-ch28-gloss-cleanup-1"
       ],
       "records_checked": 44,
       "exact_sridhara_source_blocks": 22,
@@ -11801,21 +11801,21 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks.",
+      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Removed fabricated “contextual literal sense” word-gloss rows. Existing source Sanskrit is preserved; genuine English word-for-word glosses remain, with unresolved rows no longer populated by pseudo-translations.",
       "repaired_at": "2026-09-22",
       "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
     },
     {
       "id": "canto-3-chapter-29-release",
       "range": "ŚB 3.29.1–3.29.45",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-word-for-word-incomplete",
       "english_source": "https://vedabase.io/en/library/sb/3/29/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch29-verses01-42.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch29-verses01-42.json?v=20260926-c3-ch29-gloss-cleanup-1"
       ],
       "records_checked": 45,
       "exact_sridhara_source_blocks": 32,
@@ -11845,21 +11845,21 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks.",
+      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Removed fabricated “contextual literal sense” word-gloss rows. Existing source Sanskrit is preserved; genuine English word-for-word glosses remain, with unresolved rows no longer populated by pseudo-translations.",
       "repaired_at": "2026-09-22",
       "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
     },
     {
       "id": "canto-3-chapter-30-release",
       "range": "ŚB 3.30.1–3.30.34",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-word-for-word-incomplete",
       "english_source": "https://vedabase.io/en/library/sb/3/30/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch30-verses01-31.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch30-verses01-31.json?v=20260926-c3-ch30-gloss-cleanup-1"
       ],
       "records_checked": 34,
       "exact_sridhara_source_blocks": 10,
@@ -11911,21 +11911,21 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks.",
+      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Removed fabricated “contextual literal sense” word-gloss rows. Existing source Sanskrit is preserved; genuine English word-for-word glosses remain, with unresolved rows no longer populated by pseudo-translations.",
       "repaired_at": "2026-09-22",
       "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
     },
     {
       "id": "canto-3-chapter-31-release",
       "range": "ŚB 3.31.1–3.31.48",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-word-for-word-incomplete",
       "english_source": "https://vedabase.io/en/library/sb/3/31/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch31-verses01-42.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch31-verses01-42.json?v=20260926-c3-ch31-gloss-cleanup-1"
       ],
       "records_checked": 48,
       "exact_sridhara_source_blocks": 28,
@@ -11963,21 +11963,21 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks.",
+      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Removed fabricated “contextual literal sense” word-gloss rows. Existing source Sanskrit is preserved; genuine English word-for-word glosses remain, with unresolved rows no longer populated by pseudo-translations.",
       "repaired_at": "2026-09-22",
       "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
     },
     {
       "id": "canto-3-chapter-32-release",
       "range": "ŚB 3.32.1–3.32.43",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-word-for-word-incomplete",
       "english_source": "https://vedabase.io/en/library/sb/3/32/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-38.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-38.json?v=20260926-c3-ch32-gloss-cleanup-1"
       ],
       "records_checked": 43,
       "exact_sridhara_source_blocks": 28,
@@ -12007,21 +12007,21 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks.",
+      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Removed fabricated “contextual literal sense” word-gloss rows. Existing source Sanskrit is preserved; genuine English word-for-word glosses remain, with unresolved rows no longer populated by pseudo-translations.",
       "repaired_at": "2026-09-22",
       "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
     },
     {
       "id": "canto-3-chapter-33-release",
       "range": "ŚB 3.33.1–3.33.36",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-word-for-word-incomplete",
       "english_source": "https://vedabase.io/en/library/sb/3/33/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch33-verses01-34.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch33-verses01-34.json?v=20260926-c3-ch33-gloss-cleanup-1"
       ],
       "records_checked": 36,
       "exact_sridhara_source_blocks": 23,
@@ -12053,7 +12053,7 @@
       ],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks.",
+      "notes": "Chapter published in Contents after merged pinned-source, canonical verse-count, grouped-range, and word-for-word structural checks. Removed fabricated “contextual literal sense” word-gloss rows. Existing source Sanskrit is preserved; genuine English word-for-word glosses remain, with unresolved rows no longer populated by pseudo-translations.",
       "repaired_at": "2026-09-22",
       "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
     },
