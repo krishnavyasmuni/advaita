@@ -28,6 +28,9 @@
     'श':'ś','ष':'ṣ','स':'s','ह':'h','ळ':'ḷ'
   }));
 
+  // Fill only verse-script fields left blank in the pinned English mirror.
+  const devanagariOverrides = {"1.16.25":"इदं ममाचक्ष्व तवाधि-मूलं\nवसुन्धरे येन विकर्शितासि ।\nकालेन वा ते बलिनां बलीयसा\nसुरार्चितं किं हृतम् अम्ब सौभगम् ॥","2.8.8":"आसीद् यद्-उदरात् पद्मं लोक-संस्थान-लक्षणम् ।\nयावान् अयं वै पुरुष इयत्तावयवैः पृथक् ।\nतावान् असाव् इति प्रोक्तः संस्थावयववान् इव ॥","3.30.27":"कृन्तनं चावयवशो गजादिभ्यो भिदापनम् ।\nपातनं गिरिशृङ्गेभ्यो रोधनं चाम्बुगर्तयोः ॥","10.42.22":"तयोस् तद् अद्भुतं वीर्यं निशाम्य पुर-वासिनः ।\nतेजः प्रागल्भ्यं रूपं च मेनिरे विबुधोत्तमौ ॥","11.7.1":"यद् आत्थ मां महा-भाग तच् चिकीर्षितम् एव मे ।\nब्रह्मा भवो लोक-पालाः स्वर्-वासं मेऽभिकाङ्क्षिणः ॥"};
+
   function setStatus(message, error) {
     if (!status) return;
     status.textContent = message;
@@ -450,7 +453,7 @@
     const devanagari = document.createElement('div');
     devanagari.className = 'gita-sanskrit';
     devanagari.lang = 'sa-Deva';
-    appendLines(devanagari, entry.devanagari.join('\n'), false);
+    appendLines(devanagari, entry.devanagari.join('\n') || devanagariOverrides[canto + '.' + chapter + '.' + entry.start] || '', false);
 
     const translation = document.createElement('p');
     translation.className = 'gita-translation';
