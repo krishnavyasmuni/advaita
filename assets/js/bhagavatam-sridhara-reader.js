@@ -265,7 +265,7 @@
 
   function parseLocalSridhara(data) {
     return Object.values(data && data.entries ? data.entries : {})
-      .filter((entry) => entry && entry.source_available && String(entry.sanskrit || '').trim())
+      .filter((entry) => entry && entry.source_available && String(entry.sanskrit || '').trim() && !/^\\s*न\\s+(?:(?:कतमेन(?:ापि)?)\\s+)?व्याख्यातम्[।.]?\\s*$/.test(String(entry.sanskrit || '')))
       .map((entry) => ({
         start: Number(entry.start),
         end: Number(entry.end),
@@ -293,7 +293,7 @@
           start: Number(entry.start),
           end: Number(entry.end),
           pairs: sourcePairs
-            .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1] && !/contextual literal sense of|generic filler|translation pending/i.test(String(pair[1])))
+            .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1] && !/contextual literal sense of|generic filler|translation pending|^no commentary\\.?$|न\\s+(?:(?:कतमेन(?:ापि)?)\\s+)?व्याख्यातम्/i.test(String(pair[1])))
             .map((pair) => [String(pair[0]), String(pair[1])])
         };
       });
@@ -605,7 +605,7 @@
       const englishUrl = chapterEnglishUrl(manifest, config, chapter);
       const sridharaUrl = chapterSridharaUrl(manifest, config, chapter);
       const commentaryUrlValue = commentaryUrl(manifest);
-      const checkpointUrl = '/advaita/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260926-no-commentary-audit-1';
+      const checkpointUrl = '/advaita/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260926-c10-source-cache-audit-1';
       const requests = [fetchText(englishUrl)];
       if (sridharaUrl) {
         requests.push(config.sridhara_mode === 'local-cached' ? fetchJson(sridharaUrl) : fetchText(sridharaUrl));
