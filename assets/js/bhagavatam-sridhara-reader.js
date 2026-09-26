@@ -499,7 +499,7 @@
         : makeParagraph('No commentary', { className: 'gita-no-source' })
     ]);
     if (sridharaSanskrit) {
-      const previewLine = sridharaSanskrit.split(/\\r?\\n/).map((line) => line.trim()).filter(Boolean)[0] || '';
+      const previewLine = sridharaSanskrit.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)[0] || '';
       const preview = document.createElement('span');
       preview.className = 'gita-sridhara-preview';
       preview.lang = 'sa-Deva';
