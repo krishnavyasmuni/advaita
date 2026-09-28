@@ -20,6 +20,29 @@
     return text;
   };
 
+  const directCommentaryEnglish = (value) => {
+    let text = normalizeEnglishSentences(value);
+
+    // Strip generic editorial wrappers so the visible prose reads as the
+    // commentary itself rather than as a summary about the commentary.
+    text = text
+      .replace(/^(?:the\s+)?commentary\s+(?:says|states|explains|notes|remarks)(?:\s+that)?\s*[:,—-]?\s*/i, '')
+      .replace(/^according\s+to\s+(?:the\s+)?commentary\s*[:,—-]?\s*/i, '')
+      .replace(/^(?:śrīdhara(?:\s+svāmī)?|the\s+commentator|he)\s+(?:says|states|explains)\s+that\s+/i, '');
+
+    const firstSentenceMatch = text.match(/^([^.!?]{0,220}[.!?])\s*(.*)$/s);
+    if (firstSentenceMatch &&
+        /\b(?:he|the\s+commentator|śrīdhara(?:\s+svāmī)?)\s+(?:says|states|explains)\b/i.test(firstSentenceMatch[1])) {
+      const quoted = firstSentenceMatch[1].match(/[“‘"]([^”’"]+)[”’"]/);
+      if (quoted) {
+        text = 'On “' + quoted[1] + '”: ' + firstSentenceMatch[2];
+      }
+    }
+
+    text = text.trim();
+    return text.replace(/^(\s*[““‘"'(\[]*)([a-z])/u, (_, prefix, first) => prefix + first.toUpperCase());
+  };
+
   const independent = {'अ':'a','आ':'ā','इ':'i','ई':'ī','उ':'u','ऊ':'ū','ऋ':'ṛ','ॠ':'ṝ','ऌ':'ḷ','ॡ':'ḹ','ए':'e','ऐ':'ai','ओ':'o','औ':'au','ॐ':'oṃ'};
   const consonants = {'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'ṅ','च':'c','छ':'ch','ज':'j','झ':'jh','ञ':'ñ','ट':'ṭ','ठ':'ṭh','ड':'ḍ','ढ':'ḍh','ण':'ṇ','त':'t','थ':'th','द':'d','ध':'dh','न':'n','प':'p','फ':'ph','ब':'b','भ':'bh','म':'m','य':'y','र':'r','ल':'l','व':'v','श':'ś','ष':'ṣ','स':'s','ह':'h','ळ':'ḷ'};
   const matras = {'ा':'ā','ि':'i','ी':'ī','ु':'u','ू':'ū','ृ':'ṛ','ॄ':'ṝ','ॢ':'ḷ','ॣ':'ḹ','े':'e','ै':'ai','ो':'o','ौ':'au'};
@@ -168,7 +191,7 @@
         englishNode.textContent = 'No commentary.';
         englishNode.classList.add('gita-no-source');
       } else {
-        const literalTranslation = normalizeEnglishSentences(String(verseData && verseData.translation || '').trim() || joinedGloss(sridPairs));
+        const literalTranslation = directCommentaryEnglish(String(verseData && verseData.translation || '').trim() || joinedGloss(sridPairs));
         if (literalTranslation) {
           englishNode.textContent = literalTranslation;
           englishNode.classList.remove('gita-no-source');
