@@ -553,23 +553,28 @@
   function renderCantoContents(config) {
     const titles = config.chapter_titles || {};
     const section = document.createElement('section');
-    section.className = 'sb-canto-contents-page';
+    section.className = 'gita-chapter-index';
     const heading = document.createElement('h2');
     heading.textContent = 'Contents';
     const intro = document.createElement('p');
-    intro.className = 'sb-canto-contents-intro';
+    intro.className = 'gita-index-intro';
     intro.textContent = 'Canto ' + canto + ' — ' + config.chapter_count + ' chapters';
-    const list = document.createElement('ol');
-    list.className = 'sb-canto-chapter-list';
+    const grid = document.createElement('div');
+    grid.className = 'gita-chapter-grid';
     for (let chapter = 1; chapter <= config.chapter_count; chapter += 1) {
-      const item = document.createElement('li');
       const link = document.createElement('a');
+      link.className = 'gita-chapter-card';
       link.href = '#chapter-' + chapter;
-      link.textContent = 'Chapter ' + chapter + (titles[String(chapter)] ? ' — ' + titles[String(chapter)] : '');
-      item.appendChild(link);
-      list.appendChild(item);
+      const number = document.createElement('span');
+      number.className = 'gita-chapter-number';
+      number.textContent = 'Chapter ' + chapter;
+      const name = document.createElement('span');
+      name.className = 'gita-chapter-name';
+      name.textContent = titles[String(chapter)] || '';
+      link.append(number, name);
+      grid.appendChild(link);
     }
-    section.append(heading, intro, list);
+    section.append(heading, intro, grid);
     host.replaceChildren(section);
     if (heroTitle) heroTitle.textContent = 'Canto ' + canto;
     if (titleNode) titleNode.textContent = 'Contents';
