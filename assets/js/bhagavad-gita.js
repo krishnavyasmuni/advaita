@@ -964,66 +964,10 @@
   const cleanApiTranslation = (value) =>
     String(value || '')
       .replace(/^\s*[0-9०-९]+\.[0-9०-९]+\.?\s*/, '')
-      // Remove translator/editor bracket notes so the visible English stays
-      // limited to the verse translation itself.
-      .replace(/\[[^\]]*\]/g, '')
-      .replace(/\([^)]*\)/g, '')
       .replace(/\s+/g, ' ')
       .replace(/\s+([,.;!?])/g, '$1')
       .replace(/,\s*,/g, ',')
       .trim();
-
-  // Keep each visible verse self-contained: the lexical analysis and the
-  // English verse rendering come from the same pinned per-verse source.
-  // Older grouped common records remain only as a fallback.
-  const extractSivanandaWordMeaning = (value) => {
-    let text = String(value || '')
-      .replace(/\r\n?/g, ' ')
-      .replace(/\s+/g, ' ')
-      .replace(/^\s*\d+\.\d+\s*/, '')
-      .trim();
-    if (!text) return '';
-    const commentaryIndex = text.search(/\bCommentary\b/i);
-    if (commentaryIndex >= 0) text = text.slice(0, commentaryIndex).trim();
-
-    return text.split('?')
-      .map((part) => part.trim().replace(/^[,;:.\s]+|[,;:.\s]+$/g, ''))
-      .filter(Boolean)
-      .map((part) => {
-        const match = part.match(/^([\u0900-\u097F\u200C\u200Dऽ।॥\s-]+?)\s+(.+)$/u);
-        if (!match) return '';
-        const term = match[1].replace(/[।॥]+$/u, '').trim();
-        const gloss = match[2].replace(/^[—–-]\s*/u, '').replace(/[.;:,]+$/u, '').trim();
-        return term && gloss ? term + '—' + gloss : '';
-      })
-      .filter(Boolean)
-      .join('; ');
-  };
-
-  const modernizeSivanandaEnglish = (value) => String(value || '')
-    .replace(/^\s*\d+\.\d+\.?\s*/, '')
-    .replace(/\[[^\]]*\]/g, '')
-    .replace(/\s+/g, ' ')
-    .replace(/\s+([,.;!?])/g, '$1')
-    .replace(/\bThou\b/g, 'You')
-    .replace(/\bthou\b/g, 'you')
-    .replace(/\bThee\b/g, 'You')
-    .replace(/\bthee\b/g, 'you')
-    .replace(/\bThy\b/g, 'Your')
-    .replace(/\bthy\b/g, 'your')
-    .replace(/\bThine\b/g, 'Yours')
-    .replace(/\bthine\b/g, 'yours')
-    .replace(/\bHast\b/g, 'Have')
-    .replace(/\bhast\b/g, 'have')
-    .replace(/\bArt\b/g, 'Are')
-    .replace(/\bart\b/g, 'are')
-    .replace(/\bDost\b/g, 'Do')
-    .replace(/\bdost\b/g, 'do')
-    .replace(/\bShalt\b/g, 'Shall')
-    .replace(/\bshalt\b/g, 'shall')
-    .replace(/\bWilt\b/g, 'Will')
-    .replace(/\bwilt\b/g, 'will')
-    .trim();
 
   const expandEntries = (entries) => {
     const out = {};
@@ -1199,13 +1143,16 @@
       const hasTransliterationOverride = Object.prototype.hasOwnProperty.call(override, 'transliteration');
       const hasWordMeaningOverride = Object.prototype.hasOwnProperty.call(override, 'wordMeaning');
       const apiTransliteration = cleanApiTransliteration(api.transliteration);
-      const apiTranslation = modernizeSivanandaEnglish(
-        (api.siva && api.siva.et) ||
+      // Prabhupāda's per-verse English here matches the Vedabase translation.
+      // The word-for-word glossary below is split to the same visible verse,
+      // so grouped source records can never spill onto neighboring cards.
+      const apiTranslation = cleanApiTranslation(
+        (api.prabhu && api.prabhu.et) ||
         (api.gambir && api.gambir.et) ||
         (api.purohit && api.purohit.et) ||
-        (api.adi && api.adi.et)
+        (api.adi && api.adi.et) ||
+        (api.siva && api.siva.et)
       );
-      const apiWordMeaning = extractSivanandaWordMeaning(api.siva && api.siva.ec);
       const sridharaCommentary = vasukiByVerse[n] || null;
       const translatedCommentary = sridharaCommentary
         ? Array.from({length: sridharaCommentary.end - sridharaCommentary.start + 1}, (_, offset) => {
@@ -1222,9 +1169,9 @@
         transliterationShared: apiTransliteration || hasTransliterationOverride || commonRange.start === n
           ? null
           : (c.transliteration ? commonRange : null),
-        wordMeaning: apiWordMeaning || (hasWordMeaningOverride
-          ? (override.wordMeaning || c.word_meanings || '')
-          : pickWordMeaning(c, n)),
+        wordMeaning: hasWordMeaningOverride
+          ? (override.wordMeaning || pickWordMeaning(c, n))
+          : pickWordMeaning(c, n),
         wordMeaningShared: null,
         // Mukundananda groups several consecutive verses in one record.
         // Keep that exact source text on the first verse, then use the
