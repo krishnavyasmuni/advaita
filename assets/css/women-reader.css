@@ -1,0 +1,119 @@
+/* Hinduism on Women — article-specific presentation.
+ * Keep the source hierarchy/content intact while matching the shared
+ * Shaiva / Vaishnava / Varna shastric reader.
+ */
+
+.document-paged-page .document-content p,
+.document-paged-page .document-content li,
+.document-paged-page .document-content blockquote,
+.document-paged-page .document-content td,
+.document-paged-page .document-content th,
+.document-paged-page .document-content figcaption,
+.document-paged-page .document-content summary{
+  font-family:Merriweather,Georgia,serif;
+}
+
+/* The source uses h4 for its many sub-sections.  The shared reader has no
+ * generic h4 rule because the comparison articles mainly use h3. */
+.document-paged-page .document-content h4{
+  margin:38px 0 17px;
+  padding:0;
+  color:var(--teal);
+  font-family:Vollkorn,Georgia,serif;
+  font-size:23px;
+  line-height:1.28;
+  font-weight:400;
+}
+.document-paged-page .document-content h4::after{
+  content:"";
+  display:block;
+  width:76px;
+  height:1px;
+  margin:10px 0 0;
+  background:var(--rule);
+}
+
+/* Match the orange Sanskrit controls used throughout the supremacy/varna
+ * articles and keep Sanskrit in the site's Devanagari face. */
+.document-paged-page .document-content details.sanskrit-reveal{
+  margin:8px 0 15px;
+}
+.document-paged-page .document-content details.sanskrit-reveal>summary,
+.document-paged-page .document-content .women-scan-index>summary{
+  display:inline-block;
+  padding:4px 11px 5px;
+  border:1px solid var(--orange-soft);
+  border-radius:999px;
+  color:#9b4e1d;
+  background:transparent;
+  font-family:Merriweather,Georgia,serif;
+  font-size:13px;
+  line-height:1.45;
+  font-weight:400;
+  cursor:pointer;
+  user-select:none;
+}
+.document-paged-page .document-content details.sanskrit-reveal>summary:hover,
+.document-paged-page .document-content .women-scan-index>summary:hover{
+  background:#eee8e2;
+}
+.document-paged-page .document-content details.sanskrit-reveal [lang="sa-Deva"],
+.document-paged-page .document-content .reveal-devanagari{
+  font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;
+}
+.document-paged-page .document-content .sanskrit-transliteration{
+  color:var(--sanskrit);
+  font-family:Merriweather,Georgia,serif;
+  font-size:15px;
+  line-height:1.55;
+  font-style:normal;
+}
+
+/* Source-scan controls should look like reader controls, not browser-default
+ * disclosure widgets. */
+.document-paged-page .document-content .women-scan-index{
+  margin:22px 0 28px;
+}
+.document-paged-page .document-content .women-scan-index>summary{
+  list-style:none;
+}
+.document-paged-page .document-content .women-scan-index>summary::-webkit-details-marker{
+  display:none;
+}
+.document-paged-page .document-content .women-page-links{
+  margin:20px 0 0;
+}
+.document-paged-page .document-content .women-page-links a{
+  color:#625b54;
+  text-decoration:none;
+}
+.document-paged-page .document-content .women-page-links a:hover{
+  color:var(--purple);
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+/* Keep figures quiet and consistent with the source/reader palette. */
+.document-paged-page .document-content .women-diagram img{
+  border:1px solid #d8d2ca;
+}
+.document-paged-page .document-content .women-diagram figcaption{
+  color:#817970;
+  font-size:12px;
+  line-height:1.45;
+}
+
+@media(max-width:620px){
+  .document-paged-page .document-content h4{
+    margin:32px 0 15px;
+    font-size:20px;
+    line-height:1.3;
+  }
+  .document-paged-page .document-content h4::after{
+    width:62px;
+  }
+  .document-paged-page .document-content .sanskrit-transliteration{
+    font-size:14px;
+    line-height:1.58;
+  }
+}
