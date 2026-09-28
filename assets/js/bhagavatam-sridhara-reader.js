@@ -550,6 +550,33 @@
     if (selectedChapter(config) < config.chapter_count) add('Next', '#chapter-' + (selectedChapter(config) + 1));
   }
 
+  function renderCantoContents(config) {
+    const titles = config.chapter_titles || {};
+    const section = document.createElement('section');
+    section.className = 'sb-canto-contents-page';
+    const heading = document.createElement('h2');
+    heading.textContent = 'Contents';
+    const intro = document.createElement('p');
+    intro.className = 'sb-canto-contents-intro';
+    intro.textContent = 'Canto ' + canto + ' — ' + config.chapter_count + ' chapters';
+    const list = document.createElement('ol');
+    list.className = 'sb-canto-chapter-list';
+    for (let chapter = 1; chapter <= config.chapter_count; chapter += 1) {
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = '#chapter-' + chapter;
+      link.textContent = 'Chapter ' + chapter + (titles[String(chapter)] ? ' — ' + titles[String(chapter)] : '');
+      item.appendChild(link);
+      list.appendChild(item);
+    }
+    section.append(heading, intro, list);
+    host.replaceChildren(section);
+    if (heroTitle) heroTitle.textContent = 'Canto ' + canto;
+    if (titleNode) titleNode.textContent = 'Contents';
+    setStatus('Canto ' + canto + ' contents');
+    buildChapterNav(config);
+  }
+
   function chapterEnglishPath(config, chapter) {
     return config.english_path_template
       .replace('{chapter2}', pad(chapter))
@@ -669,10 +696,19 @@
       const config = manifest.cantos[String(canto)];
       if (!config) throw new Error('No canto configuration found.');
       buildChapterNav(config);
-      await loadChapter(manifest, config, selectedChapter(config));
+      if (config.landing_contents && !location.hash) {
+        renderCantoContents(config);
+      } else {
+        await loadChapter(manifest, config, selectedChapter(config));
+      }
       window.addEventListener('hashchange', () => {
+        if (config.landing_contents && !location.hash) {
+          renderCantoContents(config);
+          return;
+        }
         const chapter = selectedChapter(config);
         if (host.querySelector('.sb-chapter-shell[data-chapter="' + chapter + '"]')) return;
+        buildChapterNav(config);
         loadChapter(manifest, config, chapter);
       });
     } catch (error) {
