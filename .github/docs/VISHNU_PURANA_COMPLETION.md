@@ -2,7 +2,7 @@
 
 ## Objective
 
-Complete and semantically audit all 126 Viṣṇu Purāṇa chapter routes (6,400 verse articles). Work from the end of Book 6 backwards, publish one fully checked chapter at a time, and continue through Books 5, 4, 3, 2, and 1. The repository and the progress ledger below are the source of truth.
+Complete and semantically audit all 126 Viṣṇu Purāṇa chapter routes (6,400 verse articles). The active owner-directed semantic audit is Book 3, Chapters 1–18 in ascending order, one fully checked chapter at a time. After Book 3 is complete, resume the paused full-corpus queue through Books 6, 5, 4, 3, 2, and 1. The repository and the progress ledger below are the source of truth.
 
 ## Hard constraints
 
@@ -13,11 +13,11 @@ Complete and semantically audit all 126 Viṣṇu Purāṇa chapter routes (6,40
 - Do not alter unrelated pages, scripts, styling, or the Bhagavatam project files.
 - Update the guide and audit ledger in the same chapter release. Publish the chapter immediately after all checks pass.
 
-## Reverse release order
+## Paused full-corpus reverse release order
 
-Start at Book 6, Chapter 8, verse 64, then work backwards to 6.8.1. After publishing that complete chapter, start Book 6, Chapter 7 at its final source verse and work down to verse 1. Continue chapter-by-chapter in descending order through Book 6, then Books 5, 4, 3, 2, and 1. Verify each chapter's actual verse count from its source; never assume a count.
+The existing full-corpus queue starts at Book 6, Chapter 8, verse 64, then works backwards to 6.8.1. It continues chapter-by-chapter in descending order through Book 6, then Books 5, 4, 3, 2, and 1. Verify each chapter's actual verse count from its source; never assume a count.
 
-Current resume point in the full-corpus sequence: Book 6, Chapter 7, verse 106. On 2026-09-26, the owner restated the full-corpus priority in descending book order (6→1). The sample repair below was an out-of-sequence diagnostic; resume remains Book 6, Chapter 7, verse 106.
+The full-corpus cursor is paused at Book 6, Chapter 7, verse 106. The owner-directed Book 3 semantic audit below takes priority until Book 3, Chapters 1–18 are complete. Then resume the paused cursor at Book 6, Chapter 7, verse 106.
 
 ## Source hierarchy
 
@@ -52,7 +52,7 @@ A visible control does not prove that its content is complete. Check the semanti
 4. Validate verse IDs/count, Sanskrit and translation coverage, every WFW lexical row, IAST-to-Devanāgarī correspondence, Śrīdhara coverage, exact no-commentary states, working native `details/summary` controls, source note, and balanced HTML.
 5. Confirm the chapter route already appears in the dynamic Contents list. Change the Contents file only if its actual link is missing or broken.
 6. Create one atomic chapter-specific commit containing the chapter, this guide, and audit ledger. Update `main` only as a fast-forward from the freshest observed head.
-7. Fetch the committed chapter, guide, audit ledger, and commit metadata again. Confirm exact content and checksums; then immediately begin the next chapter in the reverse sequence.
+7. Fetch the committed chapter, guide, audit ledger, and commit metadata again. Confirm exact content and checksums; then immediately begin the next chapter in the active owner-directed sequence.
 
 Batch checks and report only meaningful findings to keep the loop fast. If a witness conflict is unresolved, state the exact verse and do not mark that chapter complete.
 
@@ -295,4 +295,17 @@ This release applies the Book 1, Chapter 1 reader standard across all 126 chapte
 - Repaired the nested reader markup across the affected routes: removed 1,567 extra div closings inside controls and restored their matching wrappers; balanced 43 controls that were missing a closure; removed 43 surplus article-level div closings; removed 156 duplicate article endings; restored 122 outer page wrappers; repaired the malformed article fragment in 3.12.25; and closed the missing paragraph tag in 4.19.17.
 - Static validation passed across all 126 routes: 6,400 contiguous verse articles; nonempty Sanskrit and English fields; one Transliteration control per verse; every Contents target resolves; all 13,718 native details/summary controls and div nesting are balanced; all routes match the reference shell and stylesheet/font links; no generated `lang="sa-Deva"` field contains Latin-script characters.
 
-This is a reader and markup correction, not semantic completion. The current coverage scan still finds 3,823 nonempty main-text WFW panels, 2,573 verses without a panel, and four explicit placeholder panels. Existing translations and lexical glosses still need source-based, verse-by-verse review. Continue in reverse sequence at Book 6, Chapter 7, verse 106, then proceed through Books 6 to 1.
+This is a reader and markup correction, not semantic completion. The current coverage scan still finds 3,823 nonempty main-text WFW panels, 2,573 verses without a panel, and four explicit placeholder panels. Existing translations and lexical glosses still need source-based, verse-by-verse review. At the time of this 2026-09-26 release, the next full-corpus target was Book 6, Chapter 7, verse 106. The later owner-directed Book 3 audit below supersedes that cursor until Book 3 is complete.
+
+
+## Owner-directed Book 3 semantic audit — 2026-09-29
+
+This pass reviews translations, Sanskrit, word maps, and supplied Śrīdhara material in Book 3. The earlier main-WFW coverage count of 837/837 indicates that controls exist; it does not certify their meaning.
+
+Book 3, Chapter 1 is complete: 46 contiguous verses, 46 English translations, 46 main Word-for-word controls with 189 lexical rows, and 46 Transliteration controls. Śrīdhara's 15 source annotations are aligned to the verses they explain and repeated under each applicable verse, yielding 20 sourced commentary cards and 26 cards with the exact No commentary. state. All reader controls use the Bhagavad Gītā Chapter 1 shared stylesheet sizes: 12px summaries with 3px by 10px padding, 15.5px desktop word rows, and 13.5px mobile word rows.
+
+The Chapter 1 source note records the actual third-person author signature; distinguishes Maitreya as the subject of pṛcchati; names Śrīdhara as the subject of āha; and explains that the English gloss for darśayati used an unclear subject. It also records the conflict between the pinned Śrīdhara recension and Wilson's Ratnagarbha manuscript attribution for Book III.
+
+Text decisions recorded in the chapter include four varṇas for cāturvarṇya; the numbered and Śrīdhara reading ākūtyām, Ākūti, at 3.1.36 against the mūla transcription ākṛtyām; the 3.1.18 placement of the Jyotirdhāma gloss marked after verse 19 in the source; and the placement of the fourteen-member gloss at 3.1.21, where that count occurs, rather than across 3.1.22–27, whose verse 27 names groups of eight. The page note records additional readings at 3.1.6, 3.1.8, 3.1.11, 3.1.14, 3.1.18, 3.1.19, 3.1.22, 3.1.25, and 3.1.34.
+
+Semantic review progress: 46 of 837 Book 3 verse articles, across 1 of 18 chapters. Next: Book 3, Chapter 2.

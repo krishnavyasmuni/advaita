@@ -277,4 +277,20 @@ This release applies the Book 1, Chapter 1 reader standard across all 126 chapte
 - Repaired the nested reader markup across the affected routes: removed 1,567 extra div closings inside controls and restored their matching wrappers; balanced 43 controls that were missing a closure; removed 43 surplus article-level div closings; removed 156 duplicate article endings; restored 122 outer page wrappers; repaired the malformed article fragment in 3.12.25; and closed the missing paragraph tag in 4.19.17.
 - Static validation passed across all 126 routes: 6,400 contiguous verse articles; nonempty Sanskrit and English fields; one Transliteration control per verse; every Contents target resolves; all 13,718 native details/summary controls and div nesting are balanced; all routes match the reference shell and stylesheet/font links; no generated `lang="sa-Deva"` field contains Latin-script characters.
 
-This is a reader and markup correction, not semantic completion. The current coverage scan still finds 3,823 nonempty main-text WFW panels, 2,573 verses without a panel, and four explicit placeholder panels. Existing translations and lexical glosses still need source-based, verse-by-verse review. Continue in reverse sequence at Book 6, Chapter 7, verse 106, then proceed through Books 6 to 1.
+This is a reader and markup correction, not semantic completion. The current coverage scan still finds 3,823 nonempty main-text WFW panels, 2,573 verses without a panel, and four explicit placeholder panels. Existing translations and lexical glosses still need source-based, verse-by-verse review. At this 2026-09-26 checkpoint, the next full-corpus target was Book 6, Chapter 7, verse 106. The later owner-directed Book 3 audit below supersedes that cursor until Book 3 is complete.
+
+
+## Owner-directed Book 3 translation and commentary audit — 2026-09-29
+
+Book 3, Chapter 1 has received a verse-by-verse Sanskrit, translation, word-map, and Śrīdhara review against the pinned Vishvas/Vasuki mūla, numbered witness, Śrīdhara commentary, Vasuki English witness, and Wilson at Wisdom Library and Sacred Texts.
+
+- Coverage: 46/46 contiguous verse articles; 46 Sanskrit blocks, English translations, main Word-for-word controls, and Transliteration controls; 189 main lexical rows.
+- Commentary: 20 cards reproduce the 15 supplied source annotations wherever they apply; 26 other verses display the exact No commentary. state.
+- Corrected subject references in the Śrīdhara maps. The opening signature really names Śrīdhara in third person. The verb pṛcchati refers to Maitreya. In 3.1.35, darśayati is rendered as the text showing Viṣṇu's presiding role. In 3.1.46, āha is rendered explicitly as Śrīdhara says.
+- The verse translation and word map render cāturvarṇya as four varṇas. Wilson translates cāturvarṇya as four castes. This is disclosed only as an English cross-reference.
+- At 3.1.36, the numbered witness and Śrīdhara read ākūtyām, Ākūti, in agreement with Wilson; the mūla transcription reads ākṛtyām. The page adopts Ākūti and records the variant.
+- The Jyotirdhāma gloss is placed under 3.1.18, where the name appears, though the Śrīdhara source marks it after 3.1.19. The fourteen-member gloss is placed with 3.1.21, not the entire 3.1.22–27 range, because 3.1.27 explicitly names groups of eight.
+- The page's Śrīdhara label is qualified as the Śrīdhara recension. Wilson records Ratnagarbha as the manuscript attribution for Book III, so the page note discloses the attribution conflict rather than presenting one as uncontested.
+- Chapter 1 controls follow the Chapter 1 Bhagavad Gītā reader sizing, including the 3px by 10px summary padding. Static checks found 46 IDs in order, 46 nonempty translations and Sanskrit blocks, balanced reader markup, no square brackets, and no caste wording in verse translations or word maps.
+
+Book 3 semantic review status: 46/837 verse articles across 1/18 chapters. The other 17 chapters remain to be reviewed. Continue with Book 3, Chapter 2. This semantic audit is separate from the baseline main-WFW panel count of 837/837.
