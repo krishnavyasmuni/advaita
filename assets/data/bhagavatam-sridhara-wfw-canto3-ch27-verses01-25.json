@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "vishvasa-source-cleaned",
+  "status": "vishvasa-source-rebuilt",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
   "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
-  "editorial_note": "Śrīdhara Svāmī only. Non-Śrīdhara appended commentator sections are removed from reader data. Sanskrit remains keyed to the pinned vishvAsa/purANam_vaiShNavam source; fabricated placeholder English is not displayed.",
+  "editorial_note": "Śrīdhara Svāmī only. Sanskrit is keyed to the pinned VishvAsa/Vasuki source; phrase-level glosses and literal English are source-bound. Explicit source gaps remain marked rather than filled.",
   "scope": "ŚB 3.27.1–3.27.25; pinned merged source markers and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -15,13 +15,46 @@
       "end": 1,
       "source_marker": "३.२७.१",
       "sanskrit": "सप्त-विंशे ततः सम्यग् बहु-साधन-योगतः ।\n\nपुं-प्रकृत्योर् विवेकेन मोक्ष-रीतिर् निरूप्यते ॥\n\nविवेक-ज्ञानेन मोक्षम् उपपादयितुं शुद्धस्यैव पुरुषस्य प्रकृत्य्-अविवेकतः पूर्वोक्तं संसारम् अनुस्मारयति---प्रकृति-स्थोऽपीति त्रिभिः । देह-स्थोऽपि नाज्यते न लिप्यते। गुणैस् तत् कृतैः सुख-दुःखादिभिः । निर्गुणत्वाद् अकर्तृत्वं ततोऽविकारित्वं तस्मात् ॥१॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "सप्त-विंशे",
+          "in the twenty-seventh chapter"
+        ],
+        [
+          "पुं-प्रकृत्योर् विवेकेन",
+          "by discrimination between Puruṣa and Prakṛti"
+        ],
+        [
+          "मोक्ष-रीतिः",
+          "the method of liberation"
+        ],
+        [
+          "प्रकृत्य्-अविवेकतः",
+          "from non-discrimination from Prakṛti"
+        ],
+        [
+          "देह-स्थोऽपि न लिप्यते",
+          "even situated in the body, it is not stained"
+        ],
+        [
+          "गुणैस् तत्-कृतैः सुख-दुःखादिभिः",
+          "by the guṇas and their effects such as pleasure and pain"
+        ],
+        [
+          "निर्गुणत्वाद् अकर्तृत्वम्",
+          "because it is guṇa-less, it is not an agent"
+        ],
+        [
+          "ततोऽविकारित्वम्",
+          "therefore it is changeless"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "sapta-viṃśe tataḥ samyag bahu-sādhana-yogataḥ |\n\npuṃ-prakṛtyor vivekena mokṣa-rītir nirūpyate ||\n\nviveka-jñānena mokṣam upapādayituṃ śuddhasyaiva puruṣasya prakṛty-avivekataḥ pūrvoktaṃ saṃsāram anusmārayati---prakṛti-stho’pīti tribhiḥ | deha-stho’pi nājyate na lipyate| guṇais tat kṛtaiḥ sukha-duḥkhādibhiḥ | nirguṇatvād akartṛtvaṃ tato’vikāritvaṃ tasmāt ||1||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "In the twenty-seventh chapter the method of liberation is explained through a clear discrimination between Puruṣa and Prakṛti, joined with many disciplines. To establish liberation through discriminative knowledge, Śrīdhara recalls the previously described bondage that arises for the intrinsically pure Puruṣa from failure to distinguish it from Prakṛti. Even while situated in the body it is not stained by the guṇas or by the pleasure, pain, and other effects produced by them. Because it is without guṇas it is not an agent, and therefore it is changeless."
     },
     {
       "canto": 3,
@@ -81,13 +114,38 @@
       "end": 5,
       "source_marker": "३.२७.५",
       "sanskrit": "यतो विषय-ध्यानम् अर्थ-हेतुः, अतो मनो नियन्तव्यम् इत्य् आह---अत एवेति । असताम् इन्द्रियाणां पथि विषय-मार्गे । तीव्रेन दृढेन । विरक्त्या च तीव्रया ॥५॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "विषय-ध्यानम् अर्थ-हेतुः",
+          "contemplation of sense objects is the cause of attachment to objects"
+        ],
+        [
+          "मनो नियन्तव्यम्",
+          "the mind must be restrained"
+        ],
+        [
+          "असताम् इन्द्रियाणां पथि",
+          "on the path of the unsteady senses"
+        ],
+        [
+          "विषय-मार्गे",
+          "on the road of sense objects"
+        ],
+        [
+          "तीव्रेण दृढेन",
+          "by intense, firm practice"
+        ],
+        [
+          "विरक्त्या च तीव्रया",
+          "and by intense detachment"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "yato viṣaya-dhyānam artha-hetuḥ, ato mano niyantavyam ity āha---ata eveti | asatām indriyāṇāṃ pathi viṣaya-mārge | tīvrena dṛḍhena | viraktyā ca tīvrayā ||5||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Because contemplation of sense objects is the cause of attachment to objects, the mind must therefore be restrained. “On the path of the unsteady senses” means on the road of sense objects. “Intense” means firm; and detachment too must be intense."
     },
     {
       "canto": 3,
@@ -96,13 +154,46 @@
       "end": 6,
       "source_marker": "३.२७.६",
       "sanskrit": "भक्ति-विरक्त्योस् तीव्रत्वे कारणानि वर्णयन् ज्ञानेन मोक्ष-प्रकारम् आह षड्भिः । यमादिभिर् योग-मार्गैश् चित्तम् अभ्यसन् पुनः पुनर् एकाग्री-कुर्वन्न् आत्मानम् उपलभ्य सर्वानुस्यूतम् अद्वयं परमात्मानं प्रतिपद्यत इति षष्ठेनान्वयः । सत्येन निष्कपटेन । भावेन प्रेम्णा ॥६॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "भक्ति-विरक्त्योस् तीव्रत्वे कारणानि",
+          "the causes for the intensity of devotion and detachment"
+        ],
+        [
+          "ज्ञानेन मोक्ष-प्रकारम्",
+          "the manner of liberation through knowledge"
+        ],
+        [
+          "यमादिभिर् योग-मार्गैः",
+          "by yogic disciplines beginning with yama"
+        ],
+        [
+          "चित्तम् अभ्यसन्",
+          "training the mind"
+        ],
+        [
+          "पुनः पुनर् एकाग्री-कुर्वन्",
+          "repeatedly making it one-pointed"
+        ],
+        [
+          "सर्वानुस्यूतम् अद्वयं परमात्मानम्",
+          "the nondual Supreme Self pervading all"
+        ],
+        [
+          "सत्येन निष्कपटेन",
+          "by truth, i.e. without deceit"
+        ],
+        [
+          "भावेन प्रेम्णा",
+          "by feeling, i.e. love"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "bhakti-viraktyos tīvratve kāraṇāni varṇayan jñānena mokṣa-prakāram āha ṣaḍbhiḥ | yamādibhir yoga-mārgaiś cittam abhyasan punaḥ punar ekāgrī-kurvann ātmānam upalabhya sarvānusyūtam advayaṃ paramātmānaṃ pratipadyata iti ṣaṣṭhenānvayaḥ | satyena niṣkapaṭena | bhāvena premṇā ||6||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "While describing the causes by which devotion and detachment become intense, he explains in six verses the manner of liberation through knowledge. Practising the mind by the yogic disciplines beginning with yama, repeatedly making it one-pointed, and realizing the Self, one attains the nondual Supreme Self pervading everything. “By truth” means without deceit; “by feeling” means with love."
     },
     {
       "canto": 3,
@@ -162,13 +253,42 @@
       "end": 10,
       "source_marker": "३.२७.१०",
       "sanskrit": "निवृत्तानि बुद्ध्य्-अवस्थानानि जाग्रद्-आदीनि यस्य सः । अत एव दूरी-भूतम् अन्य-दर्शनं यस्य । आत्मनाहङ्कारावच्छिन्नेनात्मानं शुद्धम् उपलभ्य । एकस्यैवावच्छेदानवच्छेदाभ्यां करण-कर्मत्वे दृष्टान्तम् आह---चक्षुषा चक्षुर्-अवच्छिन्नेनार्केण गगन-स्थम् अर्कम् इव । एवम् आत्म-दृक् शुद्धम् आत्मानं पश्यन् ॥१०॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "निवृत्तानि बुद्ध्य्-अवस्थानानि जाग्रद्-आदीनि",
+          "the states of intellect beginning with waking have ceased"
+        ],
+        [
+          "दूरी-भूतम् अन्य-दर्शनम्",
+          "vision of anything other has become remote"
+        ],
+        [
+          "आत्मनाहङ्कारावच्छिन्नेन",
+          "by the self delimited by ego"
+        ],
+        [
+          "आत्मानं शुद्धम् उपलभ्य",
+          "realizing the pure Self"
+        ],
+        [
+          "करण-कर्मत्वे दृष्टान्तम्",
+          "an example of being both instrument and object"
+        ],
+        [
+          "गगन-स्थम् अर्कम् इव",
+          "like the sun situated in the sky"
+        ],
+        [
+          "आत्म-दृक् शुद्धम् आत्मानं पश्यन्",
+          "the seer of the Self beholds the pure Self"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "nivṛttāni buddhy-avasthānāni jāgrad-ādīni yasya saḥ | ata eva dūrī-bhūtam anya-darśanaṃ yasya | ātmanāhaṅkārāvacchinnenātmānaṃ śuddham upalabhya | ekasyaivāvacchedānavacchedābhyāṃ karaṇa-karmatve dṛṣṭāntam āha---cakṣuṣā cakṣur-avacchinnenārkeṇa gagana-stham arkam iva | evam ātma-dṛk śuddham ātmānaṃ paśyan ||10||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "For him the states of the intellect beginning with waking have ceased, and consequently the vision of anything other has become remote. With the self delimited by ego he realizes the pure Self. Śrīdhara gives an example of one thing becoming both instrument and object through limitation and non-limitation: as one sees the sun in the sky by means of the sun reflected or delimited in the eye, so the seer of the Self beholds the pure Self."
     },
     {
       "canto": 3,
@@ -177,13 +297,46 @@
       "end": 11,
       "source_marker": "३.२७.११",
       "sanskrit": "मुक्त-लिङ्गं निरुपाधिकम् असति मिथ्या-भूतेऽहङ्कारे सद्-आभासं सद्-रूपेणाभासमानं ब्रह्म प्राप्नोति । शुद्ध-जीव-स्वरूपाद् विशेषम् आह---सतः कारणस्य प्रधानस्य बन्धुम् अधिष्ठानम् । असतः कार्यस्य चक्षुर् इव प्रकाशकम् । सर्वेषु कार्य-कारणेष्व् अनुस्यूतम् । अद्वयं परिपूर्णम् ॥११॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "मुक्त-लिङ्गं निरुपाधिकम्",
+          "free from marks or limiting adjuncts"
+        ],
+        [
+          "असति मिथ्या-भूतेऽहङ्कारे",
+          "in the unreal, falsely constituted ego"
+        ],
+        [
+          "सद्-आभासं",
+          "appearing as reality"
+        ],
+        [
+          "ब्रह्म प्राप्नोति",
+          "he attains Brahman"
+        ],
+        [
+          "प्रधानस्य बन्धुम् अधिष्ठानम्",
+          "the support of Pradhāna, the cause"
+        ],
+        [
+          "कार्यस्य चक्षुर् इव प्रकाशकम्",
+          "illumining the effect like an eye"
+        ],
+        [
+          "सर्वेषु कार्य-कारणेष्व् अनुस्यूतम्",
+          "pervading all effects and causes"
+        ],
+        [
+          "अद्वयं परिपूर्णम्",
+          "nondual and complete"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "mukta-liṅgaṃ nirupādhikam asati mithyā-bhūte’haṅkāre sad-ābhāsaṃ sad-rūpeṇābhāsamānaṃ brahma prāpnoti | śuddha-jīva-svarūpād viśeṣam āha---sataḥ kāraṇasya pradhānasya bandhum adhiṣṭhānam | asataḥ kāryasya cakṣur iva prakāśakam | sarveṣu kārya-kāraṇeṣv anusyūtam | advayaṃ paripūrṇam ||11||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "He attains Brahman free from limiting adjuncts, appearing as reality within the unreal, falsely constituted ego. Śrīdhara distinguishes this from the pure individual self: Brahman is the support of the existent cause, Pradhāna; like an eye it illumines the non-existent effect; it pervades all causes and effects; and it is nondual and complete."
     },
     {
       "canto": 3,
@@ -231,13 +384,42 @@
       "end": 17,
       "source_marker": "३.२७.१७",
       "sanskrit": "भक्ति-विरक्तिभ्यां सत्य् अपि विवेके प्रकृति-पुरुषयोः परस्पर-त्यागाभावात् कतहं मुक्तिर् इति पृच्छति, पुरुषम् इति चतुर्भिः । पुरुष-व्यतिरेकेण प्रकृतेः स्वरूप-लाभाभावात् प्रकृति-व्यतिरेकेण पुरुषस्याभिव्यक्त्य्-अभावाद् इत्य् अन्योन्यापाश्रयत्वान् नित्यत्वाच् च पुरुषं प्रकृतिः कदाचिन् न मुञ्चतीत्य् अर्थः ॥१७॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "भक्ति-विरक्तिभ्यां सत्य् अपि विवेके",
+          "even when discrimination exists through devotion and detachment"
+        ],
+        [
+          "प्रकृति-पुरुषयोः परस्पर-त्यागाभावात्",
+          "because Prakṛti and Puruṣa do not mutually abandon one another"
+        ],
+        [
+          "कथं मुक्तिः",
+          "how is liberation possible?"
+        ],
+        [
+          "पुरुष-व्यतिरेकेण प्रकृतेः स्वरूप-लाभाभावात्",
+          "because Prakṛti has no manifest status apart from Puruṣa"
+        ],
+        [
+          "प्रकृति-व्यतिरेकेण पुरुषस्याभिव्यक्त्य्-अभावात्",
+          "because Puruṣa is not manifested apart from Prakṛti"
+        ],
+        [
+          "अन्योन्यापाश्रयत्वात्",
+          "because of mutual dependence"
+        ],
+        [
+          "पुरुषं प्रकृतिः कदाचिन् न मुञ्चति",
+          "Prakṛti never releases Puruṣa"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "bhakti-viraktibhyāṃ saty api viveke prakṛti-puruṣayoḥ paraspara-tyāgābhāvāt katahaṃ muktir iti pṛcchati, puruṣam iti caturbhiḥ | puruṣa-vyatirekeṇa prakṛteḥ svarūpa-lābhābhāvāt prakṛti-vyatirekeṇa puruṣasyābhivyakty-abhāvād ity anyonyāpāśrayatvān nityatvāc ca puruṣaṃ prakṛtiḥ kadācin na muñcatīty arthaḥ ||17||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Even when devotion and detachment have produced discrimination, Devahūti asks how liberation is possible if Prakṛti and Puruṣa never abandon one another. Prakṛti cannot obtain its manifest status apart from Puruṣa, while Puruṣa is not manifested apart from Prakṛti; because of this mutual dependence and their beginningless continuity, the question is how Prakṛti could ever release Puruṣa."
     },
     {
       "canto": 3,
@@ -283,13 +465,34 @@
       "end": 20,
       "source_marker": "३.२७.२०",
       "sanskrit": "अत एव क्वचिन् निवृत्त-प्रायस्यापि संसार-भयस्य पुनर् उद्भवो दृश्यत इत्य् आह---क्वचिद् इति ॥२०॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "अत एव",
+          "for this very reason"
+        ],
+        [
+          "क्वचित्",
+          "sometimes"
+        ],
+        [
+          "निवृत्त-प्रायस्यापि संसार-भयस्य",
+          "of the fear of saṃsāra even when almost ceased"
+        ],
+        [
+          "पुनर् उद्भवः",
+          "arising again"
+        ],
+        [
+          "दृश्यते",
+          "is seen"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "ata eva kvacin nivṛtta-prāyasyāpi saṃsāra-bhayasya punar udbhavo dṛśyata ity āha---kvacid iti ||20||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "For this very reason one sometimes sees the fear of saṃsāra arise again even after it has almost ceased."
     },
     {
       "canto": 3,
@@ -298,13 +501,54 @@
       "end": 23,
       "source_marker": "३.२७.२१-२३",
       "sanskrit": "न हि प्रकृति-संबन्ध-मात्रं बन्ध-हेतुः, किन्तु गुण-बुद्ध्या तद्-आसक्तिस् तन्-निवृत्तौ सत्यां मोक्षो घटते । क्वचिद् उद्भवस् तु साधन-वैकल्याद् इत्य् अभिप्रेत्य साधनातिशयं कथयन् परिहरति त्रिभिः । निमित्तं फलम् । तन् न निमित्तं प्रवर्तकं यस्मिन्, तेन निष्कामेन धर्मेण । अमलात्मना निर्मलेन मनसा । श्रुतेन कथा-श्रवणेन संभृतया पुष्टया ॥२१॥ दह्यमाना अभिभूयमाना तिरो-हिता भवति ॥२३॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "प्रकृति-संबन्ध-मात्रं न बन्ध-हेतुः",
+          "mere connection with Prakṛti is not the cause of bondage"
+        ],
+        [
+          "गुण-बुद्ध्या तद्-आसक्तिः",
+          "attachment to it through identification with the guṇas"
+        ],
+        [
+          "तन्-निवृत्तौ सत्यां मोक्षः",
+          "when that ceases, liberation occurs"
+        ],
+        [
+          "साधन-वैकल्यात्",
+          "from deficiency in the discipline"
+        ],
+        [
+          "निमित्तं फलम्",
+          "nimitta means fruit"
+        ],
+        [
+          "निष्कामेन धर्मेण",
+          "by desireless dharma"
+        ],
+        [
+          "अमलात्मना निर्मलेन मनसा",
+          "with a stainless self, i.e. a pure mind"
+        ],
+        [
+          "श्रुतेन कथा-श्रवणेन",
+          "by hearing, i.e. hearing the sacred narratives"
+        ],
+        [
+          "दह्यमाना अभिभूयमाना",
+          "being burned, being overcome"
+        ],
+        [
+          "तिरो-हिता भवति",
+          "it disappears"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "na hi prakṛti-saṃbandha-mātraṃ bandha-hetuḥ, kintu guṇa-buddhyā tad-āsaktis tan-nivṛttau satyāṃ mokṣo ghaṭate | kvacid udbhavas tu sādhana-vaikalyād ity abhipretya sādhanātiśayaṃ kathayan pariharati tribhiḥ | nimittaṃ phalam | tan na nimittaṃ pravartakaṃ yasmin, tena niṣkāmena dharmeṇa | amalātmanā nirmalena manasā | śrutena kathā-śravaṇena saṃbhṛtayā puṣṭayā ||21|| dahyamānā abhibhūyamānā tiro-hitā bhavati ||23||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Mere connection with Prakṛti is not the cause of bondage; rather, bondage is attachment to it through taking the guṇas to be the Self. When that attachment ceases, liberation is possible. Its occasional reappearance comes from deficiency in the discipline. With this intention, Śrīdhara explains the excellence of the means in three verses. “Nimitta” means fruit; action in which that fruit is not the motivating cause is desireless dharma. “With a stainless self” means with a pure mind. Devotion is nourished by hearing the sacred narratives. “Being burned” means being overcome and made to disappear."
     },
     {
       "canto": 3,
@@ -376,13 +620,42 @@
       "end": 28,
       "source_marker": "३.२७.२८",
       "sanskrit": "प्रतिबुद्धार्थो विदितात्म-तत्त्वः । कैवल्याख्यं स्व-संस्थानं देहादि-व्यतिरिक्तं स्वरूपं मद्-आश्रयं निःश्रेयसं निरतिशयानन्दम् ॥२८॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "प्रतिबुद्धार्थः",
+          "one who has awakened to the truth"
+        ],
+        [
+          "विदितात्म-तत्त्वः",
+          "one who has known the reality of the Self"
+        ],
+        [
+          "कैवल्याख्यं स्व-संस्थानम्",
+          "one’s own state called kaivalya"
+        ],
+        [
+          "देहादि-व्यतिरिक्तं स्वरूपम्",
+          "a nature distinct from body and the rest"
+        ],
+        [
+          "मद्-आश्रयम्",
+          "resting in Me, the Lord"
+        ],
+        [
+          "निःश्रेयसम्",
+          "the highest good"
+        ],
+        [
+          "निरतिशयानन्दम्",
+          "unsurpassed bliss"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "pratibuddhārtho viditātma-tattvaḥ | kaivalyākhyaṃ sva-saṃsthānaṃ dehādi-vyatiriktaṃ svarūpaṃ mad-āśrayaṃ niḥśreyasaṃ niratiśayānandam ||28||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "“One who has awakened to the truth” means one who has known the reality of the Self. The state called kaivalya is one’s own true condition, a nature distinct from body and the rest, resting in the Lord; it is the highest good and unsurpassed bliss."
     },
     {
       "canto": 3,
@@ -408,13 +681,54 @@
       "end": 30,
       "source_marker": "३.२७.३०",
       "sanskrit": "तदा त्व् अणिमादि-सिद्धयोऽन्तराय-रूपा भवन्ति । तासु योगेनोपचितासु समृद्धासु न योगाद् अन्यो हेतुर् यासां, तासु यदा सिद्धस्य चेतो न विषज्जते । अङ्ग ! हे मातः ! अथ तदा अन्तम् अतिक्रान्तोऽत्यन्तो योऽहं, तत्-सम्बन्धिनी । यत्र यस्यां गतौ मृत्योर् हासो न भवति । विषक्टौ तु सिद्धोऽपि मया वशी-कृत इति मृत्योर् हासो गर्वो भवतीत्य् अर्थः ॥३०॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "अणिमादि-सिद्धयः",
+          "powers beginning with aṇimā"
+        ],
+        [
+          "अन्तराय-रूपा भवन्ति",
+          "become obstacles"
+        ],
+        [
+          "यद् सिद्धस्य चेतो न विषज्जते",
+          "when the mind of the accomplished yogin is not attached"
+        ],
+        [
+          "अङ्ग हे मातः",
+          "O dear mother"
+        ],
+        [
+          "अन्तम् अतिक्रान्तः",
+          "having transcended the limit"
+        ],
+        [
+          "तत्-सम्बन्धिनी",
+          "pertaining to Me"
+        ],
+        [
+          "यत्र मृत्योर् हासो न भवति",
+          "where death has no occasion for laughter"
+        ],
+        [
+          "विषक्तौ तु",
+          "but when attachment remains"
+        ],
+        [
+          "मया वशी-कृतः",
+          "brought under my control"
+        ],
+        [
+          "मृत्योर् हासो गर्वः",
+          "death’s laughter means its boast"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "tadā tv aṇimādi-siddhayo’ntarāya-rūpā bhavanti | tāsu yogenopacitāsu samṛddhāsu na yogād anyo hetur yāsāṃ, tāsu yadā siddhasya ceto na viṣajjate | aṅga ! he mātaḥ ! atha tadā antam atikrānto’tyanto yo’haṃ, tat-sambandhinī | yatra yasyāṃ gatau mṛtyor hāso na bhavati | viṣakṭau tu siddho’pi mayā vaśī-kṛta iti mṛtyor hāso garvo bhavatīty arthaḥ ||30||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "At that stage the powers beginning with aṇimā become obstacles. Though perfected and augmented through yoga, having no cause other than yoga, when the mind of the accomplished yogin does not become attached to them—O mother—then his destination pertains to Me, who transcend every limit. In that destination death has no occasion for laughter. But if attachment to the powers remains, Death can boast, “Even this accomplished yogin has been brought under my control.”"
     }
   ],
   "generated_at": "2026-09-28"
