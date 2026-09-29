@@ -4155,7 +4155,7 @@
     {
       "id": "canto-11-chapter-11-release",
       "range": "ŚB 11.11.1–11.11.49",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/11/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/11_baddha-mukta-laxaNam.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4200,23 +4200,20 @@
         "11.11.49"
       ],
       "source_note": "The pinned source contains 36 exact Śrīdhara blocks covering all 49 numbered verses; grouped ranges remain grouped in the reader.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-11",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35370082906",
-        "displayed_records": 34,
-        "sridhara_records_with_text": 34,
-        "literal_english_source_blocks": 36,
-        "no_commentary_records": 0
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch11-verses01-49.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-12-release",
       "range": "ŚB 11.12.1–11.12.24",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/12/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/12_sat-sanga-mahimA_karma-tyAga-vidhish_cha.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4244,23 +4241,20 @@
         "11.12.24"
       ],
       "source_note": "The pinned source contains 19 exact Śrīdhara blocks covering all 24 numbered verses; grouped ranges remain grouped in the reader.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-12",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35372871919",
-        "displayed_records": 19,
-        "sridhara_records_with_text": 19,
-        "literal_english_source_blocks": 19,
-        "no_commentary_records": 0
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch12-verses01-24.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-13-release",
       "range": "ŚB 11.13.1–11.13.42",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/13/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/13_haMsopadeshaH.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4311,23 +4305,20 @@
         "11.13.42"
       ],
       "source_note": "The pinned source contains 42 exact Śrīdhara blocks covering all 42 numbered verses; 11.13.20 is explicitly marked no commentary.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-13",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35372871919",
-        "displayed_records": 42,
-        "sridhara_records_with_text": 41,
-        "literal_english_source_blocks": 42,
-        "no_commentary_records": 1
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch13-verses01-42.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-14-release",
       "range": "ŚB 11.14.1–11.14.46",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/14/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/14.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4380,23 +4371,20 @@
         "11.14.46"
       ],
       "source_note": "The pinned source contains 43 exact Śrīdhara blocks and one explicit no-commentary marker covering all 46 numbered verses; the 11.14.5–11.14.7 commentary remains grouped in the reader.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-14",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35372871919",
-        "displayed_records": 44,
-        "sridhara_records_with_text": 43,
-        "literal_english_source_blocks": 44,
-        "no_commentary_records": 1
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch14-verses01-46.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-15-release",
       "range": "ŚB 11.15.1–11.15.36",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/15/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/15_yoga-siddhInAM_vivaraNam.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4439,23 +4427,20 @@
         "11.15.36"
       ],
       "source_note": "The pinned source contains 34 exact Śrīdhara blocks covering all 36 numbered verses; 11.15.6–11.15.8 remains grouped in the reader.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-15",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35374235619",
-        "displayed_records": 34,
-        "sridhara_records_with_text": 34,
-        "literal_english_source_blocks": 34,
-        "no_commentary_records": 0
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch15-verses01-36.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-16-release",
       "range": "ŚB 11.16.1–11.16.44",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/16/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/16_shrI-bhagavad-uddhava-saMvAde_mahA-vibhUtiH.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4506,23 +4491,20 @@
         "11.16.44"
       ],
       "source_note": "The pinned source contains 42 exact records covering all 44 numbered verses; 11.16.7–11.16.8 and 11.16.10–11.16.11 remain grouped, while 11.16.13 and 11.16.15 carry explicit no-commentary markers.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-16",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35374633629",
-        "displayed_records": 42,
-        "sridhara_records_with_text": 40,
-        "literal_english_source_blocks": 42,
-        "no_commentary_records": 2
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch16-verses01-44.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-17-release",
       "range": "ŚB 11.17.1–11.17.58",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/17/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/17_varNAshrama-vibhAgaH.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4583,23 +4565,20 @@
         "11.17.58"
       ],
       "source_note": "The pinned source contains 48 Śrīdhara blocks and four explicit no-commentary markers covering all 58 numbered verses; 11.17.1–11.17.2 and 11.17.3–11.17.7 remain grouped exactly as supplied.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-17",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35376789291",
-        "displayed_records": 52,
-        "sridhara_records_with_text": 48,
-        "literal_english_source_blocks": 52,
-        "no_commentary_records": 4
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch17-verses01-58.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-18-release",
       "range": "ŚB 11.18.1–11.18.48",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/18/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/18_shrI-bhagavad-uddhava-saMvAde_yati-dharma-nirNa.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4656,23 +4635,20 @@
         "11.18.48"
       ],
       "source_note": "The pinned source contains 47 Śrīdhara blocks and one explicit no-commentary marker covering all 48 numbered verses.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-18",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35377591555",
-        "displayed_records": 48,
-        "sridhara_records_with_text": 47,
-        "literal_english_source_blocks": 48,
-        "no_commentary_records": 1
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch18-verses01-48.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-19-release",
       "range": "ŚB 11.19.1–11.19.45",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/19/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/19_shreyo-bheda-nirNayaH.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4721,23 +4697,20 @@
         "11.19.45"
       ],
       "source_note": "The pinned source contains 39 Śrīdhara blocks and one explicit no-commentary marker covering all 45 numbered verses; 11.19.20–11.19.24 and 11.19.30–11.19.31 remain grouped exactly as supplied.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-19",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35378154016",
-        "displayed_records": 40,
-        "sridhara_records_with_text": 39,
-        "literal_english_source_blocks": 40,
-        "no_commentary_records": 1
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch19-verses01-45.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-20-release",
       "range": "ŚB 11.20.1–11.20.37",
-      "status": "source-checked-and-repaired",
+      "status": "source-checked-and-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/11/20/advanced-view/",
       "sanskrit_primary_source": "https://raw.githubusercontent.com/vishvAsa/purANam_vaiShNavam/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/11/20_bhagavad-uddhava-saMvAde_yoga-trayam.md",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
@@ -4780,18 +4753,15 @@
         "11.20.37"
       ],
       "source_note": "The pinned source contains 34 blocks covering all 37 numbered verses; 11.20.1–11.20.2 and 11.20.27–11.20.28 remain grouped, and the printed 11.20.32–3 marker covers verses 32–33.",
-      "live_render": {
-        "url": "https://krishnavyasmuni.github.io/advaita/articles/srimad-bhagavatam-canto-11-sridhara-svami/#chapter-20",
-        "deployment_run": "https://github.com/krishnavyasmuni/advaita/actions/runs/35378745703",
-        "displayed_records": 34,
-        "sridhara_records_with_text": 34,
-        "literal_english_source_blocks": 34,
-        "no_commentary_records": 0
-      },
+      "live_render": null,
       "legacy_status": "live-verified",
       "audit_note": "Restored to public Contents for access by user request; prior live-verified label is not current certification pending the Canto 11 evidence-based audit.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification."
+      "repaired_at": "2026-09-29",
+      "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
+      "reader_data_files": [
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch20-verses01-37.json?v=20260929-c11-reader-register-1"
+      ],
+      "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader."
     },
     {
       "id": "canto-11-chapter-21-release",
@@ -11545,36 +11515,44 @@
     {
       "id": "canto-3-chapter-27-release",
       "range": "ŚB 3.27.1–3.27.29",
-      "status": "source-checked-word-for-word-incomplete",
+      "status": "source-aligned-and-wfw-repaired-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/3/27/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch27-verses01-25.json?v=20260926-c3-ch27-gloss-cleanup-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch27-verses01-25.json?v=20260929-c3-ch27-repair-1"
       ],
-      "records_checked": 29,
-      "exact_sridhara_source_blocks": 14,
+      "records_checked": 25,
+      "exact_sridhara_source_blocks": 23,
       "no_commentary_ranges": [
         "3.27.2",
-        "3.27.3",
-        "3.27.4",
-        "3.27.7",
-        "3.27.8",
-        "3.27.9",
-        "3.27.18",
-        "3.27.24",
-        "3.27.25",
-        "3.27.27",
-        "3.27.29"
+        "3.27.26"
       ],
       "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-22",
-      "notes": "Pinned-source audit found 11 explicit no-commentary markers (including merged ranges where applicable); these were previously mislabeled as source gaps. Removed fabricated “contextual literal sense” word-gloss rows. Genuine English word-for-word glosses remain; missing glosses are no longer filled with pseudo-translations.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
+      "generated_at": "2026-09-29",
+      "notes": "Pinned-source audit confirms 25 source ranges cover 30 numbered verses; 23 ranges have Śrīdhara commentary, no-commentary ranges are 3.27.2 and 3.27.26, and source-gap ranges are empty.",
+      "repaired_at": "2026-09-29",
+      "repair_note": "Rebuilt all 25 source ranges against the exact pinned 3.24–3.33 merged source; translated all 23 commentary blocks and corrected the two explicit no-commentary ranges.",
+      "numbered_verses": 30,
+      "translated_commentary_blocks": 23,
+      "untranslated_commentary_blocks": 0,
+      "translated_commentary_ranges": [
+        "3.27.1",
+        "3.27.3–3.27.13",
+        "3.27.14–3.27.25",
+        "3.27.27–3.27.30"
+      ],
+      "word_for_word_pair_count": 227,
+      "pseudo_word_for_word_pairs_remaining": 0,
+      "findings": [
+        "Restored Śrīdhara commentary for 3.27.3–3.27.9, 3.27.18, 3.27.24–3.27.25, and 3.27.29 after the previous file incorrectly labeled them no-commentary.",
+        "Expanded the 3.27.12–3.27.13, 3.27.14–3.27.16, and 3.27.21–3.27.23 source groups without splitting their commentary.",
+        "Replaced incomplete word-for-word lists for all 23 commentary-bearing source ranges with phrase-level glosses from the complete Śrīdhara Sanskrit.",
+        "Changed 3.27.26 from a source gap to the source’s explicit “न कतमेनापि व्याख्यातम्” marker. The source contains only two no-commentary ranges: 3.27.2 and 3.27.26."
+      ]
     },
     {
       "id": "canto-3-chapter-28-release",

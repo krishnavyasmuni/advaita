@@ -278,6 +278,41 @@
       }));
   }
 
+  function parseLocalCommentary(data, targetCanto, targetChapter) {
+    const sourceEntries = Array.isArray(data && data.entries)
+      ? data.entries
+      : Object.values(data && data.entries ? data.entries : {});
+    return sourceEntries
+      .filter((entry) => entry &&
+        Number(entry.canto) === targetCanto &&
+        Number(entry.chapter) === targetChapter)
+      .map((entry) => {
+        const sanskrit = String(entry.sanskrit || '').trim();
+        const literal = String(entry.literal_english || '').trim();
+        const noCommentary = (entry.source_available === false && entry.source_gap !== true) ||
+          /^न\s+(?:(?:कतमेन(?:ापि)?|कतमेनापि)\s+)?व्याख्यातम्[।.]?\s*$/.test(sanskrit) ||
+          /^no commentary[.]?$/i.test(literal);
+        const sourceGap = entry.source_gap === true ||
+          (entry.source_available === false && !noCommentary);
+        return {
+          start: Number(entry.start),
+          end: Number(entry.end),
+          text: noCommentary || sourceGap ? '' : literal,
+          noCommentary,
+          sourceGap
+        };
+      })
+      .filter((entry) => Number.isFinite(entry.start) && Number.isFinite(entry.end) &&
+        (entry.text || entry.noCommentary || entry.sourceGap));
+  }
+
+  function commentaryStatusForRange(entries, start, end) {
+    const matching = entries.filter((entry) => entry.end >= start && entry.start <= end);
+    if (matching.some((entry) => entry.noCommentary)) return 'no-commentary';
+    if (matching.some((entry) => entry.sourceGap)) return 'source-gap';
+    return 'english-rendering-unavailable';
+  }
+
   function parseLocalWordForWord(data, targetCanto, targetChapter) {
     const sourceEntries = Array.isArray(data && data.entries)
       ? data.entries
@@ -433,7 +468,7 @@
     });
   }
 
-  function renderVerse(chapter, entry, sridharaEntries, commentaryEntries, wordForWordEntries) {
+  function renderVerse(chapter, entry, sridharaEntries, commentaryEntries, wordForWordEntries, localCommentaryEntries) {
     const section = document.createElement('article');
     section.className = 'gita-verse sb-verse-section';
     const range = entry.start === entry.end ? String(entry.start) : entry.start + '–' + entry.end;
@@ -516,14 +551,32 @@
 
     section.append(heading, rule, devanagari, translation, controls);
 
-    const commentaryText = commentaryForRange(commentaryEntries, entry.start, entry.end);
+    const commentaryText = commentaryForRange(commentaryEntries, entry.start, entry.end) ||
+      commentaryForRange(localCommentaryEntries, entry.start, entry.end);
     if (commentaryText) {
       const commentary = document.createElement('section');
       commentary.className = 'gita-commentary';
       const commentaryHeading = document.createElement('h3');
-      commentaryHeading.textContent = 'Śrīdhara’s Commentary.';
+      commentaryHeading.textContent = 'Śrīdhara’s Commentary — English rendering';
       commentary.append(commentaryHeading, makeParagraph(commentaryText));
       section.appendChild(commentary);
+    } else {
+      const commentaryStatus = commentaryStatusForRange(localCommentaryEntries, entry.start, entry.end);
+      const statusText = commentaryStatus === 'no-commentary'
+        ? 'The pinned source explicitly states that Śrīdhara does not explain this range.'
+        : commentaryStatus === 'source-gap'
+          ? 'The pinned source data has no complete commentary block for this range; this is a source gap, not a no-commentary statement.'
+          : sridharaSanskrit
+            ? 'The Sanskrit commentary is preserved above; an English rendering is not available for this source block yet.'
+            : '';
+      if (statusText) {
+        const commentary = document.createElement('section');
+        commentary.className = 'gita-commentary';
+        const commentaryHeading = document.createElement('h3');
+        commentaryHeading.textContent = 'Commentary status';
+        commentary.append(commentaryHeading, makeParagraph(statusText));
+        section.appendChild(commentary);
+      }
     }
 
     return section;
@@ -637,7 +690,7 @@
       const englishUrl = chapterEnglishUrl(manifest, config, chapter);
       const sridharaUrl = chapterSridharaUrl(manifest, config, chapter);
       const commentaryUrlValue = commentaryUrl(manifest);
-      const checkpointUrl = '/advaita/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260929-c3-ch17-repair-1';
+      const checkpointUrl = '/advaita/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260929-c3-c11-commentary-display-1';
       const requests = [fetchText(englishUrl)];
       if (sridharaUrl) {
         requests.push(config.sridhara_mode === 'local-cached' ? fetchJson(sridharaUrl) : fetchText(sridharaUrl));
@@ -660,6 +713,7 @@
         fetchJson(path.charAt(0) === '/' ? path : '/advaita/' + path)
       ));
       const wordForWordEntries = wfwResults.flatMap((data) => parseLocalWordForWord(data, canto, chapter));
+      const localCommentaryEntries = wfwResults.flatMap((data) => parseLocalCommentary(data, canto, chapter));
       const sridharaEntries = sridharaUrl
         ? (config.sridhara_mode === 'local-cached'
           ? parseLocalSridhara(sridharaResult)
@@ -675,7 +729,7 @@
       populateContents(contentsList, english.entries, chapter);
       if (heroTitle) heroTitle.textContent = 'Canto ' + canto + ', Chapter ' + chapter;
        if (titleNode) titleNode.textContent = english.title || 'Chapter ' + chapter;
-      english.entries.forEach((entry) => shell.appendChild(renderVerse(chapter, entry, sridharaEntries, commentaryEntries, wordForWordEntries)));
+      english.entries.forEach((entry) => shell.appendChild(renderVerse(chapter, entry, sridharaEntries, commentaryEntries, wordForWordEntries, localCommentaryEntries)));
       const annotated = english.entries.filter((entry) => sridharaForRange(sridharaEntries, entry.start, entry.end, chapter)).length;
       const sourceMessage = annotated + ' of ' + english.entries.length + ' displayed verse records have Śrīdhara text.';
       setStatus('Canto ' + canto + ', Chapter ' + chapter + ' loaded · ' + sourceMessage);
