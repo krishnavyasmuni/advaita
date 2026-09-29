@@ -1,5 +1,7 @@
 # Bhagavad Gita reader audit — 2026-09-23
 
+> Historical snapshot of the reader state on 2026-09-23. For the current source choices and behavior, see [the 2026-09-29 audit](GITA_AUDIT_2026-09-29.md).
+
 ## Repair scope
 
 The shared reader and all 18 chapter shells were updated on branch `fix/gita-all-verses-20260923`.

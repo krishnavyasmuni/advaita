@@ -11,36 +11,33 @@
     let text = String(value ?? '')
       .replace(/\r\n?/g, '\n')
       .replace(/[ \t]+/g, ' ')
-      .replace(/[ \t]*([,;:!?])/g, '$1')
-      .replace(/([,;:!?])(?=[A-Za-z])/g, '$1 ')
+      .replace(/“([^”]*)”/g, '$1')
+      .replace(/‘([^’]*)’/g, '$1')
+      .replace(/["“”]/g, '')
+      .replace(/[‘’]/g, "'")
+      .replace(/(^|[\s(\[{])'([^'\n]+)'(?=$|[\s.,!?;:)\]}])/g, '$1$2')
+      .replace(/(\d)\s*[–—]\s*(\d)/g, '$1-$2')
+      .replace(/\s*[—–]\s*/g, ', ')
+      .replace(/\s*;\s*/g, '. ')
+      .replace(/\s*:\s*/g, '. ')
+      .replace(/[()[\]]/g, '')
+      .replace(/[ \t]*([,.!?])/g, '$1')
+      .replace(/([,.!?])(?=[A-Za-z])/g, '$1 ')
+      .replace(/\.{2,}/g, '.')
       .replace(/\n{3,}/g, '\n\n')
+      .replace(/[ \t]{2,}/g, ' ')
       .trim();
-    text = text.replace(/(^|[.!?]\s+|\n+)([““‘"'(\[]*\s*)([a-z])/gu, (_, boundary, prefix, first) => boundary + prefix + first.toUpperCase());
-    if (text && !/[.!?…]["'”’)\]]*$/u.test(text)) text += '.';
+    text = text.replace(/(^|[.!?]\s+|\n+)([a-z])/gu, (_, boundary, first) => boundary + first.toUpperCase());
+    if (text && !/[.!?]$/u.test(text)) text += '.';
     return text;
   };
 
   const directCommentaryEnglish = (value) => {
-    let text = normalizeEnglishSentences(value);
-
-    // Strip generic editorial wrappers so the visible prose reads as the
-    // commentary itself rather than as a summary about the commentary.
-    text = text
-      .replace(/^(?:the\s+)?commentary\s+(?:says|states|explains|notes|remarks)(?:\s+that)?\s*[:,—-]?\s*/i, '')
+    let text = String(value ?? '')
+      .replace(/^the\s+commentary\s+(?:says|states|explains|notes|remarks)(?:\s+that)?\s*[:,—-]?\s*/i, '')
       .replace(/^according\s+to\s+(?:the\s+)?commentary\s*[:,—-]?\s*/i, '')
-      .replace(/^(?:śrīdhara(?:\s+svāmī)?|the\s+commentator|he)\s+(?:says|states|explains)\s+that\s+/i, '');
-
-    const firstSentenceMatch = text.match(/^([^.!?]{0,220}[.!?])\s*(.*)$/s);
-    if (firstSentenceMatch &&
-        /\b(?:he|the\s+commentator|śrīdhara(?:\s+svāmī)?)\s+(?:says|states|explains)\b/i.test(firstSentenceMatch[1])) {
-      const quoted = firstSentenceMatch[1].match(/[“‘"]([^”’"]+)[”’"]/);
-      if (quoted) {
-        text = 'On “' + quoted[1] + '”: ' + firstSentenceMatch[2];
-      }
-    }
-
-    text = text.trim();
-    return text.replace(/^(\s*[““‘"'(\[]*)([a-z])/u, (_, prefix, first) => prefix + first.toUpperCase());
+      .replace(/^(?:śrīdhara(?:\s+svāmī)?|the\s+commentator|he)\s+(?:says|states|explains)(?:\s+that)?\s*[:,—-]?\s*/i, '');
+    return normalizeEnglishSentences(text);
   };
 
   const independent = {'अ':'a','आ':'ā','इ':'i','ई':'ī','उ':'u','ऊ':'ū','ऋ':'ṛ','ॠ':'ṝ','ऌ':'ḷ','ॡ':'ḹ','ए':'e','ऐ':'ai','ओ':'o','औ':'au','ॐ':'oṃ'};
@@ -115,21 +112,32 @@
 
   const cleanSrid = (text) => String(text || '').replace(/^\s*[।॥]+\s*\d+(?:\.\d+)?\s*[।॥]*\s*/, '').trim();
 
+  const cleanGloss = (value) => String(value ?? '')
+    .replace(/“([^”]*)”/g, '$1')
+    .replace(/‘([^’]*)’/g, '$1')
+    .replace(/["“”]/g, '')
+    .replace(/[‘’]/g, "'")
+    .replace(/(^|[\s(\[{])'([^'\n]+)'(?=$|[\s.,!?;:)\]}])/g, '$1$2')
+    .replace(/\s*[—–]\s*/g, ' ')
+    .replace(/[;:]/g, '')
+    .replace(/[()[\]]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
   const renderPairs = (pairs, emptyText) => {
     if (!Array.isArray(pairs) || !pairs.length) {
       return '<p class="gita-dual-empty">' + esc(emptyText || 'No separate Śrīdhara word-for-word source is mapped for this verse.') + '</p>';
     }
-    return '<div class="gita-word-list">' + pairs.map((pair, index) => {
+    return '<div class="gita-word-list">' + pairs.map((pair) => {
       const term = Array.isArray(pair) ? String(pair[0] || '').trim() : '';
       const gloss = Array.isArray(pair) ? String(pair[1] || '').trim() : '';
       const termIsDevanagari = /[\u0900-\u097F]/u.test(term);
       const devanagari = termIsDevanagari ? term : iastToDeva(term);
       const iast = termIsDevanagari ? devaToIast(term) : term;
-      const punctuation = index === pairs.length - 1 ? '.' : ';';
       return '<div class="gita-word-row">' +
         '<span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> ' +
-        '<span class="gita-word-iast">(<em>' + esc(iast) + '</em>)</span> ' +
-        '<span class="gita-word-gloss">— ' + esc(capitalizeLeadingLatin(gloss)) + punctuation + '</span>' +
+        '<span class="gita-word-iast"><em>' + esc(iast) + '</em></span> ' +
+        '<span class="gita-word-gloss">' + esc(cleanGloss(capitalizeLeadingLatin(gloss))) + '</span>' +
       '</div>';
     }).join('') + '</div>';
   };
@@ -180,27 +188,31 @@
     transReveal.innerHTML = transReveal.dataset.gitaBaseHtml || transReveal.innerHTML;
     transReveal.dataset.gitaBaseHtml = transReveal.innerHTML;
 
-    const existingCommentary = englishNode ? englishNode.textContent || '' : '';
-    const capitalizedCommentary = capitalizeLeadingLatin(existingCommentary);
-    if (englishNode && capitalizedCommentary !== existingCommentary) englishNode.textContent = capitalizedCommentary;
-
+    const existingCommentary = englishNode ? (englishNode.innerText || englishNode.textContent || '') : '';
     const sridRaw = sridTextNode ? cleanSrid(sridTextNode.textContent) : '';
     const noCommentary = !sridRaw || /^no commentary\.?$/i.test(sridRaw);
     if (englishNode) {
+      const commentarySection = englishNode.closest('.gita-commentary');
       if (noCommentary) {
         englishNode.textContent = 'No commentary.';
         englishNode.classList.add('gita-no-source');
+        if (commentarySection) commentarySection.hidden = false;
       } else {
-        const literalTranslation = directCommentaryEnglish(String(verseData && verseData.translation || '').trim() || joinedGloss(sridPairs));
-        if (literalTranslation) {
-          englishNode.textContent = literalTranslation;
+        const reviewedTranslation = String(verseData && verseData.translation || '').trim();
+        const existingIsFallback = isFallback(existingCommentary);
+        if (reviewedTranslation) {
+          englishNode.textContent = directCommentaryEnglish(reviewedTranslation);
           englishNode.classList.remove('gita-no-source');
+          if (commentarySection) commentarySection.hidden = false;
+        } else if (existingIsFallback) {
+          if (commentarySection) commentarySection.hidden = true;
+        } else if (existingCommentary.trim()) {
+          englishNode.textContent = directCommentaryEnglish(existingCommentary);
+          englishNode.classList.remove('gita-no-source');
+          if (commentarySection) commentarySection.hidden = false;
         }
       }
-      const commentarySection = englishNode.closest('.gita-commentary');
-      if (commentarySection) commentarySection.hidden = false;
     }
-
     article.dataset.sridharaToolsAll = '1';
   };
 

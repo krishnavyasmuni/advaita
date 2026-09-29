@@ -23,7 +23,7 @@ Every Gītā chapter is a shell plus the same shared runtime:
   - Word-for-word
   - Transliteration
   - Śrīdhara Sanskrit
-- the English verse translation directly below the Sanskrit when the pinned record supplies it;
+- the English translation directly below the Sanskrit, with source ranges shown once and linked from each included verse card;
 - the Śrīdhara commentary section below the controls;
 - chapter navigation with All chapters and Previous/Next chapter pills;
 - no textual-basis/source explanation inserted into the reader UI.
@@ -47,8 +47,8 @@ The current cache-busted asset versions in the shells are:
 - site.js?v=20260918-gita-template-1
 - bhagavad-gita.css?v=20260918-gita-all-chapters-1
 - gita-bhavishya-exact.css?v=20260918-gita-all-chapters-1
-- bhagavad-gita.js?v=20260923-gita-all-verses-1
-- bhagavad-gita-sridhara-all.js?build=20260918-gita-all-chapters-1
+- bhagavad-gita.js?v=20260929-source-alignment-1
+- bhagavad-gita-sridhara-all.js?build=20260929-commentary-fix-1
 - gita-bhavishya-exact.js?v=20260918-ch1-nav-commentary-2
 
 Do not add the old chapter-specific bhagavad-gita-sridhara-tools.js to later chapters. Do not add the old inline gita-bhavishya-inline-v3.js. The all-chapter Śrīdhara overlay is the single overlay used by every chapter.
@@ -116,7 +116,7 @@ It must:
 - extract the Sanskrit for the requested verse from the API record;
 - keep the verse heading and card id at one verse only;
 - render the three controls in the same order on every card;
-- render the cleaned pinned Gambirananda translation for every verse card; remove translator/editor bracketed and parenthetical insertions from the visible English so it stays limited to the verse translation;
+- render the pinned Mukundananda translation with the matching Mukundananda word meanings; for a source range, render its complete translation on the first verse card and link every remaining card back to it;
 - render a mapped Vasuki section or the intentional text No commentary.;
 - leave the panel in the DOM even when a source field is empty.
 
@@ -148,7 +148,7 @@ The explicit grouped word-meaning slices currently used by pickWordMeaning are:
 
 The fourth line in the pinned 16.13–16.15 record must not be attached to verse 16.15. It is the next verse’s source material and must not be fabricated into the 16.15 card. If the upstream record is re-pinned, re-audit this boundary rather than guessing.
 
-The visible English now comes from the pinned per-verse Gambirananda records, with source-editorial bracketed and parenthetical insertions removed from the reader display.
+The visible English and word meanings come from the same pinned Gītā data release. English verse translations come from Mukundananda’s author records, and word meanings come from the release’s common records. Its 49 grouped translation records cover 110 verses and match the grouped word-meaning ranges exactly. This verifies complete source coverage and alignment; it is not an independent Sanskrit-level retranslation of all 701 verses. Each grouped translation appears once on its first verse card, and the remaining verse cards link back to it. No later verse silently switches to another translator.
 
 ## 7. Śrīdhara panels
 
@@ -259,7 +259,7 @@ The Gītā rollout is complete only when:
 - all 701 cards render one verse at a time;
 - every card has Word-for-word, Transliteration, and Śrīdhara Sanskrit controls;
 - no grouped verse heading or fabricated per-verse translation appears;
-- every card has an English translation: exact Mukundananda where available, otherwise the pinned per-verse fallback;
+- every single-verse card has its exact Mukundananda translation, and each card in a grouped source range links to the complete Mukundananda translation for that range;
 - traditional names agree across the renderer, contents page, shells, and guide;
 - the eight grouped word-meaning exceptions remain explicit;
 - Śrīdhara styling is readable and distinct from the Sanskrit verse;
@@ -284,7 +284,7 @@ The source-backed no-commentary verses are BG 1.11, 1.47, 12.6, and 13.35. All o
 
 - Do not merge separate verse cards.
 - Do not make a grouped source look like a fabricated new source record.
-- Do not duplicate a grouped Mukundananda translation on every verse; use the pinned per-verse fallback for later cards.
+- Do not duplicate a grouped Mukundananda translation or substitute another translator on later cards; link later cards to the source range translation.
 - Do not remove the Word-for-word control from a verse because its source field is blank.
 - Do not replace exact Sanskrit/API records with generated Sanskrit.
 - Do not use a different commentary source without a new audit.

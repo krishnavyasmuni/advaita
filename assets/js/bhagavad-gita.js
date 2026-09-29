@@ -187,7 +187,7 @@
       "15": `Although the Lord is the governor, He does not take anyone’s sin or merit. He is all-pervading and fulfilled, with no personal desire for which He would make someone act. His seeming favour toward devotees and punishment of others are both forms of grace according to their karma. Ignorance covers the truth that the Lord is equal everywhere, and beings are deluded into imagining partiality.`,
       "16": `The wise do not suffer that delusion. The knowledge of the Self and the Lord destroys their ignorance and reveals the complete form of the Supreme, just as the sun, removing darkness, illumines all objects.`,
       "17": `Those whose intellect is fixed in Him, whose mind is in Him, whose steadfastness is in Him, and whose highest refuge is Him alone have their impurity removed by knowledge gained through His grace. They attain non-return, liberation.`,
-      "18": `The wise see the same Brahman in a learned and humble brāhmaṇa, in a cow, an elephant, a dog, and an outcaste. Social action and species differ, but the Self seen by knowledge is one and undivided.`,
+      "18": `The wise see the same Brahman in a learned and humble brāhmaṇa, in a cow, an elephant, a dog, and a person regarded as an outcast. Social action and species differ, but the Self seen by knowledge is one and undivided.`,
       "19": `Equality of vision does not make the wise foolish or violate ordinary conduct. While still living, saṃsāra is conquered by those whose mind rests in equality, because Brahman is equal, stainless, and without defect; therefore they are established in Brahman. The fault in treating unlike persons alike belongs only to one who has not yet attained Brahman.`,
       "20": `Having become a knower of Brahman and being established in Brahman, one does not exult on obtaining what is pleasant or become distressed on obtaining what is unpleasant. His intellect is steady because delusion has ceased.`,
       "21": `When the mind is not attached to the external contacts reached by the senses, it finds the inward, sattvic happiness of inner stillness. Having gained that joy and become united with Brahman through samādhi, the person whose Self is Brahman enjoys imperishable happiness.`,
@@ -703,13 +703,13 @@
     1: {
       1: `Here indeed the supremely compassionate Lord, the son of Devakī—whose descent is for the welfare of all the worlds and whose feet are worshipped by all—rescued Arjuna from the ocean of grief and delusion by the raft of instruction in the secret of dharma and knowledge. Arjuna’s discrimination had been overthrown by grief and delusion arising from ignorance of reality, and he had become intent on abandoning his own dharma and taking up another’s dharma. Kṛṣṇa Dvaipāyana set down that very meaning taught by the Lord in seven hundred verses. In doing so, he wrote mostly the verses that issued from Śrī Kṛṣṇa’s own mouth, and composed some himself in order to connect them. As stated in the Gītā Māhātmya: “The Gītā should be well studied; what need is there of extensive scriptures? It issued directly from the lotus-mouth of Padmanābha.” Then, from “On the field of dharma” up to “he spoke these words in sorrow,” the narrative is set out in order to introduce the dialogue of Śrī Kṛṣṇa and Arjuna. “On the field of dharma”: O Sañjaya, when my sons and the sons of Pāṇḍu, desiring to fight, had assembled together on Kurukṣetra, the field of dharma, what did they do?`,
       2: `On “having seen”: Having seen the army of the Pāṇḍavas arranged in battle formation, King Duryodhana went to Droṇa, his teacher, and spoke the words that follow.`,
-      3: `He states those very words in the nine verses beginning “Behold this.” O teacher, behold this extensive army of the Pāṇḍavas, deployed—set in battle formation—by Dhṛṣṭadyumna, the son of Drupada.`,
+      3: `The next nine verses give Duryodhana’s speech. O teacher, behold this extensive army of the Pāṇḍavas, deployed in battle formation by Dhṛṣṭadyumna, the son of Drupada.`,
       4: `On “here are heroes”: In this army are great bowmen—those whose bows discharge arrows. Bhīma and Arjuna are already famous here as warriors; there are heroes equal to them, endowed with valor and the warrior’s dharma. He names them: Yuyudhāna is Sātyaki.`,
       5: `Further, on “Dhṛṣṭaketu”: Cekitāna is the name of a king. Śaibya is a bull among men, that is, the best of men.`,
       6: `On “Yudhāmanyu”: Vikrānta Yudhāmanyu is one warrior. Saubhadra is Abhimanyu. The Draupadeyas are the five sons born to Draupadī from Yudhiṣṭhira and the others, beginning with Prativindhya. The definitions of mahāratha and the rest are: “One who can fight ten thousand bowmen and is skilled in weapons and their science is remembered as a mahāratha. One who can fight an unlimited number is called an atiratha. One who fights a single warrior is a rathin, and one inferior to that is regarded as an ardharathin.”`,
       7: `On “ours”: Nibodha means “understand.” Nāyaka means “leader.” Saṃjñārtham means “for complete understanding.”`,
-      8: `He names them in the two verses beginning “You yourself.” “You” means Droṇa. Samitiṃjaya means one who conquers in battle. Saumadatti, the son of Somadatta, is Bhūriśravā.`,
-      9: `On “and others”: “For my sake” means resolved to give up even their lives for my purpose. They possess various—many—weapons, instruments for striking. “Skilled in war” means expert.`,
+      8: `The next two verses name the warriors. Bhavān means you, Droṇa. Samitiṃjaya means victorious in battle. Saumadatti, the son of Somadatta, is Bhūriśravā.`,
+      9: `Others means the additional warriors, resolved to give up their lives for Duryodhana’s purpose. Nānā means many. Nānā-śastra-praharaṇāḥ means equipped with many weapons for striking. Yuddha-viśāradāḥ means skilled in battle.`,
       10: `Then what follows? He says, “insufficient.” Although our force is joined by heroes of that kind and is protected by Bhīṣma, it appears insufficient—unable to fight against them. But this force of the Pāṇḍavas, protected by Bhīma, appears sufficient and capable. Because Bhīṣma favors both sides, our force is not capable against the Pāṇḍava army; because Bhīma favors only one side, the Pāṇḍavas’ force is capable.`,
       11: `Therefore he says how you should act, in “at the approaches.” Remaining at your own assigned places of battle at the approaches—the entrances into the formation—without abandoning them, all of you should protect Bhīṣma on every side, so that while fighting others he is not struck from behind by anyone. The sense is: our very life depends on Bhīṣma’s strength.`,
       12: `Having heard Duryodhana’s words filled with such respect, what did Bhīṣma do? He says in “of him.” Producing joy in that king, the grandsire Bhīṣma roared loudly like a lion and blew his conch.`,
@@ -739,11 +739,11 @@
       36: `One may object: It is remembered, “The incendiary, the poisoner, one who attacks with a weapon, the robber of wealth, the seizer of land, and the seizer of another’s wife—these six are aggressors.” Thus these men are aggressors on all six grounds, beginning with arson, and killing aggressors is proper. For it is said, “One should kill an aggressor who approaches, without deliberation; no fault falls upon the killer for killing an aggressor.” To this he replies in the verse and a half beginning “sin.” The teaching of Arthaśāstra beginning “an aggressor who approaches” is weaker than Dharmaśāstra. As Yājñavalkya says, “When two Smṛtis conflict, reasoning is stronger in legal procedure; but Dharmaśāstra is held to be stronger than Arthaśāstra.” Therefore, even though these men are aggressors, killing these teachers and other venerable persons would indeed bring us sin, because such killing is unjust and contrary to dharma. Nor would there be happiness here; therefore he says, “one’s own people indeed.”`,
       37: `One may object: Since the fault of killing relatives is the same for them as for you, just as they enter battle accepting the fault of killing relatives, you too should do so. Why this despondency? He answers in the two verses beginning “although.” Although Duryodhana and the others, whose minds are ruined and whose discrimination is corrupted by greed for the kingdom, do not see the fault, how can we, who clearly see the fault, fail to understand that we should turn away from this sin? Our resolve should be solely to withdraw.`,
       38: `Although Duryodhana and the others, their discrimination ruined by greed for the kingdom, do not see the fault, why should we—who do see it—not understand that we must withdraw from this sin? Our resolve should be solely to withdraw.`,
-      39: `He now points out that very fault: the eternal family duties, handed down through the generations, are destroyed; when adharma overwhelms the entire surviving family, it spreads over it.`,
+      39: `The eternal family duties handed down through the generations are destroyed. When adharma overwhelms the whole surviving family, it spreads through it.`,
       40: `Then, because adharma overwhelms the family, and so forth.`,
       41: `In this condition he says, “there will be social mixture and the like”: the fathers of these family-killers fall, because the rites of offering rice-balls and water have disappeared for them.`,
-      42: `He concludes the fault stated above: these faults destroy the duties of caste and family; by “and,” the duties of the āśrama stages and similar duties are included.`,
-      43: `The phrase “whose family duties are destroyed” also indicates destroyed jāti duties. We have heard from such statements that people who persist in sin without performing expiation, without repentance, go to terrible hells.`,
+      42: `These faults destroy community duties, varṇa duties, and family duties. The word and also includes the duties of the āśrama stages and related duties.`,
+      43: `The phrase about destroyed family duties also indicates destroyed community duties. People who persist in sin without expiation or repentance go to terrible hells.`,
       44: `Because they are resolved to kill their relatives, he says “alas” and the rest: we have resolved to commit this great sin, namely to kill our own people; alas, what great suffering.`,
       45: `Being afflicted and wishing for death, he says, “If they should kill me.” If they kill me while I sit quietly and unresisting, that killing would be most beneficial for me, since it would prevent sin from arising.`,
       46: `Then, expecting what happened, Sañjaya says, “having spoken thus”: in the battle, on the seat above the chariot, he sat down; his mind was shaken and trembling with grief.`,
@@ -849,12 +849,24 @@
     let text = String(value || '')
       .replace(/\r\n?/g, '\n')
       .replace(/[ \t]+/g, ' ')
-      .replace(/[ \t]*([,;:!?])/g, '$1')
-      .replace(/([,;:!?])(?=[A-Za-z])/g, '$1 ')
+      .replace(/“([^”]*)”/g, '$1')
+      .replace(/‘([^’]*)’/g, '$1')
+      .replace(/["“”]/g, '')
+      .replace(/[‘’]/g, "'")
+      .replace(/(^|[\s(\[{])'([^'\n]+)'(?=$|[\s.,!?;:)\]}])/g, '$1$2')
+      .replace(/(\d)\s*[–—]\s*(\d)/g, '$1-$2')
+      .replace(/\s*[—–]\s*/g, ', ')
+      .replace(/\s*;\s*/g, '. ')
+      .replace(/\s*:\s*/g, '. ')
+      .replace(/[()[\]]/g, '')
+      .replace(/[ \t]*([,.!?])/g, '$1')
+      .replace(/([,.!?])(?=[A-Za-z])/g, '$1 ')
+      .replace(/\.{2,}/g, '.')
       .replace(/\n{3,}/g, '\n\n')
+      .replace(/[ \t]{2,}/g, ' ')
       .trim();
-    text = text.replace(/(^|[.!?]\s+|\n+)([““‘"'(\[]*\s*)([a-z])/gu, (_, boundary, prefix, first) => boundary + prefix + first.toUpperCase());
-    if (text && !/[.!?…]["'”’)\]]*$/u.test(text)) text += '.';
+    text = text.replace(/(^|[.!?]\s+|\n+)([a-z])/gu, (_, boundary, first) => boundary + first.toUpperCase());
+    if (text && !/[.!?]$/u.test(text)) text += '.';
     return text;
   };
 
@@ -940,17 +952,30 @@
     })
     .filter((pair) => pair[0]);
 
+  const cleanVisibleGloss = (value) => String(value || '')
+    .replace(/“([^”]*)”/g, '$1')
+    .replace(/‘([^’]*)’/g, '$1')
+    .replace(/["“”]/g, '')
+    .replace(/[‘’]/g, "'")
+    .replace(/(^|[\s(\[{])'([^'\n]+)'(?=$|[\s.,!?;:)\]}])/g, '$1$2')
+    .replace(/\s*[—–]\s*/g, ' ')
+    .replace(/[;:]/g, '')
+    .replace(/[()[\]]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
   const renderWordMeaningRows = (value, emptyText) => {
     const pairs = parseWordMeaning(value);
     if (!pairs.length) return '<p class="gita-dual-empty">' + esc(emptyText || 'Word-for-word meaning unavailable in the pinned source record.') + '</p>';
-    return '<div class="gita-word-list">' + pairs.map((pair, index) => {
+    return '<div class="gita-word-list">' + pairs.map((pair) => {
       const term = pair[0];
       const devanagari = /[\u0900-\u097F]/u.test(term) ? term : iastToDevanagari(term);
       const iast = /[\u0900-\u097F]/u.test(term) ? devanagariToIast(term) : term;
-      const punctuation = index === pairs.length - 1 ? '.' : ';';
-      return '<div class="gita-word-row"><span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> <span class="gita-word-iast">(<em>' + esc(iast) + '</em>)</span> <span class="gita-word-gloss">— ' + esc(capitalizeEnglishStart(pair[1])) + punctuation + '</span></div>';
+      const gloss = capitalizeEnglishStart(cleanVisibleGloss(pair[1]));
+      return '<div class="gita-word-row"><span class="gita-word-dev" lang="sa-Deva">' + esc(devanagari) + '</span> <span class="gita-word-iast"><em>' + esc(iast) + '</em></span> <span class="gita-word-gloss">' + esc(gloss) + '</span></div>';
     }).join('') + '</div>';
   };
+
   const VEDICSCRIPTURES_GITA_COMMIT = '43dfc8db815d01e15a347ea294b089334cf2aa17';
   const VEDICSCRIPTURES_GITA_BASE = 'https://raw.githubusercontent.com/vedicscriptures/bhagavad-gita/' + VEDICSCRIPTURES_GITA_COMMIT + '/slok/';
   const VEDICSCRIPTURES_COUNTS = [47,72,43,42,29,47,30,28,34,42,55,20,35,27,20,24,28,78];
@@ -1045,7 +1070,7 @@
     const rootLines = rootText.split('\n').map((x) => x.trim()).filter(Boolean).join('<br>');
     const englishSource = sourceMode === 'legacy'
       ? (d.gambir && d.gambir.et ? d.gambir.et : 'English translation unavailable in the source record.')
-      : (d.apiEnglish || 'English translation unavailable in the pinned source records.');
+      : (d.mukEnglish || d.apiEnglish || 'English translation unavailable in the pinned source records.');
     const english = lines(normalizeEnglishSentences(englishSource));
     const key = chapter + '.' + n;
     const wordMeaning = sourceMode === 'legacy'
@@ -1068,7 +1093,17 @@
         : 'English rendering not supplied for this source passage.')))
       : '';
 
-    const translationPanel = '<p class="gita-translation">' + english + '</p>';
+    const translationRange = d.mukTranslationRange || {start: n, end: n};
+    const hasGroupedTranslation = sourceMode === 'mukundananda' &&
+      Number(translationRange.start) !== Number(translationRange.end);
+    const groupedTranslationContinuation = hasGroupedTranslation && n !== Number(translationRange.start);
+    const rangeLabel = 'BG ' + chapter + '.' + translationRange.start + '–' + chapter + '.' + translationRange.end;
+    const translationPanel = groupedTranslationContinuation
+      ? '<p class="gita-translation">The translation for ' + rangeLabel + ' is shown with verse ' +
+        translationRange.start + '. <a href="#gita-' + chapter + '-' + translationRange.start + '">View it there</a>.</p>'
+      : '<p class="gita-translation">' + (hasGroupedTranslation
+        ? '<span class="gita-translation-range">' + rangeLabel + '</span><br>'
+        : '') + english + '</p>';
     const wordMeaningPanel = '<details class="gita-details gita-word-for-word"><summary>Word-for-word</summary><div class="gita-reveal">' +
       renderWordMeaningRows(wordMeaning, 'No word-for-word meaning is supplied separately in the pinned source record.') +
       '</div></details>';
@@ -1087,7 +1122,7 @@
         (sridhara.start !== sridhara.end ? ' (' + chapter + '.' + sridhara.start + '–' + sridhara.end + ')' : '') +
         '</summary><div class="gita-reveal"><p lang="sa">' + commentary + '</p></div></details>' : '') +
       '</div>' +
-      (sridhara ? '<section class="gita-commentary"><h3>Śrīdhara’s Commentary' +
+      (sridhara ? '<section class="gita-commentary"><h3>English rendering of Śrīdhara’s commentary' +
         (sridhara.start !== sridhara.end ? ' (' + chapter + '.' + sridhara.start + '–' + sridhara.end + ')' : '') +
         '.</h3><p>' + translatedCommentary + '</p></section>' : '') +
       '</article>';
@@ -1158,7 +1193,7 @@
         ? Array.from({length: sridharaCommentary.end - sridharaCommentary.start + 1}, (_, offset) => {
             const value = (sridharaEnglish[chapter] || {})[String(sridharaCommentary.start + offset)] || '';
             return value === 'No commentary.' ? '' : value;
-          }).filter(Boolean).join('\n\n')
+          }).filter((value, index, values) => Boolean(value) && (index === 0 || value !== values[index - 1])).join('\n\n')
         : '';
       return {
         verse: n,
@@ -1173,15 +1208,11 @@
           ? (override.wordMeaning || pickWordMeaning(c, n))
           : pickWordMeaning(c, n),
         wordMeaningShared: null,
-        // Mukundananda groups several consecutive verses in one record.
-        // Keep that exact source text on the first verse, then use the
-        // pinned per-verse Gambirananda record for later cards so every
-        // visible verse has an English translation without duplicating a
-        // multi-verse paragraph or silently leaving the card blank.
+        // The translation and word meanings come from the same pinned Gītā data release.
+        // Keep range translations together on their first card; continuation cards link back.
         apiEnglish: apiTranslation,
-        mukEnglish: mukRange.start === n
-          ? (m.translation || apiTranslation)
-          : apiTranslation,
+        mukEnglish: m.translation || '',
+        mukTranslationRange: mukRange,
         srid: sridharaCommentary,
         translatedCommentary
       };
