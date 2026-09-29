@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "vishvasa-source-cleaned",
+  "status": "vishvasa-source-rebuilt",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
   "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
-  "editorial_note": "Śrīdhara Svāmī only. Non-Śrīdhara appended commentator sections are removed from reader data. Sanskrit remains keyed to the pinned vishvAsa/purANam_vaiShNavam source; fabricated placeholder English is not displayed.",
+  "editorial_note": "Śrīdhara Svāmī only. Sanskrit is keyed to the pinned VishvAsa/Vasuki source; phrase-level glosses and literal English are source-bound. Explicit source gaps remain marked rather than filled.",
   "scope": "ŚB 3.30.1–3.30.31; pinned merged source markers and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -15,13 +15,38 @@
       "end": 1,
       "source_marker": "३.३०.१",
       "sanskrit": "त्रिंशे तु कायकान्तादि- लालनाकुल-चेतसाम् ।\n\nकामिनां तामसी पापाद् अधोगतिर् उदीर्यते ॥\n\nकाल-प्रभाव-वर्णन-पूर्वकं वैराग्याय विचित्र-कर्म-कृतां संसृतिम् अध्याय-त्रयेण प्रपञ्चयति । तस्यैतस्य बलिनः कालस्य । बलिनेति वा पाठः । काल्यमानो विचाल्यमानोऽपि । वायोर् विक्रमं यथा मेघ-पङ्क्तिर् न वेद ॥१॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "त्रिंशे",
+          "in the thirtieth chapter"
+        ],
+        [
+          "कामिनां तामसी अधोगतिः",
+          "the dark downward destination of sensualists"
+        ],
+        [
+          "वैराग्याय",
+          "for producing detachment"
+        ],
+        [
+          "कालस्य बलिनः",
+          "of mighty Time"
+        ],
+        [
+          "काल्यमानः विचाल्यमानः",
+          "being driven and shaken"
+        ],
+        [
+          "वायोर् विक्रमं यथा मेघ-पङ्क्तिः न वेद",
+          "as a cloud-bank does not know the wind’s force"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "triṃśe tu kāyakāntādi- lālanākula-cetasām |\n\nkāmināṃ tāmasī pāpād adhogatir udīryate ||\n\nkāla-prabhāva-varṇana-pūrvakaṃ vairāgyāya vicitra-karma-kṛtāṃ saṃsṛtim adhyāya-trayeṇa prapañcayati | tasyaitasya balinaḥ kālasya | balineti vā pāṭhaḥ | kālyamāno vicālyamāno’pi | vāyor vikramaṃ yathā megha-paṅktir na veda ||1||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "In the thirtieth chapter the dark downward destination produced by sin is described for sensualists whose minds are absorbed in pampering the body and spouse. After describing the power of Time, three chapters elaborate the transmigration of people performing diverse acts in order to produce detachment. Even while being driven and shaken by mighty Time, a person does not perceive its force, just as a bank of clouds does not perceive the force of the wind."
     },
     {
       "canto": 3,
@@ -115,13 +140,22 @@
       "end": 7,
       "source_marker": "३.३०.७",
       "sanskrit": "उद्वहनाधिना पोषण-चिन्तया ॥७॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "उद्वहनादिना",
+          "beginning with carrying/supporting"
+        ],
+        [
+          "पोषण-चिन्तया",
+          "through anxiety over maintenance"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "udvahanādhinā poṣaṇa-cintayā ||7||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Because of anxiety over maintenance, beginning with carrying and supporting the household."
     },
     {
       "canto": 3,
@@ -130,13 +164,42 @@
       "end": 9,
       "source_marker": "३.३०.८-९",
       "sanskrit": "दुराशयत्वम् आह---आक्षिप्त आत्मा इन्द्रियाणि च यस्य । कया ? असतीनां पुंश्चलीनाम् अपि रहसि रचितया सम्भोगादि-रूपया । मधुर-भाषिणां शिशूनाम् आलापैश् च । सुखवन् मन्यत इत्य् उत्तरेणान्वयः ॥८॥ कूटाः वित्त-शाठ्यादि-बहुला धर्मा येषु दुःख-प्रधानेषु ॥९॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "आक्षिप्त आत्मा इन्द्रियाणि च",
+          "self and senses captivated"
+        ],
+        [
+          "असतीनां पुंश्चलीनाम्",
+          "of unchaste women"
+        ],
+        [
+          "रहसि रचितया सम्भोगादि-रूपया",
+          "by secret arrangements for sexual enjoyment"
+        ],
+        [
+          "मधुर-भाषिणां शिशूनाम् आलापैः",
+          "by the chatter of sweet-speaking children"
+        ],
+        [
+          "सुखवन् मन्यते",
+          "he imagines himself happy"
+        ],
+        [
+          "कूटाः धर्माः",
+          "deceptive occupations"
+        ],
+        [
+          "दुःख-प्रधानेषु",
+          "dominated by suffering"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "durāśayatvam āha---ākṣipta ātmā indriyāṇi ca yasya | kayā ? asatīnāṃ puṃścalīnām api rahasi racitayā sambhogādi-rūpayā | madhura-bhāṣiṇāṃ śiśūnām ālāpaiś ca | sukhavan manyata ity uttareṇānvayaḥ ||8|| kūṭāḥ vitta-śāṭhyādi-bahulā dharmā yeṣu duḥkha-pradhāneṣu ||9||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "He describes the corrupt intention: one whose self and senses are captivated by secret arrangements for sexual enjoyment even with unchaste women, and by the chatter of sweet-speaking children, imagines himself happy. Their occupations are deceptive, full of fraud concerning wealth and the like, and dominated by suffering."
     },
     {
       "canto": 3,
@@ -213,13 +276,34 @@
       "end": 15,
       "source_marker": "३.३०.१४-१५",
       "sanskrit": "भ्रियमाणः पुष्यमाणः ॥१४॥ अवमत्यावज्ञयोपन्यस्तं समीपे प्रक्षिप्तम् । गृह-पालः श्वा । आहरन् भुञ्जानः । आमयावी रोगी ॥१५॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "भ्रियमाणः",
+          "being maintained or nourished"
+        ],
+        [
+          "अवमत्य उपन्यस्तम्",
+          "placed down with contempt"
+        ],
+        [
+          "गृह-पालः श्वा",
+          "the house-guardian, a dog"
+        ],
+        [
+          "आहरन्",
+          "eating"
+        ],
+        [
+          "आमयावी",
+          "diseased"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "bhriyamāṇaḥ puṣyamāṇaḥ ||14|| avamatyāvajñayopanyastaṃ samīpe prakṣiptam | gṛha-pālaḥ śvā | āharan bhuñjānaḥ | āmayāvī rogī ||15||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Bhriyamāṇa means being maintained or nourished. “Thrown near him with contempt” means food placed beside him disdainfully. The house-guardian is a dog; āharan means eating; āmayāvī means diseased."
     },
     {
       "canto": 3,
@@ -296,13 +380,22 @@
       "end": 20,
       "source_marker": "३.३०.२०",
       "sanskrit": "आवृत्य निरुध्य ॥२०॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "आवृत्य",
+          "having enclosed"
+        ],
+        [
+          "निरुध्य",
+          "having restrained"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "āvṛtya nirudhya ||20||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Āvṛtya means enclosing or restraining."
     },
     {
       "canto": 3,
@@ -311,13 +404,38 @@
       "end": 22,
       "source_marker": "३.३०.२१-२२",
       "sanskrit": "तयोस् तर्जनैर् निर्भिन्नं हृदयं यस्य । आर्तः संश् चलतीति द्वितीयेनान्वयः ॥२१॥ क्षुत्-तृड्भ्यां परीतो व्याप्तः । तप्ता वालुका यस्मिन् । निर्गत आश्रमो विश्राम-स्थानम् उदकं च यस्मिन् ॥२२॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "तयोस् तर्जनैः",
+          "by their threats"
+        ],
+        [
+          "निर्भिन्नं हृदयम्",
+          "a pierced heart"
+        ],
+        [
+          "आर्तः",
+          "distressed"
+        ],
+        [
+          "क्षुत्-तृड्भ्यां परीतः",
+          "overwhelmed by hunger and thirst"
+        ],
+        [
+          "तप्ता वालुका",
+          "burning sand"
+        ],
+        [
+          "निर्गत आश्रम उदकम्",
+          "devoid of rest-place and water"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "tayos tarjanair nirbhinnaṃ hṛdayaṃ yasya | ārtaḥ saṃś calatīti dvitīyenānvayaḥ ||21|| kṣut-tṛḍbhyāṃ parīto vyāptaḥ | taptā vālukā yasmin | nirgata āśramo viśrāma-sthānam udakaṃ ca yasmin ||22||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "His heart is pierced by their threats, and in distress he moves on. He is overwhelmed by hunger and thirst; the road has burning sand and is devoid of resting places and water."
     },
     {
       "canto": 3,
@@ -343,13 +461,30 @@
       "end": 24,
       "source_marker": "३.३०.२४",
       "sanskrit": "तत्रैव विशेषम् आह---अध्वनः सम्बन्धिनां योजनानां नवतिं नव च सहस्राणि पापाधिक्ये द्वाभ्यां वा नीतः सन् ॥२४॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "अध्वनः योजनानाम्",
+          "yojanas of the road"
+        ],
+        [
+          "नवतिं नव च सहस्राणि",
+          "ninety-nine thousand"
+        ],
+        [
+          "पापाधिक्ये",
+          "according to greater sin"
+        ],
+        [
+          "द्वाभ्यां नीतः",
+          "led by the two"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "tatraiva viśeṣam āha---adhvanaḥ sambandhināṃ yojanānāṃ navatiṃ nava ca sahasrāṇi pāpādhikye dvābhyāṃ vā nītaḥ san ||24||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "He gives a further detail: according to the greater degree of sin, he is led over ninety-nine thousand yojanas, or over that distance by the two messengers."
     },
     {
       "canto": 3,
@@ -375,13 +510,22 @@
       "end": 26,
       "source_marker": "३.३०.२६",
       "sanskrit": "आत्मनो वैशसं पीडाम् ॥२६॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "आत्मनः वैशसम्",
+          "torment of oneself"
+        ],
+        [
+          "पीडाम्",
+          "affliction"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "ātmano vaiśasaṃ pīḍām ||26||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Ātmanaḥ vaiśasam means torment or affliction of oneself."
     },
     {
       "canto": 3,
@@ -390,13 +534,22 @@
       "end": 27,
       "source_marker": "३.३०.२७",
       "sanskrit": "भिदापनं भेद-प्रापणम् ॥२७॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "भिदापनम्",
+          "causing splitting"
+        ],
+        [
+          "भेद-प्रापणम्",
+          "bringing about division"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "bhidāpanaṃ bheda-prāpaṇam ||27||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Bhidāpanam means causing to be split or broken apart."
     },
     {
       "canto": 3,
@@ -473,13 +626,34 @@
       "end": 32,
       "source_marker": "३.३०.३२",
       "sanskrit": "ननु पापम् अपि विहाय गच्छतु तत्राह---दैवेनेति । तस्य कुटुम्ब-पोषणस्य शमलं पापं दैवनेनेश्वरेण प्रापितं भुङ्क्ते ॥३२॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "पापम् अपि विहाय",
+          "leaving even the sin behind"
+        ],
+        [
+          "दैवेन",
+          "by destiny"
+        ],
+        [
+          "कुटुम्ब-पोषणस्य शमलम्",
+          "the sin of maintaining the family"
+        ],
+        [
+          "ईश्वरेण प्रापितम्",
+          "assigned by the Lord"
+        ],
+        [
+          "भुङ्क्ते",
+          "he experiences"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "nanu pāpam api vihāya gacchatu tatrāha---daiveneti | tasya kuṭumba-poṣaṇasya śamalaṃ pāpaṃ daivaneneśvareṇa prāpitaṃ bhuṅkte ||32||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "One might ask: why does he not leave the sin behind as well? The answer is “by destiny”: he experiences the impurity, the sin of maintaining his family, assigned to him by destiny—that is, by the Lord."
     },
     {
       "canto": 3,
