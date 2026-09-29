@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "status": "vishvasa-source-cleaned",
+  "status": "vishvasa-source-rebuilt",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
   "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
-  "editorial_note": "Śrīdhara Svāmī only. Non-Śrīdhara appended commentator sections are removed from reader data. Sanskrit remains keyed to the pinned vishvAsa/purANam_vaiShNavam source; fabricated placeholder English is not displayed.",
+  "editorial_note": "Śrīdhara Svāmī only. Sanskrit is keyed to the pinned VishvAsa/Vasuki source; phrase-level glosses and literal English are source-bound. Explicit source gaps remain marked rather than filled.",
   "scope": "ŚB 3.31.1–3.31.42; pinned merged source markers and explicit no-commentary markers preserved.",
   "entries": [
     {
@@ -32,13 +32,38 @@
       "end": 2,
       "source_marker": "३.३१.२",
       "sanskrit": "कललं शुक्र-शोणित-मिश्रितं भवति । बुद्बुदं वर्तुलाकारम् । कर्कन्धूर् बदरी-फलं तदाकारं कठिनम् । पेशी मांस-पिण्डाकारम् । अण्डं वा योन्य्-अन्तरे ।",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "कललम्",
+          "mixture of semen and blood"
+        ],
+        [
+          "बुद्बुदम्",
+          "round, bubble-like"
+        ],
+        [
+          "कर्कन्धुः",
+          "hard and jujube-shaped"
+        ],
+        [
+          "पेशी",
+          "a lump of flesh"
+        ],
+        [
+          "अण्डं वा",
+          "or an egg"
+        ],
+        [
+          "योन्य्-अन्तरे",
+          "in another kind of womb"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "kalalaṃ śukra-śoṇita-miśritaṃ bhavati | budbudaṃ vartulākāram | karkandhūr badarī-phalaṃ tadākāraṃ kaṭhinam | peśī māṃsa-piṇḍākāram | aṇḍaṃ vā yony-antare |"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Kalala is the mixture of semen and blood; budbuda is a round, bubble-like stage; karkandhu means hard and shaped like a jujube fruit; peśī is a lump of flesh; alternatively, in another womb it becomes an egg."
     },
     {
       "canto": 3,
@@ -64,13 +89,26 @@
       "end": 4,
       "source_marker": "३.३१.४",
       "sanskrit": "जरायुणा गर्भ-वेष्टनेन वीतः प्रावृतः ॥४॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "जरायुणा",
+          "by the placenta/fetal membrane"
+        ],
+        [
+          "गर्भ-वेष्टनेन",
+          "by the covering of the embryo"
+        ],
+        [
+          "वीतः प्रावृतः",
+          "covered, enveloped"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "jarāyuṇā garbha-veṣṭanena vītaḥ prāvṛtaḥ ||4||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "He is covered—enveloped—by the placenta or fetal membrane."
     },
     {
       "canto": 3,
@@ -130,13 +168,34 @@
       "end": 9,
       "source_marker": "३.३१.९",
       "sanskrit": "दैवात् पूर्व-अर्म-वशात् । लब्धा स्मृतिर् येन सः । दीर्घं दुरन्तम् अनुच्छ्वासं यथा भवति तथा तत्र स्थितः सन् ॥९॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "दैवात्",
+          "by destiny"
+        ],
+        [
+          "पूर्व-कर्म-वशात्",
+          "through previous karma"
+        ],
+        [
+          "लब्धा स्मृतिः",
+          "memory regained"
+        ],
+        [
+          "दीर्घं दुरन्तम्",
+          "for a long, unbearable time"
+        ],
+        [
+          "अनुच्छ्वासम्",
+          "scarcely breathing"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "daivāt pūrva-arma-vaśāt | labdhā smṛtir yena saḥ | dīrghaṃ durantam anucchvāsaṃ yathā bhavati tathā tatra sthitaḥ san ||9||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "“By destiny” means through the force of previous karma. He has regained memory and remains there for a long time in an unbearable condition, scarcely able to breathe."
     },
     {
       "canto": 3,
@@ -145,13 +204,30 @@
       "end": 10,
       "source_marker": "३.३१.१०",
       "sanskrit": "सूति-हेतुभिर् वातैर् वेपितः । सोदरः समानोदर-जन्मा विष्ठा-भूः कृमिर् इवेति ॥१०॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "सूति-हेतुभिर् वातैः",
+          "by winds causing birth"
+        ],
+        [
+          "वेपितः",
+          "shaken"
+        ],
+        [
+          "सोदरः",
+          "born in the same abdomen"
+        ],
+        [
+          "विष्ठा-भूः कृमिर् इव",
+          "like a worm born from excrement"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "sūti-hetubhir vātair vepitaḥ | sodaraḥ samānodara-janmā viṣṭhā-bhūḥ kṛmir iveti ||10||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Shaken by the winds that cause birth, he is like a worm born from excrement in the same abdomen."
     },
     {
       "canto": 3,
@@ -160,13 +236,34 @@
       "end": 11,
       "source_marker": "३.३१.११",
       "sanskrit": "नाथमानो याचमान उपतप्यमान इति वा ऋषिर् देहात्म-दर्शी । भीतः पुनर् गर्भ-वासात् । सप्त-वध्रयो बन्धन-भूता धातवो यस्य सः । विक्लवया व्याकुलया ॥११॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "नाथमानः",
+          "imploring or tormented"
+        ],
+        [
+          "ऋषिर् देहात्म-दर्शी",
+          "the embodied seer identifying with the body"
+        ],
+        [
+          "भीतः पुनर् गर्भ-वासात्",
+          "afraid of another stay in the womb"
+        ],
+        [
+          "सप्त-वध्रयः",
+          "seven binding bodily constituents"
+        ],
+        [
+          "विक्लवया",
+          "agitated"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "nāthamāno yācamāna upatapyamāna iti vā ṛṣir dehātma-darśī | bhītaḥ punar garbha-vāsāt | sapta-vadhrayo bandhana-bhūtā dhātavo yasya saḥ | viklavayā vyākulayā ||11||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Nāthamāna means imploring, or being tormented. The sage here is the embodied self who identifies with the body. He fears another stay in the womb; the seven bodily constituents are his bonds, and his mind is agitated."
     },
     {
       "canto": 3,
@@ -175,13 +272,38 @@
       "end": 12,
       "source_marker": "३.३१.१२",
       "sanskrit": "उपसन्नं जगद् रक्षितुं स्वेच्छया गृहीत-नाना-मूर्तेर् भगवतश् चरणारविन्दम् अकुतो-भयं सोऽहं शरणं व्रजामि । भुवि चलद् इति श्री-कृष्णावताराभिप्रायेण । असतो मेऽनुरूपा योग्या येन ईद्ऋशी गर्भ-वास-लक्षणा गतिर् दर्शिता, तस्य ॥१२॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "जगद् रक्षितुम्",
+          "to protect the world"
+        ],
+        [
+          "स्वेच्छया गृहीत-नाना-मूर्तेः",
+          "assuming many forms by His own will"
+        ],
+        [
+          "चरणारविन्दम् अकुतो-भयम्",
+          "the fearless lotus feet"
+        ],
+        [
+          "शरणं व्रजामि",
+          "I take refuge"
+        ],
+        [
+          "भुवि चलत्",
+          "moving upon the earth"
+        ],
+        [
+          "गर्भ-वास-लक्षणा गतिः",
+          "condition of dwelling in the womb"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "upasannaṃ jagad rakṣituṃ svecchayā gṛhīta-nānā-mūrter bhagavataś caraṇāravindam akuto-bhayaṃ so’haṃ śaraṇaṃ vrajāmi | bhuvi calad iti śrī-kṛṣṇāvatārābhiprāyeṇa | asato me’nurūpā yogyā yena īdṛśī garbha-vāsa-lakṣaṇā gatir darśitā, tasya ||12||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "I take refuge in the fearless lotus feet of Bhagavān, who of His own will assumes many forms to protect the world. “Moving upon the earth” alludes to Śrī Kṛṣṇa’s incarnation. He has shown me this condition of dwelling in the womb, appropriate to my unreal identification."
     },
     {
       "canto": 3,
@@ -190,13 +312,46 @@
       "end": 13,
       "source_marker": "३.३१.१३",
       "sanskrit": "ननु कोऽसौ यं शरणं व्रजसि ? को वा तव तस्य च विशेषो येन सेव्य-सेवकत्वम्? इत्य् अपेक्षायाम् आह । अत्र मातुर् देहे भूतेन्द्रियाशय-मयीं देहाकार-परिणतां मायाम् अवलम्ब्यआश्रित्य कर्मभिर् आवृत-स्वरूप इव बद्ध इव च य आस्ते, सोऽहम् । यस् त्व् अत्रैवास्ते तं नमामि । कथम्भूतम् ? इत्य् अपेक्षायां तु-शब्दोक्तं विशेषं दर्शयति । आतप्यमाने हृदयेऽवसितं प्रतीतम् एवम् अप्य् अविकारम् । कुतः ? विशुद्धं निरुपाधिम् । तत् कुतः ? अखण्डो बोधो यस्य तम् ॥१३॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "मायाम् अवलम्ब्य",
+          "relying on māyā"
+        ],
+        [
+          "कर्मभिर् आवृत-स्वरूप इव",
+          "as though one’s nature were covered by karma"
+        ],
+        [
+          "बद्ध इव",
+          "as though bound"
+        ],
+        [
+          "तं नमामि",
+          "I bow to Him"
+        ],
+        [
+          "हृदयेऽवसितम्",
+          "present in the heart"
+        ],
+        [
+          "अविकारम्",
+          "changeless"
+        ],
+        [
+          "विशुद्धं निरुपाधिम्",
+          "pure and without limiting adjuncts"
+        ],
+        [
+          "अखण्डो बोधः",
+          "indivisible consciousness"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "nanu ko’sau yaṃ śaraṇaṃ vrajasi ? ko vā tava tasya ca viśeṣo yena sevya-sevakatvam? ity apekṣāyām āha | atra mātur dehe bhūtendriyāśaya-mayīṃ dehākāra-pariṇatāṃ māyām avalambyaāśritya karmabhir āvṛta-svarūpa iva baddha iva ca ya āste, so’ham | yas tv atraivāste taṃ namāmi | kathambhūtam ? ity apekṣāyāṃ tu-śabdoktaṃ viśeṣaṃ darśayati | ātapyamāne hṛdaye’vasitaṃ pratītam evam apy avikāram | kutaḥ ? viśuddhaṃ nirupādhim | tat kutaḥ ? akhaṇḍo bodho yasya tam ||13||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Anticipating the questions of who is the refuge and what distinguishes servant from served, he says: relying on māyā transformed into the mother’s body and composed of elements, senses, and mind, I appear with my nature covered by karma and as though bound. I bow to Him who is present here also: though perceived in the afflicted heart, He remains changeless, pure, without limiting adjuncts, and of indivisible consciousness."
     },
     {
       "canto": 3,
@@ -205,13 +360,42 @@
       "end": 14,
       "source_marker": "३.३१.१४",
       "sanskrit": "ननु त्वम् अपि वस्तुतः शुद्ध एव असङ्गो ह्य् अयं पुरुषः इत्य्-आदि-श्रुतेः । तत् कथं युवयोर् अयं विशेषः ? तत्राह---यः पञ्चभिर् भूतै रचिते शरीरे अयथा मिथ्यैव छन्नः, न वस्तुतः । यतस् तेन शरीरेण रहितोऽसङ्गोऽतो\\ऽयथैवेन्द्रिय-गुणार्थ-चिद्-आत्मकः इन्द्रियाणि च गुणाश् च अर्थाश् च चिद्-आभासश् च तद्-आत्मकः सोऽहं तं वन्दे । कथं-भूतम्? तेन शरीरेण अविकुण्ठो महिमा यस्य तम् । अवगुण्ठेति पाठेऽवसन्नं गुण्ठनम् आवरणं यस्य स महिमा यस्येत्य् अर्थः । तत्र हेतुः---प्रकृति-पुरुषयोः परं नियन्तारम् । कुतः ? ऋषिं सर्व-ज्ञं विद्या-शक्तिम् इत्य् अर्थः । विद्याविद्या-कृतो विशेष इति भावः ॥१४॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "पञ्चभिर् भूतै रचिते शरीरे",
+          "in the body made of five elements"
+        ],
+        [
+          "अयथा मिथ्यैव छन्नः",
+          "only falsely covered"
+        ],
+        [
+          "शरीरेण रहितोऽसङ्गः",
+          "apart from the body, unattached"
+        ],
+        [
+          "अविकुण्ठो महिमा",
+          "unobstructed greatness"
+        ],
+        [
+          "प्रकृति-पुरुषयोः परं नियन्तारम्",
+          "supreme controller of Prakṛti and Puruṣa"
+        ],
+        [
+          "ऋषिं सर्व-ज्ञम्",
+          "the all-knowing seer"
+        ],
+        [
+          "विद्याविद्या-कृतो विशेषः",
+          "distinction produced by knowledge and ignorance"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "nanu tvam api vastutaḥ śuddha eva asaṅgo hy ayaṃ puruṣaḥ ity-ādi-śruteḥ | tat kathaṃ yuvayor ayaṃ viśeṣaḥ ? tatrāha---yaḥ pañcabhir bhūtai racite śarīre ayathā mithyaiva channaḥ, na vastutaḥ | yatas tena śarīreṇa rahito’saṅgo’to\\’yathaivendriya-guṇārtha-cid-ātmakaḥ indriyāṇi ca guṇāś ca arthāś ca cid-ābhāsaś ca tad-ātmakaḥ so’haṃ taṃ vande | kathaṃ-bhūtam? tena śarīreṇa avikuṇṭho mahimā yasya tam | avaguṇṭheti pāṭhe’vasannaṃ guṇṭhanam āvaraṇaṃ yasya sa mahimā yasyety arthaḥ | tatra hetuḥ---prakṛti-puruṣayoḥ paraṃ niyantāram | kutaḥ ? ṛṣiṃ sarva-jñaṃ vidyā-śaktim ity arthaḥ | vidyāvidyā-kṛto viśeṣa iti bhāvaḥ ||14||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Although the individual self is in truth pure and unattached, it only appears covered by the five-element body. Apart from that body it is unattached; identification with senses, guṇas, objects, and reflected consciousness is only apparent. I bow to the Lord whose greatness is unobstructed, the supreme controller of Prakṛti and Puruṣa, the all-knowing seer and power of knowledge. The distinction is produced by knowledge and ignorance."
     },
     {
       "canto": 3,
@@ -220,13 +404,42 @@
       "end": 15,
       "source_marker": "३.३१.१५",
       "sanskrit": "ननु ज्ञानेनायं बन्धो निवर्तिष्यते किं परमेश्वर-वन्दनेन ? तत्राह---यस्य मायया नष्ट-स्मृतिः सन्, संसार-संबन्धिनि पथि तद्-अभिश्रमेण तत्-कृतेन क्लेशेन चरन्न् अयं जीवो महतस् तस्यैवेश्वरस्य अनुग्रहं विना पुनः कया युक्त्या लोकं निज-स्वरूपं प्रवृणीत संभजेत ? अभिश्रम-हेतुत्वेन पन्थानं विशिनष्टि---उरूणि गुण-निमित्तानि कर्माणि नितरां बन्धनानि यस्मिन् । ईश्वरस्य प्रसादं विना ज्ञानाभावात् स एव सेव्य इत्य् अर्थः ॥१५॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "ज्ञानेन बन्धो निवर्तिष्यते",
+          "bondage ceases through knowledge"
+        ],
+        [
+          "यस्य मायया नष्ट-स्मृतिः",
+          "whose memory is lost through His māyā"
+        ],
+        [
+          "संसार-संबन्धिनि पथि",
+          "on the path of saṃsāra"
+        ],
+        [
+          "ईश्वरस्य अनुग्रहं विना",
+          "without the Lord’s grace"
+        ],
+        [
+          "निज-स्वरूपं प्रवृणीत",
+          "regain one’s own nature"
+        ],
+        [
+          "गुण-निमित्तानि कर्माणि",
+          "actions caused by the guṇas"
+        ],
+        [
+          "नितरां बन्धनानि",
+          "powerfully binding"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "nanu jñānenāyaṃ bandho nivartiṣyate kiṃ parameśvara-vandanena ? tatrāha---yasya māyayā naṣṭa-smṛtiḥ san, saṃsāra-saṃbandhini pathi tad-abhiśrameṇa tat-kṛtena kleśena carann ayaṃ jīvo mahatas tasyaiveśvarasya anugrahaṃ vinā punaḥ kayā yuktyā lokaṃ nija-svarūpaṃ pravṛṇīta saṃbhajeta ? abhiśrama-hetutvena panthānaṃ viśinaṣṭi---urūṇi guṇa-nimittāni karmāṇi nitarāṃ bandhanāni yasmin | īśvarasya prasādaṃ vinā jñānābhāvāt sa eva sevya ity arthaḥ ||15||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "One might ask why worship the Lord if bondage ends through knowledge. Because by His māyā the living being has lost memory and wanders the path of saṃsāra; without the grace of that great Lord, by what means could it regain its true nature? The path is filled with powerful guṇa-produced karmas that bind tightly. Since knowledge does not arise without His grace, He alone is to be served."
     },
     {
       "canto": 3,
@@ -235,13 +448,38 @@
       "end": 16,
       "source_marker": "३.३१.१६",
       "sanskrit": "ईश्वर एव ज्ञानद इत्य् उपपादयन्न् आह---यद् एतत् त्रि-काल-विषयं ज्ञानं तत्त्वं विना कतमो मय्य् अदधात्? न कोऽपि । किन्तु स देव ईश्वर एव । नन्व् अन्यः प्रकृष्टो जीवो दधातु ? नेत्य् आह---जीव-रूपां कर्म-पदवीम् अनुवर्तमाना वयम् इति तद्-व्यतिरेकेण न कोऽपि समर्थ इत्य् अर्थः । अन्यस्यात्रासंभवम् उक्त्वा तस्य संभवम् आह---स्थिरेषु चरेषु चान्तर्यामि-रूपोऽनुवर्तितो\\ऽंशो येन, तं भजेन ॥१६॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "ईश्वर एव ज्ञानदः",
+          "the Lord alone gives knowledge"
+        ],
+        [
+          "त्रि-काल-विषयं ज्ञानम्",
+          "knowledge concerning the three times"
+        ],
+        [
+          "कतमो मय्य् अदधात्",
+          "who could place it in me?"
+        ],
+        [
+          "स देव ईश्वर एव",
+          "that divine Lord alone"
+        ],
+        [
+          "कर्म-पदवीम् अनुवर्तमाना वयम्",
+          "we follow the path of karma"
+        ],
+        [
+          "अन्तर्यामि-रूपः",
+          "in the form of the inner controller"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "īśvara eva jñānada ity upapādayann āha---yad etat tri-kāla-viṣayaṃ jñānaṃ tattvaṃ vinā katamo mayy adadhāt? na ko’pi | kintu sa deva īśvara eva | nanv anyaḥ prakṛṣṭo jīvo dadhātu ? nety āha---jīva-rūpāṃ karma-padavīm anuvartamānā vayam iti tad-vyatirekeṇa na ko’pi samartha ity arthaḥ | anyasyātrāsaṃbhavam uktvā tasya saṃbhavam āha---sthireṣu careṣu cāntaryāmi-rūpo’nuvartito\\’ṃśo yena, taṃ bhajena ||16||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "The Lord alone gives knowledge: who other than that Reality could place in me this knowledge concerning the three times? No one; it is the divine Lord alone. Nor could another individual soul do so, for all living beings follow the path of karma. The Lord pervades moving and unmoving beings as their inner controller; therefore I worship Him."
     },
     {
       "canto": 3,
@@ -267,13 +505,38 @@
       "end": 18,
       "source_marker": "३.३१.१८",
       "sanskrit": "तत् कृतम् उपकारं स्मरन्न् आह---येनेदृशीं गतिं ज्ञानम् । भवादृश्एन इति निरुपमेनेत्य् अर्थः । स्व-कृतेनैव स्वयं तुष्यतु । अञ्जलि-मात्रं विना तत्-कृतोपकारे प्रत्युपकारं कः कुर्यात् ? इत्य् अर्थः ॥१८॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "तत् कृतम् उपकारम्",
+          "the benefit bestowed by Him"
+        ],
+        [
+          "ईदृशीं गतिं ज्ञानम्",
+          "such knowledge"
+        ],
+        [
+          "भवादृशेन",
+          "by one such as You, incomparable"
+        ],
+        [
+          "स्व-कृतेनैव स्वयं तुष्यतु",
+          "may He be satisfied by His own act"
+        ],
+        [
+          "अञ्जलि-मात्रं विना",
+          "apart from joined palms"
+        ],
+        [
+          "प्रत्युपकारं कः कुर्यात्",
+          "who could make a return?"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "tat kṛtam upakāraṃ smarann āha---yenedṛśīṃ gatiṃ jñānam | bhavādṛśena iti nirupamenety arthaḥ | sva-kṛtenaiva svayaṃ tuṣyatu | añjali-mātraṃ vinā tat-kṛtopakāre pratyupakāraṃ kaḥ kuryāt ? ity arthaḥ ||18||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Remembering the benefit bestowed by Him, he says: He has given such knowledge. “One such as You” means incomparable. May He be satisfied by His own act; apart from joining the palms, who could make an adequate return for His benefit?"
     },
     {
       "canto": 3,
@@ -282,13 +545,42 @@
       "end": 19,
       "source_marker": "३.३१.१९",
       "sanskrit": "ईदृशीं गतिम् \\[भा।पु। ३.३१.१९\\] इत्य् अनेन जात्य्-अन्तर-विलक्षणं ज्ञानं प्रापितवान् इत्य् उक्तं तद् एव वैलक्षण्यम् आह---पश्यतीति । अयम् अपरः पश्व्-आदिः सप्त-वध्रिर् जीवः स्व-देहे शारीरके शरीर-भवे सुख-दुःखे केवलं ननु पश्यति । अहं पुनर् यत्-सृष्टया धिषणया यद्-दत्तेन विवेक-ज्ञानेन दम-शरीरी । दम ईत्य् उपलक्षणम् । शम-दमादि-युक्त-शरीर-वान् आसम् अभवम् । तम् एव च पुराणम् अनादिं पुरुषं पूर्णं बहिश् च हृदि च पश्ये पश्यामीत्य् अन्वयः । कथम् ? अपरोऽक्षतया प्रतीतं चैत्यम् इव । अहङ्कारास्पदं भोक्तारम् इवेत्य् अर्थः ॥१९॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "जात्य्-अन्तर-विलक्षणं ज्ञानम्",
+          "knowledge unlike that of other species"
+        ],
+        [
+          "सप्त-वध्रिर् जीवः",
+          "living being bound by seven constituents"
+        ],
+        [
+          "सुख-दुःखे केवलं पश्यति",
+          "merely experiences pleasure and pain"
+        ],
+        [
+          "विवेक-ज्ञानेन",
+          "through discriminative knowledge"
+        ],
+        [
+          "शम-दमादि-युक्त",
+          "endowed with tranquility and restraint"
+        ],
+        [
+          "पुराणम् अनादिं पुरुषं पूर्णम्",
+          "the beginningless complete Puruṣa"
+        ],
+        [
+          "बहिश् च हृदि च पश्ये",
+          "I behold outside and in the heart"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "īdṛśīṃ gatim \\[bhā|pu| 3.31.19\\] ity anena jāty-antara-vilakṣaṇaṃ jñānaṃ prāpitavān ity uktaṃ tad eva vailakṣaṇyam āha---paśyatīti | ayam aparaḥ paśv-ādiḥ sapta-vadhrir jīvaḥ sva-dehe śārīrake śarīra-bhave sukha-duḥkhe kevalaṃ nanu paśyati | ahaṃ punar yat-sṛṣṭayā dhiṣaṇayā yad-dattena viveka-jñānena dama-śarīrī | dama īty upalakṣaṇam | śama-damādi-yukta-śarīra-vān āsam abhavam | tam eva ca purāṇam anādiṃ puruṣaṃ pūrṇaṃ bahiś ca hṛdi ca paśye paśyāmīty anvayaḥ | katham ? aparo’kṣatayā pratītaṃ caityam iva | ahaṅkārāspadaṃ bhoktāram ivety arthaḥ ||19||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "The preceding verse said he received knowledge unlike that of other species. An animal or other embodied being, bound by the seven constituents, merely experiences bodily pleasure and pain. I, through discriminative knowledge given by Him, have become endowed with tranquility and restraint and behold the same beginningless, complete Puruṣa outside and within the heart, appearing like the inner enjoyer who is the locus of ego."
     },
     {
       "canto": 3,
@@ -314,13 +606,38 @@
       "end": 21,
       "source_marker": "३.३१.२१",
       "sanskrit": "तस्माद् अत्रैव स्थितोऽपि विगत-विक्लवोऽव्याकुलः सन् सुहृदा आत्मना सारथि-रूपया बुद्ध्यैव आत्मानं तमसः संसाराद् उद्धरिष्यामि । अनेक-रन्ध्रं नाना-गर्भ-वास-रूपम् एतद् व्यसनं दुःखं यथा मे मा भविष्यत् न भविष्यति तथा । कात्र तव साधन-सामग्री ? तत्राह---उपसादितौ हृदयं प्रापितौ विष्णोः पादौ येन मया सः ॥२१॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "अत्रैव स्थितः",
+          "remaining here"
+        ],
+        [
+          "विगत-विक्लवः",
+          "free from agitation"
+        ],
+        [
+          "सारथि-रूपया बुद्ध्या",
+          "by intelligence as charioteer"
+        ],
+        [
+          "तमसः संसाराद् उद्धरिष्यामि",
+          "I shall raise myself from saṃsāra’s darkness"
+        ],
+        [
+          "नाना-गर्भ-वास-रूपम्",
+          "repeated residence in many wombs"
+        ],
+        [
+          "विष्णोः पादौ हृदयं प्रापितौ",
+          "Viṣṇu’s feet brought into the heart"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "tasmād atraiva sthito’pi vigata-viklavo’vyākulaḥ san suhṛdā ātmanā sārathi-rūpayā buddhyaiva ātmānaṃ tamasaḥ saṃsārād uddhariṣyāmi | aneka-randhraṃ nānā-garbha-vāsa-rūpam etad vyasanaṃ duḥkhaṃ yathā me mā bhaviṣyat na bhaviṣyati tathā | kātra tava sādhana-sāmagrī ? tatrāha---upasāditau hṛdayaṃ prāpitau viṣṇoḥ pādau yena mayā saḥ ||21||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Therefore, even while remaining here, free from agitation, I shall raise myself from the darkness of saṃsāra by the friendly Self—that is, by intelligence as charioteer—so that this misery of repeated residence in many wombs may not occur again. My means is that I have brought Viṣṇu’s feet into my heart."
     },
     {
       "canto": 3,
@@ -329,13 +646,42 @@
       "end": 22,
       "source_marker": "३.३१.२२",
       "sanskrit": "दशम् आसाः परिच्छेदका यस्येति प्रसूति-पूर्व-क्षणोपलक्षणम् । ऋषिर् जीवः । सद्यस् तत् क्षणम् एव । अवाचीनम् अवाङ् मुखम् । सूति-हेतुर् मारुतः । क्षिपति नुदति ॥२२॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "दशम् आसाः",
+          "ten months"
+        ],
+        [
+          "प्रसूति-पूर्व-क्षणोपलक्षणम्",
+          "the moment before delivery"
+        ],
+        [
+          "ऋषिर् जीवः",
+          "the living being"
+        ],
+        [
+          "सद्यः",
+          "immediately"
+        ],
+        [
+          "अवाचीनम् अवाङ् मुखम्",
+          "downward-facing"
+        ],
+        [
+          "सूति-हेतुर् मारुतः",
+          "the wind causing birth"
+        ],
+        [
+          "क्षिपति नुदति",
+          "drives and pushes"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "daśam āsāḥ paricchedakā yasyeti prasūti-pūrva-kṣaṇopalakṣaṇam | ṛṣir jīvaḥ | sadyas tat kṣaṇam eva | avācīnam avāṅ mukham | sūti-hetur mārutaḥ | kṣipati nudati ||22||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "“Ten months” indicates the moment just before delivery. The living being is immediately turned downward; the wind that causes birth drives and pushes him."
     },
     {
       "canto": 3,
@@ -344,13 +690,22 @@
       "end": 23,
       "source_marker": "३.३१.२३",
       "sanskrit": "अवसृष्टोऽधः क्षिप्तः सन् ॥२३॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "अवसृष्टः",
+          "released"
+        ],
+        [
+          "अधः क्षिप्तः",
+          "cast downward"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "avasṛṣṭo’dhaḥ kṣiptaḥ san ||23||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Avasṛṣṭa means released and cast downward."
     },
     {
       "canto": 3,
@@ -359,13 +714,22 @@
       "end": 24,
       "source_marker": "३.३१.२४",
       "sanskrit": "रोरूयति रोरूयते ॥२४॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "रोरूयति",
+          "he cries repeatedly"
+        ],
+        [
+          "रोरूयते",
+          "he wails"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "rorūyati rorūyate ||24||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Rorūyati means he cries out repeatedly."
     },
     {
       "canto": 3,
@@ -479,13 +843,34 @@
       "end": 32,
       "source_marker": "३.३१.३२",
       "sanskrit": "यद्य् असद्भिर् आस्थितोऽधिष्ठितः संस् तेषां पथि रमते, पथि सन्-मार्गे आस्थितोऽपि यद्य् असद्भिः सह रमत इति वा, तर्हि यातना-देह आवृत्य \\[३.३०.२०\\] इत्य्-आदि-पूर्वोक्त-प्रकारेण तमो नरकं प्रविशति ॥३२॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "असद्भिर् आस्थितः",
+          "taking shelter among the wicked"
+        ],
+        [
+          "तेषां पथि रमते",
+          "delights in their path"
+        ],
+        [
+          "सन्-मार्गे आस्थितोऽपि",
+          "even on the good path"
+        ],
+        [
+          "यातना-देहः",
+          "body of torment"
+        ],
+        [
+          "तमो नरकं प्रविशति",
+          "enters the darkness of hell"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "yady asadbhir āsthito’dhiṣṭhitaḥ saṃs teṣāṃ pathi ramate, pathi san-mārge āsthito’pi yady asadbhiḥ saha ramata iti vā, tarhi yātanā-deha āvṛtya \\[3.30.20\\] ity-ādi-pūrvokta-prakāreṇa tamo narakaṃ praviśati ||32||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "If one takes shelter among the wicked and delights in their path—or, even while on the good path, delights in wicked company—then in the previously described manner one enters the darkness of hell in a body of torment."
     },
     {
       "canto": 3,
@@ -494,13 +879,34 @@
       "end": 34,
       "source_marker": "३.३१.३३-३४",
       "sanskrit": "दयेत्य् अत्र तप इति क्वचित् एष पुण्यारण्य-संमतः ॥३३॥ खण्डितात्मसु देहात्म-बुद्धिषु । योषितां क्रीडा-मृगवद् अधीनेषु ॥३४॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "दया इत्य् अत्र तपः",
+          "here dayā is read as tapas"
+        ],
+        [
+          "पुण्यारण्य-संमतः",
+          "approved by Puṇyāraṇya"
+        ],
+        [
+          "खण्डितात्मसु",
+          "those with broken self-understanding"
+        ],
+        [
+          "देहात्म-बुद्धिषु",
+          "identifying self with body"
+        ],
+        [
+          "योषितां क्रीडा-मृगवत् अधीनेषु",
+          "under women’s control like play-animals"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "dayety atra tapa iti kvacit eṣa puṇyāraṇya-saṃmataḥ ||33|| khaṇḍitātmasu dehātma-buddhiṣu | yoṣitāṃ krīḍā-mṛgavad adhīneṣu ||34||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "In one reading “dayā” here is “tapas,” a reading approved by Puṇyāraṇya. “Those whose self is broken” means those whose understanding identifies the self with the body; they are under the control of women like play-animals."
     },
     {
       "canto": 3,
@@ -546,13 +952,34 @@
       "end": 37,
       "source_marker": "३.३१.३७",
       "sanskrit": "तेन ब्रह्मणा सृष्टा मरीच्य्-आदयः, तैः सृष्टा कश्यपादयः, तैर् अपि सृष्टा देव-मनुष्यादयः । तेषु को नु पुमान् अखण्डित-धीर् अनाकृष्ट-मनाः ॥३७॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "ब्रह्मणा सृष्टा मरीच्य्-आदयः",
+          "Marīci and others created by Brahmā"
+        ],
+        [
+          "तैः सृष्टा कश्यपादयः",
+          "Kaśyapa and others created by them"
+        ],
+        [
+          "देव-मनुष्यादयः",
+          "gods, humans, and others"
+        ],
+        [
+          "अखण्डित-धीः",
+          "of unbroken intelligence"
+        ],
+        [
+          "अनाकृष्ट-मनाः",
+          "with mind not drawn away"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "tena brahmaṇā sṛṣṭā marīcy-ādayaḥ, taiḥ sṛṣṭā kaśyapādayaḥ, tair api sṛṣṭā deva-manuṣyādayaḥ | teṣu ko nu pumān akhaṇḍita-dhīr anākṛṣṭa-manāḥ ||37||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Marīci and others were created by Brahmā, Kaśyapa and others by them, and gods, humans, and others by those. Among all these, what man indeed has an unbroken intelligence and a mind not drawn away?"
     },
     {
       "canto": 3,
@@ -561,13 +988,22 @@
       "end": 38,
       "source_marker": "३.३१.३८",
       "sanskrit": "दिशां जयिनः शूरान् अपि ॥३८॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "दिशां जयिनः",
+          "conquerors of the directions"
+        ],
+        [
+          "शूरान् अपि",
+          "even heroes"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "diśāṃ jayinaḥ śūrān api ||38||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Even heroes who have conquered the directions are drawn in."
     },
     {
       "canto": 3,
@@ -576,13 +1012,34 @@
       "end": 39,
       "source_marker": "३.३१.३९",
       "sanskrit": "प्रतिलब्ध आत्म-रूपो लाभो येन । अस्य मुमुक्षोर् याः प्रमदा निरय-द्वारं वदन्ति योगिनः ॥३९॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "प्रतिलब्ध आत्म-रूपो लाभः",
+          "regained realization of one’s own nature"
+        ],
+        [
+          "मुमुक्षोः",
+          "for the seeker of liberation"
+        ],
+        [
+          "प्रमदाः",
+          "enticing women"
+        ],
+        [
+          "निरय-द्वारम्",
+          "the doorway to hell"
+        ],
+        [
+          "वदन्ति योगिनः",
+          "the yogins say"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "pratilabdha ātma-rūpo lābho yena | asya mumukṣor yāḥ pramadā niraya-dvāraṃ vadanti yoginaḥ ||39||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "He has regained realization of his own nature. Yogins say that for such a seeker of liberation, enticing women are the doorway to hell."
     },
     {
       "canto": 3,
@@ -591,13 +1048,34 @@
       "end": 40,
       "source_marker": "३.३१.४०",
       "sanskrit": "शनैः शुश्रूषादि-मिषेण उपय्आति या योषिद्-रूपा माया, तां मृत्युं प्रतिकूलाम् ईक्षेत॥४०॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "शनैः",
+          "gradually"
+        ],
+        [
+          "शुश्रूषादि-मिषेण",
+          "under the pretext of service"
+        ],
+        [
+          "उपयाति",
+          "approaches"
+        ],
+        [
+          "योषिद्-रूपा माया",
+          "māyā in female form"
+        ],
+        [
+          "मृत्युं प्रतिकूलाम् ईक्षेत",
+          "regard it as adverse Death"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "śanaiḥ śuśrūṣādi-miṣeṇa upayāti yā yoṣid-rūpā māyā, tāṃ mṛtyuṃ pratikūlām īkṣeta||40||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "A woman-form of māyā that gradually approaches under the pretext of service and the like should be regarded as Death, adverse to liberation."
     },
     {
       "canto": 3,
@@ -606,13 +1084,38 @@
       "end": 42,
       "source_marker": "३.३१.४१-४२",
       "sanskrit": "मुमुक्षुं स्त्रियं प्रत्य् एतद् एवाह---यां मन्यते इति द्वाभ्याम् । ऋषभायतीं पुरुषवद् आचरन्तीं यां मम मायां वित्तादि-प्रदं पतिं मन्यते, तदा तां पुरुष-रूपां मायां मृत्युं विद्याद् इत्य् उत्तरेणान्वयः । यतः पूर्व-जन्मनि स्वयं पुमान् स्त्री-सङ्गतोऽन्त-काले स्त्री-ध्यानेन स्त्रीत्वं प्राप्तो जीवः ॥४१॥\n\nतां पत्य्-आदि-रूपं मृत्युं विजानीयात् । मृगयोर् लुब्धकस्य गायनम् अनुकूलत्वेन प्रतीयमानम् अपि यथा मृगस्य मृत्युः ॥४२॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "मुमुक्षुं स्त्रियम्",
+          "a woman seeking liberation"
+        ],
+        [
+          "पुरुषवद् आचरन्तीं मम मायाम्",
+          "My māyā acting like a man"
+        ],
+        [
+          "वित्तादि-प्रदं पतिम्",
+          "a husband giving wealth and the like"
+        ],
+        [
+          "पुरुष-रूपां मायां मृत्युं विद्यात्",
+          "know male-form māyā as Death"
+        ],
+        [
+          "अन्त-काले स्त्री-ध्यानेन",
+          "by meditation on a woman at death"
+        ],
+        [
+          "स्त्रीत्वं प्राप्तः",
+          "attained womanhood"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "mumukṣuṃ striyaṃ praty etad evāha---yāṃ manyate iti dvābhyām | ṛṣabhāyatīṃ puruṣavad ācarantīṃ yāṃ mama māyāṃ vittādi-pradaṃ patiṃ manyate, tadā tāṃ puruṣa-rūpāṃ māyāṃ mṛtyuṃ vidyād ity uttareṇānvayaḥ | yataḥ pūrva-janmani svayaṃ pumān strī-saṅgato’nta-kāle strī-dhyānena strītvaṃ prāpto jīvaḥ ||41||\n\ntāṃ paty-ādi-rūpaṃ mṛtyuṃ vijānīyāt | mṛgayor lubdhakasya gāyanam anukūlatvena pratīyamānam api yathā mṛgasya mṛtyuḥ ||42||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "He applies the same teaching to a woman seeking liberation. If she regards My māyā acting in male form as a husband who gives wealth and the like, she should know that male-form māyā as Death. A being who in a former birth was male, attached to a woman and meditating on womanhood at death, may attain a female birth."
     },
     {
       "canto": 3,
@@ -621,13 +1124,42 @@
       "end": 43,
       "source_marker": "३.३१.४३",
       "sanskrit": "तद् एवं जीवस्य संसृतिः प्रपञ्चिता । तत्र च तस्य कर्म-वशेन लोकाल् लोकान्तर-गमनं जन्म-मरणं चोक्तम् । तत्रैवं शङ्क्यते---ननु व्यापकस्य लोकाल् लोकान्तर-गमनम्, नित्यस्य च कथं जन्म-मरणे ? भोगेन कर्म-क्षये च सति, जन्म-मरणं नेष्यते, तत् कुतः पुनर् अपि तस्य कर्म-सम्भवः ? इति । तत्र लोकान्तर-गमनं कर्म च सम्भवतीत्य् आह---देहेनेति । जीवस्य उपाधितया भूतेन जातेन लिङ्ग-देहेन लोकान्तरम् अनुव्रजन् । अविरतं कर्माणि करोतीति कर्मणाम् असमाप्तिर् उक्ता ॥४३॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "जीवस्य संसृतिः प्रपञ्चिता",
+          "the living being’s transmigration elaborated"
+        ],
+        [
+          "लोकाल् लोकान्तर-गमनम्",
+          "movement from world to world"
+        ],
+        [
+          "जन्म-मरणम्",
+          "birth and death"
+        ],
+        [
+          "व्यापकस्य",
+          "of the all-pervading one"
+        ],
+        [
+          "नित्यस्य",
+          "of the eternal one"
+        ],
+        [
+          "लिङ्ग-देहेन",
+          "with the subtle body"
+        ],
+        [
+          "अविरतं कर्माणि करोति",
+          "continually performs actions"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "tad evaṃ jīvasya saṃsṛtiḥ prapañcitā | tatra ca tasya karma-vaśena lokāl lokāntara-gamanaṃ janma-maraṇaṃ coktam | tatraivaṃ śaṅkyate---nanu vyāpakasya lokāl lokāntara-gamanam, nityasya ca kathaṃ janma-maraṇe ? bhogena karma-kṣaye ca sati, janma-maraṇaṃ neṣyate, tat kutaḥ punar api tasya karma-sambhavaḥ ? iti | tatra lokāntara-gamanaṃ karma ca sambhavatīty āha---deheneti | jīvasya upādhitayā bhūtena jātena liṅga-dehena lokāntaram anuvrajan | avirataṃ karmāṇi karotīti karmaṇām asamāptir uktā ||43||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "Thus the living being’s transmigration has been elaborated: movement from world to world under karma, with birth and death. How can an all-pervading being travel or an eternal being be born and die? The living being travels with the subtle body that has arisen as its limiting adjunct and continually performs actions; therefore karma is not exhausted altogether."
     },
     {
       "canto": 3,
@@ -636,13 +1168,46 @@
       "end": 44,
       "source_marker": "३.३१.४४",
       "sanskrit": "जन्म-मरण-सम्भवम् आह--- जीवो जीवोपाधि-लिङ्ग-देहोऽस्य आत्मनोऽनुगो ऽनुवर्ती । भूतेन्द्रिय-मनो-मयः स्थूल-भूतादि-विकारो देहो भोगायतनं, तयोर् निरोधः। कार्यायोग्यता तद् अस्य जीवस्य मरणम् उच्यते । आविर्भावस् तु सम्भवो जन्मोच्यते ॥४४॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "जीवोपाधि-लिङ्ग-देहः",
+          "the subtle body, limiting adjunct of the living being"
+        ],
+        [
+          "आत्मनोऽनुगः",
+          "follows the Self"
+        ],
+        [
+          "भूतेन्द्रिय-मनो-मयः देहः",
+          "body made of elements, senses, and mind"
+        ],
+        [
+          "भोगायतनम्",
+          "seat of experience"
+        ],
+        [
+          "कार्यायोग्यता",
+          "incapacity to function"
+        ],
+        [
+          "मरणम् उच्यते",
+          "is called death"
+        ],
+        [
+          "आविर्भावः सम्भवः",
+          "manifestation, coming into being"
+        ],
+        [
+          "जन्म उच्यते",
+          "is called birth"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "janma-maraṇa-sambhavam āha--- jīvo jīvopādhi-liṅga-deho’sya ātmano’nugo ’nuvartī | bhūtendriya-mano-mayaḥ sthūla-bhūtādi-vikāro deho bhogāyatanaṃ, tayor nirodhaḥ| kāryāyogyatā tad asya jīvasya maraṇam ucyate | āvirbhāvas tu sambhavo janmocyate ||44||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "The subtle body, the limiting adjunct of the living being, follows the Self. The gross body made of elements, senses, and mind is the seat of experience. The incapacity of these two to function is called death; their manifestation and capacity to function is called birth."
     },
     {
       "canto": 3,
@@ -651,13 +1216,54 @@
       "end": 46,
       "source_marker": "३.३१.४५-४६",
       "sanskrit": "एतद् एव दृष्टान्तेन स्पष्टान्तेन स्पष्टयति । द्रव्योपलब्धि-स्थानस्य नेत्र-गोलकादेर् द्रव्येक्षायां रूपादि-दर्शने काचकामलादि-दोषेण यदा अयोग्यता भवति, तदैव चक्षुष इन्द्रियस्याप्य् अयोग्यता । अनयोः स्थान-चक्षुषोर् यदा अयोग्यता, तदैव द्रष्टुर् जीवस्य द्रष्टृत्वायोग्यता । एवं स्थूल-देह-वैकल्ये लिङ्गस्य वैकल्यं, तद् एव जीवस्य मरणं, न स्वत इत्य् अर्थः ।\n\nक्वचिद् एकः श्लोकोऽधिकः पठ्यते । तत्रायम् अर्थः\\--द्रव्योपलब्धि-स्थानस्य स्थूल-शरीरस्य द्रव्येक्षायां यदायोग्यता तत् पञ्चत्वं मरणम् । अहं मानाद् इदम् एवाहम् इत्य् अभिमानेन द्रव्यस्य स्थूल-शरीरस्य दर्शनम् उत्पत्तिः । अक्ष्णोर् गोलकयोर् द्रव्यावयवस्य रूपादेर् दर्शनेऽयोग्यता । शेषं समानम् । यस्मान् न वस्तुतो जीवस्य जन्म-मरणादि तस्मान् मरणात् सन् त्रासो न कार्यो जीवने च न कार्पण्यं दैन्यं कार्यम् । संभ्रमश् च जीवन-प्रयत्ने ॥४५-४७॥",
-      "word_for_word": [],
+      "word_for_word": [
+        [
+          "द्रव्योपलब्धि-स्थानस्य",
+          "of the physical locus of perception"
+        ],
+        [
+          "काचकामलादि-दोषेण",
+          "through cataract, jaundice, or similar defect"
+        ],
+        [
+          "अयोग्यता",
+          "incapacity"
+        ],
+        [
+          "चक्षुष इन्द्रियस्याप्य् अयोग्यता",
+          "incapacity of sight also"
+        ],
+        [
+          "स्थूल-देह-वैकल्ये",
+          "with impairment of the gross body"
+        ],
+        [
+          "लिङ्गस्य वैकल्यम्",
+          "impairment of the subtle body"
+        ],
+        [
+          "तद् एव जीवस्य मरणम्",
+          "that is the living being’s death"
+        ],
+        [
+          "न स्वतः",
+          "not destruction of itself"
+        ],
+        [
+          "मरणात् त्रासो न कार्यः",
+          "one should not fear death"
+        ],
+        [
+          "जीवने न कार्पण्यम्",
+          "nor be wretched about life"
+        ]
+      ],
       "source_available": true,
       "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
       "transliteration": [
         "etad eva dṛṣṭāntena spaṣṭāntena spaṣṭayati | dravyopalabdhi-sthānasya netra-golakāder dravyekṣāyāṃ rūpādi-darśane kācakāmalādi-doṣeṇa yadā ayogyatā bhavati, tadaiva cakṣuṣa indriyasyāpy ayogyatā | anayoḥ sthāna-cakṣuṣor yadā ayogyatā, tadaiva draṣṭur jīvasya draṣṭṛtvāyogyatā | evaṃ sthūla-deha-vaikalye liṅgasya vaikalyaṃ, tad eva jīvasya maraṇaṃ, na svata ity arthaḥ |\n\nkvacid ekaḥ śloko’dhikaḥ paṭhyate | tatrāyam arthaḥ\\--dravyopalabdhi-sthānasya sthūla-śarīrasya dravyekṣāyāṃ yadāyogyatā tat pañcatvaṃ maraṇam | ahaṃ mānād idam evāham ity abhimānena dravyasya sthūla-śarīrasya darśanam utpattiḥ | akṣṇor golakayor dravyāvayavasya rūpāder darśane’yogyatā | śeṣaṃ samānam | yasmān na vastuto jīvasya janma-maraṇādi tasmān maraṇāt san trāso na kāryo jīvane ca na kārpaṇyaṃ dainyaṃ kāryam | saṃbhramaś ca jīvana-prayatne ||45-47||"
       ],
-      "translation_status": "requires-source-bound-translation"
+      "literal_english": "He clarifies by analogy. When the physical organ such as the eyeball becomes unfit for seeing because of cataract, jaundice, or another defect, the faculty of sight also becomes unable to function; when both organ and faculty are incapable, the living seer cannot exercise seeing. Likewise impairment of the gross body entails impairment of the subtle body, and that is called the living being’s death, not destruction of the Self itself. Therefore one should neither fear death nor become wretched about life or frantic in preserving it."
     },
     {
       "canto": 3,
