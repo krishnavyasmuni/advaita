@@ -7,6 +7,8 @@
 
 > **Current Contents audit correction (2026-09-26):** [Read the Contents audit](../maintenance/audit/bhagavatam-contents-audit-2026-09-26.md). The public Contents has 196 links across Cantos 1, 2, 3, 10, 11, and 12. Translation checks remain open in chapters recorded in the audit.
 
+> **Canto 3.30 source and gloss review (2026-09-29):** The pinned Śrīdhara witness contains ten commentary-bearing ranges and 21 explicit `न व्याख्यातम्` markers in verses 1–34. The reader labels those markers as source-declared absences; it does not invent commentary. Phrase-level English glosses for all ten source-bearing ranges were rechecked. Corrections include `उद्वहनाधिना` at 3.30.7 and `द्वाभ्यां वा` at 3.30.24, which refers to two muhūrtas, not two messengers. This review does not certify all 196 linked chapters or the whole Canto 3 corpus; live rendering remains unverified.
+
 ## Mission
 
 You are the implementation AI for the Vivekadrishti Śrīmad-Bhāgavatam reader:

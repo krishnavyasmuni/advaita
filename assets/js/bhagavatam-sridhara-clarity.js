@@ -40,7 +40,7 @@
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch27-verses01-25.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch28-verses01-38.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch29-verses01-42.json?v=20260929-c3-complete-1',
-    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch30-verses01-31.json?v=20260929-c3-complete-1',
+    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch30-verses01-31.json?v=20260929-c3-word-for-word-reviewed-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch31-verses01-42.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-38.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch33-verses01-34.json?v=20260929-c3-complete-1'
@@ -262,7 +262,7 @@
     section.append(label, result.empty ? (() => {
       const paragraph = document.createElement('p');
       paragraph.className = 'gita-dual-empty';
-      paragraph.textContent = 'No commentary';
+      paragraph.textContent = 'No Śrīdhara commentary is recorded in the pinned source for this verse range.';
       return paragraph;
     })() : result.node);
     return section;
@@ -310,7 +310,7 @@
         if (!reveal) return;
         reveal.appendChild(makeSridharaSection(resolved));
         if (resolved.sourceGap) ensureCommentary(section, 'Source text unavailable in the pinned witness; no Śrīdhara gloss is invented.');
-        else if (noCommentary(resolved.pairs)) ensureCommentary(section, 'No commentary');
+        else if (noCommentary(resolved.pairs)) ensureCommentary(section, 'No Śrīdhara commentary is recorded in the pinned source for this verse range.');
         if (resolved.literal) ensureCommentary(section, resolved.literal);
       });
     });

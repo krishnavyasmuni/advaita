@@ -499,7 +499,7 @@
     const sridharaSanskritDetails = makeDetails('Śrīdhara Sanskrit', [
       sridharaSanskrit
         ? makeParagraph(sridharaSanskrit, { lang: 'sa-Deva' })
-        : makeParagraph('No commentary', { className: 'gita-no-source' })
+        : makeParagraph('No Śrīdhara commentary is recorded in the pinned source for this verse range.', { className: 'gita-no-source' })
     ]);
     if (sridharaSanskrit) {
       const previewLine = sridharaSanskrit.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)[0] || '';
