@@ -10911,14 +10911,14 @@
     {
       "id": "canto-3-chapter-17-release",
       "range": "ŚB 3.17.1–3.17.31",
-      "status": "vishvasa-source-rebuilt",
+      "status": "source-aligned-and-wfw-repaired-awaiting-live-verification",
       "english_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIyo_abhaya-charaNaH/03/17.md",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/17_hiraNyAxa-digvijayaH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "26fb6657c5df7e57f0ccbc9f21a6756d5a9887bc",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/17_hiraNyAxa-digvijayaH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch17-verses01-30.json?v=20260927-vishvasa-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch17-verses01-30.json?v=20260929-c3-ch17-repair-1"
       ],
       "records_checked": 30,
       "exact_sridhara_source_blocks": 29,
@@ -10927,13 +10927,19 @@
       ],
       "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-27",
+      "generated_at": "2026-09-29",
       "notes": "All 31 numbered verses are covered by 30 source-bound records; grouped range 3.17.21–3.17.22 is preserved. Explicit no-commentary markers are kept separate from source gaps.",
-      "repaired_at": "2026-09-27",
-      "repair_note": "Rebuilt against the pinned VishvAsa/Vasuki 3.17 source. Restored all Śrīdhara blocks actually present in the source, removed false no-commentary records, and preserved only the explicit 3.17.24 no-commentary range.",
+      "repaired_at": "2026-09-29",
+      "repair_note": "Exact Sanskrit source blocks and phrase-level English glosses repaired against pinned vishvAsa/purANam_vaiShNavam@100560de6c9f68c2875097d40a2012a84c784179. 29 commentary-bearing source ranges and one explicit no-commentary range.",
       "numbered_verses": 31,
       "supplementary_source_blocks": [],
-      "word_for_word_status": "source-keyed"
+      "word_for_word_status": "translated-from-exact-pinned-sridhara-blocks",
+      "findings": [
+        "Replaced 3.17.3–3.17.9, 3.17.11–3.17.14, 3.17.18–3.17.19, 3.17.23, 3.17.25–3.17.26, 3.17.28, and 3.17.31 entries that falsely displayed “न व्याख्यातम्।” despite Śrīdhara text in the pinned source.",
+        "Replaced non-Śrīdhara Sanskrit text at 3.17.2, 3.17.15–3.17.17, and 3.17.21–3.17.22 with exact pinned Śrīdhara blocks.",
+        "Rewrote the English literal and phrase-level word-for-word pairs from those source blocks; preserved the grouped 3.17.21–3.17.22 range.",
+        "The pinned source explicitly marks only 3.17.24 as “न व्याख्यातम्।”; source-gap ranges remain empty."
+      ]
     },
     {
       "id": "canto-3-chapter-18-release",

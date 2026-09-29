@@ -27,7 +27,7 @@
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch14-verses01-50.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch15-verses01-49.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch16-verses01-35.json?v=20260929-c3-complete-1',
-    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch17-verses01-30.json?v=20260929-c3-complete-1',
+    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch17-verses01-30.json?v=20260929-c3-ch17-repair-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch18-verses01-27.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch19-verses01-38.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch20-verses01-51.json?v=20260929-c3-complete-1',
