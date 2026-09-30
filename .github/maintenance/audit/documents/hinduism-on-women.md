@@ -3,12 +3,12 @@ slug: hinduism-on-women
 request: repair
 source_files: ["Hinduism_on_women.pdf"]
 source_version_or_hash: "21,998,164 bytes; SHA-256 250d2ed2bb54ff0be6476f07710504540c2ce82442ae18f2de82a84ec804157f"
-source_pages: "98 scanned, image-only pages"
+source_pages: "98 scanned, image-only; pages 5-7 and 95-96 visually reviewed"
 article_path: "articles/hinduism-on-women/index.html"
 live_url: "https://krishnavyasmuni.github.io/advaita/articles/hinduism-on-women/"
 reference_layout: "Shared Varna-vicara reader used by the Vaishnava and Shaiva articles"
 source_inventory: "Four main sections, 15 subsections, a separate cover illustration, one standalone ornaments diagram, 98 full-page scan assets, and OCR-derived Sanskrit text in the existing transcription"
-expected_units: "Existing article text, eight Sanskrit controls checked against source pages 5-7, cover illustration, and standalone diagram; no full-page scans"
+expected_units: "Existing article text, eight Sanskrit controls checked against source pages 5-7, bibliography transcribed from pages 95-96, cover illustration, and standalone diagram; no full-page scans"
 known_defects:
   - "The uploaded PDF has no searchable text layer. Existing English prose outside the checked excerpts was retained but not compared page-by-page with the 98 scans."
   - "Sanskrit OCR/transliteration outside the selected excerpts from pages 5-7 remains unverified and may contain corrupted readings."
@@ -17,8 +17,8 @@ known_defects:
 unresolved_source_readings:
   - "Sanskrit citations and transliterations outside the selected excerpts on pages 5-7."
 qa_status: "partial"
-commit: "68b8f9be0ef97c9ba28f60e43846415db2cd33de"
-deployment: "GitHub Pages run 36690251264 succeeded for commit 68b8f9be0ef97c9ba28f60e43846415db2cd33de"
+commit: "b24775d3a911f1f88a8e3d4d3bb5d3033473b37b"
+deployment: "GitHub Pages run 36702520151 succeeded for commit b24775d3a911f1f88a8e3d4d3bb5d3033473b37b"
 ---
 
 ## Changes
@@ -27,11 +27,15 @@ deployment: "GitHub Pages run 36690251264 succeeded for commit 68b8f9be0ef97c9ba
 - Normalized Roman diacritics to the site's plain ASCII style and set this page's visible brand to Viveka Drishti.
 - Replaced OCR-corrupted Sanskrit snippets from source pages 5-7 with eight Devanagari passages in native Show Sanskrit controls.
 - Removed the 98 full-page scan images and their source-page disclosure controls. Kept the standalone cover illustration and ornaments diagram.
+- Rebuilt the bibliography from source pages 95-96 and formatted source-author pairs as `Work - Author`.
+- Formatted the Yoga Vasistha citation as `Yoga Vasistha - Valmiki, 2.18.3`, retaining its verse locator.
 
 ## Checks
 
 - Source pages 5-7 inspected at rendered resolution before adding the eight Sanskrit passages.
+- Bibliography on source pages 95-96 visually checked; all seven categories and 83 entries were transcribed into structured lists.
 - HTML parsed with balanced tags; the page contains eight Sanskrit controls and only the cover and standalone diagram images.
 - No full-page scan references or Latin diacritic characters remain in the rebuilt HTML.
+- Bibliography and source labels use plain ASCII transliteration; HTML markup remains balanced.
 - GitHub Pages build: succeeded for commit 68b8f9be0ef97c9ba28f60e43846415db2cd33de (run 36690251264).
 - Desktop/mobile screenshot review: unavailable; Chrome returned net::ERR_BLOCKED_BY_CLIENT.
