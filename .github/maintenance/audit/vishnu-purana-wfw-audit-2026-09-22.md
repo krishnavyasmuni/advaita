@@ -291,6 +291,20 @@ Book 3, Chapter 1 has received a verse-by-verse Sanskrit, translation, word-map,
 - At 3.1.36, the numbered witness and Śrīdhara read ākūtyām, Ākūti, in agreement with Wilson; the mūla transcription reads ākṛtyām. The page adopts Ākūti and records the variant.
 - The Jyotirdhāma gloss is placed under 3.1.18, where the name appears, though the Śrīdhara source marks it after 3.1.19. The fourteen-member gloss is placed with 3.1.21, not the entire 3.1.22–27 range, because 3.1.27 explicitly names groups of eight.
 - The page's Śrīdhara label is qualified as the Śrīdhara recension. Wilson records Ratnagarbha as the manuscript attribution for Book III, so the page note discloses the attribution conflict rather than presenting one as uncontested.
-- Chapter 1 controls follow the Chapter 1 Bhagavad Gītā reader sizing, including the 3px by 10px summary padding. Static checks found 46 IDs in order, 46 nonempty translations and Sanskrit blocks, balanced reader markup, no square brackets, and no caste wording in verse translations or word maps.
+- Chapter 1 controls follow the Chapter 1 Bhagavad Gītā reader sizing, including the 4px by 10px summary padding. Static checks found 46 IDs in order, 46 nonempty translations and Sanskrit blocks, balanced reader markup, no square brackets, and no caste wording in verse translations or word maps.
 
 Book 3 semantic review status: 46/837 verse articles across 1/18 chapters. The other 17 chapters remain to be reviewed. Continue with Book 3, Chapter 2. This semantic audit is separate from the baseline main-WFW panel count of 837/837.
+
+## Owner-directed Book 3 translation and commentary audit — 2026-09-30
+
+Book 3, Chapter 2 has received a verse-by-verse Sanskrit, translation, word-map, transliteration, and supplied Śrīdhara review against the pinned VishvAsa/Vasuki mūla, numbered witness, Śrīdhara commentary, Vasuki English witness, and Wilson at Wisdom Library and Sacred Texts.
+
+- Coverage: 62/62 contiguous verse articles; 62 Sanskrit blocks, English translations, main Word-for-word controls, and Transliteration controls; 244 main lexical rows.
+- Commentary: 27 source annotations are aligned and repeated wherever they apply, yielding 30 sourced commentary paragraphs across 27 verses; the other 35 verses display the exact No commentary. state. The 3.2.7 note applies to 3.2.6–7; the 3.2.53 note continues through 3.2.62; and the conclusion at 3.2.58 applies to 3.2.58–59.
+- Third-person references: at 3.2.1, Śrīdhara's summary describes Parāśara telling Maitreya the account of Sāvarṇi's origin. The Sun's son is Sāvarṇi. The source's āha markers at 3.2.47, 3.2.49, and 3.2.53 refer to Śrīdhara's explanatory voice; the English phrase maps name Śrīdhara directly.
+- At 3.2.13, savarṇa is translated as complexion or appearance. Caste is not used as its meaning in the translation or word map.
+- Textual decisions: the mūla reading bhartuḥ śuśrūṣaṇe is used at 3.2.3; the numbered witness tejo-niśātanam is used at 3.2.9; śibikā at 3.2.11 follows Śrīdhara's conveyance gloss; viṃśaka means twenty at 3.2.16; and the 3.2.17 list counts Vyāsa sixth and Ṛṣyaśṛṅga seventh. The page records differences from Wilson and Vasuki English at 3.2.19, 3.2.24–25, 3.2.27, 3.2.34, and 3.2.38, and numbered-witness spellings at 3.2.37, 3.2.43–45.
+- Reader sizing: same stylesheet links and reader styles as the Book 3, Chapter 1 Bhagavad Gītā template. Summaries are 12px with 4px by 10px padding; word rows are 15.5px desktop and 13.5px mobile.
+- Static validation passed: 62 contiguous IDs; 62 nonempty translations and Sanskrit blocks; 62 main word lists and 244 paired rows; 62 main Transliteration controls; 27 Śrīdhara Sanskrit details; 151 matched details and summaries; balanced 984 div openings and closings; no square brackets; and no caste wording in verse translations or word maps.
+
+Book 3 semantic review status: 108/837 verse articles across 2/18 chapters. Seventeen chapters remain. Continue with Book 3, Chapter 3. This semantic audit remains separate from the baseline main-WFW panel count of 837/837.

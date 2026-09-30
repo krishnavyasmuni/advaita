@@ -298,14 +298,22 @@ This release applies the Book 1, Chapter 1 reader standard across all 126 chapte
 This is a reader and markup correction, not semantic completion. The current coverage scan still finds 3,823 nonempty main-text WFW panels, 2,573 verses without a panel, and four explicit placeholder panels. Existing translations and lexical glosses still need source-based, verse-by-verse review. At the time of this 2026-09-26 release, the next full-corpus target was Book 6, Chapter 7, verse 106. The later owner-directed Book 3 audit below supersedes that cursor until Book 3 is complete.
 
 
-## Owner-directed Book 3 semantic audit — 2026-09-29
+## Owner-directed Book 3 semantic audit — 2026-09-30
 
 This pass reviews translations, Sanskrit, word maps, and supplied Śrīdhara material in Book 3. The earlier main-WFW coverage count of 837/837 indicates that controls exist; it does not certify their meaning.
 
-Book 3, Chapter 1 is complete: 46 contiguous verses, 46 English translations, 46 main Word-for-word controls with 189 lexical rows, and 46 Transliteration controls. Śrīdhara's 15 source annotations are aligned to the verses they explain and repeated under each applicable verse, yielding 20 sourced commentary cards and 26 cards with the exact No commentary. state. All reader controls use the Bhagavad Gītā Chapter 1 shared stylesheet sizes: 12px summaries with 3px by 10px padding, 15.5px desktop word rows, and 13.5px mobile word rows.
+Book 3, Chapter 1 is complete: 46 contiguous verses, 46 English translations, 46 main Word-for-word controls with 189 lexical rows, and 46 Transliteration controls. Śrīdhara's 15 source annotations are aligned to the verses they explain and repeated under each applicable verse, yielding 20 sourced commentary cards and 26 cards with the exact No commentary. state. All reader controls use the Bhagavad Gītā Chapter 1 shared stylesheet sizes: 12px summaries with 4px by 10px padding, 15.5px desktop word rows, and 13.5px mobile word rows.
 
 The Chapter 1 source note records the actual third-person author signature; distinguishes Maitreya as the subject of pṛcchati; names Śrīdhara as the subject of āha; and explains that the English gloss for darśayati used an unclear subject. It also records the conflict between the pinned Śrīdhara recension and Wilson's Ratnagarbha manuscript attribution for Book III.
 
-Text decisions recorded in the chapter include four varṇas for cāturvarṇya; the numbered and Śrīdhara reading ākūtyām, Ākūti, at 3.1.36 against the mūla transcription ākṛtyām; the 3.1.18 placement of the Jyotirdhāma gloss marked after verse 19 in the source; and the placement of the fourteen-member gloss at 3.1.21, where that count occurs, rather than across 3.1.22–27, whose verse 27 names groups of eight. The page note records additional readings at 3.1.6, 3.1.8, 3.1.11, 3.1.14, 3.1.18, 3.1.19, 3.1.22, 3.1.25, and 3.1.34.
+Text decisions recorded in Chapter 1 include four varṇas for cāturvarṇya; the numbered and Śrīdhara reading ākūtyām, Ākūti, at 3.1.36 against the mūla transcription ākṛtyām; the 3.1.18 placement of the Jyotirdhāma gloss marked after verse 19 in the source; and the placement of the fourteen-member gloss at 3.1.21, where that count occurs, rather than across 3.1.22–27, whose verse 27 names groups of eight. The page note records additional readings at 3.1.6, 3.1.8, 3.1.11, 3.1.14, 3.1.18, 3.1.19, 3.1.22, 3.1.25, and 3.1.34.
 
-Semantic review progress: 46 of 837 Book 3 verse articles, across 1 of 18 chapters. Next: Book 3, Chapter 2.
+Book 3, Chapter 2 is complete: 62 contiguous verses, 62 Sanskrit blocks, 62 English translations, 62 main Word-for-word controls with 244 lexical rows, and 62 Transliteration controls. The 27 sourced commentary annotations are aligned and repeated across their applicable verses, yielding 30 sourced commentary paragraphs and 35 exact No commentary. states.
+
+The Chapter 2 note clarifies the speaker at 3.2.1. Śrīdhara's summary describes Parāśara telling Maitreya the account of Sāvarṇi's origin. The Sun's son is Sāvarṇi. The third-person subject is Parāśara, not Śrīdhara. At 3.2.47, 3.2.49, and 3.2.53, the commentarial āha is rendered by naming Śrīdhara where the English would otherwise leave an unclear third-person subject. At 3.2.13, savarṇa is rendered as complexion or appearance, not caste. At 3.2.17, the translation counts the seven seers with Vyāsa sixth and Ṛṣyaśṛṅga seventh.
+
+Chapter 2's source note records the chosen readings and English divergences, including bhartuḥ śuśrūṣaṇe at 3.2.3, tejo-niśātanam at 3.2.9, śibikā as a conveyance at 3.2.11, twenty rather than Wilson's twenty-one at 3.2.16, the readings at 3.2.19, 3.2.24–25, 3.2.27, 3.2.34, and 3.2.37–45, and the 3.2.38 rendering of thirty-three divisions.
+
+Chapter 2 controls use the same Bhagavad Gītā Chapter 1 styles as Chapter 1: 12px summaries with 4px by 10px padding, 15.5px desktop word rows, and 13.5px mobile word rows. Static checks found 62 contiguous verse IDs, 62 translations and Sanskrit blocks, 62 main word lists with 244 rows, 62 Transliteration controls, 27 Śrīdhara Sanskrit details, 151 matched details and summaries, and balanced 984 opening and closing div tags. The main word lists do not translate varṇa as caste.
+
+Semantic review progress: 108 of 837 Book 3 verse articles, across 2 of 18 chapters. Next: Book 3, Chapter 3.
