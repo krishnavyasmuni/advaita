@@ -11,7 +11,7 @@
   if (canto === 1 || canto === 2)
     paths.push('/advaita/assets/data/bhagavatam-sridhara-wfw-cantos01-02-additions-20260916.json?v=20260916-1');
   if (canto === 3) paths.push(
-    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch01-verses01-45.json?v=20260929-c3-complete-1',
+    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch01-verses01-45.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch02-verses01-34.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch03-verses01-27.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch04-verses01-34.json?v=20260929-c3-complete-1',
@@ -21,14 +21,14 @@
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch08-verses01-33.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch09-verses01-43.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch10-verses01-25.json?v=20260929-c3-complete-1',
-    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch11-verses01-40.json?v=20260929-c3-complete-1',
-    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch12-verses01-42.json?v=20260929-c3-complete-1',
+    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch11-verses01-41.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1',
+    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch12-verses01-56.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch13-verses01-49.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch14-verses01-50.json?v=20260929-c3-complete-1',
-    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch15-verses01-49.json?v=20260929-c3-complete-1',
-    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch16-verses01-35.json?v=20260929-c3-complete-1',
+    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch15-verses01-50.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1',
+    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch16-verses01-37.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch17-verses01-30.json?v=20260929-c3-ch17-repair-1',
-    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch18-verses01-27.json?v=20260929-c3-complete-1',
+    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch18-verses01-28.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch19-verses01-38.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch20-verses01-51.json?v=20260929-c3-complete-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch21-verses01-52.json?v=20260929-c3-complete-1',

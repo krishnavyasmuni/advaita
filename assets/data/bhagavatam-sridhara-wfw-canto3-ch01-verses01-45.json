@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "status": "vishvasa-source-cleaned",
+  "status": "pinned-source-commentary-restored-word-for-word-review-pending",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/01_vidurasyoddhavena_saha_samAgamaH.md",
   "source_blob_sha": "53f97bcc137d3356aa67db17c0541c26303a89da",
   "editorial_note": "Śrīdhara Svāmī only. Non-Śrīdhara appended commentator sections are removed from reader data. Sanskrit remains keyed to the pinned vishvAsa/purANam_vaiShNavam source; fabricated placeholder English is not displayed.",
-  "scope": "ŚB 3.1.1–3.1.45; pinned source ranges and explicit no-commentary markers preserved.",
+  "scope": "ŚB 3.1.1–3.1.45; source gap removed at 3.1.22 after restoring the shared Śrīdhara–Viśvanātha note; 3.1.5 is explicitly un-commented.",
   "entries": [
     {
       "canto": 3,
@@ -302,16 +302,32 @@
       "start": 4,
       "end": 4,
       "source_marker": "३.१.४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "वरीयसि श्रेष्ठे । अल्पस्यार्थस्योदयो यस्मात् तथाभूतो न भवति । साधु-वादेन सताम् अनुमोदनेनोपबृंहितः संवर्धितः । यद्वा, साधोर् मैत्रेयस्य वादेनोत्तरेण श्लाघित इत्य् अर्थः ॥४॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "वरीयसि श्रेष्ठे",
+          "“variyasi” means excellent; superior"
+        ],
+        [
+          "अल्पस्यार्थस्योदयो यस्मात् तथाभूतो न भवति",
+          "because it does not arise from a matter of little importance"
+        ],
+        [
+          "साधु-वादेन सताम् अनुमोदनेनोपबृंहितः संवर्धितः",
+          "strengthened by the approval of good people"
+        ],
+        [
+          "यद्वा साधोर् मैत्रेयस्य वादेनोत्तरेण श्लाघित इत्य् अर्थः",
+          "or, praised by the answer of the saintly Maitreya"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved."
+      "literal_english": "“Variyasi” means excellent. The question is not about any small matter; it is strengthened by the approval of virtuous people. Alternatively, it is praised by the response of the saintly Maitreya.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "varīyasi śreṣṭhe | alpasyārthasyodayo yasmāt tathābhūto na bhavati | sādhu-vādena satām anumodanenopabṛṃhitaḥ saṃvardhitaḥ | yadvā, sādhor maitreyasya vādenottareṇa ślāghita ity arthaḥ ||4||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -319,16 +335,20 @@
       "start": 5,
       "end": 5,
       "source_marker": "३.१.५",
-      "sanskrit": "",
+      "sanskrit": "न कतमेनापि व्याख्यातम्।",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "न कतमेनापि व्याख्यातम्",
+          "No commentary is given by any commentator here."
         ]
       ],
-      "literal_english": "No commentary",
+      "literal_english": "The pinned witness explicitly says that no commentator has explained this verse.",
       "source_available": false,
-      "source_note": "Pinned source has no Śrīdhara commentary for 3.1.5 (it marks the verse as not explained); no gloss is invented."
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; explicit marker “न कतमेनापि व्याख्यातम्” preserved.",
+      "transliteration": [
+        "na katamenāpi vyākhyātam|"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1244,13 +1264,33 @@
       "start": 22,
       "end": 22,
       "source_marker": "३.१.२२",
-      "sanskrit": "",
-      "word_for_word": [],
-      "source_available": false,
-      "source_note": "Pinned corpus gives this block under a shared Śrīdhara/Viśvanātha attribution; omitted from the Śrīdhara-only reader rather than misattribute it.",
-      "transliteration": [],
-      "source_gap": true,
-      "pairs": []
+      "sanskrit": "त्रितादीनाम् एकादश-तीर्थानि तत्-तन्-नाम्ना प्रसिद्धान्य् आसेवितवान् ॥२२॥",
+      "word_for_word": [
+        [
+          "त्रितादीनाम्",
+          "of Trita and the others"
+        ],
+        [
+          "एकादश-तीर्थानि",
+          "eleven sacred places"
+        ],
+        [
+          "तत्-तन्-नाम्ना प्रसिद्धान्य्",
+          "renowned by their respective names"
+        ],
+        [
+          "आसेवितवान्",
+          "he visited"
+        ]
+      ],
+      "source_available": true,
+      "source_note": "Pinned source heading jointly attributes this passage to Śrīdhara Svāmī and Viśvanātha Cakravartī; exact shared commentary preserved.",
+      "transliteration": [
+        "tritādīnām ekādaśa-tīrthāni tat-tan-nāmnā prasiddhāny āsevitavān ||22||"
+      ],
+      "source_gap": false,
+      "pairs": [],
+      "literal_english": "The joint Śrīdhara–Viśvanātha note says that Vidura visited the eleven sacred places associated with Trita and the others, each renowned by its own name."
     },
     {
       "canto": 3,
@@ -2493,5 +2533,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-28"
+  "generated_at": "2026-09-30"
 }

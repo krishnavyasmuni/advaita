@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "status": "vishvasa-source-cleaned",
+  "status": "pinned-source-commentary-restored-word-for-word-review-pending",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/18_yuddham.md",
   "source_blob_sha": "841be36608563d030379e442096d3727203cbe17",
   "editorial_note": "Śrīdhara Svāmī only. Non-Śrīdhara appended commentator sections are removed from reader data. Sanskrit remains keyed to the pinned vishvAsa/purANam_vaiShNavam source; fabricated placeholder English is not displayed.",
-  "scope": "ŚB 3.18.1–3.18.27; pinned source ranges and explicit no-commentary markers preserved.",
+  "scope": "ŚB 3.18.1–3.18.28; explicit no-commentary marker at 3.18.16 preserved.",
   "entries": [
     {
       "canto": 3,
@@ -242,17 +242,44 @@
       "start": 5,
       "end": 5,
       "source_marker": "३.१८.५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अस्मद् भुज-च्युतयापि गदया अशीर्णं शीर्षं यस्य तथा-भूते त्वयि सुखं स्थिते सति ये तुभ्यम् अधुना बलिं हरन्ति नवीना भक्ताः, ये च पूर्वे भक्ता ऋषयो देवाश् च, ते सर्वे स्वयम् एवोद्यमं विनैवामूला न भविष्यन्ति, किन्तु दृढ-मूल एव भविष्यन्तीत्य् अर्थः ॥५॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "अस्मद् भुज-च्युतयापि गदया",
+          "even by the mace hurled from our arm"
+        ],
+        [
+          "अशीर्णं शीर्षं यस्य",
+          "whose head is unbroken"
+        ],
+        [
+          "तथा-भूते त्वयि सुखं स्थिते सति",
+          "while you remain safe in that condition"
+        ],
+        [
+          "ये तुभ्यम् अधुना बलिं हरन्ति नवीना भक्ताः",
+          "the new devotees who now bring offerings to you"
+        ],
+        [
+          "ये च पूर्वे भक्ता ऋषयो देवाश् च",
+          "and the former devotees, sages and gods"
+        ],
+        [
+          "ते सर्वे स्वयम् एवोद्यमं विनैवामूला न भविष्यन्ति",
+          "they will not become rootless, even without their own effort"
+        ],
+        [
+          "किन्तु दृढ-मूल एव भविष्यन्तीत्य् अर्थः",
+          "rather, they will be firmly rooted; that is the meaning"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "If you remain unharmed, your head unbroken even by the mace hurled from our arm, then both the new devotees now bringing offerings to you and the former devotees—the sages and gods—will not become rootless. They will be firmly rooted without needing to exert themselves. That is the meaning.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "asmad bhuja-cyutayāpi gadayā aśīrṇaṃ śīrṣaṃ yasya tathā-bhūte tvayi sukhaṃ sthite sati ye tubhyam adhunā baliṃ haranti navīnā bhaktāḥ, ye ca pūrve bhaktā ṛṣayo devāś ca, te sarve svayam evodyamaṃ vinaivāmūlā na bhaviṣyanti, kintu dṛḍha-mūla eva bhaviṣyantīty arthaḥ ||5||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -344,17 +371,44 @@
       "start": 8,
       "end": 8,
       "source_marker": "३.१८.८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "स भगवान् विश्व-सृजाभिष्टुतो विबुधैश् च प्रसूनैर् आपूर्यमाणः । पाठान्तरे विश्व-सृजां प्रसूनैर् विबुधैर् अभिष्टुत इति । सलिलस्योदस्ताद् उपरि व्यवहार-गोचरे देशे गां पृथ्वीं विन्यस्य तस्यां स्व-सत्त्वम् आधार-शक्तिं निहितवान् । अरेस् तस्य पश्यत एव ॥८॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "स भगवान् विश्व-सृजाभिष्टुतो",
+          "that Lord, praised by the creator"
+        ],
+        [
+          "विबुधैश् च प्रसूनैर् आपूर्यमाणः",
+          "being showered with flowers by the gods"
+        ],
+        [
+          "पाठान्तरे विश्व-सृजां प्रसूनैर् विबुधैर् अभिष्टुत इति",
+          "in another reading, “praised by the creator’s flowers and by the gods”"
+        ],
+        [
+          "सलिलस्योदस्ताद् उपरि",
+          "above the waters"
+        ],
+        [
+          "व्यवहार-गोचरे देशे गां पृथ्वीं विन्यस्य",
+          "placing the Earth in a habitable region"
+        ],
+        [
+          "तस्यां स्व-सत्त्वम् आधार-शक्तिं निहितवान्",
+          "He placed His own supporting potency in her"
+        ],
+        [
+          "अरेस् तस्य पश्यत एव",
+          "while that enemy was watching"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "The Lord was praised by the creator, and the gods showered Him with flowers. He placed the Earth in an inhabitable place above the waters and placed His own supporting potency within her, as that enemy watched.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "sa bhagavān viśva-sṛjābhiṣṭuto vibudhaiś ca prasūnair āpūryamāṇaḥ | pāṭhāntare viśva-sṛjāṃ prasūnair vibudhair abhiṣṭuta iti | salilasyodastād upari vyavahāra-gocare deśe gāṃ pṛthvīṃ vinyasya tasyāṃ sva-sattvam ādhāra-śaktiṃ nihitavān | ares tasya paśyata eva ||8||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -442,17 +496,36 @@
       "start": 11,
       "end": 11,
       "source_marker": "३.१८.११",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "न्यास-हरा निक्षेप-हराः । द्राविताः पलायनं कारिताः । अथाप्य् असमर्था अपि तिष्ठामः । तत् किम् ? यतः स्थेयं स्थातव्यम् एवास्माभिः । तत् किम् ? इत्य् अत आह---क्व यामः ? गन्तव्य-देशाभावात् ॥११॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "न्यास-हरा निक्षेप-हराः",
+          "“nyāsa-hara” means thieves of deposits"
+        ],
+        [
+          "द्राविताः पलायनं कारिताः",
+          "“drāvita” means made to flee"
+        ],
+        [
+          "अथाप्य् असमर्था अपि तिष्ठामः",
+          "even though we are powerless, we still remain"
+        ],
+        [
+          "यतः स्थेयं स्थातव्यम् एवास्माभिः",
+          "because we have to remain"
+        ],
+        [
+          "क्व यामः ? गन्तव्य-देशाभावात्",
+          "where can we go? There is no place to go"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "“Nyāsa-hara” means a thief of deposited property. “Drāvita” means driven to flee. Though unable, we still stand our ground. Why? Because we must remain. Why? “Where can we go?” There is nowhere to go.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "nyāsa-harā nikṣepa-harāḥ | drāvitāḥ palāyanaṃ kāritāḥ | athāpy asamarthā api tiṣṭhāmaḥ | tat kim ? yataḥ stheyaṃ sthātavyam evāsmābhiḥ | tat kim ? ity ata āha---kva yāmaḥ ? gantavya-deśābhāvāt ||11||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -460,17 +533,40 @@
       "start": 12,
       "end": 12,
       "source_marker": "३.१८.१२",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "पद्-रथानां पदातीनां ये यूथ-पास् तेषाम् अधिपः । मुख्य इत्य् अर्थः । अस्वस्तये पराभवार्थम् आशु घटस्व यतस्व । अनूहो निर्वितर्कः । यो नातिपिपर्ति न पूरयति पालयति वा असाव् असभ्यः सभायाम् अनर्हः ॥१२॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "पद्-रथानां पदातीनां",
+          "“pad-ratha” means foot soldiers"
+        ],
+        [
+          "ये यूथ-पास् तेषाम् अधिपः मुख्य इत्य् अर्थः",
+          "their group leader is their chief; that is the meaning"
+        ],
+        [
+          "अस्वस्तये पराभवार्थम् आशु घटस्व यतस्व",
+          "for our defeat; quickly make an effort"
+        ],
+        [
+          "अनूहो निर्वितर्कः",
+          "“anūha” means without deliberation"
+        ],
+        [
+          "यो नातिपिपर्ति न पूरयति पालयति वा",
+          "one who does not fulfill, complete, or keep [his word]"
+        ],
+        [
+          "असाव् असभ्यः सभायाम् अनर्हः",
+          "such a one is unfit for an assembly"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "“Pad-rathas” means foot soldiers; their leader is their commander. “Aśvastaye” means for defeat; strive quickly. “Anūha” means without deliberation. One who does not fulfill or keep his word is “asabhyā,” unfit for an assembly.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "pad-rathānāṃ padātīnāṃ ye yūtha-pās teṣām adhipaḥ | mukhya ity arthaḥ | asvastaye parābhavārtham āśu ghaṭasva yatasva | anūho nirvitarkaḥ | yo nātipiparti na pūrayati pālayati vā asāv asabhyaḥ sabhāyām anarhaḥ ||12||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -478,17 +574,28 @@
       "start": 13,
       "end": 13,
       "source_marker": "३.१८.१३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "सोऽधिक्षिप्तः सत्यं वयम् इति श्लोकेन । रुषा प्रलब्ध उपहसितश् च एते वयम् इति द्वाभ्याम् । क्रीडां कार्यमाणोऽहि-राट् महा-सर्प इव ॥१३॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "सोऽधिक्षिप्तः सत्यं वयम् इति श्लोकेन",
+          "he was rebuked by the verse beginning “We are indeed”"
+        ],
+        [
+          "रुषा प्रलब्ध उपहसितश् च एते वयम् इति द्वाभ्याम्",
+          "mocked in anger by the two verses beginning “These are we”"
+        ],
+        [
+          "क्रीडां कार्यमाणोऽहि-राट् महा-सर्प इव",
+          "like a king of serpents being made to perform"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "He was rebuked by the verse beginning “We are indeed...” and mocked in anger by the two verses beginning “These are we...” He was like a king of serpents being made to perform.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "so’dhikṣiptaḥ satyaṃ vayam iti ślokena | ruṣā pralabdha upahasitaś ca ete vayam iti dvābhyām | krīḍāṃ kāryamāṇo’hi-rāṭ mahā-sarpa iva ||13||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -496,17 +603,20 @@
       "start": 14,
       "end": 14,
       "source_marker": "३.१८.१४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "मन्युना प्रचलितानि क्षुभितानीन्द्रियाणि यस्य ॥१४॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "मन्युना प्रचलितानि क्षुभितानीन्द्रियाणि यस्य",
+          "whose senses were moved and agitated by anger"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "“Whose senses were agitated” means whose senses were shaken by anger.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "manyunā pracalitāni kṣubhitānīndriyāṇi yasya ||14||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -514,17 +624,20 @@
       "start": 15,
       "end": 15,
       "source_marker": "३.१८.१५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अन्तकं मृत्युम् ॥१५॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "अन्तकं मृत्युम्",
+          "“antaka” means death"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "“Antaka” means death.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "antakaṃ mṛtyum ||15||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -545,17 +658,24 @@
       "start": 17,
       "end": 17,
       "source_marker": "३.१८.१७",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "सौम्य विदुर । तां गदाम् अप्राप्ताम् एवाहनत् ॥१७॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "सौम्य विदुर",
+          "O gentle Vidura"
+        ],
+        [
+          "तां गदाम् अप्राप्ताम् एवाहनत्",
+          "he struck that mace before it had reached him"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "“O gentle Vidura.” He struck that mace before it reached him.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "saumya vidura | tāṃ gadām aprāptām evāhanat ||17||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -563,17 +683,20 @@
       "start": 18,
       "end": 18,
       "source_marker": "३.१८.१८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "हर्यक्षो हिरण्याक्षः ॥१८॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "हर्यक्षो हिरण्याक्षः",
+          "“Haryakṣa” means Hiraṇyākṣa"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "“Haryakṣa” means Hiraṇyākṣa.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "haryakṣo hiraṇyākṣaḥ ||18||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -581,17 +704,56 @@
       "start": 19,
       "end": 19,
       "source_marker": "३.१८.१९",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "स्पृधोः स्पर्धमानयोः । तिग्माभ्यां गदाभ्याम् आहतान्य् अङ्गानि, तयोः क्षताद् आस्रवतीति क्षतास्रवं रुधिरं, तस्य घ्राणम् अवघ्राणं, तेन विवृद्धो मन्युर् ययोः । विचित्रान् मार्गान् गदा-युद्ध-भ्रमण-भेदान् । इला गौः, तस्यां निमित्त-भूतायां शुष्मिणोः मत्तयोर् वृषभयोः । प्रस्तुतेऽपि इला पृथ्वी, तद्-अर्थम् । वृषभौ हि खलु बहूनि दिनानि सङ्ग्रथितोत्तुङ्ग-शृङ्ग-संहर्ष-विदीर्णाङ्ग-गलद्-रुधिरौ परस्परोपमर्द-व्यग्रोग्र-संरम्भौ चमत्कारित-गज-यूथपौ युध्यमानौ तिष्ठत इति प्रसिद्धम् ॥१९॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "स्पृधोः स्पर्धमानयोः",
+          "of the two rivals, competing with each other"
+        ],
+        [
+          "तिग्माभ्यां गदाभ्याम् आहतान्य् अङ्गानि",
+          "whose limbs were struck by sharp maces"
+        ],
+        [
+          "तयोः क्षताद् आस्रवतीति क्षतास्रवं रुधिरं",
+          "blood flowing from the wounds of the two"
+        ],
+        [
+          "तस्य घ्राणम् अवघ्राणं",
+          "the smelling of that blood"
+        ],
+        [
+          "तेन विवृद्धो मन्युर् ययोः",
+          "whose anger was increased by it"
+        ],
+        [
+          "विचित्रान् मार्गान् गदा-युद्ध-भ्रमण-भेदान्",
+          "varied movements and patterns of mace fighting"
+        ],
+        [
+          "इला गौः",
+          "“ilā” means a cow"
+        ],
+        [
+          "तस्यां निमित्त-भूतायां शुष्मिणोः मत्तयोर् वृषभयोः",
+          "as the example, of two enraged bulls"
+        ],
+        [
+          "प्रस्तुतेऽपि इला पृथ्वी तद्-अर्थम्",
+          "in the present context, “ilā” also means the Earth"
+        ],
+        [
+          "वृषभौ हि खलु बहूनि दिनानि सङ्ग्रथितोत्तुङ्ग-शृङ्ग-संहर्ष-विदीर्णाङ्ग-गलद्-रुधिरौ परस्परोपमर्द-व्यग्रोग्र-संरम्भौ चमत्कारित-गज-यूथपौ युध्यमानौ तिष्ठत इति प्रसिद्धम्",
+          "it is well known that two bulls fight on, their high horns locked for many days, bodies torn and bleeding, fiercely intent on crushing one another and astounding a herd of elephants"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "The two rivals are the two who compete with one another. Their limbs were struck by sharp maces; from their wounds flowed blood, whose smell increased their anger. They moved in varied patterns of mace combat. “Ila” means a cow, and as an example it refers to two enraged bulls. In this passage “Ila” also means the Earth. It is well known that two bulls, locked together for many days, their tall horns clashing, their bodies torn and blood flowing, fiercely intent on crushing each other, astonish a herd of elephants as they continue fighting.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "spṛdhoḥ spardhamānayoḥ | tigmābhyāṃ gadābhyām āhatāny aṅgāni, tayoḥ kṣatād āsravatīti kṣatāsravaṃ rudhiraṃ, tasya ghrāṇam avaghrāṇaṃ, tena vivṛddho manyur yayoḥ | vicitrān mārgān gadā-yuddha-bhramaṇa-bhedān | ilā gauḥ, tasyāṃ nimitta-bhūtāyāṃ śuṣmiṇoḥ mattayor vṛṣabhayoḥ | prastute’pi ilā pṛthvī, tad-artham | vṛṣabhau hi khalu bahūni dināni saṅgrathitottuṅga-śṛṅga-saṃharṣa-vidīrṇāṅga-galad-rudhirau parasparopamarda-vyagrogra-saṃrambhau camatkārita-gaja-yūthapau yudhyamānau tiṣṭhata iti prasiddham ||19||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -687,17 +849,52 @@
       "start": 22,
       "end": 23,
       "source_marker": "३.१८.२२-२३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "हे देव ! तेऽङ्घ्रि-मूलं प्राप्तानां देवादीनाम् । एषोऽसुरः ॥२२॥ आगस्-कृद् वृथैवापराधारोपकः । तत् परिहाराय प्रवृत्तौ भय-कृत् । भीतं ज्ञात्वा दुष्कृद् अर्थ-प्राणादि-हर्ता । अस्मत्तो राद्धो लब्धो वरो येन । अन्वेषन् प्रतिरथम् अवलोकयन् । अप्रतिरथः प्रतिपक्ष-शून्यः ॥२३॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "हे देव",
+          "O Lord"
+        ],
+        [
+          "तेऽङ्घ्रि-मूलं प्राप्तानां देवादीनाम्",
+          "among those such as the gods who have reached the root of Your feet"
+        ],
+        [
+          "एषोऽसुरः",
+          "this demon"
+        ],
+        [
+          "आगस्-कृद् वृथैवापराधारोपकः",
+          "“āgas-kṛt” means one who falsely accuses others of offenses"
+        ],
+        [
+          "तत् परिहाराय प्रवृत्तौ भय-कृत्",
+          "when they try to redress that, he causes fear"
+        ],
+        [
+          "भीतं ज्ञात्वा दुष्कृद् अर्थ-प्राणादि-हर्ता",
+          "knowing them to be afraid, he does harm, taking wealth, life, and the like"
+        ],
+        [
+          "अस्मत्तो राद्धो लब्धो वरो येन",
+          "he is one who obtained a boon from us"
+        ],
+        [
+          "अन्वेषन् प्रतिरथम् अवलोकयन्",
+          "“anveṣan” means looking for an opponent"
+        ],
+        [
+          "अप्रतिरथः प्रतिपक्ष-शून्यः",
+          "“apratiratha” means without an adversary"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "“O Lord, this demon is among those who have reached the root of Your feet, such as the gods. He falsely accuses others of offenses; when they try to redress them, he causes fear. Knowing them to be frightened, he commits harm and takes their wealth, lives, and the like. He has received a boon from us. “Anveṣan” means looking for an opponent; “apratiratha” means having no rival.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "he deva ! te’ṅghri-mūlaṃ prāptānāṃ devādīnām | eṣo’suraḥ ||22|| āgas-kṛd vṛthaivāparādhāropakaḥ | tat parihārāya pravṛttau bhaya-kṛt | bhītaṃ jñātvā duṣkṛd artha-prāṇādi-hartā | asmatto rāddho labdho varo yena | anveṣan pratiratham avalokayan | apratirathaḥ pratipakṣa-śūnyaḥ ||23||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -845,18 +1042,29 @@
       "start": 28,
       "end": 28,
       "source_marker": "३.१८.२८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "त्वां मृत्युं त्वयैव शापानुग्रह-काले विहितं निर्मितम् । आसादितः प्राप्तः । शर्मणि सुखे आघेहि स्थापय ॥२८॥",
       "word_for_word": [
         [
-          "na vyākhyātam",
-          "No commentary"
+          "त्वां मृत्युं त्वयैव शापानुग्रह-काले विहितं निर्मितम्",
+          "you, as death, were appointed by yourself at the time of the curse and boon"
+        ],
+        [
+          "आसादितः प्राप्तः",
+          "“āsādita” means reached"
+        ],
+        [
+          "शर्मणि सुखे आघेहि स्थापय",
+          "“āghehi” means place in happiness"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; source range preserved.",
-      "transliteration": []
+      "literal_english": "“You were appointed as death by yourself at the time of the curse and its boon.” “Āsādita” means reached. “Āghehi” means place in happiness.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "tvāṃ mṛtyuṃ tvayaiva śāpānugraha-kāle vihitaṃ nirmitam | āsāditaḥ prāptaḥ | śarmaṇi sukhe āghehi sthāpaya ||28||"
+      ],
+      "source_gap": false
     }
   ],
-  "generated_at": "2026-09-28"
+  "generated_at": "2026-09-30"
 }

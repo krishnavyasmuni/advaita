@@ -10316,30 +10316,26 @@
     {
       "id": "canto-3-chapter-1-release",
       "range": "ŚB 3.1.1–3.1.45",
-      "status": "source-checked-and-wfw-repaired",
+      "status": "pinned-source-commentary-restored-word-for-word-review-pending",
       "english_source": "https://vedabase.io/en/library/sb/3/1/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/01.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "53f97bcc137d3356aa67db17c0541c26303a89da",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/01_vidurasyoddhavena_saha_samAgamaH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch01-verses01-45.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch01-verses01-45.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1"
       ],
       "records_checked": 45,
-      "exact_sridhara_source_blocks": 43,
+      "exact_sridhara_source_blocks": 44,
       "no_commentary_ranges": [
-        "3.1.4",
         "3.1.5"
       ],
-      "source_gap_ranges": [
-        "3.1.4",
-        "3.1.5"
-      ],
+      "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-22",
-      "notes": "Canto 3.1 source blocks were re-audited against the pinned file. All 43 supplied Śrīdhara blocks now have source-bound phrase glosses and close English translations; 3.1.4 and 3.1.5 are explicit no-commentary records.",
-      "repaired_at": "2026-09-23",
-      "repair_note": "Replaced all generated filler in 3.1; restored missing source blocks at 3.1.6–3.1.15, 3.1.22–3.1.24, 3.1.34, 3.1.38 and 3.1.43; preserved exact no-commentary sentinels at 3.1.4 and 3.1.5. IAST keys and full source transliteration audited on 2026-09-23.",
+      "generated_at": "2026-09-30",
+      "notes": "Restored 3 source-backed Śrīdhara commentary passages previously marked as no-commentary. Remaining no-commentary markers and source gaps follow the pinned source. Phrase glosses are present for restored passages; complete chapter word-for-word and live-render review remains pending.",
+      "repaired_at": "2026-09-30",
+      "repair_note": "Restored source-pinned Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English.",
       "word_for_word_status": "lexical-pairs-reviewed"
     },
     {
@@ -10595,26 +10591,24 @@
     {
       "id": "canto-3-chapter-11-release",
       "range": "ŚB 3.11.1–3.11.41",
-      "status": "source-checked-and-wfw-repaired",
+      "status": "pinned-source-commentary-restored-word-for-word-review-pending",
       "english_source": "https://vedabase.io/en/library/sb/3/11/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/11_Ayur-varNanam.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "6c61e8f3a5389ddb7667e788513bb4b7898a8383",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/11_Ayur-varNanam.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch11-verses01-40.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch11-verses01-41.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1"
       ],
-      "records_checked": 40,
-      "exact_sridhara_source_blocks": 39,
-      "no_commentary_ranges": [
-        "3.11.19"
-      ],
+      "records_checked": 41,
+      "exact_sridhara_source_blocks": 40,
+      "no_commentary_ranges": [],
       "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-23",
-      "notes": "All 41 numbered verses are covered by 40 source-bound records; the pinned grouped range 3.11.40–3.11.41 is preserved, and 3.11.19 is the exact no-commentary marker.",
-      "repaired_at": "2026-09-23",
-      "repair_note": "Replaced all 39 commentary-wide pseudo-pairs with independent IAST phrase-level word-for-word glosses; retained exact pinned Sanskrit, 40 source-bound records, grouped 3.11.40–3.11.41, and explicit no-commentary 3.11.19.",
+      "generated_at": "2026-09-30",
+      "notes": "Restored 1 source-backed Śrīdhara commentary passages previously marked as no-commentary. Remaining no-commentary markers and source gaps follow the pinned source. Phrase glosses are present for restored passages; complete chapter word-for-word and live-render review remains pending.",
+      "repaired_at": "2026-09-30",
+      "repair_note": "Restored source-pinned Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English.",
       "numbered_verses": 41,
       "supplementary_source_blocks": [],
       "word_for_word_status": "lexical-pairs-reviewed",
@@ -10623,17 +10617,17 @@
     {
       "id": "canto-3-chapter-12-release",
       "range": "ŚB 3.12.1–3.12.56",
-      "status": "source-checked-and-wfw-repaired",
+      "status": "pinned-source-commentary-restored-word-for-word-review-pending",
       "english_source": "https://vedabase.io/en/library/sb/3/12/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/12_vedAdy-utpattiH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "c713003fd7afde63fb03517b3099caba6b5f3355",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/12_vedAdy-utpattiH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch12-verses01-42.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch12-verses01-56.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1"
       ],
-      "records_checked": 53,
-      "exact_sridhara_source_blocks": 36,
+      "records_checked": 56,
+      "exact_sridhara_source_blocks": 38,
       "no_commentary_ranges": [
         "3.12.8",
         "3.12.9",
@@ -10647,18 +10641,16 @@
         "3.12.25",
         "3.12.27",
         "3.12.29",
-        "3.12.30",
-        "3.12.31",
         "3.12.32",
         "3.12.39",
         "3.12.55"
       ],
       "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-23",
-      "notes": "All 56 numbered verses are covered by 53 source-bound records; grouped source ranges 3.12.20–3.12.21, 3.12.23–3.12.24, and 3.12.46–3.12.47 are preserved. Explicit no-commentary markers are kept separate from source gaps.",
-      "repaired_at": "2026-09-23",
-      "repair_note": "Replaced all 36 commentary-wide pseudo-pairs with independent IAST phrase-level word-for-word glosses; retained exact pinned Sanskrit, 53 source-bound records, grouped ranges, and explicit no-commentary markers.",
+      "generated_at": "2026-09-30",
+      "notes": "Restored 2 source-backed Śrīdhara commentary passages previously marked as no-commentary. Remaining no-commentary markers and source gaps follow the pinned source. Phrase glosses are present for restored passages; complete chapter word-for-word and live-render review remains pending.",
+      "repaired_at": "2026-09-30",
+      "repair_note": "Restored source-pinned Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English.",
       "numbered_verses": 56,
       "supplementary_source_blocks": [],
       "word_for_word_status": "lexical-pairs-reviewed",
@@ -10725,28 +10717,24 @@
     {
       "id": "canto-3-chapter-15-release",
       "range": "ŚB 3.15.1–3.15.50",
-      "status": "source-checked-and-wfw-repaired",
+      "status": "pinned-source-commentary-restored-word-for-word-review-pending",
       "english_source": "https://vedabase.io/en/library/sb/3/15/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/15_vaikuNTha-dhAma.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "16960a0b503fe1dfc7d902f51ff36d26472f3490",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/15_vaikuNTha-dhAma.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch15-verses01-49.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch15-verses01-50.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1"
       ],
-      "records_checked": 49,
-      "exact_sridhara_source_blocks": 46,
-      "no_commentary_ranges": [
-        "3.15.12",
-        "3.15.29",
-        "3.15.34"
-      ],
+      "records_checked": 50,
+      "exact_sridhara_source_blocks": 49,
+      "no_commentary_ranges": [],
       "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-23",
-      "notes": "All 50 numbered verses are covered by 49 source-bound records; the pinned grouped range 3.15.6–3.15.7 is preserved. Explicit no-commentary markers are kept separate from source gaps.",
-      "repaired_at": "2026-09-23",
-      "repair_note": "Replaced 215 filler rows and 47 pseudo-pairs, corrected the previously missed explicit no-commentary range 3.15.34, preserved the grouped source range, and added reviewed IAST lexical pairs.",
+      "generated_at": "2026-09-30",
+      "notes": "Restored 3 source-backed Śrīdhara commentary passages previously marked as no-commentary. Remaining no-commentary markers and source gaps follow the pinned source. Phrase glosses are present for restored passages; complete chapter word-for-word and live-render review remains pending.",
+      "repaired_at": "2026-09-30",
+      "repair_note": "Restored source-pinned Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English.",
       "numbered_verses": 50,
       "supplementary_source_blocks": [],
       "word_for_word_status": "lexical-pairs-reviewed",
@@ -10755,30 +10743,26 @@
     {
       "id": "canto-3-chapter-16-release",
       "range": "ŚB 3.16.1–3.16.37",
-      "status": "source-checked-and-wfw-repaired",
+      "status": "pinned-source-commentary-restored-word-for-word-review-pending",
       "english_source": "https://vedabase.io/en/library/sb/3/16/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/16_jaya-vijayayoH_patanam.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "4f03604900936a17d2800fc159373eb86f7e2c75",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/16_jaya-vijayayoH_patanam.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch16-verses01-35.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch16-verses01-37.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1"
       ],
-      "records_checked": 35,
-      "exact_sridhara_source_blocks": 30,
+      "records_checked": 37,
+      "exact_sridhara_source_blocks": 34,
       "no_commentary_ranges": [
-        "3.16.2–3.16.3",
-        "3.16.4",
-        "3.16.12",
-        "3.16.32",
-        "3.16.34"
+        "3.16.32"
       ],
       "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-23",
-      "notes": "All 37 numbered verses are covered by 35 source-bound records; grouped ranges 3.16.2–3.16.3 and 3.16.27–3.16.28 are preserved. Explicit no-commentary markers are kept separate from source gaps.",
-      "repaired_at": "2026-09-23",
-      "repair_note": "Replaced 129 filler rows across 27 records, corrected the no-commentary ranges, preserved both grouped source ranges, and replaced every supplied commentary-wide pseudo-pair with reviewed IAST lexical pairs. IAST keys and full source transliteration audited on 2026-09-23.",
+      "generated_at": "2026-09-30",
+      "notes": "Restored 4 source-backed Śrīdhara commentary passages previously marked as no-commentary. Remaining no-commentary markers and source gaps follow the pinned source. Phrase glosses are present for restored passages; complete chapter word-for-word and live-render review remains pending.",
+      "repaired_at": "2026-09-30",
+      "repair_note": "Restored source-pinned Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English.",
       "numbered_verses": 37,
       "supplementary_source_blocks": [],
       "word_for_word_status": "lexical-pairs-reviewed"
@@ -10818,38 +10802,27 @@
     },
     {
       "id": "canto-3-chapter-18-release",
-      "range": "ŚB 3.18.1–3.18.27",
-      "status": "source-checked-and-wfw-repaired",
+      "range": "ŚB 3.18.1–3.18.28",
+      "status": "pinned-source-commentary-restored-word-for-word-review-pending",
       "english_source": "https://vedabase.io/en/library/sb/3/18/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/18.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "841be36608563d030379e442096d3727203cbe17",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/18_yuddham.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch18-verses01-27.json?v=20260926-c3-ch18-no-commentary-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch18-verses01-28.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1"
       ],
-      "records_checked": 27,
-      "exact_sridhara_source_blocks": 14,
+      "records_checked": 28,
+      "exact_sridhara_source_blocks": 26,
       "no_commentary_ranges": [
-        "3.18.5",
-        "3.18.8",
-        "3.18.11",
-        "3.18.12",
-        "3.18.13",
-        "3.18.14",
-        "3.18.15",
-        "3.18.16",
-        "3.18.17",
-        "3.18.18",
-        "3.18.19",
-        "3.18.22"
+        "3.18.16"
       ],
       "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-22",
-      "notes": "Pinned source at the corrected source path confirms 3.18.16 explicitly has no commentary (“न कतमेनापि व्याख्यातम्”), not a missing block. Chapter remains source-aligned and filler-free; live render remains unverified.",
-      "repaired_at": "2026-09-23",
-      "repair_note": "Replaced generated filler rows in all available commentary blocks with independent IAST phrase-level glosses and faithful English renderings. The pinned source block for 3.18.16 is empty and remains explicitly tracked as a source gap; no-commentary ranges remain separate.",
+      "generated_at": "2026-09-30",
+      "notes": "Restored 12 source-backed Śrīdhara commentary passages previously marked as no-commentary. Remaining no-commentary markers and source gaps follow the pinned source. Phrase glosses are present for restored passages; complete chapter word-for-word and live-render review remains pending.",
+      "repaired_at": "2026-09-30",
+      "repair_note": "Restored source-pinned Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English.",
       "word_for_word_status": "lexical-pairs-reviewed",
       "pseudo_word_for_word_pairs_remaining": 0
     },
