@@ -42,7 +42,7 @@
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch29-verses01-42.json?v=20260930-c3-ch29-commentary-restore-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch30-verses01-31.json?v=20260930-c3-ch30-commentary-restore-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch31-verses01-42.json?v=20260930-c3-ch31-range-coverage-1',
-    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-43.json?v=20260930-c3-ch32-33-commentary-restore-1',
+    '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-43.json?v=20260930-c3-ch32-no-commentary-classification-1',
     '/advaita/assets/data/bhagavatam-sridhara-wfw-canto3-ch33-verses01-37.json?v=20260930-c3-ch32-33-commentary-restore-1'
   );
   if (canto === 10) paths.push(

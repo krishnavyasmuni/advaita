@@ -10370,9 +10370,7 @@
       "no_commentary_ranges": [
         "3.3.25"
       ],
-      "source_gap_ranges": [
-        "3.3.25"
-      ],
+      "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Canto 3.3 was re-audited against the pinned file. The reader preserves grouped source range 3.3.20–3.3.21; 3.3.25 is the only explicit no-commentary range.",
@@ -10398,9 +10396,7 @@
       "no_commentary_ranges": [
         "3.4.27"
       ],
-      "source_gap_ranges": [
-        "3.4.27"
-      ],
+      "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-22",
       "notes": "Chapter source and commentary alignment checked against the pinned source; 34 reader records cover 36 numbered verses because 3.4.33–3.4.35 is one grouped commentary record.",
@@ -11548,19 +11544,19 @@
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-43.json?v=20260930-c3-ch32-33-commentary-restore-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-43.json?v=20260930-c3-ch32-no-commentary-classification-1"
       ],
       "records_checked": 43,
       "exact_sridhara_source_blocks": 37,
-      "no_commentary_ranges": [],
-      "source_gap_ranges": [
+      "no_commentary_ranges": [
         "3.32.15"
       ],
+      "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-30",
-      "notes": "Restored 10 Śrīdhara commentary blocks that had been mislabeled as no-commentary. The pinned source has a genuine gap at 3.32.15. Phrase glosses are present for the restored blocks; full chapter word-for-word and live-render review remains pending.",
+      "notes": "Restored ten Śrīdhara commentary blocks that had been mislabeled as no-commentary. At 3.32.15, the pinned source says the other three commentators did not explain the verse, so the reader records it as explicit no-commentary rather than a source gap. Phrase glosses for the restored blocks are present; full chapter word-for-word review remains pending.",
       "repaired_at": "2026-09-30",
-      "repair_note": "Restored Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English from the pinned source."
+      "repair_note": "Restored Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English from the pinned source. Reclassified 3.32.15 from source gap to explicit no-commentary after verifying the marker अन्यैस् त्रिभिर्न व्याख्यातम् in the pinned source."
     },
     {
       "id": "canto-3-chapter-33-release",

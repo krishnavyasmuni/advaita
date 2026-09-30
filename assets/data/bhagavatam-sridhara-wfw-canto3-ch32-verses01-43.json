@@ -5,8 +5,8 @@
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
   "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
-  "editorial_note": "Śrīdhara Svāmī only. Sanskrit is keyed to the pinned VishvAsa/Vasuki source; phrase-level glosses and literal English are source-bound. Explicit source gaps remain marked rather than filled.",
-  "scope": "ŚB 3.32.1–3.32.43; all 37 Śrīdhara commentary blocks restored, with the source gap at 3.32.15 preserved.",
+  "editorial_note": "Śrīdhara Svāmī only. Sanskrit is keyed to the pinned source; phrase-level glosses and literal English are source-bound. The explicit no-commentary marker at 3.32.15 is preserved; genuine source gaps remain marked separately.",
+  "scope": "ŚB 3.32.1–3.32.43; all 37 Śrīdhara commentary blocks restored, with 3.32.15 explicitly recorded as not explained by the other three commentators.",
   "entries": [
     {
       "canto": 3,
@@ -506,11 +506,16 @@
       "start": 15,
       "end": 15,
       "source_marker": "३.३२.१५",
-      "sanskrit": "",
-      "word_for_word": [],
+      "sanskrit": "अन्यैस् त्रिभिर्न व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "anyais tribhir na vyākhyātam",
+          "Not explained by the other three commentators"
+        ]
+      ],
       "source_available": false,
-      "source_note": "No Śrīdhara commentary block is present for this range in the pinned source.",
-      "source_gap": true
+      "source_note": "Pinned source: vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; under 3.32.15, following Madhva’s note, the source states अन्यैस् त्रिभिर्न व्याख्यातम् (“not explained by the other three commentators”).",
+      "literal_english": "No Śrīdhara commentary is supplied; the pinned source notes that the other three commentators did not explain this verse."
     },
     {
       "canto": 3,
