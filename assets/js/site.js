@@ -71,7 +71,7 @@ document.querySelectorAll('a[href]').forEach(a=>{const x=paths.get(a.getAttribut
 document.querySelectorAll('.site-nav').forEach(nav=>{
  const gita=nav.querySelector('a[href*="/pages/bhagavad-gita/"],a[href="/advaita/bhagavad-gita/"]');
  if(!nav.querySelector('a[href="/advaita/books/"]')){
-  const books=document.createElement('a');books.href='/advaita/books/';books.textContent='Books';
+  const books=document.createElement('a');books.href='/advaita/books/';books.textContent='Other books';
   nav.insertBefore(books,gita||null);
  }
  if(!gita){const a=document.createElement('a');a.href='/advaita/pages/bhagavad-gita/';a.textContent='Bhagavad Gītā — Śrīdhara Bhāṣya';nav.append(a)}
