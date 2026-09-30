@@ -308,3 +308,20 @@ Book 3, Chapter 2 has received a verse-by-verse Sanskrit, translation, word-map,
 - Static validation passed: 62 contiguous IDs; 62 nonempty translations and Sanskrit blocks; 62 main word lists and 244 paired rows; 62 main Transliteration controls; 27 Śrīdhara Sanskrit details; 151 matched details and summaries; balanced 984 div openings and closings; no square brackets; and no caste wording in verse translations or word maps.
 
 Book 3 semantic review status: 108/837 verse articles across 2/18 chapters. Seventeen chapters remain. Continue with Book 3, Chapter 3. This semantic audit remains separate from the baseline main-WFW panel count of 837/837.
+
+
+## Owner-directed Book 3 translation and commentary audit — 2026-09-30
+
+### Book 3, Chapter 3
+
+Book 3, Chapter 3 has received a verse-by-verse Sanskrit, translation, word-map, transliteration, and supplied Śrīdhara review against the pinned VishvAsa/Vasuki mūla, numbered witness, Śrīdhara commentary, Vasuki English witness, and Wilson at Wisdom Library and Sacred Texts. The Bhagavad-gītā 8.13 at Vedabase was used only to check the echoed phrase.
+
+- Coverage: 31/31 contiguous verse articles; 31 Sanskrit blocks, English translations, main Word-for-word controls, and Transliteration controls; 276 main lexical rows.
+- Commentary: 20 Śrīdhara Sanskrit and phrase-map units; 34 sourced commentary paragraphs are aligned with their verses; verse 9 displays the exact No commentary. state.
+- Speaker and pronouns: Maitreya speaks in 3.3.1–3, and Parāśara replies from 3.3.4. Śrīdhara’s āha and nivedayati formulae have the commentator as their implied subject. The verse’s first-person statements in 3.3.18 and 3.3.21 belong to Parāśara. Phrase maps name Śrīdhara, Parāśara, or the Lord where English pronouns could be unclear.
+- Textual decisions: 3.3.4 follows the mūla na śakyā; the numbered and separate Śrīdhara witnesses read na śakto. At 3.3.17, the mūla reads somaśuṣkāyaṇaḥ; the numbered witness and separate Śrīdhara file read somaśuṣmāyaṇaḥ. The translation follows the mūla spelling and the Vasuki English reading of Tṛṇabindu’s lineage. At 3.3.19, the mūla reads prakīrtitāḥ and the numbered witness purātanāḥ. At 3.3.29, the mūla sarvabhūteṣu supports in all beings, while the numbered witness reads sarvabhedeṣu. At 3.3.31, the page follows the mūla sa bhidyate and bhagavān anantaḥ; the separate Śrīdhara text records na bhidyate as a Gītā Press reading, and the numbered witness has asaṅgaḥ.
+- Wilson’s list differs in several Vyāsa names, including Triśikha, Varṇī, Ṛtuñjaya, Jaya, Uttara, Vājaśrava, and Jātukarṇa. Varṇī is a proper name and is not translated as caste.
+- Reader sizing: control summaries use the Bhagavad Gītā Chapter 1 styling at 12px with 4px by 10px padding; main word rows use 15.5px on desktop and 13.5px on mobile.
+- Static validation passed: 31 contiguous IDs; 31 nonempty translations and Sanskrit blocks; 31 main word lists with 276 rows; 31 main Transliteration controls; 20 Śrīdhara Sanskrit controls; 82 matched details and summaries; balanced 680 opening and closing div tags; no curly quotation marks; no Latin-script characters in Devanāgarī word fields; and no caste wording in verse translations or word maps.
+
+Book 3 semantic review status: 139/837 verse articles across 3/18 chapters. Fifteen chapters remain. Continue with Book 3, Chapter 4. This semantic audit remains separate from the baseline main-WFW panel count of 837/837.
