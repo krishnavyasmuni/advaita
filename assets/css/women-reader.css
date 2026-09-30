@@ -21,48 +21,12 @@
   max-width:560px;
   margin:24px auto 34px;
 }
-.document-paged-page .document-content .women-bibliography-group{
-  margin:24px 0 28px;
-}
-.document-paged-page .document-content .women-bibliography-group>p{
-  margin:0 0 8px;
-}
-.document-paged-page .document-content .women-bibliography-group ol{
-  margin:0;
-  padding-left:30px;
-}
-.document-paged-page .document-content .women-bibliography-group li{
-  margin:0 0 4px;
-  padding-left:4px;
-}
 .document-paged-page .document-content .women-diagram img{
   display:block;
   width:100%;
   height:auto;
   border:1px solid #d8d2ca;
 }
-@media(max-width:620px){
-  .document-paged-page .document-content blockquote.translation{
-    margin-bottom:27px!important;
-    padding-left:13px;
-    font-size:16.8px;
-    line-height:1.68;
-  }
-  .document-paged-page .document-content .women-diagram{
-    margin:20px auto 28px;
-  }
-}
-/* Every translated quotation uses the same palette as the Yoga Vasistha passage. */
-.document-paged-page .document-content blockquote.translation{
-  border-left-color:var(--quote-rule);
-  background:transparent;
-  color:var(--quote);
-}
-.document-paged-page .document-content blockquote.translation>p{
-  color:inherit;
-}
-
-/* Match the shared reader's translation blockquotes explicitly on this article. */
 .document-paged-page .document-content blockquote.translation{
   margin:0 0 30px!important;
   padding:1px 0 1px 17px;
@@ -75,11 +39,58 @@
   font-style:normal;
 }
 .document-paged-page .document-content blockquote.translation>p{
+  margin:0;
   color:inherit;
   font-size:inherit;
   line-height:inherit;
 }
-/* Keep quoted passages inside prose in the same purple as the translation blocks. */
 .document-paged-page .document-content .quoted-inline{
   color:var(--quote);
+}
+.document-paged-page .document-content .women-subsection{
+  margin:34px 0 16px;
+  color:var(--teal);
+  font-family:Vollkorn,Georgia,serif;
+  font-size:24px;
+  line-height:1.25;
+  font-weight:500;
+}
+.document-paged-page .document-content .women-subsection::before{
+  content:"•";
+  display:inline-block;
+  margin-right:10px;
+  color:var(--teal);
+  font-family:Merriweather,Georgia,serif;
+  font-size:16px;
+  vertical-align:2px;
+}
+.document-paged-page .document-content .women-name-list{
+  margin:0 0 30px 25px;
+  padding:0;
+}
+.document-paged-page .document-content .women-name-list li{
+  margin:0 0 9px;
+  padding-left:4px;
+}
+@media(max-width:620px){
+  .document-paged-page .document-content blockquote.translation{
+    margin-bottom:27px!important;
+    padding-left:13px;
+    font-size:16.8px;
+    line-height:1.68;
+  }
+  .document-paged-page .document-content .women-diagram{
+    margin:20px auto 28px;
+  }
+  .document-paged-page .document-content .women-subsection{
+    margin:28px 0 14px;
+    font-size:22px;
+  }
+  .document-paged-page .document-content .women-subsection::before{
+    margin-right:8px;
+    font-size:14px;
+  }
+  .document-paged-page .document-content .women-name-list{
+    margin-left:22px;
+  }
 }

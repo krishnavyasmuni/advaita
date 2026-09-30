@@ -139,7 +139,11 @@ function styleQuotedText(root){
   while(walker.nextNode())textNodes.push(walker.currentNode);
   for(const node of textNodes){
     if(node.parentElement?.closest('script,style,svg,.quoted-inline'))continue;
-    const value=node.nodeValue||'';
+    const original=node.nodeValue||'';
+    const value=original
+      .replace(/([“"'‘])\s+(?=\S)/gu,'$1')
+      .replace(/(?<=\S)\s+([”"'’])/gu,'$1');
+    if(value!==original)node.nodeValue=value;
     const pattern=/(?:“[^”]*”|‘[^’]*’|"[^"]*")/g;
     let match,cursor=0;
     const pieces=[];
@@ -156,6 +160,28 @@ function styleQuotedText(root){
   }
 }
 function clean(node,page){
+  if(title==='Hinduism on Women'&&node?.matches?.('p')){
+    const raw=text(node);
+    const strongOnly=node.children.length===1&&node.firstElementChild?.matches('strong');
+    const marker=raw.match(/^\s*(?:¢«?|[•*])\s*(.+)$/u)||raw.match(/^\s*e\s+(.+)$/i);
+    if(marker||strongOnly){
+      const candidate=(marker?marker[1]:raw).trim();
+      const pageTitle=(page.title||'').toLowerCase().replace(/[^a-z0-9]+/g,'');
+      const candidateKey=candidate.toLowerCase().replace(/[^a-z0-9]+/g,'');
+      if(candidateKey.length>=4&&candidateKey.length<=90){
+        if(pageTitle.includes(candidateKey)||candidateKey.includes(pageTitle))return document.createDocumentFragment();
+        const labels=candidate.split(/\s+(?:e|¢)\s+(?=[A-Z“])/);
+        const fragment=document.createDocumentFragment();
+        for(const label of labels){
+          const cleanLabel=label.trim().replace(/[.:;]+$/,'');
+          if(!cleanLabel)continue;
+          fragment.append(el('h4','women-subsection',cleanLabel));
+        }
+        if(title==='Hinduism on Women')styleQuotedText(fragment);
+        return fragment;
+      }
+    }
+  }
   const copy=node.cloneNode(true);
   for(const n of [copy,...copy.querySelectorAll('*')]){
     if(!(n instanceof Element))continue;
@@ -164,7 +190,8 @@ function clean(node,page){
     const isSa=(n.getAttribute('lang')||'').toLowerCase().startsWith('sa');
     if(n.matches('details')&&/\b(?:show|hide)\s+sanskrit\b/i.test(text(n.querySelector('summary'))))n.classList.add('sanskrit-reveal');
     if(n.matches('p')){
-      if(n.classList.contains('scripture-source'))n.classList.add('source-citation');
+      const citationSource=/^(?:Lord Krsna|Manusmriti|Mahabharata|Bhagavata|Bhagavatam|Skanda|Siva|Padma|Gita|Yajnavalkya|Taittiriya|Taittirlya|Rgveda|Veda|Satapatha|Apastamba|Baudhayana|Gautama|Visnu|Vishnu|Matsya|Harivamsa|Brahmavaivarta|Mahanirvana|Gobhila|Garuda|Devala|Daksa|Angiras|Bhavisya|Bhavishya|Vasistha|Valmiki Ramayana)\b/i.test(value);
+      if(n.classList.contains('scripture-source')||(title==='Hinduism on Women'&&citationSource&&/\d/.test(value)))n.classList.add('source-citation');
       else if(n.classList.contains('scripture-translation')||n.classList.contains('translation')||
               /color\s*:\s*#(?:a92727|65516f|7b3d35)/i.test(style))n.classList.add('translation');
       if(isSa&&!n.closest('details.sanskrit-reveal'))n.classList.add('sanskrit-text');
@@ -199,12 +226,33 @@ function clean(node,page){
   if(title==='Hinduism on Women')styleQuotedText(copy);
   return copy;
 }
+function styleArticleQuotes(root){
+  let active=false,continuationCount=0;
+  const paragraphs=[...root.querySelectorAll('p')].filter(p=>!p.closest('blockquote')&&!p.closest('details'));
+  for(const p of paragraphs){
+    const value=(p.textContent||'').trim();
+    const begins=/^[“"'‘]/u.test(value);
+    const continues=active&&(/^[a-z]/u.test(value)||/^\(Papa\)\s+races\b/u.test(value));
+    if(begins||continues)p.classList.add('translation');
+    const open=(value.match(/[“‘]/gu)||[]).length;
+    const close=(value.match(/[”’]/gu)||[]).length;
+    const straight=(value.match(/\"/g)||[]).length;
+    if(begins){
+      active=open>close||(straight%2===1);
+      continuationCount=active?1:0;
+    }else if(active){
+      if(!continues){active=false;continuationCount=0;continue;}
+      continuationCount++;
+      if(close>open||continuationCount>=3)active=false;
+    }
+  }
+}
 function render(index){
   const page=segments[index];if(!page)return;
   const frag=document.createDocumentFragment();
   const h=el('h3',null,page.title);h.id=page.id;frag.append(h);
   for(const n of page.nodes)frag.append(clean(n,page));
-  reader.replaceChildren(frag);
+  styleArticleQuotes(frag);reader.replaceChildren(frag);
   for(const d of reader.querySelectorAll('details.sanskrit-reveal')){
     const summary=d.querySelector(':scope>summary');if(!summary)continue;
     const sync=()=>summary.textContent=d.open?'Hide Sanskrit':'Show Sanskrit';
