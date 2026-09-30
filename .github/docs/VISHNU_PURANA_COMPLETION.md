@@ -386,4 +386,19 @@ Book 3, Chapter 7 was checked verse by verse against the pinned mūla, numbered 
 
 Source pins at upstream commit `4f878940be057c6efcc644dc688b604e0b2e64a1`: mūla `00515e32ba3b6fb472a603ae35ed3041eb64837d`; numbered witness `f99784cc4320f21834579c2f337b186d4e8894a1`; Śrīdhara `0a474c4aa2db43845758b11eabad29efe8bb64ef`; Vasuki English `4de94ead6b0e10f30fbd21967fe53082ffded4e4`. Wilson cross-check: Wisdom Library and Sacred Texts.
 
-Book 3 semantic review status: 267/837 verse articles across 7/18 chapters. Eleven chapters remain. Continue with Book 3, Chapter 8. This semantic audit remains separate from the baseline main-WFW panel count of 837/837.
+### Book 3, Chapter 8
+
+Book 3, Chapter 8 was reviewed against the pinned mūla, numbered Sanskrit witness, Śrīdhara source, and Vasuki English witness. Horace Hayman Wilson was cross-checked through Wisdom Library and Sacred Texts.
+
+- Coverage: 41/41 contiguous verse articles; 41 Sanskrit blocks, English translations, main Word-for-word controls, and Transliteration controls; 266 main lexical rows plus 41 full-verse text rows.
+- Commentary: 27 supplied Śrīdhara notes are aligned with the supplied Sanskrit and translated directly; 14 verses display the exact No commentary. state. The long Mīmāṃsā discussion at 3.8.25 is translated concisely and retains its rule distinctions and examples.
+- Pronouns and subjects: former editorial wording such as he glosses has been removed. At 3.8.41 the subject of pratijānīte is Aurva, who is speaking in the narrative. Other commentary verbs such as āha are translated impersonally where an English pronoun would obscure the source.
+- Textual decisions: 3.8.6 follows mūla svargivandyam while the supplied Śrīdhara verse reads svarge ramyam. At 3.8.26 the page follows vā in the numbered witness and Śrīdhara source; the mūla reads hi. At 3.8.33 the page follows sat-saṅga in the numbered witness and Śrīdhara source; the mūla reads tat-saṅga. At 3.8.35 the translation follows Śrīdhara’s interpretation of parigraha as acquisition of wealth; the mūla gloss describes taking unclaimed grass and wood. At 3.8.39 the mūla gloss identifies etayoḥ as the Brāhmaṇa and Kṣatriya. Śrīdhara identifies the two as Kṣatriya and Vaiśya and includes the Brāhmaṇa by implication. The verse translation follows the mūla gloss and the commentary records Śrīdhara’s reading. The supplied source places svargibandhaṃ brahmalokādipadam after 3.8.3 although no word in that verse matches the gloss; the page identifies its referent as uncertain.
+- Text and language repairs: restored the missing first half of 3.8.15 and removed its duplicate from 3.8.16; corrected the Sanskrit at 3.8.12–16, 3.8.24, and 3.8.32–33; aligned the selected IAST readings; corrected the chapter subtitle; and added the comparative English links. Varṇa remains varṇa and is not translated as caste.
+- Reader sizing: the page uses the shared Bhagavad Gītā reader CSS. Summary labels are 12px with 4px by 10px padding. Main word rows are 15.5px on desktop and 13.5px on mobile.
+- Validation: 41 contiguous IDs, Sanskrit blocks, translations, Word-for-word controls, and Transliteration controls; 27 Śrīdhara Sanskrit controls; 109 balanced details and summaries; 802 balanced div openings and closings; no comma, quotation, apostrophe, semicolon, or dash punctuation in verse translations or English commentary; no Latin-script characters in Devanāgarī fields; and no caste wording in the translations or lexical glosses.
+
+Source pins at upstream commit `4f878940be057c6efcc644dc688b604e0b2e64a1`: mūla `cb9bfcded368db14c6e55468a0808832f936e702`; numbered witness `ad105b21f40a2c5adfac988fedef6733fb65953f`; Śrīdhara `46214b340f0516196a354c03930b1edeac544a06`; Vasuki English `dfc99c1c406fd937d5f8b4f80f5c38ea60e2c316`. Wilson cross-check: Wisdom Library and Sacred Texts.
+
+Book 3 semantic review status: 308/837 verse articles across 8/18 chapters. Ten chapters remain. Continue with Book 3, Chapter 9. This semantic audit remains separate from the baseline main-WFW panel count of 837/837.
+
