@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "status": "vishvasa-source-rebuilt",
+  "status": "source-aligned-commentary-restored-word-for-word-incomplete-awaiting-live-verification",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
   "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
-  "editorial_note": "Śrīdhara Svāmī only. Sanskrit is keyed to the pinned VishvAsa/Vasuki source; phrase-level glosses and literal English are source-bound. Explicit source gaps remain marked rather than filled.",
-  "scope": "ŚB 3.29.1–3.29.42; pinned merged source markers and explicit no-commentary markers preserved.",
+  "editorial_note": "Śrīdhara Svāmī only. Restored Sanskrit blocks are keyed to the pinned source with phrase-level glosses and literal English. Existing chapter-wide word-for-word work remains pending review.",
+  "scope": "ŚB 3.29.1–3.29.45; exact source ranges preserved.",
   "entries": [
     {
       "canto": 3,
@@ -50,7 +50,8 @@
       "transliteration": [
         "ekonatriṃśake bhakti-yogas tu bahudhocyate |\n\nkālasya ca balaṃ ghorā saṃsṛtiś ca viraktaye ||\n\nuktānuvāda-pūrvakaṃ bhakti-mārga-bhedān pṛcchati dvābhyām | lakṣaṇaṃ mahad-ādīnāṃ yathā sāṅkhyeṣu tathā kathitam | yena lakṣaṇena tat pāramārthikaṃ paraspara-vibhaktam ity arthaḥ | yo bhakti-yogo mūlaṃ prayojanaṃ yasya tad yan-mūlam, tat kathitam | tasya bhakti-yogasya mārgaṃ prakāraṃ vistaraśo me brūhi ||1-2||"
       ],
-      "literal_english": "In the twenty-ninth chapter the many forms of bhakti-yoga are explained, together with the power of Time and the dreadful course of transmigration, in order to produce detachment. Restating what has already been taught, Devahūti asks in two verses for the distinctions among the paths of devotion. Just as the characteristics of mahat and the other principles were explained in Sāṅkhya so that each could be truly distinguished from the others, she asks Kapila to explain at length the modes of that bhakti-yoga which is the root and purpose of the teaching."
+      "literal_english": "In the twenty-ninth chapter the many forms of bhakti-yoga are explained, together with the power of Time and the dreadful course of transmigration, in order to produce detachment. Restating what has already been taught, Devahūti asks in two verses for the distinctions among the paths of devotion. Just as the characteristics of mahat and the other principles were explained in Sāṅkhya so that each could be truly distinguished from the others, she asks Kapila to explain at length the modes of that bhakti-yoga which is the root and purpose of the teaching.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -78,7 +79,8 @@
       "transliteration": [
         "yena saṃsṛtīnām ākhyānena vigata-rāgo bhavet ||3||"
       ],
-      "literal_english": "By hearing the account of the courses of transmigration, one may become free from attachment."
+      "literal_english": "By hearing the account of the courses of transmigration, one may become free from attachment.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -114,7 +116,8 @@
       "transliteration": [
         "īśvara-rūpasya mahā-prabhāvasya te tvad-ātmakasya | yad dhetor yad bhayāt kuśalaṃ pūṇyaṃ kurvanti ||4||"
       ],
-      "literal_english": "Time is the form of the Lord, of immense power and identical with Him. From fear of that Time people perform wholesome and meritorious acts."
+      "literal_english": "Time is the form of the Lord, of immense power and identical with Him. From fear of that Time people perform wholesome and meritorious acts.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -154,7 +157,8 @@
       "transliteration": [
         "acakṣuṣo’jñasya | ato mithyā-bhūte dehādāv abhimatir ahaṅkāro yasya | ataḥ karmasu anuviddhayā āsaktayā dhiyā śrāntasya | ata evānāśraye’pāre tamasi saṃsāre ciraṃ prasuptasya lokasya prabodhāya tvaṃ yoga-prakāśako bhāskaraḥ kilāvirbhūto’si ||5||"
       ],
-      "literal_english": "For the sightless—that is, the ignorant—ego consists in identification with the unreal body and the rest. Exhausted by an intellect bound to actions and long asleep in the unsupported, shoreless darkness of saṃsāra, the world is to be awakened; for that purpose You have appeared as the sun that reveals yoga."
+      "literal_english": "For the sightless—that is, the ignorant—ego consists in identification with the unreal body and the rest. Exhausted by an intellect bound to actions and long asleep in the unsupported, shoreless darkness of saṃsāra, the world is to be awakened; for that purpose You have appeared as the sun that reveals yoga.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -162,16 +166,24 @@
       "start": 6,
       "end": 6,
       "source_marker": "३.२९.६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "श्लक्ष्णं सुन्दरम् ॥६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "श्लक्ष्णं",
+          "smooth; refined"
+        ],
+        [
+          "सुन्दरम्",
+          "beautiful"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“Ślakṣṇam” means smooth; beautiful.",
+      "source_available": true,
+      "source_note": "Exact Śrīdhara block restored from pinned source vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; phrase-level glosses follow the commentary.",
+      "source_gap": false,
+      "transliteration": [
+        "ślakṣṇaṃ sundaram ||6||"
+      ]
     },
     {
       "canto": 3,
@@ -207,7 +219,8 @@
       "transliteration": [
         "mārgaiḥ prakāra-viśeṣaiḥ | tān evāha---svabhāva-bhūtā ye guṇās teṣāṃ mārgeṇa vṛtti-bhedena | bhāvo’bhiprāyaḥ | phala-saṅkalpa-bhedād bhakti-bheda ity arthaḥ |"
       ],
-      "literal_english": "“Paths” means distinct modes. He specifies them: according to the path of the guṇas inherent in one’s nature, that is, according to differences of mental disposition. Bhāva means intention; differences in devotion arise from differences in the intended fruit."
+      "literal_english": "“Paths” means distinct modes. He specifies them: according to the path of the guṇas inherent in one’s nature, that is, according to differences of mental disposition. Bhāva means intention; differences in devotion arise from differences in the intended fruit.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -243,7 +256,8 @@
       "transliteration": [
         "abhisandhāya saṅkalpya | saṃrambhī krodhī | bhinna-dṛk bheda-darśī | yo bhāvaṃ bhaktiṃ kuryāt, sa tri-vidho’pi tāmasaḥ ||8||"
       ],
-      "literal_english": "Abhisandhāya means having formed an intention; saṃrambhī means angry; bhinna-dṛk means one who sees difference. One who performs devotion with such an attitude is tāmasic in each of these three ways."
+      "literal_english": "Abhisandhāya means having formed an intention; saṃrambhī means angry; bhinna-dṛk means one who sees difference. One who performs devotion with such an attitude is tāmasic in each of these three ways.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -267,7 +281,8 @@
       "transliteration": [
         "pṛthag-bhāvo bheda-darśī ||9||"
       ],
-      "literal_english": "Pṛthag-bhāva means one who sees separateness or difference."
+      "literal_english": "Pṛthag-bhāva means one who sees separateness or difference.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -311,7 +326,8 @@
       "transliteration": [
         "karma-nirhāraṃ pāpa-kṣayam | parasmin parameśvare | tad-arpaṇaṃ karmārpaṇam, bhagavat-prītim uddiśyety arthaḥ | yaṣṭavyam iti vidhi-siddhim uddiśyety arthaḥ | bheda-darśitvam arcādāv arcanaṃ ca triṣv api samānam | tad eva tāmasādi-bhaktiṣu trayas trayo bhedāḥ | tāsu yathottaraṃ śraiṣṭhyam | evaṃ ca śravaṇa-kīrtanādayo navāpi pratyekaṃ nava-nava-bhedāḥ | tad eva sa-guṇā bhaktir ekāśīti bhedā bhavati ||10||"
       ],
-      "literal_english": "Karma-nirhāra means removal of sin. “To the Supreme” means to the Supreme Lord. Offering to Him means offering one’s acts with the intention of pleasing Bhagavān; acting because “it ought to be worshipped” means aiming at fulfillment of an injunction. Seeing difference and worship of the image occur in all three guṇa-based forms. Thus tāmasic and the other forms each have three subdivisions; each succeeding one is superior. Likewise each of the nine practices beginning with hearing and chanting has nine subdivisions, so devotion conditioned by the guṇas has eighty-one varieties."
+      "literal_english": "Karma-nirhāra means removal of sin. “To the Supreme” means to the Supreme Lord. Offering to Him means offering one’s acts with the intention of pleasing Bhagavān; acting because “it ought to be worshipped” means aiming at fulfillment of an injunction. Seeing difference and worship of the image occur in all three guṇa-based forms. Thus tāmasic and the other forms each have three subdivisions; each succeeding one is superior. Likewise each of the nine practices beginning with hearing and chanting has nine subdivisions, so devotion conditioned by the guṇas has eighty-one varieties.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -355,7 +371,8 @@
       "transliteration": [
         "nirguṇā tu bhaktir eka-vidhaiva, tām āha---mad-guṇa-śruti-mātreṇeti dvābhyām | mad-guṇa-śruti-mātreṇa mayi puruṣottame mano-gatir iti yā bhaktiḥ sā nirguṇasya bhakti-yogasya lakṣaṇam ity anvayaḥ | avicchinnā santatā | lakṣaṇaṃ svarūpam | ahaitukī phalānusandhāna-śūnyā | avyavahitā bheda-darśana-rahitā ca ||11-12||"
       ],
-      "literal_english": "Guṇa-transcending devotion is only one kind. In the two verses beginning “merely by hearing My qualities,” the construction is: the movement of the mind toward Me, the Supreme Person, arising merely from hearing My qualities, is the defining nature of nirguṇa bhakti-yoga. It is uninterrupted and continuous, causeless in the sense of seeking no fruit, and unobstructed in the sense of being free from perception of difference."
+      "literal_english": "Guṇa-transcending devotion is only one kind. In the two verses beginning “merely by hearing My qualities,” the construction is: the movement of the mind toward Me, the Supreme Person, arising merely from hearing My qualities, is the defining nature of nirguṇa bhakti-yoga. It is uninterrupted and continuous, causeless in the sense of seeking no fruit, and unobstructed in the sense of being free from perception of difference.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -395,7 +412,8 @@
       "transliteration": [
         "bhaktānāṃ niṣkāmatāṃ kaimutya-nyāyenāha---sālokyaṃ mayā sahaikasmin loke vāsam, sārṣṭiṃ samānaiśvaryam, sāmīpyaṃ nikaṭa-vartitvam, sārūpyaṃ samāna-rūpatām, ekatvaṃ sāyujyam | uta api dīyamānam api na gṛhṇanti, kutas tat kāmanety arthaḥ ||13||"
       ],
-      "literal_english": "By an argument from the greater to the lesser he shows the devotees’ freedom from desire. Sālokya is residence in one world with the Lord; sārṣṭi is equal sovereignty; sāmīpya is nearness; sārūpya is sameness of form; ekatva is sāyujya. Even when these are offered, devotees do not accept them—how much less would they desire them."
+      "literal_english": "By an argument from the greater to the lesser he shows the devotees’ freedom from desire. Sālokya is residence in one world with the Lord; sārṣṭi is equal sovereignty; sāmīpya is nearness; sārūpya is sameness of form; ekatva is sāyujya. Even when these are offered, devotees do not accept them—how much less would they desire them.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -431,7 +449,8 @@
       "transliteration": [
         "kim iti tarhi bhajante bhakter eva parama-phalatvād ity āha---sa eveti | nanu trai-guṇyaṃ hitvā brahma-prāptiḥ parama-phalaṃ prasiddham | satyam | tat tu bhaktāv ānuṣaṅgikam ity āha---yena bhakti-yogena | mad-bhāvāya brahmatvāya ||14||"
       ],
-      "literal_english": "Why then do they worship? Because devotion itself is the supreme fruit. It is well known that transcending the three guṇas and attaining Brahman is the highest fruit; true, but in devotion that comes incidentally. Through this bhakti-yoga one attains mad-bhāva, the state of Brahman."
+      "literal_english": "Why then do they worship? Because devotion itself is the supreme fruit. It is well known that transcending the three guṇas and attaining Brahman is the highest fruit; true, but in devotion that comes incidentally. Through this bhakti-yoga one attains mad-bhāva, the state of Brahman.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -471,7 +490,8 @@
       "transliteration": [
         "evaṃ bhūtāyā bhakteḥ sādhanāny āha pañcabhiḥ | niṣevitena samyag anuṣṭhitena| animittena sva-dharmeṇa nitya-naimittikena | mahīyasā śraddhādi-yuktena | kriyā-yogena pañcarātrādy-ukta-pūjā-prakāreṇa | śastena niṣkāmena ||15||"
       ],
-      "literal_english": "In five verses he gives the disciplines for such devotion: one’s own dharma, properly performed without motive through obligatory and occasional duties; performed with greatness, meaning endowed with faith and the like; ritual worship according to the methods taught in the Pañcarātra and related texts; and conduct that is commendable because desireless."
+      "literal_english": "In five verses he gives the disciplines for such devotion: one’s own dharma, properly performed without motive through obligatory and occasional duties; performed with greatness, meaning endowed with faith and the like; ritual worship according to the methods taught in the Pañcarātra and related texts; and conduct that is commendable because desireless.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -503,7 +523,8 @@
       "transliteration": [
         "mad-dhiṣṇyaṃ mat-pratimādi tasya darśanādibhiḥ | sattvena dhairyeṇa | asaṅgamena vairāgyeṇa ||16||"
       ],
-      "literal_english": "Mad-dhiṣṇya means My image and other sacred abodes; one should engage in seeing and serving them. Sattva here means steadfastness, and asaṅgama means detachment."
+      "literal_english": "Mad-dhiṣṇya means My image and other sacred abodes; one should engage in seeing and serving them. Sattva here means steadfastness, and asaṅgama means detachment.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -518,9 +539,10 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No commentary",
+      "literal_english": "Śrīdhara Svāmī explicitly gives no commentary here in the pinned source.",
       "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -544,7 +566,8 @@
       "transliteration": [
         "ārjavena akauṭilyena ||18||"
       ],
-      "literal_english": "Ārjava means absence of crookedness, straightforwardness."
+      "literal_english": "Ārjava means absence of crookedness, straightforwardness.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -572,7 +595,8 @@
       "transliteration": [
         "mad-dharmaṇo bhagavad-dharmānuṣṭhātuḥ puruṣasyāśayaś cittam ||19||"
       ],
-      "literal_english": "For a person who performs the Lord’s dharma, āśaya means the mind or heart."
+      "literal_english": "For a person who performs the Lord’s dharma, āśaya means the mind or heart.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -612,7 +636,8 @@
       "transliteration": [
         "prayatnaṃ vinaiva prāptau dṛṣṭāntaḥ, vāto rathaḥ prāpako yasya gandhasya | āśayāt sthānāt | āvṛṅkte ātma-sāt-karoti | avikāri samaṃ yac cetaḥ ||20||"
       ],
-      "literal_english": "An analogy shows attainment without effort: fragrance is carried from its place by the wind as its vehicle. Likewise the Lord appropriates a mind that is even and changeless."
+      "literal_english": "An analogy shows attainment without effort: fragrance is carried from its place by the wind as its vehicle. Likewise the Lord appropriates a mind that is even and changeless.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -648,7 +673,8 @@
       "transliteration": [
         "citta-śuddhiś ca sarva-bhūtātma-dṛṣṭyaiva bhavatīti vaktuṃ kevala-pratimādi-niṣṭhāṃ nindann āha---aham iti saptabhiḥ | arcā eva viḍambanam anukaraṇam | arcāyāṃ pūjā-viḍambanam iti vā | avajñopekṣā-dveṣa-nindāḥ krameṇa caturbhir niṣidhyante ||21||"
       ],
-      "literal_english": "To teach that purity of mind arises precisely from seeing the Self in all beings, he censures exclusive fixation on the image alone in seven verses beginning “I.” Arcā may mean merely an imitation, or the phrase may mean an imitation of worship in the image. Disrespect, neglect, hatred, and condemnation are prohibited successively in four verses."
+      "literal_english": "To teach that purity of mind arises precisely from seeing the Self in all beings, he censures exclusive fixation on the image alone in seven verses beginning “I.” Arcā may mean merely an imitation, or the phrase may mean an imitation of worship in the image. Disrespect, neglect, hatred, and condemnation are prohibited successively in four verses.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -672,7 +698,8 @@
       "transliteration": [
         "hitvā upekṣya ||22||"
       ],
-      "literal_english": "Hitvā means having abandoned or neglected."
+      "literal_english": "Hitvā means having abandoned or neglected.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -687,9 +714,10 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No commentary",
+      "literal_english": "Śrīdhara Svāmī explicitly gives no commentary here in the pinned source.",
       "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -717,7 +745,8 @@
       "transliteration": [
         "dravyair utpannayā kriyayā | bhūta-grāmāvamāninas tan-nindakasya ||24||"
       ],
-      "literal_english": "“By substances” means by ritual action produced through material offerings. One who dishonors the aggregate of beings is one who condemns them."
+      "literal_english": "“By substances” means by ritual action produced through material offerings. One who dishonors the aggregate of beings is one who condemns them.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -753,7 +782,8 @@
       "transliteration": [
         "tarhi kim arcādāv arcanam anarthakam eva ? nety āha---arcādāv iti | sarva-bhūteṣv avasthitaṃ māṃ sva-hṛdi yāvan na veda | sva-karma-kṛt karmāvirodhena yathāvakāśam | anena karma-niṣṭhāyā api sa evāvadhir ity uktaṃ bhavati ||25||"
       ],
-      "literal_english": "Is worship of the image then useless? No. One should worship until one knows Me, who dwell in all beings, within one’s own heart. “Doing one’s own work” means acting as opportunity permits without conflict with one’s prescribed duties. Thus even steadfastness in ritual action has this realization as its limit."
+      "literal_english": "Is worship of the image then useless? No. One should worship until one knows Me, who dwell in all beings, within one’s own heart. “Doing one’s own work” means acting as opportunity permits without conflict with one’s prescribed duties. Thus even steadfastness in ritual action has this realization as its limit.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -789,7 +819,8 @@
       "transliteration": [
         "antarā antaraṃ bhedam | ut api | aram alpam | alpam api bhedaṃ yaḥ paśyatīty arthaḥ | yad vā, antarā madhye | udaraṃ śarīram | mṛtyur ahaṃ tasya bhayaṃ vidadhe kāromi ||26||"
       ],
-      "literal_english": "Antara means difference or interval. Aram means even a little: whoever sees even the slightest difference is subject to fear. Alternatively, antara means “within” and udara “body”; I, as Death, produce fear for him."
+      "literal_english": "Antara means difference or interval. Aram means even a little: whoever sees even the slightest difference is subject to fear. Alternatively, antara means “within” and udara “body”; I, as Death, produce fear for him.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -825,7 +856,8 @@
       "transliteration": [
         "atha ataḥ sarva-bhūteṣu kṛtālayaṃ kṛtāvāsam | tatra hetuḥ---bhūtānām ātmānam antaryāmiṇam | abhinnena cakṣuṣā sama-darśanena ||27||"
       ],
-      "literal_english": "Therefore one should honor Me as having made My dwelling in all beings, because I am the inner controller and Self of beings, and one should see with an undivided eye—that is, with equal vision."
+      "literal_english": "Therefore one should honor Me as having made My dwelling in all beings, because I am the inner controller and Self of beings, and one should see with an undivided eye—that is, with equal vision.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -865,7 +897,8 @@
       "transliteration": [
         "tatrāpi yathottaraṃ mānādy-atiśayaḥ kartavya iti vaktuṃ tāratamyam āha---jīvā iti sārdhaiḥ ṣaḍbhiḥ | ajīvānām acetanebhyaḥ | tatas teṣv api prāṇa-bhṛtaḥ prāṇa-vṛttim antaḥ | sa-cittā jñāna-vantaḥ | indriyāṇāṃ vṛttayo yeṣu | indriya-vṛttayo vṛkṣāṇām api sūkṣmāḥ santy eva | tathā hi mahābhārate mokṣa-dharmeṣu smaryate, tasmāt paśyanti pādapās tasmāj jighranti pādapāḥ \\[ma|bhā| 12.177.14-15\\] ity-ādi | prasiddhā tu sparśanendriya-vṛttir eva ||28||"
       ],
-      "literal_english": "To show that progressively greater honor is due in ascending order, he sets out a hierarchy in six and a half verses. Above nonliving things are those that sustain vital functions; above them are conscious beings possessing knowledge and functions of the senses. Even trees possess subtle sensory functions, as remembered in the Mokṣadharma; touch is simply the most evident among them."
+      "literal_english": "To show that progressively greater honor is due in ascending order, he sets out a hierarchy in six and a half verses. Above nonliving things are those that sustain vital functions; above them are conscious beings possessing knowledge and functions of the senses. Even trees possess subtle sensory functions, as remembered in the Mokṣadharma; touch is simply the most evident among them.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -897,7 +930,8 @@
       "transliteration": [
         "atas tebhyaḥ sparśa-vedibhyo rasa-vedino matsyādayaḥ śreṣṭhāḥ | gandha-vido bhrama-rādayaḥ | śabda-vidaḥ sarpādayaḥ ||29||"
       ],
-      "literal_english": "Above beings that know touch are those such as fish that know taste; above them are those such as bees that know smell; and above them are beings such as snakes that know sound."
+      "literal_english": "Above beings that know touch are those such as fish that know taste; above them are those such as bees that know smell; and above them are beings such as snakes that know sound.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -933,7 +967,8 @@
       "transliteration": [
         "rūpa-bheda-vidaḥ kākādayaḥ | ubhayato dantāḥ yeṣām | apādebhyo bahu-pādās tebhyaś catuṣ-pādā ity arthaḥ | tato dvipān manuṣyaḥ ||30||"
       ],
-      "literal_english": "Those that distinguish forms, such as crows, are higher. “With teeth on both sides” describes another class. Above footless beings are many-footed beings, above them quadrupeds, and above them bipeds, namely human beings."
+      "literal_english": "Those that distinguish forms, such as crows, are higher. “With teeth on both sides” describes another class. Above footless beings are many-footed beings, above them quadrupeds, and above them bipeds, namely human beings.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -941,16 +976,24 @@
       "start": 31,
       "end": 31,
       "source_marker": "३.२९.३१",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "ततस् तेषु वर्णाः ॥३१॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "ततस्",
+          "then; thereafter"
+        ],
+        [
+          "तेषु वर्णाः",
+          "among them, the social classes"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“Then, among them, the varṇas [are four].” This continues the description of gradations among living beings.",
+      "source_available": true,
+      "source_note": "Exact Śrīdhara block restored from pinned source vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; phrase-level glosses follow the commentary.",
+      "source_gap": false,
+      "transliteration": [
+        "tatas teṣu varṇāḥ ||31||"
+      ]
     },
     {
       "canto": 3,
@@ -990,7 +1033,8 @@
       "transliteration": [
         "saṃśaya-cchettā mīmāṃsakaḥ | tato’pi kevalāt sva-karma-kṛt | mukta-saṅgasya lakṣaṇam ātmano dharmam adogdhā niṣkāma ity arthaḥ ||32||"
       ],
-      "literal_english": "The resolver of doubt is the Mīmāṃsaka. Higher even than the mere knower is one who performs his own prescribed action. One whose attachment is released does not milk his own dharma for personal gain; that is, he acts without desire."
+      "literal_english": "The resolver of doubt is the Mīmāṃsaka. Higher even than the mere knower is one who performs his own prescribed action. One whose attachment is released does not milk his own dharma for personal gain; that is, he acts without desire.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1030,7 +1074,8 @@
       "transliteration": [
         "arpitā aśeṣāḥ kriyā arthās tat-phalāny ātmā dehaś ca yena, ata eva nirantaro’vyavahitaḥ | akartuḥ kartṛtvābhimāna-śunyāt ||33||"
       ],
-      "literal_english": "For him all actions, their objects and fruits, and the body itself have been offered up; therefore he is nirantara, without separation. “Non-agent” means free from the conceit of being the doer."
+      "literal_english": "For him all actions, their objects and fruits, and the body itself have been offered up; therefore he is nirantara, without separation. “Non-agent” means free from the conceit of being the doer.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1062,7 +1107,8 @@
       "transliteration": [
         "jīvānāṃ kalayā parikalanena antaryāmitayā praviṣṭa iti dṛṣṭyety arthaḥ ||34||"
       ],
-      "literal_english": "The meaning is: one should see the Lord as having entered living beings by His portions—that is, by His presence as their inner controller."
+      "literal_english": "The meaning is: one should see the Lord as having entered living beings by His portions—that is, by His presence as their inner controller.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1094,7 +1140,8 @@
       "transliteration": [
         "uktaṃ bhakti-yogaṃ pūrvoktenāṣṭāṅga-yogena sahopasaṃharati, bhakti-yogaś ceti | he mānavi\n! puruṣaṃ parameśvaram ||35||"
       ],
-      "literal_english": "He concludes the bhakti-yoga just described together with the previously taught eight-limbed yoga. “O daughter of Manu,” puruṣa here means the Supreme Lord."
+      "literal_english": "He concludes the bhakti-yoga just described together with the previously taught eight-limbed yoga. “O daughter of Manu,” puruṣa here means the Supreme Lord.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1138,7 +1185,8 @@
       "transliteration": [
         "yad anyat pṛṣṭaṃ jīvasya saṃsṛtīḥ kālasya svarūpaṃ cācakṣveti, tad āha---etad iti sārdhena | etat sarva-niyantṛ yad bhagavato rūpam | kīdṛśam ? pradhāna-puruṣātmakaṃ paraṃ tad-vyatiriktaṃ ca | etad eva daivam ity abhidhīyate | kīdṛśam ? karmaṇo viceṣṭitaṃ nānā-saṃsṛti-lakṣaṇaṃ yasmāt tat | daiva-prerita-karma-kṛtāḥ saṃsṛtayo vicitrā ity arthaḥ ||36||\n\netad eva bhagavato rūpaṃ kāla iti cābhidhīyate | kīdṛśam ? rūpa-bhedasya vastūnām anyathātvasyāspadam āśrayaḥ kāraṇam | uktaṃ hi---kālād guṇa-vyatikaraḥ iti | vakṣyate ca guṇa-vyatikaraḥ kālaḥ iti | divyam adbhuta-prabhāvam | tad evāha---bhūtānām iti yāvat samāpti | mahad-ādīnāṃ tat-tad-abhimānināṃ jīvānām ||37||"
       ],
-      "literal_english": "Devahūti had also asked for an explanation of the living being’s transmigrations and the nature of Time. He now answers. This form of Bhagavān governs all; it comprises Pradhāna and Puruṣa yet is also beyond them. This is called daiva, destiny. From it comes the activity of karma manifesting as diverse courses of transmigration; thus the transmigrations produced by acts impelled by destiny are various."
+      "literal_english": "Devahūti had also asked for an explanation of the living being’s transmigrations and the nature of Time. He now answers. This form of Bhagavān governs all; it comprises Pradhāna and Puruṣa yet is also beyond them. This is called daiva, destiny. From it comes the activity of karma manifesting as diverse courses of transmigration; thus the transmigrations produced by acts impelled by destiny are various.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1146,16 +1194,32 @@
       "start": 38,
       "end": 38,
       "source_marker": "३.२९.३८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "भय-हेतुत्वम् आह---य इति । भूतैर् एव भूतान्य् अत्ति संहरति । अधियज्ञो यज्ञ-फल-दाता । कलयतां वशी-कुर्वताम् ॥३८॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "भय-हेतुत्वम् आह---य इति",
+          "he explains the cause of fear, beginning with “he who”"
+        ],
+        [
+          "भूतैर् एव भूतान्य् अत्ति संहरति",
+          "he consumes and dissolves beings by means of the beings themselves"
+        ],
+        [
+          "अधियज्ञो यज्ञ-फल-दाता",
+          "as the Lord presiding over sacrifice, he gives the fruits of sacrifice"
+        ],
+        [
+          "कलयतां वशी-कुर्वताम्",
+          "of those who control; bring under control"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "He explains why the Lord is a cause of fear: he consumes and dissolves beings by means of the beings themselves. As the presiding Lord of sacrifice, he gives the fruits of sacrifice. “Of those who control” refers to those whom he brings under his control.",
+      "source_available": true,
+      "source_note": "Exact Śrīdhara block restored from pinned source vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; phrase-level glosses follow the commentary.",
+      "source_gap": false,
+      "transliteration": [
+        "bhaya-hetutvam āha---ya iti | bhūtair eva bhūtāny atti saṃharati | adhiyajño yajña-phala-dātā | kalayatāṃ vaśī-kurvatām ||38||"
+      ]
     },
     {
       "canto": 3,
@@ -1170,9 +1234,10 @@
           "No commentary"
         ]
       ],
-      "literal_english": "No commentary",
+      "literal_english": "Śrīdhara Svāmī explicitly gives no commentary here in the pinned source.",
       "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1180,16 +1245,52 @@
       "start": 40,
       "end": 40,
       "source_marker": "३.२९.४०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "भीषास्माद् वातः पवते इत्य्-आदि-श्रुति-प्रसिद्धम् एतस्य भीषणत्वम् अपि काल-रूपेणैवेत्य् आह---यद् इति षट्केन । यद्-भयात् यस्य प्रेरणात् वाति स्वल्पत्वेन बहुत्वेन दिग्-भेदेन च चलति तपति कुत्रचित् कदाचित् तापत-पूर्वकं प्रकाशयति उदयास्तमयत्वात् एवं भाति च ॥४०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "भीषास्माद् वातः पवते इत्य्-आदि-श्रुति-प्रसिद्धम्",
+          "the Śruti statement “from fear of him the wind blows” and the like is well known"
+        ],
+        [
+          "एतस्य भीषणत्वम् अपि काल-रूपेणैव",
+          "even this fearful force is Time itself"
+        ],
+        [
+          "इत्य् आह---यद् इति षट्केन",
+          "thus he says, in the six verses beginning “from whose”"
+        ],
+        [
+          "यद्-भयात् यस्य प्रेरणात्",
+          "“from whose fear”: by whose prompting"
+        ],
+        [
+          "वाति स्वल्पत्वेन बहुत्वेन दिग्-भेदेन च चलति",
+          "the wind blows, moving gently or forcefully and in different directions"
+        ],
+        [
+          "तपति",
+          "the sun burns"
+        ],
+        [
+          "कुत्रचित् कदाचित् तापत-पूर्वकं प्रकाशयति",
+          "at some places and times it shines after heating"
+        ],
+        [
+          "उदयास्तमयत्वात्",
+          "because of their rising and setting"
+        ],
+        [
+          "एवं भाति च",
+          "thus the heavenly bodies also shine"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "The Śruti statement “From fear of him the wind blows” and the like is well known. The text says in the six verses beginning “from whose fear” that even this fearful force is Time itself. “From whose fear” means by whose prompting: the wind blows, moving sometimes gently and sometimes forcefully and in different directions; the sun burns and shines at different places and times; and, because they rise and set, the heavenly bodies likewise shine.",
+      "source_available": true,
+      "source_note": "Exact Śrīdhara block restored from pinned source vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; phrase-level glosses follow the commentary.",
+      "source_gap": false,
+      "transliteration": [
+        "bhīṣāsmād vātaḥ pavate ity-ādi-śruti-prasiddham etasya bhīṣaṇatvam api kāla-rūpeṇaivety āha---yad iti ṣaṭkena | yad-bhayāt yasya preraṇāt vāti svalpatvena bahutvena dig-bhedena ca calati tapati kutracit kadācit tāpata-pūrvakaṃ prakāśayati udayāstamayatvāt evaṃ bhāti ca ||40||"
+      ]
     },
     {
       "canto": 3,
@@ -1197,16 +1298,20 @@
       "start": 41,
       "end": 41,
       "source_marker": "३.२९.४१",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "यत् यस्माद् भीताः ॥४१॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "यत् यस्माद् भीताः",
+          "because they are afraid of him"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“Because they are afraid of him.”",
+      "source_available": true,
+      "source_note": "Exact Śrīdhara block restored from pinned source vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; phrase-level glosses follow the commentary.",
+      "source_gap": false,
+      "transliteration": [
+        "yat yasmād bhītāḥ ||41||"
+      ]
     },
     {
       "canto": 3,
@@ -1238,7 +1343,8 @@
       "transliteration": [
         "yato bhītāḥ saritaḥ sravanti | indhe dīpyate saha-giribhir bhūḥ ||42||"
       ],
-      "literal_english": "Out of fear of Time the rivers flow; the earth, together with its mountains, shines and remains active."
+      "literal_english": "Out of fear of Time the rivers flow; the earth, together with its mountains, shines and remains active.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1274,7 +1380,8 @@
       "transliteration": [
         "ado nabho yan-niyamād yasyājñayā | mahān mahat-tattvam aṅkurātmakaṃ sva-dehaṃ lokatvena tanute vistārayati ||43||"
       ],
-      "literal_english": "The sky acts by His command. Mahat-tattva, like a sprout, expands its own body into the form of the worlds."
+      "literal_english": "The sky acts by His command. Mahat-tattva, like a sprout, expands its own body into the form of the worlds.",
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1282,16 +1389,32 @@
       "start": 44,
       "end": 44,
       "source_marker": "३.२९.४४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "गुणाभिमानिनो गुण-नियन्तारो देवा ब्रह्मादयोऽस्य विश्वस्य सर्गादिषु प्रवर्तन्ते । अनु-युगं वारं वारम् इत्य् अर्थः ॥४४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "गुणाभिमानिनो गुण-नियन्तारो देवाः",
+          "the gods who preside over and govern the qualities"
+        ],
+        [
+          "ब्रह्मादयः",
+          "Brahmā and the others"
+        ],
+        [
+          "अस्य विश्वस्य सर्गादिषु प्रवर्तन्ते",
+          "engage in the creation and other operations of this universe"
+        ],
+        [
+          "अनु-युगं वारं वारम् इत्य् अर्थः",
+          "“anu-yugam” means again and again, in every age"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "The gods who preside over and govern the qualities, Brahmā and the others, engage in the creation and other operations of this universe. “Anu-yugam” means again and again, in every age.",
+      "source_available": true,
+      "source_note": "Exact Śrīdhara block restored from pinned source vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; phrase-level glosses follow the commentary.",
+      "source_gap": false,
+      "transliteration": [
+        "guṇābhimānino guṇa-niyantāro devā brahmādayo’sya viśvasya sargādiṣu pravartante | anu-yugaṃ vāraṃ vāram ity arthaḥ ||44||"
+      ]
     },
     {
       "canto": 3,
@@ -1299,16 +1422,40 @@
       "start": 45,
       "end": 45,
       "source_marker": "३.२९.४५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "जनेन पित्रादिना जनं पुत्रादिं जनयन्न् आदिकृत् । मृत्युनान्तकम् अपि मारयन्न् अन्त-करः स्वयं त्व् अनादिर् अनन्तोऽव्ययश् च ॥४५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "जनेन पित्रादिना",
+          "through a person such as a father"
+        ],
+        [
+          "जनं पुत्रादिं जनयन्",
+          "generating a person such as a son"
+        ],
+        [
+          "आदि-कृत्",
+          "the first creator"
+        ],
+        [
+          "मृत्युनान्तकम् अपि मारयन्",
+          "through death, killing even the ender [Yama]"
+        ],
+        [
+          "अन्त-करः",
+          "the one who brings everything to an end"
+        ],
+        [
+          "स्वयं त्व् अनादिर् अनन्तोऽव्ययश् च",
+          "himself beginningless, endless and imperishable"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "Through a person such as a father, he generates a person such as a son, and is therefore the first creator. Through death he kills even the ender [Yama]; himself, however, he is beginningless, endless and imperishable.",
+      "source_available": true,
+      "source_note": "Exact Śrīdhara block restored from pinned source vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; phrase-level glosses follow the commentary.",
+      "source_gap": false,
+      "transliteration": [
+        "janena pitrādinā janaṃ putrādiṃ janayann ādikṛt | mṛtyunāntakam api mārayann anta-karaḥ svayaṃ tv anādir ananto’vyayaś ca ||45||"
+      ]
     }
   ],
   "generated_at": "2026-09-28"
