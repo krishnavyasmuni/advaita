@@ -68,7 +68,14 @@ if(article){
 const paths=new Map([
 ['/advaita/introduction-to-hinduism/','/advaita/pages/introduction-to-hinduism/'],['/advaita/indology/','/advaita/pages/indology/'],['/advaita/purana-library/','/advaita/pages/purana-library/'],['/advaita/bhagavatam-with-sridhara-bhasya/','/advaita/pages/bhagavatam-with-sridhara-bhasya/'],['/advaita/bhavishya-purana/','/advaita/pages/bhavishya-purana/'],['/advaita/bhavishya-purana-brahmaparvan/','/advaita/pages/bhavishya-purana-brahmaparvan/'],['/advaita/bhagavad-gita/','/advaita/pages/bhagavad-gita/']]);
 document.querySelectorAll('a[href]').forEach(a=>{const x=paths.get(a.getAttribute('href'));if(x)a.href=x});
-document.querySelectorAll('.site-nav').forEach(nav=>{if(nav.querySelector('a[href*="/pages/bhagavad-gita/"],a[href="/advaita/bhagavad-gita/"]'))return;const a=document.createElement('a');a.href='/advaita/pages/bhagavad-gita/';a.textContent='Bhagavad Gītā — Śrīdhara Bhāṣya';nav.append(a)});
+document.querySelectorAll('.site-nav').forEach(nav=>{
+ const gita=nav.querySelector('a[href*="/pages/bhagavad-gita/"],a[href="/advaita/bhagavad-gita/"]');
+ if(!nav.querySelector('a[href="/advaita/books/"]')){
+  const books=document.createElement('a');books.href='/advaita/books/';books.textContent='Books';
+  nav.insertBefore(books,gita||null);
+ }
+ if(!gita){const a=document.createElement('a');a.href='/advaita/pages/bhagavad-gita/';a.textContent='Bhagavad Gītā — Śrīdhara Bhāṣya';nav.append(a)}
+});
 const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#site-nav');if(menu&&nav){menu.addEventListener('click',()=>menu.setAttribute('aria-expanded',String(nav.classList.toggle('open'))));nav.addEventListener('click',e=>{if(e.target.matches('a')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}})}
 
 if(/\/articles\/an-index-of-hindu-scripture\/?$/.test(p))css('scriptureIndexClean','/advaita/assets/css/scripture-index-clean.css?v=1');
