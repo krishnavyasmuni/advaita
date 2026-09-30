@@ -845,8 +845,98 @@
 
   const capitalizeEnglishStart = (value) => String(value || '').replace(/^(\s*[““‘"'(\[]*\s*)([a-z])/u, (_, prefix, first) => prefix + first.toUpperCase());
 
+  const simplifyCommentaryVoice = (value) => {
+  let text = String(value ?? '');
+  const edits = [
+    [/^Then what follows\?\s*He says,\s*“insufficient.”\s*/u, ''],
+    [/^Therefore he says how you should act, in “at the approaches.” Remaining at your own assigned places of battle at the approaches—the entrances into the formation—without abandoning them, all of you should protect Bhīṣma on every side,/u,
+      'At the approaches means the entrances into the formation. Remain at your assigned battle positions without abandoning them. All of you should protect Bhīṣma on every side,'],
+    [/^Having heard Duryodhana’s words filled with such respect, what did Bhīṣma do\? He says in “of him.” Producing joy in that king, the grandsire Bhīṣma roared loudly like a lion and blew his conch\./u,
+      'Having heard Duryodhana’s respectful words, Bhīṣma roared like a lion, bringing joy to the king, and blew his conch.'],
+    [/^Then, in the five verses beginning “then,” he describes the battle enthusiasm that arose in the Pāṇḍava army\./u,
+      'The five verses beginning with then describe the enthusiasm for battle that arose in the Pāṇḍava army.'],
+    [/^He shows this very thing in detail in “Pāñcajanya.”\s*/u, 'The verse explains this in detail. '],
+    [/^On “until I see these”: One may object, “You are a fighter, not a spectator of the battle.” To this he says: “With whom am I to fight\?”/u,
+      'On the words until I see these. Though Arjuna is a fighter rather than a spectator, he asks. With whom am I to fight?'],
+    [/^What happened next\? Sañjaya says, “Thus.” Guḍākā means sleep; Arjuna is its lord, one who has conquered sleep\. Thus addressed by Arjuna, Hṛṣīkeśa placed the best of chariots between the two armies, O Bhārata—O Dhṛtarāṣṭra\./u,
+      'Thus addressed by Arjuna, Hṛṣīkeśa placed the best of chariots between the two armies, O Bhārata, meaning O Dhṛtarāṣṭra. Guḍākā means sleep, and Arjuna is its lord because he has conquered sleep.'],
+    [/^What happened then\?\s*He says:\s*/u, ''],
+    [/^Then what did he do\?\s*He says,\s*“those.”\s*/u, ''],
+    [/^If it is asked, “Do you not see victory and the other results?” he answers, “I do not desire them.” He expands this in the verse and a half beginning “What use is kingdom to us?”\s*/u,
+      'Arjuna does not desire victory or its other results. The following verse and a half expands this point. '],
+    [/^Suppose it is said: “If, out of compassion, you do not kill them, they will certainly kill you out of greed for the kingdom. Therefore kill them and enjoy the kingdom.” He answers in the verse and a half beginning “these I do not wish to kill.”\s*/u,
+      ''],
+    [/\bOne may object:/gu, 'An objection is raised:'],
+    [/To this he replies in the verse and a half beginning “sin.”/gu, 'The reply begins in the verse and a half beginning sin.'],
+    [/therefore he says, “one’s own people indeed.”/gu, 'therefore Arjuna speaks of his own people.'],
+    [/He answers in the two verses beginning “although.”/gu, 'The answer is given in the two verses beginning although.'],
+    [/^In this condition he says, “there will be social mixture and the like”:\s*/u, 'The words there will be social mixture and the like mean this: '],
+    [/^Because they are resolved to kill their relatives, he says “alas” and the rest:\s*/u, 'Arjuna laments that they are resolved to kill their relatives: '],
+    [/^Being afflicted and wishing for death, he says, “If they should kill me.” If they kill me while I sit quietly and unresisting, that killing would be most beneficial for me, since it would prevent sin from arising\./u,
+      'Afflicted and wishing for death, Arjuna says that if they kill him while he sits quietly and does not resist, it would benefit him by preventing sin.'],
+    [/^Then, expecting what happened, Sañjaya says, “having spoken thus”:\s*in the battle, on the seat above the chariot, he sat down; his mind was shaken and trembling with grief\./u,
+      'After speaking thus, Arjuna sat on the chariot seat, his mind shaken and trembling with grief.'],
+    [/^Then, expecting what happened, Sañjaya said “him thus”:\s*he whose eyes were full and agitated with tears;\s*to Arjuna grieving in the manner described, Madhusūdana spoke these words\./u,
+      'Arjuna was grieving as described, with tears filling his eyes. Madhusūdana spoke these words to him.'],
+    [/^He says that very speech: Śrī Bhagavān said, “from where?” From what cause has this impurity, this delusion, come upon you in this perilous crisis\?/u,
+      'Śrī Bhagavān said. From what cause has this impurity, this delusion, come upon you in this perilous crisis?'],
+    [/^If you say that he could not even maintain his body, he answers:/u,
+      'If the objection is that he could not maintain his body without killing them, the reply is:'],
+    [/He shows both:/u, 'The two possibilities are'],
+    [/^If you say, “Consider and do what is proper,” he says:/u, 'Arjuna replies:'],
+    [/^Expecting what Arjuna did after saying this, Sañjaya said: “Thus”—the meaning is clear\./u,
+      'Sañjaya says thus. The meaning is clear.'],
+    [/^Then, expecting what happened, he says: Hṛṣīkeśa said to him “as if laughing,” that is, with a cheerful face\./u,
+      'Hṛṣīkeśa spoke to Arjuna with a cheerful face, as if smiling.'],
+    [/He gives the reason why they are not to be grieved:/gu, 'They are not to be grieved for this reason:'],
+    [/He answers:/gu, 'The answer is:'],
+    [/he answers:/gu, 'the answer is:'],
+    [/He gives the reason with “no one can destroy…”/gu, 'The reason appears in the words no one can destroy:'],
+    [/He shows that the bodies have the nature of coming and going:/gu, 'These bodies come and go and have an end.'],
+    [/He establishes this by the absence of the six modifications:/gu, 'The absence of the six modifications establishes this:'],
+    [/He clarifies immortality by showing the absence of any means of killing:/gu, 'Immortality is clarified by showing that there is no means of killing:'],
+    [/He gives the reasons:/gu, 'The reasons are:'],
+    [/He concludes:/gu, 'The conclusion is:'],
+    [/^Thus he said that there is no grief because the Self lacks birth and destruction\./u,
+      'Thus there is no cause for grief because the Self is free from birth and destruction.'],
+    [/He concludes the instruction on the difficult-to-understand Self and its freedom from lamentation:/gu,
+      'This concludes the teaching on the difficult-to-understand Self and freedom from lamentation:'],
+    [/He states the fault in the opposite case:/gu, 'The fault in the opposite case is:'],
+    [/He concludes the teaching of knowledge-yoga and introduces karma-yoga, its means:/gu,
+      'The teaching of knowledge-yoga ends here. Karma-yoga is introduced as its means:'],
+    [/He explains the difference:/gu, 'The difference is:'],
+    [/he prevents it:/gu, 'the reply is:'],
+    [/He says:\s*do not become/gu, 'Do not become'],
+    [/He explains how actions become a means of liberation:/gu, 'Actions become a means of liberation in this way:'],
+    [/Therefore, while stating the signs of the perfected, he describes the inner means until the chapter’s end\. First he answers:/u,
+      'The signs of the perfected person also reveal the inner disciplines through the end of the chapter. The first sign is:'],
+    [/He establishes by contrast that sense-restraint is a means of sthitaprajña:/gu,
+      'By contrast, sense-restraint is a means to steady wisdom:'],
+    [/He gives the reason for the absence of intellect in the unyoked:/gu,
+      'The reason for the absence of understanding in the unyoked is:'],
+    [/He concludes that sense-restraint is both means and mark:/gu,
+      'Sense-restraint is both the means and the mark:'],
+    [/He praises and concludes the knowledge-nistha taught:/gu,
+      'This closes the teaching on steadfastness in knowledge:'],
+    [/the compassionate Lord cannot truly be a deluder; he says it only appears so through his own error\./u,
+      'the compassionate Lord does not delude him. Arjuna recognizes that the confusion comes from his own error.'],
+    [/Having taught karma-yoga for the purification of the ignorant person’s inner organ, He explains that action is unnecessary for the knower:/u,
+      'For the knower, action is unnecessary:'],
+    [/He shows how desire is an enemy:/u, 'Desire is an enemy:'],
+    [/He praises the knowledge-sacrifice by explaining several sacrifices according to the qualifications of practitioners\./u,
+      'The knowledge-sacrifice is praised through examples of sacrifices suited to different practitioners.']
+  ];
+  for (const [pattern, replacement] of edits) text = text.replace(pattern, replacement);
+
+  text = text.replace(/^If it is asked, “Do you not see victory and the other results\?” he answers, “I do not desire them\.” He expands this in the verse and a half beginning “What use is kingdom to us\?”\s*/u, 'Arjuna does not desire victory or its other results. The following verse and a half expands this point. ');
+  text = text.replace(/^He says that very speech: Śrī Bhagavān said, “from where\?” From what cause has this impurity, this delusion, come upon you in this perilous crisis\?/u, 'Śrī Bhagavān said. From what cause has this impurity, this delusion, come upon you in this perilous crisis?');
+  text = text.replace(/The compassionate Lord cannot truly be a deluder; he says it only appears so through his own error\./u, 'The compassionate Lord does not delude him. Arjuna recognizes that the confusion comes from his own error.');
+  text = text.replace(/^The disciplines that are means for the seeker are themselves the natural marks of the perfected one\. Therefore, while stating the signs of the perfected, he describes the inner means until the chapter’s end\. First the answer is:/u, 'The disciplines that guide the seeker are also marks of the perfected one. The signs of perfection reveal the inner practice through the end of the chapter. The first sign is:');
+  return text;
+};
+
   const normalizeEnglishSentences = (value) => {
-    let text = String(value || '')
+    let text = simplifyCommentaryVoice(value || '')
       .replace(/\r\n?/g, '\n')
       .replace(/[ \t]+/g, ' ')
       .replace(/“([^”]*)”/g, '$1')
@@ -1089,8 +1179,8 @@
       : '';
     const translatedCommentary = sridhara
       ? lines(normalizeEnglishSentences(d.translatedCommentary || (sourceMode === 'legacy'
-        ? (d.srid && d.srid.et ? d.srid.et : 'The source repository supplies Śrīdhara Svāmī’s commentary in Sanskrit; no English rendering is supplied there.')
-        : 'English rendering not supplied for this source passage.')))
+        ? (d.srid && d.srid.et ? d.srid.et : 'The source repository supplies Śrīdhara Svāmī’s commentary in Sanskrit. No English translation is supplied there.')
+        : 'No English translation is supplied for this passage.')))
       : '';
 
     const translationRange = d.mukTranslationRange || {start: n, end: n};
@@ -1122,9 +1212,7 @@
         (sridhara.start !== sridhara.end ? ' (' + chapter + '.' + sridhara.start + '–' + sridhara.end + ')' : '') +
         '</summary><div class="gita-reveal"><p lang="sa">' + commentary + '</p></div></details>' : '') +
       '</div>' +
-      (sridhara ? '<section class="gita-commentary"><h3>English rendering of Śrīdhara’s commentary' +
-        (sridhara.start !== sridhara.end ? ' (' + chapter + '.' + sridhara.start + '–' + sridhara.end + ')' : '') +
-        '.</h3><p>' + translatedCommentary + '</p></section>' : '') +
+      (sridhara ? '<section class="gita-commentary"><h3>Śrīdhara’s Commentary</h3><p>' + translatedCommentary + '</p></section>' : '') +
       '</article>';
   };
 
