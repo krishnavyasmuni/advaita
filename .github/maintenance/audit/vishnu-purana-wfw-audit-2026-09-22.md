@@ -365,3 +365,17 @@ Book 3, Chapter 6 was reviewed against the pinned Vishvas/Vasuki mūla, numbered
 
 Source pins at upstream commit `4f878940be057c6efcc644dc688b604e0b2e64a1`: mūla `65a98c97595df97b4bb3bc6a48cfae25426f3c64`; numbered witness `cba0e3c0e39a9163121df7ea6c5eea1c346c3b30`; Śrīdhara `1b662d99574c57a5201d6b69face29e10eadfdbf`; Vasuki English `090698850e51c9e981c2e13b5f8db3a19617092a`. Wilson cross-check: Wisdom Library chapter VI and Sacred Texts chapter VIII.
 
+
+
+## Owner-directed Book 3 semantic audit — Chapter 7 — 2026-09-30
+
+Book 3, Chapter 7 was checked against the pinned Vishvas/Vasuki mūla, numbered Sanskrit witness, Śrīdhara source, and Vasuki English witness. Wilson’s translation was cross-checked at Wisdom Library and Sacred Texts.
+
+- Coverage: 39/39 contiguous verse articles; 39 Sanskrit blocks, translations, main Word-for-word controls, and Transliteration controls; 448 lexical gloss rows plus one verse-text row for each verse.
+- Commentary alignment: 29 Śrīdhara Sanskrit panels and direct English translations, with 10 exact No commentary. states. The notes at 3.7.18, 3.7.30, and 3.7.33 were corrected against their source verses. The 3.7.18 prose now translates the Sanskrit question about devotion to the controller of Yama. The 3.7.30 prose translates the commentary on greed for wealth from friends and relatives. The 3.7.33 prose translates the note on chanting the names of the Lord and taking refuge in the Lord alone.
+- Speakers and pronouns: at 3.7.1 bhavān prabravītu uses honorific third-person agreement but addresses Parāśara as you. The earlier may he tell gloss was incorrect and is now may you tell. In the opening Śrīdhara note pṛcchati refers to Maitreya asking. It does not refer to Śrīdhara. Other third-person forms refer to their actual subjects in the verse or commentary. The English commentary at 3.7.16 names Hari explicitly.
+- Textual readings: 3.7.2 follows mūla pātāla-vīthayaḥ; the Śrīdhara file’s verse transcription has pātāla-vidhayaḥ but its gloss defines pātāla-vīthī as a row of cavities beneath the earth. At 3.7.14 the mūla reads sva-puruṣam; the Śrīdhara file’s verse transcription has kha-puruṣam while Śrīdhara’s commentary explains sva-puruṣam. At 3.7.20 the text reads nija-varṇa-dharma without āśrama. Varṇa remains untranslated as varṇa and is not called caste. At 3.7.22 the mūla transcription omits a letter in viṣṇu-bhaktam; the Śrīdhara witness restores the word. The remaining witness choices at 3.7.3, 3.7.15–18, 3.7.23, 3.7.25, and 3.7.35 are recorded in the page note.
+- UI and wording: the page shares the Bhagavad Gītā reader styles. Summary labels are 12px and word rows are 15.5px desktop and 13.5px mobile. The verse translations and English commentaries use periods and question marks only.
+- Validation: 39 IDs, translations, main WFW panels, and root IAST panels; 487 main word-map rows including one full-verse IAST row per verse; 29 Śrīdhara Sanskrit controls; 107 matched details and summaries; 530 opening and closing div tags; no square brackets, curly quotation marks, Latin characters in Devanāgarī fields, or caste wording in verse translations and word maps.
+
+Source pins at upstream commit `4f878940be057c6efcc644dc688b604e0b2e64a1`: mūla `00515e32ba3b6fb472a603ae35ed3041eb64837d`; numbered witness `f99784cc4320f21834579c2f337b186d4e8894a1`; Śrīdhara `0a474c4aa2db43845758b11eabad29efe8bb64ef`; Vasuki English `4de94ead6b0e10f30fbd21967fe53082ffded4e4`. Wilson cross-check: Wisdom Library chapter VII and Sacred Texts chapter VII.

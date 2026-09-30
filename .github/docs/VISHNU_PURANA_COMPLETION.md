@@ -371,3 +371,19 @@ Book 3, Chapter 6 was checked verse by verse against the pinned mūla, numbered 
 - Reader sizing: the page uses the same shared Chapter 1 Bhagavad Gītā controls. Summary labels are 12px. Word rows are 15.5px on desktop and 13.5px on mobile.
 - Static validation passed: 33 contiguous IDs and translations; 33 Word-for-word and 33 Transliteration controls; 344 main lexical rows; 21 Śrīdhara Sanskrit controls; 87 matched details and summaries; 772 balanced div openings and closings; no square brackets, curly quotation marks, or Latin letters in Devanāgarī fields; and no caste wording in verse translations or word maps.
 
+
+
+### Book 3, Chapter 7
+
+Book 3, Chapter 7 was checked verse by verse against the pinned mūla, numbered witness, Śrīdhara source, and Vasuki English witness. Wilson was cross-checked at Wisdom Library and Sacred Texts.
+
+- Coverage: 39/39 contiguous verse articles; 39 Sanskrit blocks, English translations, main Word-for-word controls, and Transliteration controls; 448 lexical gloss rows plus 39 verse-text rows in the main word maps.
+- Commentary alignment: 29 supplied Śrīdhara Sanskrit notes have direct English translations; 10 verses are marked No commentary. Corrected the misplaced commentary at 3.7.18, 3.7.30, and 3.7.33. Verse 3.7.30 now translates the note on greed for wealth from friends and relatives. Verse 3.7.33 now translates the note on chanting the names of the Lord and taking refuge in the Lord alone.
+- Speakers and pronouns: at 3.7.1 bhavān prabravītu is grammatically third person as an honorific but addresses Parāśara as you. The former gloss may he tell was incorrect and is now may you tell. Śrīdhara’s opening pṛcchati has Maitreya as its subject. Commentary pronouns identify their Sanskrit subject and do not refer to Śrīdhara speaking about himself. Verse 3.7.16 names Hari explicitly in the English commentary to avoid ambiguity.
+- Textual decisions: 3.7.2 follows mūla pātāla-vīthayaḥ; the Śrīdhara file’s verse transcription has pātāla-vidhayaḥ while its gloss explains pātāla-vīthī. At 3.7.14 the mūla reads sva-puruṣam; the Śrīdhara file’s verse transcription reads kha-puruṣam while its commentary explains sva-puruṣam. At 3.7.20 the text reads nija-varṇa-dharma and does not include āśrama; varṇa remains varṇa and is never translated as caste. Other readings are documented on the page at 3.7.3, 3.7.15–18, 3.7.22, 3.7.23, 3.7.25, and 3.7.35.
+- Reader sizing: the page uses the shared Bhagavad Gītā controls and word-row styles. Summary labels are 12px. Word rows are 15.5px on desktop and 13.5px on mobile.
+- Validation: 39 contiguous IDs and translations; 39 Word-for-word and 39 Transliteration controls; 487 main word-map rows including the verse text row for each verse; 29 Śrīdhara Sanskrit controls; 107 matched details and summaries; 530 balanced div openings and closings; no extra punctuation in the verse translations or commentary text; no Latin-script characters in Devanāgarī fields; and no caste wording in verse translations or lexical glosses.
+
+Source pins at upstream commit `4f878940be057c6efcc644dc688b604e0b2e64a1`: mūla `00515e32ba3b6fb472a603ae35ed3041eb64837d`; numbered witness `f99784cc4320f21834579c2f337b186d4e8894a1`; Śrīdhara `0a474c4aa2db43845758b11eabad29efe8bb64ef`; Vasuki English `4de94ead6b0e10f30fbd21967fe53082ffded4e4`. Wilson cross-check: Wisdom Library and Sacred Texts.
+
+Book 3 semantic review status: 267/837 verse articles across 7/18 chapters. Eleven chapters remain. Continue with Book 3, Chapter 8. This semantic audit remains separate from the baseline main-WFW panel count of 837/837.
