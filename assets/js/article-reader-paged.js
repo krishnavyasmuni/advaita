@@ -133,6 +133,28 @@ function makeToc(nav){
 }
 makeToc(sideNav);makeToc(mobileNav);
 const devanagari=/[\u0900-\u097f]/;
+function styleQuotedText(root){
+  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+  const textNodes=[];
+  while(walker.nextNode())textNodes.push(walker.currentNode);
+  for(const node of textNodes){
+    if(node.parentElement?.closest('script,style,svg,.quoted-inline'))continue;
+    const value=node.nodeValue||'';
+    const pattern=/(?:“[^”]*”|‘[^’]*’|"[^"]*")/g;
+    let match,cursor=0;
+    const pieces=[];
+    while((match=pattern.exec(value))){
+      if(match.index>cursor)pieces.push(document.createTextNode(value.slice(cursor,match.index)));
+      pieces.push(el('span','quoted-inline',match[0]));
+      cursor=pattern.lastIndex;
+    }
+    if(!cursor)continue;
+    if(cursor<value.length)pieces.push(document.createTextNode(value.slice(cursor)));
+    const fragment=document.createDocumentFragment();
+    fragment.append(...pieces);
+    node.replaceWith(fragment);
+  }
+}
 function clean(node,page){
   const copy=node.cloneNode(true);
   for(const n of [copy,...copy.querySelectorAll('*')]){
@@ -174,6 +196,7 @@ function clean(node,page){
     a.href=to===page?(heading?'#'+to.id:'#'+encodeURIComponent(id)):
       href(to)+(heading?'':'#'+encodeURIComponent(id));
   }
+  if(title==='Hinduism on Women')styleQuotedText(copy);
   return copy;
 }
 function render(index){

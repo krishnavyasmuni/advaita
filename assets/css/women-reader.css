@@ -42,6 +42,12 @@
   border:1px solid #d8d2ca;
 }
 @media(max-width:620px){
+  .document-paged-page .document-content blockquote.translation{
+    margin-bottom:27px!important;
+    padding-left:13px;
+    font-size:16.8px;
+    line-height:1.68;
+  }
   .document-paged-page .document-content .women-diagram{
     margin:20px auto 28px;
   }
@@ -68,4 +74,26 @@
 }
 .document-paged-page .document-content blockquote.translation>p{
   color:inherit;
+}
+
+/* Match the shared reader's translation blockquotes explicitly on this article. */
+.document-paged-page .document-content blockquote.translation{
+  margin:0 0 30px!important;
+  padding:1px 0 1px 17px;
+  border:0;
+  border-left:2px solid var(--quote-rule);
+  background:transparent;
+  color:var(--quote);
+  font-size:18.5px;
+  line-height:1.62;
+  font-style:normal;
+}
+.document-paged-page .document-content blockquote.translation>p{
+  color:inherit;
+  font-size:inherit;
+  line-height:inherit;
+}
+/* Keep quoted passages inside prose in the same purple as the translation blocks. */
+.document-paged-page .document-content .quoted-inline{
+  color:var(--quote);
 }
