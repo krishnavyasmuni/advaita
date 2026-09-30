@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "status": "vishvasa-source-rebuilt",
+  "status": "pinned-source-aligned-commentary-restored",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
   "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
   "editorial_note": "Śrīdhara Svāmī only. Sanskrit is keyed to the pinned VishvAsa/Vasuki source; phrase-level glosses and literal English are source-bound. Explicit source gaps remain marked rather than filled.",
-  "scope": "ŚB 3.33.1–3.33.34; pinned merged source markers and explicit no-commentary markers preserved.",
+  "scope": "ŚB 3.33.1–3.33.37; all 33 Śrīdhara commentary blocks restored; explicit no-commentary at 3.33.17 preserved.",
   "entries": [
     {
       "canto": 3,
@@ -326,16 +326,32 @@
       "start": 8,
       "end": 8,
       "source_marker": "३.३३.८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "प्रत्यक्-स्रोतसि प्रत्याहृते आत्मनि मनसि संविभाव्यं सञ्चिन्त्यम् । वेदा गर्भे यस्य सः ॥८॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "प्रत्यक्-स्रोतसि",
+          "with the current of the mind turned inward"
+        ],
+        [
+          "प्रत्याहृते आत्मनि मनसि",
+          "in the mind withdrawn into the Self"
+        ],
+        [
+          "संविभाव्यं सञ्चिन्त्यम्",
+          "to be contemplated; carefully considered"
+        ],
+        [
+          "वेदा गर्भे यस्य सः",
+          "he in whose womb the Vedas reside"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“Pratyak-srotasi” means with the current of the mind turned inward. It is to be contemplated and carefully considered in the mind withdrawn into the Self. “Veda-garbham” means he in whose womb the Vedas reside.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "pratyak-srotasi pratyāhṛte ātmani manasi saṃvibhāvyaṃ sañcintyam | vedā garbhe yasya saḥ ||8||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -343,16 +359,24 @@
       "start": 9,
       "end": 9,
       "source_marker": "३.३३.९",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अविक्लवया गम्भीरया वाचा ॥९॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "अविक्लवया",
+          "with an unwavering voice"
+        ],
+        [
+          "गम्भीरया वाचा",
+          "with deep speech"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“With an unwavering voice” means with a deep voice.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "aviklavayā gambhīrayā vācā ||9||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -400,16 +424,28 @@
       "start": 11,
       "end": 11,
       "source_marker": "३.३३.११",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "यायाः यास्यसि । अतद्-विदो मन्-मतम् अविद्वांसः ॥११॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "यायाः यास्यसि",
+          "“yāyāḥ” means “you will attain”"
+        ],
+        [
+          "अतद्-विदो",
+          "those who do not know that"
+        ],
+        [
+          "मन्-मतम् अविद्वांसः",
+          "those ignorant of my teaching"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“Yāyāḥ” means “you will attain.” “Those who do not know that” are those who are ignorant of my teaching.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "yāyāḥ yāsyasi | atad-vido man-matam avidvāṃsaḥ ||11||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -545,16 +581,44 @@
       "start": 16,
       "end": 16,
       "source_marker": "३.३३.१६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "यत्र गार्हस्थ्ये । क्षीर-फेन-निभा मृदु-शुभ्राः शय्या आस्तरणान्याभान्ति दन्त-घटिता मञ्चकाश् च । स्वर्ण-मयाः परिकराः । आसनानि पीठादीनि । सुस्पर्शान्यास्तरणानि येषु ॥१६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "यत्र गार्हस्थ्ये",
+          "in that household residence"
+        ],
+        [
+          "क्षीर-फेन-निभा मृदु-शुभ्राः शय्या",
+          "soft, white beds like milk foam"
+        ],
+        [
+          "आस्तरणान्याभान्ति",
+          "coverings are displayed"
+        ],
+        [
+          "दन्त-घटिता मञ्चकाश् च",
+          "and ivory-inlaid couches"
+        ],
+        [
+          "स्वर्ण-मयाः परिकराः",
+          "golden furnishings"
+        ],
+        [
+          "आसनानि पीठादीनि",
+          "seats such as benches"
+        ],
+        [
+          "सुस्पर्शान्यास्तरणानि येषु",
+          "with soft coverings upon them"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "In that household setting, beds soft and white like milk foam shine, along with ivory-inlaid couches and golden furnishings. There are seats such as benches, with soft-to-the-touch coverings.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "yatra gārhasthye | kṣīra-phena-nibhā mṛdu-śubhrāḥ śayyā āstaraṇānyābhānti danta-ghaṭitā mañcakāś ca | svarṇa-mayāḥ parikarāḥ | āsanāni pīṭhādīni | susparśānyāstaraṇāni yeṣu ||16||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -562,11 +626,20 @@
       "start": 17,
       "end": 17,
       "source_marker": "३.३३.१७",
-      "sanskrit": "",
-      "word_for_word": [],
+      "sanskrit": "न कतमेन व्याख्यातम्।",
+      "word_for_word": [
+        [
+          "न कतमेन व्याख्यातम्",
+          "No commentary is given by Śrīdhara here."
+        ]
+      ],
       "source_available": false,
-      "source_note": "No Śrīdhara commentary block is present for this range in the pinned source.",
-      "source_gap": true
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; explicit marker “न कतमेन व्याख्यातम्” preserved.",
+      "source_gap": false,
+      "transliteration": [
+        "na katamena vyākhyātam|"
+      ],
+      "literal_english": "The pinned source explicitly marks this verse as not commented on here."
     },
     {
       "canto": 3,
@@ -574,16 +647,24 @@
       "start": 18,
       "end": 18,
       "source_marker": "३.३३.१८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "बहुभिर् अमर-द्रुमैः रम्यम् ॥१८॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "बहुभिर् अमर-द्रुमैः",
+          "with many celestial trees"
+        ],
+        [
+          "रम्यम्",
+          "beautiful"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "It is beautiful with many celestial trees.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "bahubhir amara-drumaiḥ ramyam ||18||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -591,16 +672,24 @@
       "start": 19,
       "end": 19,
       "source_marker": "३.३३.१९",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "यत्रोद्याने प्रविष्टम् आत्मानं देवहूतिम् ॥१९॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "यत्रोद्याने प्रविष्टम्",
+          "having entered the garden"
+        ],
+        [
+          "आत्मानं देवहूतिम्",
+          "“herself” means Devahūti"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“Where she entered the garden” refers to Devahūti herself.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "yatrodyāne praviṣṭam ātmānaṃ devahūtim ||19||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -608,16 +697,36 @@
       "start": 20,
       "end": 20,
       "source_marker": "३.३३.२०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "आखण्डल इन्द्रस् तस्य या योषितस् तासाम् अपीप्सिततमं प्राप्तुम् इष्टतमं तद् धित्वा तत्राभिमानं त्यक्त्वा ॥२०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "आखण्डल इन्द्रस्",
+          "Ākhaṇḍala means Indra"
+        ],
+        [
+          "तस्य या योषितस् तासाम्",
+          "among his wives"
+        ],
+        [
+          "अपीप्सिततमं प्राप्तुम् इष्टतमं",
+          "what they most desired to attain"
+        ],
+        [
+          "तद् धित्वा",
+          "having given it up"
+        ],
+        [
+          "तत्राभिमानं त्यक्त्वा",
+          "having relinquished pride in it"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "She gave up what was most desired, even among Indra’s wives, and relinquished her identification with it.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "ākhaṇḍala indras tasya yā yoṣitas tāsām apīpsitatamaṃ prāptum iṣṭatamaṃ tad dhitvā tatrābhimānaṃ tyaktvā ||20||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -861,16 +970,24 @@
       "start": 31,
       "end": 31,
       "source_marker": "३.३३.३१",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "हे वीर विदुर ! उपेयुषी प्राप्ता ॥३१॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "हे वीर विदुर",
+          "O hero, Vidura"
+        ],
+        [
+          "उपेयुषी",
+          "“upayyuṣī” means “having attained”"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“O hero, Vidura!” “Upayyuṣī” means “having attained.”",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "he vīra vidura ! upeyuṣī prāptā ||31||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -946,16 +1063,28 @@
       "start": 34,
       "end": 34,
       "source_marker": "३.३३.३४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "दत्तम् अर्हणम् अर्ध्यं निकेतनं च यस्मै ॥३४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "दत्तम् अर्हणम्",
+          "respectful hospitality was given"
+        ],
+        [
+          "अर्ध्यं",
+          "the arghya water offering"
+        ],
+        [
+          "निकेतनं च यस्मै",
+          "and a place to dwell was given to him"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "He was offered respectful hospitality, an arghya water offering, and a place to stay.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "dattam arhaṇam ardhyaṃ niketanaṃ ca yasmai ||34||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -963,16 +1092,24 @@
       "start": 35,
       "end": 35,
       "source_marker": "३.३३.३५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "उपशान्त्य् अर्हं समाहित आस्ते ॥३५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "उपशान्त्य् अर्हं",
+          "fit for tranquility"
+        ],
+        [
+          "समाहित आस्ते",
+          "he remains seated, absorbed"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "He remains seated, absorbed and fit for tranquility.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "upaśānty arhaṃ samāhita āste ||35||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -980,16 +1117,28 @@
       "start": 36,
       "end": 36,
       "source_marker": "३.३३.३६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "प्रकरणार्थम् उपसंहरति---एतद् इति । तव त्वया ॥३६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "प्रकरणार्थम् उपसंहरति",
+          "he concludes the point of the chapter"
+        ],
+        [
+          "एतद् इति",
+          "with the word “etat”"
+        ],
+        [
+          "तव त्वया",
+          "“tava” means “by you”"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "He concludes the point of the chapter with “etat” (“this”); “tava” is glossed as “by you.”",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "prakaraṇārtham upasaṃharati---etad iti | tava tvayā ||36||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1024,5 +1173,5 @@
       "literal_english": "He states the fruit of hearing and chanting this account. “He whose banner bears Suparṇa” means the Lord with Garuḍa on His standard. Upalabhate means one attains Him."
     }
   ],
-  "generated_at": "2026-09-28"
+  "generated_at": "2026-09-30"
 }

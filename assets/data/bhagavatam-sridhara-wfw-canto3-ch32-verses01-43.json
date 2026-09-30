@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "status": "vishvasa-source-rebuilt",
+  "status": "pinned-source-aligned-commentary-restored",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
   "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
   "editorial_note": "Śrīdhara Svāmī only. Sanskrit is keyed to the pinned VishvAsa/Vasuki source; phrase-level glosses and literal English are source-bound. Explicit source gaps remain marked rather than filled.",
-  "scope": "ŚB 3.32.1–3.32.38; pinned merged source markers and explicit no-commentary markers preserved.",
+  "scope": "ŚB 3.32.1–3.32.43; all 37 Śrīdhara commentary blocks restored, with the source gap at 3.32.15 preserved.",
   "entries": [
     {
       "canto": 3,
@@ -82,16 +82,36 @@
       "start": 3,
       "end": 3,
       "source_marker": "३.३२.३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "ततः किम् ? तत्राह---तेषां श्रद्धयाक्रान्ता व्याप्ता मतिर् यस्य । पित्र्-अर्थं देवार्थं च व्रतं नियमो यस्य । सोम-पाः, तत्र सोमं पीत्वेत्य् अर्थः ॥३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "ततः किम् ? तत्राह---",
+          "what follows? he answers"
+        ],
+        [
+          "तेषां श्रद्धयाक्रान्ता व्याप्ता मतिर् यस्य",
+          "whose mind is pervaded by faith in them"
+        ],
+        [
+          "पित्र्-अर्थं देवार्थं च व्रतं नियमो यस्य",
+          "whose vow is directed to the ancestors and the gods"
+        ],
+        [
+          "सोम-पाः",
+          "“Soma-drinkers”"
+        ],
+        [
+          "तत्र सोमं पीत्वेत्य् अर्थः",
+          "means those who drink Soma"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "What follows? He answers: the man’s mind is pervaded by faith in them; his vow is directed to the ancestors and the gods. “Soma-drinkers” means those who drink Soma.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "tataḥ kim ? tatrāha---teṣāṃ śraddhayākrāntā vyāptā matir yasya | pitr-arthaṃ devārthaṃ ca vrataṃ niyamo yasya | soma-pāḥ, tatra somaṃ pītvety arthaḥ ||3||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -275,16 +295,48 @@
       "start": 10,
       "end": 10,
       "source_marker": "३.३२.१०",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "परेत्य दूरं गत्वा भगवन्तं हिरण्यगर्भम् अनुप्रविष्टा ये योगिनोऽमृतं परमानन्द-रूपं प्रधानम् उत्कृष्टं ब्रह्म तेनैव सहोपयान्ति, न तु पूर्वम् । यस् तद्-आगताभिमानाः । तथा च स्मृतिः,\n\nब्रह्मणा सह ते सर्वे सम्प्राप्ते प्रतिसञ्चरे ।\n\nपरस्यान्ते कृतात्मानः प्रविशन्ति परं पदम् ॥ इति ॥१०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "परेत्य दूरं गत्वा",
+          "having gone far"
+        ],
+        [
+          "भगवन्तं हिरण्यगर्भम् अनुप्रविष्टा ये",
+          "the yogis who have entered the Lord Hiraṇyagarbha"
+        ],
+        [
+          "योगिनोऽमृतं परमानन्द-रूपं प्रधानम् उत्कृष्टं ब्रह्म",
+          "the yogis [approach] the immortal, principal Brahman whose form is supreme bliss"
+        ],
+        [
+          "तेनैव सहोपयान्ति, न तु पूर्वम्",
+          "they approach together with him, not earlier"
+        ],
+        [
+          "यस् तद्-आगताभिमानाः",
+          "those who identify themselves with him"
+        ],
+        [
+          "तथा च स्मृतिः",
+          "the Smṛti also says"
+        ],
+        [
+          "ब्रह्मणा सह ते सर्वे सम्प्राप्ते प्रतिसञ्चरे",
+          "at the cosmic dissolution, all those together with Brahman"
+        ],
+        [
+          "परस्यान्ते कृतात्मानः प्रविशन्ति परं पदम्",
+          "having realized the Self, enter the supreme state at the end of the Supreme"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "Having gone far and entered the Lord Hiraṇyagarbha, the yogis approach the immortal, supreme Brahman, which is the highest form of bliss, together with him; they do not reach it earlier. They identify themselves with him. The Smṛti also says: “At the cosmic dissolution, all those who have attained Brahman together with him enter the supreme state at the end of the Supreme, having realized the Self.”",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "paretya dūraṃ gatvā bhagavantaṃ hiraṇyagarbham anupraviṣṭā ye yogino’mṛtaṃ paramānanda-rūpaṃ pradhānam utkṛṣṭaṃ brahma tenaiva sahopayānti, na tu pūrvam | yas tad-āgatābhimānāḥ | tathā ca smṛtiḥ,\n\nbrahmaṇā saha te sarve samprāpte pratisañcare |\n\nparasyānte kṛtātmānaḥ praviśanti paraṃ padam || iti ||10||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -368,16 +420,32 @@
       "start": 13,
       "end": 13,
       "source_marker": "३.३२.१३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "जन्मनि हेतु-द्वयम् । भेद-दृष्ट्य्-आभिमानेन कर्तृत्वाद् इति च । यथा पूर्वत्वे हेतुः, निःसङ्गेन निष्कामेन कर्मणेति ॥१३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "जन्मनि हेतु-द्वयम्",
+          "two causes of birth"
+        ],
+        [
+          "भेद-दृष्ट्य्-आभिमानेन कर्तृत्वाद् इति च",
+          "and agency arising from the perception and conviction of difference"
+        ],
+        [
+          "यथा पूर्वत्वे हेतुः",
+          "just as the cause of the former state"
+        ],
+        [
+          "निःसङ्गेन निष्कामेन कर्मणेति",
+          "is action performed without attachment and desire"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "There are two causes for birth: agency arising from the perception and conviction of difference, and—just as the cause of the former state was—action performed without attachment and desire.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "janmani hetu-dvayam | bheda-dṛṣṭy-ābhimānena kartṛtvād iti ca | yathā pūrvatve hetuḥ, niḥsaṅgena niṣkāmena karmaṇeti ||13||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -385,16 +453,52 @@
       "start": 14,
       "end": 14,
       "source_marker": "३.३२.१४",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "किं कृत्वात्र प्रजायते ? प्रथमं पारमेष्ठ्यम् ऐश्वर्यं निषेव्य, पश्चात् प्रलये स-गुणं गुणाधिष्ठातारं प्रथमावतार-रूपं पुरुषं संसृत्य प्राप्य, तेऽपि ऋषि-प्रमुखाः स्व-कर्म-निर्मितम् ऐश्वर्यं निषेव्य पुरुषं च संसृत्य यथा पूर्वं स्व-स्वाधिकारेण पुनर् आयान्तीत्य् अन्वयः ॥१४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "किं कृत्वात्र प्रजायते",
+          "what having done does one take birth here?"
+        ],
+        [
+          "प्रथमं पारमेष्ठ्यम् ऐश्वर्यं निषेव्य",
+          "first, having enjoyed the sovereignty of Brahmā’s realm"
+        ],
+        [
+          "पश्चात् प्रलये",
+          "afterward, at dissolution"
+        ],
+        [
+          "स-गुणं गुणाधिष्ठातारं प्रथमावतार-रूपं पुरुषं संसृत्य प्राप्य",
+          "having reached the first avatāra, the Puruṣa who presides over the qualities together with the qualities"
+        ],
+        [
+          "तेऽपि ऋषि-प्रमुखाः",
+          "those sages, Brahmā and the others"
+        ],
+        [
+          "स्व-कर्म-निर्मितम् ऐश्वर्यं निषेव्य",
+          "having enjoyed sovereignty produced by their own actions"
+        ],
+        [
+          "पुरुषं च संसृत्य",
+          "and having reached the Puruṣa"
+        ],
+        [
+          "यथा पूर्वं स्व-स्वाधिकारेण पुनर् आयान्तीत्य्",
+          "they return again, each to the former office"
+        ],
+        [
+          "अन्वयः",
+          "this is the construction"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "What having done do they take birth here? First they enjoy the sovereignty of Brahmā’s realm. Then at dissolution they reach the first avatāra, the Puruṣa who presides over the qualities together with the qualities. The sages headed by Brahmā likewise enjoy the sovereignty produced by their own actions, reach the Puruṣa, and then return again to their respective offices as before.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "kiṃ kṛtvātra prajāyate ? prathamaṃ pārameṣṭhyam aiśvaryaṃ niṣevya, paścāt pralaye sa-guṇaṃ guṇādhiṣṭhātāraṃ prathamāvatāra-rūpaṃ puruṣaṃ saṃsṛtya prāpya, te’pi ṛṣi-pramukhāḥ sva-karma-nirmitam aiśvaryaṃ niṣevya puruṣaṃ ca saṃsṛtya yathā pūrvaṃ sva-svādhikāreṇa punar āyāntīty anvayaḥ ||14||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -534,16 +638,36 @@
       "start": 21,
       "end": 21,
       "source_marker": "३.३२.२१",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "कथं प्रजायन्ते ? तद् आह---ततस् ते पुनर् इमं लोकं प्रति पतन्ति । विभ्रंशित उदयो भोग-साधनं येषाम् ॥२१॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "कथं प्रजायन्ते",
+          "how are they born?"
+        ],
+        [
+          "तद् आह",
+          "he answers"
+        ],
+        [
+          "ततस् ते पुनर् इमं लोकं प्रति पतन्ति",
+          "thereafter they fall back to this world"
+        ],
+        [
+          "विभ्रंशित उदयो",
+          "their prosperity and means of enjoyment have fallen away"
+        ],
+        [
+          "भोग-साधनं येषाम्",
+          "for those whose means of enjoyment it was"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "How are they born? He answers: thereafter they fall back to this world; the means of enjoyment they had obtained have collapsed.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "kathaṃ prajāyante ? tad āha---tatas te punar imaṃ lokaṃ prati patanti | vibhraṃśita udayo bhoga-sādhanaṃ yeṣām ||21||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -647,16 +771,48 @@
       "start": 25,
       "end": 25,
       "source_marker": "३.३२.२५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "तदैवात्मनात्मानं स्व-प्रकाशम् ईक्षते । कथं-भूतम् ? समं च तद्-दर्शनं च । तत् कुतः ? निःसङ्गम् । सङ्गाद् धि वैषम्यं भवति । निःसङ्गत्वे हेतुः---हेयोपादेय-रहितम् । तत् कुतः ? पदं व्यवसितम् आरूढम् । परमानन्दोऽहम् इति निश्चयं प्राप्तम् इत्य् अर्थः ॥२५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "तदैवात्मनात्मानं स्व-प्रकाशम् ईक्षते",
+          "at that very time, by the Self he sees the self-luminous Self"
+        ],
+        [
+          "कथं-भूतम्",
+          "what is it like?"
+        ],
+        [
+          "समं च तद्-दर्शनं च",
+          "it is even, and its vision is even"
+        ],
+        [
+          "तत् कुतः निःसङ्गम्",
+          "why? It is unattached"
+        ],
+        [
+          "सङ्गाद् धि वैषम्यं भवति",
+          "for attachment produces difference"
+        ],
+        [
+          "निःसङ्गत्वे हेतुः हेयोपादेय-रहितम्",
+          "the reason for nonattachment: it is free of what is to be rejected or taken up"
+        ],
+        [
+          "तत् कुतः पदं व्यवसितम् आरूढम्",
+          "how so? He has resolved upon and attained that state"
+        ],
+        [
+          "परमानन्दोऽहम् इति निश्चयं प्राप्तम् इत्य् अर्थः",
+          "he has become certain “I am supreme bliss”; this is the meaning"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "At that very time, by the Self, he sees the Self, which is self-luminous. What is it like? It is even and its vision is even. Why? It is unattached, for attachment produces difference. Why is it unattached? It is free of what should be rejected and what should be taken up. How? He has resolved upon and attained that state, certain that “I am supreme bliss.”",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "tadaivātmanātmānaṃ sva-prakāśam īkṣate | kathaṃ-bhūtam ? samaṃ ca tad-darśanaṃ ca | tat kutaḥ ? niḥsaṅgam | saṅgād dhi vaiṣamyaṃ bhavati | niḥsaṅgatve hetuḥ---heyopādeya-rahitam | tat kutaḥ ? padaṃ vyavasitam ārūḍham | paramānando’ham iti niścayaṃ prāptam ity arthaḥ ||25||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -988,16 +1144,36 @@
       "start": 35,
       "end": 35,
       "source_marker": "३.३२.३५",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "उभय-चिह्नेन सकाम-निष्काम-लक्षणेन । तम् एवाह---य इति । स-काम-धर्म-प्राप्यं स्वर्गाद्य् अपि भगवत एव स-गुणं स्वरूपम् इति भावः ॥३५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "उभय-चिह्नेन सकाम-निष्काम-लक्षणेन",
+          "by both marks, characterized by desire and desirelessness"
+        ],
+        [
+          "तम् एवाह---य इति",
+          "he explains that with “he who”"
+        ],
+        [
+          "स-काम-धर्म-प्राप्यं स्वर्गाद्य् अपि",
+          "even heaven and the rest attained through desire-driven duties"
+        ],
+        [
+          "भगवत एव स-गुणं स्वरूपम्",
+          "are the Lord’s own form endowed with qualities"
+        ],
+        [
+          "इति भावः",
+          "this is the meaning"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“By both marks” means characterized by desire and desirelessness. He explains this with “he who.” Even heaven and other results of desire-driven duties are the Lord’s own form endowed with qualities; this is the meaning.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "ubhaya-cihnena sakāma-niṣkāma-lakṣaṇena | tam evāha---ya iti | sa-kāma-dharma-prāpyaṃ svargādy api bhagavata eva sa-guṇaṃ svarūpam iti bhāvaḥ ||35||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1005,16 +1181,24 @@
       "start": 36,
       "end": 36,
       "source_marker": "३.३२.३६",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "एभिर् वर्त्मभिः । स्व-दृक् स्व-प्रकाशः ॥३६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "एभिर् वर्त्मभिः",
+          "through these paths"
+        ],
+        [
+          "स्व-दृक् स्व-प्रकाशः",
+          "self-seeing; self-luminous"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“By these paths” means through these ways. “Self-seeing” means self-luminous.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "ebhir vartmabhiḥ | sva-dṛk sva-prakāśaḥ ||36||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
@@ -1062,23 +1246,27 @@
       "start": 38,
       "end": 38,
       "source_marker": "३.३२.३८",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "अङ्ग हे मातः ॥३८॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "अङ्ग हे मातः",
+          "O Mother; dear Mother"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "“Aṅga” means “O Mother.”",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "aṅga he mātaḥ ||38||"
+      ],
+      "source_gap": false
     },
     {
       "canto": 3,
       "chapter": 32,
       "start": 39,
-      "end": 39,
-      "source_marker": "३.३२.३९",
+      "end": 40,
+      "source_marker": "३.३२.३९-४०",
       "sanskrit": "उपदेशेऽनधि-कारिणो दर्शयति, नैतद् इति द्वाभ्याम् । स्व-लाय परोद्वेजकाय । भिन्नाय दुराचाराय । धर्म-ध्वजाय दाम्भिकाय ॥३९-४०॥",
       "word_for_word": [
         [
@@ -1143,17 +1331,41 @@
       "start": 43,
       "end": 43,
       "source_marker": "३.३२.४३",
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "एतच्-छ्रवण-कीर्तन-परस्यापि मत्-पद-प्राप्तिर् एव फलम् इत्य् आह---य इति । अप्य्-अर्थे च-कारः । सोऽपि मत्-पदवीम् एति । हि निश्चितम् ॥४३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "एतच्-छ्रवण-कीर्तन-परस्यापि",
+          "even for one devoted to hearing and chanting this"
+        ],
+        [
+          "मत्-पद-प्राप्तिर् एव फलम्",
+          "attaining my feet alone is the result"
+        ],
+        [
+          "इत्य् आह---य इति",
+          "thus he says, with “he who”"
+        ],
+        [
+          "अप्य्-अर्थे च-कारः",
+          "the particle “ca” is used in the sense of “also”"
+        ],
+        [
+          "सोऽपि मत्-पदवीम् एति",
+          "that person too reaches my abode"
+        ],
+        [
+          "हि निश्चितम्",
+          "indeed; certainly"
         ]
       ],
-      "literal_english": "No commentary",
-      "source_available": false,
-      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact chapter marker preserved."
+      "literal_english": "He says that even for one devoted to hearing and chanting this, attaining my feet alone is the result. The particle “ca” has the sense of “also”: that person too reaches my abode. This is certain.",
+      "source_available": true,
+      "source_note": "Pinned source: merged file vishvAsa/purANam_vaiShNavam @ 100560de6c9f68c2875097d40a2012a84c784179; exact Śrīdhara marker and commentary text preserved.",
+      "transliteration": [
+        "etac-chravaṇa-kīrtana-parasyāpi mat-pada-prāptir eva phalam ity āha---ya iti | apy-arthe ca-kāraḥ | so’pi mat-padavīm eti | hi niścitam ||43||"
+      ],
+      "source_gap": false
     }
   ],
-  "generated_at": "2026-09-28"
+  "generated_at": "2026-09-30"
 }

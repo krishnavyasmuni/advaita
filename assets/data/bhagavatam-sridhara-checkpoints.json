@@ -11573,69 +11573,50 @@
     {
       "id": "canto-3-chapter-32-release",
       "range": "ŚB 3.32.1–3.32.43",
-      "status": "source-checked-word-for-word-incomplete",
+      "status": "pinned-source-commentary-restored-word-for-word-review-pending",
       "english_source": "https://vedabase.io/en/library/sb/3/32/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-38.json?v=20260926-c3-ch32-gloss-cleanup-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch32-verses01-43.json?v=20260930-c3-ch32-33-commentary-restore-1"
       ],
       "records_checked": 43,
-      "exact_sridhara_source_blocks": 28,
-      "no_commentary_ranges": [
-        "3.32.3",
-        "3.32.10",
-        "3.32.13",
-        "3.32.14",
-        "3.32.21",
-        "3.32.25",
-        "3.32.35",
-        "3.32.36",
-        "3.32.38",
-        "3.32.43"
+      "exact_sridhara_source_blocks": 37,
+      "no_commentary_ranges": [],
+      "source_gap_ranges": [
+        "3.32.15"
       ],
-      "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-22",
-      "notes": "Pinned-source audit found 10 explicit no-commentary markers (including merged ranges where applicable); these were previously mislabeled as source gaps. Removed fabricated “contextual literal sense” word-gloss rows. Genuine English word-for-word glosses remain; missing glosses are no longer filled with pseudo-translations.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
+      "generated_at": "2026-09-30",
+      "notes": "Restored 10 Śrīdhara commentary blocks that had been mislabeled as no-commentary. The pinned source has a genuine gap at 3.32.15. Phrase glosses are present for the restored blocks; full chapter word-for-word and live-render review remains pending.",
+      "repaired_at": "2026-09-30",
+      "repair_note": "Restored Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English from the pinned source."
     },
     {
       "id": "canto-3-chapter-33-release",
-      "range": "ŚB 3.33.1–3.33.36",
-      "status": "source-checked-word-for-word-incomplete",
+      "range": "ŚB 3.33.1–3.33.37",
+      "status": "pinned-source-commentary-restored-word-for-word-review-pending",
       "english_source": "https://vedabase.io/en/library/sb/3/33/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch33-verses01-34.json?v=20260926-c3-ch33-gloss-cleanup-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch33-verses01-37.json?v=20260930-c3-ch32-33-commentary-restore-1"
       ],
-      "records_checked": 36,
-      "exact_sridhara_source_blocks": 23,
+      "records_checked": 37,
+      "exact_sridhara_source_blocks": 33,
       "no_commentary_ranges": [
-        "3.33.8",
-        "3.33.9",
-        "3.33.11",
-        "3.33.16",
-        "3.33.18",
-        "3.33.19",
-        "3.33.20",
-        "3.33.31",
-        "3.33.34",
-        "3.33.35",
-        "3.33.36"
+        "3.33.17"
       ],
       "source_gap_ranges": [],
       "live_render": null,
-      "generated_at": "2026-09-22",
-      "notes": "Pinned-source audit found 11 explicit no-commentary markers (including merged ranges where applicable); these were previously mislabeled as source gaps. Removed fabricated “contextual literal sense” word-gloss rows. Genuine English word-for-word glosses remain; missing glosses are no longer filled with pseudo-translations.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
+      "generated_at": "2026-09-30",
+      "notes": "Restored 11 Śrīdhara commentary blocks that had been mislabeled as no-commentary. The pinned source explicitly marks 3.33.17 as not commented on. Phrase glosses are present for the restored blocks; full chapter word-for-word and live-render review remains pending.",
+      "repaired_at": "2026-09-30",
+      "repair_note": "Restored Sanskrit commentary, IAST transliteration, phrase-level glosses, and literal English from the pinned source; retained the explicit no-commentary marker."
     },
     {
       "id": "canto-12-chapter-1-release",
