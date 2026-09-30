@@ -13,12 +13,12 @@ known_defects:
   - "The uploaded PDF has no searchable text layer. Existing English prose outside the checked excerpts was retained but not compared page-by-page with the 98 scans."
   - "Sanskrit OCR/transliteration outside the selected excerpts from pages 5-7 remains unverified and may contain corrupted readings."
   - "The front-matter scans from pages 1-4 were not transcribed; all full-page scan images were removed from the public article as requested."
-  - "Desktop and mobile browser screenshots have not yet been verified."
+  - "The Chrome browser returned net::ERR_BLOCKED_BY_CLIENT for the Pages URL, so desktop and mobile visual review was unavailable."
 unresolved_source_readings:
   - "Sanskrit citations and transliterations outside the selected excerpts on pages 5-7."
 qa_status: "partial"
-commit: "pending"
-deployment: "pending"
+commit: "68b8f9be0ef97c9ba28f60e43846415db2cd33de"
+deployment: "GitHub Pages run 36690251264 succeeded for commit 68b8f9be0ef97c9ba28f60e43846415db2cd33de"
 ---
 
 ## Changes
@@ -33,4 +33,5 @@ deployment: "pending"
 - Source pages 5-7 inspected at rendered resolution before adding the eight Sanskrit passages.
 - HTML parsed with balanced tags; the page contains eight Sanskrit controls and only the cover and standalone diagram images.
 - No full-page scan references or Latin diacritic characters remain in the rebuilt HTML.
-- GitHub Pages build and visual browser review: pending.
+- GitHub Pages build: succeeded for commit 68b8f9be0ef97c9ba28f60e43846415db2cd33de (run 36690251264).
+- Desktop/mobile screenshot review: unavailable; Chrome returned net::ERR_BLOCKED_BY_CLIENT.
