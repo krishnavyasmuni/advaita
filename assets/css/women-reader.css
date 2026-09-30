@@ -46,3 +46,26 @@
     margin:20px auto 28px;
   }
 }
+/* Keep the source note distinct while preserving the article's existing wording. */
+.document-paged-page .document-content .source-context{
+  display:inline-block;
+  margin-left:.35em;
+  padding:.12em .45em;
+  border-radius:3px;
+  background:#eee9e2;
+  color:#6f675f;
+  font-size:.78em;
+  font-weight:400;
+  line-height:1.45;
+  vertical-align:baseline;
+}
+
+/* Every translated quotation uses the same palette as the Yoga Vasistha passage. */
+.document-paged-page .document-content blockquote.translation{
+  border-left-color:var(--quote-rule);
+  background:transparent;
+  color:var(--quote);
+}
+.document-paged-page .document-content blockquote.translation>p{
+  color:inherit;
+}
