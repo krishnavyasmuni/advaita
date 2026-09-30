@@ -1,5 +1,4 @@
-/* Article-specific figure styling. The shared reader supplies the
-   typography, section layout, and orange Sanskrit disclosure buttons. */
+/* Article-specific styling. The shared reader supplies typography, section layout, and Sanskrit controls. */
 .document-paged-page .document-content .women-cover{
   max-width:440px;
   margin:0 auto 30px;
@@ -21,6 +20,20 @@
 .document-paged-page .document-content .women-diagram{
   max-width:560px;
   margin:24px auto 34px;
+}
+.document-paged-page .document-content .women-bibliography-group{
+  margin:24px 0 28px;
+}
+.document-paged-page .document-content .women-bibliography-group>p{
+  margin:0 0 8px;
+}
+.document-paged-page .document-content .women-bibliography-group ol{
+  margin:0;
+  padding-left:30px;
+}
+.document-paged-page .document-content .women-bibliography-group li{
+  margin:0 0 4px;
+  padding-left:4px;
 }
 .document-paged-page .document-content .women-diagram img{
   display:block;
