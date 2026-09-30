@@ -153,7 +153,7 @@
       ,'/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch03-verses01-55.json?v=20260917-1'
       ,'/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch04-verses01-23.json?v=20260917-1'
       ,'/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch05-verses01-52.json?v=20260917-1'
-      ,'/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch06-verses01-50.json?v=20260917-1'
+      ,'/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch06-verses01-50.json?v=20260930-c11-ch06-commentary-restore-1'
       ,'/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch07-verses01-74.json?v=20260917-1'
       ,'/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch08-verses01-44.json?v=20260917-1',
       '/advaita/assets/data/bhagavatam-sridhara-wfw-canto11-ch09-verses01-33.json?v=20260917-2',

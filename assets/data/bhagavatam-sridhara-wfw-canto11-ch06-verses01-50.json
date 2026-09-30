@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "status": "requires-full-verification",
+  "status": "pinned-source-commentary-restored-word-for-word-review-pending",
   "source_repository": "vishvAsa/purANam_vaiShNavam",
   "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
   "source_path": "bhAgavatam/gauDIya-prastutiH/11/06.md",
   "source_blob_sha": "a6af2d0e04197cae8ce498d751aa95614e61a119",
-  "editorial_note": "Canto 11 data remains under full source and translation review. The Sanskrit and English records are draft material tied to the pinned source; phrase coverage and all lexical choices still require chapter-by-chapter verification.",
-  "scope": "Complete source-bound Śrīdhara commentary for Canto 11 Chapter 6, verses 11.6.1–11.6.50; source groups 11.6.2–11.6.3, 11.6.21–11.6.22, 11.6.37–11.6.38, 11.6.40–11.6.41, and 11.6.48–11.6.49; explicit no-commentary records are preserved for all remaining source ranges without a Śrīdhara text.",
+  "editorial_note": "Nine commentary entries previously marked “No commentary” were restored from the pinned Śrīdhara source. Their phrase-level glosses and continuous literal renderings have been added; the remaining no-commentary labels are source checked. Independent line-by-line review and live-render verification remain pending.",
+  "scope": "Complete source-bound Śrīdhara commentary for Canto 11 Chapter 6, verses 11.6.1–11.6.50; source groups 11.6.2–11.6.3, 11.6.21–11.6.22, 11.6.37–11.6.38, 11.6.40–11.6.41, and 11.6.48–11.6.49. Nine misclassified passages have been restored; explicit no-commentary markers are retained for the remaining fourteen source ranges.",
   "entries": [
     {
       "canto": 11,
@@ -121,28 +121,80 @@
       "chapter": 6,
       "start": 6,
       "end": 6,
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "स्वर्गोद्यान-स्थैर् माल्यैः । चित्राणि शृङ्खला-बन्ध-प्रायाणि पदान्य् अर्थाश् च यासु ताभिर् गीर्भिः ॥६॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "स्वर्गोद्यान-स्थैर् माल्यैः",
+          "with garlands from the gardens of heaven"
+        ],
+        [
+          "चित्राणि शृङ्खला-बन्ध-प्रायाणि पदान्य् अर्थाश् च यासु",
+          "in which the words and meanings are varied and linked like a chain"
+        ],
+        [
+          "ताभिर् गीर्भिः",
+          "with those hymns"
         ]
       ],
-      "literal_english": "No commentary"
+      "literal_english": "They adorned the foremost of the Yadus with garlands from the gardens of heaven and praised the Lord of the universe with hymns whose words and meanings were varied and intricately linked."
     },
     {
       "canto": 11,
       "chapter": 6,
       "start": 7,
       "end": 7,
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "बुद्धीन्द्रियादिभिर् दर्शनादिना प्राणेन च बल-हेतुना दण्ड-वत्-प्रणिपातेन नता वयं नमस्-कृतवन्तः । स्मेति विस्मये । यथाहुः---\n\n> दोर्भ्यां पदाभ्यां जानुभ्याम् उरसा शिरसा दृशा । >\n> मनसा वचसा चेति प्रणामोऽष्टाङ्ग ईरितः ॥ इति ।\n\nस्म-शब्दोक्त-विस्मयाय विशेषणम् । कर्म-मयाद् उरु-पाशान् मुमुक्षुभिर् भाव-युक्तैर् अपि यत् केवलम् अन्तर्-हृदि चिन्त्यते न तु दृश्यते तद् वयं नताः । अहो भाग्यम् इत्य् अर्थः ॥७॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "बुद्धीन्द्रियादिभिर् दर्शनादिना",
+          "through the intellect and senses, by seeing and the other acts"
+        ],
+        [
+          "प्राणेन च बल-हेतुना",
+          "and by the life-breath, the source of strength"
+        ],
+        [
+          "दण्ड-वत्-प्रणिपातेन",
+          "by prostrating like a staff"
+        ],
+        [
+          "नता वयं नमस्-कृतवन्तः",
+          "we bowed; we paid homage"
+        ],
+        [
+          "स्मेति विस्मये",
+          "the particle sma expresses wonder"
+        ],
+        [
+          "दोर्भ्यां पदाभ्यां जानुभ्याम् उरसा शिरसा दृशा",
+          "with the arms, feet, knees, chest, head, and eyes"
+        ],
+        [
+          "मनसा वचसा चेति प्रणामोऽष्टाङ्ग ईरितः",
+          "and with the mind and speech: this is called the eight-limbed prostration"
+        ],
+        [
+          "कर्म-मयाद् उरु-पाशान्",
+          "from the great bonds made of karma"
+        ],
+        [
+          "मुमुक्षुभिर् भाव-युक्तैर् अपि",
+          "even by seekers of liberation endowed with devotional feeling"
+        ],
+        [
+          "यत् केवलम् अन्तर्-हृदि चिन्त्यते न तु दृश्यते",
+          "which is only contemplated within the heart, but is not seen"
+        ],
+        [
+          "तद् वयं नताः",
+          "to that we have bowed"
+        ],
+        [
+          "अहो भाग्यम् इत्य् अर्थः",
+          "the meaning is: “Ah, what good fortune!”"
         ]
       ],
-      "literal_english": "No commentary"
+      "literal_english": "“We bowed; we paid homage” means that they prostrated themselves, using intellect and senses, seeing and the other acts, and the life-breath that gives strength, as one falls like a staff. The particle sma expresses wonder. The cited verse describes the eight-limbed prostration: arms, feet, knees, chest, head, eyes, mind, and speech. The word sma marks that wonder. Even seekers of liberation who have devotional feeling can only contemplate within the heart—and do not see—the Lord’s feet that release them from karma’s great bonds. “We have bowed to those feet”: ah, what good fortune!"
     },
     {
       "canto": 11,
@@ -347,42 +399,214 @@
       "chapter": 6,
       "start": 13,
       "end": 13,
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "त्वच्-चरणस्य भक्त-पक्ष-पातः प्रसिद्ध एवेति स्तुवन्तः प्रार्थयन्ते---केतुर् इति । बलि-बन्धने त्रिभिर् विक्रमैर् युतः । तत्र द्वितीय-विक्रमे सत्य-लोकं गतस् तव पादः केतुर् अत्युच्छ्रितो विजय-ध्वज इव । तत् सम्पादयन्ति । त्रि-पतत्-पताकः त्रिधा पतन्ती, त्रिषु लोकेषु वा पतन्ती गङ्गा पताका यस्य । तथासुर-देव-चम्वोस् तत् सेनयोर् उभयोर् भयाभय-करः । साधुषु सुरेषु स्वर्गाय खलेष्व् असुरेष्व् इतरायेतरस्मै अधो-गमनाय । य एवं केतु-रूपस् ते पादः स भजतां नोऽघं पुनातु शोधयतु । \"अघात्\" इति पाठे, भजतां नः इति कर्मणि षष्ठ्यौ । अघाद् भजतोऽस्मान् पुनात्व् इति । तथा च श्रुतिः---\n\n> चरणं पवित्रं विततं पुराणं >\n> येन पूतस् तरति दुष्कृतानि । >\n> तेन पवित्रेण शुद्धेन पूता >\n> अतिपाप्मानम् अरातिं तरेम ॥ \\[महानारायणोपनिषद् १.५१\\] >\n> लोकस्य द्वारम् अर्चिमत्-पवित्रं >\n> ज्योतिष्मद्- भ्राजमानं महस्वत् । >\n> अमृतस्य धारा बहुधा दोहमानं >\n> चरणं नो लोके सुधितां दधातु ॥ इति ॥१३॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "त्वच्-चरणस्य भक्त-पक्ष-पातः",
+          "Your foot’s favor toward the side of the devotees"
+        ],
+        [
+          "बलि-बन्धने त्रिभिर् विक्रमैर् युतः",
+          "at Bali’s binding, joined with three strides"
+        ],
+        [
+          "द्वितीय-विक्रमे सत्य-लोकं गतस् तव पादः",
+          "in the second stride, Your foot reached Satyaloka"
+        ],
+        [
+          "केतुर् अत्युच्छ्रितो विजय-ध्वज इव",
+          "it stood very high like a victory-banner"
+        ],
+        [
+          "तत् सम्पादयन्ति",
+          "they bring about that comparison"
+        ],
+        [
+          "त्रि-पतत्-पताकः",
+          "whose banner is the three-falling (Gaṅgā)"
+        ],
+        [
+          "त्रिधा पतन्ती, त्रिषु लोकेषु वा पतन्ती गङ्गा पताका यस्य",
+          "whose banner is Gaṅgā, falling in three streams, or falling through the three worlds"
+        ],
+        [
+          "भयाभय-करः",
+          "causing fear and safety"
+        ],
+        [
+          "साधुषु सुरेषु स्वर्गाय",
+          "for the virtuous gods, toward heaven"
+        ],
+        [
+          "खलेष्व् असुरेष्व् इतरायेतरस्मै अधो-गमनाय",
+          "for the wicked Asuras, toward the other destination, a downward course"
+        ],
+        [
+          "भजतां नोऽघं पुनातु शोधयतु",
+          "may He purify the sin of us worshippers"
+        ],
+        [
+          "\"अघात्\" इति पाठे",
+          "when the reading is “aghāt”"
+        ],
+        [
+          "भजतां नः इति कर्मणि षष्ठ्यौ",
+          "bhajatām and naḥ are genitives used with the sense of an object"
+        ],
+        [
+          "अघाद् भजतोऽस्मान् पुनात्व् इति",
+          "that is: “May He purify us worshippers from sin”"
+        ],
+        [
+          "चरणं पवित्रं विततं पुराणं",
+          "the foot, holy, widespread, and ancient"
+        ],
+        [
+          "येन पूतस् तरति दुष्कृतानि",
+          "by which the purified one crosses misdeeds"
+        ],
+        [
+          "तेन पवित्रेण शुद्धेन पूता",
+          "purified by that holy, pure purifier"
+        ],
+        [
+          "अतिपाप्मानम् अरातिं तरेम",
+          "may we cross the exceedingly sinful enemy"
+        ],
+        [
+          "लोकस्य द्वारम् अर्चिमत्-पवित्रं",
+          "the world’s radiant, holy gateway"
+        ],
+        [
+          "ज्योतिष्मद्- भ्राजमानं महस्वत्",
+          "luminous, shining, and glorious"
+        ],
+        [
+          "अमृतस्य धारा बहुधा दोहमानं",
+          "yielding streams of nectar in many ways"
+        ],
+        [
+          "चरणं नो लोके सुधितां दधातु",
+          "may that foot establish well-being for us in the world"
         ]
       ],
-      "literal_english": "No commentary"
+      "literal_english": "Praising the famed favor shown by Your foot to the devotees, they pray, beginning with “banner.” At Bali’s binding, Your foot took three strides. In the second stride it reached Satyaloka and stood very high, like a victory-banner. The banner is Gaṅgā, falling in three streams or flowing through the three worlds. Your foot brings fear to the Asura army and safety to the Deva army: for the virtuous gods it leads to heaven, and for the wicked Asuras to the other destination, a downward course. May that banner-like foot purify the sin of us worshippers. With the reading “aghāt,” the genitives “bhajatām” and “naḥ” have an object sense: “May He purify us worshippers from sin.” The cited Śruti says: “The foot, holy, widespread, and ancient, by which the purified one crosses misdeeds; purified by that holy, pure purifier, may we cross the exceedingly sinful enemy. The world’s radiant, holy gateway, luminous, shining, and glorious, yielding streams of nectar in many ways—may that foot establish well-being for us in the world.”"
     },
     {
       "canto": 11,
       "chapter": 6,
       "start": 14,
       "end": 14,
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "ननु युद्धे देवासुरादयः परस्परं जयन्ति, जीयन्ते च किम् अहं तत्रेत्य् अत आहुः---नसीति । मिथुर् मिथोऽर्द्यमाना युद्धादिभिः पीड्यमाना ब्रह्मादयोऽपि यस्य तव वशे भवन्ति, न तु जये पराजये वा स्व-तन्त्राः । के इव ? नसि नासिकायाम् ओता नासिकाम् आविध्य वद्धा गावो बली-वर्दा इव । कुतः ? कालस्य कलयितुः प्रवर्तकस्य । तद् एव कुतः ? प्रकृति-पुरुषयोर् अपि परस्य । तस्य ते पुरुषोत्तमस्य पादो नः शं तनोतु ॥१४॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "ननु युद्धे देवासुरादयः परस्परं जयन्ति, जीयन्ते च",
+          "One may object: in battle, Devas and Asuras conquer one another and are conquered"
+        ],
+        [
+          "किम् अहं तत्रेत्य् अत आहुः",
+          "“What have I to do with that?”—therefore they say"
+        ],
+        [
+          "मिथुर् मिथोऽर्द्यमाना युद्धादिभिः पीड्यमाना",
+          "mutually assailed and afflicted by battle and the like"
+        ],
+        [
+          "ब्रह्मादयोऽपि यस्य तव वशे भवन्ति",
+          "even Brahmā and the others are under Your control"
+        ],
+        [
+          "न तु जये पराजये वा स्व-तन्त्राः",
+          "they are not independent in victory or defeat"
+        ],
+        [
+          "नसि नासिकायाम् ओता नासिकाम् आविध्य वद्धा गावो बली-वर्दा इव",
+          "like cows and bulls pierced through the nose and tied by a nose-rope"
+        ],
+        [
+          "कालस्य कलयितुः प्रवर्तकस्य",
+          "of Time, the reckoner and impeller"
+        ],
+        [
+          "प्रकृति-पुरुषयोर् अपि परस्य",
+          "who is beyond both Prakṛti and Puruṣa"
+        ],
+        [
+          "तस्य ते पुरुषोत्तमस्य पादो नः शं तनोतु",
+          "may the foot of You, the Supreme Person, bring us welfare"
         ]
       ],
-      "literal_english": "No commentary"
+      "literal_english": "One may object: Devas, Asuras, and the rest conquer one another and are conquered in battle, so what has the Lord to do with it? They answer: even Brahmā and the others, mutually assailed and afflicted by war and other events, are under Your control; they are not independent in victory or defeat. They are like cows and bulls pierced through the nose and tied by a nose-rope. You are Time’s impeller, and You are beyond both Prakṛti and Puruṣa. May the foot of You, the Supreme Person, bring us welfare."
     },
     {
       "canto": 11,
       "chapter": 6,
       "start": 15,
       "end": 15,
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "प्रकृति-पुरुषाभ्यां परत्वम् उपपादयन्तः कालत्वेन पुरुषोत्तमत्वम् आहुः---अस्येति । अस्य जगत उदयादीनां हेतुर् असि । कुतः ? अव्यक्तं प्रकृतिः, जीवः पुरुषः, महान् महत्-तत्त्वं, तेषां कालं नियन्तारं त्वाम् आहुः---\n\n> अक्षरात् परतः परः । महतः परम-व्यक्तम् । अव्यक्तात् पुरुषः > परम् । पुरुषान् न परं किञ्चित् । सा काष्ठा सा परा गतिः ॥ इत्य् > आद्याः श्रुतयः ।\n\nकिं च, अयं संवत्सरात्मको यः कालस् त्रिणाभिस् त्रीणि चातुर्-मास्यानि नाभयो यस्य सोऽपि त्वम् एव । अतस् त्वम् उत्तम-पुरुष इति । तथा च गीतासु---\n\n> यस्मात् क्षरम् अतीतोऽहम् अक्षराद् अपि चोत्तमाह् । >\n> अतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमाह् ॥ \\[गीता १५.१८\\] इति > ॥१५॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "प्रकृति-पुरुषाभ्यां परत्वम् उपपादयन्तः",
+          "establishing superiority over Prakṛti and Puruṣa"
+        ],
+        [
+          "कालत्वेन पुरुषोत्तमत्वम् आहुः",
+          "they state that He is the Supreme Person as Time"
+        ],
+        [
+          "अस्य जगत उदयादीनां हेतुर् असि",
+          "You are the cause of this world’s arising and the rest"
+        ],
+        [
+          "अव्यक्तं प्रकृतिः, जीवः पुरुषः, महान् महत्-तत्त्वं",
+          "the unmanifest is Prakṛti; the Puruṣa is the jīva; the Great is the mahat-tattva"
+        ],
+        [
+          "तेषां कालं नियन्तारं त्वाम् आहुः",
+          "they call You Time, their controller"
+        ],
+        [
+          "अक्षरात् परतः परः",
+          "higher still beyond the imperishable is the Supreme"
+        ],
+        [
+          "महतः परम-व्यक्तम्",
+          "the unmanifest is higher than the Great"
+        ],
+        [
+          "अव्यक्तात् पुरुषः परम्",
+          "the Puruṣa is higher than the unmanifest"
+        ],
+        [
+          "पुरुषान् न परं किञ्चित्",
+          "there is nothing higher than the Puruṣa"
+        ],
+        [
+          "सा काष्ठा सा परा गतिः",
+          "that is the limit; that is the supreme goal"
+        ],
+        [
+          "संवत्सरात्मको यः कालस् त्रिणाभिस् त्रीणि चातुर्-मास्यानि नाभयो यस्य",
+          "that Time whose form is the year, whose three hubs are the three four-month periods"
+        ],
+        [
+          "सोऽपि त्वम् एव",
+          "that too is You alone"
+        ],
+        [
+          "अतस् त्वम् उत्तम-पुरुष इति",
+          "therefore You are the Supreme Person"
+        ],
+        [
+          "यस्मात् क्षरम् अतीतोऽहम् अक्षराद् अपि चोत्तमाह्",
+          "since I transcend the perishable and am higher even than the imperishable"
+        ],
+        [
+          "अतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमाह्",
+          "therefore I am renowned in the world and in the Veda as the Supreme Person"
         ]
       ],
-      "literal_english": "No commentary"
+      "literal_english": "Establishing that the Lord is beyond Prakṛti and Puruṣa, they call Him the Supreme Person as Time. “You are the cause of this world’s arising and the rest.” The unmanifest is Prakṛti, the Puruṣa is the jīva, and the Great is the mahat-tattva; the Vedic passages call the Lord Time, the controller of these. They cite the Śruti: “Higher than the Great is the unmanifest; higher than the unmanifest is the Puruṣa; there is nothing higher than the Puruṣa—that is the limit, that is the supreme goal.” They continue: the annual Time, whose three hubs are the three four-month periods, is also the Lord alone; therefore He is the Supreme Person. The Gītā says: “Since I transcend the perishable and am higher even than the imperishable, I am renowned in the world and in the Veda as the Supreme Person.”"
     },
     {
       "canto": 11,
@@ -533,14 +757,14 @@
       "chapter": 6,
       "start": 20,
       "end": 20,
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "विबुधैः सह ॥२०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "विबुधैः सह",
+          "together with the gods"
         ]
       ],
-      "literal_english": "No commentary"
+      "literal_english": "“Together with the gods.”"
     },
     {
       "canto": 11,
@@ -585,14 +809,22 @@
       "chapter": 6,
       "start": 23,
       "end": 23,
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "उद्दामानि वृत्तानि विक्रमा येषु तानि कर्माणि ।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "उद्दामानि वृत्तानि",
+          "mighty and unrestrained are the exploits"
+        ],
+        [
+          "विक्रमा येषु",
+          "whose deeds contain such feats of valor"
+        ],
+        [
+          "तानि कर्माणि",
+          "those are the deeds"
         ]
       ],
-      "literal_english": "No commentary"
+      "literal_english": "The deeds are those in which the exploits are mighty and unrestrained."
     },
     {
       "canto": 11,
@@ -1009,14 +1241,42 @@
       "chapter": 6,
       "start": 47,
       "end": 47,
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "संन्यासिनो हि ब्रह्मचर्यादि-क्लेशैः कथञ्चित् तरन्ति, वयं त्व् अनायासेनैव तरिष्याम इत्य् आह---**वात-रशना**[^३१] इति । **ऊर्ध्व-मन्थिन** ऊर्ध्व-रेतसः ॥४७॥\n\n[^३१]: रशना-शब्देन वस्त्रं लक्ष्यते । वाताशनाः इति च पाठः ।",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "संन्यासिनो हि",
+          "for renunciants indeed"
+        ],
+        [
+          "ब्रह्मचर्यादि-क्लेशैः",
+          "through hardships beginning with celibacy"
+        ],
+        [
+          "कथञ्चित् तरन्ति",
+          "they somehow cross over"
+        ],
+        [
+          "वयं त्व् अनायासेनैव तरिष्याम",
+          "but we shall cross without effort"
+        ],
+        [
+          "वात-रशना",
+          "“girdled with wind”"
+        ],
+        [
+          "रशना-शब्देन वस्त्रं लक्ष्यते",
+          "the word raśanā indicates clothing"
+        ],
+        [
+          "वाताशनाः इति च पाठः",
+          "there is also the reading “vātāśanāḥ,” “air-eaters”"
+        ],
+        [
+          "ऊर्ध्व-मन्थिन ऊर्ध्व-रेतसः",
+          "ūrdhvamanthinaḥ means those whose semen flows upward, celibates"
         ]
       ],
-      "literal_english": "No commentary"
+      "literal_english": "Renunciants somehow cross over through hardships beginning with celibacy; “but we shall cross without effort,” says the commentary. It explains “vātaraśanāḥ” as “girdled with wind”: here the word raśanā indicates clothing. The source also records the variant reading “vātāśanāḥ,” “air-eaters.” “Ūrdhvamanthinaḥ” means those whose semen flows upward, that is, celibates."
     },
     {
       "canto": 11,
@@ -1061,15 +1321,20 @@
       "chapter": 6,
       "start": 50,
       "end": 50,
-      "sanskrit": "न व्याख्यातम्।",
+      "sanskrit": "एकान्तिनम् इत्य्-आदि स्वाभिप्रायावञ्चने हेतुः ॥५०॥",
       "word_for_word": [
         [
-          "न व्याख्यातम्",
-          "No commentary"
+          "एकान्तिनम् इत्य्-आदि",
+          "the words beginning “single-minded [servant]”"
+        ],
+        [
+          "स्वाभिप्रायावञ्चने हेतुः",
+          "are the reason for not concealing His own intention"
         ]
       ],
-      "literal_english": "No commentary"
+      "literal_english": "The words “single-minded [servant]” and so on explain why the Lord does not conceal His own intention from Uddhava."
     }
   ],
-  "release_commit": "c51db796d1b0658fe827b380e0d150483c7365a0"
+  "release_commit": "c51db796d1b0658fe827b380e0d150483c7365a0",
+  "generated_at": "2026-09-30"
 }
