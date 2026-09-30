@@ -11548,39 +11548,27 @@
     {
       "id": "canto-3-chapter-31-release",
       "range": "ŚB 3.31.1–3.31.48",
-      "status": "source-checked-word-for-word-incomplete",
+      "status": "source-aligned-commentary-restored-word-for-word-incomplete-awaiting-live-verification",
       "english_source": "https://vedabase.io/en/library/sb/3/31/advanced-view/",
       "sanskrit_primary_source": "https://github.com/vishvAsa/purANam_vaiShNavam/blob/100560de6c9f68c2875097d40a2012a84c784179/bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch31-verses01-42.json?v=20260926-c3-ch31-gloss-cleanup-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch31-verses01-42.json?v=20260930-c3-ch31-commentary-restore-1"
       ],
-      "records_checked": 48,
-      "exact_sridhara_source_blocks": 28,
-      "no_commentary_ranges": [
-        "3.31.1",
-        "3.31.3",
-        "3.31.5",
-        "3.31.6",
-        "3.31.7–3.31.8",
-        "3.31.17",
-        "3.31.20",
-        "3.31.25",
-        "3.31.26",
-        "3.31.27",
-        "3.31.30",
-        "3.31.31",
-        "3.31.36",
-        "3.31.48"
-      ],
+      "records_checked": 42,
+      "exact_sridhara_source_blocks": 42,
+      "no_commentary_ranges": [],
       "source_gap_ranges": [],
       "live_render": null,
       "generated_at": "2026-09-22",
-      "notes": "Pinned-source audit found 14 explicit no-commentary markers (including merged ranges where applicable); these were previously mislabeled as source gaps. Removed fabricated “contextual literal sense” word-gloss rows. Genuine English word-for-word glosses remain; missing glosses are no longer filled with pseudo-translations.",
-      "repaired_at": "2026-09-22",
-      "repair_note": "Preserved the merged 3.24–3.33 source file and exact chapter markers; added source-specific word-for-word pairs for commentary-bearing blocks."
+      "notes": "The 14 restored entries now include exact Sanskrit, phrase-level glosses and literal English. All 42 source ranges contain commentary; the existing chapter glosses still need full review.",
+      "repaired_at": "2026-09-30",
+      "repair_note": "Restored 14 Śrīdhara blocks that had been marked no-commentary. Compared all 42 source ranges against the pinned chapter; each contains a Śrīdhara block. Chapter-wide word-for-word review remains incomplete.",
+      "numbered_verses": 48,
+      "word_for_word_pair_count": 229,
+      "word_for_word_status": "chapter-wide phrase-level glosses remain incomplete; phrase glosses added to 14 restored commentary blocks"
     },
     {
       "id": "canto-3-chapter-32-release",
