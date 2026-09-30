@@ -254,7 +254,7 @@
     if (entry.sourceGap) {
       const paragraph = document.createElement('p');
       paragraph.className = 'gita-dual-empty';
-      paragraph.textContent = 'Source text unavailable in the pinned witness';
+      paragraph.textContent = 'Source gap.';
       section.append(label, paragraph);
       return section;
     }
@@ -262,7 +262,7 @@
     section.append(label, result.empty ? (() => {
       const paragraph = document.createElement('p');
       paragraph.className = 'gita-dual-empty';
-      paragraph.textContent = 'No Śrīdhara commentary is recorded in the pinned source for this verse range.';
+      paragraph.textContent = 'No commentary.';
       return paragraph;
     })() : result.node);
     return section;
@@ -273,7 +273,7 @@
     const commentary = document.createElement('section');
     commentary.className = 'gita-commentary';
     const heading = document.createElement('h3');
-    heading.textContent = 'Śrīdhara’s Commentary.';
+    heading.textContent = 'Śrīdhara’s Commentary';
     const paragraph = document.createElement('p');
     paragraph.textContent = text;
     commentary.append(heading, paragraph);
@@ -309,9 +309,10 @@
         const reveal = details.querySelector('.gita-reveal');
         if (!reveal) return;
         reveal.appendChild(makeSridharaSection(resolved));
-        if (resolved.sourceGap) ensureCommentary(section, 'Source text unavailable in the pinned witness; no Śrīdhara gloss is invented.');
-        else if (noCommentary(resolved.pairs)) ensureCommentary(section, 'No Śrīdhara commentary is recorded in the pinned source for this verse range.');
-        if (resolved.literal) ensureCommentary(section, resolved.literal);
+        if (!resolved.sourceGap && !noCommentary(resolved.pairs) && resolved.literal &&
+            !/^no commentary\.?$/i.test(resolved.literal.trim())) {
+          ensureCommentary(section, resolved.literal);
+        }
       });
     });
   }

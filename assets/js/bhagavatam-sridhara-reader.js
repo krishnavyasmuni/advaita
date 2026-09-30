@@ -531,10 +531,11 @@
     }
     controls.appendChild(makeDetails('Transliteration', transliterationSections));
 
+    const commentaryStatus = commentaryStatusForRange(localCommentaryEntries, entry.start, entry.end);
     const sridharaSanskritDetails = makeDetails('Śrīdhara Sanskrit', [
       sridharaSanskrit
         ? makeParagraph(sridharaSanskrit, { lang: 'sa-Deva' })
-        : makeParagraph('No Śrīdhara commentary is recorded in the pinned source for this verse range.', { className: 'gita-no-source' })
+        : makeParagraph(commentaryStatus === 'source-gap' ? 'Source gap.' : 'No commentary.', { className: 'gita-no-source' })
     ]);
     if (sridharaSanskrit) {
       const previewLine = sridharaSanskrit.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)[0] || '';
@@ -557,26 +558,11 @@
       const commentary = document.createElement('section');
       commentary.className = 'gita-commentary';
       const commentaryHeading = document.createElement('h3');
-      commentaryHeading.textContent = 'Śrīdhara’s Commentary — English rendering';
+      commentaryHeading.textContent = 'Śrīdhara’s Commentary';
       commentary.append(commentaryHeading, makeParagraph(commentaryText));
       section.appendChild(commentary);
-    } else {
-      const commentaryStatus = commentaryStatusForRange(localCommentaryEntries, entry.start, entry.end);
-      const statusText = commentaryStatus === 'no-commentary'
-        ? 'The pinned source explicitly states that Śrīdhara does not explain this range.'
-        : commentaryStatus === 'source-gap'
-          ? 'The pinned source data has no complete commentary block for this range; this is a source gap, not a no-commentary statement.'
-          : sridharaSanskrit
-            ? 'The Sanskrit commentary is preserved above; an English rendering is not available for this source block yet.'
-            : '';
-      if (statusText) {
-        const commentary = document.createElement('section');
-        commentary.className = 'gita-commentary';
-        const commentaryHeading = document.createElement('h3');
-        commentaryHeading.textContent = 'Commentary status';
-        commentary.append(commentaryHeading, makeParagraph(statusText));
-        section.appendChild(commentary);
-      }
+    } else if (commentaryStatus === 'english-rendering-unavailable' && sridharaSanskrit) {
+      section.appendChild(makeParagraph('No English rendering.', { className: 'gita-commentary-note' }));
     }
 
     return section;
