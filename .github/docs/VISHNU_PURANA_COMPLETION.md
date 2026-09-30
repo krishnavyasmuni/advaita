@@ -331,4 +331,16 @@ Book 3, Chapter 3 has received a verse-by-verse Sanskrit, translation, word-map,
 - Reader sizing: control summaries use the Bhagavad Gītā Chapter 1 styling at 12px with 4px by 10px padding; main word rows use 15.5px on desktop and 13.5px on mobile.
 - Static validation passed: 31 contiguous IDs; 31 nonempty translations and Sanskrit blocks; 31 main word lists with 276 rows; 31 main Transliteration controls; 20 Śrīdhara Sanskrit controls; 82 matched details and summaries; balanced 680 opening and closing div tags; no curly quotation marks; no Latin-script characters in Devanāgarī word fields; and no caste wording in verse translations or word maps.
 
-Book 3 semantic review status: 139/837 verse articles across 3/18 chapters. Fifteen chapters remain. Continue with Book 3, Chapter 4. This semantic audit remains separate from the baseline main-WFW panel count of 837/837.
+Book 3 semantic review status: 165/837 verse articles across 4/18 chapters. Fourteen chapters remain. Continue with Book 3, Chapter 5. This semantic audit remains separate from the baseline main-WFW panel count of 837/837.
+
+### Book 3, Chapter 4
+
+Book 3, Chapter 4 was reviewed verse by verse against the pinned mūla, numbered witness, Śrīdhara commentary, and Vasuki English reference, with Wilson checked at Wisdom Library and Sacred Texts.
+
+- Coverage: 26/26 contiguous verses; 26 Sanskrit blocks, English translations, main Word-for-word controls, and Transliteration controls; 236 main lexical rows.
+- Commentary: 22 supplied Śrīdhara states and four exact No commentary. states; 74 matched details and summaries.
+- Speaker and pronouns: Parāśara speaks to Maitreya. The my son and by me/from me statements belong to Parāśara, as the chapter source identifies him as speaker. The āha formulas in Śrīdhara’s comments have the commentator as their implied subject. English maps name Śrīdhara, Vyāsa, Paila, or Śākapūrṇi where a bare third-person pronoun would be unclear. The two Bāṣkalis in 3.4.25–26 are distinguished.
+- Textual decisions: 3.4.3 follows mūla te and vyāsaiḥ; 3.4.6 follows tan me; 3.4.7 follows mūla sa jagrāha; 3.4.12 follows numbered tu; 3.4.15 follows mūla mahāvedataruḥ; 3.4.16–17 follow mūla vibheda; the numbered witness supplies the first two pādas at 3.4.22, which the mūla omits, and the last name follows mūla śaiśiraḥ and Wilson’s Śiśira; and 3.4.24 follows numbered and Śrīdhara niruktakṛt, also reflected by Wilson. The numbered witness supplies the third pāda at 3.4.25, omitted by the mūla, with the three disciple names.
+- Source and wording repairs: aligned the 3.4.7, 3.4.9, 3.4.15–18, 3.4.25, and 3.4.26 Devanāgarī and IAST displays with their selected readings; corrected the Jaimini spelling and the segmentation of Agnimāḍhaka; removed unsupported bracket insertions and typographic quotation marks; and replaced unclear agent pronouns in maps and commentary.
+- Reader sizing: the shared Chapter 1 Bhagavad Gītā styles remain in use, with 12px summaries, 4px by 10px summary padding, 15.5px desktop word rows, and 13.5px mobile word rows.
+- Static validation passed: 26 contiguous IDs and translations; 26 Word-for-word and 26 Transliteration controls; 236 lexical rows; 22 Śrīdhara Sanskrit controls; 74 matched details and summaries; 607 balanced div openings and closings; no square brackets or curly quotation marks; no Latin-script characters in Devanāgarī fields; and no caste wording in verse translations or word maps.
