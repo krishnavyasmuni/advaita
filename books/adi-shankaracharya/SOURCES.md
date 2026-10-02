@@ -9,7 +9,9 @@ The Sanskrit text in these readers is based on Ambuda electronic editions, which
 | Advaitapañcaratnam | [Ambuda](https://ambuda.org/texts/advaitapancaratnam/) | Volume 16, *Miscellaneous Prakaranas*, vol. 2 |
 | Yatipañcakam | [Ambuda](https://ambuda.org/texts/yatipancakam/) | Volume 16, *Miscellaneous Prakaranas*, vol. 2 |
 | Kāśīpañcakam | [Ambuda](https://ambuda.org/texts/kashipancakam/all) | Volume 18 |
+| Śrī Dakṣiṇāmūrtyaṣṭakam | [Ambuda](https://ambuda.org/texts/shridakshinamurtyashtakam/) | Volume 17, *Stotras*, vol. 1 |
+| Viṣṇu Ṣaṭpadī Stotram | [Ambuda](https://ambuda.org/texts/shatpadistotram/) | Volume 18, *Stotras*, vol. 2 |
 
 ## Proofreading references
 
-These were consulted to check the Sanskrit readings: [Advaita Śāradā, Sringeri](https://www.advaitasharada.sringeri.net/read/pancharatna-stotrani/6/) for Advaitapañcaratnam and [the Sanskrit Documents text of Māyāpañcakam](https://sanskritdocuments.org/doc_z_misc_shankara/mAyA5.html), proofread by Sunder Hattangadi. These references are recorded for collation only; their website transcriptions are not reproduced here.
+These were consulted to check the Sanskrit readings: [Advaita Śāradā, Sringeri](https://www.advaitasharada.sringeri.net/read/pancharatna-stotrani/6/) for Advaitapañcaratnam; [the Sanskrit Documents text of Māyāpañcakam](https://sanskritdocuments.org/doc_z_misc_shankara/mAyA5.html), proofread by Sunder Hattangadi; [Sanskrit Documents](https://sanskritdocuments.org/doc_shiva/dakShiNAmUrtyaShTakam.html) and [Stotra Nidhi](https://stotranidhi.com/en/dakshinamurthy-ashtakam-in-english) for Śrī Dakṣiṇāmūrtyaṣṭakam; and [Stotra Nidhi](https://stotranidhi.com/hi/vishnu-shatpadi-stotram-in-sanskrit/) for Viṣṇu Ṣaṭpadī. These references are recorded for collation only; their website transcriptions are not reproduced here.
