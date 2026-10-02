@@ -1,0 +1,32 @@
+/* Ādi Śaṅkarācārya reading pages: reuse the Gītā reader’s width and typography. */
+.shankara-content{padding-bottom:36px}
+.shankara-content .script-controls{display:flex;justify-content:center;gap:8px;margin:20px auto 4px}
+.shankara-content .script-controls button{
+  border:1px solid #9bc5c7;border-radius:999px;padding:6px 13px;
+  background:transparent;color:#2f7f82;font:600 12px Merriweather,Georgia,serif;cursor:pointer
+}
+.shankara-content .script-controls button[aria-pressed="true"]{background:#e7f0ef}
+.shankara-content .gita-sanskrit{font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;white-space:pre-line;overflow-wrap:anywhere}
+.shankara-content[data-script-mode="iast"] .gita-sanskrit{font-family:Merriweather,Georgia,serif;font-size:16px;line-height:1.7}
+.shankara-content .gita-verse{scroll-margin-top:24px}
+.shankara-content .gita-word-row{overflow-wrap:anywhere}
+.shankara-content .gita-word-dev{font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif}
+.shankara-content .gita-word-iast{color:#6f665e}
+.shankara-content .shankara-unit-label{margin:0 0 3px;color:#817970;font-size:11px;text-align:center}
+.shankara-content .shankara-work-nav{display:flex;justify-content:space-between;gap:16px;margin:34px 0 0;padding-top:18px;border-top:1px solid #dedbd6}
+.shankara-content .shankara-work-nav a,.shankara-content .shankara-index-link{color:#2f7f82;text-decoration:none}
+.shankara-content .shankara-work-nav a:hover,.shankara-content .shankara-index-link:hover{text-decoration:underline}
+.shankara-content .shankara-source-link{display:none}
+.shankara-directory{max-width:920px;margin:0 auto}
+.shankara-group{margin:26px 0 0}
+.shankara-group h2{margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid #d8d3cd;color:#00787a;font:400 25px Vollkorn,Georgia,serif}
+.shankara-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 20px}
+.shankara-card{display:block;padding:11px 0;border-bottom:1px solid #e2ddd7;color:#4a443e;text-decoration:none}
+.shankara-card:hover{color:#65516f}
+.shankara-card strong{display:block;font:400 21px Vollkorn,Georgia,serif}
+.shankara-card span{display:block;margin-top:3px;color:#756e67;font-size:12px;line-height:1.5}
+@media(max-width:700px){
+ .shankara-content[data-script-mode="iast"] .gita-sanskrit{font-size:14.5px}
+ .shankara-cards{grid-template-columns:1fr}
+ .shankara-content .shankara-work-nav{font-size:12px}
+}
