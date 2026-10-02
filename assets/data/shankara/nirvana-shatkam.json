@@ -68,6 +68,10 @@
         {
           "sa": "शिवः अहम्",
           "en": "Śiva am I; I am the auspicious Self"
+        },
+        {
+          "sa": "च",
+          "en": "and; joins the following list of senses and elements"
         }
       ]
     },
@@ -117,6 +121,14 @@
         {
           "sa": "शिवः अहम्",
           "en": "Śiva am I; I am the auspicious Self"
+        },
+        {
+          "sa": "वै",
+          "en": "indeed"
+        },
+        {
+          "sa": "वा",
+          "en": "or; repeated with the following lists"
         }
       ]
     },
@@ -144,8 +156,12 @@
           "en": "pride"
         },
         {
-          "sa": "नैव",
-          "en": "certainly not"
+          "sa": "न",
+          "en": "not"
+        },
+        {
+          "sa": "एव",
+          "en": "indeed; emphatic particle"
         },
         {
           "sa": "मात्सर्य-भाव",
@@ -166,6 +182,10 @@
         {
           "sa": "शिवः अहम्",
           "en": "Śiva am I; I am the auspicious Self"
+        },
+        {
+          "sa": "च",
+          "en": "and"
         }
       ]
     },
@@ -215,6 +235,14 @@
         {
           "sa": "शिवः अहम्",
           "en": "Śiva am I; I am the auspicious Self"
+        },
+        {
+          "sa": "न",
+          "en": "not; repeated before each listed item"
+        },
+        {
+          "sa": "एव",
+          "en": "indeed; with न, forms नैव, “not indeed”"
         }
       ]
     },
@@ -260,6 +288,14 @@
         {
           "sa": "शिवः अहम्",
           "en": "Śiva am I; I am the auspicious Self"
+        },
+        {
+          "sa": "एव",
+          "en": "indeed; with न, forms नैव, “not indeed”"
+        },
+        {
+          "sa": "च",
+          "en": "and"
         }
       ]
     },
@@ -309,6 +345,18 @@
         {
           "sa": "शिवः अहम्",
           "en": "Śiva am I; I am the auspicious Self"
+        },
+        {
+          "sa": "न",
+          "en": "not; repeated in the closing denials"
+        },
+        {
+          "sa": "च",
+          "en": "and"
+        },
+        {
+          "sa": "एव",
+          "en": "indeed; with न, forms नैव"
         }
       ]
     },
