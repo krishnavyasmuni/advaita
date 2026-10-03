@@ -1,32 +1,63 @@
-/* Ādi Śaṅkarācārya reading pages: reuse the Gītā reader’s width and typography. */
+/* Advaita reading pages share the Viṣṇu Purāṇa reader palette and content scale. */
 .shankara-content{padding-bottom:36px}
-.shankara-content .script-controls{display:flex;justify-content:center;gap:8px;margin:20px auto 4px}
-.shankara-content .script-controls button{
-  border:1px solid #9bc5c7;border-radius:999px;padding:6px 13px;
-  background:transparent;color:#2f7f82;font:600 12px Merriweather,Georgia,serif;cursor:pointer
-}
-.shankara-content .script-controls button[aria-pressed="true"]{background:#e7f0ef}
+.gita-page .shankara-content{width:100%!important;max-width:920px!important;margin:0 auto!important;padding:0 24px 36px!important;background:#f7f6f4!important;color:#3c362e!important;font-family:Merriweather,Georgia,serif!important}
+.shankara-reading-grid{display:grid;grid-template-columns:minmax(142px,185px) minmax(0,1fr);column-gap:clamp(20px,3vw,42px);align-items:start}
+.shankara-content .gita-hero{grid-column:2;grid-row:1;width:100%;margin:0 auto;text-align:center;padding:44px 0 24px}
+.shankara-content .gita-hero h1{color:#2f7f82;font-family:Vollkorn,Georgia,serif;font-size:clamp(34px,4.8vw,46px);font-weight:400;line-height:1.08}
+.shankara-content .gita-hero .eyebrow{color:#817970;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.shankara-content .gita-hero .subtitle{color:#655e57;font-size:16px;line-height:1.5;font-style:italic}
+.shankara-content .gita-contents{grid-column:1;grid-row:2;position:sticky;top:18px;align-self:start;width:auto;max-height:calc(100vh - 36px);overflow:auto;margin:0;padding:0 15px 8px 0;border:0;border-right:1px solid #dedbd6;background:transparent}
+.shankara-content .gita-contents h2{margin:0 0 10px;color:#2f7f82;font:400 17px Vollkorn,Georgia,serif}
+.shankara-content .gita-contents ol{columns:1;margin:0;padding-left:18px;color:#3c362e;font:500 12px/1.5 Merriweather,Georgia,serif}
+.shankara-content .gita-contents li{margin:0 0 5px;break-inside:avoid}
+.shankara-content .gita-contents a{color:#5d4c68;text-decoration:none}
+.shankara-content .gita-contents a:hover,.shankara-content .gita-contents a:focus-visible{text-decoration:underline}
+.shankara-content .shankara-unit-column{grid-column:2;grid-row:2;min-width:0}
 .shankara-content .gita-sanskrit{font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif;white-space:pre-line;overflow-wrap:anywhere}
 .shankara-content[data-script-mode="iast"] .gita-sanskrit{font-family:Merriweather,Georgia,serif;font-size:16px;line-height:1.7}
-.shankara-content .gita-verse{scroll-margin-top:24px}
+.shankara-content .gita-verse{scroll-margin-top:24px;margin:0 0 24px}
 .shankara-content .gita-word-row{overflow-wrap:anywhere}
 .shankara-content .gita-word-dev{font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif}
 .shankara-content .gita-word-iast{color:#6f665e}
+.shankara-content .gita-translation{font-size:14px;line-height:1.55}
+.shankara-content .shankara-iast{margin:0;color:#514a43;font-family:Merriweather,Georgia,serif;font-size:14px;line-height:1.55;overflow-wrap:anywhere}
+.shankara-content .script-controls{display:flex;justify-content:center;gap:8px;margin:20px auto 4px}
+.shankara-content .script-controls button{border:1px solid #9bc5c7;border-radius:999px;padding:6px 13px;background:transparent;color:#2f7f82;font:600 12px Merriweather,Georgia,serif;cursor:pointer}
+.shankara-content .script-controls button[aria-pressed="true"]{background:#e7f0ef}
 .shankara-content .shankara-unit-label{margin:0 0 3px;color:#817970;font-size:11px;text-align:center}
+.shankara-content .gita-controls{max-width:840px;margin:0 auto}
+.shankara-content .gita-details{display:block;margin:0 auto 6px}
 .shankara-content .shankara-work-nav{display:flex;justify-content:space-between;gap:16px;margin:34px 0 0;padding-top:18px;border-top:1px solid #dedbd6}
 .shankara-content .shankara-work-nav a,.shankara-content .shankara-index-link{color:#2f7f82;text-decoration:none}
 .shankara-content .shankara-work-nav a:hover,.shankara-content .shankara-index-link:hover{text-decoration:underline}
 .shankara-content .shankara-source-link{display:none}
-.shankara-directory{max-width:920px;margin:0 auto}
+
+.shankara-directory{max-width:1040px;margin:0 auto}
 .shankara-group{margin:26px 0 0}
 .shankara-group h2{margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid #d8d3cd;color:#00787a;font:400 25px Vollkorn,Georgia,serif}
-.shankara-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 20px}
+.shankara-directory-note{margin-top:12px;padding-left:14px;border-left:2px solid #9bc5c7;color:#514a43;font-size:13px;line-height:1.6}
+.shankara-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 20px}
 .shankara-card{display:block;padding:11px 0;border-bottom:1px solid #e2ddd7;color:#4a443e;text-decoration:none}
 .shankara-card:hover{color:#65516f}
-.shankara-card strong{display:block;font:400 21px Vollkorn,Georgia,serif}
+.shankara-card strong{display:block;font:400 20px Vollkorn,Georgia,serif}
 .shankara-card span{display:block;margin-top:3px;color:#756e67;font-size:12px;line-height:1.5}
+.shankara-card small{display:inline-block;margin-top:6px;color:#2f7f82;font:600 10px Merriweather,Georgia,serif;letter-spacing:.03em}
+.shankara-card--planned{cursor:default}
+.shankara-card--planned:hover{color:#4a443e}
+
+@media(max-width:900px){
+ .shankara-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .shankara-reading-grid{grid-template-columns:minmax(126px,160px) minmax(0,1fr);column-gap:20px}
+}
 @media(max-width:700px){
+ .gita-page .shankara-content{padding:0 14px 24px!important}
+ .shankara-reading-grid{display:block}
+ .shankara-content .gita-hero{padding:30px 0 18px}
+ .shankara-content .gita-hero h1{font-size:32px}
+ .shankara-content .gita-contents{position:static;max-height:220px;margin:0 0 22px;padding:0 0 10px;border-right:0;border-bottom:1px solid #dedbd6}
+ .shankara-content .gita-contents ol{columns:2;column-gap:18px;font-size:11px}
+ .shankara-content .shankara-unit-column{display:block}
  .shankara-content[data-script-mode="iast"] .gita-sanskrit{font-size:14.5px}
- .shankara-cards{grid-template-columns:1fr}
  .shankara-content .shankara-work-nav{font-size:12px}
+ .shankara-cards{grid-template-columns:1fr}
 }
