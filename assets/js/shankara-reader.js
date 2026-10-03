@@ -43,11 +43,11 @@ function complete(data){
 function glossHTML(words){return words.map(w=>'<div class="gita-word-row"><span class="gita-word-dev" lang="sa-Deva">'+esc(w.sa)+'</span> <span class="gita-word-iast">(<em>'+esc(iast(w.sa))+'</em>)</span> <span class="gita-word-gloss">— '+esc(w.en)+'</span></div>').join("")}
 function unitHTML(u,index){
  const label=u.label||("Verse "+(index+1));
- return '<article class="gita-verse shankara-verse" id="'+esc(u.id)+'"><p class="shankara-unit-label">'+esc(label)+'</p><h2>'+esc(u.number||String(index+1))+'</h2><hr class="gita-verse-rule"/><div class="gita-sanskrit sa-text" lang="sa-Deva">'+esc(u.deva)+'</div><p class="gita-translation">'+esc(u.translation)+'</p><details class="gita-details"><summary>Word-for-word</summary><div class="gita-reveal"><div class="gita-word-list">'+glossHTML(u.gloss)+'</div></div></details></article>';
+ return '<article class="gita-verse shankara-verse" id="'+esc(u.id)+'"><p class="shankara-unit-label">'+esc(label)+'</p><h2>'+esc(u.number||String(index+1))+'</h2><hr class="gita-verse-rule"/><div class="gita-sanskrit sa-text" lang="sa-Deva">'+esc(u.deva)+'</div><p class="gita-translation">'+esc(u.translation)+'</p><div class="gita-controls"><details class="gita-details shankara-transliteration"><summary>Transliteration</summary><div class="gita-reveal"><p class="shankara-iast" lang="sa-Latn">'+esc(iast(u.deva))+'</p></div></details><details class="gita-details shankara-word-gloss"><summary>Word-for-word</summary><div class="gita-reveal"><div class="gita-word-list">'+glossHTML(u.gloss)+'</div></div></details></div></article>';
 }
 function navHTML(id){
  const i=WORKS.findIndex(w=>w.id===id),prev=WORKS[i-1],next=WORKS[i+1];
- return '<nav class="shankara-work-nav" aria-label="Work navigation">'+(prev?'<a rel="prev" href="'+prev.path+'">← '+esc(prev.title)+'</a>':'<span></span>')+'<a class="shankara-index-link" href="/advaita/books/adi-shankaracharya/">Contents</a>'+(next?'<a rel="next" href="'+next.path+'">'+esc(next.title)+' →</a>':'<span></span>')+'</nav>';
+ return '<nav class="shankara-work-nav" aria-label="Work navigation">'+(prev?'<a rel="prev" href="'+prev.path+'">← '+esc(prev.title)+'</a>':'<span></span>')+'<a class="shankara-index-link" href="/advaita/books/adi-shankaracharya/">Advaita Texts</a>'+(next?'<a rel="next" href="'+next.path+'">'+esc(next.title)+' →</a>':'<span></span>')+'</nav>';
 }
 function bindScript(root){
  root.dataset.scriptMode="deva";
@@ -62,15 +62,15 @@ function bindScript(root){
  }));
 }
 async function start(root){
- const id=root.dataset.work, item=WORKS.find(w=>w.id===id);
+ const id=root.dataset.work,item=WORKS.find(w=>w.id===id);
  if(!item)return;
  try{
   const res=await fetch("/advaita/assets/data/shankara/"+id+".json");
   if(!res.ok)throw new Error("Work data unavailable");
   const data=await res.json();
   if(!complete(data)||data.id!==id)throw new Error("Incomplete text data");
-  document.title=data.title+" — Ādi Śaṅkarācārya — Viveka Dṛṣṭi";
-  root.innerHTML='<header class="gita-hero"><p class="eyebrow">Ādi Śaṅkarācārya</p><h1>'+esc(data.title)+'</h1><p class="subtitle">'+esc(data.subtitle||"")+'</p><div class="script-controls" role="group" aria-label="Sanskrit script"><button type="button" data-script="deva" aria-pressed="true">देवनागरी</button><button type="button" data-script="iast" aria-pressed="false">IAST</button></div><p><a class="shankara-index-link" href="/advaita/books/adi-shankaracharya/">← Ādi Śaṅkarācārya</a></p></header><nav class="gita-contents" aria-label="Contents"><h2>Contents</h2><ol>'+data.units.map((u,i)=>'<li><a href="#'+esc(u.id)+'">'+esc(u.label||("Verse "+(i+1)))+'</a></li>').join("")+'</ol></nav>'+data.units.map(unitHTML).join("")+navHTML(id);
+  document.title=data.title+" — Advaita Texts — Viveka Dṛṣṭi";
+  root.innerHTML='<div class="shankara-reading-grid"><header class="gita-hero"><p class="eyebrow">Advaita Texts · Śaṅkara collection</p><h1>'+esc(data.title)+'</h1><p class="subtitle">'+esc(data.subtitle||"")+'</p><div class="script-controls" role="group" aria-label="Sanskrit script"><button type="button" data-script="deva" aria-pressed="true">देवनागरी</button><button type="button" data-script="iast" aria-pressed="false">IAST</button></div><p><a class="shankara-index-link" href="/advaita/books/adi-shankaracharya/">← Advaita Texts</a></p></header><nav class="gita-contents" aria-label="Contents"><h2>Contents</h2><ol>'+data.units.map((u,i)=>'<li><a href="#'+esc(u.id)+'">'+esc(u.label||("Verse "+(i+1)))+'</a></li>').join("")+'</ol></nav><div class="shankara-unit-column">'+data.units.map(unitHTML).join("")+navHTML(id)+'</div></div>';
   bindScript(root);
  }catch(err){root.innerHTML='<p class="gita-translation">The text could not be loaded.</p>';console.error(err)}
 }
