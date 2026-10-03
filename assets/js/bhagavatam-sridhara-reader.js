@@ -195,7 +195,7 @@
           end: Number(entry.end),
           text: String(entry.text || '').trim()
         }))
-        .filter((entry) => entry.text)
+        .filter((entry) => entry.text && !/^Śrīdhara Svāmī does not (?:explain this verse here|provide a separate explanatory block for (?:this verse|these verses) in the pinned Sanskrit file)\.?$/i.test(entry.text))
       : [];
   }
 
@@ -289,6 +289,7 @@
       .map((entry) => {
         const sanskrit = String(entry.sanskrit || '').trim();
         const literal = String(entry.literal_english || '').trim();
+        const generatedPlaceholder = /^(?:contextual literal sense of|generic filler|translation pending|to be translated|placeholder(?:\s+(?:commentary|translation|gloss))?)/i.test(literal);
         const noCommentary = (entry.source_available === false && entry.source_gap !== true) ||
           /^न\s+(?:(?:कतमेन(?:ापि)?|कतमेनापि)\s+)?व्याख्यातम्[।.]?\s*$/.test(sanskrit) ||
           /^no commentary[.]?$/i.test(literal);
@@ -297,7 +298,7 @@
         return {
           start: Number(entry.start),
           end: Number(entry.end),
-          text: noCommentary || sourceGap ? '' : literal,
+          text: noCommentary || sourceGap || generatedPlaceholder ? '' : literal,
           noCommentary,
           sourceGap
         };
@@ -328,7 +329,7 @@
           start: Number(entry.start),
           end: Number(entry.end),
           pairs: sourcePairs
-            .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1] && !/contextual literal sense of|generic filler|translation pending|^no commentary\.?$|न\s+(?:(?:कतमेन(?:ापि)?)\s+)?व्याख्यातम्/i.test(String(pair[1])))
+            .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1] && !/contextual literal sense of|generic filler|translation pending|to be translated|placeholder(?:\s+(?:gloss|translation|commentary))?|^no commentary\.?$|न\s+(?:(?:कतमेन(?:ापि)?)\s+)?व्याख्यातम्/i.test(String(pair[1])))
             .map((pair) => [String(pair[0]), String(pair[1])])
         };
       });
