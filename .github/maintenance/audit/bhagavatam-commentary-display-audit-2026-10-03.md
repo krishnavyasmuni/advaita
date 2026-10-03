@@ -13,6 +13,8 @@ Reviewed the Śrīmad-Bhāgavatam Contents page, shared reader, English commenta
 - Added a reader guard for those exact author-attribution patterns and known placeholders in word-for-word glosses and English commentary.
 - Updated the changed local-data references in the checkpoint ledger, the checkpoint cache key in the reader, and the script/manifest cache versions in all twelve Canto shells.
 - Preserved source-backed commentarial wording such as “he says” where the Sanskrit itself uses `आह` / `इत्याह`.
+- Tightened the Canto 1.2.16 word-for-word gloss for `तत्राह` from “in reply he says” to “there he says”; “in reply” was inferred from context, while `आह` is retained as “he says.”
+- Refreshed the word-for-word data query and shared clarity-script cache key in the seven Canto shells that load the clarity script.
 
 ## Checks
 
@@ -20,6 +22,8 @@ Reviewed the Śrīmad-Bhāgavatam Contents page, shared reader, English commenta
 - The twelve explicit author-attribution renderings and five targeted absence notes no longer appear in their literal-English fields.
 - The global English checkpoint parses as JSON with 1,517 entries; the fifteen editorial absence notices are absent.
 - The reader JavaScript passes a syntax check. All twelve Canto shells use the refreshed reader and manifest cache versions.
+- A repository-wide scan of all 217 Bhagavatam/Śrīdhara JSON assets found no remaining English-rendering field that attributes a statement with “Śrīdhara/Sridhara says/asks”; matches were limited to editorial audit notes, joint-source notes, and source-gap records.
+- The Śrīdhara word-for-word dataset parses as JSON, retains 764 entries, and renders the 1.2.16 gloss as “there he says.”
 - The reader CSS and Contents layout were not changed. A live visual check could not be completed because the browser returned `net::ERR_BLOCKED_BY_CLIENT`.
 
 ## Scope limit
