@@ -1,5 +1,7 @@
 # Vivekadrishti Śrīmad-Bhāgavatam with Śrīdhara Bhāṣya — Completion Workflow
 
+> **Display correction (2026-10-03):** Fifteen editorial source-absence notes were removed from the English commentary checkpoint because they were not translations of the pinned Śrīdhara text. The reader now suppresses known placeholder glosses and commentary. See [the display audit](../maintenance/audit/bhagavatam-commentary-display-audit-2026-10-03.md). This narrow correction does not certify every chapter’s English or Sanskrit.
+
 > **Canto 11 status correction (2026-09-20):** The previous COMPLETE/LIVE_VERIFIED labels were not supported by a full verse-by-verse comparison. See [the deterministic mapping audit](../maintenance/audit/canto11/automated-summary.md) and [the evidentiary review](BHAGAVATAM_CANTO11_AUDIT_2026-09-20.md). All 31 chapters remain under verification. In particular, the pinned 11.23 numbering differs from the displayed VedaBase mirror from the mid-chapter onward. Do not reassert completion from file counts or this historical snapshot.
 
 
