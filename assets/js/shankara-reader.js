@@ -10,7 +10,8 @@ const WORKS=[
  {id:"manisha-panchakam",title:"Manīṣāpañcakam",path:"/advaita/books/adi-shankaracharya/manisha-panchakam/"},
  {id:"upadesha-panchakam",title:"Upadeśapañcakam",path:"/advaita/books/adi-shankaracharya/upadesha-panchakam/"},
  {id:"dashashloki",title:"Daśaślokī",path:"/advaita/books/adi-shankaracharya/dashashloki/"},
- {id:"ekashloki",title:"Ekaślokī",path:"/advaita/books/adi-shankaracharya/ekashloki/"}
+ {id:"ekashloki",title:"Ekaślokī",path:"/advaita/books/adi-shankaracharya/ekashloki/"},
+ {id:"atma-bodha",title:"Ātmabodha",path:"/advaita/books/adi-shankaracharya/atma-bodha/"}
 ];
 const VOWELS={"अ":"a","आ":"ā","इ":"i","ई":"ī","उ":"u","ऊ":"ū","ऋ":"ṛ","ॠ":"ṝ","ऌ":"ḷ","ॡ":"ḹ","ए":"e","ऐ":"ai","ओ":"o","औ":"au"};
 const SIGNS={"ा":"ā","ि":"i","ी":"ī","ु":"u","ू":"ū","ृ":"ṛ","ॄ":"ṝ","ॢ":"ḷ","ॣ":"ḹ","े":"e","ै":"ai","ो":"o","ौ":"au"};
