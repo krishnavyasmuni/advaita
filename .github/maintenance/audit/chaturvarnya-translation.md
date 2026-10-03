@@ -1,21 +1,25 @@
-# Chaturvarnya translation coverage audit
+# Chaturvarnya translation coverage and source-fidelity audit
 
 Date: 2026-10-03
 
-## Sources and targets
+## Sources
 
 - Primary digital Sanskrit transcription: [Chāturvarṇya-saṃskṛti-vimarśaḥ](https://vishvasa.github.io/kalpAntaram/dharmaH/nibandhaH/karapAtrI/chAturvarNya-saMskRti-vimarshaH/).
 - Published contents page: `books/chaturvarnya/index.html`.
-- Published chapter 5: `books/chaturvarnya/chapter-5/index.html`.
+- Printed scans are needed for page-by-page verification because the digital transcription contains OCR and encoding defects.
 
-## Findings
+## Source structure
 
-- The source contents place “Varṇa-sambandhi vicāra” at printed page 194 and begin “Eligibility for Vedic study” at page 281.
-- The published chapter 5 currently reaches a passage cited to page 218 (Manusmṛti 11.126); pages 219–280 of that section are not present in the English page.
-- The contents page listed chapter 6 of part one and all five chapters of part two without pages. They are now marked “Translation not yet published.”
-- Chapter 5 contained three literal backslash-n strings after headings. They have been changed to ordinary HTML whitespace.
-- All in-page chapter 5 anchors resolve after the edit.
+The source contents list six sections in Part One and five in Part Two. The published contents page now lists all eleven in the source order. The source contents place “Discussions concerning varṇa” at printed page 194 and “Eligibility for Vedic study” at page 281.
+
+## Published English status
+
+- Chapters 1–4 have English pages, but none has been fully collated sentence by sentence against the printed text. Their completeness and source fidelity are unverified.
+- Chapter 5 begins with “Discussions concerning varṇa” at p. 194. The published English reaches a passage cited at p. 218; pp. 219–280 of the source section are absent from the English page.
+- Chapter 6 of Part One and all five Part Two sections do not have published translations.
+- Chapter 5’s three literal backslash-n strings after headings were removed; all in-page chapter 5 anchors resolve.
+- Chapter 4’s former progress note used an “uploaded source line” boundary that could not be tied to the printed page sequence. That unsupported boundary has been removed.
 
 ## Status
 
-**Partial; source fidelity is not fully verified.** No new translation text was added. The page has not been checked against scans of the printed pages, and the original digital transcription contains OCR/encoding defects. The full chapter 5, chapter 6, and part two remain outstanding.
+**Partial; no existing English chapter is certified as a complete, one-to-one translation.** No new translation text was added in this maintenance pass. The source transcription’s OCR/encoding defects and the absence of a completed scan-based collation mean that omissions or unsupported wording in the existing English cannot yet be ruled out.
