@@ -4322,7 +4322,7 @@
       "repaired_at": "2026-09-29",
       "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto11-ch14-verses01-46.json?v=20260929-c11-reader-register-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch14-verses01-46.json?v=20261003-direct-translation-2"
       ],
       "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader. Chapter text is wired to the reader, but the local glosses are not certified. Repairs in this release expand 11.11.1 and 11.20.1–4 only.",
       "verification_note": "The Canto 11 audit found that complete source alignment and independent phrase-by-phrase translation review remain open; this status applies to all 31 chapters."
@@ -4444,7 +4444,7 @@
       "repaired_at": "2026-09-29",
       "repair_note": "Mechanical/source-bound audit completed; rows contain source-bound word/phrase glosses or explicit no-commentary sentinels. This does not claim independent critical-edition or browser visual certification.",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto11-ch16-verses01-44.json?v=20260929-c11-reader-register-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto11-ch16-verses01-44.json?v=20261003-direct-translation-2"
       ],
       "notes": "Registered the source-bound chapter data file so its Śrīdhara word-for-word glosses and literal English are loaded by the reader. Chapter text is wired to the reader, but the local glosses are not certified. Repairs in this release expand 11.11.1 and 11.20.1–4 only.",
       "verification_note": "The Canto 11 audit found that complete source alignment and independent phrase-by-phrase translation review remain open; this status applies to all 31 chapters."
@@ -5535,7 +5535,7 @@
       "primary_source_commit": "100560de6c9f68c2875097d40a2012a84c784179",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto10-ch01-verses01-69.json"
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch01-verses01-69.json?v=20261003-direct-translation-2"
       ],
       "records_checked": 69,
       "exact_sridhara_source_blocks": 62,
@@ -5652,7 +5652,7 @@
       "source_blob_sha": "bd602fa5d1613d0953ff4624d1fcf09d0d3e8ed8",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto10-ch02-verses01-42.json"
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch02-verses01-42.json?v=20261003-direct-translation-2"
       ],
       "records_checked": 42,
       "exact_sridhara_source_blocks": 36,
@@ -5950,7 +5950,7 @@
       "source_blob_sha": "ba1b8478bd5086806d751272504e49b52c758274",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto10-ch06-verses01-44.json"
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch06-verses01-44.json?v=20261003-direct-translation-2"
       ],
       "records_checked": 44,
       "exact_sridhara_source_blocks": 28,
@@ -7768,7 +7768,7 @@
       "source_blob_sha": "9dfa3aa355b89f5ca02fd4e4d9e0c9127a1ff396",
       "independent_comparison_source": "https://archive.org/details/Bhagavata_with_Sridhari_Tika_Ramtej_Pandey_1949_PanditPustakalay",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto10-ch33-verses01-39.json"
+        "assets/data/bhagavatam-sridhara-wfw-canto10-ch33-verses01-39.json?v=20261003-direct-translation-2"
       ],
       "records_checked": 39,
       "exact_sridhara_source_blocks": 37,
@@ -10315,7 +10315,7 @@
       "source_blob_sha": "53f97bcc137d3356aa67db17c0541c26303a89da",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/01_vidurasyoddhavena_saha_samAgamaH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch01-verses01-45.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch01-verses01-45.json?v=20261003-direct-translation-2"
       ],
       "records_checked": 45,
       "exact_sridhara_source_blocks": 44,
@@ -10447,7 +10447,7 @@
       "source_blob_sha": "d484c6248cd012357e3126d50a9bd6e3aa08265c",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/06_virAD-vigrahotpatti-kathanam.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch06-verses01-40.json?v=20260926-c3-ch06-no-commentary-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch06-verses01-40.json?v=20261003-direct-translation-2"
       ],
       "records_checked": 40,
       "exact_sridhara_source_blocks": 36,
@@ -10798,7 +10798,7 @@
       "source_blob_sha": "841be36608563d030379e442096d3727203cbe17",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/18_yuddham.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch18-verses01-28.json?v=20260930-c3-ch1-11-12-15-16-18-commentary-restore-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch18-verses01-28.json?v=20261003-direct-translation-2"
       ],
       "records_checked": 28,
       "exact_sridhara_source_blocks": 26,
@@ -10824,7 +10824,7 @@
       "source_blob_sha": "31b0351b6662d728f6cca91be2ffc679e0e181ce",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/19_hiraNyAxa-vadhaH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch19-verses01-38.json?v=20260923-c3-audit-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch19-verses01-38.json?v=20261003-direct-translation-2"
       ],
       "records_checked": 38,
       "exact_sridhara_source_blocks": 34,
@@ -11388,7 +11388,7 @@
       "source_blob_sha": "ebbe2b3712054ab23c8f419e6845fe2cf4941e2f",
       "source_path": "bhAgavatam/gauDIya-prastutiH/03/24_kapilAvatAraH.md",
       "reader_data_files": [
-        "assets/data/bhagavatam-sridhara-wfw-canto3-ch27-verses01-25.json?v=20260929-c3-ch27-repair-1"
+        "assets/data/bhagavatam-sridhara-wfw-canto3-ch27-verses01-25.json?v=20261003-direct-translation-2"
       ],
       "records_checked": 25,
       "exact_sridhara_source_blocks": 23,
