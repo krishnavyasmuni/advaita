@@ -61,3 +61,5 @@
  .shankara-content .shankara-work-nav{font-size:12px}
  .shankara-cards{grid-template-columns:1fr}
 }
+
+.shankara-source-note{max-width:68ch;margin:12px auto 0;color:#756e67;font-size:13px;line-height:1.65}
