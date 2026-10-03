@@ -11,7 +11,8 @@ const WORKS=[
  {id:"upadesha-panchakam",title:"Upadeśapañcakam",path:"/advaita/books/adi-shankaracharya/upadesha-panchakam/"},
  {id:"dashashloki",title:"Daśaślokī",path:"/advaita/books/adi-shankaracharya/dashashloki/"},
  {id:"ekashloki",title:"Ekaślokī",path:"/advaita/books/adi-shankaracharya/ekashloki/"},
- {id:"atma-bodha",title:"Ātmabodha",path:"/advaita/books/adi-shankaracharya/atma-bodha/"}
+ {id:"atma-bodha",title:"Ātmabodha",path:"/advaita/books/adi-shankaracharya/atma-bodha/"},
+ {id:"tattvabodha",title:"Tattvabodha",path:"/advaita/books/adi-shankaracharya/tattvabodha/"}
 ];
 const VOWELS={"अ":"a","आ":"ā","इ":"i","ई":"ī","उ":"u","ऊ":"ū","ऋ":"ṛ","ॠ":"ṝ","ऌ":"ḷ","ॡ":"ḹ","ए":"e","ऐ":"ai","ओ":"o","औ":"au"};
 const SIGNS={"ा":"ā","ि":"i","ी":"ī","ु":"u","ू":"ū","ृ":"ṛ","ॄ":"ṝ","ॢ":"ḷ","ॣ":"ḹ","े":"e","ै":"ai","ो":"o","ौ":"au"};
@@ -70,7 +71,7 @@ async function start(root){
   const data=await res.json();
   if(!complete(data)||data.id!==id)throw new Error("Incomplete text data");
   document.title=data.title+" — Advaita Texts — Viveka Dṛṣṭi";
-  root.innerHTML='<div class="shankara-reading-grid"><header class="gita-hero"><p class="eyebrow">Advaita Texts · Śaṅkara collection</p><h1>'+esc(data.title)+'</h1><p class="subtitle">'+esc(data.subtitle||"")+'</p><div class="script-controls" role="group" aria-label="Sanskrit script"><button type="button" data-script="deva" aria-pressed="true">देवनागरी</button><button type="button" data-script="iast" aria-pressed="false">IAST</button></div><p><a class="shankara-index-link" href="/advaita/books/adi-shankaracharya/">← Advaita Texts</a></p></header><nav class="gita-contents" aria-label="Contents"><h2>Contents</h2><ol>'+data.units.map((u,i)=>'<li><a href="#'+esc(u.id)+'">'+esc(u.label||("Verse "+(i+1)))+'</a></li>').join("")+'</ol></nav><div class="shankara-unit-column">'+data.units.map(unitHTML).join("")+navHTML(id)+'</div></div>';
+  root.innerHTML='<div class="shankara-reading-grid"><header class="gita-hero"><p class="eyebrow">Advaita Texts · Śaṅkara collection</p><h1>'+esc(data.title)+'</h1><p class="subtitle">'+esc(data.subtitle||"")+'</p>'+(data.source&&data.source.note?'<p class="shankara-source-note">'+esc(data.source.note)+'</p>':'')+'<div class="script-controls" role="group" aria-label="Sanskrit script"><button type="button" data-script="deva" aria-pressed="true">देवनागरी</button><button type="button" data-script="iast" aria-pressed="false">IAST</button></div><p><a class="shankara-index-link" href="/advaita/books/adi-shankaracharya/">← Advaita Texts</a></p></header><nav class="gita-contents" aria-label="Contents"><h2>Contents</h2><ol>'+data.units.map((u,i)=>'<li><a href="#'+esc(u.id)+'">'+esc(u.label||("Verse "+(i+1)))+'</a></li>').join("")+'</ol></nav><div class="shankara-unit-column">'+data.units.map(unitHTML).join("")+navHTML(id)+'</div></div>';
   bindScript(root);
  }catch(err){root.innerHTML='<p class="gita-translation">The text could not be loaded.</p>';console.error(err)}
 }
