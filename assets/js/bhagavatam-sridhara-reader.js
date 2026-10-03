@@ -186,6 +186,10 @@
     return { title: frontmatterTitle(markdown), entries };
   }
 
+  function isCommentatorAttribution(text) {
+    return /(?:Śrīdhara|Sridhara)(?:\s+Svāmī)?\s+(?:says|asks)\b|joint\s+[^.!?]{0,100}\bnote\s+says\b/i.test(String(text || ''));
+  }
+
   function parseEnglishCommentary(data, targetCanto, targetChapter) {
     return Array.isArray(data && data.entries)
       ? data.entries
@@ -195,7 +199,7 @@
           end: Number(entry.end),
           text: String(entry.text || '').trim()
         }))
-        .filter((entry) => entry.text && !/^Śrīdhara Svāmī does not (?:explain this verse here|provide a separate explanatory block for (?:this verse|these verses) in the pinned Sanskrit file)\.?$/i.test(entry.text))
+        .filter((entry) => entry.text && !/^Śrīdhara Svāmī does not (?:explain this verse here|provide a separate explanatory block for (?:this verse|these verses) in the pinned Sanskrit file)\.?$/i.test(entry.text) && !isCommentatorAttribution(entry.text))
       : [];
   }
 
@@ -290,6 +294,7 @@
         const sanskrit = String(entry.sanskrit || '').trim();
         const literal = String(entry.literal_english || '').trim();
         const generatedPlaceholder = /^(?:contextual literal sense of|generic filler|translation pending|to be translated|placeholder(?:\s+(?:commentary|translation|gloss))?)/i.test(literal);
+        const commentatorAttribution = isCommentatorAttribution(literal);
         const noCommentary = (entry.source_available === false && entry.source_gap !== true) ||
           /^न\s+(?:(?:कतमेन(?:ापि)?|कतमेनापि)\s+)?व्याख्यातम्[।.]?\s*$/.test(sanskrit) ||
           /^no commentary[.]?$/i.test(literal);
@@ -298,7 +303,7 @@
         return {
           start: Number(entry.start),
           end: Number(entry.end),
-          text: noCommentary || sourceGap || generatedPlaceholder ? '' : literal,
+          text: noCommentary || sourceGap || generatedPlaceholder || commentatorAttribution ? '' : literal,
           noCommentary,
           sourceGap
         };
@@ -677,7 +682,7 @@
       const englishUrl = chapterEnglishUrl(manifest, config, chapter);
       const sridharaUrl = chapterSridharaUrl(manifest, config, chapter);
       const commentaryUrlValue = commentaryUrl(manifest);
-      const checkpointUrl = '/advaita/assets/data/bhagavatam-sridhara-checkpoints.json?v=20260929-c11-gloss-accuracy-1';
+      const checkpointUrl = '/advaita/assets/data/bhagavatam-sridhara-checkpoints.json?v=20261003-direct-translation-2';
       const requests = [fetchText(englishUrl)];
       if (sridharaUrl) {
         requests.push(config.sridhara_mode === 'local-cached' ? fetchJson(sridharaUrl) : fetchText(sridharaUrl));
