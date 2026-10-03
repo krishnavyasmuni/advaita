@@ -6,7 +6,7 @@ Date: 2026-10-03
 
 - Primary digital Sanskrit transcription: [Chāturvarṇya-saṃskṛti-vimarśaḥ](https://vishvasa.github.io/kalpAntaram/dharmaH/nibandhaH/karapAtrI/chAturvarNya-saMskRti-vimarshaH/).
 - Published contents page: `books/chaturvarnya/index.html`.
-- Printed scans are needed for page-by-page verification because the digital transcription contains OCR and encoding defects.
+- The [Internet Archive record for the 1979 Sanskrit edition](https://archive.org/details/chaturvarnya-samskriti-vimarsa-karapatri-maharaj-1979) lists a PDF and OCR files. Use the page images for verification; the transcription and OCR contain defects.
 
 ## Source structure
 
