@@ -21,7 +21,7 @@ body.advaita-directory-page{margin:0;background:var(--outer);color:var(--ink);fo
 .ad-entry{display:block;min-width:0;padding:8px 0;border-bottom:1px solid #e2ddd7;color:#4a443e;text-decoration:none;overflow-wrap:anywhere}
 a.ad-entry:hover,a.ad-entry:focus-visible{color:var(--purple)}
 .ad-title{font:400 16px/1.4 Vollkorn,Georgia,serif}
-.ad-entry small{display:block;margin-top:2px;color:var(--muted);font:400 10px/1.4 Merriweather,Georgia,serif}
+.ad-entry small{display:block;margin-top:2px;color:#4a443e;font:400 10px/1.4 Merriweather,Georgia,serif}
 .ad-entry em{display:block;margin-top:3px;color:#817970;font:italic 10px/1.4 Merriweather,Georgia,serif}
 .ad-entry--upcoming{color:#4a443e}
 @media(max-width:900px){.ad-page{padding:38px 24px 68px}.ad-reader{grid-template-columns:170px minmax(0,700px);gap:24px}.ad-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
