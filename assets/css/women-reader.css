@@ -55,14 +55,32 @@
   line-height:1.25;
   font-weight:500;
 }
-.document-paged-page .document-content .women-subsection::before{
-  content:"•";
-  display:inline-block;
-  margin-right:10px;
-  color:var(--teal);
-  font-family:Merriweather,Georgia,serif;
-  font-size:16px;
-  vertical-align:2px;
+.document-paged-page .document-content .women-subsection--minor{
+  margin:22px 0 11px 22px;
+  color:#625b54;
+  font-size:18px;
+  line-height:1.35;
+  font-weight:500;
+}
+.document-paged-page .document-content .women-subsection--minor::before{
+  margin-right:8px;
+  color:#a78c70;
+  font-size:12px;
+  vertical-align:1px;
+}
+.document-paged-page .document-content .women-ordered-list{
+  margin:0 0 28px 20px;
+  padding:0 0 0 21px;
+}
+.document-paged-page .document-content .women-ordered-list li{
+  margin:0 0 9px;
+  padding-left:4px;
+}
+.document-paged-page .document-content .women-ordered-list li:last-child{
+  margin-bottom:0;
+}
+.document-paged-page .document-content blockquote.translation .women-ordered-list{
+  margin-bottom:0;
 }
 .document-paged-page .document-content .women-name-list{
   margin:0 0 30px 25px;
@@ -89,6 +107,25 @@
   .document-paged-page .document-content .women-subsection::before{
     margin-right:8px;
     font-size:14px;
+  }
+  .document-paged-page .document-content .women-subsection--minor{
+    margin:18px 0 10px 17px;
+    font-size:16px;
+  }
+  .document-paged-page .document-content .women-subsection--minor::before{
+    margin-right:7px;
+    font-size:11px;
+  }
+  .document-paged-page .document-content .women-ordered-list{
+    margin:0 0 24px 14px;
+    padding-left:18px;
+  }
+  .document-paged-page .document-content blockquote.translation .women-ordered-list{
+    margin-left:6px;
+    padding-left:18px;
+  }
+  .document-paged-page .document-content .women-ordered-list li{
+    margin-bottom:8px;
   }
   .document-paged-page .document-content .women-name-list{
     margin-left:22px;
