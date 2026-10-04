@@ -199,19 +199,25 @@
     }
   }
 
-  function enhanceReader(){
-    if(!currentArticle()||document.querySelector('.bp-reader-nav'))return;
-    const heading=document.querySelector('.article-heading');
-    if(!heading)return;
-    const details=document.createElement('details');
-    details.className='bp-reader-nav';
-    const normalUrl=new URL(location.href);normalUrl.searchParams.delete('mode');
-    const wfwUrl=new URL(location.href);wfwUrl.searchParams.set('mode','wfw');
-    details.innerHTML=`<summary>Bhavishya Purāṇa navigation</summary><div class="bp-reader-nav-links"><a href="${root}pages/bhavishya-purana/">All parvas</a><a href="${root}pages/bhavishya-purana-pratisargaparvan/">Pratisargaparvan</a><a href="${root}pages/bhavishya-purana-brahmaparvan/">Brāhmaparvan</a><a href="${root}pages/bhavishya-purana-madhyamaparvan/">Madhyamaparvan</a><a href="${root}pages/bhavishya-purana-uttaraparvan/">Uttaraparvan</a><a href="${esc(wfwUrl.pathname+wfwUrl.search)}">Word-for-word only</a><a href="${esc(normalUrl.pathname+normalUrl.search)}">Normal display</a></div>`;
-    const search=searchBlock();
-    details.append(search);
-    heading.insertAdjacentElement('afterend',details);
+  function removePratisargaReaderClutter(){
+    if(currentArticle()?.kind!=='pp')return;
+    document.querySelectorAll('.gita-contents,.bp-reader-nav').forEach(node=>node.remove());
+    const body=document.querySelector('.article-body');
+    if(!body)return;
+    Array.from(body.querySelectorAll('h2,h3,h4,p,strong')).forEach(label=>{
+      if((label.textContent||'').trim()!=='Contents')return;
+      const block=label.parentElement;
+      if(!block||block===body||block.querySelector('article,section'))return;
+      const lists=Array.from(block.querySelectorAll('ul,ol'));
+      const links=Array.from(block.querySelectorAll('a'));
+      if(!lists.length||!links.length||links.some(link=>!String(link.getAttribute('href')||'').startsWith('#')))return;
+      const before=block.previousElementSibling;
+      const after=block.nextElementSibling;
+      if(before?.tagName==='HR')before.remove();
+      if(after?.tagName==='HR')after.remove();
+      block.remove();
+    });
   }
 
-  if(isBookIndex||isPratisarga||isBrahma||isMadhyama||isUttara){enhanceIndex();enhanceReader();applyWordForWordMode();const articleBody=document.querySelector('.article-body');if(articleBody&&new URLSearchParams(location.search).get('mode')==='wfw')new MutationObserver(applyWordForWordMode).observe(articleBody,{childList:true,subtree:true})}
+  if(isBookIndex||isPratisarga||isBrahma||isMadhyama||isUttara){enhanceIndex();removePratisargaReaderClutter();applyWordForWordMode();const articleBody=document.querySelector('.article-body');if(articleBody&&new URLSearchParams(location.search).get('mode')==='wfw')new MutationObserver(applyWordForWordMode).observe(articleBody,{childList:true,subtree:true})}
 })();
