@@ -1,20 +1,20 @@
 (()=>{"use strict";
 const WORKS=[
- {id:"nirvana-shatkam",title:"Nirvāṇaṣaṭkam",path:"/advaita/books/adi-shankaracharya/nirvana-shatkam/"},
- {id:"maya-panchakam",title:"Māyāpañcakam",path:"/advaita/books/adi-shankaracharya/maya-panchakam/"},
- {id:"advaita-pancharatnam",title:"Advaitapañcaratnam",path:"/advaita/books/adi-shankaracharya/advaita-pancharatnam/"},
- {id:"yati-panchakam",title:"Yatipañcakam",path:"/advaita/books/adi-shankaracharya/yati-panchakam/"},
- {id:"kashi-panchakam",title:"Kāśīpañcakam",path:"/advaita/books/adi-shankaracharya/kashi-panchakam/"},
- {id:"dakshinamurti-ashtakam",title:"Śrī Dakṣiṇāmūrtyaṣṭakam",path:"/advaita/books/adi-shankaracharya/dakshinamurti-ashtakam/"},
- {id:"shatpadi-stotram",title:"Viṣṇu Ṣaṭpadī Stotram",path:"/advaita/books/adi-shankaracharya/shatpadi-stotram/"},
- {id:"manisha-panchakam",title:"Manīṣāpañcakam",path:"/advaita/books/adi-shankaracharya/manisha-panchakam/"},
- {id:"upadesha-panchakam",title:"Upadeśapañcakam",path:"/advaita/books/adi-shankaracharya/upadesha-panchakam/"},
- {id:"dashashloki",title:"Daśaślokī",path:"/advaita/books/adi-shankaracharya/dashashloki/"},
- {id:"ekashloki",title:"Ekaślokī",path:"/advaita/books/adi-shankaracharya/ekashloki/"},
- {id:"atma-bodha",title:"Ātmabodha",path:"/advaita/books/adi-shankaracharya/atma-bodha/"},
- {id:"tattvabodha",title:"Tattvabodha",path:"/advaita/books/adi-shankaracharya/tattvabodha/"},
- {id:"drg-drsya-viveka",title:"Dṛg-dṛśya-viveka",path:"/advaita/books/adi-shankaracharya/drg-drsya-viveka/"},
- {id:"panchikarana-prakarana",title:"Pañcīkaraṇa-prakaraṇa",path:"/advaita/books/adi-shankaracharya/panchikarana-prakarana/"}
+ {id:"nirvana-shatkam",title:"Nirvāṇaṣaṭkam",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/nirvana-shatkam/"},
+ {id:"maya-panchakam",title:"Māyāpañcakam",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/maya-panchakam/"},
+ {id:"advaita-pancharatnam",title:"Advaitapañcaratnam",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/advaita-pancharatnam/"},
+ {id:"yati-panchakam",title:"Yatipañcakam",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/yati-panchakam/"},
+ {id:"kashi-panchakam",title:"Kāśīpañcakam",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/kashi-panchakam/"},
+ {id:"dakshinamurti-ashtakam",title:"Śrī Dakṣiṇāmūrtyaṣṭakam",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/dakshinamurti-ashtakam/"},
+ {id:"shatpadi-stotram",title:"Viṣṇu Ṣaṭpadī Stotram",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/shatpadi-stotram/"},
+ {id:"manisha-panchakam",title:"Manīṣāpañcakam",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/manisha-panchakam/"},
+ {id:"upadesha-panchakam",title:"Upadeśapañcakam",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/upadesha-panchakam/"},
+ {id:"dashashloki",title:"Daśaślokī",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/dashashloki/"},
+ {id:"ekashloki",title:"Ekaślokī",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/ekashloki/"},
+ {id:"atma-bodha",title:"Ātmabodha",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/atma-bodha/"},
+ {id:"tattvabodha",title:"Tattvabodha",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/tattvabodha/"},
+ {id:"drg-drsya-viveka",title:"Dṛg-dṛśya-viveka",author:"Bhāratī Tīrtha",path:"/advaita/books/adi-shankaracharya/drg-drsya-viveka/"},
+ {id:"panchikarana-prakarana",title:"Pañcīkaraṇa-prakaraṇa",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/panchikarana-prakarana/"}
 ];
 const VOWELS={"अ":"a","आ":"ā","इ":"i","ई":"ī","उ":"u","ऊ":"ū","ऋ":"ṛ","ॠ":"ṝ","ऌ":"ḷ","ॡ":"ḹ","ए":"e","ऐ":"ai","ओ":"o","औ":"au"};
 const SIGNS={"ा":"ā","ि":"i","ी":"ī","ु":"u","ू":"ū","ृ":"ṛ","ॄ":"ṝ","ॢ":"ḷ","ॣ":"ḹ","े":"e","ै":"ai","ो":"o","ौ":"au"};
@@ -73,7 +73,7 @@ async function start(root){
   const data=await res.json();
   if(!complete(data)||data.id!==id)throw new Error("Incomplete text data");
   document.title=data.title+" — Advaita Texts — Viveka Dṛṣṭi";
-  root.innerHTML='<div class="shankara-reading-grid"><header class="gita-hero"><p class="eyebrow">Advaita Texts · Śaṅkara collection</p><h1>'+esc(data.title)+'</h1><p class="subtitle">'+esc(data.subtitle||"")+'</p>'+(data.source&&data.source.note?'<p class="shankara-source-note">'+esc(data.source.note)+(data.source.url?' <a href="'+esc(data.source.url)+'" rel="noopener">Text source</a>':'')+'</p>':'')+'<div class="script-controls" role="group" aria-label="Sanskrit script"><button type="button" data-script="deva" aria-pressed="true">देवनागरी</button><button type="button" data-script="iast" aria-pressed="false">IAST</button></div><p><a class="shankara-index-link" href="/advaita/books/adi-shankaracharya/">← Advaita Texts</a></p></header><nav class="gita-contents" aria-label="Contents"><h2>Contents</h2><ol>'+data.units.map((u,i)=>'<li><a href="#'+esc(u.id)+'">'+esc(u.label||("Verse "+(i+1)))+'</a></li>').join("")+'</ol></nav><div class="shankara-unit-column">'+data.units.map(unitHTML).join("")+navHTML(id)+'</div></div>';
+  root.innerHTML='<div class="shankara-reading-grid"><header class="gita-hero"><h1>'+esc(data.title)+'</h1>'+(item.author?'<p class="shankara-author">('+esc(item.author)+')</p>':'')+'<div class="script-controls" role="group" aria-label="Sanskrit script"><button type="button" data-script="deva" aria-pressed="true">देवनागरी</button><button type="button" data-script="iast" aria-pressed="false">IAST</button></div><p><a class="shankara-index-link" href="/advaita/books/adi-shankaracharya/">← Advaita Texts</a></p></header><nav class="gita-contents" aria-label="Contents"><h2>Contents</h2><ol>'+data.units.map((u,i)=>'<li><a href="#'+esc(u.id)+'">'+esc(u.label||("Verse "+(i+1)))+'</a></li>').join("")+'</ol></nav><div class="shankara-unit-column">'+data.units.map(unitHTML).join("")+navHTML(id)+'</div></div>';
   bindScript(root);
  }catch(err){root.innerHTML='<p class="gita-translation">The text could not be loaded.</p>';console.error(err)}
 }
