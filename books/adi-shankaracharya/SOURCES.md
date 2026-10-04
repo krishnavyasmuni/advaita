@@ -17,6 +17,7 @@ The Sanskrit text of most readers is based on Ambuda electronic editions, which 
 | Ekaślokī | [Ambuda](https://ambuda.org/texts/ekashloki/) | Volume 16, *Miscellaneous Prakaranas*, vol. 2 |
 | Ātmabodha | [Ambuda](https://ambuda.org/texts/atmabodha/) | Volume 15, *Miscellaneous Prakaranas*, vol. 1 |
 | Pañcīkaraṇa-prakaraṇa | [Sanskrit Wikibooks, revision 4897](https://sa.wikibooks.org/w/index.php?title=%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%E0%A4%AE%E0%A5%8D&oldid=4897) | Primary seven-section prose text only; the appended Pañcīkaraṇa-vārttika by Sureśvara is excluded. Wikibooks transcription is CC BY-SA; English translation and word-gloss are original. |
+| Hastāmalaka-stotram | [Sringeri Bhagavatpadiyam](https://bhagavatpadiyam.sringeri.net/en/work/hastamalakiyam) | Primary twelve-verse text only; translation and word-level gloss are original. |
 | Dṛg-dṛśya-viveka | [Swami Nikhilananda, *Drg Drsya Viveka* (Sri Ramakrishna Asrama, 1931)](https://archive.org/details/drgdrsyaviveka030903mbp) | Original English translation and word-level gloss; attribution to Bhāratī Tīrtha is traditional and varies across catalogues |
 ## Proofreading references
 
