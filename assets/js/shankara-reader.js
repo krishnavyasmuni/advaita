@@ -69,15 +69,25 @@ function bindScript(root){
 async function start(root){
  const id=root.dataset.work,item=WORKS.find(w=>w.id===id);
  if(!item)return;
+ root.setAttribute("aria-busy","true");
+ bindScript(root);
  try{
-  const res=await fetch("/advaita/assets/data/shankara/"+id+".json");
+  const readerScript=Array.from(document.scripts).find(s=>s.src&&/\/assets\/js\/shankara-reader\.js(?:\?|$)/.test(s.src));
+  const dataUrl=readerScript?new URL("../data/shankara/"+encodeURIComponent(id)+".json",readerScript.src).href:"/advaita/assets/data/shankara/"+encodeURIComponent(id)+".json";
+  const res=await fetch(dataUrl);
   if(!res.ok)throw new Error("Work data unavailable");
   const data=await res.json();
   if(!complete(data)||data.id!==id)throw new Error("Incomplete text data");
   document.title=data.title+" — Advaita Texts — Viveka Dṛṣṭi";
   root.innerHTML='<div class="shankara-reading-grid"><header class="gita-hero"><h1>'+esc(data.title)+'</h1>'+(item.author?'<p class="shankara-author">('+esc(item.author)+')</p>':'')+'<div class="script-controls" role="group" aria-label="Sanskrit script"><button type="button" data-script="deva" aria-pressed="true">देवनागरी</button><button type="button" data-script="iast" aria-pressed="false">IAST</button></div><p><a class="shankara-index-link" href="/advaita/books/adi-shankaracharya/">← Advaita Texts</a></p></header><nav class="gita-contents" aria-label="Contents"><h2>Contents</h2><ol>'+data.units.map((u,i)=>'<li><a href="#'+esc(u.id)+'">'+esc(u.label||("Verse "+(i+1)))+'</a></li>').join("")+'</ol></nav><div class="shankara-unit-column">'+data.units.map(unitHTML).join("")+navHTML(id)+'</div></div>';
+  root.setAttribute("aria-busy","false");
+  delete root.dataset.readerFallback;
   bindScript(root);
- }catch(err){root.innerHTML='<p class="gita-translation">The text could not be loaded.</p>';console.error(err)}
+ }catch(err){
+  root.setAttribute("aria-busy","false");
+  root.dataset.readerFallback="true";
+  console.error(err);
+ }
 }
 document.addEventListener("DOMContentLoaded",()=>document.querySelectorAll("[data-shankara-reader]").forEach(start));
 })();
