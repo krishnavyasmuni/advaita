@@ -521,7 +521,7 @@
       wordSections.push(makeDualSection('Śrīdhara', 'gita-dual-sridhara',
         makeWordForWordParagraph(sridharaPairs)));
     }
-    controls.appendChild(makeDetails('Word-for-word', wordSections));
+    controls.appendChild(makeDetails('Word-for-word translation', wordSections));
 
     const transliterationSections = [];
     if (verseTransliteration) {
