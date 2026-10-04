@@ -190,6 +190,10 @@
     return /(?:Śrīdhara|Sridhara)(?:\s+Svāmī)?\s+(?:says|asks)\b|joint\s+[^.!?]{0,100}\bnote\s+says\b/i.test(String(text || ''));
   }
 
+  function isNoCommentaryMarker(value) {
+    return /^\\s*न\\s+(?:(?:कतमेन(?:ापि)?)\\s+)?व्याख्यातम्\\s*[।.]?\\s*$/.test(String(value || ''));
+  }
+
   function parseEnglishCommentary(data, targetCanto, targetChapter) {
     return Array.isArray(data && data.entries)
       ? data.entries
@@ -269,7 +273,7 @@
 
   function parseLocalSridhara(data) {
     return Object.values(data && data.entries ? data.entries : {})
-      .filter((entry) => entry && entry.source_available && String(entry.sanskrit || '').trim() && !/^\s*न\s+(?:(?:कतमेन(?:ापि)?)\s+)?व्याख्यातम्[।.]?\s*$/.test(String(entry.sanskrit || '')))
+      .filter((entry) => entry && entry.source_available && String(entry.sanskrit || '').trim() && !isNoCommentaryMarker(String(entry.sanskrit || '')))
       .map((entry) => ({
         start: Number(entry.start),
         end: Number(entry.end),
@@ -296,7 +300,7 @@
         const generatedPlaceholder = /^(?:contextual literal sense of|generic filler|translation pending|to be translated|placeholder(?:\s+(?:commentary|translation|gloss))?)/i.test(literal);
         const commentatorAttribution = isCommentatorAttribution(literal);
         const noCommentary = (entry.source_available === false && entry.source_gap !== true) ||
-          /^न\s+(?:(?:कतमेन(?:ापि)?|कतमेनापि)\s+)?व्याख्यातम्[।.]?\s*$/.test(sanskrit) ||
+          isNoCommentaryMarker(sanskrit) ||
           /^no commentary[.]?$/i.test(literal);
         const sourceGap = entry.source_gap === true ||
           (entry.source_available === false && !noCommentary);
@@ -334,7 +338,7 @@
           start: Number(entry.start),
           end: Number(entry.end),
           pairs: sourcePairs
-            .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1] && !/contextual literal sense of|generic filler|translation pending|to be translated|placeholder(?:\s+(?:gloss|translation|commentary))?|^no commentary\.?$|न\s+(?:(?:कतमेन(?:ापि)?)\s+)?व्याख्यातम्/i.test(String(pair[1])))
+            .filter((pair) => Array.isArray(pair) && pair.length >= 2 && pair[0] && pair[1] && !/contextual literal sense of|generic filler|translation pending|to be translated|placeholder(?:\s+(?:gloss|translation|commentary))?|^no commentary\.?$/i.test(String(pair[1])) && !isNoCommentaryMarker(String(pair[1])))
             .map((pair) => [String(pair[0]), String(pair[1])])
         };
       });
