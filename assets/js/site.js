@@ -89,7 +89,7 @@ const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#s
 if(/\/articles\/an-index-of-hindu-scripture\/?$/.test(p))css('scriptureIndexClean','/advaita/assets/css/scripture-index-clean.css?v=1');
 
 const bhavishya=/\/(?:pages\/bhavishya-purana(?:\/|-)|articles\/(?:bhavishya-purana-|bhavisya-purana-addresses-varna-system))/.test(p);
-if(bhavishya){css('bhavishyaNavigation','/advaita/assets/css/bhavishya-navigation.css?v=20260915-2');js('bhavishyaNavigation','/advaita/assets/js/bhavishya-navigation.js?v=20260915-3')}
+if(bhavishya){css('bhavishyaNavigation','/advaita/assets/css/bhavishya-navigation.css?v=20260915-2');js('bhavishyaNavigation','/advaita/assets/js/bhavishya-navigation.js?v=20261004-1')}
 const rebuild=document.querySelector('.empyrean-bhagavatam-rebuild,.empyrean-bhagavatam-rebuild-part');if(!rebuild)return;
 document.body.classList.add('bhagavatam-rebuild-page');
 if(/srimad-bhagavatam-second-canto-sridhara-svami-rebuild/.test(p)){
