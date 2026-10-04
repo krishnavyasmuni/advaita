@@ -1,0 +1,28 @@
+:root{--outer:#2b261f;--paper:#f4f4f4;--ink:#3c362e;--muted:#756e67;--teal:#00787a;--purple:#65516f;--rule:#d8d3cd}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body.advaita-directory-page{margin:0;background:var(--outer);color:var(--ink);font-family:Merriweather,Georgia,serif;font-size:16px;line-height:1.55}
+.ad-topbar{width:1080px;max-width:100%;height:58px;margin:0 auto;padding:0 42px;display:flex;align-items:center;background:var(--paper);border-bottom:1px solid rgba(119,119,119,.12)}
+.ad-topbar a{color:var(--teal);font:400 20px Vollkorn,Georgia,serif;text-decoration:none}
+.ad-page{width:1080px;max-width:100%;min-height:100vh;margin:0 auto;padding:50px 54px 82px;background:var(--paper)}
+.ad-hero{width:700px;max-width:100%;margin:0 auto 44px;text-align:center}
+.ad-hero h1{margin:0;color:var(--teal);font:400 46px/1.08 Vollkorn,Georgia,serif}
+.ad-hero:after{content:"";display:block;width:326px;max-width:50%;height:1px;margin:24px auto 0;background:var(--rule)}
+.ad-reader{display:grid;grid-template-columns:210px minmax(0,700px);gap:38px;justify-content:center;align-items:start}
+.ad-side{position:sticky;top:28px;padding-right:24px;border-right:1px solid var(--rule)}
+.ad-side h2{margin:0 0 14px;color:var(--teal);font:400 28px Vollkorn,Georgia,serif}
+.ad-side a{display:block;margin:0 0 9px;color:#5d554e;font-size:13px;line-height:1.4;text-decoration:none}
+.ad-side a:hover,.ad-side a:focus-visible{color:var(--purple);text-decoration:underline}
+.ad-side .ad-all-link{margin-top:15px}
+.ad-main{min-width:0}
+.ad-section{margin:0 0 34px;scroll-margin-top:24px}
+.ad-section h2{margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid var(--rule);color:#4a443e;font:400 25px Vollkorn,Georgia,serif}
+.ad-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 20px}
+.ad-entry{display:block;min-width:0;padding:8px 0;border-bottom:1px solid #e2ddd7;color:#4a443e;text-decoration:none;overflow-wrap:anywhere}
+a.ad-entry:hover,a.ad-entry:focus-visible{color:var(--purple)}
+.ad-title{font:400 16px/1.4 Vollkorn,Georgia,serif}
+.ad-entry small{display:block;margin-top:2px;color:var(--muted);font:400 10px/1.4 Merriweather,Georgia,serif}
+.ad-entry em{display:block;margin-top:3px;color:#817970;font:italic 10px/1.4 Merriweather,Georgia,serif}
+.ad-entry--upcoming{color:#4a443e}
+@media(max-width:900px){.ad-page{padding:38px 24px 68px}.ad-reader{grid-template-columns:170px minmax(0,700px);gap:24px}.ad-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.ad-topbar{height:50px;padding:0 18px}.ad-topbar a{font-size:18px}.ad-page{padding:30px 16px 56px}.ad-hero{margin-bottom:30px}.ad-hero h1{font-size:38px;line-height:1.1}.ad-reader{display:block;width:700px;max-width:100%;margin:0 auto}.ad-side{position:static;margin:0 0 26px;padding:0 0 16px;border:0;border-bottom:1px solid var(--rule)}.ad-side h2{font-size:23px;margin-bottom:8px}.ad-side a{display:inline-block;margin:0 12px 5px 0}.ad-side .ad-all-link{margin-top:8px}.ad-links{grid-template-columns:1fr}.ad-entry{padding:10px 0}.ad-title{font-size:17px}.ad-section h2{font-size:23px}}
