@@ -51,3 +51,6 @@
     line-height:1.48!important;
   }
 }
+
+/* Keep editorial provenance outside the reader; show the Sanskrit book text only. */
+.gita-page .gita-source-note{display:none!important;}
