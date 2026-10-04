@@ -68,13 +68,21 @@ if(article){
 const paths=new Map([
 ['/advaita/introduction-to-hinduism/','/advaita/pages/introduction-to-hinduism/'],['/advaita/indology/','/advaita/pages/indology/'],['/advaita/purana-library/','/advaita/pages/purana-library/'],['/advaita/bhagavatam-with-sridhara-bhasya/','/advaita/pages/bhagavatam-with-sridhara-bhasya/'],['/advaita/bhavishya-purana/','/advaita/pages/bhavishya-purana/'],['/advaita/bhavishya-purana-brahmaparvan/','/advaita/pages/bhavishya-purana-brahmaparvan/'],['/advaita/bhagavad-gita/','/advaita/pages/bhagavad-gita/']]);
 document.querySelectorAll('a[href]').forEach(a=>{const x=paths.get(a.getAttribute('href'));if(x)a.href=x});
+const primaryNavItems=[
+ {href:'/advaita/',label:'Advaita Vedānta Portal',isCurrent:path=>path==='/advaita/'},
+ {href:'/advaita/pages/purana-library/',label:'Purāṇas',isCurrent:path=>/\/(?:pages\/(?:purana-library|vishnu-purana|bhagavatam-with-sridhara-bhasya|bhavishya-purana[^/]* )|articles\/(?:vishnu-purana-|bhavishya-purana-|bhavisya-purana-addresses-varna-system|srimad-bhagavatam-))/.test(path)},
+ {href:'/advaita/pages/bhagavad-gita/',label:'Bhagavad Gītā',isCurrent:path=>/\/(?:pages\/bhagavad-gita|articles\/bhagavad-gita-chapter-)/.test(path)},
+ {href:'/advaita/#vaishnavism',label:'Vaiṣṇavism',isCurrent:path=>/\/articles\/a-vaishnava-lens-on-vishnu-as-the-supreme-deity\/?$/.test(path)},
+ {href:'/advaita/pages/indology/',label:'Indology',isCurrent:path=>/\/pages\/indology\/?$/.test(path)||/\/articles\/(?:on-the-lack-of-steppe-ancestry|compilation-of-peer-reviewed-citations-against-aryan-migration-theory)\/?$/.test(path)},
+ {href:'/advaita/books/',label:'Other books',isCurrent:path=>/\/advaita\/books\//.test(path)&&!/\/books\/adi-shankaracharya\//.test(path)}
+];
 document.querySelectorAll('.site-nav').forEach(nav=>{
- const gita=nav.querySelector('a[href*="/pages/bhagavad-gita/"],a[href="/advaita/bhagavad-gita/"]');
- if(!nav.querySelector('a[href="/advaita/books/"]')){
-  const books=document.createElement('a');books.href='/advaita/books/';books.textContent='Other books';
-  nav.insertBefore(books,gita||null);
- }
- if(!gita){const a=document.createElement('a');a.href='/advaita/pages/bhagavad-gita/';a.textContent='Bhagavad Gītā — Śrīdhara Bhāṣya';nav.append(a)}
+ const links=primaryNavItems.map(item=>{
+  const a=document.createElement('a');a.href=item.href;a.textContent=item.label;
+  if(item.isCurrent(p))a.setAttribute('aria-current','page');
+  return a;
+ });
+ nav.replaceChildren(...links);
 });
 const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#site-nav');if(menu&&nav){menu.addEventListener('click',()=>menu.setAttribute('aria-expanded',String(nav.classList.toggle('open'))));nav.addEventListener('click',e=>{if(e.target.matches('a')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}})}
 
