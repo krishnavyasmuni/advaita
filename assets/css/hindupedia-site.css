@@ -283,6 +283,23 @@ body{margin:0!important}
 }
 .hp-column{min-width:0}
 .hp-panel{margin:0 0 20px}
+body.home-page .hp-directory{
+  display:block;
+  column-count:2;
+  column-gap:12px;
+  column-fill:balance;
+}
+body.home-page .hp-directory>.hp-panel{
+  display:inline-block;
+  width:100%;
+  margin:0 0 20px;
+  vertical-align:top;
+  break-inside:avoid;
+  -webkit-column-break-inside:avoid;
+}
+@media(max-width:720px){
+  body.home-page .hp-directory{column-count:1}
+}
 .hp-section-title{
   margin:0 0 3px!important;
   padding:4px 8px!important;
