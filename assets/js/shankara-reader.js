@@ -43,7 +43,7 @@ function complete(data){
  return data&&Array.isArray(data.units)&&data.units.length===data.expectedUnits&&data.units.length>0&&
   data.units.every(u=>u.id&&u.deva&&u.translation&&Array.isArray(u.gloss)&&u.gloss.length>0&&u.gloss.every(w=>w.sa&&w.en));
 }
-function glossHTML(words){return words.map(w=>'<div class="gita-word-row"><span class="gita-word-dev" lang="sa-Deva">'+esc(w.sa)+'</span> <span class="gita-word-iast">(<em>'+esc(iast(w.sa))+'</em>)</span> <span class="gita-word-gloss">— '+esc(w.en)+'</span></div>').join("")}
+function glossHTML(words){return words.map(w=>'<div class="gita-word-row"><span class="gita-word-source"><span class="gita-word-dev" lang="sa-Deva">'+esc(w.sa)+'</span> <span class="gita-word-iast">('+esc(iast(w.sa))+')</span></span><span class="gita-word-gloss">'+esc(w.en)+'</span></div>').join("")}
 function unitHTML(u,index){
  const label=u.label||("Verse "+(index+1));
  return '<article class="gita-verse shankara-verse" id="'+esc(u.id)+'"><p class="shankara-unit-label">'+esc(label)+'</p><h2>'+esc(u.number||String(index+1))+'</h2><hr class="gita-verse-rule"/><div class="gita-sanskrit sa-text" lang="sa-Deva">'+esc(u.deva)+'</div><p class="gita-translation">'+esc(u.translation)+'</p><div class="gita-controls"><details class="gita-details shankara-transliteration"><summary>Transliteration</summary><div class="gita-reveal"><p class="shankara-iast" lang="sa-Latn">'+esc(iast(u.deva))+'</p></div></details><details class="gita-details shankara-word-gloss"><summary>Word-for-word</summary><div class="gita-reveal"><div class="gita-word-list">'+glossHTML(u.gloss)+'</div></div></details></div></article>';

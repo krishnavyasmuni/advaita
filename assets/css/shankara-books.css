@@ -1,6 +1,6 @@
 /* Advaita reading pages share the Viṣṇu Purāṇa reader palette and content scale. */
 .shankara-content{padding-bottom:36px}
-.gita-page .shankara-content{width:100%!important;max-width:920px!important;margin:0 auto!important;padding:0 24px 36px!important;background:#f7f6f4!important;color:#3c362e!important;font-family:Merriweather,Georgia,serif!important}
+.gita-page .shankara-content{width:100%!important;max-width:920px!important;margin:0 auto!important;padding:0 24px 36px!important;background:#f4f4f4!important;color:#3c362e!important;font-family:Merriweather,Georgia,serif!important}
 .shankara-reading-grid{display:grid;grid-template-columns:minmax(142px,185px) minmax(0,1fr);column-gap:clamp(20px,3vw,42px);align-items:start}
 .shankara-content .gita-hero{grid-column:2;grid-row:1;width:100%;margin:0 auto;text-align:center;padding:44px 0 24px}
 .shankara-content .gita-hero h1{color:#2f7f82;font-family:Vollkorn,Georgia,serif;font-size:clamp(34px,4.8vw,46px);font-weight:400;line-height:1.08}
@@ -21,7 +21,6 @@
 .shankara-content .gita-word-dev{font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif!important}
 .shankara-content .gita-word-iast{font-family:Merriweather,Georgia,serif!important}
 .shankara-content .gita-word-dev{font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif}
-.shankara-content .gita-word-iast{color:#6f665e}
 .shankara-content .gita-translation{font-size:14px;line-height:1.55}
 .shankara-content .shankara-iast{margin:0;color:#514a43;font-family:Merriweather,Georgia,serif;font-size:14px;line-height:1.55;overflow-wrap:anywhere}
 .shankara-content .script-controls{display:flex;justify-content:center;gap:8px;margin:20px auto 4px}
@@ -71,3 +70,13 @@
 .shankara-content .shankara-author{margin:12px auto 0;color:#3c362e;font:400 14px/1.45 Merriweather,Georgia,serif;text-align:center}
 .shankara-content .gita-translation,.shankara-content .gita-sanskrit{color:#3c362e}
 .ad-entry small{color:#4a443e}
+
+/* Word-for-word entries use the same ink and text scale as the translation. */
+.shankara-content .gita-word-list{margin:0;padding:0}
+.shankara-content .gita-word-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:4px 18px;align-items:baseline;margin:0;padding:4px 0;border-bottom:1px solid #e2ddd7;color:#3c362e!important;font:400 14px/1.5 Merriweather,Georgia,serif!important}
+.shankara-content .gita-word-source{min-width:0;color:#3c362e!important;font-size:14px!important;font-weight:400!important;overflow-wrap:anywhere}
+.shankara-content .gita-word-dev,.shankara-content .gita-word-iast,.shankara-content .gita-word-gloss{color:#3c362e!important;font-size:14px!important;font-weight:400!important}
+.shankara-content .gita-word-dev{font-family:"Noto Serif Devanagari","Nirmala UI",Mangal,serif!important}
+.shankara-content .gita-word-iast{font-family:Merriweather,Georgia,serif!important;font-style:normal!important}
+.shankara-content .gita-word-gloss{font-family:Merriweather,Georgia,serif!important}
+@media(max-width:700px){.shankara-content .gita-word-row{grid-template-columns:minmax(0,1fr);gap:1px;padding:5px 0}}
