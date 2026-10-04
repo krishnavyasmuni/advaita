@@ -65,4 +65,40 @@
 </div></main>
 <footer class="site-footer"><p>Viveka Dṛṣṭi</p></footer>
 <script src="/advaita/assets/js/site.js"></script>
+<script>
+(()=>{
+  const directory=document.querySelector('.shankara-directory');
+  if(!directory)return;
+  const groups=[...directory.querySelectorAll('.shankara-group')];
+  const intro=directory.querySelector('.hp-home-intro');
+  const labels={stotrams:'Advaita Stotrams','short-teachings':'Short Advaita Texts',treatises:'Advaita Treatises'};
+  const originalTitle=document.title;
+  let backLink=null;
+  const renderCategory=()=>{
+    const id=decodeURIComponent(location.hash.slice(1));
+    const target=document.getElementById(id);
+    const selected=target?.closest('.shankara-group');
+    const label=Object.prototype.hasOwnProperty.call(labels,id)&&selected?labels[id]:null;
+    const active=Boolean(label);
+    groups.forEach(group=>{group.hidden=active&&group!==selected});
+    if(intro)intro.hidden=active;
+    if(backLink){backLink.remove();backLink=null;}
+    if(active){
+      document.title=label+' — Viveka Dṛṣṭi';
+      backLink=document.createElement('p');
+      backLink.className='shankara-directory-note';
+      const link=document.createElement('a');
+      link.href='/advaita/books/adi-shankaracharya/';
+      link.textContent='← All Advaita Texts';
+      backLink.append(link);
+      selected.before(backLink);
+      backLink.scrollIntoView({block:'start'});
+    }else{
+      document.title=originalTitle;
+    }
+  };
+  renderCategory();
+  window.addEventListener('hashchange',renderCategory);
+})();
+</script>
 </body></html>
