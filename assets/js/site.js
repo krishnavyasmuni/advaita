@@ -70,7 +70,7 @@ const paths=new Map([
 document.querySelectorAll('a[href]').forEach(a=>{const x=paths.get(a.getAttribute('href'));if(x)a.href=x});
 const primaryNavItems=[
  {href:'/advaita/',label:'Advaita Vedānta Portal',isCurrent:path=>path==='/advaita/'},
- {href:'/advaita/pages/purana-library/',label:'Purāṇas',isCurrent:path=>/\/(?:pages\/(?:purana-library|vishnu-purana|bhagavatam-with-sridhara-bhasya|bhavishya-purana[^/]* )|articles\/(?:vishnu-purana-|bhavishya-purana-|bhavisya-purana-addresses-varna-system|srimad-bhagavatam-))/.test(path)},
+ {href:'/advaita/pages/purana-library/',label:'Purāṇas',isCurrent:path=>/\/(?:pages\/(?:purana-library|vishnu-purana|bhagavatam-with-sridhara-bhasya|bhavishya-purana[^/]*)|articles\/(?:vishnu-purana-|bhavishya-purana-|bhavisya-purana-addresses-varna-system|srimad-bhagavatam-))/.test(path)},
  {href:'/advaita/pages/bhagavad-gita/',label:'Bhagavad Gītā',isCurrent:path=>/\/(?:pages\/bhagavad-gita|articles\/bhagavad-gita-chapter-)/.test(path)},
  {href:'/advaita/#vaishnavism',label:'Vaiṣṇavism',isCurrent:path=>/\/articles\/a-vaishnava-lens-on-vishnu-as-the-supreme-deity\/?$/.test(path)},
  {href:'/advaita/pages/indology/',label:'Indology',isCurrent:path=>/\/pages\/indology\/?$/.test(path)||/\/articles\/(?:on-the-lack-of-steppe-ancestry|compilation-of-peer-reviewed-citations-against-aryan-migration-theory)\/?$/.test(path)},
