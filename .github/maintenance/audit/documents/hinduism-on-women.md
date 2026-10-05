@@ -1,41 +1,41 @@
 ---
 slug: hinduism-on-women
 request: repair
-source_files: ["Hinduism_on_women.pdf"]
+source_files: ["Hinduism_on_women(2).pdf"]
 source_version_or_hash: "21,998,164 bytes; SHA-256 250d2ed2bb54ff0be6476f07710504540c2ce82442ae18f2de82a84ec804157f"
-source_pages: "98 scanned, image-only; pages 5-7 and 95-96 visually reviewed"
+source_pages: "98 scanned, image-only; visually inspected pages 1-3, 5-7, 61-65, and 95-98; English OCR run on all pages"
 article_path: "articles/hinduism-on-women/index.html"
 live_url: "https://krishnavyasmuni.github.io/advaita/articles/hinduism-on-women/"
 reference_layout: "Shared Varna-vicara reader used by the Vaishnava and Shaiva articles"
-source_inventory: "Four main sections, 15 subsections, a separate cover illustration, one standalone ornaments diagram, 98 full-page scan assets, and OCR-derived Sanskrit text in the existing transcription"
-expected_units: "Existing article text, eight Sanskrit controls checked against source pages 5-7, bibliography transcribed from pages 95-96, cover illustration, and standalone diagram; no full-page scans"
+source_inventory: "Four main sections, front matter and index, English body text, Sanskrit citations, bibliography, three labeled diagrams, cover illustration, and closing matter"
+expected_units: "Readable HTML transcription of the 98-page PDF, including its English and Devanagari text and all diagram labels; no full-page scans"
 known_defects:
-  - "The uploaded PDF has no searchable text layer. Existing English prose outside the checked excerpts was retained but not compared page-by-page with the 98 scans."
-  - "Sanskrit OCR/transliteration outside the selected excerpts from pages 5-7 remains unverified and may contain corrupted readings."
-  - "The front-matter scans from pages 1-4 were not transcribed; all full-page scan images were removed from the public article as requested."
-  - "The Chrome browser returned net::ERR_BLOCKED_BY_CLIENT for the Pages URL, so desktop and mobile visual review was unavailable."
+  - "The PDF has no searchable text layer. English OCR comparison suggests broad coverage in the existing body, but the English prose has not been manually checked word-for-word against every page."
+  - "Devanagari passages on pages 4-96 outside the previously checked page 5-7 excerpts remain unverified. Tesseract lacks Hindi data here; attempts to retrieve the Hindi data returned HTTP 403."
+  - "The source index reads 'Arsa and dowry' while the corresponding article heading reads 'Asura marriage and dowry'; the discrepancy is noted in the web index."
+  - "Closing Sanskrit from page 97 was transcribed visually from the scan; apparent source spellings were retained and still need a Devanagari reader's review."
+  - "Browser screenshot review has not yet been completed."
 unresolved_source_readings:
-  - "Sanskrit citations and transliterations outside the selected excerpts on pages 5-7."
+  - "Sanskrit citations and transliterations throughout pages 4-96 beyond the previously checked excerpts."
+  - "A second-reader verification of the page 97 colophon."
 qa_status: "partial"
-commit: "b24775d3a911f1f88a8e3d4d3bb5d3033473b37b"
-deployment: "GitHub Pages run 36702520151 succeeded for commit b24775d3a911f1f88a8e3d4d3bb5d3033473b37b"
+commit: "00c81a56acaafec2a64dce0c18c026c98ca720d4"
+deployment: "pending"
 ---
 
 ## Changes
 
-- Kept the article on the shared reader shell and typography used by the Varna-vicara, Vaishnava, and Shaiva pages.
-- Normalized Roman diacritics to the site's plain ASCII style and set this page's visible brand to Viveka Drishti.
-- Replaced OCR-corrupted Sanskrit snippets from source pages 5-7 with eight Devanagari passages in native Show Sanskrit controls.
-- Removed the 98 full-page scan images and their source-page disclosure controls. Kept the standalone cover illustration and ornaments diagram.
-- Rebuilt the bibliography from source pages 95-96 and formatted source-author pairs as `Work - Author`.
-- Formatted the Yoga Vasistha citation as `Yoga Vasistha - Valmiki, 2.18.3`, retaining its verse locator.
+- Added the source title, subtitle, author, opening Sanskrit, auspicious invocation, and linked index from pages 1-3.
+- Added the missing Sanskrit quotation from page 62 and text alternatives for the clothing and ornament diagrams on pages 61, 63, and 65.
+- Transcribed the closing verses, completion statement, and Om symbol from pages 97-98.
+- Added responsive styling for the title page, index, diagram transcriptions, and colophon.
+- Corrected a small set of clear English spelling and punctuation errors without rewriting the article's argument.
 
 ## Checks
 
-- Source pages 5-7 inspected at rendered resolution before adding the eight Sanskrit passages.
-- Bibliography on source pages 95-96 visually checked; all seven categories and 83 entries were transcribed into structured lists.
-- HTML parsed with balanced tags; the page contains eight Sanskrit controls and only the cover and standalone diagram images.
-- No full-page scan references or Latin diacritic characters remain in the rebuilt HTML.
-- Bibliography and source labels use plain ASCII transliteration; HTML markup remains balanced.
-- GitHub Pages build: succeeded for commit 68b8f9be0ef97c9ba28f60e43846415db2cd33de (run 36690251264).
-- Desktop/mobile screenshot review: unavailable; Chrome returned net::ERR_BLOCKED_BY_CLIENT.
+- Rendered and visually inspected source pages 1-3, 61-65, and 97-98 at high resolution before transcribing.
+- English OCR was run on all 98 pages. Text sequence comparison indicates broad coverage in the existing English body, but does not validate every word or Sanskrit reading.
+- HTML tags are balanced; all 55 in-page links point to unique IDs.
+- The page contains textual alternatives for all three labeled diagrams and no references to full-page scan images.
+- Hindi OCR model retrieval was blocked with HTTP 403; English OCR output was not used to reconstruct Sanskrit.
+- GitHub Pages build and browser visual QA are pending.
