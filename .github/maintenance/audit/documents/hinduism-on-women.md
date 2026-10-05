@@ -14,13 +14,13 @@ known_defects:
   - "Devanagari passages on pages 4-96 outside the previously checked page 5-7 excerpts remain unverified. Tesseract lacks Hindi data here; attempts to retrieve the Hindi data returned HTTP 403."
   - "The source index reads 'Arsa and dowry' while the corresponding article heading reads 'Asura marriage and dowry'; the discrepancy is noted in the web index."
   - "Closing Sanskrit from page 97 was transcribed visually from the scan; apparent source spellings were retained and still need a Devanagari reader's review."
-  - "Browser screenshot review has not yet been completed."
+  - "Chrome could not open the Pages URL and returned net::ERR_BLOCKED_BY_CLIENT; desktop and mobile visual review were unavailable in this browser."
 unresolved_source_readings:
   - "Sanskrit citations and transliterations throughout pages 4-96 beyond the previously checked excerpts."
   - "A second-reader verification of the page 97 colophon."
 qa_status: "partial"
 commit: "00c81a56acaafec2a64dce0c18c026c98ca720d4"
-deployment: "pending"
+deployment: "GitHub Pages run 37358656674 succeeded for commit ca1a3255ef857feaa8676853905618fa3b33beeb"
 ---
 
 ## Changes
@@ -38,4 +38,4 @@ deployment: "pending"
 - HTML tags are balanced; all 55 in-page links point to unique IDs.
 - The page contains textual alternatives for all three labeled diagrams and no references to full-page scan images.
 - Hindi OCR model retrieval was blocked with HTTP 403; English OCR output was not used to reconstruct Sanskrit.
-- GitHub Pages build and browser visual QA are pending.
+- GitHub Pages build: succeeded for commit ca1a3255ef857feaa8676853905618fa3b33beeb (run 37358656674).\n- Browser visual review: unavailable; Chrome returned net::ERR_BLOCKED_BY_CLIENT for the Pages URL.
