@@ -11,6 +11,7 @@ The Sanskrit text of most readers is based on Ambuda electronic editions, which 
 | Kāśīpañcakam | [Ambuda](https://ambuda.org/texts/kashipancakam/all) | Volume 18 |
 | Śrī Dakṣiṇāmūrtyaṣṭakam | [Ambuda](https://ambuda.org/texts/shridakshinamurtyashtakam/) | Volume 17, *Stotras*, vol. 1 |
 | Viṣṇu Ṣaṭpadī Stotram | [Ambuda](https://ambuda.org/texts/shatpadistotram/) | Volume 18, *Stotras*, vol. 2 |
+| Bhajagovindam (Mohamudgara) | [Sanskrit Documents, 31-verse recension](https://sanskritdocuments.org/doc_vishhnu/bhajagovindam.html) | Sanskrit transcription and lexical cross-check; original English translation and word-for-word gloss. Traditional attribution; the recension includes verses associated with disciples. |
 | Daśaślokī | [Ambuda](https://ambuda.org/texts/dashashloki/) | Volume 15, *Miscellaneous Prakaranas*, vol. 1 |
 | Manīṣāpañcakam | [Ambuda](https://ambuda.org/texts/manishapancakam/) | Volume 16, *Miscellaneous Prakaranas*, vol. 2 |
 | Upadeśapañcakam (Sādhanapañcakam) | [Advaita Śāradā, Sringeri](https://advaitasharada.sringeri.net/read/pancharatna-stotrani/5/) | Pancharatna Stotrāṇi, text 5 |
@@ -32,7 +33,6 @@ These entries open the complete source edition or translation at the cited libra
 
 | Work | Source text / edition |
 | --- | --- |
-| Bhajagovindam (Mohamudgara) | [Complete Sanskrit text and English meaning](https://adiveda.in/reading/stotram/bhaja-govindam/) |
 | Upadeśasāhasrī | [English translation by Swami Jagadananda](https://www.sankaracharya.org/upadesa_sahasri.html); [Sanskrit source](https://sanskritdocuments.org/doc_z_misc_shankara/upadeshasaahasrii1.pdf) |
 | Vivekacūḍāmaṇi | [Sanskrit text and English translation](https://www.wisdomlib.org/hinduism/book/vivekachudamani) |
 | Aparokṣānubhūti | [Sanskrit text, word-for-word translation, and English rendering](https://www.advaita-vedanta.org/texts/aparokshanubhoothi.pdf) |
