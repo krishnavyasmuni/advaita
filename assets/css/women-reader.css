@@ -131,3 +131,146 @@
     margin-left:22px;
   }
 }
+
+/* Source front matter, index, and text alternatives for labeled figures. */
+.document-paged-page .document-content .women-title-page{
+  margin:0 auto 34px;
+  padding:0 12px 22px;
+  border-bottom:1px solid #d8d2ca;
+  text-align:center;
+}
+.document-paged-page .document-content .women-title-page>p:first-child{
+  margin:0 0 10px;
+  font-size:20px;
+}
+.document-paged-page .document-content .women-title-page h2{
+  margin:8px 0 12px;
+  color:var(--teal);
+  font-family:"Noto Serif Devanagari",serif;
+  font-size:28px;
+  line-height:1.5;
+}
+.document-paged-page .document-content .women-title-subtitle{
+  margin:0 0 8px;
+  font-size:18px;
+}
+.document-paged-page .document-content .women-title-author{
+  margin:0;
+  color:#625b54;
+}
+.document-paged-page .document-content .women-opening{
+  margin:0 0 32px;
+}
+.document-paged-page .document-content .women-opening .sanskrit-text{
+  line-height:2;
+}
+.document-paged-page .document-content .women-opening-heading{
+  margin:20px 0 12px;
+  color:var(--teal);
+  font-family:"Noto Serif Devanagari",serif;
+  font-size:21px;
+  text-align:center;
+}
+.document-paged-page .document-content .women-index{
+  margin:0 0 36px;
+  padding:0;
+}
+.document-paged-page .document-content .women-index>h2{
+  margin-bottom:14px;
+}
+.document-paged-page .document-content .women-index>ol{
+  columns:2;
+  column-gap:30px;
+  padding-left:23px;
+}
+.document-paged-page .document-content .women-index li{
+  margin:0 0 8px;
+  break-inside:avoid;
+}
+.document-paged-page .document-content .women-index ol,
+.document-paged-page .document-content .women-index ul{
+  margin-top:4px;
+  padding-left:20px;
+}
+.document-paged-page .document-content .women-index a{
+  text-decoration:none;
+}
+.document-paged-page .document-content .women-index a:hover{
+  text-decoration:underline;
+}
+.document-paged-page .document-content .source-note{
+  color:#817970;
+  font-size:12px;
+}
+.document-paged-page .document-content .women-figure-transcription{
+  margin:14px 0 30px;
+  padding:2px 14px 12px;
+  border-left:2px solid var(--quote-rule);
+  background:#faf8f4;
+}
+.document-paged-page .document-content .women-figure-transcription h5{
+  margin:12px 0 8px;
+}
+.document-paged-page .document-content .women-figure-transcription dl{
+  display:grid;
+  grid-template-columns:max-content minmax(0,1fr);
+  gap:5px 14px;
+  margin:10px 0;
+}
+.document-paged-page .document-content .women-figure-transcription dt{
+  font-weight:700;
+}
+.document-paged-page .document-content .women-figure-transcription dd{
+  margin:0;
+}
+.document-paged-page .document-content .women-figure-transcription dd p{
+  margin:0 0 5px;
+}
+.document-paged-page .document-content .women-figure-transcription ul{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:3px 14px;
+  margin:8px 0 8px;
+  padding-left:20px;
+}
+.document-paged-page .document-content .women-colophon{
+  margin:36px auto 0;
+  padding:20px 0 8px;
+  border-top:1px solid #d8d2ca;
+  text-align:center;
+}
+.document-paged-page .document-content .women-colophon h3{
+  color:var(--teal);
+  font-family:"Noto Serif Devanagari",serif;
+  line-height:1.6;
+}
+.document-paged-page .document-content .women-colophon .sanskrit-text{
+  margin:16px auto;
+  line-height:1.9;
+}
+.document-paged-page .document-content .women-colophon .women-closing-line{
+  margin-top:28px;
+}
+.document-paged-page .document-content .women-om{
+  margin:8px 0 20px;
+  font-family:"Noto Serif Devanagari",serif;
+  font-size:44px;
+}
+@media(max-width:620px){
+  .document-paged-page .document-content .women-title-page h2{
+    font-size:23px;
+  }
+  .document-paged-page .document-content .women-index>ol{
+    columns:1;
+  }
+  .document-paged-page .document-content .women-figure-transcription dl{
+    grid-template-columns:1fr;
+    gap:2px;
+  }
+  .document-paged-page .document-content .women-figure-transcription dd{
+    margin-bottom:8px;
+  }
+  .document-paged-page .document-content .women-figure-transcription ul{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
