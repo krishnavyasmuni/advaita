@@ -23,6 +23,7 @@ The Sanskrit text of most readers is based on Ambuda electronic editions, which 
 | Hastāmalaka-stotram | [Sringeri Bhagavatpadiyam](https://bhagavatpadiyam.sringeri.net/en/work/hastamalakiyam) | Primary twelve-verse text only; translation and word-level gloss are original. |
 | Dṛg-dṛśya-viveka | [Swami Nikhilananda, *Drg Drsya Viveka* (Sri Ramakrishna Asrama, 1931)](https://archive.org/details/drgdrsyaviveka030903mbp) | Original English translation and word-level gloss; attribution to Bhāratī Tīrtha is traditional and varies across catalogues |
 | Advaitamakaranda | Wikisource contributors, [revision 399504](https://sa.wikisource.org/w/index.php?title=अद्वैत_मकरन्द&oldid=399504), under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Main 28-verse text; lineation and several readings normalized against Sanskrit Documents; original English translation and word-level gloss. The adapted Sanskrit transcription is shared under CC BY-SA 4.0. |
+| Ātmavidyāvilāsa | [The Theosophist, vol. XIV, no. 9 (June 1893)](https://iapsop.com/archive/materials/theosophist/theosophist_v14_n09_june_1893.pdf) | Opening invocation, 65 numbered verses, and closing verse; original English translation and word-level gloss. |
 
 ## Proofreading references
 
@@ -30,9 +31,9 @@ These were consulted to check the Sanskrit readings: [Advaita Śāradā, Sringer
 
 Dṛg-dṛśya-viveka uses the 1931 Sri Ramakrishna Asrama edition as its Sanskrit witness. Its English translation and word-level gloss are newly prepared for this site. The attribution is described as traditional rather than certain.
 
-## Full source texts linked from the directory
+## Source references for treatises awaiting local readers
 
-These entries open the complete source edition or translation at the cited library or publisher. The text is linked at its source rather than copied into the site's local reader.
+These citations support collation and translation work. Reader pages on the site contain the Sanskrit text, English translation, and word-for-word gloss; source pages are not the site's reading destinations.
 
 | Work | Source text / edition |
 | --- | --- |
@@ -44,6 +45,6 @@ These entries open the complete source edition or translation at the cited libra
 | Māṇḍūkyakārikā | [Complete Sanskrit text, GRETIL](https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_mANDUkyopaniSatkArikA.htm) |
 | Naiṣkarmyasiddhi | [Complete Sanskrit text](https://sanskritdocuments.org/doc_z_misc_major_works/naishk.html); [English edition catalogued by Open Library](https://openlibrary.org/works/OL23667095W/The_Nai%E1%B9%A3karmya_siddhi_of_Sure%C5%9Bvar%C4%81c%C4%81rya) |
 | Jīvanmuktiviveka | [Sanskrit text](https://sanskritdocuments.org/doc_z_misc_major_works/jIvanmuktivivekaH.html); [English translation scan](https://commons.wikimedia.org/wiki/File:The_Jivanmukti-viveka;_or,_The_path_to_liberation_in_this_life_(IA_jivanmuktiviveka00madhiala).pdf) |
-| Ātmavidyāvilāsa | [Sanskrit text, with English resources](https://sanskritdocuments.org/doc_z_misc_major_works/AtmavidyAvilAsa.html) |
+| Ātmavidyāvilāsa | Local reader: `/advaita/books/adi-shankaracharya/atmavidya-vilasa/`; source witness: [The Theosophist, vol. XIV, no. 9 (1893)](https://iapsop.com/archive/materials/theosophist/theosophist_v14_n09_june_1893.pdf) |
 | Brahmasiddhi | [Scanned Sanskrit source edition](https://archive.org/details/Brahma-siddhi.by.mandanaMisra.sanskrit) |
 | Prasthānabheda | [Sanskrit text](https://sanskritdocuments.org/doc_z_misc_major_works/prasthAnabheda.html); [English translation](https://sanskritdocuments.org/sites/snsastri/PrasthAnabheda-Engl.pdf) |
