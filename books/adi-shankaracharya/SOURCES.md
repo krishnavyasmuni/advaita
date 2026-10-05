@@ -18,6 +18,7 @@ The Sanskrit text of most readers is based on Ambuda electronic editions, which 
 | Ekaślokī | [Ambuda](https://ambuda.org/texts/ekashloki/) | Volume 16, *Miscellaneous Prakaranas*, vol. 2 |
 | Ātmabodha | [Ambuda](https://ambuda.org/texts/atmabodha/) | Volume 15, *Miscellaneous Prakaranas*, vol. 1 |
 | Pañcīkaraṇa-prakaraṇa | [Sanskrit Wikibooks, revision 4897](https://sa.wikibooks.org/w/index.php?title=%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%E0%A4%AE%E0%A5%8D&oldid=4897) | Primary seven-section prose text only; the appended Pañcīkaraṇa-vārttika by Sureśvara is excluded. Wikibooks transcription is CC BY-SA; English translation and word-gloss are original. |
+| Aparokṣānubhūti | [Shlokam Sanskrit text and lexical entries](https://shlokam.org/text/aparokshanubhuti.htm) | 144 verses plus closing colophon; Sanskrit and lexical cross-check; original English translation and word-level gloss; traditionally attributed to Ādi Śaṅkara. |
 | Brahmajñānāvalīmālā | [Ambuda](https://ambuda.org/texts/brahmajnanavalimala/) | Volume 16, *Miscellaneous Prakaranas*, vol. 2; electronic text distributed under CC0 1.0 |
 | Hastāmalaka-stotram | [Sringeri Bhagavatpadiyam](https://bhagavatpadiyam.sringeri.net/en/work/hastamalakiyam) | Primary twelve-verse text only; translation and word-level gloss are original. |
 | Dṛg-dṛśya-viveka | [Swami Nikhilananda, *Drg Drsya Viveka* (Sri Ramakrishna Asrama, 1931)](https://archive.org/details/drgdrsyaviveka030903mbp) | Original English translation and word-level gloss; attribution to Bhāratī Tīrtha is traditional and varies across catalogues |
@@ -35,7 +36,6 @@ These entries open the complete source edition or translation at the cited libra
 | --- | --- |
 | Upadeśasāhasrī | [English translation by Swami Jagadananda](https://www.sankaracharya.org/upadesa_sahasri.html); [Sanskrit source](https://sanskritdocuments.org/doc_z_misc_shankara/upadeshasaahasrii1.pdf) |
 | Vivekacūḍāmaṇi | [Sanskrit text and English translation](https://www.wisdomlib.org/hinduism/book/vivekachudamani) |
-| Aparokṣānubhūti | [Sanskrit text, word-for-word translation, and English rendering](https://www.advaita-vedanta.org/texts/aparokshanubhoothi.pdf) |
 | Pañcadaśī | [Complete Sanskrit and English text, all fifteen chapters](https://www.upasanayoga.org/PancD.htm); the page identifies its CC BY-NC-SA 4.0 terms |
 | Vedāntasāra | [Sanskrit text with Swami Nikhilananda's English translation](https://estudantedavedanta.net/Vedantasara-Nikhilananda.pdf); [Sanskrit text](https://sanskritdocuments.org/doc_z_misc_major_works/vedantasara.html) |
 | Sarvavedāntasiddhāntasārasaṅgraha | [Scanned source edition](https://archive.org/details/SarvaVedantaSiddhantaSaraSangraha) |
