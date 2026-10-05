@@ -18,6 +18,7 @@ const WORKS=[
  {id:"hastamalaka-stotram",title:"Hastāmalaka-stotram",author:"Hastāmalaka",path:"/advaita/books/adi-shankaracharya/hastamalaka-stotram/"},
  {id:"panchikarana-prakarana",title:"Pañcīkaraṇa-prakaraṇa",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/panchikarana-prakarana/"},
  {id:"aparokshanubhuti",title:"Aparokṣānubhūti",author:"Ādi Śaṅkara, traditional attribution",path:"/advaita/books/adi-shankaracharya/aparokshanubhuti/"},
+ {id:"panchadasi",title:"Pañcadaśī — Chapter 1",author:"Vidyāraṇya",path:"/advaita/books/adi-shankaracharya/panchadasi/"},
  {id:"brahmajnanavali-mala",title:"Brahmajñānāvalīmālā",author:"Ādi Śaṅkara",path:"/advaita/books/adi-shankaracharya/brahmajnanavali-mala/"},
  {id:"advaita-makaranda",title:"Advaitamakaranda",author:"Lakṣmīdhara Kavi",path:"/advaita/books/adi-shankaracharya/advaita-makaranda/"},
  {id:"atmavidya-vilasa",title:"Ātmavidyāvilāsa",author:"Sadāśiva Brahmendra",path:"/advaita/books/adi-shankaracharya/atmavidya-vilasa/"},
