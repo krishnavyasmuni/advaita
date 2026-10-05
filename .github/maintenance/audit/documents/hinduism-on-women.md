@@ -38,4 +38,5 @@ deployment: "GitHub Pages run 37358656674 succeeded for commit ca1a3255ef857feaa
 - HTML tags are balanced; all 55 in-page links point to unique IDs.
 - The page contains textual alternatives for all three labeled diagrams and no references to full-page scan images.
 - Hindi OCR model retrieval was blocked with HTTP 403; English OCR output was not used to reconstruct Sanskrit.
-- GitHub Pages build: succeeded for commit ca1a3255ef857feaa8676853905618fa3b33beeb (run 37358656674).\n- Browser visual review: unavailable; Chrome returned net::ERR_BLOCKED_BY_CLIENT for the Pages URL.
+- GitHub Pages build: succeeded for commit ca1a3255ef857feaa8676853905618fa3b33beeb (run 37358656674).
+- Browser visual review: unavailable; Chrome returned net::ERR_BLOCKED_BY_CLIENT for the Pages URL.
