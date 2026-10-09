@@ -957,3 +957,35 @@ body {
     font-size:19px!important
   }
 }
+
+/* Viveka Dṛṣṭi visual refresh: shared page frame */
+:root{
+  --paper:#fffdfa;--ink:#252a33;--teal:#4358bd;--red:#a55d36;--purple:#6153a8;--dark:#f0f1f5;--line:#e4e1dc;
+}
+html,body{background:var(--dark)}
+body{color:var(--ink)}
+.site-header{
+  display:block!important;position:sticky!important;top:0;z-index:100;
+  background:rgba(255,253,250,.92)!important;border-bottom:1px solid rgba(35,42,57,.09)!important;
+  box-shadow:0 6px 24px rgba(28,36,55,.045);backdrop-filter:blur(16px);
+}
+.nav-wrap{width:min(1160px,calc(100% - 44px));min-height:72px;gap:24px}
+.brand{color:#252c3b!important;font-family:Georgia,"Times New Roman",serif;font-size:23px;font-weight:600;letter-spacing:-.025em}
+.site-nav{gap:4px}
+.site-nav a{color:#42495b;font-size:14px;padding:10px 13px;border-radius:999px;transition:background .18s ease,color .18s ease}
+.site-nav a:hover,.site-nav a:focus-visible{color:#344dad;background:#eff1fb}
+.menu-toggle span{background:#29334f}
+.site-main{
+  width:min(1200px,calc(100% - 48px));min-height:60vh;margin:32px auto;
+  border:1px solid #e6e2dc;border-radius:24px;background:var(--paper);box-shadow:0 20px 60px rgba(34,39,53,.07);
+}
+.site-footer{width:min(1160px,calc(100% - 48px));margin:0 auto;padding:8px 0 36px;color:#747987}
+@media(max-width:780px){
+  .nav-wrap{width:calc(100% - 28px);min-height:64px}.brand{font-size:21px}
+  .site-nav{top:64px;background:#fffdfa;border-bottom:1px solid #e6e2dc;box-shadow:0 14px 24px rgba(34,39,53,.08)}
+  .site-main{width:calc(100% - 24px);margin:16px auto;border-radius:18px}.site-footer{width:calc(100% - 28px)}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
