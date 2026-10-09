@@ -571,3 +571,5 @@ body.home-page .hp-section-title::before{
 .hp-button.hp-button-secondary:hover{
   background:linear-gradient(#f3f4fc,#f3f4fc) padding-box,linear-gradient(100deg,#5369dc,#8a65c9 52%,#dc8846) border-box;
 }
+
+.site-nav a[aria-current="page"]{color:#344dad!important;background:#eff1fb!important}

@@ -989,3 +989,5 @@ body{color:var(--ink)}
   html{scroll-behavior:auto}
   *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}
 }
+
+.site-nav a[aria-current="page"]{color:#344dad;background:#eff1fb}
