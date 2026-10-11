@@ -881,7 +881,7 @@ body{margin:0!important}
   .site-main{width:100%!important;margin:0!important}
   .hp-home{width:calc(100% - 38px)!important;padding-bottom:38px!important}
   .hp-hero{grid-template-columns:1fr;gap:32px;padding:42px 0 37px}
-  .hp-hero h1{font-size:58px!important}
+  .hp-hero h1{font-size:clamp(42px,12vw,58px)!important}
   .hp-home-intro{margin-top:17px!important}
   .hp-home-intro p{font-size:16px!important}
   .hp-start{padding:19px 0 0;border-top:1px solid var(--hp-rule);border-left:0}
