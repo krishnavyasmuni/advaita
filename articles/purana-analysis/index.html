@@ -15,21 +15,21 @@
       --muted: #62716a;
       --rule: #dce2dc;
       --accent: #365d50;
-      --quote-bg: #b4d8c2;
-      --quote-ink: #163b2c;
-      --quote-edge: #28734f;
-      --parallel-bg: #a8cae8;
-      --parallel-ink: #153b58;
-      --parallel-edge: #2b6897;
-      --tirtha-bg: #f0cb75;
-      --tirtha-ink: #4a3600;
-      --tirtha-edge: #9b6800;
-      --commentary-bg: #c6b8e5;
-      --commentary-ink: #33254f;
-      --commentary-edge: #634b96;
-      --text-bg: #e5a5b6;
-      --text-ink: #511e32;
-      --text-edge: #a6405c;
+      --quote-bg: #39c98a;
+      --quote-ink: #063823;
+      --quote-edge: #08754a;
+      --parallel-bg: #38b6e6;
+      --parallel-ink: #062f43;
+      --parallel-edge: #0a769a;
+      --tirtha-bg: #f5bc2f;
+      --tirtha-ink: #3b2900;
+      --tirtha-edge: #9a6500;
+      --commentary-bg: #9a7afb;
+      --commentary-ink: #241341;
+      --commentary-edge: #6040c7;
+      --text-bg: #f2749c;
+      --text-ink: #491427;
+      --text-edge: #a82b55;
       --blank-bg: #edf1ee;
       --blank-ink: #647169;
       --tile-border: #cbd5ce;
@@ -83,8 +83,15 @@
     .tile.tirtha { border-color: var(--tirtha-edge); background: var(--tirtha-bg); color: var(--tirtha-ink); font-weight: 700; }
     .tile.commentary { border-color: var(--commentary-edge); background: var(--commentary-bg); color: var(--commentary-ink); font-weight: 700; }
     .tile.other-text { border-color: var(--text-edge); background: var(--text-bg); color: var(--text-ink); font-weight: 700; }
-    .tile.multiple { border-color: #34495e; background-color: var(--surface); color: #1f2937; font-weight: 750; box-shadow: inset 0 0 0 1px rgba(255,255,255,.8); }
-    .tile-number { position: relative; z-index: 1; display: inline-flex; align-items: center; justify-content: center; min-width: 20px; height: 17px; padding: 0 2px; border: 1px solid #536158; border-radius: 4px; background: rgba(255,255,255,.94); color: #17231d; font-size: 10px; line-height: 1; text-shadow: none; box-shadow: 0 0 0 1px rgba(255,255,255,.55); }
+    .tile.multiple { display: block; overflow: hidden; padding: 0; border-color: #293c34; background: var(--surface); color: #17231d; box-shadow: inset 0 0 0 1px rgba(255,255,255,.9); }
+    .tile-bands { position: absolute; inset: 2px; display: flex; gap: 3px; overflow: hidden; border-radius: 3px; background: #fff; pointer-events: none; }
+    .tile-band { flex: 1 1 0; min-width: 0; border-radius: 1px; box-shadow: inset 0 0 0 1px rgba(255,255,255,.36); }
+    .tile-band.quoted { background: var(--quote-bg); }
+    .tile-band.commentary { background: var(--commentary-bg); }
+    .tile-band.parallel { background: var(--parallel-bg); }
+    .tile-band.tirtha { background: var(--tirtha-bg); }
+    .tile-band.other-text { background: var(--text-bg); }
+    .tile-number { position: absolute; top: 2px; right: 2px; z-index: 2; display: inline-flex; align-items: center; justify-content: center; min-width: 16px; height: 14px; padding: 0 2px; border: 1px solid #17231d; border-radius: 3px; background: #fff; color: #17231d; font-size: 9px; font-weight: 800; line-height: 1; text-shadow: none; box-shadow: 0 1px 2px rgba(0,0,0,.22); }
     .tile.none { background: var(--blank-bg); color: var(--blank-ink); }
     #detail { margin-top: 12px; padding: 14px 16px; border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 5px; background: var(--surface); }
     #detail[hidden] { display: none; }
@@ -148,7 +155,7 @@
           <span class="legend-item"><i class="swatch commentary" aria-hidden="true"></i>Commentary</span>
           <span class="legend-item"><i class="swatch parallel" aria-hidden="true"></i>Parallel</span>
           <span class="legend-item"><i class="swatch tirtha" aria-hidden="true"></i>Tīrtha</span>
-          <span class="legend-item"><i class="swatch other-text" aria-hidden="true"></i>Other texts</span>
+          <span class="legend-item"><i class="swatch other-text" aria-hidden="true"></i>Other texts / Purāṇas</span>
           <span class="legend-item"><i class="swatch none" aria-hidden="true"></i>No indexed entry</span>
         </div>
         <div id="map" aria-live="polite"></div>
@@ -170,14 +177,7 @@
         commentary: "Commentary",
         parallel: "Parallel",
         tirtha: "Tīrtha",
-        "other-text": "Other texts"
-      };
-      const tileColors = {
-        quoted: "var(--quote-bg)",
-        commentary: "var(--commentary-bg)",
-        parallel: "var(--parallel-bg)",
-        tirtha: "var(--tirtha-bg)",
-        "other-text": "var(--text-bg)"
+        "other-text": "Other texts / Purāṇas"
       };
       const contents = document.getElementById("contents");
       const map = document.getElementById("map");
@@ -322,22 +322,11 @@
             button.setAttribute("aria-label", purana.name + " " + ref + " — " + summary);
             button.title = purana.name + " " + ref + " — " + summary;
             if (kinds.length > 1) {
+              const bands = make("span", "tile-bands");
+              bands.setAttribute("aria-hidden", "true");
+              for (const kind of kinds) bands.appendChild(make("span", "tile-band " + kind));
+              button.appendChild(bands);
               button.appendChild(make("span", "tile-number", chapter));
-              const divider = kinds.length === 2 ? 10 : kinds.length === 3 ? 7.5 : kinds.length === 4 ? 6 : 5;
-              const band = (100 - divider * (kinds.length - 1)) / kinds.length;
-              let cursor = 0;
-              const segments = [];
-              kinds.forEach((kind, index) => {
-                const end = cursor + band;
-                segments.push(tileColors[kind] + " " + cursor.toFixed(2) + "% " + end.toFixed(2) + "%");
-                cursor = end;
-                if (index < kinds.length - 1) {
-                  const dividerEnd = cursor + divider;
-                  segments.push("#ffffff " + cursor.toFixed(2) + "% " + dividerEnd.toFixed(2) + "%");
-                  cursor = dividerEnd;
-                }
-              });
-              button.style.backgroundImage = "linear-gradient(90deg, " + segments.join(", ") + ")";
             } else {
               button.textContent = String(chapter);
             }
