@@ -1,5 +1,5 @@
 {
-  "version": "purana-core-index-2026-10-16-v8",
+  "version": "purana-core-index-2026-10-16-v9",
   "patches": [
     {
       "id": "agni-purana",
@@ -2471,6 +2471,23 @@
             "ref": "Mārkaṇḍeya Purāṇa 134.7–13",
             "details": [
               "Lists the eighteen Purāṇas and gives their order."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "markandeya-purana",
+      "section": "main",
+      "chapter": "1",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahābhārata: scope and praise",
+            "ref": "Mārkaṇḍeya Purāṇa 1.2–11",
+            "details": [
+              "Names the Bhārata/Mahābhārata and discusses its scope and standing among śāstras."
             ]
           }
         ]
@@ -8085,188 +8102,6 @@
             "kind": "pilgrimage",
             "label": "Baladeva’s tīrtha-yātrā",
             "ref": "Mārkaṇḍeya Purāṇa 6"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "15",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Narmadā tīrtha",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 15"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "16",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Narmadā-māhātmya: Hradākhyāna",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 16"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "17",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Nāgeśvara-tīrtha",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 17"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "23",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Kubjā-māhātmya",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 23"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "24",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Kubjā-māhātmya",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 24"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "25",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Tīrtha catalogue and Maheśvara-kṣetra",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 25"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "31",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Pañcaliṅga-māhātmya",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 31"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "39",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Vimaleśvara-māhātmya",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 39"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "46",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Bhṛguparvata-māhātmya",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 46"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "73",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Meghanādeśvara-māhātmya",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 73"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "98",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Gopāleśvara-māhātmya",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 98"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "111",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Mārkaṇḍeśvara-māhātmya",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 111"
-          }
-        ]
-      }
-    },
-    {
-      "id": "skanda-purana",
-      "section": "Revā-khaṇḍa",
-      "chapter": "112",
-      "record": {
-        "topics": [
-          {
-            "kind": "pilgrimage",
-            "label": "Manmatheśvara-māhātmya",
-            "ref": "Skanda Purāṇa, Revā-khaṇḍa 112"
           }
         ]
       }
