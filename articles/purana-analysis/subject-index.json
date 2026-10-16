@@ -1,0 +1,5724 @@
+{
+  "version": "purana-core-index-2026-10-16-v6",
+  "patches": [
+    {
+      "id": "markandeya-purana",
+      "section": "main",
+      "chapter": "134",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahāpurāṇa list / classification",
+            "ref": "Mārkaṇḍeya Purāṇa 134.7–13",
+            "details": [
+              "Lists the eighteen Purāṇas and gives their order."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "vayu-purana",
+      "section": "main",
+      "chapter": "104",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahāpurāṇa list and extent",
+            "ref": "Vāyu Purāṇa 104.2–11",
+            "details": [
+              "Names sixteen Purāṇas in this recension while referring to eighteen; the variants Vainateya and Saukara stand where other lists have Garuḍa and Varāha."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "vayu-purana",
+      "section": "main",
+      "chapter": "105",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gayā-māhātmya",
+            "ref": "Vāyu Purāṇa 105–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vayu-purana",
+      "section": "main",
+      "chapter": "106",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gayā-māhātmya",
+            "ref": "Vāyu Purāṇa 105–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vayu-purana",
+      "section": "main",
+      "chapter": "107",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gayā-māhātmya",
+            "ref": "Vāyu Purāṇa 105–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vayu-purana",
+      "section": "main",
+      "chapter": "108",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gayā-māhātmya",
+            "ref": "Vāyu Purāṇa 105–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vayu-purana",
+      "section": "main",
+      "chapter": "109",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gayā-māhātmya",
+            "ref": "Vāyu Purāṇa 105–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vayu-purana",
+      "section": "main",
+      "chapter": "110",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gayā-māhātmya",
+            "ref": "Vāyu Purāṇa 105–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vayu-purana",
+      "section": "main",
+      "chapter": "111",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gayā-māhātmya",
+            "ref": "Vāyu Purāṇa 105–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vayu-purana",
+      "section": "main",
+      "chapter": "112",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gayā-māhātmya",
+            "ref": "Vāyu Purāṇa 105–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "visnu-purana",
+      "section": "III",
+      "chapter": "6",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahāpurāṇa list / classification",
+            "ref": "Viṣṇu Purāṇa III.6.21–24",
+            "details": [
+              "Enumerates the eighteen Mahāpurāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "53",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahāpurāṇa list and classification",
+            "ref": "Matsya Purāṇa 53.12–57, 67–69",
+            "details": [
+              "Lists Purāṇas and their measures, explains Purāṇa characteristics, and discusses guṇa-based classification."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "103",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "104",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "105",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "106",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "107",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "108",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "109",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "110",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "111",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "112",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 103–112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "180",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 180–185"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "181",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 180–185"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "182",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 180–185"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "183",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 180–185"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "184",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 180–185"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "185",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 180–185"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "186",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 186–194"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "187",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 186–194"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "188",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Amarakantaka–Jvāleśvara tīrthas",
+            "ref": "Matsya Purāṇa 188.73–94",
+            "details": [
+              "The closing verses name the Jvāleśvara tīrtha and describe Amarakantaka and the Narmadā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "189",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 186–194"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "190",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 186–194"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "191",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 186–194"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "192",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 186–194"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "193",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 186–194"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matsya-purana",
+      "section": "main",
+      "chapter": "194",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Matsya Purāṇa 186–194"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bhagavata-purana",
+      "section": "XII",
+      "chapter": "7",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Purāṇa characteristics and classification",
+            "ref": "Bhāgavata Purāṇa XII.7.23–24",
+            "details": [
+              "States defining features of Purāṇas and gives the eighteen-Purāṇa list."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "bhagavata-purana",
+      "section": "XII",
+      "chapter": "13",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahāpurāṇa verse counts",
+            "ref": "Bhāgavata Purāṇa XII.13.4–9",
+            "details": [
+              "Gives the verse counts for the Purāṇas and compares the Bhāgavata with the full corpus."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "1",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahā- and Upa-Purāṇa lists",
+            "ref": "Kūrma Purāṇa I.1.13–20",
+            "details": [
+              "Lists the eighteen Mahāpurāṇas and the eighteen Upa-Purāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "30",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa I.30–38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "31",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa I.30–38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "32",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa I.30–38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "33",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa I.30–38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "34",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa I.30–38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "35",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa I.30–38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "36",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa I.30–38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "37",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa I.30–38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "I",
+      "chapter": "38",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa I.30–38"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "II",
+      "chapter": "34",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa II.34–42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "II",
+      "chapter": "35",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa II.34–42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "II",
+      "chapter": "36",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa II.34–42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "II",
+      "chapter": "37",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa II.34–42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "II",
+      "chapter": "38",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa II.34–42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "II",
+      "chapter": "39",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa II.34–42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "II",
+      "chapter": "40",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa II.34–42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "II",
+      "chapter": "41",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa II.34–42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurma-purana",
+      "section": "II",
+      "chapter": "42",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Kūrma Purāṇa II.34–42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "linga-purana",
+      "section": "I",
+      "chapter": "26",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahāpurāṇa, Upa-Purāṇa, and Itihāsa lists",
+            "ref": "Liṅga Purāṇa I.26",
+            "details": [
+              "Names the eighteen Purāṇas, eighteen Upa-Purāṇas, and Itihāsas in the daily propitiation sequence."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "linga-purana",
+      "section": "I",
+      "chapter": "39",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahāpurāṇa list / classification",
+            "ref": "Liṅga Purāṇa I.39.61–63",
+            "details": [
+              "Repeats the list of the Mahāpurāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "112",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "List of the eighteen Mahāpurāṇas",
+            "ref": "Varāha Purāṇa 112.74–77",
+            "details": [
+              "Names the eighteen Mahāpurāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "140",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "141",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "142",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "143",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "144",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "145",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "146",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "147",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "148",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "149",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "150",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "151",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 140–151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "152",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "153",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "154",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "155",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "156",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "157",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "158",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "159",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "160",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "161",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "162",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "163",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "164",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "165",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "166",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "167",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "168",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "169",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "170",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "171",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "172",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "173",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "174",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "175",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "176",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "177",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "178",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "179",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "180",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 152–180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "213",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 213–216"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "214",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 213–216"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "215",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 213–216"
+          }
+        ]
+      }
+    },
+    {
+      "id": "varaha-purana",
+      "section": "main",
+      "chapter": "216",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Varāha Purāṇa 213–216"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "11",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "12",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "13",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "14",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "15",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "16",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "17",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "18",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "19",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "20",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "21",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "22",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "23",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "24",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "25",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "26",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "27",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "28",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "29",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Ādi-khaṇḍa",
+      "chapter": "30",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Ādi-khaṇḍa 11–30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Bhūmi-khaṇḍa",
+      "chapter": "90",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Bhūmi-khaṇḍa 90"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Bhūmi-khaṇḍa",
+      "chapter": "92",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Bhūmi-khaṇḍa 92"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "17",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Pātāla-khaṇḍa 17–22"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "18",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Pātāla-khaṇḍa 17–22"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "19",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Pātāla-khaṇḍa 17–22"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "20",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Pātāla-khaṇḍa 17–22"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "21",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Pātāla-khaṇḍa 17–22"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "22",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Pātāla-khaṇḍa 17–22"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "94",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Upa-Purāṇa list",
+            "ref": "Padma Purāṇa, Pātāla-khaṇḍa 3.94b–98",
+            "details": [
+              "Lists the Upa-Purāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "104",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Purāṇa and Mahābhārata list",
+            "ref": "Padma Purāṇa, Pātāla-khaṇḍa 104",
+            "details": [
+              "Discusses the Purāṇas and Mahābhārata, including an enumeration of Purāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "113",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Requirements for narrating a Purāṇa",
+            "ref": "Padma Purāṇa, Pātāla-khaṇḍa 113",
+            "details": [
+              "Sets out qualifications and rules for narrating a Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Pātāla-khaṇḍa",
+      "chapter": "115",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Recitation and listening to Purāṇas",
+            "ref": "Padma Purāṇa, Pātāla-khaṇḍa 115",
+            "details": [
+              "Explicitly praises teaching, reciting, and listening to Purāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Sṛṣṭi-khaṇḍa",
+      "chapter": "17",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places and Brahmā worship",
+            "ref": "Padma Purāṇa · Sṛṣṭi-khaṇḍa 17.188–259"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Sṛṣṭi-khaṇḍa",
+      "chapter": "31",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Padma Purāṇa · Sṛṣṭi-khaṇḍa 31.76–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Sṛṣṭi-khaṇḍa",
+      "chapter": "36",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places and results of actions",
+            "ref": "Padma Purāṇa · Sṛṣṭi-khaṇḍa 36.28–51"
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "175",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "176",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "177",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "178",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "179",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "180",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "181",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "182",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "183",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "184",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "185",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "186",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "187",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "188",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "189",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "190",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "191",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "192",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhagavadgītā-māhātmya",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 175–192",
+            "details": [
+              "Eighteen chapters praise the Bhagavadgītā."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "193",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhāgavata-māhātmya",
+            "ref": "Padma Purāṇa · Uttara-khaṇḍa 193",
+            "details": [
+              "Six chapters praise the Bhāgavata Purāṇa and its recitation."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "194",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhāgavata-māhātmya",
+            "ref": "Padma Purāṇa · Uttara-khaṇḍa 194",
+            "details": [
+              "Six chapters praise the Bhāgavata Purāṇa and its recitation."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "195",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhāgavata-māhātmya",
+            "ref": "Padma Purāṇa · Uttara-khaṇḍa 195",
+            "details": [
+              "Six chapters praise the Bhāgavata Purāṇa and its recitation."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "196",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhāgavata-māhātmya",
+            "ref": "Padma Purāṇa · Uttara-khaṇḍa 196",
+            "details": [
+              "Six chapters praise the Bhāgavata Purāṇa and its recitation."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "197",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhāgavata-māhātmya",
+            "ref": "Padma Purāṇa · Uttara-khaṇḍa 197",
+            "details": [
+              "Six chapters praise the Bhāgavata Purāṇa and its recitation."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "198",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Bhāgavata-māhātmya",
+            "ref": "Padma Purāṇa · Uttara-khaṇḍa 198",
+            "details": [
+              "Six chapters praise the Bhāgavata Purāṇa and its recitation."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "235",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Classification of the Purāṇas",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 235.24–30, 53–55",
+            "details": [
+              "Discusses the tāmasic Purāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "236",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Purāṇa, Smṛti, and doctrine classification",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 236",
+            "details": [
+              "Classifies named texts and doctrines; the editor notes that the following list is the general list of eighteen Purāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "padma-purana",
+      "section": "Uttara-khaṇḍa",
+      "chapter": "263",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahāpurāṇa classification",
+            "ref": "Padma Purāṇa, Uttara-khaṇḍa 263.81–84",
+            "details": [
+              "Classifies the Mahāpurāṇas into Sāttvika, Rājasa, and Tāmasa groups."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "6",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya",
+            "ref": "Nāradīya Purāṇa I.6",
+            "details": [
+              "The Sanskrit chapter colophon names this chapter Gaṅgā-māhātmya."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "16",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya",
+            "ref": "Nāradīya Purāṇa I.16",
+            "details": [
+              "The Sanskrit chapter colophon names the Bhāgīratha Gaṅgā episode."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "19",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "List of the eighteen Mahāpurāṇas",
+            "ref": "Nāradīya Purāṇa I.19.21–28",
+            "details": [
+              "Enumerates the eighteen Mahāpurāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "92",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Brahma Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Brahma Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "93",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Padma Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Padma Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "94",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Viṣṇu Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Viṣṇu Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "95",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Vāyu Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Vāyu Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "96",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Bhāgavata Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Bhāgavata Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "97",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Nāradiya Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Nāradiya Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "98",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Mārkaṇḍeya Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Mārkaṇḍeya Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "99",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Agni Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Agni Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "100",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Bhaviṣya Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Bhaviṣya Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "101",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Brahmavaivarta Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Brahmavaivarta Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "102",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Liṅga Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Liṅga Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "103",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Varāha Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Varāha Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "104",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Skanda Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Skanda Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "105",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Vāmana Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Vāmana Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "106",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Kūrma Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Kūrma Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "107",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Matsya Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Matsya Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "108",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Garuḍa Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Garuḍa Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "109",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Index: Brahmāṇḍa Purāṇa",
+            "ref": "Nāradīya Purāṇa, Pūrvārdha 92–109",
+            "details": [
+              "Part of an eighteen-chapter sequence summarizing each Mahāpurāṇa; this chapter covers the Brahmāṇḍa Purāṇa."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "I",
+      "chapter": "125",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Comparison among the Purāṇas",
+            "ref": "Nāradīya Purāṇa I.125",
+            "details": [
+              "Calls the Nārada Purāṇa foremost among the Purāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "39",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "40",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "41",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "42",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "43",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "44",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "45",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "46",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "47",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "48",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "49",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "50",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "51",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "52",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "53",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "54",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "55",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "56",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "57",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "58",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "59",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "60",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "61",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "62",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "63",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "64",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "65",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "66",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "67",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "68",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "69",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "70",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "71",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "72",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "73",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "74",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "75",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "76",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "77",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "78",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "79",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "80",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "81",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "naradiya-purana",
+      "section": "II",
+      "chapter": "82",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Gaṅgā-māhātmya and later additions",
+            "ref": "Nāradiya Purāṇa II.39–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "agni-purana",
+      "section": "main",
+      "chapter": "8",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Texts and branches of knowledge",
+            "ref": "Agni Purāṇa 8",
+            "details": [
+              "Places the eighteen Purāṇas among the wider list of Vedas, Vedāṅgas, Dharmaśāstras, and other disciplines."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "agni-purana",
+      "section": "main",
+      "chapter": "211",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Purāṇas, Bhārata, and Rāmāyaṇa as textual gifts",
+            "ref": "Agni Purāṇa 211.53–62",
+            "details": [
+              "Explicitly names copying and gifting the Purāṇa, Bhārata, Rāmāyaṇa, and other sacred books."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "agni-purana",
+      "section": "main",
+      "chapter": "272",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahāpurāṇa descriptions and counts",
+            "ref": "Agni Purāṇa 272.1–23",
+            "details": [
+              "Describes the Purāṇas, gives verse counts, and explains the merit of donating them."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "garuda-purana",
+      "section": "Pūrvakhaṇḍa",
+      "chapter": "223",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahā- and Upa-Purāṇa lists",
+            "ref": "Garuḍa Purāṇa I.223.17–20",
+            "details": [
+              "Lists the eighteen Mahāpurāṇas and eighteen Upa-Purāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "25",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 25"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "28",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 28.1–8"
+          },
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 28.9–end"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "29",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "30",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "31",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "32",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "33",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "34",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "35",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "36",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "37",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "38",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "39",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "40",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "41",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 29–41"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "42",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 42.35–end"
+          },
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 42.1–34"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "43",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "44",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "45",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "46",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "47",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "48",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "49",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "50",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "51",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "52",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "53",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "54",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "55",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "56",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "57",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "58",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "59",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "60",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "61",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "62",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "63",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "64",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "65",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "66",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "67",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "68",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "69",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 43–69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "70",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 70.1–11"
+          },
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "71",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "72",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "73",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "74",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "75",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "76",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "77",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "78",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "79",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "80",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "81",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "82",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "83",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "84",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "85",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "86",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "87",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "88",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "89",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "90",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "91",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "92",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "93",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "94",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "95",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "96",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "97",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "98",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "99",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "100",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "101",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "102",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "103",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "104",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "105",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "106",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "107",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "108",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "109",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "110",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "111",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "112",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "113",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "114",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "115",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "116",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "117",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "118",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "119",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "120",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "121",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "122",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "123",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "124",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "125",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "126",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "127",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "128",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "129",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "130",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "131",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "132",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "133",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "134",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "135",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "136",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "137",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "138",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "139",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "140",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "141",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "142",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "143",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "144",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "145",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "146",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "147",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "148",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "149",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "150",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "151",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "152",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "153",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "154",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "155",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "156",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "157",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "158",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "159",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "160",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "161",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "162",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "163",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "164",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "165",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "166",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "167",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "168",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "169",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "170",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "171",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "172",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "173",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "174",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "175",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Holy places",
+            "ref": "Brahma Purāṇa 70–175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahma-purana",
+      "section": "main",
+      "chapter": "177",
+      "record": {
+        "topics": [
+          {
+            "kind": "pilgrimage",
+            "label": "Bathing and holy places",
+            "ref": "Brahma Purāṇa 176–177"
+          }
+        ]
+      }
+    },
+    {
+      "id": "skanda-purana",
+      "section": "Prabhāsa-khaṇḍa I",
+      "chapter": "2",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Mahā- and Upa-Purāṇa lists",
+            "ref": "Skanda Purāṇa, Prabhāsa-khaṇḍa I.2.11–15, 2.28–77",
+            "details": [
+              "Lists Upa-Purāṇas and gives a catalogue of Mahāpurāṇas with verse counts."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "skanda-purana",
+      "section": "Revā-khaṇḍa",
+      "chapter": "46",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Upa-Purāṇa list",
+            "ref": "Skanda Purāṇa, Revā-khaṇḍa 1.46–52",
+            "details": [
+              "Lists the Upa-Purāṇas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "brahmavaivarta-purana",
+      "section": "IV",
+      "chapter": "133",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "Purāṇa characteristics and text lists",
+            "ref": "Brahmavaivarta Purāṇa IV.133.11–21",
+            "details": [
+              "Explains Purāṇa characteristics and lists Mahāpurāṇas, Upa-Purāṇas, Itihāsas, Pañcarātras, and Saṃhitās."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "bhavisya-purana",
+      "section": "I",
+      "chapter": "61",
+      "record": {
+        "topics": [
+          {
+            "kind": "other-text",
+            "label": "The eighteen Purāṇas",
+            "ref": "Bhaviṣya Purāṇa, Brahma-parvan I.61–64",
+            "details": [
+              "Refers to Vyāsa compiling the eighteen Purāṇas alongside the Mahābhārata and grammatical texts."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
